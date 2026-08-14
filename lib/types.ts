@@ -12,7 +12,7 @@ export type Lang = (typeof LANGS)[number];
 /** v1 で実際にフレーズバンクを持つ言語。 */
 export const ACTIVE_LANGS: Lang[] = ["es", "fr"];
 
-export type Level = "A1" | "A2" | "B1" | "B2";
+export type Level = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 
 /** ブラウザの音声合成に渡す BCP-47 タグ。 */
 export const SPEECH_LANG: Record<Lang, string> = {
@@ -36,10 +36,11 @@ export const LANG_LABEL: Record<Lang, string> = {
 export type Irregularity = {
   /** S=語幹 / E=語尾 / B=両方 / I=規則形が存在しない不規則動詞 */
   code: "S" | "E" | "B" | "I";
-  /** 「語幹の o が ue に変わる（pod- → pued-）」のような説明。 */
+  /**
+   * 「語幹の o が ue に変わる（pod- → pued-）」のような説明。
+   * 規則形を取らない語では、代わりにその時制の全人称を並べて示す。
+   */
   text: string;
-  /** 規則どおりならこうなったはずの形。 */
-  regular?: string;
 };
 
 export type Inflection = {

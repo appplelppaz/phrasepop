@@ -289,17 +289,17 @@
           "ai eu",
           "as eu",
           "a eu",
-          "avons eus",
-          "avez eus",
-          "ont eus"
+          "avons eu",
+          "avez eu",
+          "ont eu"
         ],
         "PQP": [
           "avais eu",
           "avais eu",
           "avait eu",
-          "avions eus",
-          "aviez eus",
-          "avaient eus"
+          "avions eu",
+          "aviez eu",
+          "avaient eu"
         ],
         "PS": [
           "eus",
@@ -531,17 +531,17 @@
           "ai fait",
           "as fait",
           "a fait",
-          "avons faits",
-          "avez faits",
-          "ont faits"
+          "avons fait",
+          "avez fait",
+          "ont fait"
         ],
         "PQP": [
           "avais fait",
           "avais fait",
           "avait fait",
-          "avions faits",
-          "aviez faits",
-          "avaient faits"
+          "avions fait",
+          "aviez fait",
+          "avaient fait"
         ],
         "PS": [
           "fis",
@@ -773,17 +773,17 @@
           "ai dit",
           "as dit",
           "a dit",
-          "avons dits",
-          "avez dits",
-          "ont dits"
+          "avons dit",
+          "avez dit",
+          "ont dit"
         ],
         "PQP": [
           "avais dit",
           "avais dit",
           "avait dit",
-          "avions dits",
-          "aviez dits",
-          "avaient dits"
+          "avions dit",
+          "aviez dit",
+          "avaient dit"
         ],
         "PS": [
           "dis",
@@ -1257,17 +1257,17 @@
           "ai vu",
           "as vu",
           "a vu",
-          "avons vus",
-          "avez vus",
-          "ont vus"
+          "avons vu",
+          "avez vu",
+          "ont vu"
         ],
         "PQP": [
           "avais vu",
           "avais vu",
           "avait vu",
-          "avions vus",
-          "aviez vus",
-          "avaient vus"
+          "avions vu",
+          "aviez vu",
+          "avaient vu"
         ],
         "PS": [
           "vis",
@@ -1499,17 +1499,17 @@
           "ai su",
           "as su",
           "a su",
-          "avons sus",
-          "avez sus",
-          "ont sus"
+          "avons su",
+          "avez su",
+          "ont su"
         ],
         "PQP": [
           "avais su",
           "avais su",
           "avait su",
-          "avions sus",
-          "aviez sus",
-          "avaient sus"
+          "avions su",
+          "aviez su",
+          "avaient su"
         ],
         "PS": [
           "sus",
@@ -1963,17 +1963,17 @@
           "ai voulu",
           "as voulu",
           "a voulu",
-          "avons voulus",
-          "avez voulus",
-          "ont voulus"
+          "avons voulu",
+          "avez voulu",
+          "ont voulu"
         ],
         "PQP": [
           "avais voulu",
           "avais voulu",
           "avait voulu",
-          "avions voulus",
-          "aviez voulus",
-          "avaient voulus"
+          "avions voulu",
+          "aviez voulu",
+          "avaient voulu"
         ],
         "PS": [
           "voulus",
@@ -2447,17 +2447,17 @@
           "ai dû",
           "as dû",
           "a dû",
-          "avons dûs",
-          "avez dûs",
-          "ont dûs"
+          "avons dû",
+          "avez dû",
+          "ont dû"
         ],
         "PQP": [
           "avais dû",
           "avais dû",
           "avait dû",
-          "avions dûs",
-          "aviez dûs",
-          "avaient dûs"
+          "avions dû",
+          "aviez dû",
+          "avaient dû"
         ],
         "PS": [
           "dus",
@@ -2931,17 +2931,17 @@
           "ai cru",
           "as cru",
           "a cru",
-          "avons crus",
-          "avez crus",
-          "ont crus"
+          "avons cru",
+          "avez cru",
+          "ont cru"
         ],
         "PQP": [
           "avais cru",
           "avais cru",
           "avait cru",
-          "avions crus",
-          "aviez crus",
-          "avaient crus"
+          "avions cru",
+          "aviez cru",
+          "avaient cru"
         ],
         "PS": [
           "crus",
@@ -3173,17 +3173,17 @@
           "ai aimé",
           "as aimé",
           "a aimé",
-          "avons aimés",
-          "avez aimés",
-          "ont aimés"
+          "avons aimé",
+          "avez aimé",
+          "ont aimé"
         ],
         "PQP": [
           "avais aimé",
           "avais aimé",
           "avait aimé",
-          "avions aimés",
-          "aviez aimés",
-          "avaient aimés"
+          "avions aimé",
+          "aviez aimé",
+          "avaient aimé"
         ],
         "PS": [
           "aimai",
@@ -3258,17 +3258,17 @@
           "ai trouvé",
           "as trouvé",
           "a trouvé",
-          "avons trouvés",
-          "avez trouvés",
-          "ont trouvés"
+          "avons trouvé",
+          "avez trouvé",
+          "ont trouvé"
         ],
         "PQP": [
           "avais trouvé",
           "avais trouvé",
           "avait trouvé",
-          "avions trouvés",
-          "aviez trouvés",
-          "avaient trouvés"
+          "avions trouvé",
+          "aviez trouvé",
+          "avaient trouvé"
         ],
         "PS": [
           "trouvai",
@@ -3343,17 +3343,17 @@
           "ai donné",
           "as donné",
           "a donné",
-          "avons donnés",
-          "avez donnés",
-          "ont donnés"
+          "avons donné",
+          "avez donné",
+          "ont donné"
         ],
         "PQP": [
           "avais donné",
           "avais donné",
           "avait donné",
-          "avions donnés",
-          "aviez donnés",
-          "avaient donnés"
+          "avions donné",
+          "aviez donné",
+          "avaient donné"
         ],
         "PS": [
           "donnai",
@@ -3428,17 +3428,17 @@
           "ai parlé",
           "as parlé",
           "a parlé",
-          "avons parlés",
-          "avez parlés",
-          "ont parlés"
+          "avons parlé",
+          "avez parlé",
+          "ont parlé"
         ],
         "PQP": [
           "avais parlé",
           "avais parlé",
           "avait parlé",
-          "avions parlés",
-          "aviez parlés",
-          "avaient parlés"
+          "avions parlé",
+          "aviez parlé",
+          "avaient parlé"
         ],
         "PS": [
           "parlai",
@@ -3997,17 +3997,17 @@
           "ai demandé",
           "as demandé",
           "a demandé",
-          "avons demandés",
-          "avez demandés",
-          "ont demandés"
+          "avons demandé",
+          "avez demandé",
+          "ont demandé"
         ],
         "PQP": [
           "avais demandé",
           "avais demandé",
           "avait demandé",
-          "avions demandés",
-          "aviez demandés",
-          "avaient demandés"
+          "avions demandé",
+          "aviez demandé",
+          "avaient demandé"
         ],
         "PS": [
           "demandai",
@@ -4082,17 +4082,17 @@
           "ai tenu",
           "as tenu",
           "a tenu",
-          "avons tenus",
-          "avez tenus",
-          "ont tenus"
+          "avons tenu",
+          "avez tenu",
+          "ont tenu"
         ],
         "PQP": [
           "avais tenu",
           "avais tenu",
           "avait tenu",
-          "avions tenus",
-          "aviez tenus",
-          "avaient tenus"
+          "avions tenu",
+          "aviez tenu",
+          "avaient tenu"
         ],
         "PS": [
           "tins",
@@ -4324,17 +4324,17 @@
           "ai passé",
           "as passé",
           "a passé",
-          "avons passés",
-          "avez passés",
-          "ont passés"
+          "avons passé",
+          "avez passé",
+          "ont passé"
         ],
         "PQP": [
           "avais passé",
           "avais passé",
           "avait passé",
-          "avions passés",
-          "aviez passés",
-          "avaient passés"
+          "avions passé",
+          "aviez passé",
+          "avaient passé"
         ],
         "PS": [
           "passai",
@@ -4409,17 +4409,17 @@
           "ai semblé",
           "as semblé",
           "a semblé",
-          "avons semblés",
-          "avez semblés",
-          "ont semblés"
+          "avons semblé",
+          "avez semblé",
+          "ont semblé"
         ],
         "PQP": [
           "avais semblé",
           "avais semblé",
           "avait semblé",
-          "avions semblés",
-          "aviez semblés",
-          "avaient semblés"
+          "avions semblé",
+          "aviez semblé",
+          "avaient semblé"
         ],
         "PS": [
           "semblai",
@@ -4494,17 +4494,17 @@
           "ai laissé",
           "as laissé",
           "a laissé",
-          "avons laissés",
-          "avez laissés",
-          "ont laissés"
+          "avons laissé",
+          "avez laissé",
+          "ont laissé"
         ],
         "PQP": [
           "avais laissé",
           "avais laissé",
           "avait laissé",
-          "avions laissés",
-          "aviez laissés",
-          "avaient laissés"
+          "avions laissé",
+          "aviez laissé",
+          "avaient laissé"
         ],
         "PS": [
           "laissai",
@@ -4664,17 +4664,17 @@
           "ai pensé",
           "as pensé",
           "a pensé",
-          "avons pensés",
-          "avez pensés",
-          "ont pensés"
+          "avons pensé",
+          "avez pensé",
+          "ont pensé"
         ],
         "PQP": [
           "avais pensé",
           "avais pensé",
           "avait pensé",
-          "avions pensés",
-          "aviez pensés",
-          "avaient pensés"
+          "avions pensé",
+          "aviez pensé",
+          "avaient pensé"
         ],
         "PS": [
           "pensai",
@@ -4749,17 +4749,17 @@
           "ai entendu",
           "as entendu",
           "a entendu",
-          "avons entendus",
-          "avez entendus",
-          "ont entendus"
+          "avons entendu",
+          "avez entendu",
+          "ont entendu"
         ],
         "PQP": [
           "avais entendu",
           "avais entendu",
           "avait entendu",
-          "avions entendus",
-          "aviez entendus",
-          "avaient entendus"
+          "avions entendu",
+          "aviez entendu",
+          "avaient entendu"
         ],
         "PS": [
           "entendis",
@@ -4991,17 +4991,17 @@
           "ai regardé",
           "as regardé",
           "a regardé",
-          "avons regardés",
-          "avez regardés",
-          "ont regardés"
+          "avons regardé",
+          "avez regardé",
+          "ont regardé"
         ],
         "PQP": [
           "avais regardé",
           "avais regardé",
           "avait regardé",
-          "avions regardés",
-          "aviez regardés",
-          "avaient regardés"
+          "avions regardé",
+          "aviez regardé",
+          "avaient regardé"
         ],
         "PS": [
           "regardai",
@@ -5076,17 +5076,17 @@
           "ai répondu",
           "as répondu",
           "a répondu",
-          "avons répondus",
-          "avez répondus",
-          "ont répondus"
+          "avons répondu",
+          "avez répondu",
+          "ont répondu"
         ],
         "PQP": [
           "avais répondu",
           "avais répondu",
           "avait répondu",
-          "avions répondus",
-          "aviez répondus",
-          "avaient répondus"
+          "avions répondu",
+          "aviez répondu",
+          "avaient répondu"
         ],
         "PS": [
           "répondis",
@@ -5318,17 +5318,17 @@
           "ai rendu",
           "as rendu",
           "a rendu",
-          "avons rendus",
-          "avez rendus",
-          "ont rendus"
+          "avons rendu",
+          "avez rendu",
+          "ont rendu"
         ],
         "PQP": [
           "avais rendu",
           "avais rendu",
           "avait rendu",
-          "avions rendus",
-          "aviez rendus",
-          "avaient rendus"
+          "avions rendu",
+          "aviez rendu",
+          "avaient rendu"
         ],
         "PS": [
           "rendis",
@@ -5560,17 +5560,17 @@
           "ai connu",
           "as connu",
           "a connu",
-          "avons connus",
-          "avez connus",
-          "ont connus"
+          "avons connu",
+          "avez connu",
+          "ont connu"
         ],
         "PQP": [
           "avais connu",
           "avais connu",
           "avait connu",
-          "avions connus",
-          "aviez connus",
-          "avaient connus"
+          "avions connu",
+          "aviez connu",
+          "avaient connu"
         ],
         "PS": [
           "connus",
@@ -5802,17 +5802,17 @@
           "ai paru",
           "as paru",
           "a paru",
-          "avons parus",
-          "avez parus",
-          "ont parus"
+          "avons paru",
+          "avez paru",
+          "ont paru"
         ],
         "PQP": [
           "avais paru",
           "avais paru",
           "avait paru",
-          "avions parus",
-          "aviez parus",
-          "avaient parus"
+          "avions paru",
+          "aviez paru",
+          "avaient paru"
         ],
         "PS": [
           "parus",
@@ -6129,17 +6129,17 @@
           "ai senti",
           "as senti",
           "a senti",
-          "avons sentis",
-          "avez sentis",
-          "ont sentis"
+          "avons senti",
+          "avez senti",
+          "ont senti"
         ],
         "PQP": [
           "avais senti",
           "avais senti",
           "avait senti",
-          "avions sentis",
-          "aviez sentis",
-          "avaient sentis"
+          "avions senti",
+          "aviez senti",
+          "avaient senti"
         ],
         "PS": [
           "sentis",
@@ -6371,17 +6371,17 @@
           "ai attendu",
           "as attendu",
           "a attendu",
-          "avons attendus",
-          "avez attendus",
-          "ont attendus"
+          "avons attendu",
+          "avez attendu",
+          "ont attendu"
         ],
         "PQP": [
           "avais attendu",
           "avais attendu",
           "avait attendu",
-          "avions attendus",
-          "aviez attendus",
-          "avaient attendus"
+          "avions attendu",
+          "aviez attendu",
+          "avaient attendu"
         ],
         "PS": [
           "attendis",
@@ -6613,17 +6613,17 @@
           "ai vécu",
           "as vécu",
           "a vécu",
-          "avons vécus",
-          "avez vécus",
-          "ont vécus"
+          "avons vécu",
+          "avez vécu",
+          "ont vécu"
         ],
         "PQP": [
           "avais vécu",
           "avais vécu",
           "avait vécu",
-          "avions vécus",
-          "aviez vécus",
-          "avaient vécus"
+          "avions vécu",
+          "aviez vécu",
+          "avaient vécu"
         ],
         "PS": [
           "vécus",
@@ -6855,17 +6855,17 @@
           "ai cherché",
           "as cherché",
           "a cherché",
-          "avons cherchés",
-          "avez cherchés",
-          "ont cherchés"
+          "avons cherché",
+          "avez cherché",
+          "ont cherché"
         ],
         "PQP": [
           "avais cherché",
           "avais cherché",
           "avait cherché",
-          "avions cherchés",
-          "aviez cherchés",
-          "avaient cherchés"
+          "avions cherché",
+          "aviez cherché",
+          "avaient cherché"
         ],
         "PS": [
           "cherchai",
@@ -7424,17 +7424,17 @@
           "ai porté",
           "as porté",
           "a porté",
-          "avons portés",
-          "avez portés",
-          "ont portés"
+          "avons porté",
+          "avez porté",
+          "ont porté"
         ],
         "PQP": [
           "avais porté",
           "avais porté",
           "avait porté",
-          "avions portés",
-          "aviez portés",
-          "avaient portés"
+          "avions porté",
+          "aviez porté",
+          "avaient porté"
         ],
         "PS": [
           "portai",
@@ -7509,17 +7509,17 @@
           "ai montré",
           "as montré",
           "a montré",
-          "avons montrés",
-          "avez montrés",
-          "ont montrés"
+          "avons montré",
+          "avez montré",
+          "ont montré"
         ],
         "PQP": [
           "avais montré",
           "avais montré",
           "avait montré",
-          "avions montrés",
-          "aviez montrés",
-          "avaient montrés"
+          "avions montré",
+          "aviez montré",
+          "avaient montré"
         ],
         "PS": [
           "montrai",
@@ -7594,17 +7594,17 @@
           "ai continué",
           "as continué",
           "a continué",
-          "avons continués",
-          "avez continués",
-          "ont continués"
+          "avons continué",
+          "avez continué",
+          "ont continué"
         ],
         "PQP": [
           "avais continué",
           "avais continué",
           "avait continué",
-          "avions continués",
-          "aviez continués",
-          "avaient continués"
+          "avions continué",
+          "aviez continué",
+          "avaient continué"
         ],
         "PS": [
           "continuai",
@@ -7679,17 +7679,17 @@
           "ai écrit",
           "as écrit",
           "a écrit",
-          "avons écrits",
-          "avez écrits",
-          "ont écrits"
+          "avons écrit",
+          "avez écrit",
+          "ont écrit"
         ],
         "PQP": [
           "avais écrit",
           "avais écrit",
           "avait écrit",
-          "avions écrits",
-          "aviez écrits",
-          "avaient écrits"
+          "avions écrit",
+          "aviez écrit",
+          "avaient écrit"
         ],
         "PS": [
           "écrivis",
@@ -7921,17 +7921,17 @@
           "ai appelé",
           "as appelé",
           "a appelé",
-          "avons appelés",
-          "avez appelés",
-          "ont appelés"
+          "avons appelé",
+          "avez appelé",
+          "ont appelé"
         ],
         "PQP": [
           "avais appelé",
           "avais appelé",
           "avait appelé",
-          "avions appelés",
-          "aviez appelés",
-          "avaient appelés"
+          "avions appelé",
+          "aviez appelé",
+          "avaient appelé"
         ],
         "PS": [
           "appelai",
@@ -8325,17 +8325,17 @@
           "ai reçu",
           "as reçu",
           "a reçu",
-          "avons reçus",
-          "avez reçus",
-          "ont reçus"
+          "avons reçu",
+          "avez reçu",
+          "ont reçu"
         ],
         "PQP": [
           "avais reçu",
           "avais reçu",
           "avait reçu",
-          "avions reçus",
-          "aviez reçus",
-          "avaient reçus"
+          "avions reçu",
+          "aviez reçu",
+          "avaient reçu"
         ],
         "PS": [
           "reçus",
@@ -8567,17 +8567,17 @@
           "ai joué",
           "as joué",
           "a joué",
-          "avons joués",
-          "avez joués",
-          "ont joués"
+          "avons joué",
+          "avez joué",
+          "ont joué"
         ],
         "PQP": [
           "avais joué",
           "avais joué",
           "avait joué",
-          "avions joués",
-          "aviez joués",
-          "avaient joués"
+          "avions joué",
+          "aviez joué",
+          "avaient joué"
         ],
         "PS": [
           "jouai",
@@ -8652,17 +8652,17 @@
           "ai gardé",
           "as gardé",
           "a gardé",
-          "avons gardés",
-          "avez gardés",
-          "ont gardés"
+          "avons gardé",
+          "avez gardé",
+          "ont gardé"
         ],
         "PQP": [
           "avais gardé",
           "avais gardé",
           "avait gardé",
-          "avions gardés",
-          "aviez gardés",
-          "avaient gardés"
+          "avions gardé",
+          "aviez gardé",
+          "avaient gardé"
         ],
         "PS": [
           "gardai",
@@ -8822,17 +8822,17 @@
           "ai apporté",
           "as apporté",
           "a apporté",
-          "avons apportés",
-          "avez apportés",
-          "ont apportés"
+          "avons apporté",
+          "avez apporté",
+          "ont apporté"
         ],
         "PQP": [
           "avais apporté",
           "avais apporté",
           "avait apporté",
-          "avions apportés",
-          "aviez apportés",
-          "avaient apportés"
+          "avions apporté",
+          "aviez apporté",
+          "avaient apporté"
         ],
         "PS": [
           "apportai",
@@ -9234,17 +9234,17 @@
           "ai lu",
           "as lu",
           "a lu",
-          "avons lus",
-          "avez lus",
-          "ont lus"
+          "avons lu",
+          "avez lu",
+          "ont lu"
         ],
         "PQP": [
           "avais lu",
           "avais lu",
           "avait lu",
-          "avions lus",
-          "aviez lus",
-          "avaient lus"
+          "avions lu",
+          "aviez lu",
+          "avaient lu"
         ],
         "PS": [
           "lus",
@@ -9476,17 +9476,17 @@
           "ai mangé",
           "as mangé",
           "a mangé",
-          "avons mangés",
-          "avez mangés",
-          "ont mangés"
+          "avons mangé",
+          "avez mangé",
+          "ont mangé"
         ],
         "PQP": [
           "avais mangé",
           "avais mangé",
           "avait mangé",
-          "avions mangés",
-          "aviez mangés",
-          "avaient mangés"
+          "avions mangé",
+          "aviez mangé",
+          "avaient mangé"
         ],
         "PS": [
           "mangeai",
@@ -9618,17 +9618,17 @@
           "ai bu",
           "as bu",
           "a bu",
-          "avons bus",
-          "avez bus",
-          "ont bus"
+          "avons bu",
+          "avez bu",
+          "ont bu"
         ],
         "PQP": [
           "avais bu",
           "avais bu",
           "avait bu",
-          "avions bus",
-          "aviez bus",
-          "avaient bus"
+          "avions bu",
+          "aviez bu",
+          "avaient bu"
         ],
         "PS": [
           "bus",
@@ -9860,17 +9860,17 @@
           "ai dormi",
           "as dormi",
           "a dormi",
-          "avons dormis",
-          "avez dormis",
-          "ont dormis"
+          "avons dormi",
+          "avez dormi",
+          "ont dormi"
         ],
         "PQP": [
           "avais dormi",
           "avais dormi",
           "avait dormi",
-          "avions dormis",
-          "aviez dormis",
-          "avaient dormis"
+          "avions dormi",
+          "aviez dormi",
+          "avaient dormi"
         ],
         "PS": [
           "dormis",
@@ -10102,17 +10102,17 @@
           "ai couru",
           "as couru",
           "a couru",
-          "avons courus",
-          "avez courus",
-          "ont courus"
+          "avons couru",
+          "avez couru",
+          "ont couru"
         ],
         "PQP": [
           "avais couru",
           "avais couru",
           "avait couru",
-          "avions courus",
-          "aviez courus",
-          "avaient courus"
+          "avions couru",
+          "aviez couru",
+          "avaient couru"
         ],
         "PS": [
           "courus",
@@ -10344,17 +10344,17 @@
           "ai ouvert",
           "as ouvert",
           "a ouvert",
-          "avons ouverts",
-          "avez ouverts",
-          "ont ouverts"
+          "avons ouvert",
+          "avez ouvert",
+          "ont ouvert"
         ],
         "PQP": [
           "avais ouvert",
           "avais ouvert",
           "avait ouvert",
-          "avions ouverts",
-          "aviez ouverts",
-          "avaient ouverts"
+          "avions ouvert",
+          "aviez ouvert",
+          "avaient ouvert"
         ],
         "PS": [
           "ouvris",
@@ -10586,17 +10586,17 @@
           "ai offert",
           "as offert",
           "a offert",
-          "avons offerts",
-          "avez offerts",
-          "ont offerts"
+          "avons offert",
+          "avez offert",
+          "ont offert"
         ],
         "PQP": [
           "avais offert",
           "avais offert",
           "avait offert",
-          "avions offerts",
-          "aviez offerts",
-          "avaient offerts"
+          "avions offert",
+          "aviez offert",
+          "avaient offert"
         ],
         "PS": [
           "offris",
@@ -10828,17 +10828,17 @@
           "ai souffert",
           "as souffert",
           "a souffert",
-          "avons soufferts",
-          "avez soufferts",
-          "ont soufferts"
+          "avons souffert",
+          "avez souffert",
+          "ont souffert"
         ],
         "PQP": [
           "avais souffert",
           "avais souffert",
           "avait souffert",
-          "avions soufferts",
-          "aviez soufferts",
-          "avaient soufferts"
+          "avions souffert",
+          "aviez souffert",
+          "avaient souffert"
         ],
         "PS": [
           "souffris",
@@ -12038,17 +12038,17 @@
           "ai obtenu",
           "as obtenu",
           "a obtenu",
-          "avons obtenus",
-          "avez obtenus",
-          "ont obtenus"
+          "avons obtenu",
+          "avez obtenu",
+          "ont obtenu"
         ],
         "PQP": [
           "avais obtenu",
           "avais obtenu",
           "avait obtenu",
-          "avions obtenus",
-          "aviez obtenus",
-          "avaient obtenus"
+          "avions obtenu",
+          "aviez obtenu",
+          "avaient obtenu"
         ],
         "PS": [
           "obtins",
@@ -12280,17 +12280,17 @@
           "ai servi",
           "as servi",
           "a servi",
-          "avons servis",
-          "avez servis",
-          "ont servis"
+          "avons servi",
+          "avez servi",
+          "ont servi"
         ],
         "PQP": [
           "avais servi",
           "avais servi",
           "avait servi",
-          "avions servis",
-          "aviez servis",
-          "avaient servis"
+          "avions servi",
+          "aviez servi",
+          "avaient servi"
         ],
         "PS": [
           "servis",
@@ -13006,17 +13006,17 @@
           "ai conduit",
           "as conduit",
           "a conduit",
-          "avons conduits",
-          "avez conduits",
-          "ont conduits"
+          "avons conduit",
+          "avez conduit",
+          "ont conduit"
         ],
         "PQP": [
           "avais conduit",
           "avais conduit",
           "avait conduit",
-          "avions conduits",
-          "aviez conduits",
-          "avaient conduits"
+          "avions conduit",
+          "aviez conduit",
+          "avaient conduit"
         ],
         "PS": [
           "conduisis",
@@ -13248,17 +13248,17 @@
           "ai produit",
           "as produit",
           "a produit",
-          "avons produits",
-          "avez produits",
-          "ont produits"
+          "avons produit",
+          "avez produit",
+          "ont produit"
         ],
         "PQP": [
           "avais produit",
           "avais produit",
           "avait produit",
-          "avions produits",
-          "aviez produits",
-          "avaient produits"
+          "avions produit",
+          "aviez produit",
+          "avaient produit"
         ],
         "PS": [
           "produisis",
@@ -13490,17 +13490,17 @@
           "ai construit",
           "as construit",
           "a construit",
-          "avons construits",
-          "avez construits",
-          "ont construits"
+          "avons construit",
+          "avez construit",
+          "ont construit"
         ],
         "PQP": [
           "avais construit",
           "avais construit",
           "avait construit",
-          "avions construits",
-          "aviez construits",
-          "avaient construits"
+          "avions construit",
+          "aviez construit",
+          "avaient construit"
         ],
         "PS": [
           "construisis",
@@ -13732,17 +13732,17 @@
           "ai détruit",
           "as détruit",
           "a détruit",
-          "avons détruits",
-          "avez détruits",
-          "ont détruits"
+          "avons détruit",
+          "avez détruit",
+          "ont détruit"
         ],
         "PQP": [
           "avais détruit",
           "avais détruit",
           "avait détruit",
-          "avions détruits",
-          "aviez détruits",
-          "avaient détruits"
+          "avions détruit",
+          "aviez détruit",
+          "avaient détruit"
         ],
         "PS": [
           "détruisis",
@@ -13974,17 +13974,17 @@
           "ai plu",
           "as plu",
           "a plu",
-          "avons plus",
-          "avez plus",
-          "ont plus"
+          "avons plu",
+          "avez plu",
+          "ont plu"
         ],
         "PQP": [
           "avais plu",
           "avais plu",
           "avait plu",
-          "avions plus",
-          "aviez plus",
-          "avaient plus"
+          "avions plu",
+          "aviez plu",
+          "avaient plu"
         ],
         "PS": [
           "plus",
@@ -14216,17 +14216,17 @@
           "ai craint",
           "as craint",
           "a craint",
-          "avons craints",
-          "avez craints",
-          "ont craints"
+          "avons craint",
+          "avez craint",
+          "ont craint"
         ],
         "PQP": [
           "avais craint",
           "avais craint",
           "avait craint",
-          "avions craints",
-          "aviez craints",
-          "avaient craints"
+          "avions craint",
+          "aviez craint",
+          "avaient craint"
         ],
         "PS": [
           "craignis",
@@ -14458,17 +14458,17 @@
           "ai joint",
           "as joint",
           "a joint",
-          "avons joints",
-          "avez joints",
-          "ont joints"
+          "avons joint",
+          "avez joint",
+          "ont joint"
         ],
         "PQP": [
           "avais joint",
           "avais joint",
           "avait joint",
-          "avions joints",
-          "aviez joints",
-          "avaient joints"
+          "avions joint",
+          "aviez joint",
+          "avaient joint"
         ],
         "PS": [
           "joignis",
@@ -14700,17 +14700,17 @@
           "ai peint",
           "as peint",
           "a peint",
-          "avons peints",
-          "avez peints",
-          "ont peints"
+          "avons peint",
+          "avez peint",
+          "ont peint"
         ],
         "PQP": [
           "avais peint",
           "avais peint",
           "avait peint",
-          "avions peints",
-          "aviez peints",
-          "avaient peints"
+          "avions peint",
+          "aviez peint",
+          "avaient peint"
         ],
         "PS": [
           "peignis",
@@ -14942,17 +14942,17 @@
           "ai atteint",
           "as atteint",
           "a atteint",
-          "avons atteints",
-          "avez atteints",
-          "ont atteints"
+          "avons atteint",
+          "avez atteint",
+          "ont atteint"
         ],
         "PQP": [
           "avais atteint",
           "avais atteint",
           "avait atteint",
-          "avions atteints",
-          "aviez atteints",
-          "avaient atteints"
+          "avions atteint",
+          "aviez atteint",
+          "avaient atteint"
         ],
         "PS": [
           "atteignis",
@@ -15184,17 +15184,17 @@
           "ai éteint",
           "as éteint",
           "a éteint",
-          "avons éteints",
-          "avez éteints",
-          "ont éteints"
+          "avons éteint",
+          "avez éteint",
+          "ont éteint"
         ],
         "PQP": [
           "avais éteint",
           "avais éteint",
           "avait éteint",
-          "avions éteints",
-          "aviez éteints",
-          "avaient éteints"
+          "avions éteint",
+          "aviez éteint",
+          "avaient éteint"
         ],
         "PS": [
           "éteignis",
@@ -15668,17 +15668,17 @@
           "ai vaincu",
           "as vaincu",
           "a vaincu",
-          "avons vaincus",
-          "avez vaincus",
-          "ont vaincus"
+          "avons vaincu",
+          "avez vaincu",
+          "ont vaincu"
         ],
         "PQP": [
           "avais vaincu",
           "avais vaincu",
           "avait vaincu",
-          "avions vaincus",
-          "aviez vaincus",
-          "avaient vaincus"
+          "avions vaincu",
+          "aviez vaincu",
+          "avaient vaincu"
         ],
         "PS": [
           "vainquis",
@@ -15910,17 +15910,17 @@
           "ai convaincu",
           "as convaincu",
           "a convaincu",
-          "avons convaincus",
-          "avez convaincus",
-          "ont convaincus"
+          "avons convaincu",
+          "avez convaincu",
+          "ont convaincu"
         ],
         "PQP": [
           "avais convaincu",
           "avais convaincu",
           "avait convaincu",
-          "avions convaincus",
-          "aviez convaincus",
-          "avaient convaincus"
+          "avions convaincu",
+          "aviez convaincu",
+          "avaient convaincu"
         ],
         "PS": [
           "convainquis",
@@ -16152,17 +16152,17 @@
           "ai battu",
           "as battu",
           "a battu",
-          "avons battus",
-          "avez battus",
-          "ont battus"
+          "avons battu",
+          "avez battu",
+          "ont battu"
         ],
         "PQP": [
           "avais battu",
           "avais battu",
           "avait battu",
-          "avions battus",
-          "aviez battus",
-          "avaient battus"
+          "avions battu",
+          "aviez battu",
+          "avaient battu"
         ],
         "PS": [
           "battis",
@@ -17120,17 +17120,17 @@
           "ai décrit",
           "as décrit",
           "a décrit",
-          "avons décrits",
-          "avez décrits",
-          "ont décrits"
+          "avons décrit",
+          "avez décrit",
+          "ont décrit"
         ],
         "PQP": [
           "avais décrit",
           "avais décrit",
           "avait décrit",
-          "avions décrits",
-          "aviez décrits",
-          "avaient décrits"
+          "avions décrit",
+          "aviez décrit",
+          "avaient décrit"
         ],
         "PS": [
           "décrivis",
@@ -17362,17 +17362,17 @@
           "ai prévu",
           "as prévu",
           "a prévu",
-          "avons prévus",
-          "avez prévus",
-          "ont prévus"
+          "avons prévu",
+          "avez prévu",
+          "ont prévu"
         ],
         "PQP": [
           "avais prévu",
           "avais prévu",
           "avait prévu",
-          "avions prévus",
-          "aviez prévus",
-          "avaient prévus"
+          "avions prévu",
+          "aviez prévu",
+          "avaient prévu"
         ],
         "PS": [
           "prévis",
@@ -17604,17 +17604,17 @@
           "ai valu",
           "as valu",
           "a valu",
-          "avons valus",
-          "avez valus",
-          "ont valus"
+          "avons valu",
+          "avez valu",
+          "ont valu"
         ],
         "PQP": [
           "avais valu",
           "avais valu",
           "avait valu",
-          "avions valus",
-          "aviez valus",
-          "avaient valus"
+          "avions valu",
+          "aviez valu",
+          "avaient valu"
         ],
         "PS": [
           "valus",
@@ -17846,17 +17846,17 @@
           "ai acheté",
           "as acheté",
           "a acheté",
-          "avons achetés",
-          "avez achetés",
-          "ont achetés"
+          "avons acheté",
+          "avez acheté",
+          "ont acheté"
         ],
         "PQP": [
           "avais acheté",
           "avais acheté",
           "avait acheté",
-          "avions achetés",
-          "aviez achetés",
-          "avaient achetés"
+          "avions acheté",
+          "aviez acheté",
+          "avaient acheté"
         ],
         "PS": [
           "achetai",
@@ -18008,17 +18008,17 @@
           "ai vendu",
           "as vendu",
           "a vendu",
-          "avons vendus",
-          "avez vendus",
-          "ont vendus"
+          "avons vendu",
+          "avez vendu",
+          "ont vendu"
         ],
         "PQP": [
           "avais vendu",
           "avais vendu",
           "avait vendu",
-          "avions vendus",
-          "aviez vendus",
-          "avaient vendus"
+          "avions vendu",
+          "aviez vendu",
+          "avaient vendu"
         ],
         "PS": [
           "vendis",
@@ -18250,17 +18250,17 @@
           "ai payé",
           "as payé",
           "a payé",
-          "avons payés",
-          "avez payés",
-          "ont payés"
+          "avons payé",
+          "avez payé",
+          "ont payé"
         ],
         "PQP": [
           "avais payé",
           "avais payé",
           "avait payé",
-          "avions payés",
-          "aviez payés",
-          "avaient payés"
+          "avions payé",
+          "aviez payé",
+          "avaient payé"
         ],
         "PS": [
           "payai",
@@ -18335,17 +18335,17 @@
           "ai aidé",
           "as aidé",
           "a aidé",
-          "avons aidés",
-          "avez aidés",
-          "ont aidés"
+          "avons aidé",
+          "avez aidé",
+          "ont aidé"
         ],
         "PQP": [
           "avais aidé",
           "avais aidé",
           "avait aidé",
-          "avions aidés",
-          "aviez aidés",
-          "avaient aidés"
+          "avions aidé",
+          "aviez aidé",
+          "avaient aidé"
         ],
         "PS": [
           "aidai",
@@ -18420,17 +18420,17 @@
           "ai travaillé",
           "as travaillé",
           "a travaillé",
-          "avons travaillés",
-          "avez travaillés",
-          "ont travaillés"
+          "avons travaillé",
+          "avez travaillé",
+          "ont travaillé"
         ],
         "PQP": [
           "avais travaillé",
           "avais travaillé",
           "avait travaillé",
-          "avions travaillés",
-          "aviez travaillés",
-          "avaient travaillés"
+          "avions travaillé",
+          "aviez travaillé",
+          "avaient travaillé"
         ],
         "PS": [
           "travaillai",
@@ -18505,17 +18505,17 @@
           "ai étudié",
           "as étudié",
           "a étudié",
-          "avons étudiés",
-          "avez étudiés",
-          "ont étudiés"
+          "avons étudié",
+          "avez étudié",
+          "ont étudié"
         ],
         "PQP": [
           "avais étudié",
           "avais étudié",
           "avait étudié",
-          "avions étudiés",
-          "aviez étudiés",
-          "avaient étudiés"
+          "avions étudié",
+          "aviez étudié",
+          "avaient étudié"
         ],
         "PS": [
           "étudiai",
@@ -18590,17 +18590,17 @@
           "ai commencé",
           "as commencé",
           "a commencé",
-          "avons commencés",
-          "avez commencés",
-          "ont commencés"
+          "avons commencé",
+          "avez commencé",
+          "ont commencé"
         ],
         "PQP": [
           "avais commencé",
           "avais commencé",
           "avait commencé",
-          "avions commencés",
-          "aviez commencés",
-          "avaient commencés"
+          "avions commencé",
+          "aviez commencé",
+          "avaient commencé"
         ],
         "PS": [
           "commençai",
@@ -18732,17 +18732,17 @@
           "ai fini",
           "as fini",
           "a fini",
-          "avons finis",
-          "avez finis",
-          "ont finis"
+          "avons fini",
+          "avez fini",
+          "ont fini"
         ],
         "PQP": [
           "avais fini",
           "avais fini",
           "avait fini",
-          "avions finis",
-          "aviez finis",
-          "avaient finis"
+          "avions fini",
+          "aviez fini",
+          "avaient fini"
         ],
         "PS": [
           "finis",
@@ -18817,17 +18817,17 @@
           "ai choisi",
           "as choisi",
           "a choisi",
-          "avons choisis",
-          "avez choisis",
-          "ont choisis"
+          "avons choisi",
+          "avez choisi",
+          "ont choisi"
         ],
         "PQP": [
           "avais choisi",
           "avais choisi",
           "avait choisi",
-          "avions choisis",
-          "aviez choisis",
-          "avaient choisis"
+          "avions choisi",
+          "aviez choisi",
+          "avaient choisi"
         ],
         "PS": [
           "choisis",
@@ -18902,17 +18902,17 @@
           "ai réussi",
           "as réussi",
           "a réussi",
-          "avons réussis",
-          "avez réussis",
-          "ont réussis"
+          "avons réussi",
+          "avez réussi",
+          "ont réussi"
         ],
         "PQP": [
           "avais réussi",
           "avais réussi",
           "avait réussi",
-          "avions réussis",
-          "aviez réussis",
-          "avaient réussis"
+          "avions réussi",
+          "aviez réussi",
+          "avaient réussi"
         ],
         "PS": [
           "réussis",
@@ -18987,17 +18987,17 @@
           "ai rempli",
           "as rempli",
           "a rempli",
-          "avons remplis",
-          "avez remplis",
-          "ont remplis"
+          "avons rempli",
+          "avez rempli",
+          "ont rempli"
         ],
         "PQP": [
           "avais rempli",
           "avais rempli",
           "avait rempli",
-          "avions remplis",
-          "aviez remplis",
-          "avaient remplis"
+          "avions rempli",
+          "aviez rempli",
+          "avaient rempli"
         ],
         "PS": [
           "remplis",
@@ -19072,17 +19072,17 @@
           "ai grandi",
           "as grandi",
           "a grandi",
-          "avons grandis",
-          "avez grandis",
-          "ont grandis"
+          "avons grandi",
+          "avez grandi",
+          "ont grandi"
         ],
         "PQP": [
           "avais grandi",
           "avais grandi",
           "avait grandi",
-          "avions grandis",
-          "aviez grandis",
-          "avaient grandis"
+          "avions grandi",
+          "aviez grandi",
+          "avaient grandi"
         ],
         "PS": [
           "grandis",
@@ -19157,17 +19157,17 @@
           "ai réfléchi",
           "as réfléchi",
           "a réfléchi",
-          "avons réfléchis",
-          "avez réfléchis",
-          "ont réfléchis"
+          "avons réfléchi",
+          "avez réfléchi",
+          "ont réfléchi"
         ],
         "PQP": [
           "avais réfléchi",
           "avais réfléchi",
           "avait réfléchi",
-          "avions réfléchis",
-          "aviez réfléchis",
-          "avaient réfléchis"
+          "avions réfléchi",
+          "aviez réfléchi",
+          "avaient réfléchi"
         ],
         "PS": [
           "réfléchis",
@@ -19242,17 +19242,17 @@
           "ai oublié",
           "as oublié",
           "a oublié",
-          "avons oubliés",
-          "avez oubliés",
-          "ont oubliés"
+          "avons oublié",
+          "avez oublié",
+          "ont oublié"
         ],
         "PQP": [
           "avais oublié",
           "avais oublié",
           "avait oublié",
-          "avions oubliés",
-          "aviez oubliés",
-          "avaient oubliés"
+          "avions oublié",
+          "aviez oublié",
+          "avaient oublié"
         ],
         "PS": [
           "oubliai",
@@ -19327,17 +19327,17 @@
           "ai essayé",
           "as essayé",
           "a essayé",
-          "avons essayés",
-          "avez essayés",
-          "ont essayés"
+          "avons essayé",
+          "avez essayé",
+          "ont essayé"
         ],
         "PQP": [
           "avais essayé",
           "avais essayé",
           "avait essayé",
-          "avions essayés",
-          "aviez essayés",
-          "avaient essayés"
+          "avions essayé",
+          "aviez essayé",
+          "avaient essayé"
         ],
         "PS": [
           "essayai",
@@ -19412,17 +19412,17 @@
           "ai envoyé",
           "as envoyé",
           "a envoyé",
-          "avons envoyés",
-          "avez envoyés",
-          "ont envoyés"
+          "avons envoyé",
+          "avez envoyé",
+          "ont envoyé"
         ],
         "PQP": [
           "avais envoyé",
           "avais envoyé",
           "avait envoyé",
-          "avions envoyés",
-          "aviez envoyés",
-          "avaient envoyés"
+          "avions envoyé",
+          "aviez envoyé",
+          "avaient envoyé"
         ],
         "PS": [
           "envoyai",
@@ -19574,17 +19574,17 @@
           "ai espéré",
           "as espéré",
           "a espéré",
-          "avons espérés",
-          "avez espérés",
-          "ont espérés"
+          "avons espéré",
+          "avez espéré",
+          "ont espéré"
         ],
         "PQP": [
           "avais espéré",
           "avais espéré",
           "avait espéré",
-          "avions espérés",
-          "aviez espérés",
-          "avaient espérés"
+          "avions espéré",
+          "aviez espéré",
+          "avaient espéré"
         ],
         "PS": [
           "espérai",
@@ -19706,17 +19706,17 @@
           "ai préféré",
           "as préféré",
           "a préféré",
-          "avons préférés",
-          "avez préférés",
-          "ont préférés"
+          "avons préféré",
+          "avez préféré",
+          "ont préféré"
         ],
         "PQP": [
           "avais préféré",
           "avais préféré",
           "avait préféré",
-          "avions préférés",
-          "aviez préférés",
-          "avaient préférés"
+          "avions préféré",
+          "aviez préféré",
+          "avaient préféré"
         ],
         "PS": [
           "préférai",
@@ -19838,17 +19838,17 @@
           "ai répété",
           "as répété",
           "a répété",
-          "avons répétés",
-          "avez répétés",
-          "ont répétés"
+          "avons répété",
+          "avez répété",
+          "ont répété"
         ],
         "PQP": [
           "avais répété",
           "avais répété",
           "avait répété",
-          "avions répétés",
-          "aviez répétés",
-          "avaient répétés"
+          "avions répété",
+          "aviez répété",
+          "avaient répété"
         ],
         "PS": [
           "répétai",
@@ -19970,17 +19970,17 @@
           "ai levé",
           "as levé",
           "a levé",
-          "avons levés",
-          "avez levés",
-          "ont levés"
+          "avons levé",
+          "avez levé",
+          "ont levé"
         ],
         "PQP": [
           "avais levé",
           "avais levé",
           "avait levé",
-          "avions levés",
-          "aviez levés",
-          "avaient levés"
+          "avions levé",
+          "aviez levé",
+          "avaient levé"
         ],
         "PS": [
           "levai",
@@ -20132,17 +20132,17 @@
           "ai emmené",
           "as emmené",
           "a emmené",
-          "avons emmenés",
-          "avez emmenés",
-          "ont emmenés"
+          "avons emmené",
+          "avez emmené",
+          "ont emmené"
         ],
         "PQP": [
           "avais emmené",
           "avais emmené",
           "avait emmené",
-          "avions emmenés",
-          "aviez emmenés",
-          "avaient emmenés"
+          "avions emmené",
+          "aviez emmené",
+          "avaient emmené"
         ],
         "PS": [
           "emmenai",
@@ -20294,17 +20294,17 @@
           "ai jeté",
           "as jeté",
           "a jeté",
-          "avons jetés",
-          "avez jetés",
-          "ont jetés"
+          "avons jeté",
+          "avez jeté",
+          "ont jeté"
         ],
         "PQP": [
           "avais jeté",
           "avais jeté",
           "avait jeté",
-          "avions jetés",
-          "aviez jetés",
-          "avaient jetés"
+          "avions jeté",
+          "aviez jeté",
+          "avaient jeté"
         ],
         "PS": [
           "jetai",
@@ -20456,17 +20456,17 @@
           "ai changé",
           "as changé",
           "a changé",
-          "avons changés",
-          "avez changés",
-          "ont changés"
+          "avons changé",
+          "avez changé",
+          "ont changé"
         ],
         "PQP": [
           "avais changé",
           "avais changé",
           "avait changé",
-          "avions changés",
-          "aviez changés",
-          "avaient changés"
+          "avions changé",
+          "aviez changé",
+          "avaient changé"
         ],
         "PS": [
           "changeai",
@@ -20598,17 +20598,17 @@
           "ai voyagé",
           "as voyagé",
           "a voyagé",
-          "avons voyagés",
-          "avez voyagés",
-          "ont voyagés"
+          "avons voyagé",
+          "avez voyagé",
+          "ont voyagé"
         ],
         "PQP": [
           "avais voyagé",
           "avais voyagé",
           "avait voyagé",
-          "avions voyagés",
-          "aviez voyagés",
-          "avaient voyagés"
+          "avions voyagé",
+          "aviez voyagé",
+          "avaient voyagé"
         ],
         "PS": [
           "voyageai",
@@ -20740,17 +20740,17 @@
           "ai nagé",
           "as nagé",
           "a nagé",
-          "avons nagés",
-          "avez nagés",
-          "ont nagés"
+          "avons nagé",
+          "avez nagé",
+          "ont nagé"
         ],
         "PQP": [
           "avais nagé",
           "avais nagé",
           "avait nagé",
-          "avions nagés",
-          "aviez nagés",
-          "avaient nagés"
+          "avions nagé",
+          "aviez nagé",
+          "avaient nagé"
         ],
         "PS": [
           "nageai",
@@ -20882,17 +20882,17 @@
           "ai chanté",
           "as chanté",
           "a chanté",
-          "avons chantés",
-          "avez chantés",
-          "ont chantés"
+          "avons chanté",
+          "avez chanté",
+          "ont chanté"
         ],
         "PQP": [
           "avais chanté",
           "avais chanté",
           "avait chanté",
-          "avions chantés",
-          "aviez chantés",
-          "avaient chantés"
+          "avions chanté",
+          "aviez chanté",
+          "avaient chanté"
         ],
         "PS": [
           "chantai",
@@ -20967,17 +20967,17 @@
           "ai dansé",
           "as dansé",
           "a dansé",
-          "avons dansés",
-          "avez dansés",
-          "ont dansés"
+          "avons dansé",
+          "avez dansé",
+          "ont dansé"
         ],
         "PQP": [
           "avais dansé",
           "avais dansé",
           "avait dansé",
-          "avions dansés",
-          "aviez dansés",
-          "avaient dansés"
+          "avions dansé",
+          "aviez dansé",
+          "avaient dansé"
         ],
         "PS": [
           "dansai",
@@ -21052,17 +21052,17 @@
           "ai marché",
           "as marché",
           "a marché",
-          "avons marchés",
-          "avez marchés",
-          "ont marchés"
+          "avons marché",
+          "avez marché",
+          "ont marché"
         ],
         "PQP": [
           "avais marché",
           "avais marché",
           "avait marché",
-          "avions marchés",
-          "aviez marchés",
-          "avaient marchés"
+          "avions marché",
+          "aviez marché",
+          "avaient marché"
         ],
         "PS": [
           "marchai",
@@ -21137,17 +21137,17 @@
           "ai monté",
           "as monté",
           "a monté",
-          "avons montés",
-          "avez montés",
-          "ont montés"
+          "avons monté",
+          "avez monté",
+          "ont monté"
         ],
         "PQP": [
           "avais monté",
           "avais monté",
           "avait monté",
-          "avions montés",
-          "aviez montés",
-          "avaient montés"
+          "avions monté",
+          "aviez monté",
+          "avaient monté"
         ],
         "PS": [
           "montai",
@@ -21222,17 +21222,17 @@
           "ai descendu",
           "as descendu",
           "a descendu",
-          "avons descendus",
-          "avez descendus",
-          "ont descendus"
+          "avons descendu",
+          "avez descendu",
+          "ont descendu"
         ],
         "PQP": [
           "avais descendu",
           "avais descendu",
           "avait descendu",
-          "avions descendus",
-          "aviez descendus",
-          "avaient descendus"
+          "avions descendu",
+          "aviez descendu",
+          "avaient descendu"
         ],
         "PS": [
           "descendis",
@@ -21464,17 +21464,17 @@
           "ai fermé",
           "as fermé",
           "a fermé",
-          "avons fermés",
-          "avez fermés",
-          "ont fermés"
+          "avons fermé",
+          "avez fermé",
+          "ont fermé"
         ],
         "PQP": [
           "avais fermé",
           "avais fermé",
           "avait fermé",
-          "avions fermés",
-          "aviez fermés",
-          "avaient fermés"
+          "avions fermé",
+          "aviez fermé",
+          "avaient fermé"
         ],
         "PS": [
           "fermai",
@@ -21549,17 +21549,17 @@
           "ai cuisiné",
           "as cuisiné",
           "a cuisiné",
-          "avons cuisinés",
-          "avez cuisinés",
-          "ont cuisinés"
+          "avons cuisiné",
+          "avez cuisiné",
+          "ont cuisiné"
         ],
         "PQP": [
           "avais cuisiné",
           "avais cuisiné",
           "avait cuisiné",
-          "avions cuisinés",
-          "aviez cuisinés",
-          "avaient cuisinés"
+          "avions cuisiné",
+          "aviez cuisiné",
+          "avaient cuisiné"
         ],
         "PS": [
           "cuisinai",
@@ -21634,17 +21634,17 @@
           "ai raconté",
           "as raconté",
           "a raconté",
-          "avons racontés",
-          "avez racontés",
-          "ont racontés"
+          "avons raconté",
+          "avez raconté",
+          "ont raconté"
         ],
         "PQP": [
           "avais raconté",
           "avais raconté",
           "avait raconté",
-          "avions racontés",
-          "aviez racontés",
-          "avaient racontés"
+          "avions raconté",
+          "aviez raconté",
+          "avaient raconté"
         ],
         "PS": [
           "racontai",
@@ -21719,17 +21719,17 @@
           "ai expliqué",
           "as expliqué",
           "a expliqué",
-          "avons expliqués",
-          "avez expliqués",
-          "ont expliqués"
+          "avons expliqué",
+          "avez expliqué",
+          "ont expliqué"
         ],
         "PQP": [
           "avais expliqué",
           "avais expliqué",
           "avait expliqué",
-          "avions expliqués",
-          "aviez expliqués",
-          "avaient expliqués"
+          "avions expliqué",
+          "aviez expliqué",
+          "avaient expliqué"
         ],
         "PS": [
           "expliquai",
@@ -21804,17 +21804,17 @@
           "ai utilisé",
           "as utilisé",
           "a utilisé",
-          "avons utilisés",
-          "avez utilisés",
-          "ont utilisés"
+          "avons utilisé",
+          "avez utilisé",
+          "ont utilisé"
         ],
         "PQP": [
           "avais utilisé",
           "avais utilisé",
           "avait utilisé",
-          "avions utilisés",
-          "aviez utilisés",
-          "avaient utilisés"
+          "avions utilisé",
+          "aviez utilisé",
+          "avaient utilisé"
         ],
         "PS": [
           "utilisai",
@@ -21889,17 +21889,17 @@
           "ai décidé",
           "as décidé",
           "a décidé",
-          "avons décidés",
-          "avez décidés",
-          "ont décidés"
+          "avons décidé",
+          "avez décidé",
+          "ont décidé"
         ],
         "PQP": [
           "avais décidé",
           "avais décidé",
           "avait décidé",
-          "avions décidés",
-          "aviez décidés",
-          "avaient décidés"
+          "avions décidé",
+          "aviez décidé",
+          "avaient décidé"
         ],
         "PS": [
           "décidai",
@@ -21974,17 +21974,17 @@
           "ai accepté",
           "as accepté",
           "a accepté",
-          "avons acceptés",
-          "avez acceptés",
-          "ont acceptés"
+          "avons accepté",
+          "avez accepté",
+          "ont accepté"
         ],
         "PQP": [
           "avais accepté",
           "avais accepté",
           "avait accepté",
-          "avions acceptés",
-          "aviez acceptés",
-          "avaient acceptés"
+          "avions accepté",
+          "aviez accepté",
+          "avaient accepté"
         ],
         "PS": [
           "acceptai",
@@ -22059,17 +22059,17 @@
           "ai gagné",
           "as gagné",
           "a gagné",
-          "avons gagnés",
-          "avez gagnés",
-          "ont gagnés"
+          "avons gagné",
+          "avez gagné",
+          "ont gagné"
         ],
         "PQP": [
           "avais gagné",
           "avais gagné",
           "avait gagné",
-          "avions gagnés",
-          "aviez gagnés",
-          "avaient gagnés"
+          "avions gagné",
+          "aviez gagné",
+          "avaient gagné"
         ],
         "PS": [
           "gagnai",
@@ -22144,17 +22144,17 @@
           "ai perdu",
           "as perdu",
           "a perdu",
-          "avons perdus",
-          "avez perdus",
-          "ont perdus"
+          "avons perdu",
+          "avez perdu",
+          "ont perdu"
         ],
         "PQP": [
           "avais perdu",
           "avais perdu",
           "avait perdu",
-          "avions perdus",
-          "aviez perdus",
-          "avaient perdus"
+          "avions perdu",
+          "aviez perdu",
+          "avaient perdu"
         ],
         "PS": [
           "perdis",
@@ -22386,17 +22386,17 @@
           "ai suivi",
           "as suivi",
           "a suivi",
-          "avons suivis",
-          "avez suivis",
-          "ont suivis"
+          "avons suivi",
+          "avez suivi",
+          "ont suivi"
         ],
         "PQP": [
           "avais suivi",
           "avais suivi",
           "avait suivi",
-          "avions suivis",
-          "aviez suivis",
-          "avaient suivis"
+          "avions suivi",
+          "aviez suivi",
+          "avaient suivi"
         ],
         "PS": [
           "suivis",
@@ -23025,6 +23025,3391 @@
           ],
           "idx": [
             0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "avertir",
+      "ja": "警告する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "avertis",
+          "avertis",
+          "avertit",
+          "avertissons",
+          "avertissez",
+          "avertissent"
+        ],
+        "IMPF": [
+          "avertissais",
+          "avertissais",
+          "avertissait",
+          "avertissions",
+          "avertissiez",
+          "avertissaient"
+        ],
+        "FUT": [
+          "avertirai",
+          "avertiras",
+          "avertira",
+          "avertirons",
+          "avertirez",
+          "avertiront"
+        ],
+        "PC": [
+          "ai averti",
+          "as averti",
+          "a averti",
+          "avons averti",
+          "avez averti",
+          "ont averti"
+        ],
+        "PQP": [
+          "avais averti",
+          "avais averti",
+          "avait averti",
+          "avions averti",
+          "aviez averti",
+          "avaient averti"
+        ],
+        "PS": [
+          "avertis",
+          "avertis",
+          "avertit",
+          "avertîmes",
+          "avertîtes",
+          "avertirent"
+        ],
+        "COND": [
+          "avertirais",
+          "avertirais",
+          "avertirait",
+          "avertirions",
+          "avertiriez",
+          "avertiraient"
+        ],
+        "SUBJ": [
+          "avertisse",
+          "avertisses",
+          "avertisse",
+          "avertissions",
+          "avertissiez",
+          "avertissent"
+        ],
+        "IMPER": [
+          "",
+          "avertis",
+          "",
+          "avertissons",
+          "avertissez",
+          ""
+        ],
+        "PPRES": [
+          "avertissant"
+        ],
+        "PPASSE": [
+          "averti"
+        ]
+      }
+    },
+    {
+      "lemma": "affirmer",
+      "ja": "断言する・主張する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "affirme",
+          "affirmes",
+          "affirme",
+          "affirmons",
+          "affirmez",
+          "affirment"
+        ],
+        "IMPF": [
+          "affirmais",
+          "affirmais",
+          "affirmait",
+          "affirmions",
+          "affirmiez",
+          "affirmaient"
+        ],
+        "FUT": [
+          "affirmerai",
+          "affirmeras",
+          "affirmera",
+          "affirmerons",
+          "affirmerez",
+          "affirmeront"
+        ],
+        "PC": [
+          "ai affirmé",
+          "as affirmé",
+          "a affirmé",
+          "avons affirmé",
+          "avez affirmé",
+          "ont affirmé"
+        ],
+        "PQP": [
+          "avais affirmé",
+          "avais affirmé",
+          "avait affirmé",
+          "avions affirmé",
+          "aviez affirmé",
+          "avaient affirmé"
+        ],
+        "PS": [
+          "affirmai",
+          "affirmas",
+          "affirma",
+          "affirmâmes",
+          "affirmâtes",
+          "affirmèrent"
+        ],
+        "COND": [
+          "affirmerais",
+          "affirmerais",
+          "affirmerait",
+          "affirmerions",
+          "affirmeriez",
+          "affirmeraient"
+        ],
+        "SUBJ": [
+          "affirme",
+          "affirmes",
+          "affirme",
+          "affirmions",
+          "affirmiez",
+          "affirment"
+        ],
+        "IMPER": [
+          "",
+          "affirme",
+          "",
+          "affirmons",
+          "affirmez",
+          ""
+        ],
+        "PPRES": [
+          "affirmant"
+        ],
+        "PPASSE": [
+          "affirmé"
+        ]
+      }
+    },
+    {
+      "lemma": "souligner",
+      "ja": "強調する・下線を引く",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "souligne",
+          "soulignes",
+          "souligne",
+          "soulignons",
+          "soulignez",
+          "soulignent"
+        ],
+        "IMPF": [
+          "soulignais",
+          "soulignais",
+          "soulignait",
+          "soulignions",
+          "souligniez",
+          "soulignaient"
+        ],
+        "FUT": [
+          "soulignerai",
+          "souligneras",
+          "soulignera",
+          "soulignerons",
+          "soulignerez",
+          "souligneront"
+        ],
+        "PC": [
+          "ai souligné",
+          "as souligné",
+          "a souligné",
+          "avons souligné",
+          "avez souligné",
+          "ont souligné"
+        ],
+        "PQP": [
+          "avais souligné",
+          "avais souligné",
+          "avait souligné",
+          "avions souligné",
+          "aviez souligné",
+          "avaient souligné"
+        ],
+        "PS": [
+          "soulignai",
+          "soulignas",
+          "souligna",
+          "soulignâmes",
+          "soulignâtes",
+          "soulignèrent"
+        ],
+        "COND": [
+          "soulignerais",
+          "soulignerais",
+          "soulignerait",
+          "soulignerions",
+          "souligneriez",
+          "souligneraient"
+        ],
+        "SUBJ": [
+          "souligne",
+          "soulignes",
+          "souligne",
+          "soulignions",
+          "souligniez",
+          "soulignent"
+        ],
+        "IMPER": [
+          "",
+          "souligne",
+          "",
+          "soulignons",
+          "soulignez",
+          ""
+        ],
+        "PPRES": [
+          "soulignant"
+        ],
+        "PPASSE": [
+          "souligné"
+        ]
+      }
+    },
+    {
+      "lemma": "signaler",
+      "ja": "指摘する・知らせる",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "signale",
+          "signales",
+          "signale",
+          "signalons",
+          "signalez",
+          "signalent"
+        ],
+        "IMPF": [
+          "signalais",
+          "signalais",
+          "signalait",
+          "signalions",
+          "signaliez",
+          "signalaient"
+        ],
+        "FUT": [
+          "signalerai",
+          "signaleras",
+          "signalera",
+          "signalerons",
+          "signalerez",
+          "signaleront"
+        ],
+        "PC": [
+          "ai signalé",
+          "as signalé",
+          "a signalé",
+          "avons signalé",
+          "avez signalé",
+          "ont signalé"
+        ],
+        "PQP": [
+          "avais signalé",
+          "avais signalé",
+          "avait signalé",
+          "avions signalé",
+          "aviez signalé",
+          "avaient signalé"
+        ],
+        "PS": [
+          "signalai",
+          "signalas",
+          "signala",
+          "signalâmes",
+          "signalâtes",
+          "signalèrent"
+        ],
+        "COND": [
+          "signalerais",
+          "signalerais",
+          "signalerait",
+          "signalerions",
+          "signaleriez",
+          "signaleraient"
+        ],
+        "SUBJ": [
+          "signale",
+          "signales",
+          "signale",
+          "signalions",
+          "signaliez",
+          "signalent"
+        ],
+        "IMPER": [
+          "",
+          "signale",
+          "",
+          "signalons",
+          "signalez",
+          ""
+        ],
+        "PPRES": [
+          "signalant"
+        ],
+        "PPASSE": [
+          "signalé"
+        ]
+      }
+    },
+    {
+      "lemma": "assumer",
+      "ja": "引き受ける・負う",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "assume",
+          "assumes",
+          "assume",
+          "assumons",
+          "assumez",
+          "assument"
+        ],
+        "IMPF": [
+          "assumais",
+          "assumais",
+          "assumait",
+          "assumions",
+          "assumiez",
+          "assumaient"
+        ],
+        "FUT": [
+          "assumerai",
+          "assumeras",
+          "assumera",
+          "assumerons",
+          "assumerez",
+          "assumeront"
+        ],
+        "PC": [
+          "ai assumé",
+          "as assumé",
+          "a assumé",
+          "avons assumé",
+          "avez assumé",
+          "ont assumé"
+        ],
+        "PQP": [
+          "avais assumé",
+          "avais assumé",
+          "avait assumé",
+          "avions assumé",
+          "aviez assumé",
+          "avaient assumé"
+        ],
+        "PS": [
+          "assumai",
+          "assumas",
+          "assuma",
+          "assumâmes",
+          "assumâtes",
+          "assumèrent"
+        ],
+        "COND": [
+          "assumerais",
+          "assumerais",
+          "assumerait",
+          "assumerions",
+          "assumeriez",
+          "assumeraient"
+        ],
+        "SUBJ": [
+          "assume",
+          "assumes",
+          "assume",
+          "assumions",
+          "assumiez",
+          "assument"
+        ],
+        "IMPER": [
+          "",
+          "assume",
+          "",
+          "assumons",
+          "assumez",
+          ""
+        ],
+        "PPRES": [
+          "assumant"
+        ],
+        "PPASSE": [
+          "assumé"
+        ]
+      }
+    },
+    {
+      "lemma": "aborder",
+      "ja": "取り組む・着手する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "aborde",
+          "abordes",
+          "aborde",
+          "abordons",
+          "abordez",
+          "abordent"
+        ],
+        "IMPF": [
+          "abordais",
+          "abordais",
+          "abordait",
+          "abordions",
+          "abordiez",
+          "abordaient"
+        ],
+        "FUT": [
+          "aborderai",
+          "aborderas",
+          "abordera",
+          "aborderons",
+          "aborderez",
+          "aborderont"
+        ],
+        "PC": [
+          "ai abordé",
+          "as abordé",
+          "a abordé",
+          "avons abordé",
+          "avez abordé",
+          "ont abordé"
+        ],
+        "PQP": [
+          "avais abordé",
+          "avais abordé",
+          "avait abordé",
+          "avions abordé",
+          "aviez abordé",
+          "avaient abordé"
+        ],
+        "PS": [
+          "abordai",
+          "abordas",
+          "aborda",
+          "abordâmes",
+          "abordâtes",
+          "abordèrent"
+        ],
+        "COND": [
+          "aborderais",
+          "aborderais",
+          "aborderait",
+          "aborderions",
+          "aborderiez",
+          "aborderaient"
+        ],
+        "SUBJ": [
+          "aborde",
+          "abordes",
+          "aborde",
+          "abordions",
+          "abordiez",
+          "abordent"
+        ],
+        "IMPER": [
+          "",
+          "aborde",
+          "",
+          "abordons",
+          "abordez",
+          ""
+        ],
+        "PPRES": [
+          "abordant"
+        ],
+        "PPASSE": [
+          "abordé"
+        ]
+      }
+    },
+    {
+      "lemma": "freiner",
+      "ja": "抑制する・歯止めをかける",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "freine",
+          "freines",
+          "freine",
+          "freinons",
+          "freinez",
+          "freinent"
+        ],
+        "IMPF": [
+          "freinais",
+          "freinais",
+          "freinait",
+          "freinions",
+          "freiniez",
+          "freinaient"
+        ],
+        "FUT": [
+          "freinerai",
+          "freineras",
+          "freinera",
+          "freinerons",
+          "freinerez",
+          "freineront"
+        ],
+        "PC": [
+          "ai freiné",
+          "as freiné",
+          "a freiné",
+          "avons freiné",
+          "avez freiné",
+          "ont freiné"
+        ],
+        "PQP": [
+          "avais freiné",
+          "avais freiné",
+          "avait freiné",
+          "avions freiné",
+          "aviez freiné",
+          "avaient freiné"
+        ],
+        "PS": [
+          "freinai",
+          "freinas",
+          "freina",
+          "freinâmes",
+          "freinâtes",
+          "freinèrent"
+        ],
+        "COND": [
+          "freinerais",
+          "freinerais",
+          "freinerait",
+          "freinerions",
+          "freineriez",
+          "freineraient"
+        ],
+        "SUBJ": [
+          "freine",
+          "freines",
+          "freine",
+          "freinions",
+          "freiniez",
+          "freinent"
+        ],
+        "IMPER": [
+          "",
+          "freine",
+          "",
+          "freinons",
+          "freinez",
+          ""
+        ],
+        "PPRES": [
+          "freinant"
+        ],
+        "PPASSE": [
+          "freiné"
+        ]
+      }
+    },
+    {
+      "lemma": "aggraver",
+      "ja": "悪化させる",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "aggrave",
+          "aggraves",
+          "aggrave",
+          "aggravons",
+          "aggravez",
+          "aggravent"
+        ],
+        "IMPF": [
+          "aggravais",
+          "aggravais",
+          "aggravait",
+          "aggravions",
+          "aggraviez",
+          "aggravaient"
+        ],
+        "FUT": [
+          "aggraverai",
+          "aggraveras",
+          "aggravera",
+          "aggraverons",
+          "aggraverez",
+          "aggraveront"
+        ],
+        "PC": [
+          "ai aggravé",
+          "as aggravé",
+          "a aggravé",
+          "avons aggravé",
+          "avez aggravé",
+          "ont aggravé"
+        ],
+        "PQP": [
+          "avais aggravé",
+          "avais aggravé",
+          "avait aggravé",
+          "avions aggravé",
+          "aviez aggravé",
+          "avaient aggravé"
+        ],
+        "PS": [
+          "aggravai",
+          "aggravas",
+          "aggrava",
+          "aggravâmes",
+          "aggravâtes",
+          "aggravèrent"
+        ],
+        "COND": [
+          "aggraverais",
+          "aggraverais",
+          "aggraverait",
+          "aggraverions",
+          "aggraveriez",
+          "aggraveraient"
+        ],
+        "SUBJ": [
+          "aggrave",
+          "aggraves",
+          "aggrave",
+          "aggravions",
+          "aggraviez",
+          "aggravent"
+        ],
+        "IMPER": [
+          "",
+          "aggrave",
+          "",
+          "aggravons",
+          "aggravez",
+          ""
+        ],
+        "PPRES": [
+          "aggravant"
+        ],
+        "PPASSE": [
+          "aggravé"
+        ]
+      }
+    },
+    {
+      "lemma": "atténuer",
+      "ja": "緩和する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "atténue",
+          "atténues",
+          "atténue",
+          "atténuons",
+          "atténuez",
+          "atténuent"
+        ],
+        "IMPF": [
+          "atténuais",
+          "atténuais",
+          "atténuait",
+          "atténuions",
+          "atténuiez",
+          "atténuaient"
+        ],
+        "FUT": [
+          "atténuerai",
+          "atténueras",
+          "atténuera",
+          "atténuerons",
+          "atténuerez",
+          "atténueront"
+        ],
+        "PC": [
+          "ai atténué",
+          "as atténué",
+          "a atténué",
+          "avons atténué",
+          "avez atténué",
+          "ont atténué"
+        ],
+        "PQP": [
+          "avais atténué",
+          "avais atténué",
+          "avait atténué",
+          "avions atténué",
+          "aviez atténué",
+          "avaient atténué"
+        ],
+        "PS": [
+          "atténuai",
+          "atténuas",
+          "atténua",
+          "atténuâmes",
+          "atténuâtes",
+          "atténuèrent"
+        ],
+        "COND": [
+          "atténuerais",
+          "atténuerais",
+          "atténuerait",
+          "atténuerions",
+          "atténueriez",
+          "atténueraient"
+        ],
+        "SUBJ": [
+          "atténue",
+          "atténues",
+          "atténue",
+          "atténuions",
+          "atténuiez",
+          "atténuent"
+        ],
+        "IMPER": [
+          "",
+          "atténue",
+          "",
+          "atténuons",
+          "atténuez",
+          ""
+        ],
+        "PPRES": [
+          "atténuant"
+        ],
+        "PPASSE": [
+          "atténué"
+        ]
+      }
+    },
+    {
+      "lemma": "estimer",
+      "ja": "見積もる・評価する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "estime",
+          "estimes",
+          "estime",
+          "estimons",
+          "estimez",
+          "estiment"
+        ],
+        "IMPF": [
+          "estimais",
+          "estimais",
+          "estimait",
+          "estimions",
+          "estimiez",
+          "estimaient"
+        ],
+        "FUT": [
+          "estimerai",
+          "estimeras",
+          "estimera",
+          "estimerons",
+          "estimerez",
+          "estimeront"
+        ],
+        "PC": [
+          "ai estimé",
+          "as estimé",
+          "a estimé",
+          "avons estimé",
+          "avez estimé",
+          "ont estimé"
+        ],
+        "PQP": [
+          "avais estimé",
+          "avais estimé",
+          "avait estimé",
+          "avions estimé",
+          "aviez estimé",
+          "avaient estimé"
+        ],
+        "PS": [
+          "estimai",
+          "estimas",
+          "estima",
+          "estimâmes",
+          "estimâtes",
+          "estimèrent"
+        ],
+        "COND": [
+          "estimerais",
+          "estimerais",
+          "estimerait",
+          "estimerions",
+          "estimeriez",
+          "estimeraient"
+        ],
+        "SUBJ": [
+          "estime",
+          "estimes",
+          "estime",
+          "estimions",
+          "estimiez",
+          "estiment"
+        ],
+        "IMPER": [
+          "",
+          "estime",
+          "",
+          "estimons",
+          "estimez",
+          ""
+        ],
+        "PPRES": [
+          "estimant"
+        ],
+        "PPASSE": [
+          "estimé"
+        ]
+      }
+    },
+    {
+      "lemma": "attribuer",
+      "ja": "帰する・与える",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "attribue",
+          "attribues",
+          "attribue",
+          "attribuons",
+          "attribuez",
+          "attribuent"
+        ],
+        "IMPF": [
+          "attribuais",
+          "attribuais",
+          "attribuait",
+          "attribuions",
+          "attribuiez",
+          "attribuaient"
+        ],
+        "FUT": [
+          "attribuerai",
+          "attribueras",
+          "attribuera",
+          "attribuerons",
+          "attribuerez",
+          "attribueront"
+        ],
+        "PC": [
+          "ai attribué",
+          "as attribué",
+          "a attribué",
+          "avons attribué",
+          "avez attribué",
+          "ont attribué"
+        ],
+        "PQP": [
+          "avais attribué",
+          "avais attribué",
+          "avait attribué",
+          "avions attribué",
+          "aviez attribué",
+          "avaient attribué"
+        ],
+        "PS": [
+          "attribuai",
+          "attribuas",
+          "attribua",
+          "attribuâmes",
+          "attribuâtes",
+          "attribuèrent"
+        ],
+        "COND": [
+          "attribuerais",
+          "attribuerais",
+          "attribuerait",
+          "attribuerions",
+          "attribueriez",
+          "attribueraient"
+        ],
+        "SUBJ": [
+          "attribue",
+          "attribues",
+          "attribue",
+          "attribuions",
+          "attribuiez",
+          "attribuent"
+        ],
+        "IMPER": [
+          "",
+          "attribue",
+          "",
+          "attribuons",
+          "attribuez",
+          ""
+        ],
+        "PPRES": [
+          "attribuant"
+        ],
+        "PPASSE": [
+          "attribué"
+        ]
+      }
+    },
+    {
+      "lemma": "démentir",
+      "ja": "否定する・反論する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "démens",
+          "démens",
+          "dément",
+          "démentons",
+          "démentez",
+          "démentent"
+        ],
+        "IMPF": [
+          "démentais",
+          "démentais",
+          "démentait",
+          "démentions",
+          "démentiez",
+          "démentaient"
+        ],
+        "FUT": [
+          "démentirai",
+          "démentiras",
+          "démentira",
+          "démentirons",
+          "démentirez",
+          "démentiront"
+        ],
+        "PC": [
+          "ai démenti",
+          "as démenti",
+          "a démenti",
+          "avons démenti",
+          "avez démenti",
+          "ont démenti"
+        ],
+        "PQP": [
+          "avais démenti",
+          "avais démenti",
+          "avait démenti",
+          "avions démenti",
+          "aviez démenti",
+          "avaient démenti"
+        ],
+        "PS": [
+          "démentis",
+          "démentis",
+          "démentit",
+          "démentîmes",
+          "démentîtes",
+          "démentirent"
+        ],
+        "COND": [
+          "démentirais",
+          "démentirais",
+          "démentirait",
+          "démentirions",
+          "démentiriez",
+          "démentiraient"
+        ],
+        "SUBJ": [
+          "démente",
+          "démentes",
+          "démente",
+          "démentions",
+          "démentiez",
+          "démentent"
+        ],
+        "IMPER": [
+          "",
+          "démens",
+          "",
+          "démentons",
+          "démentez",
+          ""
+        ],
+        "PPRES": [
+          "démentant"
+        ],
+        "PPASSE": [
+          "démenti"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMPF": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "FUT": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "PC": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "PQP": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "PS": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-I-II-",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            null,
+            0,
+            null,
+            0,
+            0,
+            null
+          ]
+        },
+        "PPRES": {
+          "codes": "I",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0
+          ]
+        },
+        "PPASSE": {
+          "codes": "I",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "alléguer",
+      "ja": "主張する・申し立てる",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "allègue",
+          "allègues",
+          "allègue",
+          "alléguons",
+          "alléguez",
+          "allèguent"
+        ],
+        "IMPF": [
+          "alléguais",
+          "alléguais",
+          "alléguait",
+          "alléguions",
+          "alléguiez",
+          "alléguaient"
+        ],
+        "FUT": [
+          "alléguerai",
+          "allégueras",
+          "alléguera",
+          "alléguerons",
+          "alléguerez",
+          "allégueront"
+        ],
+        "PC": [
+          "ai allégué",
+          "as allégué",
+          "a allégué",
+          "avons allégué",
+          "avez allégué",
+          "ont allégué"
+        ],
+        "PQP": [
+          "avais allégué",
+          "avais allégué",
+          "avait allégué",
+          "avions allégué",
+          "aviez allégué",
+          "avaient allégué"
+        ],
+        "PS": [
+          "alléguai",
+          "alléguas",
+          "allégua",
+          "alléguâmes",
+          "alléguâtes",
+          "alléguèrent"
+        ],
+        "COND": [
+          "alléguerais",
+          "alléguerais",
+          "alléguerait",
+          "alléguerions",
+          "allégueriez",
+          "allégueraient"
+        ],
+        "SUBJ": [
+          "allègue",
+          "allègues",
+          "allègue",
+          "alléguions",
+          "alléguiez",
+          "allèguent"
+        ],
+        "IMPER": [
+          "",
+          "allègue",
+          "",
+          "alléguons",
+          "alléguez",
+          ""
+        ],
+        "PPRES": [
+          "alléguant"
+        ],
+        "PPASSE": [
+          "allégué"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 é → è",
+          "texts": [
+            "語幹の é が è に変わる（allégu- → allègu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 é → è",
+          "texts": [
+            "語幹の é が è に変わる（allégu- → allègu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-S-RR-",
+          "summary": "語幹交替 é → è",
+          "texts": [
+            "語幹の é が è に変わる（allégu- → allègu-）"
+          ],
+          "idx": [
+            null,
+            0,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "promulguer",
+      "ja": "公布する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "promulgue",
+          "promulgues",
+          "promulgue",
+          "promulguons",
+          "promulguez",
+          "promulguent"
+        ],
+        "IMPF": [
+          "promulguais",
+          "promulguais",
+          "promulguait",
+          "promulguions",
+          "promulguiez",
+          "promulguaient"
+        ],
+        "FUT": [
+          "promulguerai",
+          "promulgueras",
+          "promulguera",
+          "promulguerons",
+          "promulguerez",
+          "promulgueront"
+        ],
+        "PC": [
+          "ai promulgué",
+          "as promulgué",
+          "a promulgué",
+          "avons promulgué",
+          "avez promulgué",
+          "ont promulgué"
+        ],
+        "PQP": [
+          "avais promulgué",
+          "avais promulgué",
+          "avait promulgué",
+          "avions promulgué",
+          "aviez promulgué",
+          "avaient promulgué"
+        ],
+        "PS": [
+          "promulguai",
+          "promulguas",
+          "promulgua",
+          "promulguâmes",
+          "promulguâtes",
+          "promulguèrent"
+        ],
+        "COND": [
+          "promulguerais",
+          "promulguerais",
+          "promulguerait",
+          "promulguerions",
+          "promulgueriez",
+          "promulgueraient"
+        ],
+        "SUBJ": [
+          "promulgue",
+          "promulgues",
+          "promulgue",
+          "promulguions",
+          "promulguiez",
+          "promulguent"
+        ],
+        "IMPER": [
+          "",
+          "promulgue",
+          "",
+          "promulguons",
+          "promulguez",
+          ""
+        ],
+        "PPRES": [
+          "promulguant"
+        ],
+        "PPASSE": [
+          "promulgué"
+        ]
+      }
+    },
+    {
+      "lemma": "abroger",
+      "ja": "廃止する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "abroge",
+          "abroges",
+          "abroge",
+          "abrogeons",
+          "abrogez",
+          "abrogent"
+        ],
+        "IMPF": [
+          "abrogeais",
+          "abrogeais",
+          "abrogeait",
+          "abrogions",
+          "abrogiez",
+          "abrogeaient"
+        ],
+        "FUT": [
+          "abrogerai",
+          "abrogeras",
+          "abrogera",
+          "abrogerons",
+          "abrogerez",
+          "abrogeront"
+        ],
+        "PC": [
+          "ai abrogé",
+          "as abrogé",
+          "a abrogé",
+          "avons abrogé",
+          "avez abrogé",
+          "ont abrogé"
+        ],
+        "PQP": [
+          "avais abrogé",
+          "avais abrogé",
+          "avait abrogé",
+          "avions abrogé",
+          "aviez abrogé",
+          "avaient abrogé"
+        ],
+        "PS": [
+          "abrogeai",
+          "abrogeas",
+          "abrogea",
+          "abrogeâmes",
+          "abrogeâtes",
+          "abrogèrent"
+        ],
+        "COND": [
+          "abrogerais",
+          "abrogerais",
+          "abrogerait",
+          "abrogerions",
+          "abrogeriez",
+          "abrogeraient"
+        ],
+        "SUBJ": [
+          "abroge",
+          "abroges",
+          "abroge",
+          "abrogions",
+          "abrogiez",
+          "abrogent"
+        ],
+        "IMPER": [
+          "",
+          "abroge",
+          "",
+          "abrogeons",
+          "abrogez",
+          ""
+        ],
+        "PPRES": [
+          "abrogeant"
+        ],
+        "PPASSE": [
+          "abrogé"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "RRRSRR",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（abrog- → abroge-）"
+          ],
+          "idx": [
+            null,
+            null,
+            null,
+            0,
+            null,
+            null
+          ]
+        },
+        "IMPF": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（abrog- → abroge-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-R-SR-",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（abrog- → abroge-）"
+          ],
+          "idx": [
+            null,
+            null,
+            null,
+            0,
+            null,
+            null
+          ]
+        },
+        "PPRES": {
+          "codes": "S",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（abrog- → abroge-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "soutenir",
+      "ja": "支える・主張する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "soutiens",
+          "soutiens",
+          "soutient",
+          "soutenons",
+          "soutenez",
+          "soutiennent"
+        ],
+        "IMPF": [
+          "soutenais",
+          "soutenais",
+          "soutenait",
+          "soutenions",
+          "souteniez",
+          "soutenaient"
+        ],
+        "FUT": [
+          "soutiendrai",
+          "soutiendras",
+          "soutiendra",
+          "soutiendrons",
+          "soutiendrez",
+          "soutiendront"
+        ],
+        "PC": [
+          "ai soutenu",
+          "as soutenu",
+          "a soutenu",
+          "avons soutenu",
+          "avez soutenu",
+          "ont soutenu"
+        ],
+        "PQP": [
+          "avais soutenu",
+          "avais soutenu",
+          "avait soutenu",
+          "avions soutenu",
+          "aviez soutenu",
+          "avaient soutenu"
+        ],
+        "PS": [
+          "soutins",
+          "soutins",
+          "soutint",
+          "soutînmes",
+          "soutîntes",
+          "soutinrent"
+        ],
+        "COND": [
+          "soutiendrais",
+          "soutiendrais",
+          "soutiendrait",
+          "soutiendrions",
+          "soutiendriez",
+          "soutiendraient"
+        ],
+        "SUBJ": [
+          "soutienne",
+          "soutiennes",
+          "soutienne",
+          "soutenions",
+          "souteniez",
+          "soutiennent"
+        ],
+        "IMPER": [
+          "",
+          "soutiens",
+          "",
+          "soutenons",
+          "soutenez",
+          ""
+        ],
+        "PPRES": [
+          "soutenant"
+        ],
+        "PPASSE": [
+          "soutenu"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMPF": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "FUT": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "PC": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "PQP": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "PS": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-I-II-",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            null,
+            0,
+            null,
+            0,
+            0,
+            null
+          ]
+        },
+        "PPRES": {
+          "codes": "I",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0
+          ]
+        },
+        "PPASSE": {
+          "codes": "I",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "accroître",
+      "ja": "増大させる",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "accrois",
+          "accrois",
+          "accroît",
+          "accroissons",
+          "accroissez",
+          "accroissent"
+        ],
+        "IMPF": [
+          "accroissais",
+          "accroissais",
+          "accroissait",
+          "accroissions",
+          "accroissiez",
+          "accroissaient"
+        ],
+        "FUT": [
+          "accroîtrai",
+          "accroîtras",
+          "accroîtra",
+          "accroîtrons",
+          "accroîtrez",
+          "accroîtront"
+        ],
+        "PC": [
+          "ai accrû",
+          "as accrû",
+          "a accrû",
+          "avons accrû",
+          "avez accrû",
+          "ont accrû"
+        ],
+        "PQP": [
+          "avais accrû",
+          "avais accrû",
+          "avait accrû",
+          "avions accrû",
+          "aviez accrû",
+          "avaient accrû"
+        ],
+        "PS": [
+          "accrus",
+          "accrus",
+          "accrut",
+          "accrûmes",
+          "accrûtes",
+          "accrurent"
+        ],
+        "COND": [
+          "accroîtrais",
+          "accroîtrais",
+          "accroîtrait",
+          "accroîtrions",
+          "accroîtriez",
+          "accroîtraient"
+        ],
+        "SUBJ": [
+          "accroisse",
+          "accroisses",
+          "accroisse",
+          "accroissions",
+          "accroissiez",
+          "accroissent"
+        ],
+        "IMPER": [
+          "",
+          "accrois",
+          "",
+          "accroissons",
+          "accroissez",
+          ""
+        ],
+        "PPRES": [
+          "accroissant"
+        ],
+        "PPASSE": [
+          "accrû"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMPF": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "FUT": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "PC": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "PQP": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "PS": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-I-II-",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            null,
+            0,
+            null,
+            0,
+            0,
+            null
+          ]
+        },
+        "PPRES": {
+          "codes": "I",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0
+          ]
+        },
+        "PPASSE": {
+          "codes": "I",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "diminuer",
+      "ja": "減少させる",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "diminue",
+          "diminues",
+          "diminue",
+          "diminuons",
+          "diminuez",
+          "diminuent"
+        ],
+        "IMPF": [
+          "diminuais",
+          "diminuais",
+          "diminuait",
+          "diminuions",
+          "diminuiez",
+          "diminuaient"
+        ],
+        "FUT": [
+          "diminuerai",
+          "diminueras",
+          "diminuera",
+          "diminuerons",
+          "diminuerez",
+          "diminueront"
+        ],
+        "PC": [
+          "ai diminué",
+          "as diminué",
+          "a diminué",
+          "avons diminué",
+          "avez diminué",
+          "ont diminué"
+        ],
+        "PQP": [
+          "avais diminué",
+          "avais diminué",
+          "avait diminué",
+          "avions diminué",
+          "aviez diminué",
+          "avaient diminué"
+        ],
+        "PS": [
+          "diminuai",
+          "diminuas",
+          "diminua",
+          "diminuâmes",
+          "diminuâtes",
+          "diminuèrent"
+        ],
+        "COND": [
+          "diminuerais",
+          "diminuerais",
+          "diminuerait",
+          "diminuerions",
+          "diminueriez",
+          "diminueraient"
+        ],
+        "SUBJ": [
+          "diminue",
+          "diminues",
+          "diminue",
+          "diminuions",
+          "diminuiez",
+          "diminuent"
+        ],
+        "IMPER": [
+          "",
+          "diminue",
+          "",
+          "diminuons",
+          "diminuez",
+          ""
+        ],
+        "PPRES": [
+          "diminuant"
+        ],
+        "PPASSE": [
+          "diminué"
+        ]
+      }
+    },
+    {
+      "lemma": "négocier",
+      "ja": "交渉する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "négocie",
+          "négocies",
+          "négocie",
+          "négocions",
+          "négociez",
+          "négocient"
+        ],
+        "IMPF": [
+          "négociais",
+          "négociais",
+          "négociait",
+          "négociions",
+          "négociiez",
+          "négociaient"
+        ],
+        "FUT": [
+          "négocierai",
+          "négocieras",
+          "négociera",
+          "négocierons",
+          "négocierez",
+          "négocieront"
+        ],
+        "PC": [
+          "ai négocié",
+          "as négocié",
+          "a négocié",
+          "avons négocié",
+          "avez négocié",
+          "ont négocié"
+        ],
+        "PQP": [
+          "avais négocié",
+          "avais négocié",
+          "avait négocié",
+          "avions négocié",
+          "aviez négocié",
+          "avaient négocié"
+        ],
+        "PS": [
+          "négociai",
+          "négocias",
+          "négocia",
+          "négociâmes",
+          "négociâtes",
+          "négocièrent"
+        ],
+        "COND": [
+          "négocierais",
+          "négocierais",
+          "négocierait",
+          "négocierions",
+          "négocieriez",
+          "négocieraient"
+        ],
+        "SUBJ": [
+          "négocie",
+          "négocies",
+          "négocie",
+          "négociions",
+          "négociiez",
+          "négocient"
+        ],
+        "IMPER": [
+          "",
+          "négocie",
+          "",
+          "négocions",
+          "négociez",
+          ""
+        ],
+        "PPRES": [
+          "négociant"
+        ],
+        "PPASSE": [
+          "négocié"
+        ]
+      }
+    },
+    {
+      "lemma": "appuyer",
+      "ja": "支持する・押す",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "appuie",
+          "appuies",
+          "appuie",
+          "appuyons",
+          "appuyez",
+          "appuient"
+        ],
+        "IMPF": [
+          "appuyais",
+          "appuyais",
+          "appuyait",
+          "appuyions",
+          "appuyiez",
+          "appuyaient"
+        ],
+        "FUT": [
+          "appuierai",
+          "appuieras",
+          "appuiera",
+          "appuierons",
+          "appuierez",
+          "appuieront"
+        ],
+        "PC": [
+          "ai appuyé",
+          "as appuyé",
+          "a appuyé",
+          "avons appuyé",
+          "avez appuyé",
+          "ont appuyé"
+        ],
+        "PQP": [
+          "avais appuyé",
+          "avais appuyé",
+          "avait appuyé",
+          "avions appuyé",
+          "aviez appuyé",
+          "avaient appuyé"
+        ],
+        "PS": [
+          "appuyai",
+          "appuyas",
+          "appuya",
+          "appuyâmes",
+          "appuyâtes",
+          "appuyèrent"
+        ],
+        "COND": [
+          "appuierais",
+          "appuierais",
+          "appuierait",
+          "appuierions",
+          "appuieriez",
+          "appuieraient"
+        ],
+        "SUBJ": [
+          "appuie",
+          "appuies",
+          "appuie",
+          "appuyions",
+          "appuyiez",
+          "appuient"
+        ],
+        "IMPER": [
+          "",
+          "appuie",
+          "",
+          "appuyons",
+          "appuyez",
+          ""
+        ],
+        "PPRES": [
+          "appuyant"
+        ],
+        "PPASSE": [
+          "appuyé"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 y → i",
+          "texts": [
+            "語幹の y が i に変わる（appuy- → appui-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "FUT": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 y → i",
+          "texts": [
+            "語幹の y が i に変わる（appuyer- → appuier-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 y → i",
+          "texts": [
+            "語幹の y が i に変わる（appuyer- → appuier-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 y → i",
+          "texts": [
+            "語幹の y が i に変わる（appuy- → appui-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-S-RR-",
+          "summary": "語幹交替 y → i",
+          "texts": [
+            "語幹の y が i に変わる（appuy- → appui-）"
+          ],
+          "idx": [
+            null,
+            0,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "contester",
+      "ja": "異議を唱える",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "conteste",
+          "contestes",
+          "conteste",
+          "contestons",
+          "contestez",
+          "contestent"
+        ],
+        "IMPF": [
+          "contestais",
+          "contestais",
+          "contestait",
+          "contestions",
+          "contestiez",
+          "contestaient"
+        ],
+        "FUT": [
+          "contesterai",
+          "contesteras",
+          "contestera",
+          "contesterons",
+          "contesterez",
+          "contesteront"
+        ],
+        "PC": [
+          "ai contesté",
+          "as contesté",
+          "a contesté",
+          "avons contesté",
+          "avez contesté",
+          "ont contesté"
+        ],
+        "PQP": [
+          "avais contesté",
+          "avais contesté",
+          "avait contesté",
+          "avions contesté",
+          "aviez contesté",
+          "avaient contesté"
+        ],
+        "PS": [
+          "contestai",
+          "contestas",
+          "contesta",
+          "contestâmes",
+          "contestâtes",
+          "contestèrent"
+        ],
+        "COND": [
+          "contesterais",
+          "contesterais",
+          "contesterait",
+          "contesterions",
+          "contesteriez",
+          "contesteraient"
+        ],
+        "SUBJ": [
+          "conteste",
+          "contestes",
+          "conteste",
+          "contestions",
+          "contestiez",
+          "contestent"
+        ],
+        "IMPER": [
+          "",
+          "conteste",
+          "",
+          "contestons",
+          "contestez",
+          ""
+        ],
+        "PPRES": [
+          "contestant"
+        ],
+        "PPASSE": [
+          "contesté"
+        ]
+      }
+    },
+    {
+      "lemma": "consolider",
+      "ja": "強固にする",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "consolide",
+          "consolides",
+          "consolide",
+          "consolidons",
+          "consolidez",
+          "consolident"
+        ],
+        "IMPF": [
+          "consolidais",
+          "consolidais",
+          "consolidait",
+          "consolidions",
+          "consolidiez",
+          "consolidaient"
+        ],
+        "FUT": [
+          "consoliderai",
+          "consolideras",
+          "consolidera",
+          "consoliderons",
+          "consoliderez",
+          "consolideront"
+        ],
+        "PC": [
+          "ai consolidé",
+          "as consolidé",
+          "a consolidé",
+          "avons consolidé",
+          "avez consolidé",
+          "ont consolidé"
+        ],
+        "PQP": [
+          "avais consolidé",
+          "avais consolidé",
+          "avait consolidé",
+          "avions consolidé",
+          "aviez consolidé",
+          "avaient consolidé"
+        ],
+        "PS": [
+          "consolidai",
+          "consolidas",
+          "consolida",
+          "consolidâmes",
+          "consolidâtes",
+          "consolidèrent"
+        ],
+        "COND": [
+          "consoliderais",
+          "consoliderais",
+          "consoliderait",
+          "consoliderions",
+          "consolideriez",
+          "consolideraient"
+        ],
+        "SUBJ": [
+          "consolide",
+          "consolides",
+          "consolide",
+          "consolidions",
+          "consolidiez",
+          "consolident"
+        ],
+        "IMPER": [
+          "",
+          "consolide",
+          "",
+          "consolidons",
+          "consolidez",
+          ""
+        ],
+        "PPRES": [
+          "consolidant"
+        ],
+        "PPASSE": [
+          "consolidé"
+        ]
+      }
+    },
+    {
+      "lemma": "déclencher",
+      "ja": "引き起こす・作動させる",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "déclenche",
+          "déclenches",
+          "déclenche",
+          "déclenchons",
+          "déclenchez",
+          "déclenchent"
+        ],
+        "IMPF": [
+          "déclenchais",
+          "déclenchais",
+          "déclenchait",
+          "déclenchions",
+          "déclenchiez",
+          "déclenchaient"
+        ],
+        "FUT": [
+          "déclencherai",
+          "déclencheras",
+          "déclenchera",
+          "déclencherons",
+          "déclencherez",
+          "déclencheront"
+        ],
+        "PC": [
+          "ai déclenché",
+          "as déclenché",
+          "a déclenché",
+          "avons déclenché",
+          "avez déclenché",
+          "ont déclenché"
+        ],
+        "PQP": [
+          "avais déclenché",
+          "avais déclenché",
+          "avait déclenché",
+          "avions déclenché",
+          "aviez déclenché",
+          "avaient déclenché"
+        ],
+        "PS": [
+          "déclenchai",
+          "déclenchas",
+          "déclencha",
+          "déclenchâmes",
+          "déclenchâtes",
+          "déclenchèrent"
+        ],
+        "COND": [
+          "déclencherais",
+          "déclencherais",
+          "déclencherait",
+          "déclencherions",
+          "déclencheriez",
+          "déclencheraient"
+        ],
+        "SUBJ": [
+          "déclenche",
+          "déclenches",
+          "déclenche",
+          "déclenchions",
+          "déclenchiez",
+          "déclenchent"
+        ],
+        "IMPER": [
+          "",
+          "déclenche",
+          "",
+          "déclenchons",
+          "déclenchez",
+          ""
+        ],
+        "PPRES": [
+          "déclenchant"
+        ],
+        "PPASSE": [
+          "déclenché"
+        ]
+      }
+    },
+    {
+      "lemma": "entraîner",
+      "ja": "引き起こす・訓練する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "entraîne",
+          "entraînes",
+          "entraîne",
+          "entraînons",
+          "entraînez",
+          "entraînent"
+        ],
+        "IMPF": [
+          "entraînais",
+          "entraînais",
+          "entraînait",
+          "entraînions",
+          "entraîniez",
+          "entraînaient"
+        ],
+        "FUT": [
+          "entraînerai",
+          "entraîneras",
+          "entraînera",
+          "entraînerons",
+          "entraînerez",
+          "entraîneront"
+        ],
+        "PC": [
+          "ai entraîné",
+          "as entraîné",
+          "a entraîné",
+          "avons entraîné",
+          "avez entraîné",
+          "ont entraîné"
+        ],
+        "PQP": [
+          "avais entraîné",
+          "avais entraîné",
+          "avait entraîné",
+          "avions entraîné",
+          "aviez entraîné",
+          "avaient entraîné"
+        ],
+        "PS": [
+          "entraînai",
+          "entraînas",
+          "entraîna",
+          "entraînâmes",
+          "entraînâtes",
+          "entraînèrent"
+        ],
+        "COND": [
+          "entraînerais",
+          "entraînerais",
+          "entraînerait",
+          "entraînerions",
+          "entraîneriez",
+          "entraîneraient"
+        ],
+        "SUBJ": [
+          "entraîne",
+          "entraînes",
+          "entraîne",
+          "entraînions",
+          "entraîniez",
+          "entraînent"
+        ],
+        "IMPER": [
+          "",
+          "entraîne",
+          "",
+          "entraînons",
+          "entraînez",
+          ""
+        ],
+        "PPRES": [
+          "entraînant"
+        ],
+        "PPASSE": [
+          "entraîné"
+        ]
+      }
+    },
+    {
+      "lemma": "constater",
+      "ja": "確認する・認める",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "constate",
+          "constates",
+          "constate",
+          "constatons",
+          "constatez",
+          "constatent"
+        ],
+        "IMPF": [
+          "constatais",
+          "constatais",
+          "constatait",
+          "constations",
+          "constatiez",
+          "constataient"
+        ],
+        "FUT": [
+          "constaterai",
+          "constateras",
+          "constatera",
+          "constaterons",
+          "constaterez",
+          "constateront"
+        ],
+        "PC": [
+          "ai constaté",
+          "as constaté",
+          "a constaté",
+          "avons constaté",
+          "avez constaté",
+          "ont constaté"
+        ],
+        "PQP": [
+          "avais constaté",
+          "avais constaté",
+          "avait constaté",
+          "avions constaté",
+          "aviez constaté",
+          "avaient constaté"
+        ],
+        "PS": [
+          "constatai",
+          "constatas",
+          "constata",
+          "constatâmes",
+          "constatâtes",
+          "constatèrent"
+        ],
+        "COND": [
+          "constaterais",
+          "constaterais",
+          "constaterait",
+          "constaterions",
+          "constateriez",
+          "constateraient"
+        ],
+        "SUBJ": [
+          "constate",
+          "constates",
+          "constate",
+          "constations",
+          "constatiez",
+          "constatent"
+        ],
+        "IMPER": [
+          "",
+          "constate",
+          "",
+          "constatons",
+          "constatez",
+          ""
+        ],
+        "PPRES": [
+          "constatant"
+        ],
+        "PPASSE": [
+          "constaté"
+        ]
+      }
+    },
+    {
+      "lemma": "renforcer",
+      "ja": "強化する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "renforce",
+          "renforces",
+          "renforce",
+          "renforçons",
+          "renforcez",
+          "renforcent"
+        ],
+        "IMPF": [
+          "renforçais",
+          "renforçais",
+          "renforçait",
+          "renforcions",
+          "renforciez",
+          "renforçaient"
+        ],
+        "FUT": [
+          "renforcerai",
+          "renforceras",
+          "renforcera",
+          "renforcerons",
+          "renforcerez",
+          "renforceront"
+        ],
+        "PC": [
+          "ai renforcé",
+          "as renforcé",
+          "a renforcé",
+          "avons renforcé",
+          "avez renforcé",
+          "ont renforcé"
+        ],
+        "PQP": [
+          "avais renforcé",
+          "avais renforcé",
+          "avait renforcé",
+          "avions renforcé",
+          "aviez renforcé",
+          "avaient renforcé"
+        ],
+        "PS": [
+          "renforçai",
+          "renforças",
+          "renforça",
+          "renforçâmes",
+          "renforçâtes",
+          "renforcèrent"
+        ],
+        "COND": [
+          "renforcerais",
+          "renforcerais",
+          "renforcerait",
+          "renforcerions",
+          "renforceriez",
+          "renforceraient"
+        ],
+        "SUBJ": [
+          "renforce",
+          "renforces",
+          "renforce",
+          "renforcions",
+          "renforciez",
+          "renforcent"
+        ],
+        "IMPER": [
+          "",
+          "renforce",
+          "",
+          "renforçons",
+          "renforcez",
+          ""
+        ],
+        "PPRES": [
+          "renforçant"
+        ],
+        "PPASSE": [
+          "renforcé"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "RRRSRR",
+          "summary": "語幹交替 c → ç",
+          "texts": [
+            "語幹の c が ç に変わる（renforc- → renforç-）"
+          ],
+          "idx": [
+            null,
+            null,
+            null,
+            0,
+            null,
+            null
+          ]
+        },
+        "IMPF": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 c → ç",
+          "texts": [
+            "語幹の c が ç に変わる（renforc- → renforç-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-R-SR-",
+          "summary": "語幹交替 c → ç",
+          "texts": [
+            "語幹の c が ç に変わる（renforc- → renforç-）"
+          ],
+          "idx": [
+            null,
+            null,
+            null,
+            0,
+            null,
+            null
+          ]
+        },
+        "PPRES": {
+          "codes": "S",
+          "summary": "語幹交替 c → ç",
+          "texts": [
+            "語幹の c が ç に変わる（renforc- → renforç-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "dénoncer",
+      "ja": "告発する・非難する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "dénonce",
+          "dénonces",
+          "dénonce",
+          "dénonçons",
+          "dénoncez",
+          "dénoncent"
+        ],
+        "IMPF": [
+          "dénonçais",
+          "dénonçais",
+          "dénonçait",
+          "dénoncions",
+          "dénonciez",
+          "dénonçaient"
+        ],
+        "FUT": [
+          "dénoncerai",
+          "dénonceras",
+          "dénoncera",
+          "dénoncerons",
+          "dénoncerez",
+          "dénonceront"
+        ],
+        "PC": [
+          "ai dénoncé",
+          "as dénoncé",
+          "a dénoncé",
+          "avons dénoncé",
+          "avez dénoncé",
+          "ont dénoncé"
+        ],
+        "PQP": [
+          "avais dénoncé",
+          "avais dénoncé",
+          "avait dénoncé",
+          "avions dénoncé",
+          "aviez dénoncé",
+          "avaient dénoncé"
+        ],
+        "PS": [
+          "dénonçai",
+          "dénonças",
+          "dénonça",
+          "dénonçâmes",
+          "dénonçâtes",
+          "dénoncèrent"
+        ],
+        "COND": [
+          "dénoncerais",
+          "dénoncerais",
+          "dénoncerait",
+          "dénoncerions",
+          "dénonceriez",
+          "dénonceraient"
+        ],
+        "SUBJ": [
+          "dénonce",
+          "dénonces",
+          "dénonce",
+          "dénoncions",
+          "dénonciez",
+          "dénoncent"
+        ],
+        "IMPER": [
+          "",
+          "dénonce",
+          "",
+          "dénonçons",
+          "dénoncez",
+          ""
+        ],
+        "PPRES": [
+          "dénonçant"
+        ],
+        "PPASSE": [
+          "dénoncé"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "RRRSRR",
+          "summary": "語幹交替 c → ç",
+          "texts": [
+            "語幹の c が ç に変わる（dénonc- → dénonç-）"
+          ],
+          "idx": [
+            null,
+            null,
+            null,
+            0,
+            null,
+            null
+          ]
+        },
+        "IMPF": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 c → ç",
+          "texts": [
+            "語幹の c が ç に変わる（dénonc- → dénonç-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-R-SR-",
+          "summary": "語幹交替 c → ç",
+          "texts": [
+            "語幹の c が ç に変わる（dénonc- → dénonç-）"
+          ],
+          "idx": [
+            null,
+            null,
+            null,
+            0,
+            null,
+            null
+          ]
+        },
+        "PPRES": {
+          "codes": "S",
+          "summary": "語幹交替 c → ç",
+          "texts": [
+            "語幹の c が ç に変わる（dénonc- → dénonç-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "mener",
+      "ja": "導く・行う",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "mène",
+          "mènes",
+          "mène",
+          "menons",
+          "menez",
+          "mènent"
+        ],
+        "IMPF": [
+          "menais",
+          "menais",
+          "menait",
+          "menions",
+          "meniez",
+          "menaient"
+        ],
+        "FUT": [
+          "mènerai",
+          "mèneras",
+          "mènera",
+          "mènerons",
+          "mènerez",
+          "mèneront"
+        ],
+        "PC": [
+          "ai mené",
+          "as mené",
+          "a mené",
+          "avons mené",
+          "avez mené",
+          "ont mené"
+        ],
+        "PQP": [
+          "avais mené",
+          "avais mené",
+          "avait mené",
+          "avions mené",
+          "aviez mené",
+          "avaient mené"
+        ],
+        "PS": [
+          "menai",
+          "menas",
+          "mena",
+          "menâmes",
+          "menâtes",
+          "menèrent"
+        ],
+        "COND": [
+          "mènerais",
+          "mènerais",
+          "mènerait",
+          "mènerions",
+          "mèneriez",
+          "mèneraient"
+        ],
+        "SUBJ": [
+          "mène",
+          "mènes",
+          "mène",
+          "menions",
+          "meniez",
+          "mènent"
+        ],
+        "IMPER": [
+          "",
+          "mène",
+          "",
+          "menons",
+          "menez",
+          ""
+        ],
+        "PPRES": [
+          "menant"
+        ],
+        "PPASSE": [
+          "mené"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → è",
+          "texts": [
+            "語幹の e が è に変わる（men- → mèn-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（mener- → mèner-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（mener- → mèner-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → è",
+          "texts": [
+            "語幹の e が è に変わる（men- → mèn-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-S-RR-",
+          "summary": "語幹交替 e → è",
+          "texts": [
+            "語幹の e が è に変わる（men- → mèn-）"
+          ],
+          "idx": [
+            null,
+            0,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "relever",
+      "ja": "立て直す・指摘する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "relève",
+          "relèves",
+          "relève",
+          "relevons",
+          "relevez",
+          "relèvent"
+        ],
+        "IMPF": [
+          "relevais",
+          "relevais",
+          "relevait",
+          "relevions",
+          "releviez",
+          "relevaient"
+        ],
+        "FUT": [
+          "relèverai",
+          "relèveras",
+          "relèvera",
+          "relèverons",
+          "relèverez",
+          "relèveront"
+        ],
+        "PC": [
+          "ai relevé",
+          "as relevé",
+          "a relevé",
+          "avons relevé",
+          "avez relevé",
+          "ont relevé"
+        ],
+        "PQP": [
+          "avais relevé",
+          "avais relevé",
+          "avait relevé",
+          "avions relevé",
+          "aviez relevé",
+          "avaient relevé"
+        ],
+        "PS": [
+          "relevai",
+          "relevas",
+          "releva",
+          "relevâmes",
+          "relevâtes",
+          "relevèrent"
+        ],
+        "COND": [
+          "relèverais",
+          "relèverais",
+          "relèverait",
+          "relèverions",
+          "relèveriez",
+          "relèveraient"
+        ],
+        "SUBJ": [
+          "relève",
+          "relèves",
+          "relève",
+          "relevions",
+          "releviez",
+          "relèvent"
+        ],
+        "IMPER": [
+          "",
+          "relève",
+          "",
+          "relevons",
+          "relevez",
+          ""
+        ],
+        "PPRES": [
+          "relevant"
+        ],
+        "PPASSE": [
+          "relevé"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → è",
+          "texts": [
+            "語幹の e が è に変わる（relev- → relèv-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（relever- → relèver-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（relever- → relèver-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → è",
+          "texts": [
+            "語幹の e が è に変わる（relev- → relèv-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-S-RR-",
+          "summary": "語幹交替 e → è",
+          "texts": [
+            "語幹の e が è に変わる（relev- → relèv-）"
+          ],
+          "idx": [
+            null,
+            0,
+            null,
+            null,
+            null,
+            null
           ]
         }
       }

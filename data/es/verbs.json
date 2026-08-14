@@ -120,59 +120,45 @@
           "codes": "ESBEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら so のところが soy になる",
-            "規則どおりなら ses のところが eres になる",
-            "規則どおりなら se のところが es になる",
-            "規則どおりなら semos のところが somos になる",
-            "規則どおりなら séis のところが sois になる",
-            "規則どおりなら sen のところが son になる"
+            "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
           ],
           "idx": [
             0,
-            1,
-            2,
-            3,
-            4,
-            5
+            0,
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IND_PRET": {
           "codes": "BSBSSB",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら sí のところが fui になる",
-            "規則どおりなら siste のところが fuiste になる",
-            "規則どおりなら sió のところが fue になる",
-            "規則どおりなら simos のところが fuimos になる",
-            "規則どおりなら sisteis のところが fuisteis になる",
-            "規則どおりなら sieron のところが fueron になる"
+            "不規則形。この時制は fui / fuiste / fue / fuimos / fuisteis / fueron と変化する"
           ],
           "idx": [
             0,
-            1,
-            2,
-            3,
-            4,
-            5
+            0,
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IND_IMPF": {
           "codes": "BBBBBB",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら sía のところが era になる",
-            "規則どおりなら sías のところが eras になる",
-            "規則どおりなら síamos のところが éramos になる",
-            "規則どおりなら síais のところが erais になる",
-            "規則どおりなら sían のところが eran になる"
+            "不規則形。この時制は era / eras / era / éramos / erais / eran と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "SUBJ_PRES": {
@@ -194,26 +180,22 @@
           "codes": "BBBBBB",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら siera のところが fuera になる",
-            "規則どおりなら sieras のところが fueras になる",
-            "規則どおりなら siéramos のところが fuéramos になる",
-            "規則どおりなら sierais のところが fuerais になる",
-            "規則どおりなら sieran のところが fueran になる"
+            "不規則形。この時制は fuera / fueras / fuera / fuéramos / fuerais / fueran と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IMP": {
           "codes": "-ESSRS",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら se のところが sé になる",
+            "不規則形。この時制は sé / sea / seamos / sed / sean と変化する",
             "語幹が不規則に変化する（s- → se-）"
           ],
           "idx": [
@@ -331,91 +313,75 @@
           "codes": "EEERRE",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら esto のところが estoy になる",
-            "規則どおりなら estas のところが estás になる",
-            "規則どおりなら esta のところが está になる",
-            "規則どおりなら estan のところが están になる"
+            "不規則形。この時制は estoy / estás / está / estamos / estáis / están と変化する"
           ],
           "idx": [
             0,
-            1,
-            2,
+            0,
+            0,
             null,
             null,
-            3
+            0
           ]
         },
         "IND_PRET": {
           "codes": "EEEEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら esté のところが estuve になる",
-            "規則どおりなら estaste のところが estuviste になる",
-            "規則どおりなら estó のところが estuvo になる",
-            "規則どおりなら estamos のところが estuvimos になる",
-            "規則どおりなら estasteis のところが estuvisteis になる",
-            "規則どおりなら estaron のところが estuvieron になる"
+            "不規則形。この時制は estuve / estuviste / estuvo / estuvimos / estuvisteis / estuvieron と変化する"
           ],
           "idx": [
             0,
-            1,
-            2,
-            3,
-            4,
-            5
+            0,
+            0,
+            0,
+            0,
+            0
           ]
         },
         "SUBJ_PRES": {
           "codes": "EEERRE",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら este のところが esté になる",
-            "規則どおりなら estes のところが estés になる",
-            "規則どおりなら esten のところが estén になる"
+            "不規則形。この時制は esté / estés / esté / estemos / estéis / estén と変化する"
           ],
           "idx": [
             0,
-            1,
+            0,
             0,
             null,
             null,
-            2
+            0
           ]
         },
         "SUBJ_IMPF": {
           "codes": "EEEEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら estara のところが estuviera になる",
-            "規則どおりなら estaras のところが estuvieras になる",
-            "規則どおりなら estáramos のところが estuviéramos になる",
-            "規則どおりなら estarais のところが estuvierais になる",
-            "規則どおりなら estaran のところが estuvieran になる"
+            "不規則形。この時制は estuviera / estuvieras / estuviera / estuviéramos / estuvierais / estuvieran と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IMP": {
           "codes": "-EERRE",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら esta のところが está になる",
-            "規則どおりなら este のところが esté になる",
-            "規則どおりなら esten のところが estén になる"
+            "不規則形。この時制は está / esté / estemos / estad / estén と変化する"
           ],
           "idx": [
             null,
             0,
-            1,
+            0,
             null,
             null,
-            2
+            0
           ]
         }
       }
@@ -540,14 +506,13 @@
           "codes": "ESESSS",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら tení のところが tuve になる",
-            "語幹が不規則に変化する（ten- → tuv-）",
-            "規則どおりなら tenió のところが tuvo になる"
+            "不規則形。この時制は tuve / tuviste / tuvo / tuvimos / tuvisteis / tuvieron と変化する",
+            "語幹が不規則に変化する（ten- → tuv-）"
           ],
           "idx": [
             0,
             1,
-            2,
+            0,
             1,
             1,
             1
@@ -617,7 +582,7 @@
           "codes": "-ESSRS",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら tene のところが ten になる",
+            "不規則形。この時制は ten / tenga / tengamos / tened / tengan と変化する",
             "語幹が不規則に変化する（ten- → teng-）"
           ],
           "idx": [
@@ -750,14 +715,13 @@
           "codes": "ESESSS",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら hací のところが hice になる",
-            "語幹が不規則に変化する（hac- → hic-）",
-            "規則どおりなら hació のところが hizo になる"
+            "不規則形。この時制は hice / hiciste / hizo / hicimos / hicisteis / hicieron と変化する",
+            "語幹が不規則に変化する（hac- → hic-）"
           ],
           "idx": [
             0,
             1,
-            2,
+            0,
             1,
             1,
             1
@@ -827,7 +791,7 @@
           "codes": "-ESSRS",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら hace のところが haz になる",
+            "不規則形。この時制は haz / haga / hagamos / haced / hagan と変化する",
             "語幹が不規則に変化する（hac- → hag-）"
           ],
           "idx": [
@@ -843,7 +807,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら hacido のところが hecho になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -970,14 +934,13 @@
           "codes": "ESESSS",
           "summary": "語幹交替 o → u",
           "texts": [
-            "規則どおりなら podí のところが pude になる",
-            "語幹の o が u に変わる（pod- → pud-）",
-            "規則どおりなら podió のところが pudo になる"
+            "不規則形。この時制は pude / pudiste / pudo / pudimos / pudisteis / pudieron と変化する",
+            "語幹の o が u に変わる（pod- → pud-）"
           ],
           "idx": [
             0,
             1,
-            2,
+            0,
             1,
             1,
             1
@@ -1190,18 +1153,16 @@
           "codes": "ESESSE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら decí のところが dije になる",
-            "語幹が不規則に変化する（dec- → dij-）",
-            "規則どおりなら deció のところが dijo になる",
-            "規則どおりなら decieron のところが dijeron になる"
+            "不規則形。この時制は dije / dijiste / dijo / dijimos / dijisteis / dijeron と変化する",
+            "語幹が不規則に変化する（dec- → dij-）"
           ],
           "idx": [
             0,
             1,
-            2,
+            0,
             1,
             1,
-            3
+            0
           ]
         },
         "IND_FUT": {
@@ -1253,26 +1214,22 @@
           "codes": "EEEEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら deciera のところが dijera になる",
-            "規則どおりなら decieras のところが dijeras になる",
-            "規則どおりなら deciéramos のところが dijéramos になる",
-            "規則どおりなら decierais のところが dijerais になる",
-            "規則どおりなら decieran のところが dijeran になる"
+            "不規則形。この時制は dijera / dijeras / dijera / dijéramos / dijerais / dijeran と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IMP": {
           "codes": "-ESSRS",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら dece のところが di になる",
+            "不規則形。この時制は di / diga / digamos / decid / digan と変化する",
             "語幹が不規則に変化する（dec- → dig-）"
           ],
           "idx": [
@@ -1298,7 +1255,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら decido のところが dicho になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -1410,122 +1367,97 @@
           "codes": "BBBBBB",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら o のところが voy になる",
-            "規則どおりなら es のところが vas になる",
-            "規則どおりなら e のところが va になる",
-            "規則どおりなら imos のところが vamos になる",
-            "規則どおりなら ís のところが vais になる",
-            "規則どおりなら en のところが van になる"
+            "不規則形。この時制は voy / vas / va / vamos / vais / van と変化する"
           ],
           "idx": [
             0,
-            1,
-            2,
-            3,
-            4,
-            5
+            0,
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IND_PRET": {
           "codes": "BSBSSB",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら í のところが fui になる",
-            "規則どおりなら iste のところが fuiste になる",
-            "規則どおりなら ió のところが fue になる",
-            "規則どおりなら imos のところが fuimos になる",
-            "規則どおりなら isteis のところが fuisteis になる",
-            "規則どおりなら ieron のところが fueron になる"
+            "不規則形。この時制は fui / fuiste / fue / fuimos / fuisteis / fueron と変化する"
           ],
           "idx": [
             0,
-            1,
-            2,
-            3,
-            4,
-            5
+            0,
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IND_IMPF": {
           "codes": "BBBEBB",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら ía のところが iba になる",
-            "規則どおりなら ías のところが ibas になる",
-            "規則どおりなら íamos のところが íbamos になる",
-            "規則どおりなら íais のところが ibais になる",
-            "規則どおりなら ían のところが iban になる"
+            "不規則形。この時制は iba / ibas / iba / íbamos / ibais / iban と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "SUBJ_PRES": {
           "codes": "SSSSSS",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら a のところが vaya になる",
-            "規則どおりなら as のところが vayas になる",
-            "規則どおりなら amos のところが vayamos になる",
-            "規則どおりなら áis のところが vayáis になる",
-            "規則どおりなら an のところが vayan になる"
+            "不規則形。この時制は vaya / vayas / vaya / vayamos / vayáis / vayan と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "SUBJ_IMPF": {
           "codes": "BBBBBB",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら iera のところが fuera になる",
-            "規則どおりなら ieras のところが fueras になる",
-            "規則どおりなら iéramos のところが fuéramos になる",
-            "規則どおりなら ierais のところが fuerais になる",
-            "規則どおりなら ieran のところが fueran になる"
+            "不規則形。この時制は fuera / fueras / fuera / fuéramos / fuerais / fueran と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IMP": {
           "codes": "-SSSRS",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら e のところが ve になる",
-            "規則どおりなら a のところが vaya になる",
-            "規則どおりなら amos のところが vayamos になる",
-            "規則どおりなら an のところが vayan になる"
+            "不規則形。この時制は ve / vaya / vayamos / id / vayan と変化する"
           ],
           "idx": [
             null,
             0,
-            1,
-            2,
+            0,
+            0,
             null,
-            3
+            0
           ]
         },
         "GER": {
           "codes": "B",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら iendo のところが yendo になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -1638,7 +1570,7 @@
           "summary": "一部の人称が不規則",
           "texts": [
             "語幹が不規則に変化する（v- → ve-）",
-            "規則どおりなら véis のところが veis になる"
+            "不規則形。この時制は veo / ves / ve / vemos / veis / ven と変化する"
           ],
           "idx": [
             0,
@@ -1653,13 +1585,12 @@
           "codes": "ERERRR",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら ví のところが vi になる",
-            "規則どおりなら vió のところが vio になる"
+            "不規則形。この時制は vi / viste / vio / vimos / visteis / vieron と変化する"
           ],
           "idx": [
             0,
             null,
-            1,
+            0,
             null,
             null,
             null
@@ -1714,7 +1645,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら vido のところが visto になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -1826,15 +1757,14 @@
           "codes": "ERRRER",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら do のところが doy になる",
-            "規則どおりなら dáis のところが dais になる"
+            "不規則形。この時制は doy / das / da / damos / dais / dan と変化する"
           ],
           "idx": [
             0,
             null,
             null,
             null,
-            1,
+            0,
             null
           ]
         },
@@ -1842,35 +1772,29 @@
           "codes": "EEEEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら dé のところが di になる",
-            "規則どおりなら daste のところが diste になる",
-            "規則どおりなら dó のところが dio になる",
-            "規則どおりなら damos のところが dimos になる",
-            "規則どおりなら dasteis のところが disteis になる",
-            "規則どおりなら daron のところが dieron になる"
+            "不規則形。この時制は di / diste / dio / dimos / disteis / dieron と変化する"
           ],
           "idx": [
             0,
-            1,
-            2,
-            3,
-            4,
-            5
+            0,
+            0,
+            0,
+            0,
+            0
           ]
         },
         "SUBJ_PRES": {
           "codes": "ERERER",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら de のところが dé になる",
-            "規則どおりなら déis のところが deis になる"
+            "不規則形。この時制は dé / des / dé / demos / deis / den と変化する"
           ],
           "idx": [
             0,
             null,
             0,
             null,
-            1,
+            0,
             null
           ]
         },
@@ -1878,26 +1802,22 @@
           "codes": "EEEEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら dara のところが diera になる",
-            "規則どおりなら daras のところが dieras になる",
-            "規則どおりなら dáramos のところが diéramos になる",
-            "規則どおりなら darais のところが dierais になる",
-            "規則どおりなら daran のところが dieran になる"
+            "不規則形。この時制は diera / dieras / diera / diéramos / dierais / dieran と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IMP": {
           "codes": "-RERRR",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら de のところが dé になる"
+            "不規則形。この時制は da / dé / demos / dad / den と変化する"
           ],
           "idx": [
             null,
@@ -2014,7 +1934,7 @@
           "codes": "ERRRRR",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら sabo のところが sé になる"
+            "不規則形。この時制は sé / sabes / sabe / sabemos / sabéis / saben と変化する"
           ],
           "idx": [
             0,
@@ -2029,14 +1949,13 @@
           "codes": "ESESSS",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら sabí のところが supe になる",
-            "語幹が不規則に変化する（sab- → sup-）",
-            "規則どおりなら sabió のところが supo になる"
+            "不規則形。この時制は supe / supiste / supo / supimos / supisteis / supieron と変化する",
+            "語幹が不規則に変化する（sab- → sup-）"
           ],
           "idx": [
             0,
             1,
-            2,
+            0,
             1,
             1,
             1
@@ -2238,14 +2157,13 @@
           "codes": "ESESSS",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら querí のところが quise になる",
-            "語幹が不規則に変化する（quer- → quis-）",
-            "規則どおりなら querió のところが quiso になる"
+            "不規則形。この時制は quise / quisiste / quiso / quisimos / quisisteis / quisieron と変化する",
+            "語幹が不規則に変化する（quer- → quis-）"
           ],
           "idx": [
             0,
             1,
-            2,
+            0,
             1,
             1,
             1
@@ -2794,14 +2712,13 @@
           "codes": "ESESSS",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら poní のところが puse になる",
-            "語幹が不規則に変化する（pon- → pus-）",
-            "規則どおりなら ponió のところが puso になる"
+            "不規則形。この時制は puse / pusiste / puso / pusimos / pusisteis / pusieron と変化する",
+            "語幹が不規則に変化する（pon- → pus-）"
           ],
           "idx": [
             0,
             1,
-            2,
+            0,
             1,
             1,
             1
@@ -2871,7 +2788,7 @@
           "codes": "-ESSRS",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら pone のところが pon になる",
+            "不規則形。この時制は pon / ponga / pongamos / poned / pongan と変化する",
             "語幹が不規則に変化する（pon- → pong-）"
           ],
           "idx": [
@@ -2887,7 +2804,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら ponido のところが puesto になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -3246,45 +3163,37 @@
           "codes": "REEEEE",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら creiste のところが creíste になる",
-            "規則どおりなら creió のところが creyó になる",
-            "規則どおりなら creimos のところが creímos になる",
-            "規則どおりなら creisteis のところが creísteis になる",
-            "規則どおりなら creieron のところが creyeron になる"
+            "不規則形。この時制は creí / creíste / creyó / creímos / creísteis / creyeron と変化する"
           ],
           "idx": [
             null,
             0,
-            1,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "SUBJ_IMPF": {
           "codes": "EEEEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら creiera のところが creyera になる",
-            "規則どおりなら creieras のところが creyeras になる",
-            "規則どおりなら creiéramos のところが creyéramos になる",
-            "規則どおりなら creierais のところが creyerais になる",
-            "規則どおりなら creieran のところが creyeran になる"
+            "不規則形。この時制は creyera / creyeras / creyera / creyéramos / creyerais / creyeran と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "GER": {
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら creiendo のところが creyendo になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -3294,7 +3203,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら creido のところが creído になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -4158,14 +4067,13 @@
           "codes": "ESESSS",
           "summary": "語幹交替 e → i",
           "texts": [
-            "規則どおりなら vení のところが vine になる",
-            "語幹の e が i に変わる（ven- → vin-）",
-            "規則どおりなら venió のところが vino になる"
+            "不規則形。この時制は vine / viniste / vino / vinimos / vinisteis / vinieron と変化する",
+            "語幹の e が i に変わる（ven- → vin-）"
           ],
           "idx": [
             0,
             1,
-            2,
+            0,
             1,
             1,
             1
@@ -4235,7 +4143,7 @@
           "codes": "-ESSRS",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら vene のところが ven になる",
+            "不規則形。この時制は ven / venga / vengamos / venid / vengan と変化する",
             "語幹が不規則に変化する（ven- → veng-）"
           ],
           "idx": [
@@ -4570,7 +4478,7 @@
           "codes": "-ESSRS",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら sale のところが sal になる",
+            "不規則形。この時制は sal / salga / salgamos / salid / salgan と変化する",
             "語幹が不規則に変化する（sal- → salg-）"
           ],
           "idx": [
@@ -4733,7 +4641,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら volvido のところが vuelto になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -6240,7 +6148,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら escribido のところが escrito になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -8084,14 +7992,13 @@
           "codes": "ESESSS",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら mantení のところが mantuve になる",
-            "語幹が不規則に変化する（manten- → mantuv-）",
-            "規則どおりなら mantenió のところが mantuvo になる"
+            "不規則形。この時制は mantuve / mantuviste / mantuvo / mantuvimos / mantuvisteis / mantuvieron と変化する",
+            "語幹が不規則に変化する（manten- → mantuv-）"
           ],
           "idx": [
             0,
             1,
-            2,
+            0,
             1,
             1,
             1
@@ -8161,7 +8068,7 @@
           "codes": "-ESSRS",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら mantene のところが manten になる",
+            "不規則形。この時制は manten / mantenga / mantengamos / mantened / mantengan と変化する",
             "語幹が不規則に変化する（manten- → manteng-）"
           ],
           "idx": [
@@ -8279,45 +8186,37 @@
           "codes": "REEEEE",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら leiste のところが leíste になる",
-            "規則どおりなら leió のところが leyó になる",
-            "規則どおりなら leimos のところが leímos になる",
-            "規則どおりなら leisteis のところが leísteis になる",
-            "規則どおりなら leieron のところが leyeron になる"
+            "不規則形。この時制は leí / leíste / leyó / leímos / leísteis / leyeron と変化する"
           ],
           "idx": [
             null,
             0,
-            1,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "SUBJ_IMPF": {
           "codes": "EEEEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら leiera のところが leyera になる",
-            "規則どおりなら leieras のところが leyeras になる",
-            "規則どおりなら leiéramos のところが leyéramos になる",
-            "規則どおりなら leierais のところが leyerais になる",
-            "規則どおりなら leieran のところが leyeran になる"
+            "不規則形。この時制は leyera / leyeras / leyera / leyéramos / leyerais / leyeran と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "GER": {
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら leiendo のところが leyendo になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -8327,7 +8226,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら leido のところが leído になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -8454,19 +8353,15 @@
           "codes": "REEEEE",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら caiste のところが caíste になる",
-            "規則どおりなら caió のところが cayó になる",
-            "規則どおりなら caimos のところが caímos になる",
-            "規則どおりなら caisteis のところが caísteis になる",
-            "規則どおりなら caieron のところが cayeron になる"
+            "不規則形。この時制は caí / caíste / cayó / caímos / caísteis / cayeron と変化する"
           ],
           "idx": [
             null,
             0,
-            1,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "SUBJ_PRES": {
@@ -8488,19 +8383,15 @@
           "codes": "EEEEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら caiera のところが cayera になる",
-            "規則どおりなら caieras のところが cayeras になる",
-            "規則どおりなら caiéramos のところが cayéramos になる",
-            "規則どおりなら caierais のところが cayerais になる",
-            "規則どおりなら caieran のところが cayeran になる"
+            "不規則形。この時制は cayera / cayeras / cayera / cayéramos / cayerais / cayeran と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IMP": {
@@ -8522,7 +8413,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら caiendo のところが cayendo になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -8532,7 +8423,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら caido のところが caído になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -8844,7 +8735,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら abrido のところが abierto になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -8958,7 +8849,7 @@
           "texts": [
             "語幹が不規則に変化する（o- → oig-）",
             "語幹が不規則に変化する（o- → oy-）",
-            "規則どおりなら oimos のところが oímos になる"
+            "不規則形。この時制は oigo / oyes / oye / oímos / oís / oyen と変化する"
           ],
           "idx": [
             0,
@@ -8973,19 +8864,15 @@
           "codes": "REEEEE",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら oiste のところが oíste になる",
-            "規則どおりなら oió のところが oyó になる",
-            "規則どおりなら oimos のところが oímos になる",
-            "規則どおりなら oisteis のところが oísteis になる",
-            "規則どおりなら oieron のところが oyeron になる"
+            "不規則形。この時制は oí / oíste / oyó / oímos / oísteis / oyeron と変化する"
           ],
           "idx": [
             null,
             0,
-            1,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IND_FUT": {
@@ -9037,19 +8924,15 @@
           "codes": "EEEEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら oiera のところが oyera になる",
-            "規則どおりなら oieras のところが oyeras になる",
-            "規則どおりなら oiéramos のところが oyéramos になる",
-            "規則どおりなら oierais のところが oyerais になる",
-            "規則どおりなら oieran のところが oyeran になる"
+            "不規則形。この時制は oyera / oyeras / oyera / oyéramos / oyerais / oyeran と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IMP": {
@@ -9058,7 +8941,7 @@
           "texts": [
             "語幹が不規則に変化する（o- → oy-）",
             "語幹が不規則に変化する（o- → oig-）",
-            "規則どおりなら oid のところが oíd になる"
+            "不規則形。この時制は oye / oiga / oigamos / oíd / oigan と変化する"
           ],
           "idx": [
             null,
@@ -9073,7 +8956,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら oiendo のところが oyendo になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -9083,7 +8966,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら oido のところが oído になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -9410,18 +9293,16 @@
           "codes": "ESESSE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら traí のところが traje になる",
-            "語幹が不規則に変化する（tra- → traj-）",
-            "規則どおりなら traió のところが trajo になる",
-            "規則どおりなら traieron のところが trajeron になる"
+            "不規則形。この時制は traje / trajiste / trajo / trajimos / trajisteis / trajeron と変化する",
+            "語幹が不規則に変化する（tra- → traj-）"
           ],
           "idx": [
             0,
             1,
-            2,
+            0,
             1,
             1,
-            3
+            0
           ]
         },
         "SUBJ_PRES": {
@@ -9443,19 +9324,15 @@
           "codes": "EEEEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら traiera のところが trajera になる",
-            "規則どおりなら traieras のところが trajeras になる",
-            "規則どおりなら traiéramos のところが trajéramos になる",
-            "規則どおりなら traierais のところが trajerais になる",
-            "規則どおりなら traieran のところが trajeran になる"
+            "不規則形。この時制は trajera / trajeras / trajera / trajéramos / trajerais / trajeran と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IMP": {
@@ -9477,7 +9354,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら traiendo のところが trayendo になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -9487,7 +9364,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら traido のところが traído になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -9686,7 +9563,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら morido のところが muerto になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -9913,14 +9790,13 @@
           "codes": "ESESSS",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら suponí のところが supuse になる",
-            "語幹が不規則に変化する（supon- → supus-）",
-            "規則どおりなら suponió のところが supuso になる"
+            "不規則形。この時制は supuse / supusiste / supuso / supusimos / supusisteis / supusieron と変化する",
+            "語幹が不規則に変化する（supon- → supus-）"
           ],
           "idx": [
             0,
             1,
-            2,
+            0,
             1,
             1,
             1
@@ -9990,7 +9866,7 @@
           "codes": "-ESSRS",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら supone のところが supón になる",
+            "不規則形。この時制は supón / suponga / supongamos / suponed / supongan と変化する",
             "語幹が不規則に変化する（supon- → supong-）"
           ],
           "idx": [
@@ -10006,7 +9882,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら suponido のところが supuesto になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -10118,7 +9994,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら comprendido のところが comprenso になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -10869,7 +10745,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら nacido のところが nato になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -11840,7 +11716,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら descubrido のところが descubierto になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -12699,7 +12575,7 @@
           "codes": "-ESSRS",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら vale のところが val になる",
+            "不規則形。この時制は val / valga / valgamos / valed / valgan と変化する",
             "語幹が不規則に変化する（val- → valg-）"
           ],
           "idx": [
@@ -13406,39 +13282,30 @@
           "codes": "EEEEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら andé のところが anduve になる",
-            "規則どおりなら andaste のところが anduviste になる",
-            "規則どおりなら andó のところが anduvo になる",
-            "規則どおりなら andamos のところが anduvimos になる",
-            "規則どおりなら andasteis のところが anduvisteis になる",
-            "規則どおりなら andaron のところが anduvieron になる"
+            "不規則形。この時制は anduve / anduviste / anduvo / anduvimos / anduvisteis / anduvieron と変化する"
           ],
           "idx": [
             0,
-            1,
-            2,
-            3,
-            4,
-            5
+            0,
+            0,
+            0,
+            0,
+            0
           ]
         },
         "SUBJ_IMPF": {
           "codes": "EEEEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら andara のところが anduviera になる",
-            "規則どおりなら andaras のところが anduvieras になる",
-            "規則どおりなら andáramos のところが anduviéramos になる",
-            "規則どおりなら andarais のところが anduvierais になる",
-            "規則どおりなら andaran のところが anduvieran になる"
+            "不規則形。この時制は anduviera / anduvieras / anduviera / anduviéramos / anduvierais / anduvieran と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         }
       }
@@ -13562,18 +13429,16 @@
           "codes": "ESESSE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら conducí のところが conduje になる",
-            "語幹が不規則に変化する（conduc- → conduj-）",
-            "規則どおりなら condució のところが condujo になる",
-            "規則どおりなら conducieron のところが condujeron になる"
+            "不規則形。この時制は conduje / condujiste / condujo / condujimos / condujisteis / condujeron と変化する",
+            "語幹が不規則に変化する（conduc- → conduj-）"
           ],
           "idx": [
             0,
             1,
-            2,
+            0,
             1,
             1,
-            3
+            0
           ]
         },
         "SUBJ_PRES": {
@@ -13595,19 +13460,15 @@
           "codes": "EEEEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら conduciera のところが condujera になる",
-            "規則どおりなら conducieras のところが condujeras になる",
-            "規則どおりなら conduciéramos のところが condujéramos になる",
-            "規則どおりなら conducierais のところが condujerais になる",
-            "規則どおりなら conducieran のところが condujeran になる"
+            "不規則形。この時制は condujera / condujeras / condujera / condujéramos / condujerais / condujeran と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IMP": {
@@ -13818,7 +13679,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら elegido のところが electo になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -14624,7 +14485,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら rompido のところが roto になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -14751,8 +14612,7 @@
           "codes": "RRERRE",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら construió のところが construyó になる",
-            "規則どおりなら construieron のところが construyeron になる"
+            "不規則形。この時制は construí / construiste / construyó / construimos / construisteis / construyeron と変化する"
           ],
           "idx": [
             null,
@@ -14760,7 +14620,7 @@
             0,
             null,
             null,
-            1
+            0
           ]
         },
         "SUBJ_PRES": {
@@ -14782,19 +14642,15 @@
           "codes": "EEEEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら construiera のところが construyera になる",
-            "規則どおりなら construieras のところが construyeras になる",
-            "規則どおりなら construiéramos のところが construyéramos になる",
-            "規則どおりなら construierais のところが construyerais になる",
-            "規則どおりなら construieran のところが construyeran になる"
+            "不規則形。この時制は construyera / construyeras / construyera / construyéramos / construyerais / construyeran と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IMP": {
@@ -14816,7 +14672,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら construiendo のところが construyendo になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -15223,7 +15079,7 @@
           "summary": "語幹交替 e → í",
           "texts": [
             "語幹の e が í に変わる（sonre- → sonrí-）",
-            "規則どおりなら sonreimos のところが sonreímos になる"
+            "不規則形。この時制は sonrío / sonríes / sonríe / sonreímos / sonreís / sonríen と変化する"
           ],
           "idx": [
             0,
@@ -15238,17 +15094,15 @@
           "codes": "RESEES",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら sonreiste のところが sonreíste になる",
-            "語幹が不規則に変化する（sonre- → sonr-）",
-            "規則どおりなら sonreimos のところが sonreímos になる",
-            "規則どおりなら sonreisteis のところが sonreísteis になる"
+            "不規則形。この時制は sonreí / sonreíste / sonrió / sonreímos / sonreísteis / sonrieron と変化する",
+            "語幹が不規則に変化する（sonre- → sonr-）"
           ],
           "idx": [
             null,
             0,
             1,
-            2,
-            3,
+            0,
+            0,
             1
           ]
         },
@@ -15319,7 +15173,7 @@
           "texts": [
             "語幹の e が í に変わる（sonre- → sonrí-）",
             "語幹の e が i に変わる（sonre- → sonri-）",
-            "規則どおりなら sonreid のところが sonreíd になる"
+            "不規則形。この時制は sonríe / sonría / sonriamos / sonreíd / sonrían と変化する"
           ],
           "idx": [
             null,
@@ -15344,7 +15198,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら sonreido のところが sonreído になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -15457,7 +15311,7 @@
           "summary": "語幹交替 e → í",
           "texts": [
             "語幹の e が í に変わる（re- → rí-）",
-            "規則どおりなら reimos のところが reímos になる"
+            "不規則形。この時制は río / ríes / ríe / reímos / reís / ríen と変化する"
           ],
           "idx": [
             0,
@@ -15472,17 +15326,15 @@
           "codes": "RESEES",
           "summary": "一部の人称が不規則",
           "texts": [
-            "規則どおりなら reiste のところが reíste になる",
-            "語幹が不規則に変化する（re- → r-）",
-            "規則どおりなら reimos のところが reímos になる",
-            "規則どおりなら reisteis のところが reísteis になる"
+            "不規則形。この時制は reí / reíste / rió / reímos / reísteis / rieron と変化する",
+            "語幹が不規則に変化する（re- → r-）"
           ],
           "idx": [
             null,
             0,
             1,
-            2,
-            3,
+            0,
+            0,
             1
           ]
         },
@@ -15553,7 +15405,7 @@
           "texts": [
             "語幹の e が í に変わる（re- → rí-）",
             "語幹の e が i に変わる（re- → ri-）",
-            "規則どおりなら reid のところが reíd になる"
+            "不規則形。この時制は ríe / ría / riamos / reíd / rían と変化する"
           ],
           "idx": [
             null,
@@ -15578,7 +15430,7 @@
           "codes": "E",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら reido のところが reído になる"
+            "規則的な作り方が無い不規則形。この形のまま覚える"
           ],
           "idx": [
             0
@@ -15705,18 +15557,16 @@
           "codes": "ESESSE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら traducí のところが traduje になる",
-            "語幹が不規則に変化する（traduc- → traduj-）",
-            "規則どおりなら tradució のところが tradujo になる",
-            "規則どおりなら traducieron のところが tradujeron になる"
+            "不規則形。この時制は traduje / tradujiste / tradujo / tradujimos / tradujisteis / tradujeron と変化する",
+            "語幹が不規則に変化する（traduc- → traduj-）"
           ],
           "idx": [
             0,
             1,
-            2,
+            0,
             1,
             1,
-            3
+            0
           ]
         },
         "SUBJ_PRES": {
@@ -15738,19 +15588,15 @@
           "codes": "EEEEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら traduciera のところが tradujera になる",
-            "規則どおりなら traducieras のところが tradujeras になる",
-            "規則どおりなら traduciéramos のところが tradujéramos になる",
-            "規則どおりなら traducierais のところが tradujerais になる",
-            "規則どおりなら traducieran のところが tradujeran になる"
+            "不規則形。この時制は tradujera / tradujeras / tradujera / tradujéramos / tradujerais / tradujeran と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IMP": {
@@ -15889,18 +15735,16 @@
           "codes": "ESESSE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら producí のところが produje になる",
-            "語幹が不規則に変化する（produc- → produj-）",
-            "規則どおりなら produció のところが produjo になる",
-            "規則どおりなら producieron のところが produjeron になる"
+            "不規則形。この時制は produje / produjiste / produjo / produjimos / produjisteis / produjeron と変化する",
+            "語幹が不規則に変化する（produc- → produj-）"
           ],
           "idx": [
             0,
             1,
-            2,
+            0,
             1,
             1,
-            3
+            0
           ]
         },
         "SUBJ_PRES": {
@@ -15922,19 +15766,15 @@
           "codes": "EEEEEE",
           "summary": "完全不規則（規則形から大きく外れる）",
           "texts": [
-            "規則どおりなら produciera のところが produjera になる",
-            "規則どおりなら producieras のところが produjeras になる",
-            "規則どおりなら produciéramos のところが produjéramos になる",
-            "規則どおりなら producierais のところが produjerais になる",
-            "規則どおりなら producieran のところが produjeran になる"
+            "不規則形。この時制は produjera / produjeras / produjera / produjéramos / produjerais / produjeran と変化する"
           ],
           "idx": [
             0,
-            1,
             0,
-            2,
-            3,
-            4
+            0,
+            0,
+            0,
+            0
           ]
         },
         "IMP": {
@@ -18179,6 +18019,3684 @@
             null
           ]
         }
+      }
+    },
+    {
+      "lemma": "advertir",
+      "ja": "警告する・気づく",
+      "forms": {
+        "IND_PRES": [
+          "advierto",
+          "adviertes",
+          "advierte",
+          "advertimos",
+          "advertís",
+          "advierten"
+        ],
+        "IND_PRET": [
+          "advertí",
+          "advertiste",
+          "advirtió",
+          "advertimos",
+          "advertisteis",
+          "advirtieron"
+        ],
+        "IND_IMPF": [
+          "advertía",
+          "advertías",
+          "advertía",
+          "advertíamos",
+          "advertíais",
+          "advertían"
+        ],
+        "IND_FUT": [
+          "advertiré",
+          "advertirás",
+          "advertirá",
+          "advertiremos",
+          "advertiréis",
+          "advertirán"
+        ],
+        "IND_PERF": [
+          "he advertido",
+          "has advertido",
+          "ha advertido",
+          "hemos advertido",
+          "habéis advertido",
+          "han advertido"
+        ],
+        "IND_PLUP": [
+          "había advertido",
+          "habías advertido",
+          "había advertido",
+          "habíamos advertido",
+          "habíais advertido",
+          "habían advertido"
+        ],
+        "COND": [
+          "advertiría",
+          "advertirías",
+          "advertiría",
+          "advertiríamos",
+          "advertiríais",
+          "advertirían"
+        ],
+        "SUBJ_PRES": [
+          "advierta",
+          "adviertas",
+          "advierta",
+          "advirtamos",
+          "advirtáis",
+          "adviertan"
+        ],
+        "SUBJ_IMPF": [
+          "advirtiera",
+          "advirtieras",
+          "advirtiera",
+          "advirtiéramos",
+          "advirtierais",
+          "advirtieran"
+        ],
+        "SUBJ_PERF": [
+          "haya advertido",
+          "hayas advertido",
+          "haya advertido",
+          "hayamos advertido",
+          "hayáis advertido",
+          "hayan advertido"
+        ],
+        "IMP": [
+          "",
+          "advierte",
+          "advierta",
+          "advirtamos",
+          "advertid",
+          "adviertan"
+        ],
+        "GER": [
+          "advirtiendo"
+        ],
+        "PART": [
+          "advertido"
+        ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（advert- → adviert-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RRSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（advert- → advirt-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → ie / e → i",
+          "texts": [
+            "語幹の e が ie に変わる（advert- → adviert-）",
+            "語幹の e が i に変わる（advert- → advirt-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（advert- → advirt-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "語幹交替 e → ie / e → i",
+          "texts": [
+            "語幹の e が ie に変わる（advert- → adviert-）",
+            "語幹の e が i に変わる（advert- → advirt-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            1,
+            null,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（advert- → advirt-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "afirmar",
+      "ja": "断言する・主張する",
+      "forms": {
+        "IND_PRES": [
+          "afirmo",
+          "afirmas",
+          "afirma",
+          "afirmamos",
+          "afirmáis",
+          "afirman"
+        ],
+        "IND_PRET": [
+          "afirmé",
+          "afirmaste",
+          "afirmó",
+          "afirmamos",
+          "afirmasteis",
+          "afirmaron"
+        ],
+        "IND_IMPF": [
+          "afirmaba",
+          "afirmabas",
+          "afirmaba",
+          "afirmábamos",
+          "afirmabais",
+          "afirmaban"
+        ],
+        "IND_FUT": [
+          "afirmaré",
+          "afirmarás",
+          "afirmará",
+          "afirmaremos",
+          "afirmaréis",
+          "afirmarán"
+        ],
+        "IND_PERF": [
+          "he afirmado",
+          "has afirmado",
+          "ha afirmado",
+          "hemos afirmado",
+          "habéis afirmado",
+          "han afirmado"
+        ],
+        "IND_PLUP": [
+          "había afirmado",
+          "habías afirmado",
+          "había afirmado",
+          "habíamos afirmado",
+          "habíais afirmado",
+          "habían afirmado"
+        ],
+        "COND": [
+          "afirmaría",
+          "afirmarías",
+          "afirmaría",
+          "afirmaríamos",
+          "afirmaríais",
+          "afirmarían"
+        ],
+        "SUBJ_PRES": [
+          "afirme",
+          "afirmes",
+          "afirme",
+          "afirmemos",
+          "afirméis",
+          "afirmen"
+        ],
+        "SUBJ_IMPF": [
+          "afirmara",
+          "afirmaras",
+          "afirmara",
+          "afirmáramos",
+          "afirmarais",
+          "afirmaran"
+        ],
+        "SUBJ_PERF": [
+          "haya afirmado",
+          "hayas afirmado",
+          "haya afirmado",
+          "hayamos afirmado",
+          "hayáis afirmado",
+          "hayan afirmado"
+        ],
+        "IMP": [
+          "",
+          "afirma",
+          "afirme",
+          "afirmemos",
+          "afirmad",
+          "afirmen"
+        ],
+        "GER": [
+          "afirmando"
+        ],
+        "PART": [
+          "afirmado"
+        ]
+      }
+    },
+    {
+      "lemma": "señalar",
+      "ja": "指摘する・示す",
+      "forms": {
+        "IND_PRES": [
+          "señalo",
+          "señalas",
+          "señala",
+          "señalamos",
+          "señaláis",
+          "señalan"
+        ],
+        "IND_PRET": [
+          "señalé",
+          "señalaste",
+          "señaló",
+          "señalamos",
+          "señalasteis",
+          "señalaron"
+        ],
+        "IND_IMPF": [
+          "señalaba",
+          "señalabas",
+          "señalaba",
+          "señalábamos",
+          "señalabais",
+          "señalaban"
+        ],
+        "IND_FUT": [
+          "señalaré",
+          "señalarás",
+          "señalará",
+          "señalaremos",
+          "señalaréis",
+          "señalarán"
+        ],
+        "IND_PERF": [
+          "he señalado",
+          "has señalado",
+          "ha señalado",
+          "hemos señalado",
+          "habéis señalado",
+          "han señalado"
+        ],
+        "IND_PLUP": [
+          "había señalado",
+          "habías señalado",
+          "había señalado",
+          "habíamos señalado",
+          "habíais señalado",
+          "habían señalado"
+        ],
+        "COND": [
+          "señalaría",
+          "señalarías",
+          "señalaría",
+          "señalaríamos",
+          "señalaríais",
+          "señalarían"
+        ],
+        "SUBJ_PRES": [
+          "señale",
+          "señales",
+          "señale",
+          "señalemos",
+          "señaléis",
+          "señalen"
+        ],
+        "SUBJ_IMPF": [
+          "señalara",
+          "señalaras",
+          "señalara",
+          "señaláramos",
+          "señalarais",
+          "señalaran"
+        ],
+        "SUBJ_PERF": [
+          "haya señalado",
+          "hayas señalado",
+          "haya señalado",
+          "hayamos señalado",
+          "hayáis señalado",
+          "hayan señalado"
+        ],
+        "IMP": [
+          "",
+          "señala",
+          "señale",
+          "señalemos",
+          "señalad",
+          "señalen"
+        ],
+        "GER": [
+          "señalando"
+        ],
+        "PART": [
+          "señalado"
+        ]
+      }
+    },
+    {
+      "lemma": "destacar",
+      "ja": "際立つ・強調する",
+      "forms": {
+        "IND_PRES": [
+          "destaco",
+          "destacas",
+          "destaca",
+          "destacamos",
+          "destacáis",
+          "destacan"
+        ],
+        "IND_PRET": [
+          "destaqué",
+          "destacaste",
+          "destacó",
+          "destacamos",
+          "destacasteis",
+          "destacaron"
+        ],
+        "IND_IMPF": [
+          "destacaba",
+          "destacabas",
+          "destacaba",
+          "destacábamos",
+          "destacabais",
+          "destacaban"
+        ],
+        "IND_FUT": [
+          "destacaré",
+          "destacarás",
+          "destacará",
+          "destacaremos",
+          "destacaréis",
+          "destacarán"
+        ],
+        "IND_PERF": [
+          "he destacado",
+          "has destacado",
+          "ha destacado",
+          "hemos destacado",
+          "habéis destacado",
+          "han destacado"
+        ],
+        "IND_PLUP": [
+          "había destacado",
+          "habías destacado",
+          "había destacado",
+          "habíamos destacado",
+          "habíais destacado",
+          "habían destacado"
+        ],
+        "COND": [
+          "destacaría",
+          "destacarías",
+          "destacaría",
+          "destacaríamos",
+          "destacaríais",
+          "destacarían"
+        ],
+        "SUBJ_PRES": [
+          "destaque",
+          "destaques",
+          "destaque",
+          "destaquemos",
+          "destaquéis",
+          "destaquen"
+        ],
+        "SUBJ_IMPF": [
+          "destacara",
+          "destacaras",
+          "destacara",
+          "destacáramos",
+          "destacarais",
+          "destacaran"
+        ],
+        "SUBJ_PERF": [
+          "haya destacado",
+          "hayas destacado",
+          "haya destacado",
+          "hayamos destacado",
+          "hayáis destacado",
+          "hayan destacado"
+        ],
+        "IMP": [
+          "",
+          "destaca",
+          "destaque",
+          "destaquemos",
+          "destacad",
+          "destaquen"
+        ],
+        "GER": [
+          "destacando"
+        ],
+        "PART": [
+          "destacado"
+        ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（destac- → destaqu-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（destac- → destaqu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（destac- → destaqu-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "asumir",
+      "ja": "引き受ける・想定する",
+      "forms": {
+        "IND_PRES": [
+          "asumo",
+          "asumes",
+          "asume",
+          "asumimos",
+          "asumís",
+          "asumen"
+        ],
+        "IND_PRET": [
+          "asumí",
+          "asumiste",
+          "asumió",
+          "asumimos",
+          "asumisteis",
+          "asumieron"
+        ],
+        "IND_IMPF": [
+          "asumía",
+          "asumías",
+          "asumía",
+          "asumíamos",
+          "asumíais",
+          "asumían"
+        ],
+        "IND_FUT": [
+          "asumiré",
+          "asumirás",
+          "asumirá",
+          "asumiremos",
+          "asumiréis",
+          "asumirán"
+        ],
+        "IND_PERF": [
+          "he asumido",
+          "has asumido",
+          "ha asumido",
+          "hemos asumido",
+          "habéis asumido",
+          "han asumido"
+        ],
+        "IND_PLUP": [
+          "había asumido",
+          "habías asumido",
+          "había asumido",
+          "habíamos asumido",
+          "habíais asumido",
+          "habían asumido"
+        ],
+        "COND": [
+          "asumiría",
+          "asumirías",
+          "asumiría",
+          "asumiríamos",
+          "asumiríais",
+          "asumirían"
+        ],
+        "SUBJ_PRES": [
+          "asuma",
+          "asumas",
+          "asuma",
+          "asumamos",
+          "asumáis",
+          "asuman"
+        ],
+        "SUBJ_IMPF": [
+          "asumiera",
+          "asumieras",
+          "asumiera",
+          "asumiéramos",
+          "asumierais",
+          "asumieran"
+        ],
+        "SUBJ_PERF": [
+          "haya asumido",
+          "hayas asumido",
+          "haya asumido",
+          "hayamos asumido",
+          "hayáis asumido",
+          "hayan asumido"
+        ],
+        "IMP": [
+          "",
+          "asume",
+          "asuma",
+          "asumamos",
+          "asumid",
+          "asuman"
+        ],
+        "GER": [
+          "asumiendo"
+        ],
+        "PART": [
+          "asumido"
+        ]
+      }
+    },
+    {
+      "lemma": "plantear",
+      "ja": "提起する・持ち出す",
+      "forms": {
+        "IND_PRES": [
+          "planteo",
+          "planteas",
+          "plantea",
+          "planteamos",
+          "planteáis",
+          "plantean"
+        ],
+        "IND_PRET": [
+          "planteé",
+          "planteaste",
+          "planteó",
+          "planteamos",
+          "planteasteis",
+          "plantearon"
+        ],
+        "IND_IMPF": [
+          "planteaba",
+          "planteabas",
+          "planteaba",
+          "planteábamos",
+          "planteabais",
+          "planteaban"
+        ],
+        "IND_FUT": [
+          "plantearé",
+          "plantearás",
+          "planteará",
+          "plantearemos",
+          "plantearéis",
+          "plantearán"
+        ],
+        "IND_PERF": [
+          "he planteado",
+          "has planteado",
+          "ha planteado",
+          "hemos planteado",
+          "habéis planteado",
+          "han planteado"
+        ],
+        "IND_PLUP": [
+          "había planteado",
+          "habías planteado",
+          "había planteado",
+          "habíamos planteado",
+          "habíais planteado",
+          "habían planteado"
+        ],
+        "COND": [
+          "plantearía",
+          "plantearías",
+          "plantearía",
+          "plantearíamos",
+          "plantearíais",
+          "plantearían"
+        ],
+        "SUBJ_PRES": [
+          "plantee",
+          "plantees",
+          "plantee",
+          "planteemos",
+          "planteéis",
+          "planteen"
+        ],
+        "SUBJ_IMPF": [
+          "planteara",
+          "plantearas",
+          "planteara",
+          "planteáramos",
+          "plantearais",
+          "plantearan"
+        ],
+        "SUBJ_PERF": [
+          "haya planteado",
+          "hayas planteado",
+          "haya planteado",
+          "hayamos planteado",
+          "hayáis planteado",
+          "hayan planteado"
+        ],
+        "IMP": [
+          "",
+          "plantea",
+          "plantee",
+          "planteemos",
+          "plantead",
+          "planteen"
+        ],
+        "GER": [
+          "planteando"
+        ],
+        "PART": [
+          "planteado"
+        ]
+      }
+    },
+    {
+      "lemma": "abordar",
+      "ja": "取り組む・着手する",
+      "forms": {
+        "IND_PRES": [
+          "abordo",
+          "abordas",
+          "aborda",
+          "abordamos",
+          "abordáis",
+          "abordan"
+        ],
+        "IND_PRET": [
+          "abordé",
+          "abordaste",
+          "abordó",
+          "abordamos",
+          "abordasteis",
+          "abordaron"
+        ],
+        "IND_IMPF": [
+          "abordaba",
+          "abordabas",
+          "abordaba",
+          "abordábamos",
+          "abordabais",
+          "abordaban"
+        ],
+        "IND_FUT": [
+          "abordaré",
+          "abordarás",
+          "abordará",
+          "abordaremos",
+          "abordaréis",
+          "abordarán"
+        ],
+        "IND_PERF": [
+          "he abordado",
+          "has abordado",
+          "ha abordado",
+          "hemos abordado",
+          "habéis abordado",
+          "han abordado"
+        ],
+        "IND_PLUP": [
+          "había abordado",
+          "habías abordado",
+          "había abordado",
+          "habíamos abordado",
+          "habíais abordado",
+          "habían abordado"
+        ],
+        "COND": [
+          "abordaría",
+          "abordarías",
+          "abordaría",
+          "abordaríamos",
+          "abordaríais",
+          "abordarían"
+        ],
+        "SUBJ_PRES": [
+          "aborde",
+          "abordes",
+          "aborde",
+          "abordemos",
+          "abordéis",
+          "aborden"
+        ],
+        "SUBJ_IMPF": [
+          "abordara",
+          "abordaras",
+          "abordara",
+          "abordáramos",
+          "abordarais",
+          "abordaran"
+        ],
+        "SUBJ_PERF": [
+          "haya abordado",
+          "hayas abordado",
+          "haya abordado",
+          "hayamos abordado",
+          "hayáis abordado",
+          "hayan abordado"
+        ],
+        "IMP": [
+          "",
+          "aborda",
+          "aborde",
+          "abordemos",
+          "abordad",
+          "aborden"
+        ],
+        "GER": [
+          "abordando"
+        ],
+        "PART": [
+          "abordado"
+        ]
+      }
+    },
+    {
+      "lemma": "impulsar",
+      "ja": "推進する",
+      "forms": {
+        "IND_PRES": [
+          "impulso",
+          "impulsas",
+          "impulsa",
+          "impulsamos",
+          "impulsáis",
+          "impulsan"
+        ],
+        "IND_PRET": [
+          "impulsé",
+          "impulsaste",
+          "impulsó",
+          "impulsamos",
+          "impulsasteis",
+          "impulsaron"
+        ],
+        "IND_IMPF": [
+          "impulsaba",
+          "impulsabas",
+          "impulsaba",
+          "impulsábamos",
+          "impulsabais",
+          "impulsaban"
+        ],
+        "IND_FUT": [
+          "impulsaré",
+          "impulsarás",
+          "impulsará",
+          "impulsaremos",
+          "impulsaréis",
+          "impulsarán"
+        ],
+        "IND_PERF": [
+          "he impulsado",
+          "has impulsado",
+          "ha impulsado",
+          "hemos impulsado",
+          "habéis impulsado",
+          "han impulsado"
+        ],
+        "IND_PLUP": [
+          "había impulsado",
+          "habías impulsado",
+          "había impulsado",
+          "habíamos impulsado",
+          "habíais impulsado",
+          "habían impulsado"
+        ],
+        "COND": [
+          "impulsaría",
+          "impulsarías",
+          "impulsaría",
+          "impulsaríamos",
+          "impulsaríais",
+          "impulsarían"
+        ],
+        "SUBJ_PRES": [
+          "impulse",
+          "impulses",
+          "impulse",
+          "impulsemos",
+          "impulséis",
+          "impulsen"
+        ],
+        "SUBJ_IMPF": [
+          "impulsara",
+          "impulsaras",
+          "impulsara",
+          "impulsáramos",
+          "impulsarais",
+          "impulsaran"
+        ],
+        "SUBJ_PERF": [
+          "haya impulsado",
+          "hayas impulsado",
+          "haya impulsado",
+          "hayamos impulsado",
+          "hayáis impulsado",
+          "hayan impulsado"
+        ],
+        "IMP": [
+          "",
+          "impulsa",
+          "impulse",
+          "impulsemos",
+          "impulsad",
+          "impulsen"
+        ],
+        "GER": [
+          "impulsando"
+        ],
+        "PART": [
+          "impulsado"
+        ]
+      }
+    },
+    {
+      "lemma": "frenar",
+      "ja": "抑制する・歯止めをかける",
+      "forms": {
+        "IND_PRES": [
+          "freno",
+          "frenas",
+          "frena",
+          "frenamos",
+          "frenáis",
+          "frenan"
+        ],
+        "IND_PRET": [
+          "frené",
+          "frenaste",
+          "frenó",
+          "frenamos",
+          "frenasteis",
+          "frenaron"
+        ],
+        "IND_IMPF": [
+          "frenaba",
+          "frenabas",
+          "frenaba",
+          "frenábamos",
+          "frenabais",
+          "frenaban"
+        ],
+        "IND_FUT": [
+          "frenaré",
+          "frenarás",
+          "frenará",
+          "frenaremos",
+          "frenaréis",
+          "frenarán"
+        ],
+        "IND_PERF": [
+          "he frenado",
+          "has frenado",
+          "ha frenado",
+          "hemos frenado",
+          "habéis frenado",
+          "han frenado"
+        ],
+        "IND_PLUP": [
+          "había frenado",
+          "habías frenado",
+          "había frenado",
+          "habíamos frenado",
+          "habíais frenado",
+          "habían frenado"
+        ],
+        "COND": [
+          "frenaría",
+          "frenarías",
+          "frenaría",
+          "frenaríamos",
+          "frenaríais",
+          "frenarían"
+        ],
+        "SUBJ_PRES": [
+          "frene",
+          "frenes",
+          "frene",
+          "frenemos",
+          "frenéis",
+          "frenen"
+        ],
+        "SUBJ_IMPF": [
+          "frenara",
+          "frenaras",
+          "frenara",
+          "frenáramos",
+          "frenarais",
+          "frenaran"
+        ],
+        "SUBJ_PERF": [
+          "haya frenado",
+          "hayas frenado",
+          "haya frenado",
+          "hayamos frenado",
+          "hayáis frenado",
+          "hayan frenado"
+        ],
+        "IMP": [
+          "",
+          "frena",
+          "frene",
+          "frenemos",
+          "frenad",
+          "frenen"
+        ],
+        "GER": [
+          "frenando"
+        ],
+        "PART": [
+          "frenado"
+        ]
+      }
+    },
+    {
+      "lemma": "agravar",
+      "ja": "悪化させる",
+      "forms": {
+        "IND_PRES": [
+          "agravo",
+          "agravas",
+          "agrava",
+          "agravamos",
+          "agraváis",
+          "agravan"
+        ],
+        "IND_PRET": [
+          "agravé",
+          "agravaste",
+          "agravó",
+          "agravamos",
+          "agravasteis",
+          "agravaron"
+        ],
+        "IND_IMPF": [
+          "agravaba",
+          "agravabas",
+          "agravaba",
+          "agravábamos",
+          "agravabais",
+          "agravaban"
+        ],
+        "IND_FUT": [
+          "agravaré",
+          "agravarás",
+          "agravará",
+          "agravaremos",
+          "agravaréis",
+          "agravarán"
+        ],
+        "IND_PERF": [
+          "he agravado",
+          "has agravado",
+          "ha agravado",
+          "hemos agravado",
+          "habéis agravado",
+          "han agravado"
+        ],
+        "IND_PLUP": [
+          "había agravado",
+          "habías agravado",
+          "había agravado",
+          "habíamos agravado",
+          "habíais agravado",
+          "habían agravado"
+        ],
+        "COND": [
+          "agravaría",
+          "agravarías",
+          "agravaría",
+          "agravaríamos",
+          "agravaríais",
+          "agravarían"
+        ],
+        "SUBJ_PRES": [
+          "agrave",
+          "agraves",
+          "agrave",
+          "agravemos",
+          "agravéis",
+          "agraven"
+        ],
+        "SUBJ_IMPF": [
+          "agravara",
+          "agravaras",
+          "agravara",
+          "agraváramos",
+          "agravarais",
+          "agravaran"
+        ],
+        "SUBJ_PERF": [
+          "haya agravado",
+          "hayas agravado",
+          "haya agravado",
+          "hayamos agravado",
+          "hayáis agravado",
+          "hayan agravado"
+        ],
+        "IMP": [
+          "",
+          "agrava",
+          "agrave",
+          "agravemos",
+          "agravad",
+          "agraven"
+        ],
+        "GER": [
+          "agravando"
+        ],
+        "PART": [
+          "agravado"
+        ]
+      }
+    },
+    {
+      "lemma": "mitigar",
+      "ja": "緩和する",
+      "forms": {
+        "IND_PRES": [
+          "mitigo",
+          "mitigas",
+          "mitiga",
+          "mitigamos",
+          "mitigáis",
+          "mitigan"
+        ],
+        "IND_PRET": [
+          "mitigué",
+          "mitigaste",
+          "mitigó",
+          "mitigamos",
+          "mitigasteis",
+          "mitigaron"
+        ],
+        "IND_IMPF": [
+          "mitigaba",
+          "mitigabas",
+          "mitigaba",
+          "mitigábamos",
+          "mitigabais",
+          "mitigaban"
+        ],
+        "IND_FUT": [
+          "mitigaré",
+          "mitigarás",
+          "mitigará",
+          "mitigaremos",
+          "mitigaréis",
+          "mitigarán"
+        ],
+        "IND_PERF": [
+          "he mitigado",
+          "has mitigado",
+          "ha mitigado",
+          "hemos mitigado",
+          "habéis mitigado",
+          "han mitigado"
+        ],
+        "IND_PLUP": [
+          "había mitigado",
+          "habías mitigado",
+          "había mitigado",
+          "habíamos mitigado",
+          "habíais mitigado",
+          "habían mitigado"
+        ],
+        "COND": [
+          "mitigaría",
+          "mitigarías",
+          "mitigaría",
+          "mitigaríamos",
+          "mitigaríais",
+          "mitigarían"
+        ],
+        "SUBJ_PRES": [
+          "mitigue",
+          "mitigues",
+          "mitigue",
+          "mitiguemos",
+          "mitiguéis",
+          "mitiguen"
+        ],
+        "SUBJ_IMPF": [
+          "mitigara",
+          "mitigaras",
+          "mitigara",
+          "mitigáramos",
+          "mitigarais",
+          "mitigaran"
+        ],
+        "SUBJ_PERF": [
+          "haya mitigado",
+          "hayas mitigado",
+          "haya mitigado",
+          "hayamos mitigado",
+          "hayáis mitigado",
+          "hayan mitigado"
+        ],
+        "IMP": [
+          "",
+          "mitiga",
+          "mitigue",
+          "mitiguemos",
+          "mitigad",
+          "mitiguen"
+        ],
+        "GER": [
+          "mitigando"
+        ],
+        "PART": [
+          "mitigado"
+        ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（mitig- → mitigu-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（mitig- → mitigu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（mitig- → mitigu-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "prever",
+      "ja": "予測する・見込む",
+      "forms": {
+        "IND_PRES": [
+          "preveo",
+          "prevés",
+          "prevé",
+          "prevemos",
+          "preveis",
+          "prevén"
+        ],
+        "IND_PRET": [
+          "preví",
+          "previste",
+          "previó",
+          "previmos",
+          "previsteis",
+          "previeron"
+        ],
+        "IND_IMPF": [
+          "preveía",
+          "preveías",
+          "preveía",
+          "preveíamos",
+          "preveíais",
+          "preveían"
+        ],
+        "IND_FUT": [
+          "preveré",
+          "preverás",
+          "preverá",
+          "preveremos",
+          "preveréis",
+          "preverán"
+        ],
+        "IND_PERF": [
+          "he previsto",
+          "has previsto",
+          "ha previsto",
+          "hemos previsto",
+          "habéis previsto",
+          "han previsto"
+        ],
+        "IND_PLUP": [
+          "había previsto",
+          "habías previsto",
+          "había previsto",
+          "habíamos previsto",
+          "habíais previsto",
+          "habían previsto"
+        ],
+        "COND": [
+          "prevería",
+          "preverías",
+          "prevería",
+          "preveríamos",
+          "preveríais",
+          "preverían"
+        ],
+        "SUBJ_PRES": [
+          "prevea",
+          "preveas",
+          "prevea",
+          "preveamos",
+          "preveáis",
+          "prevean"
+        ],
+        "SUBJ_IMPF": [
+          "previera",
+          "previeras",
+          "previera",
+          "previéramos",
+          "previerais",
+          "previeran"
+        ],
+        "SUBJ_PERF": [
+          "haya previsto",
+          "hayas previsto",
+          "haya previsto",
+          "hayamos previsto",
+          "hayáis previsto",
+          "hayan previsto"
+        ],
+        "IMP": [
+          "",
+          "prevé",
+          "prevea",
+          "preveamos",
+          "preved",
+          "prevean"
+        ],
+        "GER": [
+          "previendo"
+        ],
+        "PART": [
+          "previsto"
+        ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SEEREE",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（prev- → preve-）",
+            "不規則形。この時制は preveo / prevés / prevé / prevemos / preveis / prevén と変化する"
+          ],
+          "idx": [
+            0,
+            1,
+            1,
+            null,
+            1,
+            1
+          ]
+        },
+        "IND_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（prev- → preve-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（prev- → preve-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-ESSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "不規則形。この時制は prevé / prevea / preveamos / preved / prevean と変化する",
+            "語幹が不規則に変化する（prev- → preve-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            1,
+            null,
+            1
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則的な作り方が無い不規則形。この形のまま覚える"
+          ],
+          "idx": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "estimar",
+      "ja": "見積もる・評価する",
+      "forms": {
+        "IND_PRES": [
+          "estimo",
+          "estimas",
+          "estima",
+          "estimamos",
+          "estimáis",
+          "estiman"
+        ],
+        "IND_PRET": [
+          "estimé",
+          "estimaste",
+          "estimó",
+          "estimamos",
+          "estimasteis",
+          "estimaron"
+        ],
+        "IND_IMPF": [
+          "estimaba",
+          "estimabas",
+          "estimaba",
+          "estimábamos",
+          "estimabais",
+          "estimaban"
+        ],
+        "IND_FUT": [
+          "estimaré",
+          "estimarás",
+          "estimará",
+          "estimaremos",
+          "estimaréis",
+          "estimarán"
+        ],
+        "IND_PERF": [
+          "he estimado",
+          "has estimado",
+          "ha estimado",
+          "hemos estimado",
+          "habéis estimado",
+          "han estimado"
+        ],
+        "IND_PLUP": [
+          "había estimado",
+          "habías estimado",
+          "había estimado",
+          "habíamos estimado",
+          "habíais estimado",
+          "habían estimado"
+        ],
+        "COND": [
+          "estimaría",
+          "estimarías",
+          "estimaría",
+          "estimaríamos",
+          "estimaríais",
+          "estimarían"
+        ],
+        "SUBJ_PRES": [
+          "estime",
+          "estimes",
+          "estime",
+          "estimemos",
+          "estiméis",
+          "estimen"
+        ],
+        "SUBJ_IMPF": [
+          "estimara",
+          "estimaras",
+          "estimara",
+          "estimáramos",
+          "estimarais",
+          "estimaran"
+        ],
+        "SUBJ_PERF": [
+          "haya estimado",
+          "hayas estimado",
+          "haya estimado",
+          "hayamos estimado",
+          "hayáis estimado",
+          "hayan estimado"
+        ],
+        "IMP": [
+          "",
+          "estima",
+          "estime",
+          "estimemos",
+          "estimad",
+          "estimen"
+        ],
+        "GER": [
+          "estimando"
+        ],
+        "PART": [
+          "estimado"
+        ]
+      }
+    },
+    {
+      "lemma": "atribuir",
+      "ja": "帰する・のせいにする",
+      "forms": {
+        "IND_PRES": [
+          "atribuyo",
+          "atribuyes",
+          "atribuye",
+          "atribuimos",
+          "atribuís",
+          "atribuyen"
+        ],
+        "IND_PRET": [
+          "atribuí",
+          "atribuiste",
+          "atribuyó",
+          "atribuimos",
+          "atribuisteis",
+          "atribuyeron"
+        ],
+        "IND_IMPF": [
+          "atribuía",
+          "atribuías",
+          "atribuía",
+          "atribuíamos",
+          "atribuíais",
+          "atribuían"
+        ],
+        "IND_FUT": [
+          "atribuiré",
+          "atribuirás",
+          "atribuirá",
+          "atribuiremos",
+          "atribuiréis",
+          "atribuirán"
+        ],
+        "IND_PERF": [
+          "he atribuido",
+          "has atribuido",
+          "ha atribuido",
+          "hemos atribuido",
+          "habéis atribuido",
+          "han atribuido"
+        ],
+        "IND_PLUP": [
+          "había atribuido",
+          "habías atribuido",
+          "había atribuido",
+          "habíamos atribuido",
+          "habíais atribuido",
+          "habían atribuido"
+        ],
+        "COND": [
+          "atribuiría",
+          "atribuirías",
+          "atribuiría",
+          "atribuiríamos",
+          "atribuiríais",
+          "atribuirían"
+        ],
+        "SUBJ_PRES": [
+          "atribuya",
+          "atribuyas",
+          "atribuya",
+          "atribuyamos",
+          "atribuyáis",
+          "atribuyan"
+        ],
+        "SUBJ_IMPF": [
+          "atribuyera",
+          "atribuyeras",
+          "atribuyera",
+          "atribuyéramos",
+          "atribuyerais",
+          "atribuyeran"
+        ],
+        "SUBJ_PERF": [
+          "haya atribuido",
+          "hayas atribuido",
+          "haya atribuido",
+          "hayamos atribuido",
+          "hayáis atribuido",
+          "hayan atribuido"
+        ],
+        "IMP": [
+          "",
+          "atribuye",
+          "atribuya",
+          "atribuyamos",
+          "atribuid",
+          "atribuyan"
+        ],
+        "GER": [
+          "atribuyendo"
+        ],
+        "PART": [
+          "atribuido"
+        ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（atribu- → atribuy-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RRERRE",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "不規則形。この時制は atribuí / atribuiste / atribuyó / atribuimos / atribuisteis / atribuyeron と変化する"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（atribu- → atribuy-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "不規則形。この時制は atribuyera / atribuyeras / atribuyera / atribuyéramos / atribuyerais / atribuyeran と変化する"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（atribu- → atribuy-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            0,
+            null,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則的な作り方が無い不規則形。この形のまま覚える"
+          ],
+          "idx": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "desmentir",
+      "ja": "否定する・反論する",
+      "forms": {
+        "IND_PRES": [
+          "desmiento",
+          "desmientes",
+          "desmiente",
+          "desmentimos",
+          "desmentís",
+          "desmienten"
+        ],
+        "IND_PRET": [
+          "desmentí",
+          "desmentiste",
+          "desmintió",
+          "desmentimos",
+          "desmentisteis",
+          "desmintieron"
+        ],
+        "IND_IMPF": [
+          "desmentía",
+          "desmentías",
+          "desmentía",
+          "desmentíamos",
+          "desmentíais",
+          "desmentían"
+        ],
+        "IND_FUT": [
+          "desmentiré",
+          "desmentirás",
+          "desmentirá",
+          "desmentiremos",
+          "desmentiréis",
+          "desmentirán"
+        ],
+        "IND_PERF": [
+          "he desmentido",
+          "has desmentido",
+          "ha desmentido",
+          "hemos desmentido",
+          "habéis desmentido",
+          "han desmentido"
+        ],
+        "IND_PLUP": [
+          "había desmentido",
+          "habías desmentido",
+          "había desmentido",
+          "habíamos desmentido",
+          "habíais desmentido",
+          "habían desmentido"
+        ],
+        "COND": [
+          "desmentiría",
+          "desmentirías",
+          "desmentiría",
+          "desmentiríamos",
+          "desmentiríais",
+          "desmentirían"
+        ],
+        "SUBJ_PRES": [
+          "desmienta",
+          "desmientas",
+          "desmienta",
+          "desmintamos",
+          "desmintáis",
+          "desmientan"
+        ],
+        "SUBJ_IMPF": [
+          "desmintiera",
+          "desmintieras",
+          "desmintiera",
+          "desmintiéramos",
+          "desmintierais",
+          "desmintieran"
+        ],
+        "SUBJ_PERF": [
+          "haya desmentido",
+          "hayas desmentido",
+          "haya desmentido",
+          "hayamos desmentido",
+          "hayáis desmentido",
+          "hayan desmentido"
+        ],
+        "IMP": [
+          "",
+          "desmiente",
+          "desmienta",
+          "desmintamos",
+          "desmentid",
+          "desmientan"
+        ],
+        "GER": [
+          "desmintiendo"
+        ],
+        "PART": [
+          "desmentido"
+        ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（desment- → desmient-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RRSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（desment- → desmint-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → ie / e → i",
+          "texts": [
+            "語幹の e が ie に変わる（desment- → desmient-）",
+            "語幹の e が i に変わる（desment- → desmint-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（desment- → desmint-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "語幹交替 e → ie / e → i",
+          "texts": [
+            "語幹の e が ie に変わる（desment- → desmient-）",
+            "語幹の e が i に変わる（desment- → desmint-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            1,
+            null,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（desment- → desmint-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "alegar",
+      "ja": "主張する・申し立てる",
+      "forms": {
+        "IND_PRES": [
+          "alego",
+          "alegas",
+          "alega",
+          "alegamos",
+          "alegáis",
+          "alegan"
+        ],
+        "IND_PRET": [
+          "alegué",
+          "alegaste",
+          "alegó",
+          "alegamos",
+          "alegasteis",
+          "alegaron"
+        ],
+        "IND_IMPF": [
+          "alegaba",
+          "alegabas",
+          "alegaba",
+          "alegábamos",
+          "alegabais",
+          "alegaban"
+        ],
+        "IND_FUT": [
+          "alegaré",
+          "alegarás",
+          "alegará",
+          "alegaremos",
+          "alegaréis",
+          "alegarán"
+        ],
+        "IND_PERF": [
+          "he alegado",
+          "has alegado",
+          "ha alegado",
+          "hemos alegado",
+          "habéis alegado",
+          "han alegado"
+        ],
+        "IND_PLUP": [
+          "había alegado",
+          "habías alegado",
+          "había alegado",
+          "habíamos alegado",
+          "habíais alegado",
+          "habían alegado"
+        ],
+        "COND": [
+          "alegaría",
+          "alegarías",
+          "alegaría",
+          "alegaríamos",
+          "alegaríais",
+          "alegarían"
+        ],
+        "SUBJ_PRES": [
+          "alegue",
+          "alegues",
+          "alegue",
+          "aleguemos",
+          "aleguéis",
+          "aleguen"
+        ],
+        "SUBJ_IMPF": [
+          "alegara",
+          "alegaras",
+          "alegara",
+          "alegáramos",
+          "alegarais",
+          "alegaran"
+        ],
+        "SUBJ_PERF": [
+          "haya alegado",
+          "hayas alegado",
+          "haya alegado",
+          "hayamos alegado",
+          "hayáis alegado",
+          "hayan alegado"
+        ],
+        "IMP": [
+          "",
+          "alega",
+          "alegue",
+          "aleguemos",
+          "alegad",
+          "aleguen"
+        ],
+        "GER": [
+          "alegando"
+        ],
+        "PART": [
+          "alegado"
+        ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（aleg- → alegu-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（aleg- → alegu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（aleg- → alegu-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "vulnerar",
+      "ja": "侵害する",
+      "forms": {
+        "IND_PRES": [
+          "vulnero",
+          "vulneras",
+          "vulnera",
+          "vulneramos",
+          "vulneráis",
+          "vulneran"
+        ],
+        "IND_PRET": [
+          "vulneré",
+          "vulneraste",
+          "vulneró",
+          "vulneramos",
+          "vulnerasteis",
+          "vulneraron"
+        ],
+        "IND_IMPF": [
+          "vulneraba",
+          "vulnerabas",
+          "vulneraba",
+          "vulnerábamos",
+          "vulnerabais",
+          "vulneraban"
+        ],
+        "IND_FUT": [
+          "vulneraré",
+          "vulnerarás",
+          "vulnerará",
+          "vulneraremos",
+          "vulneraréis",
+          "vulnerarán"
+        ],
+        "IND_PERF": [
+          "he vulnerado",
+          "has vulnerado",
+          "ha vulnerado",
+          "hemos vulnerado",
+          "habéis vulnerado",
+          "han vulnerado"
+        ],
+        "IND_PLUP": [
+          "había vulnerado",
+          "habías vulnerado",
+          "había vulnerado",
+          "habíamos vulnerado",
+          "habíais vulnerado",
+          "habían vulnerado"
+        ],
+        "COND": [
+          "vulneraría",
+          "vulnerarías",
+          "vulneraría",
+          "vulneraríamos",
+          "vulneraríais",
+          "vulnerarían"
+        ],
+        "SUBJ_PRES": [
+          "vulnere",
+          "vulneres",
+          "vulnere",
+          "vulneremos",
+          "vulneréis",
+          "vulneren"
+        ],
+        "SUBJ_IMPF": [
+          "vulnerara",
+          "vulneraras",
+          "vulnerara",
+          "vulneráramos",
+          "vulnerarais",
+          "vulneraran"
+        ],
+        "SUBJ_PERF": [
+          "haya vulnerado",
+          "hayas vulnerado",
+          "haya vulnerado",
+          "hayamos vulnerado",
+          "hayáis vulnerado",
+          "hayan vulnerado"
+        ],
+        "IMP": [
+          "",
+          "vulnera",
+          "vulnere",
+          "vulneremos",
+          "vulnerad",
+          "vulneren"
+        ],
+        "GER": [
+          "vulnerando"
+        ],
+        "PART": [
+          "vulnerado"
+        ]
+      }
+    },
+    {
+      "lemma": "promulgar",
+      "ja": "公布する",
+      "forms": {
+        "IND_PRES": [
+          "promulgo",
+          "promulgas",
+          "promulga",
+          "promulgamos",
+          "promulgáis",
+          "promulgan"
+        ],
+        "IND_PRET": [
+          "promulgué",
+          "promulgaste",
+          "promulgó",
+          "promulgamos",
+          "promulgasteis",
+          "promulgaron"
+        ],
+        "IND_IMPF": [
+          "promulgaba",
+          "promulgabas",
+          "promulgaba",
+          "promulgábamos",
+          "promulgabais",
+          "promulgaban"
+        ],
+        "IND_FUT": [
+          "promulgaré",
+          "promulgarás",
+          "promulgará",
+          "promulgaremos",
+          "promulgaréis",
+          "promulgarán"
+        ],
+        "IND_PERF": [
+          "he promulgado",
+          "has promulgado",
+          "ha promulgado",
+          "hemos promulgado",
+          "habéis promulgado",
+          "han promulgado"
+        ],
+        "IND_PLUP": [
+          "había promulgado",
+          "habías promulgado",
+          "había promulgado",
+          "habíamos promulgado",
+          "habíais promulgado",
+          "habían promulgado"
+        ],
+        "COND": [
+          "promulgaría",
+          "promulgarías",
+          "promulgaría",
+          "promulgaríamos",
+          "promulgaríais",
+          "promulgarían"
+        ],
+        "SUBJ_PRES": [
+          "promulgue",
+          "promulgues",
+          "promulgue",
+          "promulguemos",
+          "promulguéis",
+          "promulguen"
+        ],
+        "SUBJ_IMPF": [
+          "promulgara",
+          "promulgaras",
+          "promulgara",
+          "promulgáramos",
+          "promulgarais",
+          "promulgaran"
+        ],
+        "SUBJ_PERF": [
+          "haya promulgado",
+          "hayas promulgado",
+          "haya promulgado",
+          "hayamos promulgado",
+          "hayáis promulgado",
+          "hayan promulgado"
+        ],
+        "IMP": [
+          "",
+          "promulga",
+          "promulgue",
+          "promulguemos",
+          "promulgad",
+          "promulguen"
+        ],
+        "GER": [
+          "promulgando"
+        ],
+        "PART": [
+          "promulgado"
+        ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（promulg- → promulgu-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（promulg- → promulgu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（promulg- → promulgu-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "derogar",
+      "ja": "廃止する",
+      "forms": {
+        "IND_PRES": [
+          "derogo",
+          "derogas",
+          "deroga",
+          "derogamos",
+          "derogáis",
+          "derogan"
+        ],
+        "IND_PRET": [
+          "derogué",
+          "derogaste",
+          "derogó",
+          "derogamos",
+          "derogasteis",
+          "derogaron"
+        ],
+        "IND_IMPF": [
+          "derogaba",
+          "derogabas",
+          "derogaba",
+          "derogábamos",
+          "derogabais",
+          "derogaban"
+        ],
+        "IND_FUT": [
+          "derogaré",
+          "derogarás",
+          "derogará",
+          "derogaremos",
+          "derogaréis",
+          "derogarán"
+        ],
+        "IND_PERF": [
+          "he derogado",
+          "has derogado",
+          "ha derogado",
+          "hemos derogado",
+          "habéis derogado",
+          "han derogado"
+        ],
+        "IND_PLUP": [
+          "había derogado",
+          "habías derogado",
+          "había derogado",
+          "habíamos derogado",
+          "habíais derogado",
+          "habían derogado"
+        ],
+        "COND": [
+          "derogaría",
+          "derogarías",
+          "derogaría",
+          "derogaríamos",
+          "derogaríais",
+          "derogarían"
+        ],
+        "SUBJ_PRES": [
+          "derogue",
+          "derogues",
+          "derogue",
+          "deroguemos",
+          "deroguéis",
+          "deroguen"
+        ],
+        "SUBJ_IMPF": [
+          "derogara",
+          "derogaras",
+          "derogara",
+          "derogáramos",
+          "derogarais",
+          "derogaran"
+        ],
+        "SUBJ_PERF": [
+          "haya derogado",
+          "hayas derogado",
+          "haya derogado",
+          "hayamos derogado",
+          "hayáis derogado",
+          "hayan derogado"
+        ],
+        "IMP": [
+          "",
+          "deroga",
+          "derogue",
+          "deroguemos",
+          "derogad",
+          "deroguen"
+        ],
+        "GER": [
+          "derogando"
+        ],
+        "PART": [
+          "derogado"
+        ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（derog- → derogu-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（derog- → derogu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（derog- → derogu-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "sostener",
+      "ja": "支える・主張する",
+      "forms": {
+        "IND_PRES": [
+          "sostengo",
+          "sostienes",
+          "sostiene",
+          "sostenemos",
+          "sostenéis",
+          "sostienen"
+        ],
+        "IND_PRET": [
+          "sostuve",
+          "sostuviste",
+          "sostuvo",
+          "sostuvimos",
+          "sostuvisteis",
+          "sostuvieron"
+        ],
+        "IND_IMPF": [
+          "sostenía",
+          "sostenías",
+          "sostenía",
+          "sosteníamos",
+          "sosteníais",
+          "sostenían"
+        ],
+        "IND_FUT": [
+          "sostendré",
+          "sostendrás",
+          "sostendrá",
+          "sostendremos",
+          "sostendréis",
+          "sostendrán"
+        ],
+        "IND_PERF": [
+          "he sostenido",
+          "has sostenido",
+          "ha sostenido",
+          "hemos sostenido",
+          "habéis sostenido",
+          "han sostenido"
+        ],
+        "IND_PLUP": [
+          "había sostenido",
+          "habías sostenido",
+          "había sostenido",
+          "habíamos sostenido",
+          "habíais sostenido",
+          "habían sostenido"
+        ],
+        "COND": [
+          "sostendría",
+          "sostendrías",
+          "sostendría",
+          "sostendríamos",
+          "sostendríais",
+          "sostendrían"
+        ],
+        "SUBJ_PRES": [
+          "sostenga",
+          "sostengas",
+          "sostenga",
+          "sostengamos",
+          "sostengáis",
+          "sostengan"
+        ],
+        "SUBJ_IMPF": [
+          "sostuviera",
+          "sostuvieras",
+          "sostuviera",
+          "sostuviéramos",
+          "sostuvierais",
+          "sostuvieran"
+        ],
+        "SUBJ_PERF": [
+          "haya sostenido",
+          "hayas sostenido",
+          "haya sostenido",
+          "hayamos sostenido",
+          "hayáis sostenido",
+          "hayan sostenido"
+        ],
+        "IMP": [
+          "",
+          "sosten",
+          "sostenga",
+          "sostengamos",
+          "sostened",
+          "sostengan"
+        ],
+        "GER": [
+          "sosteniendo"
+        ],
+        "PART": [
+          "sostenido"
+        ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹が不規則に変化する（sosten- → sosteng-）",
+            "語幹の e が ie に変わる（sosten- → sostien-）"
+          ],
+          "idx": [
+            0,
+            1,
+            1,
+            null,
+            null,
+            1
+          ]
+        },
+        "IND_PRET": {
+          "codes": "ESESSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "不規則形。この時制は sostuve / sostuviste / sostuvo / sostuvimos / sostuvisteis / sostuvieron と変化する",
+            "語幹が不規則に変化する（sosten- → sostuv-）"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        "IND_FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（sostener- → sostendr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（sostener- → sostendr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（sosten- → sosteng-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（sosten- → sostuv-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-ESSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "不規則形。この時制は sosten / sostenga / sostengamos / sostened / sostengan と変化する",
+            "語幹が不規則に変化する（sosten- → sosteng-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            1,
+            null,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "incrementar",
+      "ja": "増加させる",
+      "forms": {
+        "IND_PRES": [
+          "incremento",
+          "incrementas",
+          "incrementa",
+          "incrementamos",
+          "incrementáis",
+          "incrementan"
+        ],
+        "IND_PRET": [
+          "incrementé",
+          "incrementaste",
+          "incrementó",
+          "incrementamos",
+          "incrementasteis",
+          "incrementaron"
+        ],
+        "IND_IMPF": [
+          "incrementaba",
+          "incrementabas",
+          "incrementaba",
+          "incrementábamos",
+          "incrementabais",
+          "incrementaban"
+        ],
+        "IND_FUT": [
+          "incrementaré",
+          "incrementarás",
+          "incrementará",
+          "incrementaremos",
+          "incrementaréis",
+          "incrementarán"
+        ],
+        "IND_PERF": [
+          "he incrementado",
+          "has incrementado",
+          "ha incrementado",
+          "hemos incrementado",
+          "habéis incrementado",
+          "han incrementado"
+        ],
+        "IND_PLUP": [
+          "había incrementado",
+          "habías incrementado",
+          "había incrementado",
+          "habíamos incrementado",
+          "habíais incrementado",
+          "habían incrementado"
+        ],
+        "COND": [
+          "incrementaría",
+          "incrementarías",
+          "incrementaría",
+          "incrementaríamos",
+          "incrementaríais",
+          "incrementarían"
+        ],
+        "SUBJ_PRES": [
+          "incremente",
+          "incrementes",
+          "incremente",
+          "incrementemos",
+          "incrementéis",
+          "incrementen"
+        ],
+        "SUBJ_IMPF": [
+          "incrementara",
+          "incrementaras",
+          "incrementara",
+          "incrementáramos",
+          "incrementarais",
+          "incrementaran"
+        ],
+        "SUBJ_PERF": [
+          "haya incrementado",
+          "hayas incrementado",
+          "haya incrementado",
+          "hayamos incrementado",
+          "hayáis incrementado",
+          "hayan incrementado"
+        ],
+        "IMP": [
+          "",
+          "incrementa",
+          "incremente",
+          "incrementemos",
+          "incrementad",
+          "incrementen"
+        ],
+        "GER": [
+          "incrementando"
+        ],
+        "PART": [
+          "incrementado"
+        ]
+      }
+    },
+    {
+      "lemma": "descender",
+      "ja": "下降する・下がる",
+      "forms": {
+        "IND_PRES": [
+          "desciendo",
+          "desciendes",
+          "desciende",
+          "descendemos",
+          "descendéis",
+          "descienden"
+        ],
+        "IND_PRET": [
+          "descendí",
+          "descendiste",
+          "descendió",
+          "descendimos",
+          "descendisteis",
+          "descendieron"
+        ],
+        "IND_IMPF": [
+          "descendía",
+          "descendías",
+          "descendía",
+          "descendíamos",
+          "descendíais",
+          "descendían"
+        ],
+        "IND_FUT": [
+          "descenderé",
+          "descenderás",
+          "descenderá",
+          "descenderemos",
+          "descenderéis",
+          "descenderán"
+        ],
+        "IND_PERF": [
+          "he descendido",
+          "has descendido",
+          "ha descendido",
+          "hemos descendido",
+          "habéis descendido",
+          "han descendido"
+        ],
+        "IND_PLUP": [
+          "había descendido",
+          "habías descendido",
+          "había descendido",
+          "habíamos descendido",
+          "habíais descendido",
+          "habían descendido"
+        ],
+        "COND": [
+          "descendería",
+          "descenderías",
+          "descendería",
+          "descenderíamos",
+          "descenderíais",
+          "descenderían"
+        ],
+        "SUBJ_PRES": [
+          "descienda",
+          "desciendas",
+          "descienda",
+          "descendamos",
+          "descendáis",
+          "desciendan"
+        ],
+        "SUBJ_IMPF": [
+          "descendiera",
+          "descendieras",
+          "descendiera",
+          "descendiéramos",
+          "descendierais",
+          "descendieran"
+        ],
+        "SUBJ_PERF": [
+          "haya descendido",
+          "hayas descendido",
+          "haya descendido",
+          "hayamos descendido",
+          "hayáis descendido",
+          "hayan descendido"
+        ],
+        "IMP": [
+          "",
+          "desciende",
+          "descienda",
+          "descendamos",
+          "descended",
+          "desciendan"
+        ],
+        "GER": [
+          "descendiendo"
+        ],
+        "PART": [
+          "descendido"
+        ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（descend- → desciend-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（descend- → desciend-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（descend- → desciend-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "acordar",
+      "ja": "合意する・取り決める",
+      "forms": {
+        "IND_PRES": [
+          "acuerdo",
+          "acuerdas",
+          "acuerda",
+          "acordamos",
+          "acordáis",
+          "acuerdan"
+        ],
+        "IND_PRET": [
+          "acordé",
+          "acordaste",
+          "acordó",
+          "acordamos",
+          "acordasteis",
+          "acordaron"
+        ],
+        "IND_IMPF": [
+          "acordaba",
+          "acordabas",
+          "acordaba",
+          "acordábamos",
+          "acordabais",
+          "acordaban"
+        ],
+        "IND_FUT": [
+          "acordaré",
+          "acordarás",
+          "acordará",
+          "acordaremos",
+          "acordaréis",
+          "acordarán"
+        ],
+        "IND_PERF": [
+          "he acordado",
+          "has acordado",
+          "ha acordado",
+          "hemos acordado",
+          "habéis acordado",
+          "han acordado"
+        ],
+        "IND_PLUP": [
+          "había acordado",
+          "habías acordado",
+          "había acordado",
+          "habíamos acordado",
+          "habíais acordado",
+          "habían acordado"
+        ],
+        "COND": [
+          "acordaría",
+          "acordarías",
+          "acordaría",
+          "acordaríamos",
+          "acordaríais",
+          "acordarían"
+        ],
+        "SUBJ_PRES": [
+          "acuerde",
+          "acuerdes",
+          "acuerde",
+          "acordemos",
+          "acordéis",
+          "acuerden"
+        ],
+        "SUBJ_IMPF": [
+          "acordara",
+          "acordaras",
+          "acordara",
+          "acordáramos",
+          "acordarais",
+          "acordaran"
+        ],
+        "SUBJ_PERF": [
+          "haya acordado",
+          "hayas acordado",
+          "haya acordado",
+          "hayamos acordado",
+          "hayáis acordado",
+          "hayan acordado"
+        ],
+        "IMP": [
+          "",
+          "acuerda",
+          "acuerde",
+          "acordemos",
+          "acordad",
+          "acuerden"
+        ],
+        "GER": [
+          "acordando"
+        ],
+        "PART": [
+          "acordado"
+        ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（acord- → acuerd-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（acord- → acuerd-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（acord- → acuerd-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "negociar",
+      "ja": "交渉する",
+      "forms": {
+        "IND_PRES": [
+          "negocio",
+          "negocias",
+          "negocia",
+          "negociamos",
+          "negociáis",
+          "negocian"
+        ],
+        "IND_PRET": [
+          "negocié",
+          "negociaste",
+          "negoció",
+          "negociamos",
+          "negociasteis",
+          "negociaron"
+        ],
+        "IND_IMPF": [
+          "negociaba",
+          "negociabas",
+          "negociaba",
+          "negociábamos",
+          "negociabais",
+          "negociaban"
+        ],
+        "IND_FUT": [
+          "negociaré",
+          "negociarás",
+          "negociará",
+          "negociaremos",
+          "negociaréis",
+          "negociarán"
+        ],
+        "IND_PERF": [
+          "he negociado",
+          "has negociado",
+          "ha negociado",
+          "hemos negociado",
+          "habéis negociado",
+          "han negociado"
+        ],
+        "IND_PLUP": [
+          "había negociado",
+          "habías negociado",
+          "había negociado",
+          "habíamos negociado",
+          "habíais negociado",
+          "habían negociado"
+        ],
+        "COND": [
+          "negociaría",
+          "negociarías",
+          "negociaría",
+          "negociaríamos",
+          "negociaríais",
+          "negociarían"
+        ],
+        "SUBJ_PRES": [
+          "negocie",
+          "negocies",
+          "negocie",
+          "negociemos",
+          "negociéis",
+          "negocien"
+        ],
+        "SUBJ_IMPF": [
+          "negociara",
+          "negociaras",
+          "negociara",
+          "negociáramos",
+          "negociarais",
+          "negociaran"
+        ],
+        "SUBJ_PERF": [
+          "haya negociado",
+          "hayas negociado",
+          "haya negociado",
+          "hayamos negociado",
+          "hayáis negociado",
+          "hayan negociado"
+        ],
+        "IMP": [
+          "",
+          "negocia",
+          "negocie",
+          "negociemos",
+          "negociad",
+          "negocien"
+        ],
+        "GER": [
+          "negociando"
+        ],
+        "PART": [
+          "negociado"
+        ]
+      }
+    },
+    {
+      "lemma": "respaldar",
+      "ja": "支持する・裏付ける",
+      "forms": {
+        "IND_PRES": [
+          "respaldo",
+          "respaldas",
+          "respalda",
+          "respaldamos",
+          "respaldáis",
+          "respaldan"
+        ],
+        "IND_PRET": [
+          "respaldé",
+          "respaldaste",
+          "respaldó",
+          "respaldamos",
+          "respaldasteis",
+          "respaldaron"
+        ],
+        "IND_IMPF": [
+          "respaldaba",
+          "respaldabas",
+          "respaldaba",
+          "respaldábamos",
+          "respaldabais",
+          "respaldaban"
+        ],
+        "IND_FUT": [
+          "respaldaré",
+          "respaldarás",
+          "respaldará",
+          "respaldaremos",
+          "respaldaréis",
+          "respaldarán"
+        ],
+        "IND_PERF": [
+          "he respaldado",
+          "has respaldado",
+          "ha respaldado",
+          "hemos respaldado",
+          "habéis respaldado",
+          "han respaldado"
+        ],
+        "IND_PLUP": [
+          "había respaldado",
+          "habías respaldado",
+          "había respaldado",
+          "habíamos respaldado",
+          "habíais respaldado",
+          "habían respaldado"
+        ],
+        "COND": [
+          "respaldaría",
+          "respaldarías",
+          "respaldaría",
+          "respaldaríamos",
+          "respaldaríais",
+          "respaldarían"
+        ],
+        "SUBJ_PRES": [
+          "respalde",
+          "respaldes",
+          "respalde",
+          "respaldemos",
+          "respaldéis",
+          "respalden"
+        ],
+        "SUBJ_IMPF": [
+          "respaldara",
+          "respaldaras",
+          "respaldara",
+          "respaldáramos",
+          "respaldarais",
+          "respaldaran"
+        ],
+        "SUBJ_PERF": [
+          "haya respaldado",
+          "hayas respaldado",
+          "haya respaldado",
+          "hayamos respaldado",
+          "hayáis respaldado",
+          "hayan respaldado"
+        ],
+        "IMP": [
+          "",
+          "respalda",
+          "respalde",
+          "respaldemos",
+          "respaldad",
+          "respalden"
+        ],
+        "GER": [
+          "respaldando"
+        ],
+        "PART": [
+          "respaldado"
+        ]
+      }
+    },
+    {
+      "lemma": "cuestionar",
+      "ja": "疑問を投げかける",
+      "forms": {
+        "IND_PRES": [
+          "cuestiono",
+          "cuestionas",
+          "cuestiona",
+          "cuestionamos",
+          "cuestionáis",
+          "cuestionan"
+        ],
+        "IND_PRET": [
+          "cuestioné",
+          "cuestionaste",
+          "cuestionó",
+          "cuestionamos",
+          "cuestionasteis",
+          "cuestionaron"
+        ],
+        "IND_IMPF": [
+          "cuestionaba",
+          "cuestionabas",
+          "cuestionaba",
+          "cuestionábamos",
+          "cuestionabais",
+          "cuestionaban"
+        ],
+        "IND_FUT": [
+          "cuestionaré",
+          "cuestionarás",
+          "cuestionará",
+          "cuestionaremos",
+          "cuestionaréis",
+          "cuestionarán"
+        ],
+        "IND_PERF": [
+          "he cuestionado",
+          "has cuestionado",
+          "ha cuestionado",
+          "hemos cuestionado",
+          "habéis cuestionado",
+          "han cuestionado"
+        ],
+        "IND_PLUP": [
+          "había cuestionado",
+          "habías cuestionado",
+          "había cuestionado",
+          "habíamos cuestionado",
+          "habíais cuestionado",
+          "habían cuestionado"
+        ],
+        "COND": [
+          "cuestionaría",
+          "cuestionarías",
+          "cuestionaría",
+          "cuestionaríamos",
+          "cuestionaríais",
+          "cuestionarían"
+        ],
+        "SUBJ_PRES": [
+          "cuestione",
+          "cuestiones",
+          "cuestione",
+          "cuestionemos",
+          "cuestionéis",
+          "cuestionen"
+        ],
+        "SUBJ_IMPF": [
+          "cuestionara",
+          "cuestionaras",
+          "cuestionara",
+          "cuestionáramos",
+          "cuestionarais",
+          "cuestionaran"
+        ],
+        "SUBJ_PERF": [
+          "haya cuestionado",
+          "hayas cuestionado",
+          "haya cuestionado",
+          "hayamos cuestionado",
+          "hayáis cuestionado",
+          "hayan cuestionado"
+        ],
+        "IMP": [
+          "",
+          "cuestiona",
+          "cuestione",
+          "cuestionemos",
+          "cuestionad",
+          "cuestionen"
+        ],
+        "GER": [
+          "cuestionando"
+        ],
+        "PART": [
+          "cuestionado"
+        ]
+      }
+    },
+    {
+      "lemma": "consolidar",
+      "ja": "強固にする・定着させる",
+      "forms": {
+        "IND_PRES": [
+          "consolido",
+          "consolidas",
+          "consolida",
+          "consolidamos",
+          "consolidáis",
+          "consolidan"
+        ],
+        "IND_PRET": [
+          "consolidé",
+          "consolidaste",
+          "consolidó",
+          "consolidamos",
+          "consolidasteis",
+          "consolidaron"
+        ],
+        "IND_IMPF": [
+          "consolidaba",
+          "consolidabas",
+          "consolidaba",
+          "consolidábamos",
+          "consolidabais",
+          "consolidaban"
+        ],
+        "IND_FUT": [
+          "consolidaré",
+          "consolidarás",
+          "consolidará",
+          "consolidaremos",
+          "consolidaréis",
+          "consolidarán"
+        ],
+        "IND_PERF": [
+          "he consolidado",
+          "has consolidado",
+          "ha consolidado",
+          "hemos consolidado",
+          "habéis consolidado",
+          "han consolidado"
+        ],
+        "IND_PLUP": [
+          "había consolidado",
+          "habías consolidado",
+          "había consolidado",
+          "habíamos consolidado",
+          "habíais consolidado",
+          "habían consolidado"
+        ],
+        "COND": [
+          "consolidaría",
+          "consolidarías",
+          "consolidaría",
+          "consolidaríamos",
+          "consolidaríais",
+          "consolidarían"
+        ],
+        "SUBJ_PRES": [
+          "consolide",
+          "consolides",
+          "consolide",
+          "consolidemos",
+          "consolidéis",
+          "consoliden"
+        ],
+        "SUBJ_IMPF": [
+          "consolidara",
+          "consolidaras",
+          "consolidara",
+          "consolidáramos",
+          "consolidarais",
+          "consolidaran"
+        ],
+        "SUBJ_PERF": [
+          "haya consolidado",
+          "hayas consolidado",
+          "haya consolidado",
+          "hayamos consolidado",
+          "hayáis consolidado",
+          "hayan consolidado"
+        ],
+        "IMP": [
+          "",
+          "consolida",
+          "consolide",
+          "consolidemos",
+          "consolidad",
+          "consoliden"
+        ],
+        "GER": [
+          "consolidando"
+        ],
+        "PART": [
+          "consolidado"
+        ]
+      }
+    },
+    {
+      "lemma": "desencadenar",
+      "ja": "引き起こす・誘発する",
+      "forms": {
+        "IND_PRES": [
+          "desencadeno",
+          "desencadenas",
+          "desencadena",
+          "desencadenamos",
+          "desencadenáis",
+          "desencadenan"
+        ],
+        "IND_PRET": [
+          "desencadené",
+          "desencadenaste",
+          "desencadenó",
+          "desencadenamos",
+          "desencadenasteis",
+          "desencadenaron"
+        ],
+        "IND_IMPF": [
+          "desencadenaba",
+          "desencadenabas",
+          "desencadenaba",
+          "desencadenábamos",
+          "desencadenabais",
+          "desencadenaban"
+        ],
+        "IND_FUT": [
+          "desencadenaré",
+          "desencadenarás",
+          "desencadenará",
+          "desencadenaremos",
+          "desencadenaréis",
+          "desencadenarán"
+        ],
+        "IND_PERF": [
+          "he desencadenado",
+          "has desencadenado",
+          "ha desencadenado",
+          "hemos desencadenado",
+          "habéis desencadenado",
+          "han desencadenado"
+        ],
+        "IND_PLUP": [
+          "había desencadenado",
+          "habías desencadenado",
+          "había desencadenado",
+          "habíamos desencadenado",
+          "habíais desencadenado",
+          "habían desencadenado"
+        ],
+        "COND": [
+          "desencadenaría",
+          "desencadenarías",
+          "desencadenaría",
+          "desencadenaríamos",
+          "desencadenaríais",
+          "desencadenarían"
+        ],
+        "SUBJ_PRES": [
+          "desencadene",
+          "desencadenes",
+          "desencadene",
+          "desencadenemos",
+          "desencadenéis",
+          "desencadenen"
+        ],
+        "SUBJ_IMPF": [
+          "desencadenara",
+          "desencadenaras",
+          "desencadenara",
+          "desencadenáramos",
+          "desencadenarais",
+          "desencadenaran"
+        ],
+        "SUBJ_PERF": [
+          "haya desencadenado",
+          "hayas desencadenado",
+          "haya desencadenado",
+          "hayamos desencadenado",
+          "hayáis desencadenado",
+          "hayan desencadenado"
+        ],
+        "IMP": [
+          "",
+          "desencadena",
+          "desencadene",
+          "desencadenemos",
+          "desencadenad",
+          "desencadenen"
+        ],
+        "GER": [
+          "desencadenando"
+        ],
+        "PART": [
+          "desencadenado"
+        ]
+      }
+    },
+    {
+      "lemma": "repercutir",
+      "ja": "影響を及ぼす・波及する",
+      "forms": {
+        "IND_PRES": [
+          "repercuto",
+          "repercutes",
+          "repercute",
+          "repercutimos",
+          "repercutís",
+          "repercuten"
+        ],
+        "IND_PRET": [
+          "repercutí",
+          "repercutiste",
+          "repercutió",
+          "repercutimos",
+          "repercutisteis",
+          "repercutieron"
+        ],
+        "IND_IMPF": [
+          "repercutía",
+          "repercutías",
+          "repercutía",
+          "repercutíamos",
+          "repercutíais",
+          "repercutían"
+        ],
+        "IND_FUT": [
+          "repercutiré",
+          "repercutirás",
+          "repercutirá",
+          "repercutiremos",
+          "repercutiréis",
+          "repercutirán"
+        ],
+        "IND_PERF": [
+          "he repercutido",
+          "has repercutido",
+          "ha repercutido",
+          "hemos repercutido",
+          "habéis repercutido",
+          "han repercutido"
+        ],
+        "IND_PLUP": [
+          "había repercutido",
+          "habías repercutido",
+          "había repercutido",
+          "habíamos repercutido",
+          "habíais repercutido",
+          "habían repercutido"
+        ],
+        "COND": [
+          "repercutiría",
+          "repercutirías",
+          "repercutiría",
+          "repercutiríamos",
+          "repercutiríais",
+          "repercutirían"
+        ],
+        "SUBJ_PRES": [
+          "repercuta",
+          "repercutas",
+          "repercuta",
+          "repercutamos",
+          "repercutáis",
+          "repercutan"
+        ],
+        "SUBJ_IMPF": [
+          "repercutiera",
+          "repercutieras",
+          "repercutiera",
+          "repercutiéramos",
+          "repercutierais",
+          "repercutieran"
+        ],
+        "SUBJ_PERF": [
+          "haya repercutido",
+          "hayas repercutido",
+          "haya repercutido",
+          "hayamos repercutido",
+          "hayáis repercutido",
+          "hayan repercutido"
+        ],
+        "IMP": [
+          "",
+          "repercute",
+          "repercuta",
+          "repercutamos",
+          "repercutid",
+          "repercutan"
+        ],
+        "GER": [
+          "repercutiendo"
+        ],
+        "PART": [
+          "repercutido"
+        ]
       }
     }
   ]

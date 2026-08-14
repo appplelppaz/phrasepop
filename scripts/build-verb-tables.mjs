@@ -55,9 +55,13 @@ function buildFrench() {
 
       const row = PERSONS.map((_, p) => {
         try {
-          // 助動詞が être の複合時制では過去分詞が主語の数に一致する
-          // （nous sommes allés）。数を渡さないと単数形のままになる。
-          const opts = { ...auxOpt, agreeGender: "M", agreeNumber: p >= 3 ? "P" : "S" };
+          // 過去分詞が主語に性数一致するのは助動詞が être のときだけ
+          // （nous sommes allés / nous avons mangé）。
+          // avoir の複合時制で数を渡すと "avons mangés" のような誤りになる。
+          const opts =
+            auxOpt.aux === "ETRE"
+              ? { ...auxOpt, agreeGender: "M", agreeNumber: p >= 3 ? "P" : "S" }
+              : auxOpt;
           return FrenchVerbs.getConjugation(Lefff, lemma, cfg.lib, p, opts, null, null) ?? "";
         } catch {
           // 命令法は 2sg / 1pl / 2pl しか存在しないため、他の人称は空欄で正しい。

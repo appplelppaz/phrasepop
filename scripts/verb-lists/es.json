@@ -515,6 +515,122 @@
       "omit": [
         "IMP"
       ]
+    },
+    {
+      "lemma": "advertir",
+      "ja": "警告する・気づく"
+    },
+    {
+      "lemma": "afirmar",
+      "ja": "断言する・主張する"
+    },
+    {
+      "lemma": "señalar",
+      "ja": "指摘する・示す"
+    },
+    {
+      "lemma": "destacar",
+      "ja": "際立つ・強調する"
+    },
+    {
+      "lemma": "asumir",
+      "ja": "引き受ける・想定する"
+    },
+    {
+      "lemma": "plantear",
+      "ja": "提起する・持ち出す"
+    },
+    {
+      "lemma": "abordar",
+      "ja": "取り組む・着手する"
+    },
+    {
+      "lemma": "impulsar",
+      "ja": "推進する"
+    },
+    {
+      "lemma": "frenar",
+      "ja": "抑制する・歯止めをかける"
+    },
+    {
+      "lemma": "agravar",
+      "ja": "悪化させる"
+    },
+    {
+      "lemma": "mitigar",
+      "ja": "緩和する"
+    },
+    {
+      "lemma": "prever",
+      "ja": "予測する・見込む"
+    },
+    {
+      "lemma": "estimar",
+      "ja": "見積もる・評価する"
+    },
+    {
+      "lemma": "atribuir",
+      "ja": "帰する・のせいにする"
+    },
+    {
+      "lemma": "desmentir",
+      "ja": "否定する・反論する"
+    },
+    {
+      "lemma": "alegar",
+      "ja": "主張する・申し立てる"
+    },
+    {
+      "lemma": "vulnerar",
+      "ja": "侵害する"
+    },
+    {
+      "lemma": "promulgar",
+      "ja": "公布する"
+    },
+    {
+      "lemma": "derogar",
+      "ja": "廃止する"
+    },
+    {
+      "lemma": "sostener",
+      "ja": "支える・主張する"
+    },
+    {
+      "lemma": "incrementar",
+      "ja": "増加させる"
+    },
+    {
+      "lemma": "descender",
+      "ja": "下降する・下がる"
+    },
+    {
+      "lemma": "acordar",
+      "ja": "合意する・取り決める"
+    },
+    {
+      "lemma": "negociar",
+      "ja": "交渉する"
+    },
+    {
+      "lemma": "respaldar",
+      "ja": "支持する・裏付ける"
+    },
+    {
+      "lemma": "cuestionar",
+      "ja": "疑問を投げかける"
+    },
+    {
+      "lemma": "consolidar",
+      "ja": "強固にする・定着させる"
+    },
+    {
+      "lemma": "desencadenar",
+      "ja": "引き起こす・誘発する"
+    },
+    {
+      "lemma": "repercutir",
+      "ja": "影響を及ぼす・波及する"
     }
   ]
 }

@@ -107,7 +107,7 @@ for (const lang of ["es", "fr"]) {
   });
 }
 
-test("es: 不規則活用に規則形との差分が表示される", async ({ page }) => {
+test("es: 不規則活用の中身が表示される", async ({ page }) => {
   await startStudy(page, "es");
 
   // 不規則な語が出るまでカードを送る。◯ボタンで次へ。

@@ -1,5 +1,5 @@
 {
-  "_comment": "verbecc が内部エラーで活用できない動詞を手書きで補う。pasar と resultar は完全な規則 -ar 動詞、nevar は e→ie の非人称動詞。順序は 1sg,2sg,3sg,1pl,2pl,3pl。IMP の 1sg は存在しないので空文字。非人称動詞は 3sg 以外を空文字にする。",
+  "_comment": "verbecc が内部エラーで活用できない動詞を手書きで補う。pasar と resultar は完全な規則 -ar 動詞、nevar は e→ie の非人称動詞。順序は 1sg,2sg,3sg,1pl,2pl,3pl。IMP の 1sg は存在しないので空文字。非人称動詞は 3sg 以外を空文字にする。 prever は ver 型の不規則動詞だが verbecc がアクセント記号を落とすので手書きで直す。",
   "pasar": {
     "IND_PRES": [
       "paso",
@@ -278,6 +278,32 @@
     ],
     "PART": [
       "nevado"
+    ]
+  },
+  "prever": {
+    "IND_PRES": [
+      "preveo",
+      "prevés",
+      "prevé",
+      "prevemos",
+      "preveis",
+      "prevén"
+    ],
+    "IND_PRET": [
+      "preví",
+      "previste",
+      "previó",
+      "previmos",
+      "previsteis",
+      "previeron"
+    ],
+    "IMP": [
+      "",
+      "prevé",
+      "prevea",
+      "preveamos",
+      "preved",
+      "prevean"
     ]
   }
 }

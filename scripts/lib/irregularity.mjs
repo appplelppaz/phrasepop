@@ -222,6 +222,19 @@ function describeStem(stemReg, stemAct) {
   };
 }
 
+/**
+ * 実際の活用形を並べた説明。
+ *
+ * 規則形を取らない語について「規則どおりなら so のところが soy になる」と書いても、
+ * 存在しない形を示すだけで学習の役に立たない。代わりにその時制の全人称を並べ、
+ * 形そのものを覚えられるようにする。
+ */
+function paradigmNote(actual) {
+  const forms = actual.filter(Boolean);
+  if (forms.length <= 1) return "規則的な作り方が無い不規則形。この形のまま覚える";
+  return `不規則形。この時制は ${forms.join(" / ")} と変化する`;
+}
+
 /* ============================================================ 判定の本体 */
 
 /**
@@ -278,19 +291,14 @@ export function analyzeTense(lang, lemma, tense, actual, allForms) {
       codes.push("S");
       perPerson.push({
         code: "S",
-        regular: exp,
-        text: desc ? desc.text : `規則どおりなら ${exp} のところが ${act} になる`,
+        text: desc ? desc.text : paradigmNote(actual),
         ...(desc?.kind === "alternation" ? { from: desc.from, to: desc.to } : {}),
       });
     } else {
-      // 語尾が規則形と違う
-      const code = act[0] === exp[0] ? "E" : "B";
-      codes.push(code);
-      perPerson.push({
-        code,
-        regular: exp,
-        text: `規則どおりなら ${exp} のところが ${act} になる`,
-      });
+      // 語尾が規則形と違う。この語は規則形を取らないので、
+      // 「規則どおりなら〜」とは書かず、実際の活用を並べて覚えられるようにする。
+      codes.push(act[0] === exp[0] ? "E" : "B");
+      perPerson.push({ code: act[0] === exp[0] ? "E" : "B", text: paradigmNote(actual) });
     }
   }
 

@@ -543,6 +543,122 @@
         "IMPER",
         "PPRES"
       ]
+    },
+    {
+      "lemma": "avertir",
+      "ja": "警告する"
+    },
+    {
+      "lemma": "affirmer",
+      "ja": "断言する・主張する"
+    },
+    {
+      "lemma": "souligner",
+      "ja": "強調する・下線を引く"
+    },
+    {
+      "lemma": "signaler",
+      "ja": "指摘する・知らせる"
+    },
+    {
+      "lemma": "assumer",
+      "ja": "引き受ける・負う"
+    },
+    {
+      "lemma": "aborder",
+      "ja": "取り組む・着手する"
+    },
+    {
+      "lemma": "freiner",
+      "ja": "抑制する・歯止めをかける"
+    },
+    {
+      "lemma": "aggraver",
+      "ja": "悪化させる"
+    },
+    {
+      "lemma": "atténuer",
+      "ja": "緩和する"
+    },
+    {
+      "lemma": "estimer",
+      "ja": "見積もる・評価する"
+    },
+    {
+      "lemma": "attribuer",
+      "ja": "帰する・与える"
+    },
+    {
+      "lemma": "démentir",
+      "ja": "否定する・反論する"
+    },
+    {
+      "lemma": "alléguer",
+      "ja": "主張する・申し立てる"
+    },
+    {
+      "lemma": "promulguer",
+      "ja": "公布する"
+    },
+    {
+      "lemma": "abroger",
+      "ja": "廃止する"
+    },
+    {
+      "lemma": "soutenir",
+      "ja": "支える・主張する"
+    },
+    {
+      "lemma": "accroître",
+      "ja": "増大させる"
+    },
+    {
+      "lemma": "diminuer",
+      "ja": "減少させる"
+    },
+    {
+      "lemma": "négocier",
+      "ja": "交渉する"
+    },
+    {
+      "lemma": "appuyer",
+      "ja": "支持する・押す"
+    },
+    {
+      "lemma": "contester",
+      "ja": "異議を唱える"
+    },
+    {
+      "lemma": "consolider",
+      "ja": "強固にする"
+    },
+    {
+      "lemma": "déclencher",
+      "ja": "引き起こす・作動させる"
+    },
+    {
+      "lemma": "entraîner",
+      "ja": "引き起こす・訓練する"
+    },
+    {
+      "lemma": "constater",
+      "ja": "確認する・認める"
+    },
+    {
+      "lemma": "renforcer",
+      "ja": "強化する"
+    },
+    {
+      "lemma": "dénoncer",
+      "ja": "告発する・非難する"
+    },
+    {
+      "lemma": "mener",
+      "ja": "導く・行う"
+    },
+    {
+      "lemma": "relever",
+      "ja": "立て直す・指摘する"
     }
   ]
 }

@@ -5,7 +5,7 @@ import { LANG_LABEL, type Lang, type Level } from "@/lib/types";
 import type { SequenceOptions } from "@/lib/useStudySequence";
 import { PersonMark } from "./GrammarMarks";
 
-const LEVELS: Level[] = ["A1", "A2", "B1", "B2"];
+const LEVELS: Level[] = ["A1", "A2", "B1", "B2", "C1", "C2"];
 
 /**
  * 設定画面。学習画面から歯車アイコンで開く。
@@ -178,7 +178,7 @@ export function SettingsSheet({
                 >
                   波線
                 </span>
-                になっている語は不規則活用です。単語カードに、規則どおりならどうなるはずかを出します。
+                になっている語は不規則活用です。単語カードに、語幹がどう変わるか、あるいはその時制の全人称を出します。
               </p>
             </div>
           </div>

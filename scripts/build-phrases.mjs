@@ -152,7 +152,6 @@ function build(lang, errors) {
                   gloss.inflection.irregular = {
                     code: detail.code,
                     text: detail.text,
-                    ...(detail.regular ? { regular: detail.regular } : {}),
                   };
                 }
               }
@@ -169,11 +168,7 @@ function build(lang, errors) {
               const analysis = analyzeTense(lang, t.lemma, tense, row, verb.forms);
               const detail = analysis?.perPerson?.[0];
               if (detail) {
-                gloss.inflection.irregular = {
-                  code: detail.code,
-                  text: detail.text,
-                  ...(detail.regular ? { regular: detail.regular } : {}),
-                };
+                gloss.inflection.irregular = { code: detail.code, text: detail.text };
               }
             }
           }

@@ -96,8 +96,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "E",
-                "text": "規則どおりなら esta のところが está になる",
-                "regular": "esta"
+                "text": "不規則形。この時制は estoy / estás / está / estamos / estáis / están と変化する"
               }
             }
           }
@@ -160,8 +159,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の e が ie に変わる（quer- → quier-）",
-                "regular": "quero"
+                "text": "語幹の e が ie に変わる（quer- → quier-）"
               }
             }
           }
@@ -238,8 +236,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の e が ie に変わる（entend- → entiend-）",
-                "regular": "entendo"
+                "text": "語幹の e が ie に変わる（entend- → entiend-）"
               }
             }
           }
@@ -269,8 +266,7 @@
               "person": "2sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の e が i に変わる（dec- → dic-）",
-                "regular": "deces"
+                "text": "語幹の e が i に変わる（dec- → dic-）"
               }
             }
           }
@@ -360,8 +356,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "E",
-                "text": "規則どおりなら esto のところが estoy になる",
-                "regular": "esto"
+                "text": "不規則形。この時制は estoy / estás / está / estamos / estáis / están と変化する"
               }
             }
           }
@@ -443,8 +438,7 @@
               "person": "2sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の o が ue に変わる（pod- → pued-）",
-                "regular": "podes"
+                "text": "語幹の o が ue に変わる（pod- → pued-）"
               }
             }
           }
@@ -515,8 +509,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "B",
-                "text": "規則どおりなら í のところが fui になる",
-                "regular": "í"
+                "text": "不規則形。この時制は fui / fuiste / fue / fuimos / fuisteis / fueron と変化する"
               }
             }
           }
@@ -692,8 +685,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "B",
-                "text": "規則どおりなら sía のところが era になる",
-                "regular": "sía"
+                "text": "不規則形。この時制は era / eras / era / éramos / erais / eran と変化する"
               }
             }
           }
@@ -786,8 +778,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹が不規則に変化する（v- → ve-）",
-                "regular": "vía"
+                "text": "語幹が不規則に変化する（v- → ve-）"
               }
             }
           }
@@ -854,8 +845,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹が不規則に変化する（salir- → saldr-）",
-                "regular": "saliré"
+                "text": "語幹が不規則に変化する（salir- → saldr-）"
               }
             }
           }
@@ -944,8 +934,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の g が gu に変わる（lleg- → llegu-）",
-                "regular": "llege"
+                "text": "語幹の g が gu に変わる（lleg- → llegu-）"
               }
             }
           }
@@ -1083,8 +1072,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の g が gu に変わる（lleg- → llegu-）",
-                "regular": "llegé"
+                "text": "語幹の g が gu に変わる（lleg- → llegu-）"
               }
             }
           }
@@ -1226,8 +1214,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹が不規則に変化する（decir- → dir-）",
-                "regular": "deciría"
+                "text": "語幹が不規則に変化する（decir- → dir-）"
               }
             }
           }
@@ -1289,8 +1276,7 @@
               "person": "2sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹が不規則に変化する（ten- → teng-）",
-                "regular": "tenas"
+                "text": "語幹が不規則に変化する（ten- → teng-）"
               }
             }
           }
@@ -1365,8 +1351,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の o が ue に変わる（llov- → lluev-）",
-                "regular": "llova"
+                "text": "語幹の o が ue に変わる（llov- → lluev-）"
               }
             }
           }
@@ -1433,8 +1418,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹が不規則に変化する（s- → se-）",
-                "regular": "sa"
+                "text": "語幹が不規則に変化する（s- → se-）"
               }
             }
           }
@@ -1486,8 +1470,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "B",
-                "text": "規則どおりなら se のところが es になる",
-                "regular": "se"
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
               }
             }
           }
@@ -1566,8 +1549,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹が不規則に変化する（ten- → tuv-）",
-                "regular": "teniera"
+                "text": "語幹が不規則に変化する（ten- → tuv-）"
               }
             }
           }
@@ -1639,8 +1621,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の e が i に変わる（ped- → pid-）",
-                "regular": "pedió"
+                "text": "語幹の e が i に変わる（ped- → pid-）"
               }
             }
           }
@@ -1697,8 +1678,7 @@
               "person": "2sg",
               "irregular": {
                 "code": "E",
-                "text": "規則どおりなら vene のところが ven になる",
-                "regular": "vene"
+                "text": "不規則形。この時制は ven / venga / vengamos / venid / vengan と変化する"
               }
             }
           }
@@ -1751,8 +1731,7 @@
               "person": "2sg",
               "irregular": {
                 "code": "E",
-                "text": "規則どおりなら dece のところが di になる",
-                "regular": "dece"
+                "text": "不規則形。この時制は di / diga / digamos / decid / digan と変化する"
               }
             }
           }
@@ -1871,8 +1850,7 @@
               "person": "2sg",
               "irregular": {
                 "code": "E",
-                "text": "規則どおりなら hace のところが haz になる",
-                "regular": "hace"
+                "text": "不規則形。この時制は haz / haga / hagamos / haced / hagan と変化する"
               }
             }
           }
@@ -1902,8 +1880,7 @@
               "person": "2sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の e が ie に変わる（quer- → quier-）",
-                "regular": "queras"
+                "text": "語幹の e が ie に変わる（quer- → quier-）"
               }
             }
           }
@@ -1998,8 +1975,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹が不規則に変化する（ten- → teng-）",
-                "regular": "teno"
+                "text": "語幹が不規則に変化する（ten- → teng-）"
               }
             }
           }
@@ -2264,8 +2240,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹が不規則に変化する（ten- → teng-）",
-                "regular": "teno"
+                "text": "語幹が不規則に変化する（ten- → teng-）"
               }
             }
           }
@@ -2327,8 +2302,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "B",
-                "text": "規則どおりなら o のところが voy になる",
-                "regular": "o"
+                "text": "不規則形。この時制は voy / vas / va / vamos / vais / van と変化する"
               }
             }
           }
@@ -2414,8 +2388,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の e が ie に変わる（empez- → empiez-）",
-                "regular": "empeza"
+                "text": "語幹の e が ie に変わる（empez- → empiez-）"
               }
             }
           }
@@ -2542,8 +2515,7 @@
               "person": "2sg",
               "irregular": {
                 "code": "E",
-                "text": "規則どおりなら estes のところが estés になる",
-                "regular": "estes"
+                "text": "不規則形。この時制は esté / estés / esté / estemos / estéis / estén と変化する"
               }
             }
           }
@@ -2596,8 +2568,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の o が ue に変わる（llov- → lluev-）",
-                "regular": "llova"
+                "text": "語幹の o が ue に変わる（llov- → lluev-）"
               }
             }
           }
@@ -2680,8 +2651,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "B",
-                "text": "規則どおりなら sió のところが fue になる",
-                "regular": "sió"
+                "text": "不規則形。この時制は fui / fuiste / fue / fuimos / fuisteis / fueron と変化する"
               }
             }
           }
@@ -2699,8 +2669,7 @@
               "tense": "PART",
               "irregular": {
                 "code": "E",
-                "text": "規則どおりなら escribido のところが escrito になる",
-                "regular": "escribido"
+                "text": "規則的な作り方が無い不規則形。この形のまま覚える"
               }
             }
           }
@@ -2765,8 +2734,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の e が i に変わる（segu- → sigu-）",
-                "regular": "segue"
+                "text": "語幹の e が i に変わる（segu- → sigu-）"
               }
             }
           }
@@ -3130,8 +3098,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹が不規則に変化する（v- → ve-）",
-                "regular": "vo"
+                "text": "語幹が不規則に変化する（v- → ve-）"
               }
             }
           }
@@ -3155,8 +3122,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の e が í に変わる（sonre- → sonrí-）",
-                "regular": "sonree"
+                "text": "語幹の e が í に変わる（sonre- → sonrí-）"
               }
             }
           }
@@ -3340,8 +3306,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹が不規則に変化する（v- → ve-）",
-                "regular": "vo"
+                "text": "語幹が不規則に変化する（v- → ve-）"
               }
             }
           }
@@ -3415,8 +3380,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の o が ue に変わる（record- → recuerd-）",
-                "regular": "recordo"
+                "text": "語幹の o が ue に変わる（record- → recuerd-）"
               }
             }
           }
@@ -3579,8 +3543,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の e が ie に変わる（quer- → quier-）",
-                "regular": "quero"
+                "text": "語幹の e が ie に変わる（quer- → quier-）"
               }
             }
           }
@@ -3727,8 +3690,7 @@
               "person": "2sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹が不規則に変化する（dec- → dij-）",
-                "regular": "deciste"
+                "text": "語幹が不規則に変化する（dec- → dij-）"
               }
             }
           }
@@ -3894,8 +3856,7 @@
               "person": "3pl",
               "irregular": {
                 "code": "S",
-                "text": "語幹が不規則に変化する（dec- → dig-）",
-                "regular": "decan"
+                "text": "語幹が不規則に変化する（dec- → dig-）"
               }
             }
           }
@@ -3991,8 +3952,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の e が ie に変わる（ven- → vien-）",
-                "regular": "vene"
+                "text": "語幹の e が ie に変わる（ven- → vien-）"
               }
             }
           }
@@ -4056,8 +4016,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "B",
-                "text": "規則どおりなら se のところが es になる",
-                "regular": "se"
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
               }
             }
           }
@@ -4190,8 +4149,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の o が ue に変わる（volv- → vuelv-）",
-                "regular": "volvo"
+                "text": "語幹の o が ue に変わる（volv- → vuelv-）"
               }
             }
           }
@@ -4439,8 +4397,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "B",
-                "text": "規則どおりなら se のところが es になる",
-                "regular": "se"
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
               }
             }
           }
@@ -4502,8 +4459,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "B",
-                "text": "規則どおりなら se のところが es になる",
-                "regular": "se"
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
               }
             }
           }
@@ -4578,8 +4534,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "E",
-                "text": "規則どおりなら esta のところが está になる",
-                "regular": "esta"
+                "text": "不規則形。この時制は estoy / estás / está / estamos / estáis / están と変化する"
               }
             }
           }
@@ -4619,8 +4574,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "B",
-                "text": "規則どおりなら se のところが es になる",
-                "regular": "se"
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
               }
             }
           }
@@ -4653,8 +4607,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "B",
-                "text": "規則どおりなら se のところが es になる",
-                "regular": "se"
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
               }
             }
           }
@@ -4753,8 +4706,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の e が ie に変わる（pens- → piens-）",
-                "regular": "penso"
+                "text": "語幹の e が ie に変わる（pens- → piens-）"
               }
             }
           }
@@ -4788,8 +4740,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の e が ie に変わる（entend- → entiend-）",
-                "regular": "entendo"
+                "text": "語幹の e が ie に変わる（entend- → entiend-）"
               }
             }
           }
@@ -4827,8 +4778,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "B",
-                "text": "規則どおりなら se のところが es になる",
-                "regular": "se"
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
               }
             }
           }
@@ -4902,8 +4852,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "E",
-                "text": "規則どおりなら esto のところが estoy になる",
-                "regular": "esto"
+                "text": "不規則形。この時制は estoy / estás / está / estamos / estáis / están と変化する"
               }
             }
           }
@@ -5020,8 +4969,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "E",
-                "text": "規則どおりなら dó のところが dio になる",
-                "regular": "dó"
+                "text": "不規則形。この時制は di / diste / dio / dimos / disteis / dieron と変化する"
               }
             }
           }
@@ -5181,8 +5129,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹が不規則に変化する（ven- → veng-）",
-                "regular": "vena"
+                "text": "語幹が不規則に変化する（ven- → veng-）"
               }
             }
           }
@@ -5216,8 +5163,7 @@
               "person": "2sg",
               "irregular": {
                 "code": "E",
-                "text": "規則どおりなら dece のところが di になる",
-                "regular": "dece"
+                "text": "不規則形。この時制は di / diga / digamos / decid / digan と変化する"
               }
             }
           }
@@ -5272,8 +5218,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹が不規則に変化する（decir- → dir-）",
-                "regular": "deciré"
+                "text": "語幹が不規則に変化する（decir- → dir-）"
               }
             }
           }
@@ -5297,8 +5242,7 @@
               "person": "2sg",
               "irregular": {
                 "code": "S",
-                "text": "規則どおりなら ses のところが eres になる",
-                "regular": "ses"
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
               }
             }
           }
@@ -5413,8 +5357,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹が不規則に変化する（sab- → sep-）",
-                "regular": "saba"
+                "text": "語幹が不規則に変化する（sab- → sep-）"
               }
             }
           }
@@ -5622,8 +5565,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "E",
-                "text": "規則どおりなら ponió のところが puso になる",
-                "regular": "ponió"
+                "text": "不規則形。この時制は puse / pusiste / puso / pusimos / pusisteis / pusieron と変化する"
               }
             }
           }
@@ -5737,8 +5679,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の e が ie に変わる（ten- → tien-）",
-                "regular": "tene"
+                "text": "語幹の e が ie に変わる（ten- → tien-）"
               }
             }
           }
@@ -5827,8 +5768,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "E",
-                "text": "規則どおりなら esta のところが está になる",
-                "regular": "esta"
+                "text": "不規則形。この時制は estoy / estás / está / estamos / estáis / están と変化する"
               }
             }
           }
@@ -5885,8 +5825,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "B",
-                "text": "規則どおりなら e のところが va になる",
-                "regular": "e"
+                "text": "不規則形。この時制は voy / vas / va / vamos / vais / van と変化する"
               }
             }
           }
@@ -6050,8 +5989,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹が不規則に変化する（sab- → sup-）",
-                "regular": "sabiera"
+                "text": "語幹が不規則に変化する（sab- → sup-）"
               }
             }
           }
@@ -6437,8 +6375,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "E",
-                "text": "規則どおりなら hació のところが hizo になる",
-                "regular": "hació"
+                "text": "不規則形。この時制は hice / hiciste / hizo / hicimos / hicisteis / hicieron と変化する"
               }
             }
           }
@@ -6591,6 +6528,1829 @@
           }
         }
       ]
+    },
+    {
+      "id": "es-0101",
+      "lang": "es",
+      "text": "El informe advierte de que la brecha salarial se ha agravado.",
+      "ja": "報告書は賃金格差が拡大したと警告している。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "直説法現在",
+        "直説法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "informe",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "informe",
+            "pos": "名詞",
+            "ja": "報告書・レポート"
+          }
+        },
+        {
+          "surface": "advierte",
+          "start": 11,
+          "end": 19,
+          "gloss": {
+            "lemma": "advertir",
+            "pos": "動詞",
+            "ja": "警告する・気づく",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が ie に変わる（advert- → adviert-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "de que",
+          "start": 20,
+          "end": 26
+        },
+        {
+          "surface": "la",
+          "start": 27,
+          "end": 29
+        },
+        {
+          "surface": "brecha salarial",
+          "start": 30,
+          "end": 45,
+          "gloss": {
+            "lemma": "brecha salarial",
+            "pos": "名詞句",
+            "ja": "賃金格差",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "se",
+          "start": 46,
+          "end": 48
+        },
+        {
+          "surface": "ha agravado",
+          "start": 49,
+          "end": 60,
+          "gloss": {
+            "lemma": "agravar",
+            "pos": "動詞",
+            "ja": "悪化させる",
+            "note": "再帰の se が付くと「悪化する」という自動詞になる",
+            "inflection": {
+              "label": "直説法現在完了・3人称単数",
+              "tense": "IND_PERF",
+              "person": "3sg"
+            }
+          }
+        }
+      ],
+      "grammar": "advertir de que は報道文の定型。brecha salarial（賃金格差）は経済記事の常套句。"
+    },
+    {
+      "id": "es-0102",
+      "lang": "es",
+      "text": "El Gobierno sostiene que las medidas frenarán la inflación.",
+      "ja": "政府はこの措置がインフレを抑えると主張している。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "直説法現在",
+        "直説法未来"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "Gobierno",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "gobierno",
+            "pos": "名詞",
+            "ja": "政府"
+          }
+        },
+        {
+          "surface": "sostiene",
+          "start": 12,
+          "end": 20,
+          "gloss": {
+            "lemma": "sostener",
+            "pos": "動詞",
+            "ja": "支える・主張する",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が ie に変わる（sosten- → sostien-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 21,
+          "end": 24
+        },
+        {
+          "surface": "las",
+          "start": 25,
+          "end": 28
+        },
+        {
+          "surface": "medidas",
+          "start": 29,
+          "end": 36,
+          "gloss": {
+            "lemma": "medida",
+            "pos": "名詞",
+            "ja": "措置・対策"
+          }
+        },
+        {
+          "surface": "frenarán",
+          "start": 37,
+          "end": 45,
+          "gloss": {
+            "lemma": "frenar",
+            "pos": "動詞",
+            "ja": "抑制する・歯止めをかける",
+            "inflection": {
+              "label": "直説法未来・3人称複数",
+              "tense": "IND_FUT",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 46,
+          "end": 48
+        },
+        {
+          "surface": "inflación",
+          "start": 49,
+          "end": 58,
+          "gloss": {
+            "lemma": "inflación",
+            "pos": "名詞",
+            "ja": "インフレ・物価上昇"
+          }
+        }
+      ],
+      "grammar": "sostener que は「〜だと主張する」。政治・経済記事で afirmar とともに多用される。"
+    },
+    {
+      "id": "es-0103",
+      "lang": "es",
+      "text": "La sentencia establece que la norma vulnera derechos fundamentales.",
+      "ja": "判決は、その規定が基本的人権を侵害していると認定した。",
+      "level": "C2",
+      "tags": [
+        "法律",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "La",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "sentencia",
+          "start": 3,
+          "end": 12,
+          "gloss": {
+            "lemma": "sentencia",
+            "pos": "名詞",
+            "ja": "判決"
+          }
+        },
+        {
+          "surface": "establece",
+          "start": 13,
+          "end": 22,
+          "gloss": {
+            "lemma": "establecer",
+            "pos": "動詞",
+            "ja": "定める・確立する",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 23,
+          "end": 26
+        },
+        {
+          "surface": "la",
+          "start": 27,
+          "end": 29
+        },
+        {
+          "surface": "norma",
+          "start": 30,
+          "end": 35,
+          "gloss": {
+            "lemma": "norma",
+            "pos": "名詞",
+            "ja": "規定・規範"
+          }
+        },
+        {
+          "surface": "vulnera",
+          "start": 36,
+          "end": 43,
+          "gloss": {
+            "lemma": "vulnerar",
+            "pos": "動詞",
+            "ja": "侵害する",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "derechos fundamentales",
+          "start": 44,
+          "end": 66,
+          "gloss": {
+            "lemma": "derechos fundamentales",
+            "pos": "名詞句",
+            "ja": "基本的人権",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "法律文の定型。derechos fundamentales は憲法上の「基本権」。"
+    },
+    {
+      "id": "es-0104",
+      "lang": "es",
+      "text": "Los expertos atribuyen el descenso a la caída del consumo interno.",
+      "ja": "専門家はこの落ち込みを国内消費の減少によるものだとしている。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "経済",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Los",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "expertos",
+          "start": 4,
+          "end": 12,
+          "gloss": {
+            "lemma": "experto",
+            "pos": "名詞",
+            "ja": "専門家"
+          }
+        },
+        {
+          "surface": "atribuyen",
+          "start": 13,
+          "end": 22,
+          "gloss": {
+            "lemma": "atribuir",
+            "pos": "動詞",
+            "ja": "帰する・のせいにする",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "IND_PRES",
+              "person": "3pl",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（atribu- → atribuy-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "el",
+          "start": 23,
+          "end": 25
+        },
+        {
+          "surface": "descenso",
+          "start": 26,
+          "end": 34,
+          "gloss": {
+            "lemma": "descenso",
+            "pos": "名詞",
+            "ja": "下落・減少"
+          }
+        },
+        {
+          "surface": "a",
+          "start": 35,
+          "end": 36
+        },
+        {
+          "surface": "la",
+          "start": 37,
+          "end": 39
+        },
+        {
+          "surface": "caída",
+          "start": 40,
+          "end": 45,
+          "gloss": {
+            "lemma": "caída",
+            "pos": "名詞",
+            "ja": "下落・落下"
+          }
+        },
+        {
+          "surface": "del",
+          "start": 46,
+          "end": 49
+        },
+        {
+          "surface": "consumo interno",
+          "start": 50,
+          "end": 65,
+          "gloss": {
+            "lemma": "consumo interno",
+            "pos": "名詞句",
+            "ja": "国内消費",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "atribuir A a B で「A を B のせいにする・B に帰する」。統計記事の定型。"
+    },
+    {
+      "id": "es-0105",
+      "lang": "es",
+      "text": "No cabe duda de que el fallo sentará un precedente.",
+      "ja": "この判決が前例となることは疑いようがない。",
+      "level": "C2",
+      "tags": [
+        "法律",
+        "熟語",
+        "直説法未来"
+      ],
+      "tokens": [
+        {
+          "surface": "No cabe duda de que",
+          "start": 0,
+          "end": 19,
+          "gloss": {
+            "lemma": "no cabe duda de que",
+            "pos": "慣用表現",
+            "ja": "〜は疑いようがない",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "el",
+          "start": 20,
+          "end": 22
+        },
+        {
+          "surface": "fallo",
+          "start": 23,
+          "end": 28,
+          "gloss": {
+            "lemma": "fallo",
+            "pos": "名詞",
+            "ja": "判決・欠陥"
+          }
+        },
+        {
+          "surface": "sentará",
+          "start": 29,
+          "end": 36,
+          "gloss": {
+            "lemma": "sentar",
+            "pos": "動詞",
+            "ja": "座らせる・（前例を）つくる",
+            "inflection": {
+              "label": "直説法未来・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "un precedente",
+          "start": 37,
+          "end": 50,
+          "gloss": {
+            "lemma": "sentar un precedente",
+            "pos": "慣用表現",
+            "ja": "前例をつくる",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "no cabe duda de que は「疑いの余地はない」。sentar un precedente で「前例をつくる」。"
+    },
+    {
+      "id": "es-0106",
+      "lang": "es",
+      "text": "Se prevé que la economía crezca un dos por ciento este año.",
+      "ja": "今年の経済成長率は2パーセントと見込まれている。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "経済",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Se",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "prevé",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "prever",
+            "pos": "動詞",
+            "ja": "予測する・見込む",
+            "note": "se + 3人称で無人称の受動",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は preveo / prevés / prevé / prevemos / preveis / prevén と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 9,
+          "end": 12
+        },
+        {
+          "surface": "la",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "surface": "economía",
+          "start": 16,
+          "end": 24,
+          "gloss": {
+            "lemma": "economía",
+            "pos": "名詞",
+            "ja": "経済"
+          }
+        },
+        {
+          "surface": "crezca",
+          "start": 25,
+          "end": 31,
+          "gloss": {
+            "lemma": "crecer",
+            "pos": "動詞",
+            "ja": "育つ・成長する",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の c が zc に変わる（crec- → crezc-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "un dos por ciento",
+          "start": 32,
+          "end": 49,
+          "gloss": {
+            "lemma": "por ciento",
+            "pos": "名詞句",
+            "ja": "パーセント",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "se prevé que のような無人称の受動表現は報道文の骨格。後ろは接続法。"
+    },
+    {
+      "id": "es-0107",
+      "lang": "es",
+      "text": "El portavoz desmintió las acusaciones vertidas por la prensa.",
+      "ja": "報道官は、報道機関が浴びせた非難を否定した。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "portavoz",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "portavoz",
+            "pos": "名詞",
+            "ja": "報道官・スポークスパーソン"
+          }
+        },
+        {
+          "surface": "desmintió",
+          "start": 12,
+          "end": 21,
+          "gloss": {
+            "lemma": "desmentir",
+            "pos": "動詞",
+            "ja": "否定する・反論する",
+            "inflection": {
+              "label": "直説法点過去・3人称単数",
+              "tense": "IND_PRET",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が i に変わる（desment- → desmint-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "las",
+          "start": 22,
+          "end": 25
+        },
+        {
+          "surface": "acusaciones",
+          "start": 26,
+          "end": 37,
+          "gloss": {
+            "lemma": "acusación",
+            "pos": "名詞",
+            "ja": "非難・告発"
+          }
+        },
+        {
+          "surface": "vertidas",
+          "start": 38,
+          "end": 46,
+          "gloss": {
+            "lemma": "verter",
+            "pos": "動詞",
+            "ja": "注ぐ・（非難を）浴びせる",
+            "note": "名詞を修飾するので性数一致する",
+            "inflection": {
+              "label": "過去分詞・女性複数"
+            }
+          }
+        },
+        {
+          "surface": "por",
+          "start": 47,
+          "end": 50
+        },
+        {
+          "surface": "la",
+          "start": 51,
+          "end": 53
+        },
+        {
+          "surface": "prensa",
+          "start": 54,
+          "end": 60,
+          "gloss": {
+            "lemma": "prensa",
+            "pos": "名詞",
+            "ja": "報道機関・新聞"
+          }
+        }
+      ],
+      "grammar": "verter acusaciones は「非難を浴びせる」。vertidas は過去分詞の形容詞用法。"
+    },
+    {
+      "id": "es-0108",
+      "lang": "es",
+      "text": "De haberse aprobado la ley, el conflicto no se habría desencadenado.",
+      "ja": "その法律が可決されていれば、紛争は起きなかっただろう。",
+      "level": "C2",
+      "tags": [
+        "論説",
+        "条件法完了"
+      ],
+      "tokens": [
+        {
+          "surface": "De haberse aprobado",
+          "start": 0,
+          "end": 19,
+          "gloss": {
+            "lemma": "de + 完了不定詞",
+            "pos": "慣用表現",
+            "ja": "〜していたならば",
+            "idiom": true,
+            "note": "si 節の代わりに使う文章語"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 20,
+          "end": 22
+        },
+        {
+          "surface": "ley",
+          "start": 23,
+          "end": 26,
+          "gloss": {
+            "lemma": "ley",
+            "pos": "名詞",
+            "ja": "法律"
+          }
+        },
+        {
+          "surface": "el",
+          "start": 28,
+          "end": 30
+        },
+        {
+          "surface": "conflicto",
+          "start": 31,
+          "end": 40,
+          "gloss": {
+            "lemma": "conflicto",
+            "pos": "名詞",
+            "ja": "紛争・対立"
+          }
+        },
+        {
+          "surface": "no",
+          "start": 41,
+          "end": 43
+        },
+        {
+          "surface": "se habría desencadenado",
+          "start": 44,
+          "end": 67,
+          "gloss": {
+            "lemma": "desencadenar",
+            "pos": "動詞",
+            "ja": "引き起こす・誘発する",
+            "inflection": {
+              "label": "条件法完了・3人称単数"
+            }
+          }
+        }
+      ],
+      "grammar": "de + 完了不定詞は si 節の代わりに使える書き言葉の形。論説でよく見る。"
+    },
+    {
+      "id": "es-0109",
+      "lang": "es",
+      "text": "Cabe señalar que los datos aún no han sido contrastados.",
+      "ja": "そのデータはまだ裏付けが取れていない点を指摘しておきたい。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "受動態"
+      ],
+      "tokens": [
+        {
+          "surface": "Cabe señalar que",
+          "start": 0,
+          "end": 16,
+          "gloss": {
+            "lemma": "cabe señalar que",
+            "pos": "慣用表現",
+            "ja": "〜という点を指摘しておきたい",
+            "idiom": true,
+            "note": "論文・報告書の定型"
+          }
+        },
+        {
+          "surface": "los",
+          "start": 17,
+          "end": 20
+        },
+        {
+          "surface": "datos",
+          "start": 21,
+          "end": 26,
+          "gloss": {
+            "lemma": "dato",
+            "pos": "名詞",
+            "ja": "データ・資料"
+          }
+        },
+        {
+          "surface": "aún",
+          "start": 27,
+          "end": 30,
+          "gloss": {
+            "lemma": "aún",
+            "pos": "副詞",
+            "ja": "まだ"
+          }
+        },
+        {
+          "surface": "no",
+          "start": 31,
+          "end": 33
+        },
+        {
+          "surface": "han sido contrastados",
+          "start": 34,
+          "end": 55,
+          "gloss": {
+            "lemma": "contrastar",
+            "pos": "動詞",
+            "ja": "照合する・裏付ける",
+            "inflection": {
+              "label": "受動態・現在完了・3人称複数"
+            }
+          }
+        }
+      ],
+      "grammar": "cabe señalar que は論文・報告書の定型。ser + 過去分詞の受動態と組み合わさっている。"
+    },
+    {
+      "id": "es-0110",
+      "lang": "es",
+      "text": "La cumbre concluyó sin que las partes acordaran nada concreto.",
+      "ja": "首脳会議は、当事者が何ら具体的な合意に至らないまま終わった。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "接続法過去"
+      ],
+      "tokens": [
+        {
+          "surface": "La",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "cumbre",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "cumbre",
+            "pos": "名詞",
+            "ja": "首脳会議・頂上"
+          }
+        },
+        {
+          "surface": "concluyó",
+          "start": 10,
+          "end": 18,
+          "gloss": {
+            "lemma": "concluir",
+            "pos": "動詞",
+            "ja": "結論づける・終える",
+            "inflection": {
+              "label": "直説法点過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "sin que",
+          "start": 19,
+          "end": 26,
+          "gloss": {
+            "lemma": "sin que",
+            "pos": "接続詞",
+            "ja": "〜することなく",
+            "idiom": true,
+            "note": "後ろは必ず接続法"
+          }
+        },
+        {
+          "surface": "las",
+          "start": 27,
+          "end": 30
+        },
+        {
+          "surface": "partes",
+          "start": 31,
+          "end": 37,
+          "gloss": {
+            "lemma": "parte",
+            "pos": "名詞",
+            "ja": "当事者・部分"
+          }
+        },
+        {
+          "surface": "acordaran",
+          "start": 38,
+          "end": 47,
+          "gloss": {
+            "lemma": "acordar",
+            "pos": "動詞",
+            "ja": "合意する・取り決める",
+            "inflection": {
+              "label": "接続法過去・3人称複数",
+              "tense": "SUBJ_IMPF",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "nada",
+          "start": 48,
+          "end": 52,
+          "gloss": {
+            "lemma": "nada",
+            "pos": "代名詞",
+            "ja": "何も〜ない"
+          }
+        },
+        {
+          "surface": "concreto",
+          "start": 53,
+          "end": 61,
+          "gloss": {
+            "lemma": "concreto",
+            "pos": "形容詞",
+            "ja": "具体的な"
+          }
+        }
+      ],
+      "grammar": "sin que のあとは必ず接続法。主節が過去なので接続法過去になる。"
+    },
+    {
+      "id": "es-0111",
+      "lang": "es",
+      "text": "El paro descendió tres décimas, si bien la tendencia sigue siendo negativa.",
+      "ja": "失業率は0.3ポイント低下したが、傾向は依然として芳しくない。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "経済",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "paro",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "paro",
+            "pos": "名詞",
+            "ja": "失業・失業率"
+          }
+        },
+        {
+          "surface": "descendió",
+          "start": 8,
+          "end": 17,
+          "gloss": {
+            "lemma": "descender",
+            "pos": "動詞",
+            "ja": "下降する・下がる",
+            "inflection": {
+              "label": "直説法点過去・3人称単数",
+              "tense": "IND_PRET",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "tres décimas",
+          "start": 18,
+          "end": 30,
+          "gloss": {
+            "lemma": "décima",
+            "pos": "名詞",
+            "ja": "10分の1・0.1ポイント",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "si bien",
+          "start": 32,
+          "end": 39,
+          "gloss": {
+            "lemma": "si bien",
+            "pos": "接続詞",
+            "ja": "〜ではあるが",
+            "idiom": true,
+            "note": "aunque の文章語版"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 40,
+          "end": 42
+        },
+        {
+          "surface": "tendencia",
+          "start": 43,
+          "end": 52,
+          "gloss": {
+            "lemma": "tendencia",
+            "pos": "名詞",
+            "ja": "傾向・趨勢"
+          }
+        },
+        {
+          "surface": "sigue",
+          "start": 53,
+          "end": 58,
+          "gloss": {
+            "lemma": "seguir",
+            "pos": "動詞",
+            "ja": "続ける・ついていく",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が i に変わる（segu- → sigu-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "siendo",
+          "start": 59,
+          "end": 65,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "現在分詞（動名詞）",
+              "tense": "GER"
+            }
+          }
+        },
+        {
+          "surface": "negativa",
+          "start": 66,
+          "end": 74,
+          "gloss": {
+            "lemma": "negativo",
+            "pos": "形容詞",
+            "ja": "否定的な・マイナスの",
+            "inflection": {
+              "label": "女性単数"
+            }
+          }
+        }
+      ],
+      "grammar": "si bien は aunque の書き言葉版で「〜ではあるが」。décima は統計で0.1ポイントを指す。"
+    },
+    {
+      "id": "es-0112",
+      "lang": "es",
+      "text": "Por más que se impulsen reformas, sin consenso no se consolidarán.",
+      "ja": "いくら改革を推し進めても、合意がなければ定着しない。",
+      "level": "C2",
+      "tags": [
+        "論説",
+        "接続法現在",
+        "直説法未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Por más que",
+          "start": 0,
+          "end": 11,
+          "gloss": {
+            "lemma": "por más que",
+            "pos": "慣用表現",
+            "ja": "いくら〜しても",
+            "idiom": true,
+            "note": "後ろは接続法"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "impulsen",
+          "start": 15,
+          "end": 23,
+          "gloss": {
+            "lemma": "impulsar",
+            "pos": "動詞",
+            "ja": "推進する",
+            "inflection": {
+              "label": "接続法現在・3人称複数",
+              "tense": "SUBJ_PRES",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "reformas",
+          "start": 24,
+          "end": 32,
+          "gloss": {
+            "lemma": "reforma",
+            "pos": "名詞",
+            "ja": "改革"
+          }
+        },
+        {
+          "surface": "sin",
+          "start": 34,
+          "end": 37
+        },
+        {
+          "surface": "consenso",
+          "start": 38,
+          "end": 46,
+          "gloss": {
+            "lemma": "consenso",
+            "pos": "名詞",
+            "ja": "合意・コンセンサス"
+          }
+        },
+        {
+          "surface": "no",
+          "start": 47,
+          "end": 49
+        },
+        {
+          "surface": "se",
+          "start": 50,
+          "end": 52
+        },
+        {
+          "surface": "consolidarán",
+          "start": 53,
+          "end": 65,
+          "gloss": {
+            "lemma": "consolidar",
+            "pos": "動詞",
+            "ja": "強固にする・定着させる",
+            "inflection": {
+              "label": "直説法未来・3人称複数",
+              "tense": "IND_FUT",
+              "person": "3pl"
+            }
+          }
+        }
+      ],
+      "grammar": "por más que + 接続法で「いくら〜しても」。受動の se が二度使われている。"
+    },
+    {
+      "id": "es-0113",
+      "lang": "es",
+      "text": "El fallo judicial repercutirá de lleno en el sector energético.",
+      "ja": "この司法判断はエネルギー業界に全面的な影響を及ぼすだろう。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "直説法未来"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "fallo judicial",
+          "start": 3,
+          "end": 17,
+          "gloss": {
+            "lemma": "fallo judicial",
+            "pos": "名詞句",
+            "ja": "司法判断・判決",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "repercutirá",
+          "start": 18,
+          "end": 29,
+          "gloss": {
+            "lemma": "repercutir",
+            "pos": "動詞",
+            "ja": "影響を及ぼす・波及する",
+            "inflection": {
+              "label": "直説法未来・3人称単数",
+              "tense": "IND_FUT",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "de lleno",
+          "start": 30,
+          "end": 38,
+          "gloss": {
+            "lemma": "de lleno",
+            "pos": "慣用表現",
+            "ja": "まともに・全面的に",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "en",
+          "start": 39,
+          "end": 41
+        },
+        {
+          "surface": "el",
+          "start": 42,
+          "end": 44
+        },
+        {
+          "surface": "sector energético",
+          "start": 45,
+          "end": 62,
+          "gloss": {
+            "lemma": "sector energético",
+            "pos": "名詞句",
+            "ja": "エネルギー業界",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "repercutir en で「〜に波及する」。de lleno は「まともに・全面的に」。"
+    },
+    {
+      "id": "es-0114",
+      "lang": "es",
+      "text": "Los sindicatos cuestionan que la reforma vaya a crear empleo.",
+      "ja": "労働組合は、その改革が雇用を生むかどうかに疑問を呈している。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Los",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "sindicatos",
+          "start": 4,
+          "end": 14,
+          "gloss": {
+            "lemma": "sindicato",
+            "pos": "名詞",
+            "ja": "労働組合"
+          }
+        },
+        {
+          "surface": "cuestionan",
+          "start": 15,
+          "end": 25,
+          "gloss": {
+            "lemma": "cuestionar",
+            "pos": "動詞",
+            "ja": "疑問を投げかける",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "IND_PRES",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 26,
+          "end": 29
+        },
+        {
+          "surface": "la",
+          "start": 30,
+          "end": 32
+        },
+        {
+          "surface": "reforma",
+          "start": 33,
+          "end": 40,
+          "gloss": {
+            "lemma": "reforma",
+            "pos": "名詞",
+            "ja": "改革"
+          }
+        },
+        {
+          "surface": "vaya",
+          "start": 41,
+          "end": 45,
+          "gloss": {
+            "lemma": "ir",
+            "pos": "動詞",
+            "ja": "行く",
+            "note": "ir a + 不定詞が接続法になった形",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "不規則形。この時制は vaya / vayas / vaya / vayamos / vayáis / vayan と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "a",
+          "start": 46,
+          "end": 47
+        },
+        {
+          "surface": "crear",
+          "start": 48,
+          "end": 53,
+          "gloss": {
+            "lemma": "crear",
+            "pos": "動詞",
+            "ja": "創る・生み出す",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "empleo",
+          "start": 54,
+          "end": 60,
+          "gloss": {
+            "lemma": "empleo",
+            "pos": "名詞",
+            "ja": "雇用・職"
+          }
+        }
+      ],
+      "grammar": "cuestionar que は疑いを表すので後ろは接続法。ir a + 不定詞が接続法になった形。"
+    },
+    {
+      "id": "es-0115",
+      "lang": "es",
+      "text": "Cuanto más se demore el acuerdo, mayores serán las pérdidas.",
+      "ja": "合意が遅れれば遅れるほど、損失は大きくなる。",
+      "level": "C2",
+      "tags": [
+        "論説",
+        "接続法現在",
+        "直説法未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Cuanto más",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "cuanto más",
+            "pos": "慣用表現",
+            "ja": "〜すればするほど",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "se",
+          "start": 11,
+          "end": 13
+        },
+        {
+          "surface": "demore",
+          "start": 14,
+          "end": 20,
+          "gloss": {
+            "lemma": "demorar",
+            "pos": "動詞",
+            "ja": "遅らせる・手間取る",
+            "inflection": {
+              "label": "接続法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "el",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "acuerdo",
+          "start": 24,
+          "end": 31,
+          "gloss": {
+            "lemma": "acuerdo",
+            "pos": "名詞",
+            "ja": "合意・協定"
+          }
+        },
+        {
+          "surface": "mayores",
+          "start": 33,
+          "end": 40,
+          "gloss": {
+            "lemma": "mayor",
+            "pos": "形容詞",
+            "ja": "より大きい",
+            "note": "grande の比較級",
+            "inflection": {
+              "label": "複数"
+            }
+          }
+        },
+        {
+          "surface": "serán",
+          "start": 41,
+          "end": 46,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法未来・3人称複数",
+              "tense": "IND_FUT",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "las",
+          "start": 47,
+          "end": 50
+        },
+        {
+          "surface": "pérdidas",
+          "start": 51,
+          "end": 59,
+          "gloss": {
+            "lemma": "pérdida",
+            "pos": "名詞",
+            "ja": "損失"
+          }
+        }
+      ],
+      "grammar": "cuanto más ..., mayores ... の相関構文。前半が未来を指すので接続法になる。"
+    },
+    {
+      "id": "es-0116",
+      "lang": "es",
+      "text": "La medida se adoptó a instancias del Ministerio de Hacienda.",
+      "ja": "その措置は財務省の要請を受けて採択された。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "La",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "medida",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "medida",
+            "pos": "名詞",
+            "ja": "措置・対策"
+          }
+        },
+        {
+          "surface": "se adoptó",
+          "start": 10,
+          "end": 19,
+          "gloss": {
+            "lemma": "adoptar",
+            "pos": "動詞",
+            "ja": "採択する・採用する",
+            "note": "se + 3人称で受動を表す",
+            "inflection": {
+              "label": "直説法点過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "a instancias de",
+          "start": 20,
+          "end": 35,
+          "gloss": {
+            "lemma": "a instancias de",
+            "pos": "慣用表現",
+            "ja": "〜の要請により",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "Ministerio de Hacienda",
+          "start": 37,
+          "end": 59,
+          "gloss": {
+            "lemma": "Ministerio de Hacienda",
+            "pos": "固有名詞",
+            "ja": "財務省"
+          }
+        }
+      ],
+      "grammar": "a instancias de は「〜の要請により」という行政・法律文の表現。"
+    },
+    {
+      "id": "es-0117",
+      "lang": "es",
+      "text": "Tras meses de negociación, ambas partes acordaron mitigar las sanciones.",
+      "ja": "数か月の交渉の末、両者は制裁の緩和で合意した。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Tras",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "tras",
+            "pos": "前置詞",
+            "ja": "〜の後で",
+            "note": "después de の文章語"
+          }
+        },
+        {
+          "surface": "meses",
+          "start": 5,
+          "end": 10,
+          "gloss": {
+            "lemma": "mes",
+            "pos": "名詞",
+            "ja": "月・か月"
+          }
+        },
+        {
+          "surface": "de",
+          "start": 11,
+          "end": 13
+        },
+        {
+          "surface": "negociación",
+          "start": 14,
+          "end": 25,
+          "gloss": {
+            "lemma": "negociación",
+            "pos": "名詞",
+            "ja": "交渉"
+          }
+        },
+        {
+          "surface": "ambas partes",
+          "start": 27,
+          "end": 39,
+          "gloss": {
+            "lemma": "ambas partes",
+            "pos": "名詞句",
+            "ja": "双方・両者",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "acordaron",
+          "start": 40,
+          "end": 49,
+          "gloss": {
+            "lemma": "acordar",
+            "pos": "動詞",
+            "ja": "合意する・取り決める",
+            "inflection": {
+              "label": "直説法点過去・3人称複数",
+              "tense": "IND_PRET",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "mitigar",
+          "start": 50,
+          "end": 57,
+          "gloss": {
+            "lemma": "mitigar",
+            "pos": "動詞",
+            "ja": "緩和する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "las",
+          "start": 58,
+          "end": 61
+        },
+        {
+          "surface": "sanciones",
+          "start": 62,
+          "end": 71,
+          "gloss": {
+            "lemma": "sanción",
+            "pos": "名詞",
+            "ja": "制裁"
+          }
+        }
+      ],
+      "grammar": "tras は después de の書き言葉版。ambas partes は「双方」。"
+    },
+    {
+      "id": "es-0118",
+      "lang": "es",
+      "text": "El estudio plantea una hipótesis que aún está por demostrar.",
+      "ja": "その研究は、まだ証明されていない仮説を提起している。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "estudio",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "estudio",
+            "pos": "名詞",
+            "ja": "研究・調査"
+          }
+        },
+        {
+          "surface": "plantea",
+          "start": 11,
+          "end": 18,
+          "gloss": {
+            "lemma": "plantear",
+            "pos": "動詞",
+            "ja": "提起する・持ち出す",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "una",
+          "start": 19,
+          "end": 22
+        },
+        {
+          "surface": "hipótesis",
+          "start": 23,
+          "end": 32,
+          "gloss": {
+            "lemma": "hipótesis",
+            "pos": "名詞",
+            "ja": "仮説"
+          }
+        },
+        {
+          "surface": "aún",
+          "start": 37,
+          "end": 40,
+          "gloss": {
+            "lemma": "aún",
+            "pos": "副詞",
+            "ja": "まだ"
+          }
+        },
+        {
+          "surface": "está por",
+          "start": 41,
+          "end": 49,
+          "gloss": {
+            "lemma": "estar por + 不定詞",
+            "pos": "慣用表現",
+            "ja": "まだ〜されていない",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "demostrar",
+          "start": 50,
+          "end": 59,
+          "gloss": {
+            "lemma": "demostrar",
+            "pos": "動詞",
+            "ja": "証明する・示す",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ],
+      "grammar": "estar por + 不定詞で「まだ〜されていない」。学術文で頻出。"
+    },
+    {
+      "id": "es-0119",
+      "lang": "es",
+      "text": "Se incrementaron las importaciones en detrimento de la producción local.",
+      "ja": "国内生産を犠牲にして輸入が増加した。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "経済",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Se",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "incrementaron",
+          "start": 3,
+          "end": 16,
+          "gloss": {
+            "lemma": "incrementar",
+            "pos": "動詞",
+            "ja": "増加させる",
+            "note": "se + 3人称で「増加した」という自動詞になる",
+            "inflection": {
+              "label": "直説法点過去・3人称複数",
+              "tense": "IND_PRET",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "las",
+          "start": 17,
+          "end": 20
+        },
+        {
+          "surface": "importaciones",
+          "start": 21,
+          "end": 34,
+          "gloss": {
+            "lemma": "importación",
+            "pos": "名詞",
+            "ja": "輸入"
+          }
+        },
+        {
+          "surface": "en detrimento de",
+          "start": 35,
+          "end": 51,
+          "gloss": {
+            "lemma": "en detrimento de",
+            "pos": "慣用表現",
+            "ja": "〜を犠牲にして",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "la",
+          "start": 52,
+          "end": 54
+        },
+        {
+          "surface": "producción local",
+          "start": 55,
+          "end": 71,
+          "gloss": {
+            "lemma": "producción local",
+            "pos": "名詞句",
+            "ja": "国内生産",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "en detrimento de は「〜を犠牲にして・〜を損なう形で」。経済記事の定型。"
+    },
+    {
+      "id": "es-0120",
+      "lang": "es",
+      "text": "Habida cuenta de la coyuntura, el banco central respaldó la subida de tipos.",
+      "ja": "現下の情勢を踏まえ、中央銀行は利上げを支持した。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "経済",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Habida cuenta de",
+          "start": 0,
+          "end": 16,
+          "gloss": {
+            "lemma": "habida cuenta de",
+            "pos": "慣用表現",
+            "ja": "〜を考慮すると",
+            "idiom": true,
+            "note": "硬い書き言葉"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 17,
+          "end": 19
+        },
+        {
+          "surface": "coyuntura",
+          "start": 20,
+          "end": 29,
+          "gloss": {
+            "lemma": "coyuntura",
+            "pos": "名詞",
+            "ja": "情勢・局面"
+          }
+        },
+        {
+          "surface": "el",
+          "start": 31,
+          "end": 33
+        },
+        {
+          "surface": "banco central",
+          "start": 34,
+          "end": 47,
+          "gloss": {
+            "lemma": "banco central",
+            "pos": "名詞句",
+            "ja": "中央銀行",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "respaldó",
+          "start": 48,
+          "end": 56,
+          "gloss": {
+            "lemma": "respaldar",
+            "pos": "動詞",
+            "ja": "支持する・裏付ける",
+            "inflection": {
+              "label": "直説法点過去・3人称単数",
+              "tense": "IND_PRET",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 57,
+          "end": 59
+        },
+        {
+          "surface": "subida de tipos",
+          "start": 60,
+          "end": 75,
+          "gloss": {
+            "lemma": "subida de tipos",
+            "pos": "名詞句",
+            "ja": "利上げ",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "habida cuenta de は「〜を考慮すると」という硬い書き言葉。coyuntura は「情勢・局面」。"
     }
   ]
 }

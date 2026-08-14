@@ -918,8 +918,7 @@
               "person": "1sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の l が ll に変わる（appeler- → appeller-）",
-                "regular": "appelerai"
+                "text": "語幹の l が ll に変わる（appeler- → appeller-）"
               }
             }
           }
@@ -3901,8 +3900,7 @@
               "person": "3sg",
               "irregular": {
                 "code": "S",
-                "text": "語幹の g が ge に変わる（mang- → mange-）",
-                "regular": "mangait"
+                "text": "語幹の g が ge に変わる（mang- → mange-）"
               }
             }
           }
@@ -6952,6 +6950,1745 @@
         }
       ],
       "grammar": "faire mieux de + 不定詞を条件法にすると「〜したほうがいい」という助言になる。"
+    },
+    {
+      "id": "fr-0101",
+      "lang": "fr",
+      "text": "Le rapport avertit que les inégalités salariales se sont aggravées.",
+      "ja": "報告書は賃金格差が拡大したと警告している。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "直説法現在",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Le",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "rapport",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "rapport",
+            "pos": "名詞",
+            "ja": "報告書・関係"
+          }
+        },
+        {
+          "surface": "avertit",
+          "start": 11,
+          "end": 18,
+          "gloss": {
+            "lemma": "avertir",
+            "pos": "動詞",
+            "ja": "警告する",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 19,
+          "end": 22
+        },
+        {
+          "surface": "les",
+          "start": 23,
+          "end": 26
+        },
+        {
+          "surface": "inégalités salariales",
+          "start": 27,
+          "end": 48,
+          "gloss": {
+            "lemma": "inégalités salariales",
+            "pos": "名詞句",
+            "ja": "賃金格差",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "se sont aggravées",
+          "start": 49,
+          "end": 66,
+          "gloss": {
+            "lemma": "aggraver",
+            "pos": "動詞",
+            "ja": "悪化させる",
+            "note": "s'aggraver で「悪化する」",
+            "inflection": {
+              "label": "複合過去・3人称複数（代名動詞・女性一致）"
+            }
+          }
+        }
+      ],
+      "grammar": "代名動詞の複合過去は être を使い、過去分詞が主語に性数一致する（inégalités は女性複数）。"
+    },
+    {
+      "id": "fr-0102",
+      "lang": "fr",
+      "text": "Le gouvernement soutient que ces mesures freineront l'inflation.",
+      "ja": "政府はこの措置がインフレを抑えると主張している。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "直説法現在",
+        "単純未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Le",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "gouvernement",
+          "start": 3,
+          "end": 15,
+          "gloss": {
+            "lemma": "gouvernement",
+            "pos": "名詞",
+            "ja": "政府"
+          }
+        },
+        {
+          "surface": "soutient",
+          "start": 16,
+          "end": 24,
+          "gloss": {
+            "lemma": "soutenir",
+            "pos": "動詞",
+            "ja": "支える・主張する",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 25,
+          "end": 28
+        },
+        {
+          "surface": "ces",
+          "start": 29,
+          "end": 32
+        },
+        {
+          "surface": "mesures",
+          "start": 33,
+          "end": 40,
+          "gloss": {
+            "lemma": "mesure",
+            "pos": "名詞",
+            "ja": "措置・対策"
+          }
+        },
+        {
+          "surface": "freineront",
+          "start": 41,
+          "end": 51,
+          "gloss": {
+            "lemma": "freiner",
+            "pos": "動詞",
+            "ja": "抑制する・歯止めをかける",
+            "inflection": {
+              "label": "単純未来・3人称複数",
+              "tense": "FUT",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "l'",
+          "start": 52,
+          "end": 54
+        },
+        {
+          "surface": "inflation",
+          "start": 54,
+          "end": 63,
+          "gloss": {
+            "lemma": "inflation",
+            "pos": "名詞",
+            "ja": "インフレ・物価上昇"
+          }
+        }
+      ],
+      "grammar": "soutenir que は「〜だと主張する」。政治・経済記事で affirmer とともに多用される。"
+    },
+    {
+      "id": "fr-0103",
+      "lang": "fr",
+      "text": "L'arrêt constate que la disposition porte atteinte aux libertés fondamentales.",
+      "ja": "判決は、その規定が基本的自由を侵害していると認定した。",
+      "level": "C2",
+      "tags": [
+        "法律",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "L'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "arrêt",
+          "start": 2,
+          "end": 7,
+          "gloss": {
+            "lemma": "arrêt",
+            "pos": "名詞",
+            "ja": "判決・停止"
+          }
+        },
+        {
+          "surface": "constate",
+          "start": 8,
+          "end": 16,
+          "gloss": {
+            "lemma": "constater",
+            "pos": "動詞",
+            "ja": "確認する・認める",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 17,
+          "end": 20
+        },
+        {
+          "surface": "la",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "disposition",
+          "start": 24,
+          "end": 35,
+          "gloss": {
+            "lemma": "disposition",
+            "pos": "名詞",
+            "ja": "規定・配置"
+          }
+        },
+        {
+          "surface": "porte atteinte aux",
+          "start": 36,
+          "end": 54,
+          "gloss": {
+            "lemma": "porter atteinte à",
+            "pos": "慣用表現",
+            "ja": "〜を侵害する",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "libertés fondamentales",
+          "start": 55,
+          "end": 77,
+          "gloss": {
+            "lemma": "libertés fondamentales",
+            "pos": "名詞句",
+            "ja": "基本的自由",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "porter atteinte à は「〜を侵害する」という法律文の定型。arrêt は上級審の判決。"
+    },
+    {
+      "id": "fr-0104",
+      "lang": "fr",
+      "text": "Les experts attribuent cette baisse au recul de la consommation intérieure.",
+      "ja": "専門家はこの下落を国内消費の後退によるものだとしている。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "経済",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Les",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "experts",
+          "start": 4,
+          "end": 11,
+          "gloss": {
+            "lemma": "expert",
+            "pos": "名詞",
+            "ja": "専門家"
+          }
+        },
+        {
+          "surface": "attribuent",
+          "start": 12,
+          "end": 22,
+          "gloss": {
+            "lemma": "attribuer",
+            "pos": "動詞",
+            "ja": "帰する・与える",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "PRES",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "cette",
+          "start": 23,
+          "end": 28
+        },
+        {
+          "surface": "baisse",
+          "start": 29,
+          "end": 35,
+          "gloss": {
+            "lemma": "baisse",
+            "pos": "名詞",
+            "ja": "下落・低下"
+          }
+        },
+        {
+          "surface": "au",
+          "start": 36,
+          "end": 38
+        },
+        {
+          "surface": "recul",
+          "start": 39,
+          "end": 44,
+          "gloss": {
+            "lemma": "recul",
+            "pos": "名詞",
+            "ja": "後退・減少"
+          }
+        },
+        {
+          "surface": "de la",
+          "start": 45,
+          "end": 50
+        },
+        {
+          "surface": "consommation intérieure",
+          "start": 51,
+          "end": 74,
+          "gloss": {
+            "lemma": "consommation intérieure",
+            "pos": "名詞句",
+            "ja": "国内消費",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "attribuer A à B で「A を B に帰する」。recul は「後退・減少」で統計記事に頻出。"
+    },
+    {
+      "id": "fr-0105",
+      "lang": "fr",
+      "text": "Il ne fait aucun doute que cette décision fera jurisprudence.",
+      "ja": "この判断が判例となることは疑いようがない。",
+      "level": "C2",
+      "tags": [
+        "法律",
+        "熟語",
+        "単純未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Il ne fait aucun doute que",
+          "start": 0,
+          "end": 26,
+          "gloss": {
+            "lemma": "il ne fait aucun doute que",
+            "pos": "慣用表現",
+            "ja": "〜は疑いようがない",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "cette",
+          "start": 27,
+          "end": 32
+        },
+        {
+          "surface": "décision",
+          "start": 33,
+          "end": 41,
+          "gloss": {
+            "lemma": "décision",
+            "pos": "名詞",
+            "ja": "決定・判断"
+          }
+        },
+        {
+          "surface": "fera",
+          "start": 42,
+          "end": 46,
+          "gloss": {
+            "lemma": "faire",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "単純未来・3人称単数",
+              "tense": "FUT",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "jurisprudence",
+          "start": 47,
+          "end": 60,
+          "gloss": {
+            "lemma": "faire jurisprudence",
+            "pos": "慣用表現",
+            "ja": "判例となる",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "il ne fait aucun doute que は「疑いの余地はない」。faire jurisprudence で「判例となる」。"
+    },
+    {
+      "id": "fr-0106",
+      "lang": "fr",
+      "text": "On prévoit que l'économie croîtra de deux pour cent cette année.",
+      "ja": "今年の経済成長率は2パーセントと見込まれている。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "経済",
+        "単純未来"
+      ],
+      "tokens": [
+        {
+          "surface": "On",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "prévoit",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "prévoir",
+            "pos": "動詞",
+            "ja": "予測する・予定する",
+            "note": "後ろは直説法。接続法にしない",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 11,
+          "end": 14
+        },
+        {
+          "surface": "l'",
+          "start": 15,
+          "end": 17
+        },
+        {
+          "surface": "économie",
+          "start": 17,
+          "end": 25,
+          "gloss": {
+            "lemma": "économie",
+            "pos": "名詞",
+            "ja": "経済"
+          }
+        },
+        {
+          "surface": "croîtra",
+          "start": 26,
+          "end": 33,
+          "gloss": {
+            "lemma": "croître",
+            "pos": "動詞",
+            "ja": "増大する・成長する",
+            "inflection": {
+              "label": "単純未来・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "de deux pour cent",
+          "start": 34,
+          "end": 51,
+          "gloss": {
+            "lemma": "pour cent",
+            "pos": "名詞句",
+            "ja": "パーセント",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "on prévoit que は無人称の報道表現。スペイン語と違い、prévoir que のあとは直説法。"
+    },
+    {
+      "id": "fr-0107",
+      "lang": "fr",
+      "text": "Le porte-parole a démenti les accusations relayées par la presse.",
+      "ja": "報道官は、報道機関が流した非難を否定した。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Le",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "porte-parole",
+          "start": 3,
+          "end": 15,
+          "gloss": {
+            "lemma": "porte-parole",
+            "pos": "名詞",
+            "ja": "報道官・スポークスパーソン"
+          }
+        },
+        {
+          "surface": "a démenti",
+          "start": 16,
+          "end": 25,
+          "gloss": {
+            "lemma": "démentir",
+            "pos": "動詞",
+            "ja": "否定する・反論する",
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "les",
+          "start": 26,
+          "end": 29
+        },
+        {
+          "surface": "accusations",
+          "start": 30,
+          "end": 41,
+          "gloss": {
+            "lemma": "accusation",
+            "pos": "名詞",
+            "ja": "非難・告発"
+          }
+        },
+        {
+          "surface": "relayées",
+          "start": 42,
+          "end": 50,
+          "gloss": {
+            "lemma": "relayer",
+            "pos": "動詞",
+            "ja": "中継する・伝える",
+            "note": "名詞を修飾するので性数一致する",
+            "inflection": {
+              "label": "過去分詞・女性複数"
+            }
+          }
+        },
+        {
+          "surface": "par",
+          "start": 51,
+          "end": 54
+        },
+        {
+          "surface": "la",
+          "start": 55,
+          "end": 57
+        },
+        {
+          "surface": "presse",
+          "start": 58,
+          "end": 64,
+          "gloss": {
+            "lemma": "presse",
+            "pos": "名詞",
+            "ja": "報道機関・新聞"
+          }
+        }
+      ],
+      "grammar": "relayées は過去分詞の形容詞用法で、修飾する名詞に性数一致する。"
+    },
+    {
+      "id": "fr-0108",
+      "lang": "fr",
+      "text": "Si la loi avait été adoptée, le conflit n'aurait pas éclaté.",
+      "ja": "その法律が可決されていれば、紛争は起きなかっただろう。",
+      "level": "C2",
+      "tags": [
+        "論説",
+        "条件法過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Si",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "la",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "loi",
+          "start": 6,
+          "end": 9,
+          "gloss": {
+            "lemma": "loi",
+            "pos": "名詞",
+            "ja": "法律"
+          }
+        },
+        {
+          "surface": "avait été adoptée",
+          "start": 10,
+          "end": 27,
+          "gloss": {
+            "lemma": "adopter",
+            "pos": "動詞",
+            "ja": "採択する・採用する",
+            "inflection": {
+              "label": "受動態・大過去・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "le",
+          "start": 29,
+          "end": 31
+        },
+        {
+          "surface": "conflit",
+          "start": 32,
+          "end": 39,
+          "gloss": {
+            "lemma": "conflit",
+            "pos": "名詞",
+            "ja": "紛争・対立"
+          }
+        },
+        {
+          "surface": "n'",
+          "start": 40,
+          "end": 42
+        },
+        {
+          "surface": "aurait pas éclaté",
+          "start": 42,
+          "end": 59,
+          "gloss": {
+            "lemma": "éclater",
+            "pos": "動詞",
+            "ja": "勃発する・破裂する",
+            "inflection": {
+              "label": "条件法過去・3人称単数"
+            }
+          }
+        }
+      ],
+      "grammar": "過去の事実に反する仮定は「si + 大過去, 条件法過去」。ここでは受動の大過去。"
+    },
+    {
+      "id": "fr-0109",
+      "lang": "fr",
+      "text": "Il convient de souligner que les données n'ont pas encore été vérifiées.",
+      "ja": "そのデータはまだ検証されていない点を強調しておきたい。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "受動態"
+      ],
+      "tokens": [
+        {
+          "surface": "Il convient de",
+          "start": 0,
+          "end": 14,
+          "gloss": {
+            "lemma": "il convient de",
+            "pos": "慣用表現",
+            "ja": "〜しておくのが適当だ",
+            "idiom": true,
+            "note": "論文・報告書の定型"
+          }
+        },
+        {
+          "surface": "souligner",
+          "start": 15,
+          "end": 24,
+          "gloss": {
+            "lemma": "souligner",
+            "pos": "動詞",
+            "ja": "強調する・下線を引く",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 25,
+          "end": 28
+        },
+        {
+          "surface": "les",
+          "start": 29,
+          "end": 32
+        },
+        {
+          "surface": "données",
+          "start": 33,
+          "end": 40,
+          "gloss": {
+            "lemma": "donnée",
+            "pos": "名詞",
+            "ja": "データ・資料"
+          }
+        },
+        {
+          "surface": "n'ont pas encore été vérifiées",
+          "start": 41,
+          "end": 71,
+          "gloss": {
+            "lemma": "vérifier",
+            "pos": "動詞",
+            "ja": "検証する・確認する",
+            "inflection": {
+              "label": "受動態・複合過去・女性複数"
+            }
+          }
+        }
+      ],
+      "grammar": "il convient de は論文・報告書の定型で「〜しておくのが適当だ」。"
+    },
+    {
+      "id": "fr-0110",
+      "lang": "fr",
+      "text": "Le sommet s'est achevé sans que les parties parviennent à un accord.",
+      "ja": "首脳会議は、当事者が合意に至らないまま終わった。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "接続法"
+      ],
+      "tokens": [
+        {
+          "surface": "Le",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "sommet",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "sommet",
+            "pos": "名詞",
+            "ja": "首脳会議・頂上"
+          }
+        },
+        {
+          "surface": "s'est achevé",
+          "start": 10,
+          "end": 22,
+          "gloss": {
+            "lemma": "achever",
+            "pos": "動詞",
+            "ja": "終える・完成させる",
+            "inflection": {
+              "label": "複合過去・3人称単数（代名動詞）"
+            }
+          }
+        },
+        {
+          "surface": "sans que",
+          "start": 23,
+          "end": 31,
+          "gloss": {
+            "lemma": "sans que",
+            "pos": "接続詞",
+            "ja": "〜することなく",
+            "idiom": true,
+            "note": "後ろは必ず接続法"
+          }
+        },
+        {
+          "surface": "les",
+          "start": 32,
+          "end": 35
+        },
+        {
+          "surface": "parties",
+          "start": 36,
+          "end": 43,
+          "gloss": {
+            "lemma": "partie",
+            "pos": "名詞",
+            "ja": "当事者・部分"
+          }
+        },
+        {
+          "surface": "parviennent",
+          "start": 44,
+          "end": 55,
+          "gloss": {
+            "lemma": "parvenir",
+            "pos": "動詞",
+            "ja": "到達する・成し遂げる",
+            "inflection": {
+              "label": "接続法現在・3人称複数"
+            }
+          }
+        },
+        {
+          "surface": "à un accord",
+          "start": 56,
+          "end": 67,
+          "gloss": {
+            "lemma": "parvenir à un accord",
+            "pos": "慣用表現",
+            "ja": "合意に達する",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "sans que のあとは必ず接続法。parvenir à で「〜に到達する」。"
+    },
+    {
+      "id": "fr-0111",
+      "lang": "fr",
+      "text": "Le chômage a diminué de trois dixièmes, bien que la tendance reste négative.",
+      "ja": "失業率は0.3ポイント低下したが、傾向は依然として芳しくない。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "経済",
+        "複合過去",
+        "接続法"
+      ],
+      "tokens": [
+        {
+          "surface": "Le",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "chômage",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "chômage",
+            "pos": "名詞",
+            "ja": "失業・失業率"
+          }
+        },
+        {
+          "surface": "a diminué",
+          "start": 11,
+          "end": 20,
+          "gloss": {
+            "lemma": "diminuer",
+            "pos": "動詞",
+            "ja": "減少させる・減る",
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "de trois dixièmes",
+          "start": 21,
+          "end": 38,
+          "gloss": {
+            "lemma": "dixième",
+            "pos": "名詞",
+            "ja": "10分の1・0.1ポイント",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "bien que",
+          "start": 40,
+          "end": 48,
+          "gloss": {
+            "lemma": "bien que",
+            "pos": "接続詞",
+            "ja": "〜ではあるが",
+            "idiom": true,
+            "note": "後ろは必ず接続法"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 49,
+          "end": 51
+        },
+        {
+          "surface": "tendance",
+          "start": 52,
+          "end": 60,
+          "gloss": {
+            "lemma": "tendance",
+            "pos": "名詞",
+            "ja": "傾向・趨勢"
+          }
+        },
+        {
+          "surface": "reste",
+          "start": 61,
+          "end": 66,
+          "gloss": {
+            "lemma": "rester",
+            "pos": "動詞",
+            "ja": "とどまる・残る",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "négative",
+          "start": 67,
+          "end": 75,
+          "gloss": {
+            "lemma": "négatif",
+            "pos": "形容詞",
+            "ja": "否定的な・マイナスの",
+            "inflection": {
+              "label": "女性単数"
+            }
+          }
+        }
+      ],
+      "grammar": "bien que のあとは必ず接続法。dixième は統計で0.1ポイントを指す。"
+    },
+    {
+      "id": "fr-0112",
+      "lang": "fr",
+      "text": "Quelles que soient les réformes engagées, elles échoueront sans consensus.",
+      "ja": "どんな改革に着手しようとも、合意がなければ失敗する。",
+      "level": "C2",
+      "tags": [
+        "論説",
+        "接続法",
+        "単純未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Quelles que soient",
+          "start": 0,
+          "end": 18,
+          "gloss": {
+            "lemma": "quel que soit",
+            "pos": "慣用表現",
+            "ja": "どんな〜であろうと",
+            "idiom": true,
+            "note": "quel は後ろの名詞に性数一致する"
+          }
+        },
+        {
+          "surface": "les",
+          "start": 19,
+          "end": 22
+        },
+        {
+          "surface": "réformes",
+          "start": 23,
+          "end": 31,
+          "gloss": {
+            "lemma": "réforme",
+            "pos": "名詞",
+            "ja": "改革"
+          }
+        },
+        {
+          "surface": "engagées",
+          "start": 32,
+          "end": 40,
+          "gloss": {
+            "lemma": "engager",
+            "pos": "動詞",
+            "ja": "着手する・雇う",
+            "inflection": {
+              "label": "過去分詞・女性複数"
+            }
+          }
+        },
+        {
+          "surface": "elles",
+          "start": 42,
+          "end": 47
+        },
+        {
+          "surface": "échoueront",
+          "start": 48,
+          "end": 58,
+          "gloss": {
+            "lemma": "échouer",
+            "pos": "動詞",
+            "ja": "失敗する",
+            "inflection": {
+              "label": "単純未来・3人称複数"
+            }
+          }
+        },
+        {
+          "surface": "sans",
+          "start": 59,
+          "end": 63
+        },
+        {
+          "surface": "consensus",
+          "start": 64,
+          "end": 73,
+          "gloss": {
+            "lemma": "consensus",
+            "pos": "名詞",
+            "ja": "合意・コンセンサス"
+          }
+        }
+      ],
+      "grammar": "quel que soit は「どんな〜であろうと」。quel が名詞に性数一致するのが要点。"
+    },
+    {
+      "id": "fr-0113",
+      "lang": "fr",
+      "text": "Cette décision de justice aura des répercussions sur le secteur énergétique.",
+      "ja": "この司法判断はエネルギー業界に影響を及ぼすだろう。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "単純未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Cette",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "décision de justice",
+          "start": 6,
+          "end": 25,
+          "gloss": {
+            "lemma": "décision de justice",
+            "pos": "名詞句",
+            "ja": "司法判断・判決",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "aura",
+          "start": 26,
+          "end": 30,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "単純未来・3人称単数",
+              "tense": "FUT",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "des répercussions sur",
+          "start": 31,
+          "end": 52,
+          "gloss": {
+            "lemma": "avoir des répercussions sur",
+            "pos": "慣用表現",
+            "ja": "〜に影響を及ぼす",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "le",
+          "start": 53,
+          "end": 55
+        },
+        {
+          "surface": "secteur énergétique",
+          "start": 56,
+          "end": 75,
+          "gloss": {
+            "lemma": "secteur énergétique",
+            "pos": "名詞句",
+            "ja": "エネルギー業界",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "avoir des répercussions sur で「〜に波及効果を及ぼす」。"
+    },
+    {
+      "id": "fr-0114",
+      "lang": "fr",
+      "text": "Les syndicats contestent que la réforme crée des emplois.",
+      "ja": "労働組合は、その改革が雇用を生むことに異議を唱えている。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "接続法"
+      ],
+      "tokens": [
+        {
+          "surface": "Les",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "syndicats",
+          "start": 4,
+          "end": 13,
+          "gloss": {
+            "lemma": "syndicat",
+            "pos": "名詞",
+            "ja": "労働組合"
+          }
+        },
+        {
+          "surface": "contestent",
+          "start": 14,
+          "end": 24,
+          "gloss": {
+            "lemma": "contester",
+            "pos": "動詞",
+            "ja": "異議を唱える",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "PRES",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 25,
+          "end": 28
+        },
+        {
+          "surface": "la",
+          "start": 29,
+          "end": 31
+        },
+        {
+          "surface": "réforme",
+          "start": 32,
+          "end": 39,
+          "gloss": {
+            "lemma": "réforme",
+            "pos": "名詞",
+            "ja": "改革"
+          }
+        },
+        {
+          "surface": "crée",
+          "start": 40,
+          "end": 44,
+          "gloss": {
+            "lemma": "créer",
+            "pos": "動詞",
+            "ja": "創る・生み出す",
+            "inflection": {
+              "label": "接続法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "des",
+          "start": 45,
+          "end": 48
+        },
+        {
+          "surface": "emplois",
+          "start": 49,
+          "end": 56,
+          "gloss": {
+            "lemma": "emploi",
+            "pos": "名詞",
+            "ja": "雇用・職"
+          }
+        }
+      ],
+      "grammar": "contester que は疑いを表すので後ろは接続法。"
+    },
+    {
+      "id": "fr-0115",
+      "lang": "fr",
+      "text": "Plus l'accord tardera, plus les pertes seront lourdes.",
+      "ja": "合意が遅れれば遅れるほど、損失は大きくなる。",
+      "level": "C2",
+      "tags": [
+        "論説",
+        "単純未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Plus",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "plus... plus...",
+            "pos": "慣用表現",
+            "ja": "〜すればするほど",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "l'",
+          "start": 5,
+          "end": 7
+        },
+        {
+          "surface": "accord",
+          "start": 7,
+          "end": 13,
+          "gloss": {
+            "lemma": "accord",
+            "pos": "名詞",
+            "ja": "合意・協定"
+          }
+        },
+        {
+          "surface": "tardera",
+          "start": 14,
+          "end": 21,
+          "gloss": {
+            "lemma": "tarder",
+            "pos": "動詞",
+            "ja": "遅れる・手間取る",
+            "inflection": {
+              "label": "単純未来・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "les",
+          "start": 28,
+          "end": 31
+        },
+        {
+          "surface": "pertes",
+          "start": 32,
+          "end": 38,
+          "gloss": {
+            "lemma": "perte",
+            "pos": "名詞",
+            "ja": "損失"
+          }
+        },
+        {
+          "surface": "seront",
+          "start": 39,
+          "end": 45,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "単純未来・3人称複数",
+              "tense": "FUT",
+              "person": "3pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "lourdes",
+          "start": 46,
+          "end": 53,
+          "gloss": {
+            "lemma": "lourd",
+            "pos": "形容詞",
+            "ja": "重い・深刻な",
+            "inflection": {
+              "label": "女性複数"
+            }
+          }
+        }
+      ],
+      "grammar": "plus ..., plus ... の相関構文。フランス語では両方とも未来形にする。"
+    },
+    {
+      "id": "fr-0116",
+      "lang": "fr",
+      "text": "La mesure a été prise à la demande du ministère des Finances.",
+      "ja": "その措置は財務省の要請を受けて採られた。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "受動態"
+      ],
+      "tokens": [
+        {
+          "surface": "La",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "mesure",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "mesure",
+            "pos": "名詞",
+            "ja": "措置・対策"
+          }
+        },
+        {
+          "surface": "a été prise",
+          "start": 10,
+          "end": 21,
+          "gloss": {
+            "lemma": "prendre",
+            "pos": "動詞",
+            "ja": "取る・乗る",
+            "inflection": {
+              "label": "受動態・複合過去・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "à la demande du",
+          "start": 22,
+          "end": 37,
+          "gloss": {
+            "lemma": "à la demande de",
+            "pos": "慣用表現",
+            "ja": "〜の要請により",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "ministère des Finances",
+          "start": 38,
+          "end": 60,
+          "gloss": {
+            "lemma": "ministère des Finances",
+            "pos": "固有名詞",
+            "ja": "財務省"
+          }
+        }
+      ],
+      "grammar": "à la demande de は「〜の要請により」。prendre une mesure で「措置を採る」。"
+    },
+    {
+      "id": "fr-0117",
+      "lang": "fr",
+      "text": "Au terme de plusieurs mois de négociation, les deux parties ont accepté d'atténuer les sanctions.",
+      "ja": "数か月の交渉の末、両者は制裁の緩和に同意した。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Au terme de",
+          "start": 0,
+          "end": 11,
+          "gloss": {
+            "lemma": "au terme de",
+            "pos": "慣用表現",
+            "ja": "〜の末に",
+            "idiom": true,
+            "note": "après より硬い書き言葉"
+          }
+        },
+        {
+          "surface": "plusieurs",
+          "start": 12,
+          "end": 21
+        },
+        {
+          "surface": "mois",
+          "start": 22,
+          "end": 26,
+          "gloss": {
+            "lemma": "mois",
+            "pos": "名詞",
+            "ja": "月・か月"
+          }
+        },
+        {
+          "surface": "de",
+          "start": 27,
+          "end": 29
+        },
+        {
+          "surface": "négociation",
+          "start": 30,
+          "end": 41,
+          "gloss": {
+            "lemma": "négociation",
+            "pos": "名詞",
+            "ja": "交渉"
+          }
+        },
+        {
+          "surface": "les deux parties",
+          "start": 43,
+          "end": 59,
+          "gloss": {
+            "lemma": "les deux parties",
+            "pos": "名詞句",
+            "ja": "双方・両者",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "ont accepté",
+          "start": 60,
+          "end": 71,
+          "gloss": {
+            "lemma": "accepter",
+            "pos": "動詞",
+            "ja": "受け入れる",
+            "inflection": {
+              "label": "複合過去・3人称複数",
+              "tense": "PC",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "d'",
+          "start": 72,
+          "end": 74
+        },
+        {
+          "surface": "atténuer",
+          "start": 74,
+          "end": 82,
+          "gloss": {
+            "lemma": "atténuer",
+            "pos": "動詞",
+            "ja": "緩和する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "les",
+          "start": 83,
+          "end": 86
+        },
+        {
+          "surface": "sanctions",
+          "start": 87,
+          "end": 96,
+          "gloss": {
+            "lemma": "sanction",
+            "pos": "名詞",
+            "ja": "制裁"
+          }
+        }
+      ],
+      "grammar": "au terme de は「〜の末に」という書き言葉。après より硬い。"
+    },
+    {
+      "id": "fr-0118",
+      "lang": "fr",
+      "text": "L'étude avance une hypothèse qui reste à démontrer.",
+      "ja": "その研究は、まだ証明されていない仮説を提示している。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "L'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "étude",
+          "start": 2,
+          "end": 7,
+          "gloss": {
+            "lemma": "étude",
+            "pos": "名詞",
+            "ja": "研究・調査"
+          }
+        },
+        {
+          "surface": "avance",
+          "start": 8,
+          "end": 14,
+          "gloss": {
+            "lemma": "avancer",
+            "pos": "動詞",
+            "ja": "進める・提示する",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "une",
+          "start": 15,
+          "end": 18
+        },
+        {
+          "surface": "hypothèse",
+          "start": 19,
+          "end": 28,
+          "gloss": {
+            "lemma": "hypothèse",
+            "pos": "名詞",
+            "ja": "仮説"
+          }
+        },
+        {
+          "surface": "qui",
+          "start": 29,
+          "end": 32
+        },
+        {
+          "surface": "reste à",
+          "start": 33,
+          "end": 40,
+          "gloss": {
+            "lemma": "rester à + 不定詞",
+            "pos": "慣用表現",
+            "ja": "まだ〜されていない",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "démontrer",
+          "start": 41,
+          "end": 50,
+          "gloss": {
+            "lemma": "démontrer",
+            "pos": "動詞",
+            "ja": "証明する・示す",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ],
+      "grammar": "rester à + 不定詞で「まだ〜されていない」。学術文で頻出。"
+    },
+    {
+      "id": "fr-0119",
+      "lang": "fr",
+      "text": "Les importations ont augmenté au détriment de la production locale.",
+      "ja": "国内生産を犠牲にして輸入が増加した。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "経済",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Les",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "importations",
+          "start": 4,
+          "end": 16,
+          "gloss": {
+            "lemma": "importation",
+            "pos": "名詞",
+            "ja": "輸入"
+          }
+        },
+        {
+          "surface": "ont augmenté",
+          "start": 17,
+          "end": 29,
+          "gloss": {
+            "lemma": "augmenter",
+            "pos": "動詞",
+            "ja": "増加する・増やす",
+            "inflection": {
+              "label": "複合過去・3人称複数"
+            }
+          }
+        },
+        {
+          "surface": "au détriment de",
+          "start": 30,
+          "end": 45,
+          "gloss": {
+            "lemma": "au détriment de",
+            "pos": "慣用表現",
+            "ja": "〜を犠牲にして",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "la",
+          "start": 46,
+          "end": 48
+        },
+        {
+          "surface": "production locale",
+          "start": 49,
+          "end": 66,
+          "gloss": {
+            "lemma": "production locale",
+            "pos": "名詞句",
+            "ja": "国内生産",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "au détriment de は「〜を犠牲にして」。経済記事の定型。"
+    },
+    {
+      "id": "fr-0120",
+      "lang": "fr",
+      "text": "Compte tenu de la conjoncture, la banque centrale a appuyé la hausse des taux.",
+      "ja": "現下の情勢を踏まえ、中央銀行は利上げを支持した。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "経済",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Compte tenu de",
+          "start": 0,
+          "end": 14,
+          "gloss": {
+            "lemma": "compte tenu de",
+            "pos": "慣用表現",
+            "ja": "〜を考慮すると",
+            "idiom": true,
+            "note": "硬い書き言葉"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 15,
+          "end": 17
+        },
+        {
+          "surface": "conjoncture",
+          "start": 18,
+          "end": 29,
+          "gloss": {
+            "lemma": "conjoncture",
+            "pos": "名詞",
+            "ja": "情勢・局面"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 31,
+          "end": 33
+        },
+        {
+          "surface": "banque centrale",
+          "start": 34,
+          "end": 49,
+          "gloss": {
+            "lemma": "banque centrale",
+            "pos": "名詞句",
+            "ja": "中央銀行",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "a appuyé",
+          "start": 50,
+          "end": 58,
+          "gloss": {
+            "lemma": "appuyer",
+            "pos": "動詞",
+            "ja": "支持する・押す",
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "la hausse des taux",
+          "start": 59,
+          "end": 77,
+          "gloss": {
+            "lemma": "hausse des taux",
+            "pos": "名詞句",
+            "ja": "利上げ",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "compte tenu de は「〜を考慮すると」という硬い書き言葉。conjoncture は「情勢・局面」。"
     }
   ]
 }

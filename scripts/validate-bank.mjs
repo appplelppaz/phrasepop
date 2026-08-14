@@ -23,7 +23,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const LANGS = ["es", "fr"];
 const PERSON_INDEX = { "1sg": 0, "2sg": 1, "3sg": 2, "1pl": 3, "2pl": 4, "3pl": 5 };
-const LEVELS = new Set(["A1", "A2", "B1", "B2"]);
+const LEVELS = new Set(["A1", "A2", "B1", "B2", "C1", "C2"]);
 
 const errors = [];
 const fail = (msg) => errors.push(msg);
