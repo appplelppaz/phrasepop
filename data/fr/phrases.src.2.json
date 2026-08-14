@@ -1,0 +1,780 @@
+{
+  "_comment": "追加ぶんのフレーズ原本（その2）。否定・疑問・熟語・成句・形容詞・口語表現など。書式は phrases.src.json と同じ。",
+  "lang": "fr",
+  "phrases": [
+    {
+      "id": "fr-0051",
+      "text": "Je n'ai rien dit de tout ça.",
+      "ja": "そんなことは一言も言っていない。",
+      "level": "A2",
+      "tags": ["否定", "複合過去"],
+      "grammar": "複合過去の否定では ne ... rien が助動詞を挟み、過去分詞は rien の後ろに来る。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "n'", "skip": true },
+        { "s": "ai", "skip": true },
+        { "s": "rien", "lemma": "rien", "pos": "代名詞", "ja": "何も〜ない" },
+        { "s": "dit", "lemma": "dire", "pos": "動詞", "ja": "言う", "infl": "PPASSE" },
+        { "s": "de tout ça", "lemma": "de tout ça", "pos": "慣用表現", "ja": "そんなことは", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0052",
+      "text": "Je ne vois personne par ici.",
+      "ja": "この辺には誰もいないみたいだ。",
+      "level": "A2",
+      "tags": ["否定", "直説法現在"],
+      "grammar": "ne ... personne。personne は rien と違い、複合過去では過去分詞の後ろに置く。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "vois", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "infl": "PRES/1sg" },
+        { "s": "personne", "lemma": "personne", "pos": "代名詞", "ja": "誰も〜ない" },
+        { "s": "par ici", "lemma": "par ici", "pos": "慣用表現", "ja": "この辺に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0053",
+      "text": "Je ne m'en souviens même plus.",
+      "ja": "もう覚えてすらいない。",
+      "level": "B1",
+      "tags": ["否定", "直説法現在"],
+      "grammar": "ne ... plus で「もう〜ない」。même を挟むと「〜すら」が加わる。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "m'", "skip": true },
+        { "s": "en", "skip": true },
+        { "s": "souviens", "lemma": "souvenir", "pos": "動詞", "ja": "思い出す・覚えている", "label": "直説法現在・1人称単数", "note": "se souvenir de で「〜を覚えている」" },
+        { "s": "même", "lemma": "même", "pos": "副詞", "ja": "〜さえ" },
+        { "s": "plus", "lemma": "ne...plus", "pos": "慣用表現", "ja": "もう〜ない", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0054",
+      "text": "Je n'aime pas du tout le poisson.",
+      "ja": "魚はまったく好きじゃない。",
+      "level": "A2",
+      "tags": ["否定", "直説法現在"],
+      "grammar": "pas du tout で「まったく〜ない」と否定を強める。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "n'", "skip": true },
+        { "s": "aime", "lemma": "aimer", "pos": "動詞", "ja": "好きだ・愛する", "infl": "PRES/1sg" },
+        { "s": "pas du tout", "lemma": "pas du tout", "pos": "慣用表現", "ja": "まったく〜ない", "idiom": true },
+        { "s": "le", "skip": true },
+        { "s": "poisson", "lemma": "poisson", "pos": "名詞", "ja": "魚" }
+      ]
+    },
+    {
+      "id": "fr-0055",
+      "text": "Moi non plus, je ne le savais pas.",
+      "ja": "私も知らなかった。",
+      "level": "A2",
+      "tags": ["否定", "半過去"],
+      "grammar": "肯定の「私も」は moi aussi、否定は moi non plus。",
+      "tokens": [
+        { "s": "Moi non plus", "lemma": "moi non plus", "pos": "慣用表現", "ja": "私も〜ない", "idiom": true },
+        { "s": "je", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "le", "skip": true },
+        { "s": "savais", "lemma": "savoir", "pos": "動詞", "ja": "知っている・〜できる", "infl": "IMPF/1sg" }
+      ]
+    },
+    {
+      "id": "fr-0056",
+      "text": "Je ne veux même pas y penser.",
+      "ja": "考えたくもない。",
+      "level": "B1",
+      "tags": ["否定", "直説法現在"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "veux", "lemma": "vouloir", "pos": "動詞", "ja": "〜したい・望む", "infl": "PRES/1sg" },
+        { "s": "même pas", "lemma": "même pas", "pos": "慣用表現", "ja": "〜すらしない", "idiom": true },
+        { "s": "y", "skip": true },
+        { "s": "penser", "lemma": "penser", "pos": "動詞", "ja": "考える・思う", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0057",
+      "text": "Et si on mangeait dehors ce soir ?",
+      "ja": "今夜は外で食べない？",
+      "level": "B1",
+      "tags": ["疑問", "半過去"],
+      "grammar": "Et si + 半過去 で「〜しない？」という提案。半過去なのに過去の意味ではない。",
+      "tokens": [
+        { "s": "Et si", "lemma": "et si...?", "pos": "慣用表現", "ja": "〜するのはどう？", "idiom": true, "note": "後ろは半過去。過去の意味ではない" },
+        { "s": "on", "skip": true },
+        { "s": "mangeait", "lemma": "manger", "pos": "動詞", "ja": "食べる", "infl": "IMPF/3sg" },
+        { "s": "dehors", "lemma": "dehors", "pos": "副詞", "ja": "外で" },
+        { "s": "ce soir", "lemma": "ce soir", "pos": "慣用表現", "ja": "今晩", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0058",
+      "text": "Comment ça se fait que tu ne m'aies rien dit ?",
+      "ja": "どうして何も言ってくれなかったの？",
+      "level": "B2",
+      "tags": ["疑問", "接続法", "口語"],
+      "grammar": "comment ça se fait que は pourquoi の口語版で、後ろは接続法。教科書ではあまり扱われない。",
+      "tokens": [
+        { "s": "Comment ça se fait que", "lemma": "comment ça se fait que", "pos": "慣用表現", "ja": "どうして〜なのか", "idiom": true, "note": "口語。後ろは接続法" },
+        { "s": "tu", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "m'", "skip": true },
+        { "s": "aies", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "SUBJ/2sg", "note": "接続法過去の助動詞" },
+        { "s": "rien", "lemma": "rien", "pos": "代名詞", "ja": "何も〜ない" },
+        { "s": "dit", "lemma": "dire", "pos": "動詞", "ja": "言う", "infl": "PPASSE" }
+      ]
+    },
+    {
+      "id": "fr-0059",
+      "text": "Ça te dérange si j'ouvre la fenêtre ?",
+      "ja": "窓を開けてもいい？",
+      "level": "B1",
+      "tags": ["疑問", "直説法現在"],
+      "tokens": [
+        { "s": "Ça te dérange si", "lemma": "ça te dérange si...?", "pos": "慣用表現", "ja": "〜してもかまわない？", "idiom": true },
+        { "s": "j'", "skip": true },
+        { "s": "ouvre", "lemma": "ouvrir", "pos": "動詞", "ja": "開ける", "infl": "PRES/1sg", "note": "ouvrir は -ir だが現在形は -er 型に活用する" },
+        { "s": "la", "skip": true },
+        { "s": "fenêtre", "lemma": "fenêtre", "pos": "名詞", "ja": "窓" }
+      ]
+    },
+    {
+      "id": "fr-0060",
+      "text": "Ça m'est égal, ce qu'ils disent.",
+      "ja": "彼らが何を言おうとどうでもいい。",
+      "level": "B2",
+      "tags": ["熟語", "直説法現在"],
+      "grammar": "être égal à qqn で「〜にとってどうでもいい」。",
+      "tokens": [
+        { "s": "Ça", "skip": true },
+        { "s": "m'", "skip": true },
+        { "s": "est égal", "lemma": "être égal", "pos": "慣用表現", "ja": "どうでもいい", "idiom": true },
+        { "s": "ce qu'", "lemma": "ce que", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
+        { "s": "ils", "skip": true },
+        { "s": "disent", "lemma": "dire", "pos": "動詞", "ja": "言う", "infl": "PRES/3pl" }
+      ]
+    },
+    {
+      "id": "fr-0061",
+      "text": "Heureusement que tu es arrivé à temps.",
+      "ja": "間に合ってよかった。",
+      "level": "B1",
+      "tags": ["熟語", "複合過去"],
+      "tokens": [
+        { "s": "Heureusement que", "lemma": "heureusement que", "pos": "慣用表現", "ja": "〜でよかった", "idiom": true },
+        { "s": "tu", "skip": true },
+        { "s": "es arrivé", "lemma": "arriver", "pos": "動詞", "ja": "着く・起こる", "infl": "PC/2sg" },
+        { "s": "à temps", "lemma": "à temps", "pos": "慣用表現", "ja": "間に合って", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0062",
+      "text": "Il viendra peut-être demain.",
+      "ja": "ひょっとしたら明日来るかもね。",
+      "level": "A2",
+      "tags": ["単純未来"],
+      "grammar": "peut-être を文頭に置くと倒置か que が必要になるので、動詞の後ろに置くのが自然。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "viendra", "lemma": "venir", "pos": "動詞", "ja": "来る", "infl": "FUT/3sg" },
+        { "s": "peut-être", "lemma": "peut-être", "pos": "副詞", "ja": "たぶん・ひょっとすると", "note": "文頭に置くときは que が要る" },
+        { "s": "demain", "lemma": "demain", "pos": "副詞", "ja": "明日" }
+      ]
+    },
+    {
+      "id": "fr-0063",
+      "text": "De toute façon, il est déjà trop tard.",
+      "ja": "どちらにしても、もう遅すぎる。",
+      "level": "B1",
+      "tags": ["熟語", "直説法現在"],
+      "tokens": [
+        { "s": "De toute façon", "lemma": "de toute façon", "pos": "慣用表現", "ja": "いずれにせよ", "idiom": true },
+        { "s": "il", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "déjà", "lemma": "déjà", "pos": "副詞", "ja": "もう・すでに" },
+        { "s": "trop tard", "lemma": "trop tard", "pos": "慣用表現", "ja": "遅すぎる", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0064",
+      "text": "Ça me fait bizarre de te voir ici.",
+      "ja": "ここで君に会うのはなんだか変な感じだ。",
+      "level": "B2",
+      "tags": ["熟語", "直説法現在", "口語"],
+      "grammar": "ça me fait + 形容詞で「〜な感じがする」。会話でよく使う。",
+      "tokens": [
+        { "s": "Ça", "skip": true },
+        { "s": "me", "skip": true },
+        { "s": "fait", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "PRES/3sg", "note": "ça me fait + 形容詞で「〜な感じがする」" },
+        { "s": "bizarre", "lemma": "bizarre", "pos": "形容詞", "ja": "奇妙な・変な" },
+        { "s": "de", "skip": true },
+        { "s": "te", "skip": true },
+        { "s": "voir", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "label": "不定詞" },
+        { "s": "ici", "lemma": "ici", "pos": "副詞", "ja": "ここに" }
+      ]
+    },
+    {
+      "id": "fr-0065",
+      "text": "Jamais de la vie je ne retournerai là-bas.",
+      "ja": "あんな所には二度と行かない。",
+      "level": "B2",
+      "tags": ["否定", "口語", "単純未来"],
+      "grammar": "jamais de la vie は「絶対に嫌だ」という強い拒否。",
+      "tokens": [
+        { "s": "Jamais de la vie", "lemma": "jamais de la vie", "pos": "慣用表現", "ja": "絶対に嫌だ", "idiom": true, "note": "口語の強い拒否" },
+        { "s": "je", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "retournerai", "lemma": "retourner", "pos": "動詞", "ja": "戻る・帰る", "label": "単純未来・1人称単数" },
+        { "s": "là-bas", "lemma": "là-bas", "pos": "副詞", "ja": "あそこに" }
+      ]
+    },
+    {
+      "id": "fr-0066",
+      "text": "Il attend depuis deux heures.",
+      "ja": "彼は2時間ずっと待っている。",
+      "level": "B1",
+      "tags": ["直説法現在"],
+      "grammar": "depuis + 期間は現在形と組み合わせる。英語の have been -ing にあたる。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "attend", "lemma": "attendre", "pos": "動詞", "ja": "待つ", "infl": "PRES/3sg" },
+        { "s": "depuis", "lemma": "depuis", "pos": "前置詞", "ja": "〜から・〜以来", "note": "現在形と組み合わせる" },
+        { "s": "deux", "skip": true },
+        { "s": "heures", "lemma": "heure", "pos": "名詞", "ja": "時間" }
+      ]
+    },
+    {
+      "id": "fr-0067",
+      "text": "Je viens de m'en rendre compte.",
+      "ja": "今やっと気がついた。",
+      "level": "B2",
+      "tags": ["熟語", "直説法現在"],
+      "grammar": "se rendre compte de で「気づく」。venir de + 不定詞で「〜したばかり」。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "viens", "lemma": "venir", "pos": "動詞", "ja": "来る", "infl": "PRES/1sg", "note": "venir de + 不定詞で近接過去" },
+        { "s": "de", "skip": true },
+        { "s": "m'", "skip": true },
+        { "s": "en", "skip": true },
+        { "s": "rendre compte", "lemma": "se rendre compte de", "pos": "慣用表現", "ja": "気づく・実感する", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0068",
+      "text": "Il se fait tard, on devrait y aller.",
+      "ja": "遅くなってきた、そろそろ行こう。",
+      "level": "B1",
+      "tags": ["条件法現在", "熟語"],
+      "grammar": "devoir の条件法は「〜したほうがいい」という控えめな助言になる。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "se fait tard", "lemma": "il se fait tard", "pos": "慣用表現", "ja": "遅くなってきた", "idiom": true },
+        { "s": "on", "skip": true },
+        { "s": "devrait", "lemma": "devoir", "pos": "動詞", "ja": "〜しなければならない・借りがある", "infl": "COND/3sg", "note": "条件法で控えめな助言" },
+        { "s": "y aller", "lemma": "y aller", "pos": "慣用表現", "ja": "そろそろ行く", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0069",
+      "text": "C'est un grand homme.",
+      "ja": "彼は偉大な人物だ。",
+      "level": "B2",
+      "tags": ["形容詞", "直説法現在"],
+      "grammar": "grand は名詞の前に置くと「偉大な」、後ろだと「背が高い」。位置で意味が変わる形容詞の代表例。",
+      "tokens": [
+        { "s": "C'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "un", "skip": true },
+        { "s": "grand", "lemma": "grand", "pos": "形容詞", "ja": "偉大な", "note": "名詞の前なので「偉大な」" },
+        { "s": "homme", "lemma": "homme", "pos": "名詞", "ja": "男性・人" }
+      ]
+    },
+    {
+      "id": "fr-0070",
+      "text": "C'est un homme grand.",
+      "ja": "彼は背の高い男だ。",
+      "level": "B2",
+      "tags": ["形容詞", "直説法現在"],
+      "grammar": "同じ grand でも名詞の後ろに置くと物理的な背の高さを指す。",
+      "tokens": [
+        { "s": "C'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "un", "skip": true },
+        { "s": "homme", "lemma": "homme", "pos": "名詞", "ja": "男性・人" },
+        { "s": "grand", "lemma": "grand", "pos": "形容詞", "ja": "背が高い", "note": "名詞の後ろなので物理的な大きさ" }
+      ]
+    },
+    {
+      "id": "fr-0071",
+      "text": "C'est un bel appartement.",
+      "ja": "きれいなアパートだね。",
+      "level": "B1",
+      "tags": ["形容詞", "直説法現在"],
+      "grammar": "beau は母音で始まる男性名詞の前で bel に変わる（beau → bel → belle）。",
+      "tokens": [
+        { "s": "C'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "un", "skip": true },
+        { "s": "bel", "lemma": "beau", "pos": "形容詞", "ja": "美しい・きれいな", "label": "母音の前の男性単数", "note": "beau が母音の前で bel に変わる不規則な形" },
+        { "s": "appartement", "lemma": "appartement", "pos": "名詞", "ja": "アパート・住居" }
+      ]
+    },
+    {
+      "id": "fr-0072",
+      "text": "Elle est plus intelligente qu'elle n'en a l'air.",
+      "ja": "彼女は見た目より賢い。",
+      "level": "B2",
+      "tags": ["形容詞", "直説法現在"],
+      "grammar": "比較の que のあとに入る ne は否定ではなく語調を整えるだけ（虚辞の ne）。",
+      "tokens": [
+        { "s": "Elle", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "plus", "lemma": "plus", "pos": "副詞", "ja": "もっと・より" },
+        { "s": "intelligente", "lemma": "intelligent", "pos": "形容詞", "ja": "賢い", "label": "女性単数" },
+        { "s": "qu'", "skip": true },
+        { "s": "elle", "skip": true },
+        { "s": "n'", "skip": true, "note": "否定ではない虚辞の ne" },
+        { "s": "en a l'air", "lemma": "avoir l'air", "pos": "慣用表現", "ja": "〜のように見える", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0073",
+      "text": "Plus j'y pense, moins je comprends.",
+      "ja": "考えれば考えるほど分からなくなる。",
+      "level": "B2",
+      "tags": ["形容詞", "直説法現在"],
+      "grammar": "plus ..., moins ... で「〜すればするほど…ない」。",
+      "tokens": [
+        { "s": "Plus", "lemma": "plus... moins...", "pos": "慣用表現", "ja": "〜すればするほど…ない", "idiom": true },
+        { "s": "j'", "skip": true },
+        { "s": "y", "skip": true },
+        { "s": "pense", "lemma": "penser", "pos": "動詞", "ja": "考える・思う", "infl": "PRES/1sg" },
+        { "s": "moins", "lemma": "moins", "pos": "副詞", "ja": "より少なく" },
+        { "s": "je", "skip": true },
+        { "s": "comprends", "lemma": "comprendre", "pos": "動詞", "ja": "理解する", "infl": "PRES/1sg" }
+      ]
+    },
+    {
+      "id": "fr-0074",
+      "text": "Ce n'est pas aussi difficile qu'il paraît.",
+      "ja": "見た目ほど難しくない。",
+      "level": "B1",
+      "tags": ["形容詞", "直説法現在"],
+      "tokens": [
+        { "s": "Ce", "skip": true },
+        { "s": "n'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "pas", "skip": true },
+        { "s": "aussi", "lemma": "aussi", "pos": "副詞", "ja": "同じくらい" },
+        { "s": "difficile", "lemma": "difficile", "pos": "形容詞", "ja": "難しい" },
+        { "s": "qu'", "skip": true },
+        { "s": "il", "skip": true },
+        { "s": "paraît", "lemma": "paraître", "pos": "動詞", "ja": "現れる・〜に見える", "infl": "PRES/3sg" }
+      ]
+    },
+    {
+      "id": "fr-0075",
+      "text": "J'en ai marre de ce travail.",
+      "ja": "この仕事にはもううんざりだ。",
+      "level": "B2",
+      "tags": ["熟語", "口語", "直説法現在"],
+      "grammar": "en avoir marre de は「〜にうんざりしている」。会話で非常によく使う。",
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "en ai marre de", "lemma": "en avoir marre de", "pos": "慣用表現", "ja": "〜にうんざりしている", "idiom": true, "note": "口語" },
+        { "s": "ce", "skip": true },
+        { "s": "travail", "lemma": "travail", "pos": "名詞", "ja": "仕事" }
+      ]
+    },
+    {
+      "id": "fr-0076",
+      "text": "Tu te moques de moi, non ?",
+      "ja": "からかってるでしょ？",
+      "level": "B1",
+      "tags": ["熟語", "直説法現在"],
+      "grammar": "se moquer de で「〜をからかう・ばかにする」。",
+      "tokens": [
+        { "s": "Tu", "skip": true },
+        { "s": "te moques de", "lemma": "se moquer de", "pos": "慣用表現", "ja": "からかう・ばかにする", "idiom": true },
+        { "s": "moi", "skip": true }
+      ]
+    },
+    {
+      "id": "fr-0077",
+      "text": "Il a mis dans le mille avec sa réponse.",
+      "ja": "彼の答えはまさに的中だった。",
+      "level": "B2",
+      "tags": ["熟語", "複合過去"],
+      "grammar": "mettre dans le mille は「的のど真ん中に当てる」＝核心を突く。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "a mis", "lemma": "mettre", "pos": "動詞", "ja": "置く・着る", "infl": "PC/3sg" },
+        { "s": "dans le mille", "lemma": "mettre dans le mille", "pos": "慣用表現", "ja": "核心を突く・図星をつく", "idiom": true },
+        { "s": "avec", "skip": true },
+        { "s": "sa", "skip": true },
+        { "s": "réponse", "lemma": "réponse", "pos": "名詞", "ja": "答え・返事" }
+      ]
+    },
+    {
+      "id": "fr-0078",
+      "text": "Mieux vaut tard que jamais.",
+      "ja": "遅れても、やらないよりはましだ。",
+      "level": "B1",
+      "tags": ["成句", "直説法現在"],
+      "grammar": "mieux vaut A que B で「B より A のほうがましだ」。ことわざとしてそのまま使う。",
+      "tokens": [
+        { "s": "Mieux", "lemma": "mieux", "pos": "副詞", "ja": "よりよく" },
+        { "s": "vaut", "lemma": "valoir", "pos": "動詞", "ja": "価値がある", "infl": "PRES/3sg", "note": "mieux vaut A que B で「B より A のほうがましだ」" },
+        { "s": "tard", "lemma": "tard", "pos": "副詞", "ja": "遅く" },
+        { "s": "que", "skip": true },
+        { "s": "jamais", "lemma": "jamais", "pos": "副詞", "ja": "決して〜ない" }
+      ]
+    },
+    {
+      "id": "fr-0079",
+      "text": "À quelque chose malheur est bon.",
+      "ja": "災い転じて福となす。",
+      "level": "B2",
+      "tags": ["成句", "直説法現在"],
+      "grammar": "語順が倒れていて直訳しづらいことわざ。「不幸も何かの役には立つ」の意。",
+      "tokens": [
+        { "s": "À quelque chose", "lemma": "à quelque chose", "pos": "慣用表現", "ja": "何かのために", "idiom": true },
+        { "s": "malheur", "lemma": "malheur", "pos": "名詞", "ja": "不幸・災い" },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "bon", "lemma": "bon", "pos": "形容詞", "ja": "よい・役に立つ" }
+      ]
+    },
+    {
+      "id": "fr-0080",
+      "text": "Dis-moi qui tu fréquentes, je te dirai qui tu es.",
+      "ja": "付き合う相手を見れば、その人が分かる。",
+      "level": "B2",
+      "tags": ["成句", "命令法", "単純未来"],
+      "grammar": "ことわざ。命令法・現在・単純未来が一文に並ぶ。",
+      "tokens": [
+        { "s": "Dis", "lemma": "dire", "pos": "動詞", "ja": "言う", "infl": "IMPER/2sg" },
+        { "s": "moi", "skip": true },
+        { "s": "qui", "skip": true },
+        { "s": "tu", "skip": true },
+        { "s": "fréquentes", "lemma": "fréquenter", "pos": "動詞", "ja": "付き合う・よく通う", "label": "直説法現在・2人称単数" },
+        { "s": "je", "skip": true },
+        { "s": "te", "skip": true },
+        { "s": "dirai", "lemma": "dire", "pos": "動詞", "ja": "言う", "infl": "FUT/1sg" },
+        { "s": "es", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/2sg" }
+      ]
+    },
+    {
+      "id": "fr-0081",
+      "text": "Quoi que tu fasses, tu n'y arriveras pas.",
+      "ja": "何をしようと、それは無理だよ。",
+      "level": "B2",
+      "tags": ["接続法", "単純未来"],
+      "grammar": "quoi que + 接続法で「何を〜しようと」。quoique（一語）は「〜だけれども」で別物。",
+      "tokens": [
+        { "s": "Quoi que", "lemma": "quoi que", "pos": "慣用表現", "ja": "何を〜しようと", "idiom": true, "note": "一語の quoique は「〜だけれども」で別の語" },
+        { "s": "tu", "skip": true },
+        { "s": "fasses", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "SUBJ/2sg" },
+        { "s": "tu", "skip": true },
+        { "s": "n'", "skip": true },
+        { "s": "y arriveras", "lemma": "y arriver", "pos": "慣用表現", "ja": "うまくやり遂げる", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0082",
+      "text": "Que je sache, personne n'est venu.",
+      "ja": "私の知る限り、誰も来ていない。",
+      "level": "B2",
+      "tags": ["接続法", "複合過去"],
+      "grammar": "que je sache は「私の知る限り」。接続法が固まった決まり文句。",
+      "tokens": [
+        { "s": "Que", "skip": true },
+        { "s": "je", "skip": true },
+        { "s": "sache", "lemma": "savoir", "pos": "動詞", "ja": "知っている・〜できる", "infl": "SUBJ/1sg", "note": "que je sache で「私の知る限り」" },
+        { "s": "personne", "lemma": "personne", "pos": "代名詞", "ja": "誰も〜ない" },
+        { "s": "n'", "skip": true },
+        { "s": "est venu", "lemma": "venir", "pos": "動詞", "ja": "来る", "infl": "PC/3sg" }
+      ]
+    },
+    {
+      "id": "fr-0083",
+      "text": "Quoi qu'il en soit, il faut finir aujourd'hui.",
+      "ja": "どうであれ、今日中に終わらせないといけない。",
+      "level": "B2",
+      "tags": ["接続法", "熟語"],
+      "grammar": "quoi qu'il en soit は「どうであれ」という決まり文句。",
+      "tokens": [
+        { "s": "Quoi qu'il en soit", "lemma": "quoi qu'il en soit", "pos": "慣用表現", "ja": "どうであれ", "idiom": true },
+        { "s": "il", "skip": true },
+        { "s": "faut", "lemma": "falloir", "pos": "動詞", "ja": "〜する必要がある", "infl": "PRES/3sg" },
+        { "s": "finir", "lemma": "finir", "pos": "動詞", "ja": "終える・終わる", "label": "不定詞" },
+        { "s": "aujourd'hui", "lemma": "aujourd'hui", "pos": "副詞", "ja": "今日" }
+      ]
+    },
+    {
+      "id": "fr-0084",
+      "text": "Dès que je suis arrivé, il s'est mis à pleuvoir.",
+      "ja": "着いたとたんに雨が降り出した。",
+      "level": "B2",
+      "tags": ["熟語", "複合過去"],
+      "grammar": "se mettre à + 不定詞で「〜し始める」。dès que は「〜するやいなや」。",
+      "tokens": [
+        { "s": "Dès que", "lemma": "dès que", "pos": "慣用表現", "ja": "〜するやいなや", "idiom": true },
+        { "s": "je", "skip": true },
+        { "s": "suis arrivé", "lemma": "arriver", "pos": "動詞", "ja": "着く・起こる", "infl": "PC/1sg" },
+        { "s": "il", "skip": true },
+        { "s": "s'est mis à", "lemma": "se mettre à", "pos": "慣用表現", "ja": "〜し始める", "idiom": true },
+        { "s": "pleuvoir", "lemma": "pleuvoir", "pos": "動詞", "ja": "雨が降る", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0085",
+      "text": "Ces chaussures sont trop petites pour moi.",
+      "ja": "この靴は私には小さすぎる。",
+      "level": "A2",
+      "tags": ["形容詞", "直説法現在"],
+      "grammar": "形容詞は名詞の性数に一致する（chaussures は女性複数なので petites）。",
+      "tokens": [
+        { "s": "Ces", "skip": true },
+        { "s": "chaussures", "lemma": "chaussure", "pos": "名詞", "ja": "靴" },
+        { "s": "sont", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3pl" },
+        { "s": "trop", "lemma": "trop", "pos": "副詞", "ja": "〜すぎる" },
+        { "s": "petites", "lemma": "petit", "pos": "形容詞", "ja": "小さい", "label": "女性複数" }
+      ]
+    },
+    {
+      "id": "fr-0086",
+      "text": "Elle a les cheveux longs et bouclés.",
+      "ja": "彼女は長い巻き毛をしている。",
+      "level": "A2",
+      "tags": ["形容詞", "直説法現在"],
+      "grammar": "体の特徴は avoir + 定冠詞 + 名詞 + 形容詞で表す。所有形容詞は使わない。",
+      "tokens": [
+        { "s": "Elle", "skip": true },
+        { "s": "a", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/3sg" },
+        { "s": "les", "skip": true },
+        { "s": "cheveux", "lemma": "cheveu", "pos": "名詞", "ja": "髪" },
+        { "s": "longs", "lemma": "long", "pos": "形容詞", "ja": "長い", "label": "男性複数" },
+        { "s": "et", "skip": true },
+        { "s": "bouclés", "lemma": "bouclé", "pos": "形容詞", "ja": "巻き毛の", "label": "男性複数" }
+      ]
+    },
+    {
+      "id": "fr-0087",
+      "text": "L'eau est très froide.",
+      "ja": "水がとても冷たい。",
+      "level": "A1",
+      "tags": ["形容詞", "直説法現在"],
+      "grammar": "eau は女性名詞なので形容詞も女性形 froide になる。",
+      "tokens": [
+        { "s": "L'", "skip": true },
+        { "s": "eau", "lemma": "eau", "pos": "名詞", "ja": "水" },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "très", "lemma": "très", "pos": "副詞", "ja": "とても" },
+        { "s": "froide", "lemma": "froid", "pos": "形容詞", "ja": "冷たい・寒い", "label": "女性単数" }
+      ]
+    },
+    {
+      "id": "fr-0088",
+      "text": "J'ai du mal à me lever tôt.",
+      "ja": "早起きするのが苦手だ。",
+      "level": "B1",
+      "tags": ["熟語", "直説法現在"],
+      "grammar": "avoir du mal à + 不定詞で「〜するのが難しい・苦手だ」。",
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "ai du mal à", "lemma": "avoir du mal à", "pos": "慣用表現", "ja": "〜するのが難しい", "idiom": true },
+        { "s": "me", "skip": true },
+        { "s": "lever", "lemma": "lever", "pos": "動詞", "ja": "上げる・持ち上げる", "label": "不定詞", "note": "se lever で「起きる」" },
+        { "s": "tôt", "lemma": "tôt", "pos": "副詞", "ja": "早く" }
+      ]
+    },
+    {
+      "id": "fr-0089",
+      "text": "Comme s'il savait tout.",
+      "ja": "まるで何でも知っているみたいに。",
+      "level": "B2",
+      "tags": ["半過去"],
+      "grammar": "comme si のあとは半過去。接続法は使わない（スペイン語と違う点）。",
+      "tokens": [
+        { "s": "Comme s'", "lemma": "comme si", "pos": "慣用表現", "ja": "まるで〜のように", "idiom": true, "note": "後ろは半過去。接続法ではない" },
+        { "s": "il", "skip": true },
+        { "s": "savait", "lemma": "savoir", "pos": "動詞", "ja": "知っている・〜できる", "infl": "IMPF/3sg" },
+        { "s": "tout", "lemma": "tout", "pos": "代名詞", "ja": "すべて" }
+      ]
+    },
+    {
+      "id": "fr-0090",
+      "text": "N'oublie pas de fermer la porte.",
+      "ja": "ドアを閉めるのを忘れないでね。",
+      "level": "A2",
+      "tags": ["否定", "命令法"],
+      "tokens": [
+        { "s": "N'", "skip": true },
+        { "s": "oublie", "lemma": "oublier", "pos": "動詞", "ja": "忘れる", "infl": "IMPER/2sg" },
+        { "s": "pas", "skip": true },
+        { "s": "de", "skip": true },
+        { "s": "fermer", "lemma": "fermer", "pos": "動詞", "ja": "閉める", "label": "不定詞" },
+        { "s": "la", "skip": true },
+        { "s": "porte", "lemma": "porte", "pos": "名詞", "ja": "ドア・扉" }
+      ]
+    },
+    {
+      "id": "fr-0091",
+      "text": "J'ai complètement oublié de t'appeler.",
+      "ja": "君に電話するのをすっかり忘れていた。",
+      "level": "B1",
+      "tags": ["複合過去"],
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "ai", "skip": true },
+        { "s": "complètement", "lemma": "complètement", "pos": "副詞", "ja": "完全に・すっかり" },
+        { "s": "oublié", "lemma": "oublier", "pos": "動詞", "ja": "忘れる", "infl": "PPASSE" },
+        { "s": "de", "skip": true },
+        { "s": "t'", "skip": true },
+        { "s": "appeler", "lemma": "appeler", "pos": "動詞", "ja": "呼ぶ・電話する", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0092",
+      "text": "Il oublie son portable tout le temps.",
+      "ja": "彼はしょっちゅう携帯を忘れる。",
+      "level": "A2",
+      "tags": ["直説法現在", "熟語"],
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "oublie", "lemma": "oublier", "pos": "動詞", "ja": "忘れる", "infl": "PRES/3sg" },
+        { "s": "son", "skip": true },
+        { "s": "portable", "lemma": "portable", "pos": "名詞", "ja": "携帯電話" },
+        { "s": "tout le temps", "lemma": "tout le temps", "pos": "慣用表現", "ja": "しょっちゅう・いつも", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0093",
+      "text": "Il l'a fait sans faire exprès.",
+      "ja": "彼はわざとじゃなくそうしてしまった。",
+      "level": "B1",
+      "tags": ["熟語", "複合過去"],
+      "grammar": "faire exprès は「わざとする」。否定すると「うっかり」。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "l'", "skip": true },
+        { "s": "a fait", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "PC/3sg" },
+        { "s": "sans faire exprès", "lemma": "sans faire exprès", "pos": "慣用表現", "ja": "うっかり・故意でなく", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0094",
+      "text": "J'étais sur le point de sortir quand tu as appelé.",
+      "ja": "ちょうど出かけようとしたところに君が電話してきた。",
+      "level": "B2",
+      "tags": ["熟語", "半過去", "複合過去"],
+      "grammar": "être sur le point de + 不定詞で「まさに〜しようとしている」。半過去と複合過去の使い分けが要点。",
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "étais", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "IMPF/1sg", "note": "進行中の状況なので半過去" },
+        { "s": "sur le point de", "lemma": "être sur le point de", "pos": "慣用表現", "ja": "まさに〜しようとしている", "idiom": true },
+        { "s": "sortir", "lemma": "sortir", "pos": "動詞", "ja": "出る・外出する", "label": "不定詞" },
+        { "s": "quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "tu", "skip": true },
+        { "s": "as appelé", "lemma": "appeler", "pos": "動詞", "ja": "呼ぶ・電話する", "infl": "PC/2sg", "note": "割り込む出来事なので複合過去" }
+      ]
+    },
+    {
+      "id": "fr-0095",
+      "text": "Au cas où, prends ton parapluie.",
+      "ja": "念のため傘を持っていきなさい。",
+      "level": "B1",
+      "tags": ["熟語", "命令法"],
+      "tokens": [
+        { "s": "Au cas où", "lemma": "au cas où", "pos": "慣用表現", "ja": "念のため・万一に備えて", "idiom": true },
+        { "s": "prends", "lemma": "prendre", "pos": "動詞", "ja": "取る・乗る", "infl": "IMPER/2sg" },
+        { "s": "ton", "skip": true },
+        { "s": "parapluie", "lemma": "parapluie", "pos": "名詞", "ja": "傘" }
+      ]
+    },
+    {
+      "id": "fr-0096",
+      "text": "Ça fait deux ans que je travaille ici.",
+      "ja": "ここで働いて2年になる。",
+      "level": "B1",
+      "tags": ["熟語", "直説法現在"],
+      "grammar": "ça fait + 期間 + que + 現在形。depuis と同じ意味だが語順が違う。",
+      "tokens": [
+        { "s": "Ça fait", "lemma": "ça fait... que", "pos": "慣用表現", "ja": "〜して…になる", "idiom": true },
+        { "s": "deux", "skip": true },
+        { "s": "ans", "lemma": "an", "pos": "名詞", "ja": "年" },
+        { "s": "que", "skip": true },
+        { "s": "je", "skip": true },
+        { "s": "travaille", "lemma": "travailler", "pos": "動詞", "ja": "働く・勉強する", "infl": "PRES/1sg" },
+        { "s": "ici", "lemma": "ici", "pos": "副詞", "ja": "ここに" }
+      ]
+    },
+    {
+      "id": "fr-0097",
+      "text": "Ce livre vaut vraiment la peine d'être lu.",
+      "ja": "この本は本当に読む価値がある。",
+      "level": "B2",
+      "tags": ["熟語", "受動態"],
+      "grammar": "valoir la peine de + 不定詞。être + 過去分詞で受動の不定詞になる。",
+      "tokens": [
+        { "s": "Ce", "skip": true },
+        { "s": "livre", "lemma": "livre", "pos": "名詞", "ja": "本" },
+        { "s": "vaut", "lemma": "valoir", "pos": "動詞", "ja": "価値がある", "infl": "PRES/3sg" },
+        { "s": "vraiment", "lemma": "vraiment", "pos": "副詞", "ja": "本当に" },
+        { "s": "la peine d'", "lemma": "valoir la peine de", "pos": "慣用表現", "ja": "〜する価値がある", "idiom": true },
+        { "s": "être", "skip": true },
+        { "s": "lu", "lemma": "lire", "pos": "動詞", "ja": "読む", "infl": "PPASSE", "note": "受動の不定詞 être lu" }
+      ]
+    },
+    {
+      "id": "fr-0098",
+      "text": "Ça ne me dit rien du tout.",
+      "ja": "それはまったく気が進まない。",
+      "level": "B2",
+      "tags": ["否定", "熟語", "口語"],
+      "grammar": "ça ne me dit rien は「気が進まない・ぴんと来ない」。直訳からは意味が読めない。",
+      "tokens": [
+        { "s": "Ça", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "me", "skip": true },
+        { "s": "dit", "lemma": "dire", "pos": "動詞", "ja": "言う", "infl": "PRES/3sg", "note": "ça ne me dit rien で「気が進まない」" },
+        { "s": "rien du tout", "lemma": "rien du tout", "pos": "慣用表現", "ja": "まったく何も", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0099",
+      "text": "Il pleut des cordes depuis ce matin.",
+      "ja": "今朝から土砂降りだ。",
+      "level": "B2",
+      "tags": ["熟語", "直説法現在"],
+      "grammar": "pleuvoir des cordes は「綱のように降る」＝土砂降り。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "pleut", "lemma": "pleuvoir", "pos": "動詞", "ja": "雨が降る", "infl": "PRES/3sg" },
+        { "s": "des cordes", "lemma": "pleuvoir des cordes", "pos": "慣用表現", "ja": "土砂降りである", "idiom": true },
+        { "s": "depuis", "skip": true },
+        { "s": "ce matin", "lemma": "ce matin", "pos": "慣用表現", "ja": "今朝", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0100",
+      "text": "Tu ferais mieux de te reposer un peu.",
+      "ja": "少し休んだほうがいいよ。",
+      "level": "B2",
+      "tags": ["条件法現在", "熟語"],
+      "grammar": "faire mieux de + 不定詞を条件法にすると「〜したほうがいい」という助言になる。",
+      "tokens": [
+        { "s": "Tu", "skip": true },
+        { "s": "ferais", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "COND/2sg" },
+        { "s": "mieux de", "lemma": "faire mieux de", "pos": "慣用表現", "ja": "〜したほうがよい", "idiom": true },
+        { "s": "te", "skip": true },
+        { "s": "reposer", "lemma": "reposer", "pos": "動詞", "ja": "休ませる", "label": "不定詞", "note": "se reposer で「休む」" },
+        { "s": "un peu", "lemma": "un peu", "pos": "慣用表現", "ja": "少し", "idiom": true }
+      ]
+    }
+  ]
+}

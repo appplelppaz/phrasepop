@@ -29,6 +29,19 @@ export const LANG_LABEL: Record<Lang, string> = {
   en: "英語",
 };
 
+/**
+ * 不規則活用の説明。scripts/lib/irregularity.mjs がビルド時に生成する。
+ * 「本来の規則形」と実際の形の差分から作られるので、手書きの誤りが入らない。
+ */
+export type Irregularity = {
+  /** S=語幹 / E=語尾 / B=両方 / I=規則形が存在しない不規則動詞 */
+  code: "S" | "E" | "B" | "I";
+  /** 「語幹の o が ue に変わる（pod- → pued-）」のような説明。 */
+  text: string;
+  /** 規則どおりならこうなったはずの形。 */
+  regular?: string;
+};
+
 export type Inflection = {
   /** 画面に出す日本語ラベル。例: 「接続法現在・3人称単数」 */
   label: string;
@@ -40,6 +53,7 @@ export type Inflection = {
   person?: Person;
   /** 中国語専用。アスペクト・構文タグ。 */
   construction?: string;
+  irregular?: Irregularity;
 };
 
 export const PERSONS = ["1sg", "2sg", "3sg", "1pl", "2pl", "3pl"] as const;
@@ -97,6 +111,17 @@ export type VerbEntry = {
   ja: string;
   /** 時制キー → 6 人称分の活用形。分詞など人称を持たないものは 1 要素。 */
   forms: Record<string, string[]>;
+  /**
+   * 不規則活用の判定（scripts/add-irregularity.mjs が生成）。
+   * 規則的な時制はキーごと存在しない。
+   * texts に説明の実体を置き、idx が人称ごとの添字を指す（規則的な人称は null）。
+   */
+  irr?: Record<
+    string,
+    { codes: string; summary: string; texts: string[]; idx: (number | null)[] }
+  >;
+  impersonal?: boolean;
+  omit?: string[];
 };
 
 export type VerbTable = {

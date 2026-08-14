@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { loadBank } from "@/lib/bank";
+import { loadBank, loadVerbs } from "@/lib/bank";
 import { ACTIVE_LANGS, LANG_LABEL, isLang } from "@/lib/types";
 import { StudyClient } from "./StudyClient";
 
@@ -18,5 +18,7 @@ export default async function StudyPage({ params }: { params: Promise<{ lang: st
   if (!isLang(lang) || !ACTIVE_LANGS.includes(lang)) notFound();
 
   const bank = await loadBank(lang);
-  return <StudyClient lang={lang} bank={bank} />;
+  // 色の凡例に使うのはラベルだけなので、活用表そのものはクライアントに送らない。
+  const { tenseLabels } = await loadVerbs(lang);
+  return <StudyClient lang={lang} bank={bank} tenseLabels={tenseLabels} />;
 }

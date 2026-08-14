@@ -114,6 +114,117 @@
         "PART": [
           "sido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "ESBEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら so のところが soy になる",
+            "規則どおりなら ses のところが eres になる",
+            "規則どおりなら se のところが es になる",
+            "規則どおりなら semos のところが somos になる",
+            "規則どおりなら séis のところが sois になる",
+            "規則どおりなら sen のところが son になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "IND_PRET": {
+          "codes": "BSBSSB",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら sí のところが fui になる",
+            "規則どおりなら siste のところが fuiste になる",
+            "規則どおりなら sió のところが fue になる",
+            "規則どおりなら simos のところが fuimos になる",
+            "規則どおりなら sisteis のところが fuisteis になる",
+            "規則どおりなら sieron のところが fueron になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "IND_IMPF": {
+          "codes": "BBBBBB",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら sía のところが era になる",
+            "規則どおりなら sías のところが eras になる",
+            "規則どおりなら síamos のところが éramos になる",
+            "規則どおりなら síais のところが erais になる",
+            "規則どおりなら sían のところが eran になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（s- → se-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "BBBBBB",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら siera のところが fuera になる",
+            "規則どおりなら sieras のところが fueras になる",
+            "規則どおりなら siéramos のところが fuéramos になる",
+            "規則どおりなら sierais のところが fuerais になる",
+            "規則どおりなら sieran のところが fueran になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "IMP": {
+          "codes": "-ESSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら se のところが sé になる",
+            "語幹が不規則に変化する（s- → se-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            1,
+            null,
+            1
+          ]
+        }
       }
     },
     {
@@ -214,6 +325,99 @@
         "PART": [
           "estado"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "EEERRE",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら esto のところが estoy になる",
+            "規則どおりなら estas のところが estás になる",
+            "規則どおりなら esta のところが está になる",
+            "規則どおりなら estan のところが están になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            null,
+            null,
+            3
+          ]
+        },
+        "IND_PRET": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら esté のところが estuve になる",
+            "規則どおりなら estaste のところが estuviste になる",
+            "規則どおりなら estó のところが estuvo になる",
+            "規則どおりなら estamos のところが estuvimos になる",
+            "規則どおりなら estasteis のところが estuvisteis になる",
+            "規則どおりなら estaron のところが estuvieron になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "EEERRE",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら este のところが esté になる",
+            "規則どおりなら estes のところが estés になる",
+            "規則どおりなら esten のところが estén になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            null,
+            null,
+            2
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら estara のところが estuviera になる",
+            "規則どおりなら estaras のところが estuvieras になる",
+            "規則どおりなら estáramos のところが estuviéramos になる",
+            "規則どおりなら estarais のところが estuvierais になる",
+            "規則どおりなら estaran のところが estuvieran になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "IMP": {
+          "codes": "-EERRE",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら esta のところが está になる",
+            "規則どおりなら este のところが esté になる",
+            "規則どおりなら esten のところが estén になる"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            null,
+            null,
+            2
+          ]
+        }
       }
     },
     {
@@ -314,6 +518,117 @@
         "PART": [
           "tenido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹が不規則に変化する（ten- → teng-）",
+            "語幹の e が ie に変わる（ten- → tien-）"
+          ],
+          "idx": [
+            0,
+            1,
+            1,
+            null,
+            null,
+            1
+          ]
+        },
+        "IND_PRET": {
+          "codes": "ESESSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら tení のところが tuve になる",
+            "語幹が不規則に変化する（ten- → tuv-）",
+            "規則どおりなら tenió のところが tuvo になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        "IND_FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（tener- → tendr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（tener- → tendr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（ten- → teng-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（ten- → tuv-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-ESSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら tene のところが ten になる",
+            "語幹が不規則に変化する（ten- → teng-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            1,
+            null,
+            1
+          ]
+        }
       }
     },
     {
@@ -414,6 +729,126 @@
         "PART": [
           "hecho"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（hac- → hag-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "IND_PRET": {
+          "codes": "ESESSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら hací のところが hice になる",
+            "語幹が不規則に変化する（hac- → hic-）",
+            "規則どおりなら hació のところが hizo になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        "IND_FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（hacer- → har-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（hacer- → har-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（hac- → hag-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（hac- → hic-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-ESSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら hace のところが haz になる",
+            "語幹が不規則に変化する（hac- → hag-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            1,
+            null,
+            1
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら hacido のところが hecho になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -514,6 +949,125 @@
         "PART": [
           "podido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（pod- → pued-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "ESESSS",
+          "summary": "語幹交替 o → u",
+          "texts": [
+            "規則どおりなら podí のところが pude になる",
+            "語幹の o が u に変わる（pod- → pud-）",
+            "規則どおりなら podió のところが pudo になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        "IND_FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（poder- → podr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（poder- → podr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（pod- → pued-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 o → u",
+          "texts": [
+            "語幹の o が u に変わる（pod- → pud-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（pod- → pued-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "語幹交替 o → u",
+          "texts": [
+            "語幹の o が u に変わる（pod- → pud-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -614,6 +1168,142 @@
         "PART": [
           "dicho"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹が不規則に変化する（dec- → dig-）",
+            "語幹の e が i に変わる（dec- → dic-）"
+          ],
+          "idx": [
+            0,
+            1,
+            1,
+            null,
+            null,
+            1
+          ]
+        },
+        "IND_PRET": {
+          "codes": "ESESSE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら decí のところが dije になる",
+            "語幹が不規則に変化する（dec- → dij-）",
+            "規則どおりなら deció のところが dijo になる",
+            "規則どおりなら decieron のところが dijeron になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            3
+          ]
+        },
+        "IND_FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（decir- → dir-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（decir- → dir-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（dec- → dig-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら deciera のところが dijera になる",
+            "規則どおりなら decieras のところが dijeras になる",
+            "規則どおりなら deciéramos のところが dijéramos になる",
+            "規則どおりなら decierais のところが dijerais になる",
+            "規則どおりなら decieran のところが dijeran になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "IMP": {
+          "codes": "-ESSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら dece のところが di になる",
+            "語幹が不規則に変化する（dec- → dig-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            1,
+            null,
+            1
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（dec- → dic-）"
+          ],
+          "idx": [
+            0
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら decido のところが dicho になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -714,6 +1404,133 @@
         "PART": [
           "ido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "BBBBBB",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら o のところが voy になる",
+            "規則どおりなら es のところが vas になる",
+            "規則どおりなら e のところが va になる",
+            "規則どおりなら imos のところが vamos になる",
+            "規則どおりなら ís のところが vais になる",
+            "規則どおりなら en のところが van になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "IND_PRET": {
+          "codes": "BSBSSB",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら í のところが fui になる",
+            "規則どおりなら iste のところが fuiste になる",
+            "規則どおりなら ió のところが fue になる",
+            "規則どおりなら imos のところが fuimos になる",
+            "規則どおりなら isteis のところが fuisteis になる",
+            "規則どおりなら ieron のところが fueron になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "IND_IMPF": {
+          "codes": "BBBEBB",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら ía のところが iba になる",
+            "規則どおりなら ías のところが ibas になる",
+            "規則どおりなら íamos のところが íbamos になる",
+            "規則どおりなら íais のところが ibais になる",
+            "規則どおりなら ían のところが iban になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら a のところが vaya になる",
+            "規則どおりなら as のところが vayas になる",
+            "規則どおりなら amos のところが vayamos になる",
+            "規則どおりなら áis のところが vayáis になる",
+            "規則どおりなら an のところが vayan になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "BBBBBB",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら iera のところが fuera になる",
+            "規則どおりなら ieras のところが fueras になる",
+            "規則どおりなら iéramos のところが fuéramos になる",
+            "規則どおりなら ierais のところが fuerais になる",
+            "規則どおりなら ieran のところが fueran になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら e のところが ve になる",
+            "規則どおりなら a のところが vaya になる",
+            "規則どおりなら amos のところが vayamos になる",
+            "規則どおりなら an のところが vayan になる"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            2,
+            null,
+            3
+          ]
+        },
+        "GER": {
+          "codes": "B",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら iendo のところが yendo になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -814,6 +1631,95 @@
         "PART": [
           "visto"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRER",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（v- → ve-）",
+            "規則どおりなら véis のところが veis になる"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            1,
+            null
+          ]
+        },
+        "IND_PRET": {
+          "codes": "ERERRR",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら ví のところが vi になる",
+            "規則どおりなら vió のところが vio になる"
+          ],
+          "idx": [
+            0,
+            null,
+            1,
+            null,
+            null,
+            null
+          ]
+        },
+        "IND_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（v- → ve-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（v- → ve-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（v- → ve-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら vido のところが visto になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -914,6 +1820,94 @@
         "PART": [
           "dado"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "ERRRER",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら do のところが doy になる",
+            "規則どおりなら dáis のところが dais になる"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            1,
+            null
+          ]
+        },
+        "IND_PRET": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら dé のところが di になる",
+            "規則どおりなら daste のところが diste になる",
+            "規則どおりなら dó のところが dio になる",
+            "規則どおりなら damos のところが dimos になる",
+            "規則どおりなら dasteis のところが disteis になる",
+            "規則どおりなら daron のところが dieron になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "ERERER",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら de のところが dé になる",
+            "規則どおりなら déis のところが deis になる"
+          ],
+          "idx": [
+            0,
+            null,
+            0,
+            null,
+            1,
+            null
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら dara のところが diera になる",
+            "規則どおりなら daras のところが dieras になる",
+            "規則どおりなら dáramos のところが diéramos になる",
+            "規則どおりなら darais のところが dierais になる",
+            "規則どおりなら daran のところが dieran になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "IMP": {
+          "codes": "-RERRR",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら de のところが dé になる"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            null
+          ]
+        }
       }
     },
     {
@@ -1014,6 +2008,115 @@
         "PART": [
           "sabido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "ERRRRR",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら sabo のところが sé になる"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "IND_PRET": {
+          "codes": "ESESSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら sabí のところが supe になる",
+            "語幹が不規則に変化する（sab- → sup-）",
+            "規則どおりなら sabió のところが supo になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        "IND_FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（saber- → sabr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（saber- → sabr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（sab- → sep-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（sab- → sup-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（sab- → sep-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -1114,6 +2217,115 @@
         "PART": [
           "querido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（quer- → quier-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "ESESSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら querí のところが quise になる",
+            "語幹が不規則に変化する（quer- → quis-）",
+            "規則どおりなら querió のところが quiso になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        "IND_FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（querer- → querr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（querer- → querr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（quer- → quier-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（quer- → quis-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（quer- → quier-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -1214,6 +2426,53 @@
         "PART": [
           "llegado"
         ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（lleg- → llegu-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（lleg- → llegu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（lleg- → llegu-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -1514,6 +2773,126 @@
         "PART": [
           "puesto"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（pon- → pong-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "IND_PRET": {
+          "codes": "ESESSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら poní のところが puse になる",
+            "語幹が不規則に変化する（pon- → pus-）",
+            "規則どおりなら ponió のところが puso になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        "IND_FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（poner- → pondr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（poner- → pondr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（pon- → pong-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（pon- → pus-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-ESSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら pone のところが pon になる",
+            "語幹が不規則に変化する（pon- → pong-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            1,
+            null,
+            1
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら ponido のところが puesto になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -1614,6 +2993,53 @@
         "PART": [
           "parecido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（parec- → parezc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（parec- → parezc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（parec- → parezc-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -1814,6 +3240,66 @@
         "PART": [
           "creído"
         ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "REEEEE",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら creiste のところが creíste になる",
+            "規則どおりなら creió のところが creyó になる",
+            "規則どおりなら creimos のところが creímos になる",
+            "規則どおりなら creisteis のところが creísteis になる",
+            "規則どおりなら creieron のところが creyeron になる"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら creiera のところが creyera になる",
+            "規則どおりなら creieras のところが creyeras になる",
+            "規則どおりなら creiéramos のところが creyéramos になる",
+            "規則どおりなら creierais のところが creyerais になる",
+            "規則どおりなら creieran のところが creyeran になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "GER": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら creiendo のところが creyendo になる"
+          ],
+          "idx": [
+            0
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら creido のところが creído になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -2214,6 +3700,95 @@
         "PART": [
           "seguido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹が不規則に変化する（segu- → sig-）",
+            "語幹の e が i に変わる（segu- → sigu-）"
+          ],
+          "idx": [
+            0,
+            1,
+            1,
+            null,
+            null,
+            1
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RRSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（segu- → sigu-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（segu- → sig-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（segu- → sigu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（segu- → sigu-）",
+            "語幹が不規則に変化する（segu- → sig-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            1,
+            null,
+            1
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（segu- → sigu-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -2314,6 +3889,53 @@
         "PART": [
           "encontrado"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（encontr- → encuentr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（encontr- → encuentr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（encontr- → encuentr-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -2514,6 +4136,127 @@
         "PART": [
           "venido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹が不規則に変化する（ven- → veng-）",
+            "語幹の e が ie に変わる（ven- → vien-）"
+          ],
+          "idx": [
+            0,
+            1,
+            1,
+            null,
+            null,
+            1
+          ]
+        },
+        "IND_PRET": {
+          "codes": "ESESSS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "規則どおりなら vení のところが vine になる",
+            "語幹の e が i に変わる（ven- → vin-）",
+            "規則どおりなら venió のところが vino になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        "IND_FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（venir- → vendr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（venir- → vendr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（ven- → veng-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（ven- → vin-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-ESSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら vene のところが ven になる",
+            "語幹が不規則に変化する（ven- → veng-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            1,
+            null,
+            1
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（ven- → vin-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -2614,6 +4357,53 @@
         "PART": [
           "pensado"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（pens- → piens-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（pens- → piens-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（pens- → piens-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -2714,6 +4504,84 @@
         "PART": [
           "salido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（sal- → salg-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "IND_FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（salir- → saldr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（salir- → saldr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（sal- → salg-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-ESSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら sale のところが sal になる",
+            "語幹が不規則に変化する（sal- → salg-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            1,
+            null,
+            1
+          ]
+        }
       }
     },
     {
@@ -2814,6 +4682,63 @@
         "PART": [
           "vuelto"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（volv- → vuelv-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（volv- → vuelv-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（volv- → vuelv-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら volvido のところが vuelto になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -3014,6 +4939,53 @@
         "PART": [
           "conocido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（conoc- → conozc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（conoc- → conozc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（conoc- → conozc-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -3214,6 +5186,95 @@
         "PART": [
           "sentido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（sent- → sient-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RRSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（sent- → sint-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → ie / e → i",
+          "texts": [
+            "語幹の e が ie に変わる（sent- → sient-）",
+            "語幹の e が i に変わる（sent- → sint-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（sent- → sint-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "語幹交替 e → ie / e → i",
+          "texts": [
+            "語幹の e が ie に変わる（sent- → sient-）",
+            "語幹の e が i に変わる（sent- → sint-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            1,
+            null,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（sent- → sint-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -3414,6 +5475,53 @@
         "PART": [
           "contado"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（cont- → cuent-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（cont- → cuent-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（cont- → cuent-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -3514,6 +5622,71 @@
         "PART": [
           "empezado"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（empez- → empiez-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（empez- → empec-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹が不規則に変化する（empez- → empiec-）",
+            "語幹の z が c に変わる（empez- → empec-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "語幹交替 e → ie / z → c",
+          "texts": [
+            "語幹の e が ie に変わる（empez- → empiez-）",
+            "語幹が不規則に変化する（empez- → empiec-）",
+            "語幹の z が c に変わる（empez- → empec-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            2,
+            null,
+            1
+          ]
+        }
       }
     },
     {
@@ -3714,6 +5887,53 @@
         "PART": [
           "buscado"
         ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（busc- → busqu-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（busc- → busqu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（busc- → busqu-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -4014,6 +6234,18 @@
         "PART": [
           "escrito"
         ]
+      },
+      "irr": {
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら escribido のところが escrito になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -4114,6 +6346,53 @@
         "PART": [
           "perdido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（perd- → pierd-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（perd- → pierd-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（perd- → pierd-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -4214,6 +6493,53 @@
         "PART": [
           "entendido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（entend- → entiend-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（entend- → entiend-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（entend- → entiend-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -4314,6 +6640,93 @@
         "PART": [
           "pedido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（ped- → pid-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RRSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（ped- → pid-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（ped- → pid-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（ped- → pid-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（ped- → pid-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            0,
+            null,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（ped- → pid-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -4514,6 +6927,53 @@
         "PART": [
           "recordado"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（record- → recuerd-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（record- → recuerd-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（record- → recuerd-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -4814,6 +7274,95 @@
         "PART": [
           "conseguido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹が不規則に変化する（consegu- → consig-）",
+            "語幹の e が i に変わる（consegu- → consigu-）"
+          ],
+          "idx": [
+            0,
+            1,
+            1,
+            null,
+            null,
+            1
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RRSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（consegu- → consigu-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（consegu- → consig-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（consegu- → consigu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（consegu- → consigu-）",
+            "語幹が不規則に変化する（consegu- → consig-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            1,
+            null,
+            1
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（consegu- → consigu-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -4914,6 +7463,71 @@
         "PART": [
           "comenzado"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（comenz- → comienz-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（comenz- → comenc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹が不規則に変化する（comenz- → comienc-）",
+            "語幹の z が c に変わる（comenz- → comenc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "語幹交替 e → ie / z → c",
+          "texts": [
+            "語幹の e が ie に変わる（comenz- → comienz-）",
+            "語幹が不規則に変化する（comenz- → comienc-）",
+            "語幹の z が c に変わる（comenz- → comenc-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            2,
+            null,
+            1
+          ]
+        }
       }
     },
     {
@@ -5014,6 +7628,93 @@
         "PART": [
           "servido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（serv- → sirv-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RRSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（serv- → sirv-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（serv- → sirv-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（serv- → sirv-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（serv- → sirv-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            0,
+            null,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（serv- → sirv-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -5114,6 +7815,53 @@
         "PART": [
           "sacado"
         ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（sac- → saqu-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（sac- → saqu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（sac- → saqu-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -5314,6 +8062,117 @@
         "PART": [
           "mantenido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹が不規則に変化する（manten- → manteng-）",
+            "語幹の e が ie に変わる（manten- → mantien-）"
+          ],
+          "idx": [
+            0,
+            1,
+            1,
+            null,
+            null,
+            1
+          ]
+        },
+        "IND_PRET": {
+          "codes": "ESESSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら mantení のところが mantuve になる",
+            "語幹が不規則に変化する（manten- → mantuv-）",
+            "規則どおりなら mantenió のところが mantuvo になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        "IND_FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（mantener- → mantendr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（mantener- → mantendr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（manten- → manteng-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（manten- → mantuv-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-ESSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら mantene のところが manten になる",
+            "語幹が不規則に変化する（manten- → manteng-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            1,
+            null,
+            1
+          ]
+        }
       }
     },
     {
@@ -5414,6 +8273,66 @@
         "PART": [
           "leído"
         ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "REEEEE",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら leiste のところが leíste になる",
+            "規則どおりなら leió のところが leyó になる",
+            "規則どおりなら leimos のところが leímos になる",
+            "規則どおりなら leisteis のところが leísteis になる",
+            "規則どおりなら leieron のところが leyeron になる"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら leiera のところが leyera になる",
+            "規則どおりなら leieras のところが leyeras になる",
+            "規則どおりなら leiéramos のところが leyéramos になる",
+            "規則どおりなら leierais のところが leyerais になる",
+            "規則どおりなら leieran のところが leyeran になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "GER": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら leiendo のところが leyendo になる"
+          ],
+          "idx": [
+            0
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら leido のところが leído になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -5514,6 +8433,111 @@
         "PART": [
           "caído"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（ca- → caig-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "IND_PRET": {
+          "codes": "REEEEE",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら caiste のところが caíste になる",
+            "規則どおりなら caió のところが cayó になる",
+            "規則どおりなら caimos のところが caímos になる",
+            "規則どおりなら caisteis のところが caísteis になる",
+            "規則どおりなら caieron のところが cayeron になる"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（ca- → caig-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら caiera のところが cayera になる",
+            "規則どおりなら caieras のところが cayeras になる",
+            "規則どおりなら caiéramos のところが cayéramos になる",
+            "規則どおりなら caierais のところが cayerais になる",
+            "規則どおりなら caieran のところが cayeran になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（ca- → caig-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら caiendo のところが cayendo になる"
+          ],
+          "idx": [
+            0
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら caido のところが caído になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -5814,6 +8838,18 @@
         "PART": [
           "abierto"
         ]
+      },
+      "irr": {
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら abrido のところが abierto になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -5914,6 +8950,145 @@
         "PART": [
           "oído"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSERS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（o- → oig-）",
+            "語幹が不規則に変化する（o- → oy-）",
+            "規則どおりなら oimos のところが oímos になる"
+          ],
+          "idx": [
+            0,
+            1,
+            1,
+            2,
+            null,
+            1
+          ]
+        },
+        "IND_PRET": {
+          "codes": "REEEEE",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら oiste のところが oíste になる",
+            "規則どおりなら oió のところが oyó になる",
+            "規則どおりなら oimos のところが oímos になる",
+            "規則どおりなら oisteis のところが oísteis になる",
+            "規則どおりなら oieron のところが oyeron になる"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "IND_FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（oír- → oir-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（oír- → oir-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（o- → oig-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら oiera のところが oyera になる",
+            "規則どおりなら oieras のところが oyeras になる",
+            "規則どおりなら oiéramos のところが oyéramos になる",
+            "規則どおりなら oierais のところが oyerais になる",
+            "規則どおりなら oieran のところが oyeran になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSES",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（o- → oy-）",
+            "語幹が不規則に変化する（o- → oig-）",
+            "規則どおりなら oid のところが oíd になる"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            1,
+            2,
+            1
+          ]
+        },
+        "GER": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら oiendo のところが oyendo になる"
+          ],
+          "idx": [
+            0
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら oido のところが oído になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -6214,6 +9389,110 @@
         "PART": [
           "traído"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（tra- → traig-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "IND_PRET": {
+          "codes": "ESESSE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら traí のところが traje になる",
+            "語幹が不規則に変化する（tra- → traj-）",
+            "規則どおりなら traió のところが trajo になる",
+            "規則どおりなら traieron のところが trajeron になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            3
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（tra- → traig-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら traiera のところが trajera になる",
+            "規則どおりなら traieras のところが trajeras になる",
+            "規則どおりなら traiéramos のところが trajéramos になる",
+            "規則どおりなら traierais のところが trajerais になる",
+            "規則どおりなら traieran のところが trajeran になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（tra- → traig-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら traiendo のところが trayendo になる"
+          ],
+          "idx": [
+            0
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら traido のところが traído になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -6314,6 +9593,105 @@
         "PART": [
           "muerto"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（mor- → muer-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RRSRRS",
+          "summary": "語幹交替 o → u",
+          "texts": [
+            "語幹の o が u に変わる（mor- → mur-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 o → ue / o → u",
+          "texts": [
+            "語幹の o が ue に変わる（mor- → muer-）",
+            "語幹の o が u に変わる（mor- → mur-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 o → u",
+          "texts": [
+            "語幹の o が u に変わる（mor- → mur-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "語幹交替 o → ue / o → u",
+          "texts": [
+            "語幹の o が ue に変わる（mor- → muer-）",
+            "語幹の o が u に変わる（mor- → mur-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            1,
+            null,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "語幹交替 o → u",
+          "texts": [
+            "語幹の o が u に変わる（mor- → mur-）"
+          ],
+          "idx": [
+            0
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら morido のところが muerto になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -6514,6 +9892,126 @@
         "PART": [
           "supuesto"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（supon- → supong-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "IND_PRET": {
+          "codes": "ESESSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら suponí のところが supuse になる",
+            "語幹が不規則に変化する（supon- → supus-）",
+            "規則どおりなら suponió のところが supuso になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        "IND_FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（suponer- → supondr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（suponer- → supondr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（supon- → supong-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（supon- → supus-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-ESSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら supone のところが supón になる",
+            "語幹が不規則に変化する（supon- → supong-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            1,
+            null,
+            1
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら suponido のところが supuesto になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -6614,6 +10112,18 @@
         "PART": [
           "comprenso"
         ]
+      },
+      "irr": {
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら comprendido のところが comprenso になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -6814,6 +10324,53 @@
         "PART": [
           "explicado"
         ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（explic- → expliqu-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（explic- → expliqu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（explic- → expliqu-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -7014,6 +10571,53 @@
         "PART": [
           "tocado"
         ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（toc- → toqu-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（toc- → toqu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（toc- → toqu-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -7214,6 +10818,63 @@
         "PART": [
           "nato"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（nac- → nazc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（nac- → nazc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（nac- → nazc-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら nacido のところが nato になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -7414,6 +11075,53 @@
         "PART": [
           "pagado"
         ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（pag- → pagu-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（pag- → pagu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（pag- → pagu-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -7714,6 +11422,71 @@
         "PART": [
           "jugado"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 u → ue",
+          "texts": [
+            "語幹の u が ue に変わる（jug- → jueg-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹の g が gu に変わる（jug- → jugu-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 g → gu",
+          "texts": [
+            "語幹が不規則に変化する（jug- → juegu-）",
+            "語幹の g が gu に変わる（jug- → jugu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "語幹交替 u → ue / g → gu",
+          "texts": [
+            "語幹の u が ue に変わる（jug- → jueg-）",
+            "語幹が不規則に変化する（jug- → juegu-）",
+            "語幹の g が gu に変わる（jug- → jugu-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            2,
+            null,
+            1
+          ]
+        }
       }
     },
     {
@@ -7914,6 +11687,53 @@
         "PART": [
           "ofrecido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（ofrec- → ofrezc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（ofrec- → ofrezc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（ofrec- → ofrezc-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -8014,6 +11834,18 @@
         "PART": [
           "descubierto"
         ]
+      },
+      "irr": {
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら descubrido のところが descubierto になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -8514,6 +12346,93 @@
         "PART": [
           "repetido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（repet- → repit-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RRSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（repet- → repit-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（repet- → repit-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（repet- → repit-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（repet- → repit-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            0,
+            null,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（repet- → repit-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -8714,6 +12633,84 @@
         "PART": [
           "valido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（val- → valg-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "IND_FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（valer- → valdr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（valer- → valdr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（val- → valg-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-ESSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら vale のところが val になる",
+            "語幹が不規則に変化する（val- → valg-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            1,
+            null,
+            1
+          ]
+        }
       }
     },
     {
@@ -9014,6 +13011,95 @@
         "PART": [
           "dormido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（dorm- → duerm-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RRSRRS",
+          "summary": "語幹交替 o → u",
+          "texts": [
+            "語幹の o が u に変わる（dorm- → durm-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 o → ue / o → u",
+          "texts": [
+            "語幹の o が ue に変わる（dorm- → duerm-）",
+            "語幹の o が u に変わる（dorm- → durm-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 o → u",
+          "texts": [
+            "語幹の o が u に変わる（dorm- → durm-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "語幹交替 o → ue / o → u",
+          "texts": [
+            "語幹の o が ue に変わる（dorm- → duerm-）",
+            "語幹の o が u に変わる（dorm- → durm-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            1,
+            null,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "語幹交替 o → u",
+          "texts": [
+            "語幹の o が u に変わる（dorm- → durm-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -9314,6 +13400,47 @@
         "PART": [
           "andado"
         ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら andé のところが anduve になる",
+            "規則どおりなら andaste のところが anduviste になる",
+            "規則どおりなら andó のところが anduvo になる",
+            "規則どおりなら andamos のところが anduvimos になる",
+            "規則どおりなら andasteis のところが anduvisteis になる",
+            "規則どおりなら andaron のところが anduvieron になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら andara のところが anduviera になる",
+            "規則どおりなら andaras のところが anduvieras になる",
+            "規則どおりなら andáramos のところが anduviéramos になる",
+            "規則どおりなら andarais のところが anduvierais になる",
+            "規則どおりなら andaran のところが anduvieran になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        }
       }
     },
     {
@@ -9414,6 +13541,90 @@
         "PART": [
           "conducido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（conduc- → conduzc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "IND_PRET": {
+          "codes": "ESESSE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら conducí のところが conduje になる",
+            "語幹が不規則に変化する（conduc- → conduj-）",
+            "規則どおりなら condució のところが condujo になる",
+            "規則どおりなら conducieron のところが condujeron になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            3
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（conduc- → conduzc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら conduciera のところが condujera になる",
+            "規則どおりなら conducieras のところが condujeras になる",
+            "規則どおりなら conduciéramos のところが condujéramos になる",
+            "規則どおりなら conducierais のところが condujerais になる",
+            "規則どおりなら conducieran のところが condujeran になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（conduc- → conduzc-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -9514,6 +13725,105 @@
         "PART": [
           "electo"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹が不規則に変化する（eleg- → elij-）",
+            "語幹の e が i に変わる（eleg- → elig-）"
+          ],
+          "idx": [
+            0,
+            1,
+            1,
+            null,
+            null,
+            1
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RRSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（eleg- → elig-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（eleg- → elij-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（eleg- → elig-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（eleg- → elig-）",
+            "語幹が不規則に変化する（eleg- → elij-）"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            1,
+            null,
+            1
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（eleg- → elig-）"
+          ],
+          "idx": [
+            0
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら elegido のところが electo になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -9614,6 +13924,53 @@
         "PART": [
           "enviado"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（envi- → enví-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSRRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（envi- → enví-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSRRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（envi- → enví-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -9914,6 +14271,53 @@
         "PART": [
           "cerrado"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（cerr- → cierr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（cerr- → cierr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（cerr- → cierr-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -10214,6 +14618,18 @@
         "PART": [
           "roto"
         ]
+      },
+      "irr": {
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら rompido のところが roto になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -10314,6 +14730,98 @@
         "PART": [
           "construido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（constru- → construy-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RRERRE",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら construió のところが construyó になる",
+            "規則どおりなら construieron のところが construyeron になる"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            1
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（constru- → construy-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら construiera のところが construyera になる",
+            "規則どおりなら construieras のところが construyeras になる",
+            "規則どおりなら construiéramos のところが construyéramos になる",
+            "規則どおりなら construierais のところが construyerais になる",
+            "規則どおりなら construieran のところが construyeran になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "語幹が不規則に変化する（constru- → construy-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            0,
+            null,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら construiendo のところが construyendo になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -10414,6 +14922,53 @@
         "PART": [
           "crecido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（crec- → crezc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（crec- → crezc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（crec- → crezc-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -10514,6 +15069,53 @@
         "PART": [
           "movido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（mov- → muev-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（mov- → muev-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSRRS",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（mov- → muev-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -10614,6 +15216,140 @@
         "PART": [
           "sonreído"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSERS",
+          "summary": "語幹交替 e → í",
+          "texts": [
+            "語幹の e が í に変わる（sonre- → sonrí-）",
+            "規則どおりなら sonreimos のところが sonreímos になる"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            1,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RESEES",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら sonreiste のところが sonreíste になる",
+            "語幹が不規則に変化する（sonre- → sonr-）",
+            "規則どおりなら sonreimos のところが sonreímos になる",
+            "規則どおりなら sonreisteis のところが sonreísteis になる"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            2,
+            3,
+            1
+          ]
+        },
+        "IND_FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（sonreír- → sonreir-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（sonreír- → sonreir-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → í / e → i",
+          "texts": [
+            "語幹の e が í に変わる（sonre- → sonrí-）",
+            "語幹の e が i に変わる（sonre- → sonri-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（sonre- → sonr-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSES",
+          "summary": "語幹交替 e → í / e → i",
+          "texts": [
+            "語幹の e が í に変わる（sonre- → sonrí-）",
+            "語幹の e が i に変わる（sonre- → sonri-）",
+            "規則どおりなら sonreid のところが sonreíd になる"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            1,
+            2,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（sonre- → sonr-）"
+          ],
+          "idx": [
+            0
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら sonreido のところが sonreído になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -10714,6 +15450,140 @@
         "PART": [
           "reído"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSERS",
+          "summary": "語幹交替 e → í",
+          "texts": [
+            "語幹の e が í に変わる（re- → rí-）",
+            "規則どおりなら reimos のところが reímos になる"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            1,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RESEES",
+          "summary": "一部の人称が不規則",
+          "texts": [
+            "規則どおりなら reiste のところが reíste になる",
+            "語幹が不規則に変化する（re- → r-）",
+            "規則どおりなら reimos のところが reímos になる",
+            "規則どおりなら reisteis のところが reísteis になる"
+          ],
+          "idx": [
+            null,
+            0,
+            1,
+            2,
+            3,
+            1
+          ]
+        },
+        "IND_FUT": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（reír- → reir-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（reír- → reir-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → í / e → i",
+          "texts": [
+            "語幹の e が í に変わる（re- → rí-）",
+            "語幹の e が i に変わる（re- → ri-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（re- → r-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSES",
+          "summary": "語幹交替 e → í / e → i",
+          "texts": [
+            "語幹の e が í に変わる（re- → rí-）",
+            "語幹の e が i に変わる（re- → ri-）",
+            "規則どおりなら reid のところが reíd になる"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            1,
+            2,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "語幹が不規則に変化する（re- → r-）"
+          ],
+          "idx": [
+            0
+          ]
+        },
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら reido のところが reído になる"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -10814,6 +15684,90 @@
         "PART": [
           "traducido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（traduc- → traduzc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "IND_PRET": {
+          "codes": "ESESSE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら traducí のところが traduje になる",
+            "語幹が不規則に変化する（traduc- → traduj-）",
+            "規則どおりなら tradució のところが tradujo になる",
+            "規則どおりなら traducieron のところが tradujeron になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            3
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（traduc- → traduzc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら traduciera のところが tradujera になる",
+            "規則どおりなら traducieras のところが tradujeras になる",
+            "規則どおりなら traduciéramos のところが tradujéramos になる",
+            "規則どおりなら traducierais のところが tradujerais になる",
+            "規則どおりなら traducieran のところが tradujeran になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（traduc- → traduzc-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -10914,6 +15868,90 @@
         "PART": [
           "producido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（produc- → produzc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "IND_PRET": {
+          "codes": "ESESSE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら producí のところが produje になる",
+            "語幹が不規則に変化する（produc- → produj-）",
+            "規則どおりなら produció のところが produjo になる",
+            "規則どおりなら producieron のところが produjeron になる"
+          ],
+          "idx": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            3
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（produc- → produzc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "EEEEEE",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則どおりなら produciera のところが produjera になる",
+            "規則どおりなら producieras のところが produjeras になる",
+            "規則どおりなら produciéramos のところが produjéramos になる",
+            "規則どおりなら producierais のところが produjerais になる",
+            "規則どおりなら producieran のところが produjeran になる"
+          ],
+          "idx": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（produc- → produzc-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -11014,6 +16052,53 @@
         "PART": [
           "aparecido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（aparec- → aparezc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（aparec- → aparezc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（aparec- → aparezc-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -11514,6 +16599,95 @@
         "PART": [
           "convertido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（convert- → conviert-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RRSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（convert- → convirt-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → ie / e → i",
+          "texts": [
+            "語幹の e が ie に変わる（convert- → conviert-）",
+            "語幹の e が i に変わる（convert- → convirt-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（convert- → convirt-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "語幹交替 e → ie / e → i",
+          "texts": [
+            "語幹の e が ie に変わる（convert- → conviert-）",
+            "語幹の e が i に変わる（convert- → convirt-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            1,
+            null,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（convert- → convirt-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
       }
     },
     {
@@ -11714,6 +16888,53 @@
         "PART": [
           "reconocido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（reconoc- → reconozc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（reconoc- → reconozc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（reconoc- → reconozc-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -11814,6 +17035,53 @@
         "PART": [
           "alcanzado"
         ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（alcanz- → alcanc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（alcanz- → alcanc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（alcanz- → alcanc-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -11914,6 +17182,53 @@
         "PART": [
           "dirigido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 g → j",
+          "texts": [
+            "語幹の g が j に変わる（dirig- → dirij-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 g → j",
+          "texts": [
+            "語幹の g が j に変わる（dirig- → dirij-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 g → j",
+          "texts": [
+            "語幹の g が j に変わる（dirig- → dirij-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -12014,6 +17329,53 @@
         "PART": [
           "utilizado"
         ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（utiliz- → utilic-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（utiliz- → utilic-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（utiliz- → utilic-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -12414,6 +17776,53 @@
         "PART": [
           "realizado"
         ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（realiz- → realic-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（realiz- → realic-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（realiz- → realic-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
       }
     },
     {
@@ -12610,6 +18019,38 @@
         "PART": [
           "llovido"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "--S---",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（llov- → lluev-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "--S---",
+          "summary": "語幹交替 o → ue",
+          "texts": [
+            "語幹の o が ue に変わる（llov- → lluev-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            null
+          ]
+        }
       }
     },
     {
@@ -12706,6 +18147,38 @@
         "PART": [
           "nevado"
         ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "--S---",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（nev- → niev-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "--S---",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（nev- → niev-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            null
+          ]
+        }
       }
     }
   ]

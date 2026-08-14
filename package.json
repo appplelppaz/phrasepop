@@ -6,8 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "build:verbs": "python3 scripts/build_spanish_verbs.py && node scripts/build-verb-tables.mjs",
-    "validate": "node scripts/validate-bank.mjs"
+    "build:verbs": "python3 scripts/build_spanish_verbs.py && node scripts/build-verb-tables.mjs && node scripts/add-irregularity.mjs",
+    "validate": "node scripts/validate-bank.mjs",
+    "build:phrases": "node scripts/build-phrases.mjs",
+    "build:data": "npm run build:verbs && npm run build:phrases && npm run validate"
   },
   "dependencies": {
     "next": "16.3.1",

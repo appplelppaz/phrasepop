@@ -1,12 +1,13 @@
 "use client";
 
+import { IRREGULAR_LABEL, tenseStyle } from "@/lib/grammar";
 import type { Phrase } from "@/lib/types";
-import { IdiomBadge, InflectionBadge } from "./InflectionBadge";
+import { IrregularMark, PersonMark, TenseChip } from "./GrammarMarks";
 
 /**
  * 単語ごとの意味リスト。
- * 表層形・原形（辞書形）・品詞・意味・活用の種類をまとめて出す。
- * 機能語（冠詞・前置詞など）は gloss を持たないので既定では出さない。
+ * 表層形・原形（辞書形）・品詞・意味・法と時制・不規則活用の中身をまとめて出す。
+ * 機能語（冠詞・前置詞など）は gloss を持たないので出さない。
  */
 export function TokenList({
   phrase,
@@ -28,7 +29,9 @@ export function TokenList({
       {entries.map(({ token, index }) => {
         const gloss = token.gloss!;
         const active = activeIndex === index;
-        // 活用している語だけ「表層形 → 原形」を見せる。同じなら原形の再掲は省く。
+        const infl = gloss.inflection;
+        const style = infl ? tenseStyle(phrase.lang, infl.tense, infl.label) : null;
+        const irregular = infl?.irregular;
         const showLemma = gloss.lemma.toLowerCase() !== token.surface.toLowerCase();
 
         return (
@@ -37,14 +40,28 @@ export function TokenList({
               type="button"
               onClick={() => onSelect(active ? null : index)}
               className={[
-                "w-full rounded-lg border p-3 text-left transition-colors",
+                "w-full rounded-2xl border p-4 text-left transition-colors",
                 active
                   ? "border-amber-400 bg-amber-50 dark:border-amber-400/60 dark:bg-amber-400/10"
-                  : "border-slate-200 bg-white hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:hover:bg-slate-800",
+                  : "border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900",
               ].join(" ")}
+              style={
+                style
+                  ? ({
+                      ["--tense" as string]: style.color,
+                      ["--tense-dark" as string]: style.colorDark,
+                    } as React.CSSProperties)
+                  : undefined
+              }
+              data-tense-chip={style ? "" : undefined}
             >
-              <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
-                <span lang={phrase.lang} className="text-lg font-semibold">
+              <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                {infl?.person && <PersonMark person={infl.person} color="var(--tense)" />}
+                <span
+                  lang={phrase.lang}
+                  className="text-lg font-semibold"
+                  style={style ? { color: "var(--tense)" } : undefined}
+                >
                   {token.surface}
                 </span>
                 {showLemma && (
@@ -58,19 +75,39 @@ export function TokenList({
                 {gloss.reading && (
                   <span className="text-sm text-slate-500 dark:text-slate-400">{gloss.reading}</span>
                 )}
-                <span className="text-xs text-slate-500 dark:text-slate-400">{gloss.pos}</span>
+                <span className="text-xs text-slate-400 dark:text-slate-500">{gloss.pos}</span>
               </div>
 
-              <div className="mt-1 text-base">{gloss.ja}</div>
+              <div className="mt-1.5 text-base">{gloss.ja}</div>
 
-              {(gloss.inflection || gloss.idiom || gloss.note) && (
-                <div className="mt-2 flex flex-wrap items-center gap-2">
-                  {gloss.inflection && <InflectionBadge inflection={gloss.inflection} />}
-                  {gloss.idiom && <IdiomBadge />}
-                  {gloss.note && (
-                    <span className="text-xs text-slate-500 dark:text-slate-400">{gloss.note}</span>
+              {(style || gloss.idiom || irregular) && (
+                <div className="mt-2.5 flex flex-wrap items-center gap-1.5">
+                  {style && <TenseChip style={style} />}
+                  {gloss.idiom && (
+                    <span className="rounded-md bg-violet-100 px-2 py-0.5 text-xs font-medium text-violet-900 dark:bg-violet-400/15 dark:text-violet-200">
+                      熟語
+                    </span>
                   )}
+                  {irregular && <IrregularMark label={IRREGULAR_LABEL[irregular.code]} />}
                 </div>
+              )}
+
+              {/* 不規則活用の中身。規則形との差分を具体的に示す。 */}
+              {irregular && (
+                <p
+                  className="mt-2 rounded-lg px-3 py-2 text-sm"
+                  data-irregular-mark
+                  style={{
+                    backgroundColor: "color-mix(in srgb, var(--irr) 10%, transparent)",
+                    color: "var(--irr)",
+                  }}
+                >
+                  {irregular.text}
+                </p>
+              )}
+
+              {gloss.note && (
+                <p className="mt-2 text-xs text-slate-500 dark:text-slate-400">{gloss.note}</p>
               )}
             </button>
           </li>

@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+/*
+ * 法・時制の色はコンポーネント側で --tense / --tense-dark の 2 つを渡してくる。
+ * 暗い背景では明るいほうへ差し替える。不規則マークの色も同じ仕組み。
+ */
+[data-tense-chip],
+[data-tense-underline] {
+  --tense-active: var(--tense);
+}
+[data-irregular-mark],
+[data-irregular-underline] {
+  --irr: #dc2626;
+}
+
+@media (prefers-color-scheme: dark) {
+  [data-tense-chip],
+  [data-tense-underline] {
+    --tense: var(--tense-dark);
+  }
+  [data-irregular-mark],
+  [data-irregular-underline] {
+    --irr: #fca5a5;
+  }
+}

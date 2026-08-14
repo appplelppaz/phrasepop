@@ -23,6 +23,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { analyzeTense } from "./lib/irregularity.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const LANGS = ["es", "fr"];
@@ -41,13 +42,24 @@ const PERSON_INDEX = { "1sg": 0, "2sg": 1, "3sg": 2, "1pl": 3, "2pl": 4, "3pl": 
 const norm = (s) => s.toLocaleLowerCase().normalize("NFC").trim();
 
 function build(lang, errors) {
-  const srcPath = path.join(ROOT, "data", lang, "phrases.src.json");
-  if (!fs.existsSync(srcPath)) {
-    errors.push(`${lang}: ${path.relative(ROOT, srcPath)} が無い`);
+  // 原本は phrases.src.json / phrases.src.2.json … と分割してよい。
+  // 1 ファイルが大きくなりすぎないよう、追加ぶんは新しい番号のファイルに書く。
+  const dir = path.join(ROOT, "data", lang);
+  const srcFiles = fs
+    .readdirSync(dir)
+    .filter((f) => /^phrases\.src(\.\d+)?\.json$/.test(f))
+    .sort((a, b) => a.length - b.length || a.localeCompare(b));
+
+  if (srcFiles.length === 0) {
+    errors.push(`${lang}: data/${lang}/phrases.src*.json が無い`);
     return null;
   }
 
-  const src = JSON.parse(fs.readFileSync(srcPath, "utf8"));
+  const src = { phrases: [] };
+  for (const f of srcFiles) {
+    const part = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
+    src.phrases.push(...(part.phrases ?? []));
+  }
   const table = JSON.parse(fs.readFileSync(path.join(ROOT, "data", lang, "verbs.json"), "utf8"));
   const verbByLemma = new Map(table.verbs.map((v) => [v.lemma, v]));
 
@@ -132,6 +144,17 @@ function build(lang, errors) {
                   tense,
                   person,
                 };
+                // 不規則活用なら、その人称に限った説明を添える。
+                // 「本来の規則形」との差分から自動生成されるので手書きの誤りが入らない。
+                const analysis = analyzeTense(lang, t.lemma, tense, row, verb.forms);
+                const detail = analysis?.perPerson?.[idx];
+                if (detail) {
+                  gloss.inflection.irregular = {
+                    code: detail.code,
+                    text: detail.text,
+                    ...(detail.regular ? { regular: detail.regular } : {}),
+                  };
+                }
               }
             }
           } else {
@@ -143,6 +166,15 @@ function build(lang, errors) {
               );
             } else {
               gloss.inflection = { label: tenseLabel, tense };
+              const analysis = analyzeTense(lang, t.lemma, tense, row, verb.forms);
+              const detail = analysis?.perPerson?.[0];
+              if (detail) {
+                gloss.inflection.irregular = {
+                  code: detail.code,
+                  text: detail.text,
+                  ...(detail.regular ? { regular: detail.regular } : {}),
+                };
+              }
             }
           }
         }
