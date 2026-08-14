@@ -15479,6 +15479,3544 @@
         }
       ],
       "grammar": "ver venir は「（事態を）予期する」。物語の締めくくりの型。"
+    },
+    {
+      "id": "es-0201",
+      "lang": "es",
+      "text": "Los resultados obtenidos no permiten inferir una relación causal.",
+      "ja": "得られた結果から因果関係を推論することはできない。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Los",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "resultados",
+          "start": 4,
+          "end": 14,
+          "gloss": {
+            "lemma": "resultado",
+            "pos": "名詞",
+            "ja": "結果"
+          }
+        },
+        {
+          "surface": "obtenidos",
+          "start": 15,
+          "end": 24,
+          "gloss": {
+            "lemma": "obtener",
+            "pos": "動詞",
+            "ja": "得る・獲得する",
+            "inflection": {
+              "label": "過去分詞・男性複数"
+            }
+          }
+        },
+        {
+          "surface": "no",
+          "start": 25,
+          "end": 27
+        },
+        {
+          "surface": "permiten",
+          "start": 28,
+          "end": 36,
+          "gloss": {
+            "lemma": "permitir",
+            "pos": "動詞",
+            "ja": "許す・可能にする",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "IND_PRES",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "inferir",
+          "start": 37,
+          "end": 44,
+          "gloss": {
+            "lemma": "inferir",
+            "pos": "動詞",
+            "ja": "推論する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "una",
+          "start": 45,
+          "end": 48
+        },
+        {
+          "surface": "relación causal",
+          "start": 49,
+          "end": 64,
+          "gloss": {
+            "lemma": "relación causal",
+            "pos": "名詞句",
+            "ja": "因果関係",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "no permitir inferir は論文で結論を抑制するときの定型。断定を避ける書き方。"
+    },
+    {
+      "id": "es-0202",
+      "lang": "es",
+      "text": "Conviene matizar que la muestra analizada era reducida.",
+      "ja": "分析した標本が小規模だった点は補足しておく必要がある。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "直説法線過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Conviene",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "convenir",
+            "pos": "動詞",
+            "ja": "適している・都合がよい",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "matizar",
+          "start": 9,
+          "end": 16,
+          "gloss": {
+            "lemma": "matizar",
+            "pos": "動詞",
+            "ja": "ニュアンスを加える・補足修正する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 17,
+          "end": 20
+        },
+        {
+          "surface": "la",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "muestra",
+          "start": 24,
+          "end": 31,
+          "gloss": {
+            "lemma": "muestra",
+            "pos": "名詞",
+            "ja": "標本・見本"
+          }
+        },
+        {
+          "surface": "analizada",
+          "start": 32,
+          "end": 41,
+          "gloss": {
+            "lemma": "analizar",
+            "pos": "動詞",
+            "ja": "分析する",
+            "inflection": {
+              "label": "過去分詞・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "era",
+          "start": 42,
+          "end": 45,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法線過去・3人称単数",
+              "tense": "IND_IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は era / eras / era / éramos / erais / eran と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "reducida",
+          "start": 46,
+          "end": 54,
+          "gloss": {
+            "lemma": "reducido",
+            "pos": "形容詞",
+            "ja": "小規模な・限られた",
+            "inflection": {
+              "label": "女性単数"
+            }
+          }
+        }
+      ],
+      "grammar": "conviene + 不定詞は「〜しておくのが適切だ」。matizar は主張を弱める学術動詞。"
+    },
+    {
+      "id": "es-0203",
+      "lang": "es",
+      "text": "El autor postula que el fenómeno obedece a factores estructurales.",
+      "ja": "著者は、この現象が構造的要因によるものだと仮定している。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "autor",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "autor",
+            "pos": "名詞",
+            "ja": "著者・作者"
+          }
+        },
+        {
+          "surface": "postula",
+          "start": 9,
+          "end": 16,
+          "gloss": {
+            "lemma": "postular",
+            "pos": "動詞",
+            "ja": "仮定する・立候補する",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 17,
+          "end": 20
+        },
+        {
+          "surface": "el",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "fenómeno",
+          "start": 24,
+          "end": 32,
+          "gloss": {
+            "lemma": "fenómeno",
+            "pos": "名詞",
+            "ja": "現象"
+          }
+        },
+        {
+          "surface": "obedece a",
+          "start": 33,
+          "end": 42,
+          "gloss": {
+            "lemma": "obedecer a",
+            "pos": "慣用表現",
+            "ja": "〜に起因する",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "factores estructurales",
+          "start": 43,
+          "end": 65,
+          "gloss": {
+            "lemma": "factor estructural",
+            "pos": "名詞句",
+            "ja": "構造的要因",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "obedecer a は「〜に起因する」。原因を述べる学術的な言い方。"
+    },
+    {
+      "id": "es-0204",
+      "lang": "es",
+      "text": "Dicha hipótesis fue refutada por estudios posteriores.",
+      "ja": "この仮説は後続の研究によって反駁された。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "受動態"
+      ],
+      "tokens": [
+        {
+          "surface": "Dicha",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "dicho",
+            "pos": "形容詞",
+            "ja": "前述の・当該の",
+            "note": "既出のものを指す学術用法",
+            "inflection": {
+              "label": "女性単数"
+            }
+          }
+        },
+        {
+          "surface": "hipótesis",
+          "start": 6,
+          "end": 15,
+          "gloss": {
+            "lemma": "hipótesis",
+            "pos": "名詞",
+            "ja": "仮説"
+          }
+        },
+        {
+          "surface": "fue refutada",
+          "start": 16,
+          "end": 28,
+          "gloss": {
+            "lemma": "refutar",
+            "pos": "動詞",
+            "ja": "反駁する",
+            "inflection": {
+              "label": "受動態・点過去・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "por",
+          "start": 29,
+          "end": 32
+        },
+        {
+          "surface": "estudios",
+          "start": 33,
+          "end": 41,
+          "gloss": {
+            "lemma": "estudio",
+            "pos": "名詞",
+            "ja": "研究・調査"
+          }
+        },
+        {
+          "surface": "posteriores",
+          "start": 42,
+          "end": 53,
+          "gloss": {
+            "lemma": "posterior",
+            "pos": "形容詞",
+            "ja": "後の・後続の",
+            "inflection": {
+              "label": "複数"
+            }
+          }
+        }
+      ],
+      "grammar": "dicho/dicha は「前述の」。名詞の前に置いて既出のものを指す学術用法。"
+    },
+    {
+      "id": "es-0205",
+      "lang": "es",
+      "text": "Los datos corroboran lo planteado en el capítulo anterior.",
+      "ja": "このデータは前章で提起した内容を裏付けている。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Los",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "datos",
+          "start": 4,
+          "end": 9,
+          "gloss": {
+            "lemma": "dato",
+            "pos": "名詞",
+            "ja": "データ・資料"
+          }
+        },
+        {
+          "surface": "corroboran",
+          "start": 10,
+          "end": 20,
+          "gloss": {
+            "lemma": "corroborar",
+            "pos": "動詞",
+            "ja": "裏付ける",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "IND_PRES",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "lo planteado",
+          "start": 21,
+          "end": 33,
+          "gloss": {
+            "lemma": "plantear",
+            "pos": "動詞",
+            "ja": "提起する・持ち出す",
+            "note": "lo + 過去分詞で「〜されたこと」",
+            "inflection": {
+              "label": "過去分詞の名詞化"
+            }
+          }
+        },
+        {
+          "surface": "en el",
+          "start": 34,
+          "end": 39
+        },
+        {
+          "surface": "capítulo anterior",
+          "start": 40,
+          "end": 57,
+          "gloss": {
+            "lemma": "capítulo anterior",
+            "pos": "名詞句",
+            "ja": "前章",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "lo + 過去分詞で「〜されたこと」を名詞化する。論文で前出の内容を指す型。"
+    },
+    {
+      "id": "es-0206",
+      "lang": "es",
+      "text": "Es preciso delimitar el objeto de estudio antes de proseguir.",
+      "ja": "先に進む前に、研究対象の範囲を定める必要がある。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Es",
+          "start": 0,
+          "end": 2,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "preciso",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "preciso",
+            "pos": "形容詞",
+            "ja": "必要な・正確な"
+          }
+        },
+        {
+          "surface": "delimitar",
+          "start": 11,
+          "end": 20,
+          "gloss": {
+            "lemma": "delimitar",
+            "pos": "動詞",
+            "ja": "範囲を定める",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "el objeto de estudio",
+          "start": 21,
+          "end": 41,
+          "gloss": {
+            "lemma": "objeto de estudio",
+            "pos": "名詞句",
+            "ja": "研究対象",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "antes de",
+          "start": 42,
+          "end": 50
+        },
+        {
+          "surface": "proseguir",
+          "start": 51,
+          "end": 60,
+          "gloss": {
+            "lemma": "proseguir",
+            "pos": "動詞",
+            "ja": "続行する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0207",
+      "lang": "es",
+      "text": "Siendo esto así, la conclusión del autor resulta insostenible.",
+      "ja": "そうであるならば、著者の結論は成り立たない。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "現在分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Siendo",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "文頭の現在分詞は理由を表す",
+            "inflection": {
+              "label": "現在分詞（動名詞）",
+              "tense": "GER"
+            }
+          }
+        },
+        {
+          "surface": "esto así",
+          "start": 7,
+          "end": 15,
+          "gloss": {
+            "lemma": "siendo esto así",
+            "pos": "慣用表現",
+            "ja": "そうであるならば",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "la",
+          "start": 17,
+          "end": 19
+        },
+        {
+          "surface": "conclusión",
+          "start": 20,
+          "end": 30,
+          "gloss": {
+            "lemma": "conclusión",
+            "pos": "名詞",
+            "ja": "結論"
+          }
+        },
+        {
+          "surface": "del",
+          "start": 31,
+          "end": 34
+        },
+        {
+          "surface": "autor",
+          "start": 35,
+          "end": 40,
+          "gloss": {
+            "lemma": "autor",
+            "pos": "名詞",
+            "ja": "著者・作者"
+          }
+        },
+        {
+          "surface": "resulta",
+          "start": 41,
+          "end": 48,
+          "gloss": {
+            "lemma": "resultar",
+            "pos": "動詞",
+            "ja": "〜という結果になる・〜だとわかる",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "insostenible",
+          "start": 49,
+          "end": 61,
+          "gloss": {
+            "lemma": "insostenible",
+            "pos": "形容詞",
+            "ja": "支持できない・成り立たない"
+          }
+        }
+      ],
+      "grammar": "現在分詞を文頭に置くと「〜であるから」という理由節になる。論証の書き言葉。"
+    },
+    {
+      "id": "es-0208",
+      "lang": "es",
+      "text": "No se ha demostrado que exista correlación entre ambas variables.",
+      "ja": "両変数のあいだに相関があることは証明されていない。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "接続法現在",
+        "直説法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "No",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "se",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "ha demostrado",
+          "start": 6,
+          "end": 19,
+          "gloss": {
+            "lemma": "demostrar",
+            "pos": "動詞",
+            "ja": "証明する・示す",
+            "inflection": {
+              "label": "直説法現在完了・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 20,
+          "end": 23
+        },
+        {
+          "surface": "exista",
+          "start": 24,
+          "end": 30,
+          "gloss": {
+            "lemma": "existir",
+            "pos": "動詞",
+            "ja": "存在する",
+            "note": "主節が否定されるので接続法",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "correlación",
+          "start": 31,
+          "end": 42,
+          "gloss": {
+            "lemma": "correlación",
+            "pos": "名詞",
+            "ja": "相関"
+          }
+        },
+        {
+          "surface": "entre ambas",
+          "start": 43,
+          "end": 54
+        },
+        {
+          "surface": "variables",
+          "start": 55,
+          "end": 64,
+          "gloss": {
+            "lemma": "variable",
+            "pos": "名詞",
+            "ja": "変数"
+          }
+        }
+      ],
+      "grammar": "demostrar が否定されると従属節は接続法。論文で結論を保留する型。"
+    },
+    {
+      "id": "es-0209",
+      "lang": "es",
+      "text": "Cabe subrayar que el método empleado difiere del estándar.",
+      "ja": "用いられた手法が標準的なものとは異なる点を強調しておきたい。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Cabe subrayar que",
+          "start": 0,
+          "end": 17,
+          "gloss": {
+            "lemma": "cabe subrayar que",
+            "pos": "慣用表現",
+            "ja": "〜という点を強調しておきたい",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "el",
+          "start": 18,
+          "end": 20
+        },
+        {
+          "surface": "método",
+          "start": 21,
+          "end": 27,
+          "gloss": {
+            "lemma": "método",
+            "pos": "名詞",
+            "ja": "方法・手法"
+          }
+        },
+        {
+          "surface": "empleado",
+          "start": 28,
+          "end": 36,
+          "gloss": {
+            "lemma": "emplear",
+            "pos": "動詞",
+            "ja": "用いる・雇う",
+            "inflection": {
+              "label": "過去分詞・男性単数"
+            }
+          }
+        },
+        {
+          "surface": "difiere de",
+          "start": 37,
+          "end": 47,
+          "gloss": {
+            "lemma": "diferir de",
+            "pos": "慣用表現",
+            "ja": "〜と異なる",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "estándar",
+          "start": 49,
+          "end": 57,
+          "gloss": {
+            "lemma": "estándar",
+            "pos": "名詞",
+            "ja": "標準"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0210",
+      "lang": "es",
+      "text": "Habida cuenta de lo expuesto, procede revisar el marco teórico.",
+      "ja": "以上を踏まえると、理論的枠組みを見直すのが妥当である。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Habida cuenta de",
+          "start": 0,
+          "end": 16,
+          "gloss": {
+            "lemma": "habida cuenta de",
+            "pos": "慣用表現",
+            "ja": "〜を考慮すると",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "lo expuesto",
+          "start": 17,
+          "end": 28,
+          "gloss": {
+            "lemma": "exponer",
+            "pos": "動詞",
+            "ja": "述べる・提示する",
+            "inflection": {
+              "label": "過去分詞の名詞化"
+            }
+          }
+        },
+        {
+          "surface": "procede",
+          "start": 30,
+          "end": 37,
+          "gloss": {
+            "lemma": "proceder",
+            "pos": "動詞",
+            "ja": "進む・〜するのが妥当だ",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "revisar",
+          "start": 38,
+          "end": 45,
+          "gloss": {
+            "lemma": "revisar",
+            "pos": "動詞",
+            "ja": "見直す・点検する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "el marco teórico",
+          "start": 46,
+          "end": 62,
+          "gloss": {
+            "lemma": "marco teórico",
+            "pos": "名詞句",
+            "ja": "理論的枠組み",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "lo expuesto は「述べたこと」。procede + 不定詞は「〜するのが妥当だ」という硬い言い方。"
+    },
+    {
+      "id": "es-0211",
+      "lang": "es",
+      "text": "Si bien la muestra es amplia, los criterios de selección resultan discutibles.",
+      "ja": "標本は大規模ではあるが、選定基準には議論の余地がある。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Si bien",
+          "start": 0,
+          "end": 7,
+          "gloss": {
+            "lemma": "si bien",
+            "pos": "接続詞",
+            "ja": "〜ではあるが",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "la",
+          "start": 8,
+          "end": 10
+        },
+        {
+          "surface": "muestra",
+          "start": 11,
+          "end": 18,
+          "gloss": {
+            "lemma": "muestra",
+            "pos": "名詞",
+            "ja": "標本・見本"
+          }
+        },
+        {
+          "surface": "es",
+          "start": 19,
+          "end": 21,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "amplia",
+          "start": 22,
+          "end": 28,
+          "gloss": {
+            "lemma": "amplio",
+            "pos": "形容詞",
+            "ja": "広い・大規模な",
+            "inflection": {
+              "label": "女性単数"
+            }
+          }
+        },
+        {
+          "surface": "los criterios de selección",
+          "start": 30,
+          "end": 56,
+          "gloss": {
+            "lemma": "criterio de selección",
+            "pos": "名詞句",
+            "ja": "選定基準",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "resultan",
+          "start": 57,
+          "end": 65,
+          "gloss": {
+            "lemma": "resultar",
+            "pos": "動詞",
+            "ja": "〜という結果になる・〜だとわかる",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "IND_PRES",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "discutibles",
+          "start": 66,
+          "end": 77,
+          "gloss": {
+            "lemma": "discutible",
+            "pos": "形容詞",
+            "ja": "議論の余地がある",
+            "inflection": {
+              "label": "複数"
+            }
+          }
+        }
+      ],
+      "grammar": "si bien A, B は「A ではあるが B」。論文で長所と短所を並べる型。"
+    },
+    {
+      "id": "es-0212",
+      "lang": "es",
+      "text": "El estudio esboza un modelo que aún está por validar.",
+      "ja": "その研究は、まだ検証されていないモデルの概略を示している。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "estudio",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "estudio",
+            "pos": "名詞",
+            "ja": "研究・調査"
+          }
+        },
+        {
+          "surface": "esboza",
+          "start": 11,
+          "end": 17,
+          "gloss": {
+            "lemma": "esbozar",
+            "pos": "動詞",
+            "ja": "素描する・概略を示す",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 18,
+          "end": 20
+        },
+        {
+          "surface": "modelo",
+          "start": 21,
+          "end": 27,
+          "gloss": {
+            "lemma": "modelo",
+            "pos": "名詞",
+            "ja": "モデル・模型"
+          }
+        },
+        {
+          "surface": "aún",
+          "start": 32,
+          "end": 35,
+          "gloss": {
+            "lemma": "aún",
+            "pos": "副詞",
+            "ja": "まだ"
+          }
+        },
+        {
+          "surface": "está por",
+          "start": 36,
+          "end": 44,
+          "gloss": {
+            "lemma": "estar por + 不定詞",
+            "pos": "慣用表現",
+            "ja": "まだ〜されていない",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "validar",
+          "start": 45,
+          "end": 52,
+          "gloss": {
+            "lemma": "validar",
+            "pos": "動詞",
+            "ja": "検証する・有効にする",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0213",
+      "lang": "es",
+      "text": "Los autores evidencian que el sesgo persistía pese a los controles.",
+      "ja": "著者らは、統制を行ってもなお偏りが残っていたことを明らかにしている。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "直説法線過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Los",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "autores",
+          "start": 4,
+          "end": 11,
+          "gloss": {
+            "lemma": "autor",
+            "pos": "名詞",
+            "ja": "著者・作者"
+          }
+        },
+        {
+          "surface": "evidencian",
+          "start": 12,
+          "end": 22,
+          "gloss": {
+            "lemma": "evidenciar",
+            "pos": "動詞",
+            "ja": "明らかにする",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "IND_PRES",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 23,
+          "end": 26
+        },
+        {
+          "surface": "el",
+          "start": 27,
+          "end": 29
+        },
+        {
+          "surface": "sesgo",
+          "start": 30,
+          "end": 35,
+          "gloss": {
+            "lemma": "sesgo",
+            "pos": "名詞",
+            "ja": "偏り・バイアス"
+          }
+        },
+        {
+          "surface": "persistía",
+          "start": 36,
+          "end": 45,
+          "gloss": {
+            "lemma": "persistir",
+            "pos": "動詞",
+            "ja": "持続する・固執する",
+            "inflection": {
+              "label": "直説法線過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "pese a",
+          "start": 46,
+          "end": 52,
+          "gloss": {
+            "lemma": "pese a",
+            "pos": "前置詞句",
+            "ja": "〜にもかかわらず",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "los",
+          "start": 53,
+          "end": 56
+        },
+        {
+          "surface": "controles",
+          "start": 57,
+          "end": 66,
+          "gloss": {
+            "lemma": "control",
+            "pos": "名詞",
+            "ja": "統制・管理"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0214",
+      "lang": "es",
+      "text": "Por más que se refinen los modelos, la incertidumbre persiste.",
+      "ja": "モデルをいくら精緻化しても、不確実性は残る。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Por más que",
+          "start": 0,
+          "end": 11,
+          "gloss": {
+            "lemma": "por más que",
+            "pos": "慣用表現",
+            "ja": "どれだけ〜しても",
+            "idiom": true,
+            "note": "後ろは接続法"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "refinen",
+          "start": 15,
+          "end": 22,
+          "gloss": {
+            "lemma": "refinar",
+            "pos": "動詞",
+            "ja": "精緻化する・精製する",
+            "inflection": {
+              "label": "接続法現在・3人称複数"
+            }
+          }
+        },
+        {
+          "surface": "los",
+          "start": 23,
+          "end": 26
+        },
+        {
+          "surface": "modelos",
+          "start": 27,
+          "end": 34,
+          "gloss": {
+            "lemma": "modelo",
+            "pos": "名詞",
+            "ja": "モデル・模型"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 36,
+          "end": 38
+        },
+        {
+          "surface": "incertidumbre",
+          "start": 39,
+          "end": 52,
+          "gloss": {
+            "lemma": "incertidumbre",
+            "pos": "名詞",
+            "ja": "不確実性"
+          }
+        },
+        {
+          "surface": "persiste",
+          "start": 53,
+          "end": 61,
+          "gloss": {
+            "lemma": "persistir",
+            "pos": "動詞",
+            "ja": "持続する・固執する",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0215",
+      "lang": "es",
+      "text": "Se ha venido asumiendo que la variable era independiente.",
+      "ja": "その変数は独立だと従来から想定されてきた。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "現在分詞",
+        "直説法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Se",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ha venido",
+          "start": 3,
+          "end": 12,
+          "gloss": {
+            "lemma": "venir",
+            "pos": "動詞",
+            "ja": "来る",
+            "note": "venir + 現在分詞で継続。完了形にすると「従来から〜してきた」",
+            "inflection": {
+              "label": "直説法現在完了・3人称単数",
+              "tense": "IND_PERF",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "asumiendo",
+          "start": 13,
+          "end": 22,
+          "gloss": {
+            "lemma": "asumir",
+            "pos": "動詞",
+            "ja": "引き受ける・想定する",
+            "inflection": {
+              "label": "現在分詞（動名詞）",
+              "tense": "GER"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 23,
+          "end": 26
+        },
+        {
+          "surface": "la",
+          "start": 27,
+          "end": 29
+        },
+        {
+          "surface": "variable",
+          "start": 30,
+          "end": 38,
+          "gloss": {
+            "lemma": "variable",
+            "pos": "名詞",
+            "ja": "変数"
+          }
+        },
+        {
+          "surface": "era",
+          "start": 39,
+          "end": 42,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法線過去・3人称単数",
+              "tense": "IND_IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は era / eras / era / éramos / erais / eran と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "independiente",
+          "start": 43,
+          "end": 56,
+          "gloss": {
+            "lemma": "independiente",
+            "pos": "形容詞",
+            "ja": "独立した"
+          }
+        }
+      ],
+      "grammar": "venir + 現在分詞を完了形にすると「従来から〜されてきた」。学説史を語る型。"
+    },
+    {
+      "id": "es-0216",
+      "lang": "es",
+      "text": "Nada permite afirmar que los hallazgos sean generalizables.",
+      "ja": "この知見が一般化できるとは、およそ言えない。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Nada",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "nada",
+            "pos": "代名詞",
+            "ja": "何も〜ない"
+          }
+        },
+        {
+          "surface": "permite",
+          "start": 5,
+          "end": 12,
+          "gloss": {
+            "lemma": "permitir",
+            "pos": "動詞",
+            "ja": "許す・可能にする",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "afirmar",
+          "start": 13,
+          "end": 20,
+          "gloss": {
+            "lemma": "afirmar",
+            "pos": "動詞",
+            "ja": "断言する・主張する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 21,
+          "end": 24
+        },
+        {
+          "surface": "los",
+          "start": 25,
+          "end": 28
+        },
+        {
+          "surface": "hallazgos",
+          "start": 29,
+          "end": 38,
+          "gloss": {
+            "lemma": "hallazgo",
+            "pos": "名詞",
+            "ja": "発見・知見"
+          }
+        },
+        {
+          "surface": "sean",
+          "start": 39,
+          "end": 43,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "接続法現在・3人称複数",
+              "tense": "SUBJ_PRES",
+              "person": "3pl",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（s- → se-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "generalizables",
+          "start": 44,
+          "end": 58,
+          "gloss": {
+            "lemma": "generalizable",
+            "pos": "形容詞",
+            "ja": "一般化できる",
+            "inflection": {
+              "label": "複数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0217",
+      "lang": "es",
+      "text": "El experimento se replicó tres veces con idénticos resultados.",
+      "ja": "この実験は同一の結果をもって三度再現された。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "experimento",
+          "start": 3,
+          "end": 14,
+          "gloss": {
+            "lemma": "experimento",
+            "pos": "名詞",
+            "ja": "実験"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 15,
+          "end": 17
+        },
+        {
+          "surface": "replicó",
+          "start": 18,
+          "end": 25,
+          "gloss": {
+            "lemma": "replicar",
+            "pos": "動詞",
+            "ja": "再現する・反論する",
+            "inflection": {
+              "label": "直説法点過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "tres veces",
+          "start": 26,
+          "end": 36,
+          "gloss": {
+            "lemma": "vez",
+            "pos": "名詞",
+            "ja": "回・度"
+          }
+        },
+        {
+          "surface": "con idénticos",
+          "start": 37,
+          "end": 50
+        },
+        {
+          "surface": "resultados",
+          "start": 51,
+          "end": 61,
+          "gloss": {
+            "lemma": "resultado",
+            "pos": "名詞",
+            "ja": "結果"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0218",
+      "lang": "es",
+      "text": "Dado que la evidencia es escasa, toda conclusión sería prematura.",
+      "ja": "証拠が乏しい以上、いかなる結論も時期尚早だろう。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Dado que",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "dado que",
+            "pos": "接続詞",
+            "ja": "〜である以上・〜なので",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "la",
+          "start": 9,
+          "end": 11
+        },
+        {
+          "surface": "evidencia",
+          "start": 12,
+          "end": 21,
+          "gloss": {
+            "lemma": "evidencia",
+            "pos": "名詞",
+            "ja": "証拠・明白さ"
+          }
+        },
+        {
+          "surface": "es",
+          "start": 22,
+          "end": 24,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "escasa",
+          "start": 25,
+          "end": 31,
+          "gloss": {
+            "lemma": "escaso",
+            "pos": "形容詞",
+            "ja": "乏しい・わずかな",
+            "inflection": {
+              "label": "女性単数"
+            }
+          }
+        },
+        {
+          "surface": "toda",
+          "start": 33,
+          "end": 37
+        },
+        {
+          "surface": "conclusión",
+          "start": 38,
+          "end": 48,
+          "gloss": {
+            "lemma": "conclusión",
+            "pos": "名詞",
+            "ja": "結論"
+          }
+        },
+        {
+          "surface": "sería",
+          "start": 49,
+          "end": 54,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "条件法で断定を弱める",
+            "inflection": {
+              "label": "条件法現在・3人称単数",
+              "tense": "COND",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "prematura",
+          "start": 55,
+          "end": 64,
+          "gloss": {
+            "lemma": "prematuro",
+            "pos": "形容詞",
+            "ja": "時期尚早の",
+            "inflection": {
+              "label": "女性単数"
+            }
+          }
+        }
+      ],
+      "grammar": "dado que は「〜である以上」。条件法で結論を控えめに述べる。"
+    },
+    {
+      "id": "es-0219",
+      "lang": "es",
+      "text": "La teoría, ampliamente aceptada, ha sido cuestionada recientemente.",
+      "ja": "広く受け入れられてきたこの理論は、近年疑問視されている。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "受動態",
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "La",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "teoría",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "teoría",
+            "pos": "名詞",
+            "ja": "理論"
+          }
+        },
+        {
+          "surface": "ampliamente",
+          "start": 11,
+          "end": 22,
+          "gloss": {
+            "lemma": "ampliamente",
+            "pos": "副詞",
+            "ja": "広く"
+          }
+        },
+        {
+          "surface": "aceptada",
+          "start": 23,
+          "end": 31,
+          "gloss": {
+            "lemma": "aceptar",
+            "pos": "動詞",
+            "ja": "受け入れる",
+            "inflection": {
+              "label": "過去分詞・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "ha sido cuestionada",
+          "start": 33,
+          "end": 52,
+          "gloss": {
+            "lemma": "cuestionar",
+            "pos": "動詞",
+            "ja": "疑問を投げかける",
+            "inflection": {
+              "label": "受動態・現在完了・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "recientemente",
+          "start": 53,
+          "end": 66,
+          "gloss": {
+            "lemma": "recientemente",
+            "pos": "副詞",
+            "ja": "最近・近年"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0220",
+      "lang": "es",
+      "text": "Conforme avanza la investigación, se van perfilando nuevas preguntas.",
+      "ja": "研究が進むにつれて、新たな問いが次第に形をとってくる。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "現在分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Conforme",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "conforme",
+            "pos": "接続詞",
+            "ja": "〜するにつれて"
+          }
+        },
+        {
+          "surface": "avanza",
+          "start": 9,
+          "end": 15,
+          "gloss": {
+            "lemma": "avanzar",
+            "pos": "動詞",
+            "ja": "進む・前進する",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 16,
+          "end": 18
+        },
+        {
+          "surface": "investigación",
+          "start": 19,
+          "end": 32,
+          "gloss": {
+            "lemma": "investigación",
+            "pos": "名詞",
+            "ja": "研究・調査"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 34,
+          "end": 36
+        },
+        {
+          "surface": "van",
+          "start": 37,
+          "end": 40,
+          "gloss": {
+            "lemma": "ir",
+            "pos": "動詞",
+            "ja": "行く",
+            "note": "ir + 現在分詞で漸進を表す",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "IND_PRES",
+              "person": "3pl",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は voy / vas / va / vamos / vais / van と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "perfilando",
+          "start": 41,
+          "end": 51,
+          "gloss": {
+            "lemma": "perfilar",
+            "pos": "動詞",
+            "ja": "輪郭を描く・練り上げる",
+            "inflection": {
+              "label": "現在分詞"
+            }
+          }
+        },
+        {
+          "surface": "nuevas",
+          "start": 52,
+          "end": 58
+        },
+        {
+          "surface": "preguntas",
+          "start": 59,
+          "end": 68,
+          "gloss": {
+            "lemma": "pregunta",
+            "pos": "名詞",
+            "ja": "問い・質問"
+          }
+        }
+      ],
+      "grammar": "conforme + 直説法で「〜するにつれて」。ir + 現在分詞は「だんだん〜していく」。"
+    },
+    {
+      "id": "es-0221",
+      "lang": "es",
+      "text": "Se recomienda que los datos se contrasten con fuentes independientes.",
+      "ja": "データは独立した情報源と照合することが推奨される。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Se recomienda que",
+          "start": 0,
+          "end": 17,
+          "gloss": {
+            "lemma": "se recomienda que",
+            "pos": "慣用表現",
+            "ja": "〜することが推奨される",
+            "idiom": true,
+            "note": "後ろは接続法"
+          }
+        },
+        {
+          "surface": "los",
+          "start": 18,
+          "end": 21
+        },
+        {
+          "surface": "datos",
+          "start": 22,
+          "end": 27,
+          "gloss": {
+            "lemma": "dato",
+            "pos": "名詞",
+            "ja": "データ・資料"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 28,
+          "end": 30
+        },
+        {
+          "surface": "contrasten",
+          "start": 31,
+          "end": 41,
+          "gloss": {
+            "lemma": "contrastar",
+            "pos": "動詞",
+            "ja": "照合する・対照をなす",
+            "inflection": {
+              "label": "接続法現在・3人称複数"
+            }
+          }
+        },
+        {
+          "surface": "con",
+          "start": 42,
+          "end": 45
+        },
+        {
+          "surface": "fuentes independientes",
+          "start": 46,
+          "end": 68,
+          "gloss": {
+            "lemma": "fuente independiente",
+            "pos": "名詞句",
+            "ja": "独立した情報源",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0222",
+      "lang": "es",
+      "text": "A tenor de lo observado, la hipótesis inicial pierde fuerza.",
+      "ja": "観察された内容に照らすと、当初の仮説は説得力を失う。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "A tenor de",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "a tenor de",
+            "pos": "慣用表現",
+            "ja": "〜に照らして",
+            "idiom": true,
+            "note": "硬い書き言葉"
+          }
+        },
+        {
+          "surface": "lo observado",
+          "start": 11,
+          "end": 23,
+          "gloss": {
+            "lemma": "observar",
+            "pos": "動詞",
+            "ja": "観察する",
+            "inflection": {
+              "label": "過去分詞の名詞化"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 25,
+          "end": 27
+        },
+        {
+          "surface": "hipótesis",
+          "start": 28,
+          "end": 37,
+          "gloss": {
+            "lemma": "hipótesis",
+            "pos": "名詞",
+            "ja": "仮説"
+          }
+        },
+        {
+          "surface": "inicial",
+          "start": 38,
+          "end": 45,
+          "gloss": {
+            "lemma": "inicial",
+            "pos": "形容詞",
+            "ja": "当初の・最初の"
+          }
+        },
+        {
+          "surface": "pierde",
+          "start": 46,
+          "end": 52,
+          "gloss": {
+            "lemma": "perder",
+            "pos": "動詞",
+            "ja": "失う・負ける",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が ie に変わる（perd- → pierd-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "fuerza",
+          "start": 53,
+          "end": 59,
+          "gloss": {
+            "lemma": "fuerza",
+            "pos": "名詞",
+            "ja": "力・説得力"
+          }
+        }
+      ],
+      "grammar": "a tenor de は「〜に照らして」という硬い書き言葉。"
+    },
+    {
+      "id": "es-0223",
+      "lang": "es",
+      "text": "Ningún estudio previo había abordado esta cuestión de forma sistemática.",
+      "ja": "この問題を体系的に扱った先行研究は存在しなかった。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法過去完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Ningún",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "surface": "estudio previo",
+          "start": 7,
+          "end": 21,
+          "gloss": {
+            "lemma": "estudio previo",
+            "pos": "名詞句",
+            "ja": "先行研究",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "había abordado",
+          "start": 22,
+          "end": 36,
+          "gloss": {
+            "lemma": "abordar",
+            "pos": "動詞",
+            "ja": "取り組む・着手する",
+            "inflection": {
+              "label": "直説法過去完了・3人称単数",
+              "tense": "IND_PLUP",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "esta",
+          "start": 37,
+          "end": 41
+        },
+        {
+          "surface": "cuestión",
+          "start": 42,
+          "end": 50,
+          "gloss": {
+            "lemma": "cuestión",
+            "pos": "名詞",
+            "ja": "問題・論点"
+          }
+        },
+        {
+          "surface": "de forma sistemática",
+          "start": 51,
+          "end": 71,
+          "gloss": {
+            "lemma": "de forma sistemática",
+            "pos": "慣用表現",
+            "ja": "体系的に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "先行研究の空白を指摘する論文の定型。abordar は「取り組む」。"
+    },
+    {
+      "id": "es-0224",
+      "lang": "es",
+      "text": "Es probable que futuros trabajos hayan de revisar estos supuestos.",
+      "ja": "今後の研究は、これらの前提を見直さざるを得ないだろう。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Es probable que",
+          "start": 0,
+          "end": 15,
+          "gloss": {
+            "lemma": "es probable que",
+            "pos": "慣用表現",
+            "ja": "〜だろう・〜の可能性が高い",
+            "idiom": true,
+            "note": "後ろは接続法"
+          }
+        },
+        {
+          "surface": "futuros",
+          "start": 16,
+          "end": 23
+        },
+        {
+          "surface": "trabajos",
+          "start": 24,
+          "end": 32,
+          "gloss": {
+            "lemma": "trabajo",
+            "pos": "名詞",
+            "ja": "研究・仕事"
+          }
+        },
+        {
+          "surface": "hayan de",
+          "start": 33,
+          "end": 41,
+          "gloss": {
+            "lemma": "haber de + 不定詞",
+            "pos": "慣用表現",
+            "ja": "〜せねばならない",
+            "idiom": true,
+            "note": "tener que の書き言葉版"
+          }
+        },
+        {
+          "surface": "revisar",
+          "start": 42,
+          "end": 49,
+          "gloss": {
+            "lemma": "revisar",
+            "pos": "動詞",
+            "ja": "見直す・点検する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "estos",
+          "start": 50,
+          "end": 55
+        },
+        {
+          "surface": "supuestos",
+          "start": 56,
+          "end": 65,
+          "gloss": {
+            "lemma": "supuesto",
+            "pos": "名詞",
+            "ja": "前提・仮定"
+          }
+        }
+      ],
+      "grammar": "haber de + 不定詞は tener que の書き言葉版で「〜せねばならない」。"
+    },
+    {
+      "id": "es-0225",
+      "lang": "es",
+      "text": "El marco propuesto integra aportaciones de disciplinas dispares.",
+      "ja": "提案された枠組みは、異なる分野の知見を統合している。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "marco",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "marco",
+            "pos": "名詞",
+            "ja": "枠組み・額縁"
+          }
+        },
+        {
+          "surface": "propuesto",
+          "start": 9,
+          "end": 18,
+          "gloss": {
+            "lemma": "proponer",
+            "pos": "動詞",
+            "ja": "提案する",
+            "note": "propuesto という不規則な過去分詞",
+            "inflection": {
+              "label": "過去分詞・男性単数"
+            }
+          }
+        },
+        {
+          "surface": "integra",
+          "start": 19,
+          "end": 26,
+          "gloss": {
+            "lemma": "integrar",
+            "pos": "動詞",
+            "ja": "統合する・構成する",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "aportaciones",
+          "start": 27,
+          "end": 39,
+          "gloss": {
+            "lemma": "aportación",
+            "pos": "名詞",
+            "ja": "貢献・知見"
+          }
+        },
+        {
+          "surface": "de",
+          "start": 40,
+          "end": 42
+        },
+        {
+          "surface": "disciplinas",
+          "start": 43,
+          "end": 54,
+          "gloss": {
+            "lemma": "disciplina",
+            "pos": "名詞",
+            "ja": "学問分野・規律"
+          }
+        },
+        {
+          "surface": "dispares",
+          "start": 55,
+          "end": 63,
+          "gloss": {
+            "lemma": "dispar",
+            "pos": "形容詞",
+            "ja": "異なる・不揃いの",
+            "inflection": {
+              "label": "複数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0226",
+      "lang": "es",
+      "text": "Tal afirmación requeriría una evidencia mucho más sólida.",
+      "ja": "そのような主張には、はるかに強固な証拠が必要になるだろう。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Tal",
+          "start": 0,
+          "end": 3,
+          "gloss": {
+            "lemma": "tal",
+            "pos": "形容詞",
+            "ja": "そのような"
+          }
+        },
+        {
+          "surface": "afirmación",
+          "start": 4,
+          "end": 14,
+          "gloss": {
+            "lemma": "afirmación",
+            "pos": "名詞",
+            "ja": "主張・断言"
+          }
+        },
+        {
+          "surface": "requeriría",
+          "start": 15,
+          "end": 25,
+          "gloss": {
+            "lemma": "requerir",
+            "pos": "動詞",
+            "ja": "必要とする・要求する",
+            "inflection": {
+              "label": "条件法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "una",
+          "start": 26,
+          "end": 29
+        },
+        {
+          "surface": "evidencia",
+          "start": 30,
+          "end": 39,
+          "gloss": {
+            "lemma": "evidencia",
+            "pos": "名詞",
+            "ja": "証拠・明白さ"
+          }
+        },
+        {
+          "surface": "mucho más",
+          "start": 40,
+          "end": 49
+        },
+        {
+          "surface": "sólida",
+          "start": 50,
+          "end": 56,
+          "gloss": {
+            "lemma": "sólido",
+            "pos": "形容詞",
+            "ja": "強固な・堅実な",
+            "inflection": {
+              "label": "女性単数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0227",
+      "lang": "es",
+      "text": "Los hallazgos aquí presentados difícilmente se sostendrían sin ese supuesto.",
+      "ja": "ここで示した知見は、その前提なしにはほとんど成り立たないだろう。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "条件法現在",
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Los",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "hallazgos",
+          "start": 4,
+          "end": 13,
+          "gloss": {
+            "lemma": "hallazgo",
+            "pos": "名詞",
+            "ja": "発見・知見"
+          }
+        },
+        {
+          "surface": "aquí",
+          "start": 14,
+          "end": 18
+        },
+        {
+          "surface": "presentados",
+          "start": 19,
+          "end": 30,
+          "gloss": {
+            "lemma": "presentar",
+            "pos": "動詞",
+            "ja": "提示する・紹介する",
+            "inflection": {
+              "label": "過去分詞・男性複数"
+            }
+          }
+        },
+        {
+          "surface": "difícilmente",
+          "start": 31,
+          "end": 43,
+          "gloss": {
+            "lemma": "difícilmente",
+            "pos": "副詞",
+            "ja": "ほとんど〜ない・困難に"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 44,
+          "end": 46
+        },
+        {
+          "surface": "sostendrían",
+          "start": 47,
+          "end": 58,
+          "gloss": {
+            "lemma": "sostener",
+            "pos": "動詞",
+            "ja": "支える・主張する",
+            "inflection": {
+              "label": "条件法現在・3人称複数",
+              "tense": "COND",
+              "person": "3pl",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（sostener- → sostendr-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "sin ese",
+          "start": 59,
+          "end": 66
+        },
+        {
+          "surface": "supuesto",
+          "start": 67,
+          "end": 75,
+          "gloss": {
+            "lemma": "supuesto",
+            "pos": "名詞",
+            "ja": "前提・仮定"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0228",
+      "lang": "es",
+      "text": "Se descartó la primera hipótesis por carecer de respaldo empírico.",
+      "ja": "実証的裏付けを欠くため、第一の仮説は棄却された。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Se",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "descartó",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "descartar",
+            "pos": "動詞",
+            "ja": "棄却する・除外する",
+            "inflection": {
+              "label": "直説法点過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "la primera",
+          "start": 12,
+          "end": 22
+        },
+        {
+          "surface": "hipótesis",
+          "start": 23,
+          "end": 32,
+          "gloss": {
+            "lemma": "hipótesis",
+            "pos": "名詞",
+            "ja": "仮説"
+          }
+        },
+        {
+          "surface": "por",
+          "start": 33,
+          "end": 36
+        },
+        {
+          "surface": "carecer de",
+          "start": 37,
+          "end": 47,
+          "gloss": {
+            "lemma": "carecer de",
+            "pos": "慣用表現",
+            "ja": "〜を欠く",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "respaldo empírico",
+          "start": 48,
+          "end": 65,
+          "gloss": {
+            "lemma": "respaldo empírico",
+            "pos": "名詞句",
+            "ja": "実証的裏付け",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "por + 不定詞で理由を示す。carecer de は「〜を欠く」。"
+    },
+    {
+      "id": "es-0229",
+      "lang": "es",
+      "text": "El análisis, lejos de resolver la controversia, la ha intensificado.",
+      "ja": "この分析は論争を解決するどころか、むしろ激化させた。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "直説法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "análisis",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "análisis",
+            "pos": "名詞",
+            "ja": "分析"
+          }
+        },
+        {
+          "surface": "lejos de",
+          "start": 13,
+          "end": 21,
+          "gloss": {
+            "lemma": "lejos de + 不定詞",
+            "pos": "慣用表現",
+            "ja": "〜するどころか",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "resolver",
+          "start": 22,
+          "end": 30,
+          "gloss": {
+            "lemma": "resolver",
+            "pos": "動詞",
+            "ja": "解決する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 31,
+          "end": 33
+        },
+        {
+          "surface": "controversia",
+          "start": 34,
+          "end": 46,
+          "gloss": {
+            "lemma": "controversia",
+            "pos": "名詞",
+            "ja": "論争"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 48,
+          "end": 50
+        },
+        {
+          "surface": "ha intensificado",
+          "start": 51,
+          "end": 67,
+          "gloss": {
+            "lemma": "intensificar",
+            "pos": "動詞",
+            "ja": "強化する・激化させる",
+            "inflection": {
+              "label": "直説法現在完了・3人称単数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0230",
+      "lang": "es",
+      "text": "Conviene distinguir entre correlación y causalidad, por evidente que parezca.",
+      "ja": "自明に思えても、相関と因果は区別すべきである。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Conviene",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "convenir",
+            "pos": "動詞",
+            "ja": "適している・都合がよい",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "distinguir",
+          "start": 9,
+          "end": 19,
+          "gloss": {
+            "lemma": "distinguir",
+            "pos": "動詞",
+            "ja": "区別する・見分ける",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "entre",
+          "start": 20,
+          "end": 25
+        },
+        {
+          "surface": "correlación",
+          "start": 26,
+          "end": 37,
+          "gloss": {
+            "lemma": "correlación",
+            "pos": "名詞",
+            "ja": "相関"
+          }
+        },
+        {
+          "surface": "causalidad",
+          "start": 40,
+          "end": 50,
+          "gloss": {
+            "lemma": "causalidad",
+            "pos": "名詞",
+            "ja": "因果性"
+          }
+        },
+        {
+          "surface": "por evidente que",
+          "start": 52,
+          "end": 68,
+          "gloss": {
+            "lemma": "por... que + 接続法",
+            "pos": "慣用表現",
+            "ja": "どれほど〜でも",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "parezca",
+          "start": 69,
+          "end": 76,
+          "gloss": {
+            "lemma": "parecer",
+            "pos": "動詞",
+            "ja": "〜のように見える",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の c が zc に変わる（parec- → parezc-）"
+              }
+            }
+          }
+        }
+      ],
+      "grammar": "por + 形容詞 + que + 接続法で「どれほど〜でも」。文末に置くと譲歩を後付けできる。"
+    },
+    {
+      "id": "es-0231",
+      "lang": "es",
+      "text": "Habría que replantear el diseño antes de recabar más datos.",
+      "ja": "さらにデータを集める前に、設計を練り直す必要があるだろう。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Habría que",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "habría que + 不定詞",
+            "pos": "慣用表現",
+            "ja": "〜する必要があるだろう",
+            "idiom": true,
+            "note": "主語を立てない控えめな提案"
+          }
+        },
+        {
+          "surface": "replantear",
+          "start": 11,
+          "end": 21,
+          "gloss": {
+            "lemma": "replantear",
+            "pos": "動詞",
+            "ja": "練り直す・再検討する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "el",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "surface": "diseño",
+          "start": 25,
+          "end": 31,
+          "gloss": {
+            "lemma": "diseño",
+            "pos": "名詞",
+            "ja": "設計・デザイン"
+          }
+        },
+        {
+          "surface": "antes de",
+          "start": 32,
+          "end": 40
+        },
+        {
+          "surface": "recabar",
+          "start": 41,
+          "end": 48,
+          "gloss": {
+            "lemma": "recabar",
+            "pos": "動詞",
+            "ja": "収集する・要請する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "más",
+          "start": 49,
+          "end": 52
+        },
+        {
+          "surface": "datos",
+          "start": 53,
+          "end": 58,
+          "gloss": {
+            "lemma": "dato",
+            "pos": "名詞",
+            "ja": "データ・資料"
+          }
+        }
+      ],
+      "grammar": "habría que + 不定詞は「〜する必要があるだろう」。主語を立てずに控えめに提案する。"
+    },
+    {
+      "id": "es-0232",
+      "lang": "es",
+      "text": "Cuanto mayor es la muestra, menor resulta el margen de error.",
+      "ja": "標本が大きいほど、誤差の幅は小さくなる。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Cuanto mayor",
+          "start": 0,
+          "end": 12,
+          "gloss": {
+            "lemma": "cuanto más... menos...",
+            "pos": "慣用表現",
+            "ja": "〜すればするほど…",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "es",
+          "start": 13,
+          "end": 15,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 16,
+          "end": 18
+        },
+        {
+          "surface": "muestra",
+          "start": 19,
+          "end": 26,
+          "gloss": {
+            "lemma": "muestra",
+            "pos": "名詞",
+            "ja": "標本・見本"
+          }
+        },
+        {
+          "surface": "menor",
+          "start": 28,
+          "end": 33,
+          "gloss": {
+            "lemma": "menor",
+            "pos": "形容詞",
+            "ja": "より小さい",
+            "note": "pequeño の比較級"
+          }
+        },
+        {
+          "surface": "resulta",
+          "start": 34,
+          "end": 41,
+          "gloss": {
+            "lemma": "resultar",
+            "pos": "動詞",
+            "ja": "〜という結果になる",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "el margen de error",
+          "start": 42,
+          "end": 60,
+          "gloss": {
+            "lemma": "margen de error",
+            "pos": "名詞句",
+            "ja": "誤差の幅",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0233",
+      "lang": "es",
+      "text": "La revisión bibliográfica se llevó a cabo siguiendo criterios explícitos.",
+      "ja": "文献レビューは明示的な基準に従って実施された。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法点過去",
+        "現在分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "La revisión bibliográfica",
+          "start": 0,
+          "end": 25,
+          "gloss": {
+            "lemma": "revisión bibliográfica",
+            "pos": "名詞句",
+            "ja": "文献レビュー",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "se",
+          "start": 26,
+          "end": 28
+        },
+        {
+          "surface": "llevó a cabo",
+          "start": 29,
+          "end": 41,
+          "gloss": {
+            "lemma": "llevar a cabo",
+            "pos": "慣用表現",
+            "ja": "実施する・遂行する",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "siguiendo",
+          "start": 42,
+          "end": 51,
+          "gloss": {
+            "lemma": "seguir",
+            "pos": "動詞",
+            "ja": "続ける・従う",
+            "note": "様態を表す現在分詞",
+            "inflection": {
+              "label": "現在分詞（動名詞）",
+              "tense": "GER",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が i に変わる（segu- → sigu-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "criterios",
+          "start": 52,
+          "end": 61,
+          "gloss": {
+            "lemma": "criterio",
+            "pos": "名詞",
+            "ja": "基準・判断"
+          }
+        },
+        {
+          "surface": "explícitos",
+          "start": 62,
+          "end": 72,
+          "gloss": {
+            "lemma": "explícito",
+            "pos": "形容詞",
+            "ja": "明示的な",
+            "inflection": {
+              "label": "男性複数"
+            }
+          }
+        }
+      ],
+      "grammar": "llevar a cabo は「実施する」。siguiendo は「〜に従って」という様態の現在分詞。"
+    },
+    {
+      "id": "es-0234",
+      "lang": "es",
+      "text": "Aun admitiendo sus límites, el modelo sigue siendo útil.",
+      "ja": "限界を認めたうえでも、このモデルは依然として有用である。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "現在分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Aun",
+          "start": 0,
+          "end": 3,
+          "gloss": {
+            "lemma": "aun",
+            "pos": "副詞",
+            "ja": "〜でさえ",
+            "note": "アクセント付きの aún（まだ）とは別の語"
+          }
+        },
+        {
+          "surface": "admitiendo",
+          "start": 4,
+          "end": 14,
+          "gloss": {
+            "lemma": "admitir",
+            "pos": "動詞",
+            "ja": "認める・受け入れる",
+            "inflection": {
+              "label": "現在分詞"
+            }
+          }
+        },
+        {
+          "surface": "sus",
+          "start": 15,
+          "end": 18
+        },
+        {
+          "surface": "límites",
+          "start": 19,
+          "end": 26,
+          "gloss": {
+            "lemma": "límite",
+            "pos": "名詞",
+            "ja": "限界・境界"
+          }
+        },
+        {
+          "surface": "el",
+          "start": 28,
+          "end": 30
+        },
+        {
+          "surface": "modelo",
+          "start": 31,
+          "end": 37,
+          "gloss": {
+            "lemma": "modelo",
+            "pos": "名詞",
+            "ja": "モデル・模型"
+          }
+        },
+        {
+          "surface": "sigue",
+          "start": 38,
+          "end": 43,
+          "gloss": {
+            "lemma": "seguir",
+            "pos": "動詞",
+            "ja": "続ける・ついていく",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が i に変わる（segu- → sigu-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "siendo",
+          "start": 44,
+          "end": 50,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "現在分詞（動名詞）",
+              "tense": "GER"
+            }
+          }
+        },
+        {
+          "surface": "útil",
+          "start": 51,
+          "end": 55,
+          "gloss": {
+            "lemma": "útil",
+            "pos": "形容詞",
+            "ja": "有用な・役に立つ"
+          }
+        }
+      ],
+      "grammar": "aun + 現在分詞で「〜したうえでも」という譲歩。aún（まだ）とは別語なのでアクセントに注意。"
+    },
+    {
+      "id": "es-0235",
+      "lang": "es",
+      "text": "Los autores señalan que sus conclusiones no son extrapolables.",
+      "ja": "著者らは、自らの結論が他へは外挿できないと指摘している。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Los",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "autores",
+          "start": 4,
+          "end": 11,
+          "gloss": {
+            "lemma": "autor",
+            "pos": "名詞",
+            "ja": "著者・作者"
+          }
+        },
+        {
+          "surface": "señalan",
+          "start": 12,
+          "end": 19,
+          "gloss": {
+            "lemma": "señalar",
+            "pos": "動詞",
+            "ja": "指摘する・示す",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "IND_PRES",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 20,
+          "end": 23
+        },
+        {
+          "surface": "sus",
+          "start": 24,
+          "end": 27
+        },
+        {
+          "surface": "conclusiones",
+          "start": 28,
+          "end": 40,
+          "gloss": {
+            "lemma": "conclusión",
+            "pos": "名詞",
+            "ja": "結論"
+          }
+        },
+        {
+          "surface": "no",
+          "start": 41,
+          "end": 43
+        },
+        {
+          "surface": "son",
+          "start": 44,
+          "end": 47,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "IND_PRES",
+              "person": "3pl",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "extrapolables",
+          "start": 48,
+          "end": 61,
+          "gloss": {
+            "lemma": "extrapolable",
+            "pos": "形容詞",
+            "ja": "外挿できる・一般化できる",
+            "inflection": {
+              "label": "複数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0236",
+      "lang": "es",
+      "text": "De haberse controlado esa variable, los resultados habrían diferido.",
+      "ja": "その変数を統制していれば、結果は異なっていただろう。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "条件法完了"
+      ],
+      "tokens": [
+        {
+          "surface": "De haberse controlado",
+          "start": 0,
+          "end": 21,
+          "gloss": {
+            "lemma": "de + 完了不定詞",
+            "pos": "慣用表現",
+            "ja": "〜していたならば",
+            "idiom": true,
+            "note": "si 節の代わりに使う文章語"
+          }
+        },
+        {
+          "surface": "esa",
+          "start": 22,
+          "end": 25
+        },
+        {
+          "surface": "variable",
+          "start": 26,
+          "end": 34,
+          "gloss": {
+            "lemma": "variable",
+            "pos": "名詞",
+            "ja": "変数"
+          }
+        },
+        {
+          "surface": "los",
+          "start": 36,
+          "end": 39
+        },
+        {
+          "surface": "resultados",
+          "start": 40,
+          "end": 50,
+          "gloss": {
+            "lemma": "resultado",
+            "pos": "名詞",
+            "ja": "結果"
+          }
+        },
+        {
+          "surface": "habrían diferido",
+          "start": 51,
+          "end": 67,
+          "gloss": {
+            "lemma": "diferir",
+            "pos": "動詞",
+            "ja": "異なる・延期する",
+            "inflection": {
+              "label": "条件法完了・3人称複数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0237",
+      "lang": "es",
+      "text": "El trabajo aporta matices que la literatura previa había pasado por alto.",
+      "ja": "この研究は、先行文献が見落としていた細部を補っている。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "直説法過去完了"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "trabajo",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "trabajo",
+            "pos": "名詞",
+            "ja": "研究・仕事"
+          }
+        },
+        {
+          "surface": "aporta",
+          "start": 11,
+          "end": 17,
+          "gloss": {
+            "lemma": "aportar",
+            "pos": "動詞",
+            "ja": "もたらす・貢献する",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "matices",
+          "start": 18,
+          "end": 25,
+          "gloss": {
+            "lemma": "matiz",
+            "pos": "名詞",
+            "ja": "ニュアンス・細部"
+          }
+        },
+        {
+          "surface": "que",
+          "start": 26,
+          "end": 29
+        },
+        {
+          "surface": "la literatura previa",
+          "start": 30,
+          "end": 50,
+          "gloss": {
+            "lemma": "literatura previa",
+            "pos": "名詞句",
+            "ja": "先行文献",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "había pasado por alto",
+          "start": 51,
+          "end": 72,
+          "gloss": {
+            "lemma": "pasar por alto",
+            "pos": "慣用表現",
+            "ja": "見落とす・見過ごす",
+            "idiom": true,
+            "note": "直説法過去完了"
+          }
+        }
+      ],
+      "grammar": "pasar por alto は「見落とす・見過ごす」。"
+    },
+    {
+      "id": "es-0238",
+      "lang": "es",
+      "text": "Sea cual sea el enfoque, la muestra condiciona los resultados.",
+      "ja": "どのようなアプローチであれ、標本が結果を左右する。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Sea cual sea",
+          "start": 0,
+          "end": 12,
+          "gloss": {
+            "lemma": "sea cual sea",
+            "pos": "慣用表現",
+            "ja": "どれであれ",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "el",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "surface": "enfoque",
+          "start": 16,
+          "end": 23,
+          "gloss": {
+            "lemma": "enfoque",
+            "pos": "名詞",
+            "ja": "アプローチ・焦点"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 25,
+          "end": 27
+        },
+        {
+          "surface": "muestra",
+          "start": 28,
+          "end": 35,
+          "gloss": {
+            "lemma": "muestra",
+            "pos": "名詞",
+            "ja": "標本・見本"
+          }
+        },
+        {
+          "surface": "condiciona",
+          "start": 36,
+          "end": 46,
+          "gloss": {
+            "lemma": "condicionar",
+            "pos": "動詞",
+            "ja": "左右する・条件づける",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "los",
+          "start": 47,
+          "end": 50
+        },
+        {
+          "surface": "resultados",
+          "start": 51,
+          "end": 61,
+          "gloss": {
+            "lemma": "resultado",
+            "pos": "名詞",
+            "ja": "結果"
+          }
+        }
+      ],
+      "grammar": "sea cual sea は「どれであれ」。同じ接続法を繰り返す譲歩の型。"
+    },
+    {
+      "id": "es-0239",
+      "lang": "es",
+      "text": "Se agradece a los revisores los comentarios vertidos sobre el manuscrito.",
+      "ja": "原稿に寄せられた査読者のコメントに感謝する。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Se",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "agradece",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "agradecer",
+            "pos": "動詞",
+            "ja": "感謝する",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "a los",
+          "start": 12,
+          "end": 17
+        },
+        {
+          "surface": "revisores",
+          "start": 18,
+          "end": 27,
+          "gloss": {
+            "lemma": "revisor",
+            "pos": "名詞",
+            "ja": "査読者・校閲者"
+          }
+        },
+        {
+          "surface": "los",
+          "start": 28,
+          "end": 31
+        },
+        {
+          "surface": "comentarios",
+          "start": 32,
+          "end": 43,
+          "gloss": {
+            "lemma": "comentario",
+            "pos": "名詞",
+            "ja": "コメント・注釈"
+          }
+        },
+        {
+          "surface": "vertidos",
+          "start": 44,
+          "end": 52,
+          "gloss": {
+            "lemma": "verter",
+            "pos": "動詞",
+            "ja": "注ぐ・（意見を）述べる",
+            "inflection": {
+              "label": "過去分詞・男性複数"
+            }
+          }
+        },
+        {
+          "surface": "sobre el",
+          "start": 53,
+          "end": 61
+        },
+        {
+          "surface": "manuscrito",
+          "start": 62,
+          "end": 72,
+          "gloss": {
+            "lemma": "manuscrito",
+            "pos": "名詞",
+            "ja": "原稿"
+          }
+        }
+      ],
+      "grammar": "論文の謝辞の定型。se + 3人称で書き手を表に出さない。"
+    },
+    {
+      "id": "es-0240",
+      "lang": "es",
+      "text": "Queda pendiente determinar hasta qué punto el efecto es duradero.",
+      "ja": "その効果がどこまで持続するかの解明は今後の課題である。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Queda pendiente",
+          "start": 0,
+          "end": 15,
+          "gloss": {
+            "lemma": "quedar pendiente",
+            "pos": "慣用表現",
+            "ja": "未解決のまま残る",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "determinar",
+          "start": 16,
+          "end": 26,
+          "gloss": {
+            "lemma": "determinar",
+            "pos": "動詞",
+            "ja": "決定する・特定する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "hasta qué punto",
+          "start": 27,
+          "end": 42,
+          "gloss": {
+            "lemma": "hasta qué punto",
+            "pos": "慣用表現",
+            "ja": "どこまで・どの程度",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "el",
+          "start": 43,
+          "end": 45
+        },
+        {
+          "surface": "efecto",
+          "start": 46,
+          "end": 52,
+          "gloss": {
+            "lemma": "efecto",
+            "pos": "名詞",
+            "ja": "効果・影響"
+          }
+        },
+        {
+          "surface": "es",
+          "start": 53,
+          "end": 55,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "duradero",
+          "start": 56,
+          "end": 64,
+          "gloss": {
+            "lemma": "duradero",
+            "pos": "形容詞",
+            "ja": "持続的な・長続きする"
+          }
+        }
+      ],
+      "grammar": "quedar pendiente は「未解決のまま残る」。論文の結びで今後の課題を示す型。"
     }
   ]
 }

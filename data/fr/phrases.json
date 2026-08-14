@@ -15940,6 +15940,3596 @@
         }
       ],
       "grammar": "ainsi を文頭に置くと倒置が起きる。voir venir は「（事態を）予期する」。"
+    },
+    {
+      "id": "fr-0201",
+      "lang": "fr",
+      "text": "Les résultats obtenus ne permettent pas d'inférer un lien causal.",
+      "ja": "得られた結果から因果関係を推論することはできない。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Les",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "résultats",
+          "start": 4,
+          "end": 13,
+          "gloss": {
+            "lemma": "résultat",
+            "pos": "名詞",
+            "ja": "結果"
+          }
+        },
+        {
+          "surface": "obtenus",
+          "start": 14,
+          "end": 21,
+          "gloss": {
+            "lemma": "obtenir",
+            "pos": "動詞",
+            "ja": "得る・手に入れる",
+            "inflection": {
+              "label": "過去分詞・男性複数"
+            }
+          }
+        },
+        {
+          "surface": "ne",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "surface": "permettent",
+          "start": 25,
+          "end": 35,
+          "gloss": {
+            "lemma": "permettre",
+            "pos": "動詞",
+            "ja": "許す・可能にする",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "PRES",
+              "person": "3pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas d'",
+          "start": 36,
+          "end": 42
+        },
+        {
+          "surface": "inférer",
+          "start": 42,
+          "end": 49,
+          "gloss": {
+            "lemma": "inférer",
+            "pos": "動詞",
+            "ja": "推論する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "un lien causal",
+          "start": 50,
+          "end": 64,
+          "gloss": {
+            "lemma": "lien causal",
+            "pos": "名詞句",
+            "ja": "因果関係",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "ne pas permettre de + 不定詞は論文で結論を抑制するときの定型。"
+    },
+    {
+      "id": "fr-0202",
+      "lang": "fr",
+      "text": "Il convient de nuancer : l'échantillon analysé était restreint.",
+      "ja": "補足すべき点がある。分析した標本は限られていた。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "半過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Il convient de",
+          "start": 0,
+          "end": 14,
+          "gloss": {
+            "lemma": "il convient de",
+            "pos": "慣用表現",
+            "ja": "〜しておくのが適当だ",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "nuancer",
+          "start": 15,
+          "end": 22,
+          "gloss": {
+            "lemma": "nuancer",
+            "pos": "動詞",
+            "ja": "ニュアンスを加える",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "l'",
+          "start": 25,
+          "end": 27
+        },
+        {
+          "surface": "échantillon",
+          "start": 27,
+          "end": 38,
+          "gloss": {
+            "lemma": "échantillon",
+            "pos": "名詞",
+            "ja": "標本・サンプル"
+          }
+        },
+        {
+          "surface": "analysé",
+          "start": 39,
+          "end": 46,
+          "gloss": {
+            "lemma": "analyser",
+            "pos": "動詞",
+            "ja": "分析する",
+            "inflection": {
+              "label": "過去分詞・男性単数"
+            }
+          }
+        },
+        {
+          "surface": "était",
+          "start": 47,
+          "end": 52,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "半過去・3人称単数",
+              "tense": "IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "restreint",
+          "start": 53,
+          "end": 62,
+          "gloss": {
+            "lemma": "restreint",
+            "pos": "形容詞",
+            "ja": "限られた・狭い"
+          }
+        }
+      ],
+      "grammar": "nuancer は主張を弱める学術動詞。il convient de は「〜しておくのが適当だ」。"
+    },
+    {
+      "id": "fr-0203",
+      "lang": "fr",
+      "text": "L'auteur postule que le phénomène tient à des facteurs structurels.",
+      "ja": "著者は、この現象が構造的要因によるものだと仮定している。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "L'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "auteur",
+          "start": 2,
+          "end": 8,
+          "gloss": {
+            "lemma": "auteur",
+            "pos": "名詞",
+            "ja": "著者・作者"
+          }
+        },
+        {
+          "surface": "postule",
+          "start": 9,
+          "end": 16,
+          "gloss": {
+            "lemma": "postuler",
+            "pos": "動詞",
+            "ja": "仮定する・応募する",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 17,
+          "end": 20
+        },
+        {
+          "surface": "le",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "phénomène",
+          "start": 24,
+          "end": 33,
+          "gloss": {
+            "lemma": "phénomène",
+            "pos": "名詞",
+            "ja": "現象"
+          }
+        },
+        {
+          "surface": "tient à",
+          "start": 34,
+          "end": 41,
+          "gloss": {
+            "lemma": "tenir à",
+            "pos": "慣用表現",
+            "ja": "〜に起因する",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "des facteurs structurels",
+          "start": 42,
+          "end": 66,
+          "gloss": {
+            "lemma": "facteur structurel",
+            "pos": "名詞句",
+            "ja": "構造的要因",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "tenir à は「〜に起因する」。原因を述べる学術的な言い方。"
+    },
+    {
+      "id": "fr-0204",
+      "lang": "fr",
+      "text": "Cette hypothèse a été réfutée par des études ultérieures.",
+      "ja": "この仮説は後続の研究によって反駁された。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "受動態"
+      ],
+      "tokens": [
+        {
+          "surface": "Cette",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "hypothèse",
+          "start": 6,
+          "end": 15,
+          "gloss": {
+            "lemma": "hypothèse",
+            "pos": "名詞",
+            "ja": "仮説"
+          }
+        },
+        {
+          "surface": "a été réfutée",
+          "start": 16,
+          "end": 29,
+          "gloss": {
+            "lemma": "réfuter",
+            "pos": "動詞",
+            "ja": "反駁する",
+            "inflection": {
+              "label": "受動態・複合過去・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "par des",
+          "start": 30,
+          "end": 37
+        },
+        {
+          "surface": "études",
+          "start": 38,
+          "end": 44,
+          "gloss": {
+            "lemma": "étude",
+            "pos": "名詞",
+            "ja": "研究・調査"
+          }
+        },
+        {
+          "surface": "ultérieures",
+          "start": 45,
+          "end": 56,
+          "gloss": {
+            "lemma": "ultérieur",
+            "pos": "形容詞",
+            "ja": "後の・後続の",
+            "inflection": {
+              "label": "女性複数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0205",
+      "lang": "fr",
+      "text": "Les données corroborent ce qui a été avancé au chapitre précédent.",
+      "ja": "このデータは前章で提示した内容を裏付けている。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "受動態"
+      ],
+      "tokens": [
+        {
+          "surface": "Les",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "données",
+          "start": 4,
+          "end": 11,
+          "gloss": {
+            "lemma": "donnée",
+            "pos": "名詞",
+            "ja": "データ・資料"
+          }
+        },
+        {
+          "surface": "corroborent",
+          "start": 12,
+          "end": 23,
+          "gloss": {
+            "lemma": "corroborer",
+            "pos": "動詞",
+            "ja": "裏付ける",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "PRES",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "ce qui a été avancé",
+          "start": 24,
+          "end": 43,
+          "gloss": {
+            "lemma": "avancer",
+            "pos": "動詞",
+            "ja": "進める・提示する",
+            "note": "前出の内容を指す論文の型",
+            "inflection": {
+              "label": "受動態・複合過去"
+            }
+          }
+        },
+        {
+          "surface": "au",
+          "start": 44,
+          "end": 46
+        },
+        {
+          "surface": "chapitre précédent",
+          "start": 47,
+          "end": 65,
+          "gloss": {
+            "lemma": "chapitre précédent",
+            "pos": "名詞句",
+            "ja": "前章",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "ce qui a été + 過去分詞で前出の内容を指す。論文の相互参照の型。"
+    },
+    {
+      "id": "fr-0206",
+      "lang": "fr",
+      "text": "Il est nécessaire de délimiter l'objet d'étude avant de poursuivre.",
+      "ja": "先に進む前に、研究対象の範囲を定める必要がある。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "est",
+          "start": 3,
+          "end": 6,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "nécessaire",
+          "start": 7,
+          "end": 17,
+          "gloss": {
+            "lemma": "nécessaire",
+            "pos": "形容詞",
+            "ja": "必要な"
+          }
+        },
+        {
+          "surface": "de",
+          "start": 18,
+          "end": 20
+        },
+        {
+          "surface": "délimiter",
+          "start": 21,
+          "end": 30,
+          "gloss": {
+            "lemma": "délimiter",
+            "pos": "動詞",
+            "ja": "範囲を定める",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "l'objet d'étude",
+          "start": 31,
+          "end": 46,
+          "gloss": {
+            "lemma": "objet d'étude",
+            "pos": "名詞句",
+            "ja": "研究対象",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "avant de",
+          "start": 47,
+          "end": 55,
+          "gloss": {
+            "lemma": "avant de + 不定詞",
+            "pos": "慣用表現",
+            "ja": "〜する前に",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "poursuivre",
+          "start": 56,
+          "end": 66,
+          "gloss": {
+            "lemma": "poursuivre",
+            "pos": "動詞",
+            "ja": "続行する・追跡する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0207",
+      "lang": "fr",
+      "text": "Cela étant, la conclusion de l'auteur devient intenable.",
+      "ja": "そうであるならば、著者の結論は成り立たない。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "現在分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Cela étant",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "cela étant",
+            "pos": "慣用表現",
+            "ja": "そうであるならば",
+            "idiom": true,
+            "note": "現在分詞を使った論証の接続表現"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "conclusion",
+          "start": 15,
+          "end": 25,
+          "gloss": {
+            "lemma": "conclusion",
+            "pos": "名詞",
+            "ja": "結論"
+          }
+        },
+        {
+          "surface": "de l'",
+          "start": 26,
+          "end": 31
+        },
+        {
+          "surface": "auteur",
+          "start": 31,
+          "end": 37,
+          "gloss": {
+            "lemma": "auteur",
+            "pos": "名詞",
+            "ja": "著者・作者"
+          }
+        },
+        {
+          "surface": "devient",
+          "start": 38,
+          "end": 45,
+          "gloss": {
+            "lemma": "devenir",
+            "pos": "動詞",
+            "ja": "〜になる",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "intenable",
+          "start": 46,
+          "end": 55,
+          "gloss": {
+            "lemma": "intenable",
+            "pos": "形容詞",
+            "ja": "支持できない・耐えがたい"
+          }
+        }
+      ],
+      "grammar": "cela étant は「そうであるならば」。現在分詞を使った論証の接続表現。"
+    },
+    {
+      "id": "fr-0208",
+      "lang": "fr",
+      "text": "Il n'a pas été démontré qu'il existe une corrélation entre les deux variables.",
+      "ja": "両変数のあいだに相関があることは証明されていない。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "接続法",
+        "受動態"
+      ],
+      "tokens": [
+        {
+          "surface": "Il n'a pas été démontré",
+          "start": 0,
+          "end": 23,
+          "gloss": {
+            "lemma": "démontrer",
+            "pos": "動詞",
+            "ja": "証明する・示す",
+            "inflection": {
+              "label": "受動態・複合過去（否定・非人称）"
+            }
+          }
+        },
+        {
+          "surface": "qu'",
+          "start": 24,
+          "end": 27
+        },
+        {
+          "surface": "il",
+          "start": 27,
+          "end": 29
+        },
+        {
+          "surface": "existe",
+          "start": 30,
+          "end": 36,
+          "gloss": {
+            "lemma": "exister",
+            "pos": "動詞",
+            "ja": "存在する",
+            "note": "主節が否定されるので接続法",
+            "inflection": {
+              "label": "接続法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "une",
+          "start": 37,
+          "end": 40
+        },
+        {
+          "surface": "corrélation",
+          "start": 41,
+          "end": 52,
+          "gloss": {
+            "lemma": "corrélation",
+            "pos": "名詞",
+            "ja": "相関"
+          }
+        },
+        {
+          "surface": "entre les deux",
+          "start": 53,
+          "end": 67
+        },
+        {
+          "surface": "variables",
+          "start": 68,
+          "end": 77,
+          "gloss": {
+            "lemma": "variable",
+            "pos": "名詞",
+            "ja": "変数"
+          }
+        }
+      ],
+      "grammar": "démontrer が否定されると従属節は接続法。論文で結論を保留する型。"
+    },
+    {
+      "id": "fr-0209",
+      "lang": "fr",
+      "text": "Il faut souligner que la méthode employée diffère de la norme.",
+      "ja": "用いられた手法が標準とは異なる点を強調しておきたい。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "faut",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "falloir",
+            "pos": "動詞",
+            "ja": "〜する必要がある",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "souligner",
+          "start": 8,
+          "end": 17,
+          "gloss": {
+            "lemma": "souligner",
+            "pos": "動詞",
+            "ja": "強調する・下線を引く",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 18,
+          "end": 21
+        },
+        {
+          "surface": "la",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "surface": "méthode",
+          "start": 25,
+          "end": 32,
+          "gloss": {
+            "lemma": "méthode",
+            "pos": "名詞",
+            "ja": "方法・手法"
+          }
+        },
+        {
+          "surface": "employée",
+          "start": 33,
+          "end": 41,
+          "gloss": {
+            "lemma": "employer",
+            "pos": "動詞",
+            "ja": "用いる・雇う",
+            "inflection": {
+              "label": "過去分詞・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "diffère de",
+          "start": 42,
+          "end": 52,
+          "gloss": {
+            "lemma": "différer de",
+            "pos": "慣用表現",
+            "ja": "〜と異なる",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "la norme",
+          "start": 53,
+          "end": 61,
+          "gloss": {
+            "lemma": "norme",
+            "pos": "名詞",
+            "ja": "規範・標準"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0210",
+      "lang": "fr",
+      "text": "Compte tenu de ce qui précède, il y a lieu de revoir le cadre théorique.",
+      "ja": "以上を踏まえると、理論的枠組みを見直すのが妥当である。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Compte tenu de",
+          "start": 0,
+          "end": 14,
+          "gloss": {
+            "lemma": "compte tenu de",
+            "pos": "慣用表現",
+            "ja": "〜を考慮すると",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "ce qui précède",
+          "start": 15,
+          "end": 29,
+          "gloss": {
+            "lemma": "ce qui précède",
+            "pos": "慣用表現",
+            "ja": "前述の内容",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "il y a lieu de",
+          "start": 31,
+          "end": 45,
+          "gloss": {
+            "lemma": "il y a lieu de",
+            "pos": "慣用表現",
+            "ja": "〜するのが妥当だ",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "revoir",
+          "start": 46,
+          "end": 52,
+          "gloss": {
+            "lemma": "revoir",
+            "pos": "動詞",
+            "ja": "見直す・再会する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "le cadre théorique",
+          "start": 53,
+          "end": 71,
+          "gloss": {
+            "lemma": "cadre théorique",
+            "pos": "名詞句",
+            "ja": "理論的枠組み",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "il y a lieu de は「〜するのが妥当だ」という硬い言い方。ce qui précède は「前述の内容」。"
+    },
+    {
+      "id": "fr-0211",
+      "lang": "fr",
+      "text": "Bien que l'échantillon soit vaste, les critères de sélection restent discutables.",
+      "ja": "標本は大規模ではあるが、選定基準には議論の余地がある。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "接続法"
+      ],
+      "tokens": [
+        {
+          "surface": "Bien que",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "bien que",
+            "pos": "接続詞",
+            "ja": "〜ではあるが",
+            "idiom": true,
+            "note": "後ろは必ず接続法"
+          }
+        },
+        {
+          "surface": "l'",
+          "start": 9,
+          "end": 11
+        },
+        {
+          "surface": "échantillon",
+          "start": 11,
+          "end": 22,
+          "gloss": {
+            "lemma": "échantillon",
+            "pos": "名詞",
+            "ja": "標本・サンプル"
+          }
+        },
+        {
+          "surface": "soit",
+          "start": 23,
+          "end": 27,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "vaste",
+          "start": 28,
+          "end": 33,
+          "gloss": {
+            "lemma": "vaste",
+            "pos": "形容詞",
+            "ja": "広大な・大規模な"
+          }
+        },
+        {
+          "surface": "les critères de sélection",
+          "start": 35,
+          "end": 60,
+          "gloss": {
+            "lemma": "critère de sélection",
+            "pos": "名詞句",
+            "ja": "選定基準",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "restent",
+          "start": 61,
+          "end": 68,
+          "gloss": {
+            "lemma": "rester",
+            "pos": "動詞",
+            "ja": "とどまる・残る",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "PRES",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "discutables",
+          "start": 69,
+          "end": 80,
+          "gloss": {
+            "lemma": "discutable",
+            "pos": "形容詞",
+            "ja": "議論の余地がある",
+            "inflection": {
+              "label": "複数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0212",
+      "lang": "fr",
+      "text": "L'étude esquisse un modèle qui reste à valider.",
+      "ja": "その研究は、まだ検証されていないモデルの概略を示している。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "L'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "étude",
+          "start": 2,
+          "end": 7,
+          "gloss": {
+            "lemma": "étude",
+            "pos": "名詞",
+            "ja": "研究・調査"
+          }
+        },
+        {
+          "surface": "esquisse",
+          "start": 8,
+          "end": 16,
+          "gloss": {
+            "lemma": "esquisser",
+            "pos": "動詞",
+            "ja": "素描する・概略を示す",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 17,
+          "end": 19
+        },
+        {
+          "surface": "modèle",
+          "start": 20,
+          "end": 26,
+          "gloss": {
+            "lemma": "modèle",
+            "pos": "名詞",
+            "ja": "モデル・模型"
+          }
+        },
+        {
+          "surface": "qui",
+          "start": 27,
+          "end": 30
+        },
+        {
+          "surface": "reste à",
+          "start": 31,
+          "end": 38,
+          "gloss": {
+            "lemma": "rester à + 不定詞",
+            "pos": "慣用表現",
+            "ja": "まだ〜されていない",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "valider",
+          "start": 39,
+          "end": 46,
+          "gloss": {
+            "lemma": "valider",
+            "pos": "動詞",
+            "ja": "検証する・有効にする",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0213",
+      "lang": "fr",
+      "text": "Les auteurs montrent que le biais persistait malgré les contrôles.",
+      "ja": "著者らは、統制を行ってもなお偏りが残っていたことを示している。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "半過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Les",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "auteurs",
+          "start": 4,
+          "end": 11,
+          "gloss": {
+            "lemma": "auteur",
+            "pos": "名詞",
+            "ja": "著者・作者"
+          }
+        },
+        {
+          "surface": "montrent",
+          "start": 12,
+          "end": 20,
+          "gloss": {
+            "lemma": "montrer",
+            "pos": "動詞",
+            "ja": "見せる・示す",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "PRES",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 21,
+          "end": 24
+        },
+        {
+          "surface": "le",
+          "start": 25,
+          "end": 27
+        },
+        {
+          "surface": "biais",
+          "start": 28,
+          "end": 33,
+          "gloss": {
+            "lemma": "biais",
+            "pos": "名詞",
+            "ja": "偏り・バイアス"
+          }
+        },
+        {
+          "surface": "persistait",
+          "start": 34,
+          "end": 44,
+          "gloss": {
+            "lemma": "persister",
+            "pos": "動詞",
+            "ja": "持続する・固執する",
+            "inflection": {
+              "label": "半過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "malgré",
+          "start": 45,
+          "end": 51,
+          "gloss": {
+            "lemma": "malgré",
+            "pos": "前置詞",
+            "ja": "〜にもかかわらず"
+          }
+        },
+        {
+          "surface": "les",
+          "start": 52,
+          "end": 55
+        },
+        {
+          "surface": "contrôles",
+          "start": 56,
+          "end": 65,
+          "gloss": {
+            "lemma": "contrôle",
+            "pos": "名詞",
+            "ja": "統制・管理"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0214",
+      "lang": "fr",
+      "text": "Quelque raffinés que soient les modèles, l'incertitude demeure.",
+      "ja": "モデルがどれほど精緻であっても、不確実性は残る。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "接続法"
+      ],
+      "tokens": [
+        {
+          "surface": "Quelque raffinés que",
+          "start": 0,
+          "end": 20,
+          "gloss": {
+            "lemma": "quelque... que + 接続法",
+            "pos": "慣用表現",
+            "ja": "どれほど〜でも",
+            "idiom": true,
+            "note": "文語。後ろは接続法"
+          }
+        },
+        {
+          "surface": "soient",
+          "start": 21,
+          "end": 27,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "接続法現在・3人称複数",
+              "tense": "SUBJ",
+              "person": "3pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "les",
+          "start": 28,
+          "end": 31
+        },
+        {
+          "surface": "modèles",
+          "start": 32,
+          "end": 39,
+          "gloss": {
+            "lemma": "modèle",
+            "pos": "名詞",
+            "ja": "モデル・模型"
+          }
+        },
+        {
+          "surface": "l'",
+          "start": 41,
+          "end": 43
+        },
+        {
+          "surface": "incertitude",
+          "start": 43,
+          "end": 54,
+          "gloss": {
+            "lemma": "incertitude",
+            "pos": "名詞",
+            "ja": "不確実性"
+          }
+        },
+        {
+          "surface": "demeure",
+          "start": 55,
+          "end": 62,
+          "gloss": {
+            "lemma": "demeurer",
+            "pos": "動詞",
+            "ja": "とどまる・残る",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        }
+      ],
+      "grammar": "quelque + 形容詞 + que + 接続法で「どれほど〜でも」。最も硬い譲歩の型。"
+    },
+    {
+      "id": "fr-0215",
+      "lang": "fr",
+      "text": "On a longtemps assumé que la variable était indépendante.",
+      "ja": "その変数は独立だと長らく想定されてきた。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "複合過去",
+        "半過去"
+      ],
+      "tokens": [
+        {
+          "surface": "On",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "a",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "surface": "longtemps",
+          "start": 5,
+          "end": 14,
+          "gloss": {
+            "lemma": "longtemps",
+            "pos": "副詞",
+            "ja": "長らく"
+          }
+        },
+        {
+          "surface": "assumé",
+          "start": 15,
+          "end": 21,
+          "gloss": {
+            "lemma": "assumer",
+            "pos": "動詞",
+            "ja": "引き受ける・想定する",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 22,
+          "end": 25
+        },
+        {
+          "surface": "la",
+          "start": 26,
+          "end": 28
+        },
+        {
+          "surface": "variable",
+          "start": 29,
+          "end": 37,
+          "gloss": {
+            "lemma": "variable",
+            "pos": "名詞",
+            "ja": "変数"
+          }
+        },
+        {
+          "surface": "était",
+          "start": 38,
+          "end": 43,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "半過去・3人称単数",
+              "tense": "IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "indépendante",
+          "start": 44,
+          "end": 56,
+          "gloss": {
+            "lemma": "indépendant",
+            "pos": "形容詞",
+            "ja": "独立した",
+            "inflection": {
+              "label": "女性単数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0216",
+      "lang": "fr",
+      "text": "Rien ne permet d'affirmer que les résultats soient généralisables.",
+      "ja": "この結果が一般化できるとは、およそ言えない。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "接続法"
+      ],
+      "tokens": [
+        {
+          "surface": "Rien",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "rien",
+            "pos": "代名詞",
+            "ja": "何も〜ない"
+          }
+        },
+        {
+          "surface": "ne",
+          "start": 5,
+          "end": 7
+        },
+        {
+          "surface": "permet",
+          "start": 8,
+          "end": 14,
+          "gloss": {
+            "lemma": "permettre",
+            "pos": "動詞",
+            "ja": "許す・可能にする",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "d'",
+          "start": 15,
+          "end": 17
+        },
+        {
+          "surface": "affirmer",
+          "start": 17,
+          "end": 25,
+          "gloss": {
+            "lemma": "affirmer",
+            "pos": "動詞",
+            "ja": "断言する・主張する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 26,
+          "end": 29
+        },
+        {
+          "surface": "les",
+          "start": 30,
+          "end": 33
+        },
+        {
+          "surface": "résultats",
+          "start": 34,
+          "end": 43,
+          "gloss": {
+            "lemma": "résultat",
+            "pos": "名詞",
+            "ja": "結果"
+          }
+        },
+        {
+          "surface": "soient",
+          "start": 44,
+          "end": 50,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "接続法現在・3人称複数",
+              "tense": "SUBJ",
+              "person": "3pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "généralisables",
+          "start": 51,
+          "end": 65,
+          "gloss": {
+            "lemma": "généralisable",
+            "pos": "形容詞",
+            "ja": "一般化できる",
+            "inflection": {
+              "label": "複数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0217",
+      "lang": "fr",
+      "text": "L'expérience a été reproduite trois fois avec des résultats identiques.",
+      "ja": "この実験は同一の結果をもって三度再現された。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "受動態"
+      ],
+      "tokens": [
+        {
+          "surface": "L'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "expérience",
+          "start": 2,
+          "end": 12,
+          "gloss": {
+            "lemma": "expérience",
+            "pos": "名詞",
+            "ja": "実験・経験"
+          }
+        },
+        {
+          "surface": "a été reproduite",
+          "start": 13,
+          "end": 29,
+          "gloss": {
+            "lemma": "reproduire",
+            "pos": "動詞",
+            "ja": "再現する・複製する",
+            "inflection": {
+              "label": "受動態・複合過去・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "trois fois",
+          "start": 30,
+          "end": 40,
+          "gloss": {
+            "lemma": "fois",
+            "pos": "名詞",
+            "ja": "回・度"
+          }
+        },
+        {
+          "surface": "avec des",
+          "start": 41,
+          "end": 49
+        },
+        {
+          "surface": "résultats",
+          "start": 50,
+          "end": 59,
+          "gloss": {
+            "lemma": "résultat",
+            "pos": "名詞",
+            "ja": "結果"
+          }
+        },
+        {
+          "surface": "identiques",
+          "start": 60,
+          "end": 70,
+          "gloss": {
+            "lemma": "identique",
+            "pos": "形容詞",
+            "ja": "同一の",
+            "inflection": {
+              "label": "複数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0218",
+      "lang": "fr",
+      "text": "Étant donné que les preuves sont minces, toute conclusion serait prématurée.",
+      "ja": "証拠が乏しい以上、いかなる結論も時期尚早だろう。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Étant donné que",
+          "start": 0,
+          "end": 15,
+          "gloss": {
+            "lemma": "étant donné que",
+            "pos": "接続詞",
+            "ja": "〜である以上・〜なので",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "les",
+          "start": 16,
+          "end": 19
+        },
+        {
+          "surface": "preuves",
+          "start": 20,
+          "end": 27,
+          "gloss": {
+            "lemma": "preuve",
+            "pos": "名詞",
+            "ja": "証拠"
+          }
+        },
+        {
+          "surface": "sont",
+          "start": 28,
+          "end": 32,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "PRES",
+              "person": "3pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "minces",
+          "start": 33,
+          "end": 39,
+          "gloss": {
+            "lemma": "mince",
+            "pos": "形容詞",
+            "ja": "薄い・乏しい",
+            "inflection": {
+              "label": "複数"
+            }
+          }
+        },
+        {
+          "surface": "toute",
+          "start": 41,
+          "end": 46
+        },
+        {
+          "surface": "conclusion",
+          "start": 47,
+          "end": 57,
+          "gloss": {
+            "lemma": "conclusion",
+            "pos": "名詞",
+            "ja": "結論"
+          }
+        },
+        {
+          "surface": "serait",
+          "start": 58,
+          "end": 64,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "条件法で断定を弱める",
+            "inflection": {
+              "label": "条件法現在・3人称単数",
+              "tense": "COND",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "prématurée",
+          "start": 65,
+          "end": 75,
+          "gloss": {
+            "lemma": "prématuré",
+            "pos": "形容詞",
+            "ja": "時期尚早の",
+            "inflection": {
+              "label": "女性単数"
+            }
+          }
+        }
+      ],
+      "grammar": "étant donné que は「〜である以上」。条件法で結論を控えめに述べる。"
+    },
+    {
+      "id": "fr-0219",
+      "lang": "fr",
+      "text": "La théorie, largement admise, est aujourd'hui contestée.",
+      "ja": "広く受け入れられてきたこの理論は、今日では疑問視されている。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "受動態",
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "La",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "théorie",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "théorie",
+            "pos": "名詞",
+            "ja": "理論"
+          }
+        },
+        {
+          "surface": "largement",
+          "start": 12,
+          "end": 21,
+          "gloss": {
+            "lemma": "largement",
+            "pos": "副詞",
+            "ja": "広く・大幅に"
+          }
+        },
+        {
+          "surface": "admise",
+          "start": 22,
+          "end": 28,
+          "gloss": {
+            "lemma": "admettre",
+            "pos": "動詞",
+            "ja": "認める",
+            "inflection": {
+              "label": "過去分詞・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "est",
+          "start": 30,
+          "end": 33
+        },
+        {
+          "surface": "aujourd'hui",
+          "start": 34,
+          "end": 45,
+          "gloss": {
+            "lemma": "aujourd'hui",
+            "pos": "副詞",
+            "ja": "今日"
+          }
+        },
+        {
+          "surface": "contestée",
+          "start": 46,
+          "end": 55,
+          "gloss": {
+            "lemma": "contester",
+            "pos": "動詞",
+            "ja": "異議を唱える",
+            "inflection": {
+              "label": "受動態・現在・女性単数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0220",
+      "lang": "fr",
+      "text": "À mesure que la recherche avance, de nouvelles questions se dessinent.",
+      "ja": "研究が進むにつれて、新たな問いが形をとってくる。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "À mesure que",
+          "start": 0,
+          "end": 12,
+          "gloss": {
+            "lemma": "à mesure que",
+            "pos": "接続詞",
+            "ja": "〜するにつれて",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "la",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "surface": "recherche",
+          "start": 16,
+          "end": 25,
+          "gloss": {
+            "lemma": "recherche",
+            "pos": "名詞",
+            "ja": "研究・探求"
+          }
+        },
+        {
+          "surface": "avance",
+          "start": 26,
+          "end": 32,
+          "gloss": {
+            "lemma": "avancer",
+            "pos": "動詞",
+            "ja": "進む・提示する",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "de nouvelles",
+          "start": 34,
+          "end": 46
+        },
+        {
+          "surface": "questions",
+          "start": 47,
+          "end": 56,
+          "gloss": {
+            "lemma": "question",
+            "pos": "名詞",
+            "ja": "問い・質問"
+          }
+        },
+        {
+          "surface": "se dessinent",
+          "start": 57,
+          "end": 69,
+          "gloss": {
+            "lemma": "se dessiner",
+            "pos": "動詞",
+            "ja": "輪郭を現す・形をとる",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "à mesure que は「〜するにつれて」。se dessiner は「輪郭を現す」。"
+    },
+    {
+      "id": "fr-0221",
+      "lang": "fr",
+      "text": "Il est recommandé que les données soient recoupées avec des sources indépendantes.",
+      "ja": "データは独立した情報源と照合することが推奨される。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "接続法",
+        "受動態"
+      ],
+      "tokens": [
+        {
+          "surface": "Il est recommandé que",
+          "start": 0,
+          "end": 21,
+          "gloss": {
+            "lemma": "il est recommandé que",
+            "pos": "慣用表現",
+            "ja": "〜することが推奨される",
+            "idiom": true,
+            "note": "後ろは接続法"
+          }
+        },
+        {
+          "surface": "les",
+          "start": 22,
+          "end": 25
+        },
+        {
+          "surface": "données",
+          "start": 26,
+          "end": 33,
+          "gloss": {
+            "lemma": "donnée",
+            "pos": "名詞",
+            "ja": "データ・資料"
+          }
+        },
+        {
+          "surface": "soient",
+          "start": 34,
+          "end": 40,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "接続法現在・3人称複数",
+              "tense": "SUBJ",
+              "person": "3pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "recoupées",
+          "start": 41,
+          "end": 50,
+          "gloss": {
+            "lemma": "recouper",
+            "pos": "動詞",
+            "ja": "照合する・突き合わせる",
+            "inflection": {
+              "label": "過去分詞・女性複数"
+            }
+          }
+        },
+        {
+          "surface": "avec des",
+          "start": 51,
+          "end": 59
+        },
+        {
+          "surface": "sources indépendantes",
+          "start": 60,
+          "end": 81,
+          "gloss": {
+            "lemma": "source indépendante",
+            "pos": "名詞句",
+            "ja": "独立した情報源",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0222",
+      "lang": "fr",
+      "text": "Au vu de ce qui a été observé, l'hypothèse initiale perd de sa force.",
+      "ja": "観察された内容に照らすと、当初の仮説は説得力を失う。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Au vu de",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "au vu de",
+            "pos": "慣用表現",
+            "ja": "〜に照らして",
+            "idiom": true,
+            "note": "硬い書き言葉"
+          }
+        },
+        {
+          "surface": "ce qui a été observé",
+          "start": 9,
+          "end": 29,
+          "gloss": {
+            "lemma": "observer",
+            "pos": "動詞",
+            "ja": "観察する",
+            "inflection": {
+              "label": "受動態・複合過去"
+            }
+          }
+        },
+        {
+          "surface": "l'",
+          "start": 31,
+          "end": 33
+        },
+        {
+          "surface": "hypothèse",
+          "start": 33,
+          "end": 42,
+          "gloss": {
+            "lemma": "hypothèse",
+            "pos": "名詞",
+            "ja": "仮説"
+          }
+        },
+        {
+          "surface": "initiale",
+          "start": 43,
+          "end": 51,
+          "gloss": {
+            "lemma": "initial",
+            "pos": "形容詞",
+            "ja": "当初の・最初の",
+            "inflection": {
+              "label": "女性単数"
+            }
+          }
+        },
+        {
+          "surface": "perd",
+          "start": 52,
+          "end": 56,
+          "gloss": {
+            "lemma": "perdre",
+            "pos": "動詞",
+            "ja": "失う・負ける",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "de sa force",
+          "start": 57,
+          "end": 68,
+          "gloss": {
+            "lemma": "force",
+            "pos": "名詞",
+            "ja": "力・説得力"
+          }
+        }
+      ],
+      "grammar": "au vu de は「〜に照らして」という硬い書き言葉。"
+    },
+    {
+      "id": "fr-0223",
+      "lang": "fr",
+      "text": "Aucune étude antérieure n'avait abordé cette question de façon systématique.",
+      "ja": "この問題を体系的に扱った先行研究は存在しなかった。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "大過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Aucune",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "surface": "étude antérieure",
+          "start": 7,
+          "end": 23,
+          "gloss": {
+            "lemma": "étude antérieure",
+            "pos": "名詞句",
+            "ja": "先行研究",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "n'",
+          "start": 24,
+          "end": 26
+        },
+        {
+          "surface": "avait abordé",
+          "start": 26,
+          "end": 38,
+          "gloss": {
+            "lemma": "aborder",
+            "pos": "動詞",
+            "ja": "取り組む・着手する",
+            "inflection": {
+              "label": "大過去・3人称単数",
+              "tense": "PQP",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "cette",
+          "start": 39,
+          "end": 44
+        },
+        {
+          "surface": "question",
+          "start": 45,
+          "end": 53,
+          "gloss": {
+            "lemma": "question",
+            "pos": "名詞",
+            "ja": "問題・問い"
+          }
+        },
+        {
+          "surface": "de façon systématique",
+          "start": 54,
+          "end": 75,
+          "gloss": {
+            "lemma": "de façon systématique",
+            "pos": "慣用表現",
+            "ja": "体系的に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "先行研究の空白を指摘する論文の定型。"
+    },
+    {
+      "id": "fr-0224",
+      "lang": "fr",
+      "text": "Il est probable que de futurs travaux doivent revoir ces présupposés.",
+      "ja": "今後の研究は、これらの前提を見直さざるを得ないだろう。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "接続法"
+      ],
+      "tokens": [
+        {
+          "surface": "Il est probable que",
+          "start": 0,
+          "end": 19,
+          "gloss": {
+            "lemma": "il est probable que",
+            "pos": "慣用表現",
+            "ja": "〜だろう・〜の可能性が高い",
+            "idiom": true,
+            "note": "後ろは接続法"
+          }
+        },
+        {
+          "surface": "de futurs",
+          "start": 20,
+          "end": 29
+        },
+        {
+          "surface": "travaux",
+          "start": 30,
+          "end": 37,
+          "gloss": {
+            "lemma": "travail",
+            "pos": "名詞",
+            "ja": "研究・仕事",
+            "note": "複数形は travaux という不規則形"
+          }
+        },
+        {
+          "surface": "doivent",
+          "start": 38,
+          "end": 45,
+          "gloss": {
+            "lemma": "devoir",
+            "pos": "動詞",
+            "ja": "〜しなければならない",
+            "inflection": {
+              "label": "接続法現在・3人称複数",
+              "tense": "SUBJ",
+              "person": "3pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "revoir",
+          "start": 46,
+          "end": 52,
+          "gloss": {
+            "lemma": "revoir",
+            "pos": "動詞",
+            "ja": "見直す・再会する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "ces",
+          "start": 53,
+          "end": 56
+        },
+        {
+          "surface": "présupposés",
+          "start": 57,
+          "end": 68,
+          "gloss": {
+            "lemma": "présupposé",
+            "pos": "名詞",
+            "ja": "前提・仮定"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0225",
+      "lang": "fr",
+      "text": "Le cadre proposé intègre des apports de disciplines très différentes.",
+      "ja": "提案された枠組みは、大きく異なる分野の知見を統合している。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Le",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "cadre",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "cadre",
+            "pos": "名詞",
+            "ja": "枠組み・額縁"
+          }
+        },
+        {
+          "surface": "proposé",
+          "start": 9,
+          "end": 16,
+          "gloss": {
+            "lemma": "proposer",
+            "pos": "動詞",
+            "ja": "提案する",
+            "inflection": {
+              "label": "過去分詞・男性単数"
+            }
+          }
+        },
+        {
+          "surface": "intègre",
+          "start": 17,
+          "end": 24,
+          "gloss": {
+            "lemma": "intégrer",
+            "pos": "動詞",
+            "ja": "統合する・組み込む",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "des",
+          "start": 25,
+          "end": 28
+        },
+        {
+          "surface": "apports",
+          "start": 29,
+          "end": 36,
+          "gloss": {
+            "lemma": "apport",
+            "pos": "名詞",
+            "ja": "貢献・知見"
+          }
+        },
+        {
+          "surface": "de",
+          "start": 37,
+          "end": 39
+        },
+        {
+          "surface": "disciplines",
+          "start": 40,
+          "end": 51,
+          "gloss": {
+            "lemma": "discipline",
+            "pos": "名詞",
+            "ja": "学問分野・規律"
+          }
+        },
+        {
+          "surface": "très différentes",
+          "start": 52,
+          "end": 68,
+          "gloss": {
+            "lemma": "différent",
+            "pos": "形容詞",
+            "ja": "異なる",
+            "inflection": {
+              "label": "女性複数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0226",
+      "lang": "fr",
+      "text": "Une telle affirmation exigerait des preuves bien plus solides.",
+      "ja": "そのような主張には、はるかに強固な証拠が必要になるだろう。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Une telle",
+          "start": 0,
+          "end": 9,
+          "gloss": {
+            "lemma": "un tel",
+            "pos": "形容詞",
+            "ja": "そのような"
+          }
+        },
+        {
+          "surface": "affirmation",
+          "start": 10,
+          "end": 21,
+          "gloss": {
+            "lemma": "affirmation",
+            "pos": "名詞",
+            "ja": "主張・断言"
+          }
+        },
+        {
+          "surface": "exigerait",
+          "start": 22,
+          "end": 31,
+          "gloss": {
+            "lemma": "exiger",
+            "pos": "動詞",
+            "ja": "要求する",
+            "inflection": {
+              "label": "条件法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "des",
+          "start": 32,
+          "end": 35
+        },
+        {
+          "surface": "preuves",
+          "start": 36,
+          "end": 43,
+          "gloss": {
+            "lemma": "preuve",
+            "pos": "名詞",
+            "ja": "証拠"
+          }
+        },
+        {
+          "surface": "bien plus",
+          "start": 44,
+          "end": 53
+        },
+        {
+          "surface": "solides",
+          "start": 54,
+          "end": 61,
+          "gloss": {
+            "lemma": "solide",
+            "pos": "形容詞",
+            "ja": "堅固な・確かな",
+            "inflection": {
+              "label": "複数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0227",
+      "lang": "fr",
+      "text": "Les résultats présentés ici tiendraient difficilement sans ce présupposé.",
+      "ja": "ここで示した結果は、その前提なしにはほとんど成り立たないだろう。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "条件法現在",
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Les",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "résultats",
+          "start": 4,
+          "end": 13,
+          "gloss": {
+            "lemma": "résultat",
+            "pos": "名詞",
+            "ja": "結果"
+          }
+        },
+        {
+          "surface": "présentés",
+          "start": 14,
+          "end": 23,
+          "gloss": {
+            "lemma": "présenter",
+            "pos": "動詞",
+            "ja": "提示する・紹介する",
+            "inflection": {
+              "label": "過去分詞・男性複数"
+            }
+          }
+        },
+        {
+          "surface": "ici",
+          "start": 24,
+          "end": 27
+        },
+        {
+          "surface": "tiendraient",
+          "start": 28,
+          "end": 39,
+          "gloss": {
+            "lemma": "tenir",
+            "pos": "動詞",
+            "ja": "持つ・保つ・成り立つ",
+            "inflection": {
+              "label": "条件法現在・3人称複数",
+              "tense": "COND",
+              "person": "3pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "difficilement",
+          "start": 40,
+          "end": 53,
+          "gloss": {
+            "lemma": "difficilement",
+            "pos": "副詞",
+            "ja": "ほとんど〜ない・困難に"
+          }
+        },
+        {
+          "surface": "sans ce",
+          "start": 54,
+          "end": 61
+        },
+        {
+          "surface": "présupposé",
+          "start": 62,
+          "end": 72,
+          "gloss": {
+            "lemma": "présupposé",
+            "pos": "名詞",
+            "ja": "前提・仮定"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0228",
+      "lang": "fr",
+      "text": "La première hypothèse a été écartée faute d'appui empirique.",
+      "ja": "実証的裏付けを欠くため、第一の仮説は棄却された。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "受動態"
+      ],
+      "tokens": [
+        {
+          "surface": "La première",
+          "start": 0,
+          "end": 11
+        },
+        {
+          "surface": "hypothèse",
+          "start": 12,
+          "end": 21,
+          "gloss": {
+            "lemma": "hypothèse",
+            "pos": "名詞",
+            "ja": "仮説"
+          }
+        },
+        {
+          "surface": "a été écartée",
+          "start": 22,
+          "end": 35,
+          "gloss": {
+            "lemma": "écarter",
+            "pos": "動詞",
+            "ja": "退ける・遠ざける",
+            "inflection": {
+              "label": "受動態・複合過去・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "faute d'",
+          "start": 36,
+          "end": 44,
+          "gloss": {
+            "lemma": "faute de",
+            "pos": "慣用表現",
+            "ja": "〜がないために",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "appui empirique",
+          "start": 44,
+          "end": 59,
+          "gloss": {
+            "lemma": "appui empirique",
+            "pos": "名詞句",
+            "ja": "実証的裏付け",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "faute de は「〜がないために」。理由を簡潔に示す書き言葉。"
+    },
+    {
+      "id": "fr-0229",
+      "lang": "fr",
+      "text": "L'analyse, loin de trancher la controverse, l'a ravivée.",
+      "ja": "この分析は論争に決着をつけるどころか、むしろ再燃させた。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "L'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "analyse",
+          "start": 2,
+          "end": 9,
+          "gloss": {
+            "lemma": "analyse",
+            "pos": "名詞",
+            "ja": "分析"
+          }
+        },
+        {
+          "surface": "loin de",
+          "start": 11,
+          "end": 18,
+          "gloss": {
+            "lemma": "loin de + 不定詞",
+            "pos": "慣用表現",
+            "ja": "〜するどころか",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "trancher",
+          "start": 19,
+          "end": 27,
+          "gloss": {
+            "lemma": "trancher",
+            "pos": "動詞",
+            "ja": "決着をつける・切る",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 28,
+          "end": 30
+        },
+        {
+          "surface": "controverse",
+          "start": 31,
+          "end": 42,
+          "gloss": {
+            "lemma": "controverse",
+            "pos": "名詞",
+            "ja": "論争"
+          }
+        },
+        {
+          "surface": "l'a ravivée",
+          "start": 44,
+          "end": 55,
+          "gloss": {
+            "lemma": "raviver",
+            "pos": "動詞",
+            "ja": "再燃させる・よみがえらせる",
+            "inflection": {
+              "label": "複合過去・3人称単数（直接目的語の先行で女性一致）"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0230",
+      "lang": "fr",
+      "text": "Il importe de distinguer corrélation et causalité, si évident que cela paraisse.",
+      "ja": "自明に思えても、相関と因果は区別すべきである。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "接続法"
+      ],
+      "tokens": [
+        {
+          "surface": "Il importe de",
+          "start": 0,
+          "end": 13,
+          "gloss": {
+            "lemma": "il importe de",
+            "pos": "慣用表現",
+            "ja": "〜することが重要だ",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "distinguer",
+          "start": 14,
+          "end": 24,
+          "gloss": {
+            "lemma": "distinguer",
+            "pos": "動詞",
+            "ja": "区別する・見分ける",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "corrélation",
+          "start": 25,
+          "end": 36,
+          "gloss": {
+            "lemma": "corrélation",
+            "pos": "名詞",
+            "ja": "相関"
+          }
+        },
+        {
+          "surface": "causalité",
+          "start": 40,
+          "end": 49,
+          "gloss": {
+            "lemma": "causalité",
+            "pos": "名詞",
+            "ja": "因果性"
+          }
+        },
+        {
+          "surface": "si évident que",
+          "start": 51,
+          "end": 65,
+          "gloss": {
+            "lemma": "si... que + 接続法",
+            "pos": "慣用表現",
+            "ja": "どれほど〜でも",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "cela",
+          "start": 66,
+          "end": 70
+        },
+        {
+          "surface": "paraisse",
+          "start": 71,
+          "end": 79,
+          "gloss": {
+            "lemma": "paraître",
+            "pos": "動詞",
+            "ja": "現れる・〜に見える",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        }
+      ],
+      "grammar": "il importe de は「〜することが重要だ」。si + 形容詞 + que + 接続法で譲歩。"
+    },
+    {
+      "id": "fr-0231",
+      "lang": "fr",
+      "text": "Il faudrait repenser le protocole avant de recueillir davantage de données.",
+      "ja": "さらにデータを集める前に、実験手順を練り直す必要があるだろう。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "faudrait",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "falloir",
+            "pos": "動詞",
+            "ja": "〜する必要がある",
+            "note": "条件法にすると控えめな提案になる",
+            "inflection": {
+              "label": "条件法現在・3人称単数",
+              "tense": "COND",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "repenser",
+          "start": 12,
+          "end": 20,
+          "gloss": {
+            "lemma": "repenser",
+            "pos": "動詞",
+            "ja": "練り直す・再考する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "le",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "protocole",
+          "start": 24,
+          "end": 33,
+          "gloss": {
+            "lemma": "protocole",
+            "pos": "名詞",
+            "ja": "実験手順・規約"
+          }
+        },
+        {
+          "surface": "avant de",
+          "start": 34,
+          "end": 42
+        },
+        {
+          "surface": "recueillir",
+          "start": 43,
+          "end": 53,
+          "gloss": {
+            "lemma": "recueillir",
+            "pos": "動詞",
+            "ja": "収集する・受け入れる",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "davantage de",
+          "start": 54,
+          "end": 66,
+          "gloss": {
+            "lemma": "davantage de",
+            "pos": "慣用表現",
+            "ja": "より多くの",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "données",
+          "start": 67,
+          "end": 74,
+          "gloss": {
+            "lemma": "donnée",
+            "pos": "名詞",
+            "ja": "データ・資料"
+          }
+        }
+      ],
+      "grammar": "il faudrait は falloir の条件法で「〜する必要があるだろう」。控えめな提案。"
+    },
+    {
+      "id": "fr-0232",
+      "lang": "fr",
+      "text": "Plus l'échantillon est grand, plus la marge d'erreur se réduit.",
+      "ja": "標本が大きいほど、誤差の幅は小さくなる。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Plus",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "plus... plus...",
+            "pos": "慣用表現",
+            "ja": "〜すればするほど",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "l'",
+          "start": 5,
+          "end": 7
+        },
+        {
+          "surface": "échantillon",
+          "start": 7,
+          "end": 18,
+          "gloss": {
+            "lemma": "échantillon",
+            "pos": "名詞",
+            "ja": "標本・サンプル"
+          }
+        },
+        {
+          "surface": "est",
+          "start": 19,
+          "end": 22,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "grand",
+          "start": 23,
+          "end": 28,
+          "gloss": {
+            "lemma": "grand",
+            "pos": "形容詞",
+            "ja": "大きい"
+          }
+        },
+        {
+          "surface": "la marge d'erreur",
+          "start": 35,
+          "end": 52,
+          "gloss": {
+            "lemma": "marge d'erreur",
+            "pos": "名詞句",
+            "ja": "誤差の幅",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "se réduit",
+          "start": 53,
+          "end": 62,
+          "gloss": {
+            "lemma": "réduire",
+            "pos": "動詞",
+            "ja": "削減する・縮小する",
+            "inflection": {
+              "label": "直説法現在・3人称単数（代名動詞）"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0233",
+      "lang": "fr",
+      "text": "La revue de littérature a été menée en suivant des critères explicites.",
+      "ja": "文献レビューは明示的な基準に従って実施された。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "受動態",
+        "現在分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "La revue de littérature",
+          "start": 0,
+          "end": 23,
+          "gloss": {
+            "lemma": "revue de littérature",
+            "pos": "名詞句",
+            "ja": "文献レビュー",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "a été menée",
+          "start": 24,
+          "end": 35,
+          "gloss": {
+            "lemma": "mener",
+            "pos": "動詞",
+            "ja": "導く・行う",
+            "inflection": {
+              "label": "受動態・複合過去・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "en",
+          "start": 36,
+          "end": 38
+        },
+        {
+          "surface": "suivant",
+          "start": 39,
+          "end": 46,
+          "gloss": {
+            "lemma": "suivre",
+            "pos": "動詞",
+            "ja": "ついていく・従う",
+            "note": "en + 現在分詞でジェロンディフ",
+            "inflection": {
+              "label": "現在分詞",
+              "tense": "PPRES",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "des",
+          "start": 47,
+          "end": 50
+        },
+        {
+          "surface": "critères",
+          "start": 51,
+          "end": 59,
+          "gloss": {
+            "lemma": "critère",
+            "pos": "名詞",
+            "ja": "基準・判断"
+          }
+        },
+        {
+          "surface": "explicites",
+          "start": 60,
+          "end": 70,
+          "gloss": {
+            "lemma": "explicite",
+            "pos": "形容詞",
+            "ja": "明示的な",
+            "inflection": {
+              "label": "複数"
+            }
+          }
+        }
+      ],
+      "grammar": "en + 現在分詞（ジェロンディフ）で「〜しながら・〜に従って」。"
+    },
+    {
+      "id": "fr-0234",
+      "lang": "fr",
+      "text": "Tout en reconnaissant ses limites, le modèle demeure utile.",
+      "ja": "限界を認めたうえでも、このモデルは依然として有用である。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "現在分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Tout en",
+          "start": 0,
+          "end": 7,
+          "gloss": {
+            "lemma": "tout en + 現在分詞",
+            "pos": "慣用表現",
+            "ja": "〜しながらも",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "reconnaissant",
+          "start": 8,
+          "end": 21,
+          "gloss": {
+            "lemma": "reconnaître",
+            "pos": "動詞",
+            "ja": "認める・見分ける",
+            "inflection": {
+              "label": "現在分詞"
+            }
+          }
+        },
+        {
+          "surface": "ses",
+          "start": 22,
+          "end": 25
+        },
+        {
+          "surface": "limites",
+          "start": 26,
+          "end": 33,
+          "gloss": {
+            "lemma": "limite",
+            "pos": "名詞",
+            "ja": "限界・境界"
+          }
+        },
+        {
+          "surface": "le",
+          "start": 35,
+          "end": 37
+        },
+        {
+          "surface": "modèle",
+          "start": 38,
+          "end": 44,
+          "gloss": {
+            "lemma": "modèle",
+            "pos": "名詞",
+            "ja": "モデル・模型"
+          }
+        },
+        {
+          "surface": "demeure",
+          "start": 45,
+          "end": 52,
+          "gloss": {
+            "lemma": "demeurer",
+            "pos": "動詞",
+            "ja": "とどまる・残る",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "utile",
+          "start": 53,
+          "end": 58,
+          "gloss": {
+            "lemma": "utile",
+            "pos": "形容詞",
+            "ja": "有用な・役に立つ"
+          }
+        }
+      ],
+      "grammar": "tout en + 現在分詞で「〜しながらも」という譲歩。"
+    },
+    {
+      "id": "fr-0235",
+      "lang": "fr",
+      "text": "Les auteurs signalent que leurs conclusions ne sont pas transposables.",
+      "ja": "著者らは、自らの結論が他へは適用できないと指摘している。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Les",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "auteurs",
+          "start": 4,
+          "end": 11,
+          "gloss": {
+            "lemma": "auteur",
+            "pos": "名詞",
+            "ja": "著者・作者"
+          }
+        },
+        {
+          "surface": "signalent",
+          "start": 12,
+          "end": 21,
+          "gloss": {
+            "lemma": "signaler",
+            "pos": "動詞",
+            "ja": "指摘する・知らせる",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "PRES",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 22,
+          "end": 25
+        },
+        {
+          "surface": "leurs",
+          "start": 26,
+          "end": 31
+        },
+        {
+          "surface": "conclusions",
+          "start": 32,
+          "end": 43,
+          "gloss": {
+            "lemma": "conclusion",
+            "pos": "名詞",
+            "ja": "結論"
+          }
+        },
+        {
+          "surface": "ne",
+          "start": 44,
+          "end": 46
+        },
+        {
+          "surface": "sont",
+          "start": 47,
+          "end": 51,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "PRES",
+              "person": "3pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas",
+          "start": 52,
+          "end": 55
+        },
+        {
+          "surface": "transposables",
+          "start": 56,
+          "end": 69,
+          "gloss": {
+            "lemma": "transposable",
+            "pos": "形容詞",
+            "ja": "適用できる・移し替えられる",
+            "inflection": {
+              "label": "複数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0236",
+      "lang": "fr",
+      "text": "Si cette variable avait été contrôlée, les résultats auraient différé.",
+      "ja": "その変数を統制していれば、結果は異なっていただろう。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "条件法過去",
+        "大過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Si",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "cette",
+          "start": 3,
+          "end": 8
+        },
+        {
+          "surface": "variable",
+          "start": 9,
+          "end": 17,
+          "gloss": {
+            "lemma": "variable",
+            "pos": "名詞",
+            "ja": "変数"
+          }
+        },
+        {
+          "surface": "avait été contrôlée",
+          "start": 18,
+          "end": 37,
+          "gloss": {
+            "lemma": "contrôler",
+            "pos": "動詞",
+            "ja": "統制する・点検する",
+            "inflection": {
+              "label": "受動態・大過去・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "les",
+          "start": 39,
+          "end": 42
+        },
+        {
+          "surface": "résultats",
+          "start": 43,
+          "end": 52,
+          "gloss": {
+            "lemma": "résultat",
+            "pos": "名詞",
+            "ja": "結果"
+          }
+        },
+        {
+          "surface": "auraient différé",
+          "start": 53,
+          "end": 69,
+          "gloss": {
+            "lemma": "différer",
+            "pos": "動詞",
+            "ja": "異なる・延期する",
+            "inflection": {
+              "label": "条件法過去・3人称複数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0237",
+      "lang": "fr",
+      "text": "Ce travail apporte des nuances que la littérature antérieure avait négligées.",
+      "ja": "この研究は、先行文献が見落としていた細部を補っている。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "大過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Ce",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "travail",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "travail",
+            "pos": "名詞",
+            "ja": "研究・仕事"
+          }
+        },
+        {
+          "surface": "apporte",
+          "start": 11,
+          "end": 18,
+          "gloss": {
+            "lemma": "apporter",
+            "pos": "動詞",
+            "ja": "持ってくる・もたらす",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "des",
+          "start": 19,
+          "end": 22
+        },
+        {
+          "surface": "nuances",
+          "start": 23,
+          "end": 30,
+          "gloss": {
+            "lemma": "nuance",
+            "pos": "名詞",
+            "ja": "ニュアンス・細部"
+          }
+        },
+        {
+          "surface": "que",
+          "start": 31,
+          "end": 34
+        },
+        {
+          "surface": "la littérature antérieure",
+          "start": 35,
+          "end": 60,
+          "gloss": {
+            "lemma": "littérature antérieure",
+            "pos": "名詞句",
+            "ja": "先行文献",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "avait négligées",
+          "start": 61,
+          "end": 76,
+          "gloss": {
+            "lemma": "négliger",
+            "pos": "動詞",
+            "ja": "軽視する・怠る",
+            "inflection": {
+              "label": "大過去・3人称単数（直接目的語の先行で女性複数一致）"
+            }
+          }
+        }
+      ],
+      "grammar": "先行する直接目的語（nuances）に過去分詞が性数一致して négligées になる。"
+    },
+    {
+      "id": "fr-0238",
+      "lang": "fr",
+      "text": "Quelle que soit l'approche, l'échantillon conditionne les résultats.",
+      "ja": "どのようなアプローチであれ、標本が結果を左右する。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "接続法"
+      ],
+      "tokens": [
+        {
+          "surface": "Quelle que soit",
+          "start": 0,
+          "end": 15,
+          "gloss": {
+            "lemma": "quel que soit",
+            "pos": "慣用表現",
+            "ja": "どのような〜であれ",
+            "idiom": true,
+            "note": "quel は後ろの名詞に性数一致する"
+          }
+        },
+        {
+          "surface": "l'",
+          "start": 16,
+          "end": 18
+        },
+        {
+          "surface": "approche",
+          "start": 18,
+          "end": 26,
+          "gloss": {
+            "lemma": "approche",
+            "pos": "名詞",
+            "ja": "アプローチ・接近"
+          }
+        },
+        {
+          "surface": "l'",
+          "start": 28,
+          "end": 30
+        },
+        {
+          "surface": "échantillon",
+          "start": 30,
+          "end": 41,
+          "gloss": {
+            "lemma": "échantillon",
+            "pos": "名詞",
+            "ja": "標本・サンプル"
+          }
+        },
+        {
+          "surface": "conditionne",
+          "start": 42,
+          "end": 53,
+          "gloss": {
+            "lemma": "conditionner",
+            "pos": "動詞",
+            "ja": "左右する・条件づける",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "les",
+          "start": 54,
+          "end": 57
+        },
+        {
+          "surface": "résultats",
+          "start": 58,
+          "end": 67,
+          "gloss": {
+            "lemma": "résultat",
+            "pos": "名詞",
+            "ja": "結果"
+          }
+        }
+      ],
+      "grammar": "quel que soit は「どのような〜であれ」。quel が後ろの名詞に性数一致する。"
+    },
+    {
+      "id": "fr-0239",
+      "lang": "fr",
+      "text": "Nous remercions les relecteurs des commentaires formulés sur le manuscrit.",
+      "ja": "原稿に寄せられた査読者のコメントに感謝する。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Nous",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "surface": "remercions",
+          "start": 5,
+          "end": 15,
+          "gloss": {
+            "lemma": "remercier",
+            "pos": "動詞",
+            "ja": "感謝する",
+            "inflection": {
+              "label": "直説法現在・1人称複数"
+            }
+          }
+        },
+        {
+          "surface": "les",
+          "start": 16,
+          "end": 19
+        },
+        {
+          "surface": "relecteurs",
+          "start": 20,
+          "end": 30,
+          "gloss": {
+            "lemma": "relecteur",
+            "pos": "名詞",
+            "ja": "査読者・校閲者"
+          }
+        },
+        {
+          "surface": "des",
+          "start": 31,
+          "end": 34
+        },
+        {
+          "surface": "commentaires",
+          "start": 35,
+          "end": 47,
+          "gloss": {
+            "lemma": "commentaire",
+            "pos": "名詞",
+            "ja": "コメント・注釈"
+          }
+        },
+        {
+          "surface": "formulés",
+          "start": 48,
+          "end": 56,
+          "gloss": {
+            "lemma": "formuler",
+            "pos": "動詞",
+            "ja": "述べる・定式化する",
+            "inflection": {
+              "label": "過去分詞・男性複数"
+            }
+          }
+        },
+        {
+          "surface": "sur le",
+          "start": 57,
+          "end": 63
+        },
+        {
+          "surface": "manuscrit",
+          "start": 64,
+          "end": 73,
+          "gloss": {
+            "lemma": "manuscrit",
+            "pos": "名詞",
+            "ja": "原稿"
+          }
+        }
+      ],
+      "grammar": "論文の謝辞の定型。remercier qqn de qqch で「〜について人に感謝する」。"
+    },
+    {
+      "id": "fr-0240",
+      "lang": "fr",
+      "text": "Il reste à déterminer dans quelle mesure l'effet est durable.",
+      "ja": "その効果がどこまで持続するかの解明は今後の課題である。",
+      "level": "C1",
+      "tags": [
+        "学術",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Il reste à",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "il reste à + 不定詞",
+            "pos": "慣用表現",
+            "ja": "〜することが今後の課題である",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "déterminer",
+          "start": 11,
+          "end": 21,
+          "gloss": {
+            "lemma": "déterminer",
+            "pos": "動詞",
+            "ja": "決定する・特定する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "dans quelle mesure",
+          "start": 22,
+          "end": 40,
+          "gloss": {
+            "lemma": "dans quelle mesure",
+            "pos": "慣用表現",
+            "ja": "どこまで・どの程度",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "l'",
+          "start": 41,
+          "end": 43
+        },
+        {
+          "surface": "effet",
+          "start": 43,
+          "end": 48,
+          "gloss": {
+            "lemma": "effet",
+            "pos": "名詞",
+            "ja": "効果・影響"
+          }
+        },
+        {
+          "surface": "est",
+          "start": 49,
+          "end": 52,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "durable",
+          "start": 53,
+          "end": 60,
+          "gloss": {
+            "lemma": "durable",
+            "pos": "形容詞",
+            "ja": "持続的な・長続きする"
+          }
+        }
+      ],
+      "grammar": "il reste à + 不定詞は「〜することが残っている」。論文の結びで今後の課題を示す。"
     }
   ]
 }
