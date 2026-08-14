@@ -19017,6 +19017,2763 @@
         }
       ],
       "grammar": "quedar pendiente は「未解決のまま残る」。論文の結びで今後の課題を示す型。"
+    },
+    {
+      "id": "es-0241",
+      "lang": "es",
+      "text": "Como sigas así, vas a acabar mal.",
+      "ja": "そんな調子を続けてたら、ろくなことにならないぞ。",
+      "level": "C1",
+      "tags": [
+        "口語",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Como",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "como + 接続法",
+            "pos": "接続詞",
+            "ja": "もし〜したら",
+            "idiom": true,
+            "note": "警告の含みを持つ条件。後ろは接続法"
+          }
+        },
+        {
+          "surface": "sigas",
+          "start": 5,
+          "end": 10,
+          "gloss": {
+            "lemma": "seguir",
+            "pos": "動詞",
+            "ja": "続ける・ついていく",
+            "inflection": {
+              "label": "接続法現在・2人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "2sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（segu- → sig-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "así",
+          "start": 11,
+          "end": 14,
+          "gloss": {
+            "lemma": "así",
+            "pos": "副詞",
+            "ja": "そのように"
+          }
+        },
+        {
+          "surface": "vas",
+          "start": 16,
+          "end": 19,
+          "gloss": {
+            "lemma": "ir",
+            "pos": "動詞",
+            "ja": "行く",
+            "note": "ir a + 不定詞で近接未来",
+            "inflection": {
+              "label": "直説法現在・2人称単数",
+              "tense": "IND_PRES",
+              "person": "2sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は voy / vas / va / vamos / vais / van と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "a",
+          "start": 20,
+          "end": 21
+        },
+        {
+          "surface": "acabar mal",
+          "start": 22,
+          "end": 32,
+          "gloss": {
+            "lemma": "acabar mal",
+            "pos": "慣用表現",
+            "ja": "ろくな結果にならない",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "como + 接続法は「もし〜したら」という警告の条件。si より脅しの含みが強い。"
+    },
+    {
+      "id": "es-0242",
+      "lang": "es",
+      "text": "No es por nada, pero te lo dije.",
+      "ja": "別に責めるわけじゃないけど、だから言ったでしょ。",
+      "level": "C1",
+      "tags": [
+        "口語",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "No es por nada",
+          "start": 0,
+          "end": 14,
+          "gloss": {
+            "lemma": "no es por nada, pero",
+            "pos": "慣用表現",
+            "ja": "別に他意はないけど",
+            "idiom": true,
+            "note": "本音を言う前の前置き"
+          }
+        },
+        {
+          "surface": "te",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "lo",
+          "start": 24,
+          "end": 26
+        },
+        {
+          "surface": "dije",
+          "start": 27,
+          "end": 31,
+          "gloss": {
+            "lemma": "decir",
+            "pos": "動詞",
+            "ja": "言う",
+            "inflection": {
+              "label": "直説法点過去・1人称単数",
+              "tense": "IND_PRET",
+              "person": "1sg",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は dije / dijiste / dijo / dijimos / dijisteis / dijeron と変化する"
+              }
+            }
+          }
+        }
+      ],
+      "grammar": "no es por nada, pero は本音を言う前の前置き。「悪いけど」に近い。"
+    },
+    {
+      "id": "es-0243",
+      "lang": "es",
+      "text": "Se me está haciendo bola este trabajo.",
+      "ja": "この仕事、だんだん手に負えなくなってきた。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "現在分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Se",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "me",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "está",
+          "start": 6,
+          "end": 10,
+          "gloss": {
+            "lemma": "estar",
+            "pos": "動詞",
+            "ja": "〜にいる・〜の状態である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は estoy / estás / está / estamos / estáis / están と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "haciendo",
+          "start": 11,
+          "end": 19,
+          "gloss": {
+            "lemma": "hacer",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "現在分詞（動名詞）",
+              "tense": "GER"
+            }
+          }
+        },
+        {
+          "surface": "bola",
+          "start": 20,
+          "end": 24,
+          "gloss": {
+            "lemma": "hacérsele bola",
+            "pos": "慣用表現",
+            "ja": "手に負えなくなる",
+            "idiom": true,
+            "note": "口語"
+          }
+        },
+        {
+          "surface": "este",
+          "start": 25,
+          "end": 29
+        },
+        {
+          "surface": "trabajo",
+          "start": 30,
+          "end": 37,
+          "gloss": {
+            "lemma": "trabajo",
+            "pos": "名詞",
+            "ja": "仕事"
+          }
+        }
+      ],
+      "grammar": "hacérsele bola a uno は「手に負えなくなる」という口語表現。"
+    },
+    {
+      "id": "es-0244",
+      "lang": "es",
+      "text": "Anda que no te lo advertí veces.",
+      "ja": "何度も忠告したのに、まったく。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Anda que no",
+          "start": 0,
+          "end": 11,
+          "gloss": {
+            "lemma": "anda que no",
+            "pos": "慣用表現",
+            "ja": "まったく〜したものだ",
+            "idiom": true,
+            "note": "形は否定だが意味は強い肯定。皮肉な口語"
+          }
+        },
+        {
+          "surface": "te",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "lo",
+          "start": 15,
+          "end": 17
+        },
+        {
+          "surface": "advertí",
+          "start": 18,
+          "end": 25,
+          "gloss": {
+            "lemma": "advertir",
+            "pos": "動詞",
+            "ja": "警告する・気づく",
+            "inflection": {
+              "label": "直説法点過去・1人称単数",
+              "tense": "IND_PRET",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "veces",
+          "start": 26,
+          "end": 31,
+          "gloss": {
+            "lemma": "vez",
+            "pos": "名詞",
+            "ja": "回・度"
+          }
+        }
+      ],
+      "grammar": "anda que no + 動詞 は形は否定でも意味は強い肯定になる皮肉な言い方。"
+    },
+    {
+      "id": "es-0245",
+      "lang": "es",
+      "text": "Ni que fuera el fin del mundo.",
+      "ja": "この世の終わりでもあるまいし。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "接続法過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Ni que",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "ni que + 接続法過去",
+            "pos": "慣用表現",
+            "ja": "〜でもあるまいし",
+            "idiom": true,
+            "note": "大げさな態度をたしなめる口語"
+          }
+        },
+        {
+          "surface": "fuera",
+          "start": 7,
+          "end": 12,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "接続法過去・3人称単数",
+              "tense": "SUBJ_IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は fuera / fueras / fuera / fuéramos / fuerais / fueran と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "el fin del mundo",
+          "start": 13,
+          "end": 29,
+          "gloss": {
+            "lemma": "el fin del mundo",
+            "pos": "名詞句",
+            "ja": "この世の終わり",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "ni que + 接続法過去で「〜でもあるまいし」。相手の大げさな態度をたしなめる。"
+    },
+    {
+      "id": "es-0246",
+      "lang": "es",
+      "text": "Menuda cara tiene el tío.",
+      "ja": "あいつ、よくもまあそんな図々しいことを。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Menuda",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "menudo",
+            "pos": "形容詞",
+            "ja": "たいした〜（皮肉）",
+            "note": "口語では皮肉の強調",
+            "inflection": {
+              "label": "女性単数"
+            }
+          }
+        },
+        {
+          "surface": "cara",
+          "start": 7,
+          "end": 11,
+          "gloss": {
+            "lemma": "tener cara",
+            "pos": "慣用表現",
+            "ja": "厚かましい・図々しい",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "tiene",
+          "start": 12,
+          "end": 17,
+          "gloss": {
+            "lemma": "tener",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が ie に変わる（ten- → tien-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "el",
+          "start": 18,
+          "end": 20
+        },
+        {
+          "surface": "tío",
+          "start": 21,
+          "end": 24,
+          "gloss": {
+            "lemma": "tío",
+            "pos": "名詞",
+            "ja": "おじ・（口語で）やつ・男",
+            "note": "口語では「やつ」の意味"
+          }
+        }
+      ],
+      "grammar": "menudo/menuda は「たいした〜」だが、口語では皮肉として使う。tener cara は「厚かましい」。"
+    },
+    {
+      "id": "es-0247",
+      "lang": "es",
+      "text": "Como que me voy a creer eso.",
+      "ja": "そんな話、信じるわけないでしょ。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Como que",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "como que",
+            "pos": "慣用表現",
+            "ja": "〜するわけがない",
+            "idiom": true,
+            "note": "形は肯定だが意味は強い否定"
+          }
+        },
+        {
+          "surface": "me",
+          "start": 9,
+          "end": 11
+        },
+        {
+          "surface": "voy",
+          "start": 12,
+          "end": 15,
+          "gloss": {
+            "lemma": "ir",
+            "pos": "動詞",
+            "ja": "行く",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は voy / vas / va / vamos / vais / van と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "a",
+          "start": 16,
+          "end": 17
+        },
+        {
+          "surface": "creer",
+          "start": 18,
+          "end": 23,
+          "gloss": {
+            "lemma": "creer",
+            "pos": "動詞",
+            "ja": "信じる・思う",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "eso",
+          "start": 24,
+          "end": 27,
+          "gloss": {
+            "lemma": "eso",
+            "pos": "代名詞",
+            "ja": "それ"
+          }
+        }
+      ],
+      "grammar": "como que + 直説法は、形は肯定でも「そんなわけない」という強い否定になる。"
+    },
+    {
+      "id": "es-0248",
+      "lang": "es",
+      "text": "Lo dejamos estar, que ya es tarde.",
+      "ja": "この話はもうやめとこう、遅いし。",
+      "level": "C1",
+      "tags": [
+        "口語",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Lo",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "dejamos",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "dejar",
+            "pos": "動詞",
+            "ja": "置いていく・やめる",
+            "inflection": {
+              "label": "直説法現在・1人称複数",
+              "tense": "IND_PRES",
+              "person": "1pl"
+            }
+          }
+        },
+        {
+          "surface": "estar",
+          "start": 11,
+          "end": 16,
+          "gloss": {
+            "lemma": "dejar estar",
+            "pos": "慣用表現",
+            "ja": "そのままにしておく",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "que",
+          "start": 18,
+          "end": 21,
+          "gloss": {
+            "lemma": "que",
+            "pos": "接続詞",
+            "ja": "〜だから",
+            "note": "文末に置くと理由を添える口語"
+          }
+        },
+        {
+          "surface": "ya",
+          "start": 22,
+          "end": 24,
+          "gloss": {
+            "lemma": "ya",
+            "pos": "副詞",
+            "ja": "もう"
+          }
+        },
+        {
+          "surface": "es",
+          "start": 25,
+          "end": 27,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "tarde",
+          "start": 28,
+          "end": 33,
+          "gloss": {
+            "lemma": "tarde",
+            "pos": "副詞",
+            "ja": "遅く"
+          }
+        }
+      ],
+      "grammar": "dejar estar は「そのままにしておく・触れないでおく」。文末の que は理由を添える口語。"
+    },
+    {
+      "id": "es-0249",
+      "lang": "es",
+      "text": "A mí que no me cuenten milongas.",
+      "ja": "俺には作り話は通用しないぞ。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "A mí",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "surface": "que",
+          "start": 5,
+          "end": 8
+        },
+        {
+          "surface": "no",
+          "start": 9,
+          "end": 11
+        },
+        {
+          "surface": "me",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "cuenten",
+          "start": 15,
+          "end": 22,
+          "gloss": {
+            "lemma": "contar",
+            "pos": "動詞",
+            "ja": "数える・語る",
+            "inflection": {
+              "label": "接続法現在・3人称複数",
+              "tense": "SUBJ_PRES",
+              "person": "3pl",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の o が ue に変わる（cont- → cuent-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "milongas",
+          "start": 23,
+          "end": 31,
+          "gloss": {
+            "lemma": "contar milongas",
+            "pos": "慣用表現",
+            "ja": "でたらめを並べる",
+            "idiom": true,
+            "note": "口語"
+          }
+        }
+      ],
+      "grammar": "contar milongas は「でたらめを並べる」。que + 接続法で拒絶を表す口語。"
+    },
+    {
+      "id": "es-0250",
+      "lang": "es",
+      "text": "Se le fue la olla por completo.",
+      "ja": "あいつ、完全に頭がどうかしてる。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Se",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "le",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "fue",
+          "start": 6,
+          "end": 9,
+          "gloss": {
+            "lemma": "ir",
+            "pos": "動詞",
+            "ja": "行く",
+            "inflection": {
+              "label": "直説法点過去・3人称単数",
+              "tense": "IND_PRET",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は fui / fuiste / fue / fuimos / fuisteis / fueron と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "la olla",
+          "start": 10,
+          "end": 17,
+          "gloss": {
+            "lemma": "írsele la olla",
+            "pos": "慣用表現",
+            "ja": "正気を失う・気が変になる",
+            "idiom": true,
+            "note": "くだけた口語"
+          }
+        },
+        {
+          "surface": "por completo",
+          "start": 18,
+          "end": 30,
+          "gloss": {
+            "lemma": "por completo",
+            "pos": "慣用表現",
+            "ja": "完全に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "írsele la olla a uno は「正気を失う・気が変になる」というくだけた表現。"
+    },
+    {
+      "id": "es-0251",
+      "lang": "es",
+      "text": "Vaya tela con lo que ha pasado hoy.",
+      "ja": "今日の出来事、まったくとんでもないな。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "直説法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Vaya tela",
+          "start": 0,
+          "end": 9,
+          "gloss": {
+            "lemma": "vaya tela",
+            "pos": "慣用表現",
+            "ja": "まったくとんでもない",
+            "idiom": true,
+            "note": "驚き・呆れを表す口語"
+          }
+        },
+        {
+          "surface": "con lo que",
+          "start": 10,
+          "end": 20,
+          "gloss": {
+            "lemma": "lo que",
+            "pos": "慣用表現",
+            "ja": "〜すること",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "ha pasado",
+          "start": 21,
+          "end": 30,
+          "gloss": {
+            "lemma": "pasar",
+            "pos": "動詞",
+            "ja": "通る・過ごす・起こる",
+            "inflection": {
+              "label": "直説法現在完了・3人称単数",
+              "tense": "IND_PERF",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "hoy",
+          "start": 31,
+          "end": 34,
+          "gloss": {
+            "lemma": "hoy",
+            "pos": "副詞",
+            "ja": "今日"
+          }
+        }
+      ],
+      "grammar": "vaya tela は驚きや呆れを表す間投詞的な口語。"
+    },
+    {
+      "id": "es-0252",
+      "lang": "es",
+      "text": "No me vengas ahora con excusas.",
+      "ja": "今さら言い訳なんかしないでよ。",
+      "level": "C1",
+      "tags": [
+        "口語",
+        "接続法現在",
+        "否定命令"
+      ],
+      "tokens": [
+        {
+          "surface": "No",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "me",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "vengas",
+          "start": 6,
+          "end": 12,
+          "gloss": {
+            "lemma": "venir",
+            "pos": "動詞",
+            "ja": "来る",
+            "note": "否定命令なので接続法。venir con で「〜を持ち出す」",
+            "inflection": {
+              "label": "接続法現在・2人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "2sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（ven- → veng-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "ahora",
+          "start": 13,
+          "end": 18,
+          "gloss": {
+            "lemma": "ahora",
+            "pos": "副詞",
+            "ja": "今"
+          }
+        },
+        {
+          "surface": "con",
+          "start": 19,
+          "end": 22
+        },
+        {
+          "surface": "excusas",
+          "start": 23,
+          "end": 30,
+          "gloss": {
+            "lemma": "excusa",
+            "pos": "名詞",
+            "ja": "言い訳・口実"
+          }
+        }
+      ],
+      "grammar": "venir con は「〜を持ち出す」。否定命令なので接続法になる。"
+    },
+    {
+      "id": "es-0253",
+      "lang": "es",
+      "text": "Tú sabrás lo que haces.",
+      "ja": "まあ、自分でわかってやってるんだろうけど。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "直説法未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Tú",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "sabrás",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "saber",
+            "pos": "動詞",
+            "ja": "知っている・〜できる",
+            "note": "未来形の推量用法。突き放した含みが出る",
+            "inflection": {
+              "label": "直説法未来・2人称単数",
+              "tense": "IND_FUT",
+              "person": "2sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（saber- → sabr-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "lo que",
+          "start": 10,
+          "end": 16,
+          "gloss": {
+            "lemma": "lo que",
+            "pos": "慣用表現",
+            "ja": "〜すること",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "haces",
+          "start": 17,
+          "end": 22,
+          "gloss": {
+            "lemma": "hacer",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "直説法現在・2人称単数",
+              "tense": "IND_PRES",
+              "person": "2sg"
+            }
+          }
+        }
+      ],
+      "grammar": "未来形は「〜なのだろう」という推量にも使う。ここでは突き放した含みが出る。"
+    },
+    {
+      "id": "es-0254",
+      "lang": "es",
+      "text": "Estará durmiendo todavía, seguro.",
+      "ja": "きっとまだ寝てるんだろうな。",
+      "level": "C1",
+      "tags": [
+        "口語",
+        "直説法未来",
+        "現在分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Estará",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "estar",
+            "pos": "動詞",
+            "ja": "〜にいる・〜の状態である",
+            "note": "未来形だが現在の推量を表す",
+            "inflection": {
+              "label": "直説法未来・3人称単数",
+              "tense": "IND_FUT",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "durmiendo",
+          "start": 7,
+          "end": 16,
+          "gloss": {
+            "lemma": "dormir",
+            "pos": "動詞",
+            "ja": "眠る",
+            "inflection": {
+              "label": "現在分詞（動名詞）",
+              "tense": "GER",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の o が u に変わる（dorm- → durm-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "todavía",
+          "start": 17,
+          "end": 24,
+          "gloss": {
+            "lemma": "todavía",
+            "pos": "副詞",
+            "ja": "まだ"
+          }
+        },
+        {
+          "surface": "seguro",
+          "start": 26,
+          "end": 32,
+          "gloss": {
+            "lemma": "seguro",
+            "pos": "副詞",
+            "ja": "きっと・確かに"
+          }
+        }
+      ],
+      "grammar": "未来形 + 現在分詞で「今〜しているのだろう」という現在の推量になる。"
+    },
+    {
+      "id": "es-0255",
+      "lang": "es",
+      "text": "Habría jurado que lo había dejado aquí.",
+      "ja": "ここに置いたと断言してもいいくらいだったのに。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "条件法完了",
+        "直説法過去完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Habría jurado que",
+          "start": 0,
+          "end": 17,
+          "gloss": {
+            "lemma": "habría jurado que",
+            "pos": "慣用表現",
+            "ja": "〜だと断言できたはずなのに",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "lo",
+          "start": 18,
+          "end": 20
+        },
+        {
+          "surface": "había dejado",
+          "start": 21,
+          "end": 33,
+          "gloss": {
+            "lemma": "dejar",
+            "pos": "動詞",
+            "ja": "置いていく・やめる",
+            "inflection": {
+              "label": "直説法過去完了・1人称単数",
+              "tense": "IND_PLUP",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "aquí",
+          "start": 34,
+          "end": 38,
+          "gloss": {
+            "lemma": "aquí",
+            "pos": "副詞",
+            "ja": "ここに"
+          }
+        }
+      ],
+      "grammar": "habría jurado que は「〜だと断言できたはずなのに」。記憶違いを認める言い方。"
+    },
+    {
+      "id": "es-0256",
+      "lang": "es",
+      "text": "Ya te vale, ¿eh?",
+      "ja": "いい加減にしなよ、ほんと。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Ya",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "te",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "vale",
+          "start": 6,
+          "end": 10,
+          "gloss": {
+            "lemma": "valer",
+            "pos": "動詞",
+            "ja": "価値がある・値段が〜だ",
+            "note": "ya te vale で「いい加減にしろ」と相手をとがめる口語",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        }
+      ],
+      "grammar": "ya te vale は相手の言動をとがめる口語。「よくやるよ」に近い。"
+    },
+    {
+      "id": "es-0257",
+      "lang": "es",
+      "text": "Por si fuera poco, encima se enfadó conmigo.",
+      "ja": "それだけでは足りないとばかりに、おまけに怒られた。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "接続法過去",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Por si",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "surface": "fuera",
+          "start": 7,
+          "end": 12,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "por si fuera poco で「それだけでは足りないとばかりに」",
+            "inflection": {
+              "label": "接続法過去・3人称単数",
+              "tense": "SUBJ_IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は fuera / fueras / fuera / fuéramos / fuerais / fueran と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "poco",
+          "start": 13,
+          "end": 17
+        },
+        {
+          "surface": "encima",
+          "start": 19,
+          "end": 25,
+          "gloss": {
+            "lemma": "encima",
+            "pos": "副詞",
+            "ja": "おまけに・その上"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 26,
+          "end": 28
+        },
+        {
+          "surface": "enfadó",
+          "start": 29,
+          "end": 35,
+          "gloss": {
+            "lemma": "enfadar",
+            "pos": "動詞",
+            "ja": "怒らせる・（再帰で）怒る",
+            "inflection": {
+              "label": "直説法点過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "conmigo",
+          "start": 36,
+          "end": 43,
+          "gloss": {
+            "lemma": "conmigo",
+            "pos": "代名詞",
+            "ja": "私と一緒に"
+          }
+        }
+      ],
+      "grammar": "por si fuera poco は「それだけでは足りないとばかりに」。悪いことが重なるときの定型。"
+    },
+    {
+      "id": "es-0258",
+      "lang": "es",
+      "text": "Lo que faltaba, ahora se ha puesto a llover.",
+      "ja": "極めつけだ、今度は雨まで降り出した。",
+      "level": "C1",
+      "tags": [
+        "口語",
+        "直説法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Lo que faltaba",
+          "start": 0,
+          "end": 14,
+          "gloss": {
+            "lemma": "lo que faltaba",
+            "pos": "慣用表現",
+            "ja": "極めつけだ・これで全部そろった",
+            "idiom": true,
+            "note": "皮肉"
+          }
+        },
+        {
+          "surface": "ahora",
+          "start": 16,
+          "end": 21,
+          "gloss": {
+            "lemma": "ahora",
+            "pos": "副詞",
+            "ja": "今"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "surface": "ha puesto",
+          "start": 25,
+          "end": 34,
+          "gloss": {
+            "lemma": "poner",
+            "pos": "動詞",
+            "ja": "置く・つける",
+            "note": "ponerse a + 不定詞で「〜し始める」",
+            "inflection": {
+              "label": "直説法現在完了・3人称単数",
+              "tense": "IND_PERF",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "a",
+          "start": 35,
+          "end": 36
+        },
+        {
+          "surface": "llover",
+          "start": 37,
+          "end": 43,
+          "gloss": {
+            "lemma": "llover",
+            "pos": "動詞",
+            "ja": "雨が降る",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ],
+      "grammar": "lo que faltaba は「これで極めつけだ」という皮肉。"
+    },
+    {
+      "id": "es-0259",
+      "lang": "es",
+      "text": "No sé yo si eso es buena idea.",
+      "ja": "それがいい考えかどうか、正直どうかなあ。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "No",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "sé",
+          "start": 3,
+          "end": 5,
+          "gloss": {
+            "lemma": "saber",
+            "pos": "動詞",
+            "ja": "知っている・〜できる",
+            "note": "no sé yo と語順を崩すと「どうかなあ」という疑念の口語になる",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は sé / sabes / sabe / sabemos / sabéis / saben と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "yo",
+          "start": 6,
+          "end": 8
+        },
+        {
+          "surface": "si",
+          "start": 9,
+          "end": 11
+        },
+        {
+          "surface": "eso",
+          "start": 12,
+          "end": 15
+        },
+        {
+          "surface": "es",
+          "start": 16,
+          "end": 18,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "buena idea",
+          "start": 19,
+          "end": 29,
+          "gloss": {
+            "lemma": "buena idea",
+            "pos": "名詞句",
+            "ja": "いい考え",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "no sé yo は語順を崩して疑念を強めた口語。「どうかなあ」に近い。"
+    },
+    {
+      "id": "es-0260",
+      "lang": "es",
+      "text": "Como para fiarse de lo que dice.",
+      "ja": "あいつの言うことなんて、とても信用できたもんじゃない。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Como para",
+          "start": 0,
+          "end": 9,
+          "gloss": {
+            "lemma": "como para + 不定詞",
+            "pos": "慣用表現",
+            "ja": "とても〜できたものではない",
+            "idiom": true,
+            "note": "単独で使うと反語になる"
+          }
+        },
+        {
+          "surface": "fiarse de",
+          "start": 10,
+          "end": 19,
+          "gloss": {
+            "lemma": "fiarse de",
+            "pos": "慣用表現",
+            "ja": "〜を信用する",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "lo que",
+          "start": 20,
+          "end": 26,
+          "gloss": {
+            "lemma": "lo que",
+            "pos": "慣用表現",
+            "ja": "〜すること",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "dice",
+          "start": 27,
+          "end": 31,
+          "gloss": {
+            "lemma": "decir",
+            "pos": "動詞",
+            "ja": "言う",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が i に変わる（dec- → dic-）"
+              }
+            }
+          }
+        }
+      ],
+      "grammar": "como para + 不定詞は、単独で使うと「とても〜できたものではない」という反語になる。"
+    },
+    {
+      "id": "es-0261",
+      "lang": "es",
+      "text": "Total, que al final no fuimos.",
+      "ja": "要するに、結局行かなかったってわけ。",
+      "level": "C1",
+      "tags": [
+        "口語",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Total, que",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "total, que",
+            "pos": "慣用表現",
+            "ja": "要するに・結局",
+            "idiom": true,
+            "note": "話をまとめる口語"
+          }
+        },
+        {
+          "surface": "al final",
+          "start": 11,
+          "end": 19,
+          "gloss": {
+            "lemma": "al final",
+            "pos": "慣用表現",
+            "ja": "結局・最後には",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "no",
+          "start": 20,
+          "end": 22
+        },
+        {
+          "surface": "fuimos",
+          "start": 23,
+          "end": 29,
+          "gloss": {
+            "lemma": "ir",
+            "pos": "動詞",
+            "ja": "行く",
+            "inflection": {
+              "label": "直説法点過去・1人称複数",
+              "tense": "IND_PRET",
+              "person": "1pl",
+              "irregular": {
+                "code": "S",
+                "text": "不規則形。この時制は fui / fuiste / fue / fuimos / fuisteis / fueron と変化する"
+              }
+            }
+          }
+        }
+      ],
+      "grammar": "total, que は話をまとめる口語の切り出し。「要するに」。"
+    },
+    {
+      "id": "es-0262",
+      "lang": "es",
+      "text": "Se nota que no has dormido nada.",
+      "ja": "全然寝てないの、見ればわかるよ。",
+      "level": "C1",
+      "tags": [
+        "口語",
+        "直説法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Se nota que",
+          "start": 0,
+          "end": 11,
+          "gloss": {
+            "lemma": "se nota que",
+            "pos": "慣用表現",
+            "ja": "〜なのが見てとれる",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "no",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "has dormido",
+          "start": 15,
+          "end": 26,
+          "gloss": {
+            "lemma": "dormir",
+            "pos": "動詞",
+            "ja": "眠る",
+            "inflection": {
+              "label": "直説法現在完了・2人称単数",
+              "tense": "IND_PERF",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "nada",
+          "start": 27,
+          "end": 31,
+          "gloss": {
+            "lemma": "nada",
+            "pos": "副詞",
+            "ja": "少しも〜ない"
+          }
+        }
+      ],
+      "grammar": "se nota que は「〜なのが見てとれる」。"
+    },
+    {
+      "id": "es-0263",
+      "lang": "es",
+      "text": "A ver si nos vemos pronto, ¿vale?",
+      "ja": "近いうちにまた会おうよ、ね。",
+      "level": "C1",
+      "tags": [
+        "口語",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "A ver si",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "a ver si",
+            "pos": "慣用表現",
+            "ja": "〜するといいな",
+            "idiom": true,
+            "note": "願望・誘いを表す口語"
+          }
+        },
+        {
+          "surface": "nos",
+          "start": 9,
+          "end": 12
+        },
+        {
+          "surface": "vemos",
+          "start": 13,
+          "end": 18,
+          "gloss": {
+            "lemma": "ver",
+            "pos": "動詞",
+            "ja": "見る・会う",
+            "inflection": {
+              "label": "直説法現在・1人称複数",
+              "tense": "IND_PRES",
+              "person": "1pl"
+            }
+          }
+        },
+        {
+          "surface": "pronto",
+          "start": 19,
+          "end": 25,
+          "gloss": {
+            "lemma": "pronto",
+            "pos": "副詞",
+            "ja": "すぐに・早く"
+          }
+        },
+        {
+          "surface": "vale",
+          "start": 28,
+          "end": 32,
+          "gloss": {
+            "lemma": "¿vale?",
+            "pos": "慣用表現",
+            "ja": "いい？・オーケー？",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "a ver si は「〜するといいな」という願望・誘い。文字どおりの「見る」の意味はない。"
+    },
+    {
+      "id": "es-0264",
+      "lang": "es",
+      "text": "Ni corto ni perezoso, se lo dijo a la cara.",
+      "ja": "彼はためらいもせず、面と向かってそれを言った。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Ni corto ni perezoso",
+          "start": 0,
+          "end": 20,
+          "gloss": {
+            "lemma": "ni corto ni perezoso",
+            "pos": "慣用表現",
+            "ja": "ためらいもせず",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "se",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "surface": "lo",
+          "start": 25,
+          "end": 27
+        },
+        {
+          "surface": "dijo",
+          "start": 28,
+          "end": 32,
+          "gloss": {
+            "lemma": "decir",
+            "pos": "動詞",
+            "ja": "言う",
+            "inflection": {
+              "label": "直説法点過去・3人称単数",
+              "tense": "IND_PRET",
+              "person": "3sg",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は dije / dijiste / dijo / dijimos / dijisteis / dijeron と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "a la cara",
+          "start": 33,
+          "end": 42,
+          "gloss": {
+            "lemma": "a la cara",
+            "pos": "慣用表現",
+            "ja": "面と向かって",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "ni corto ni perezoso は「ためらいもせず」。decir a la cara は「面と向かって言う」。"
+    },
+    {
+      "id": "es-0265",
+      "lang": "es",
+      "text": "Me da que no va a venir.",
+      "ja": "たぶん来ないと思うんだよね。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Me da que",
+          "start": 0,
+          "end": 9,
+          "gloss": {
+            "lemma": "me da que",
+            "pos": "慣用表現",
+            "ja": "なんとなく〜な気がする",
+            "idiom": true,
+            "note": "creo que のくだけた版"
+          }
+        },
+        {
+          "surface": "no",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "surface": "va",
+          "start": 13,
+          "end": 15,
+          "gloss": {
+            "lemma": "ir",
+            "pos": "動詞",
+            "ja": "行く",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は voy / vas / va / vamos / vais / van と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "a",
+          "start": 16,
+          "end": 17
+        },
+        {
+          "surface": "venir",
+          "start": 18,
+          "end": 23,
+          "gloss": {
+            "lemma": "venir",
+            "pos": "動詞",
+            "ja": "来る",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ],
+      "grammar": "me da que は creo que のくだけた版。「なんとなく〜な気がする」。"
+    },
+    {
+      "id": "es-0266",
+      "lang": "es",
+      "text": "Encima de que le ayudo, se queja.",
+      "ja": "手伝ってやってるのに、その上文句まで言う。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Encima de que",
+          "start": 0,
+          "end": 13,
+          "gloss": {
+            "lemma": "encima de que",
+            "pos": "慣用表現",
+            "ja": "〜してやっているのに、その上",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "le",
+          "start": 14,
+          "end": 16
+        },
+        {
+          "surface": "ayudo",
+          "start": 17,
+          "end": 22,
+          "gloss": {
+            "lemma": "ayudar",
+            "pos": "動詞",
+            "ja": "助ける・手伝う",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "se",
+          "start": 24,
+          "end": 26
+        },
+        {
+          "surface": "queja",
+          "start": 27,
+          "end": 32,
+          "gloss": {
+            "lemma": "quejarse",
+            "pos": "動詞",
+            "ja": "不平を言う",
+            "idiom": true,
+            "note": "直説法現在・3人称単数"
+          }
+        }
+      ],
+      "grammar": "encima de que は「〜してやっているのに、その上」。理不尽さへの不満を表す。"
+    },
+    {
+      "id": "es-0267",
+      "lang": "es",
+      "text": "Cualquiera diría que no te importa.",
+      "ja": "まるで気にしてないみたいに見えるけどね。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Cualquiera",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "cualquiera",
+            "pos": "代名詞",
+            "ja": "誰でも・どれでも"
+          }
+        },
+        {
+          "surface": "diría",
+          "start": 11,
+          "end": 16,
+          "gloss": {
+            "lemma": "decir",
+            "pos": "動詞",
+            "ja": "言う",
+            "note": "cualquiera diría que で皮肉を表す",
+            "inflection": {
+              "label": "条件法現在・3人称単数",
+              "tense": "COND",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（decir- → dir-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 17,
+          "end": 20
+        },
+        {
+          "surface": "no",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "te",
+          "start": 24,
+          "end": 26
+        },
+        {
+          "surface": "importa",
+          "start": 27,
+          "end": 34,
+          "gloss": {
+            "lemma": "importar",
+            "pos": "動詞",
+            "ja": "重要である・気にかかる",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        }
+      ],
+      "grammar": "cualquiera diría que は「誰が見ても〜のようだ」という皮肉。"
+    },
+    {
+      "id": "es-0268",
+      "lang": "es",
+      "text": "Se las da de experto y no tiene ni idea.",
+      "ja": "専門家気取りだけど、何もわかっちゃいない。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Se las da de",
+          "start": 0,
+          "end": 12,
+          "gloss": {
+            "lemma": "dárselas de",
+            "pos": "慣用表現",
+            "ja": "〜を気取る",
+            "idiom": true,
+            "note": "批判的な含みを伴う"
+          }
+        },
+        {
+          "surface": "experto",
+          "start": 13,
+          "end": 20,
+          "gloss": {
+            "lemma": "experto",
+            "pos": "名詞",
+            "ja": "専門家"
+          }
+        },
+        {
+          "surface": "no",
+          "start": 23,
+          "end": 25
+        },
+        {
+          "surface": "tiene",
+          "start": 26,
+          "end": 31,
+          "gloss": {
+            "lemma": "tener",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が ie に変わる（ten- → tien-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "ni idea",
+          "start": 32,
+          "end": 39,
+          "gloss": {
+            "lemma": "no tener ni idea",
+            "pos": "慣用表現",
+            "ja": "まったく知らない",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "dárselas de は「〜を気取る」。批判的な含みを必ず伴う。"
+    },
+    {
+      "id": "es-0269",
+      "lang": "es",
+      "text": "Que sí, que ya voy, no me agobies.",
+      "ja": "はいはい、今行くってば、せかさないで。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Que sí",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "que sí",
+            "pos": "慣用表現",
+            "ja": "はいはい・そうだってば",
+            "idiom": true,
+            "note": "苛立ちを含んだ念押し"
+          }
+        },
+        {
+          "surface": "que",
+          "start": 8,
+          "end": 11
+        },
+        {
+          "surface": "ya",
+          "start": 12,
+          "end": 14,
+          "gloss": {
+            "lemma": "ya",
+            "pos": "副詞",
+            "ja": "もう・今"
+          }
+        },
+        {
+          "surface": "voy",
+          "start": 15,
+          "end": 18,
+          "gloss": {
+            "lemma": "ir",
+            "pos": "動詞",
+            "ja": "行く",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は voy / vas / va / vamos / vais / van と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "no",
+          "start": 20,
+          "end": 22
+        },
+        {
+          "surface": "me",
+          "start": 23,
+          "end": 25
+        },
+        {
+          "surface": "agobies",
+          "start": 26,
+          "end": 33,
+          "gloss": {
+            "lemma": "agobiar",
+            "pos": "動詞",
+            "ja": "苦しめる・重荷になる",
+            "note": "否定命令なので接続法",
+            "inflection": {
+              "label": "接続法現在・2人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "2sg"
+            }
+          }
+        }
+      ],
+      "grammar": "que sí, que... は苛立ちながら念を押す口語。否定命令なので agobies は接続法。"
+    },
+    {
+      "id": "es-0270",
+      "lang": "es",
+      "text": "Menos lobos, que te conozco.",
+      "ja": "話を盛るなよ、君のことはわかってるんだから。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Menos lobos",
+          "start": 0,
+          "end": 11,
+          "gloss": {
+            "lemma": "menos lobos",
+            "pos": "慣用表現",
+            "ja": "大げさに言うな・話を盛るな",
+            "idiom": true,
+            "note": "古くからある口語"
+          }
+        },
+        {
+          "surface": "que",
+          "start": 13,
+          "end": 16,
+          "gloss": {
+            "lemma": "que",
+            "pos": "接続詞",
+            "ja": "〜だから",
+            "note": "文中で理由を添える口語"
+          }
+        },
+        {
+          "surface": "te",
+          "start": 17,
+          "end": 19
+        },
+        {
+          "surface": "conozco",
+          "start": 20,
+          "end": 27,
+          "gloss": {
+            "lemma": "conocer",
+            "pos": "動詞",
+            "ja": "知っている・知り合う",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の c が zc に変わる（conoc- → conozc-）"
+              }
+            }
+          }
+        }
+      ],
+      "grammar": "menos lobos は「大げさに言うな」という古くからある口語表現。"
+    },
+    {
+      "id": "es-0271",
+      "lang": "es",
+      "text": "Como no espabiles, te van a pasar por encima.",
+      "ja": "しっかりしないと、踏みつけにされるぞ。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Como no",
+          "start": 0,
+          "end": 7,
+          "gloss": {
+            "lemma": "como no + 接続法",
+            "pos": "接続詞",
+            "ja": "〜しないと",
+            "idiom": true,
+            "note": "警告の条件。後ろは接続法"
+          }
+        },
+        {
+          "surface": "espabiles",
+          "start": 8,
+          "end": 17,
+          "gloss": {
+            "lemma": "espabilar",
+            "pos": "動詞",
+            "ja": "目を覚ます・しっかりする",
+            "inflection": {
+              "label": "接続法現在・2人称単数"
+            }
+          }
+        },
+        {
+          "surface": "te",
+          "start": 19,
+          "end": 21
+        },
+        {
+          "surface": "van",
+          "start": 22,
+          "end": 25,
+          "gloss": {
+            "lemma": "ir",
+            "pos": "動詞",
+            "ja": "行く",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "IND_PRES",
+              "person": "3pl",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は voy / vas / va / vamos / vais / van と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "a",
+          "start": 26,
+          "end": 27
+        },
+        {
+          "surface": "pasar por encima",
+          "start": 28,
+          "end": 44,
+          "gloss": {
+            "lemma": "pasar por encima",
+            "pos": "慣用表現",
+            "ja": "踏みつける・無視して進む",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "espabilar は「目を覚ます・しっかりする」。pasar por encima は「踏みつける」。"
+    },
+    {
+      "id": "es-0272",
+      "lang": "es",
+      "text": "Hace un frío que pela esta mañana.",
+      "ja": "今朝は身を切るような寒さだ。",
+      "level": "C1",
+      "tags": [
+        "口語",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Hace",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "hacer",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "un frío que pela",
+          "start": 5,
+          "end": 21,
+          "gloss": {
+            "lemma": "hacer un frío que pela",
+            "pos": "慣用表現",
+            "ja": "身を切るような寒さだ",
+            "idiom": true,
+            "note": "口語の強調表現"
+          }
+        },
+        {
+          "surface": "esta mañana",
+          "start": 22,
+          "end": 33,
+          "gloss": {
+            "lemma": "esta mañana",
+            "pos": "慣用表現",
+            "ja": "今朝",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "que pela は「肌が剥けるほどの」という強調の口語。frío と calor に付く。"
+    },
+    {
+      "id": "es-0273",
+      "lang": "es",
+      "text": "No te pongas así, que no era para tanto.",
+      "ja": "そんなにむきにならないでよ、大したことじゃなかったんだから。",
+      "level": "C1",
+      "tags": [
+        "口語",
+        "接続法現在",
+        "直説法線過去"
+      ],
+      "tokens": [
+        {
+          "surface": "No",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "te",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "pongas",
+          "start": 6,
+          "end": 12,
+          "gloss": {
+            "lemma": "poner",
+            "pos": "動詞",
+            "ja": "置く・つける",
+            "note": "否定命令なので接続法",
+            "inflection": {
+              "label": "接続法現在・2人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "2sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（pon- → pong-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "así",
+          "start": 13,
+          "end": 16,
+          "gloss": {
+            "lemma": "así",
+            "pos": "副詞",
+            "ja": "そのように"
+          }
+        },
+        {
+          "surface": "que",
+          "start": 18,
+          "end": 21
+        },
+        {
+          "surface": "no",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "surface": "era",
+          "start": 25,
+          "end": 28,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法線過去・3人称単数",
+              "tense": "IND_IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は era / eras / era / éramos / erais / eran と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "para tanto",
+          "start": 29,
+          "end": 39,
+          "gloss": {
+            "lemma": "no ser para tanto",
+            "pos": "慣用表現",
+            "ja": "大騒ぎするほどではない",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "no ser para tanto は「大騒ぎするほどではない」。ponerse así は「そんなふうになる」。"
+    },
+    {
+      "id": "es-0274",
+      "lang": "es",
+      "text": "Anda, echa una mano con esto.",
+      "ja": "ねえ、ちょっとこれ手伝ってよ。",
+      "level": "C1",
+      "tags": [
+        "口語",
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Anda",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "anda",
+            "pos": "間投詞",
+            "ja": "ねえ・さあ",
+            "note": "呼びかけの口語"
+          }
+        },
+        {
+          "surface": "echa",
+          "start": 6,
+          "end": 10,
+          "gloss": {
+            "lemma": "echar",
+            "pos": "動詞",
+            "ja": "投げる・注ぐ",
+            "inflection": {
+              "label": "命令法・2人称単数"
+            }
+          }
+        },
+        {
+          "surface": "una mano",
+          "start": 11,
+          "end": 19,
+          "gloss": {
+            "lemma": "echar una mano",
+            "pos": "慣用表現",
+            "ja": "手を貸す",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "con esto",
+          "start": 20,
+          "end": 28
+        }
+      ],
+      "grammar": "echar una mano は「手を貸す」。anda は呼びかけの口語。"
+    },
+    {
+      "id": "es-0275",
+      "lang": "es",
+      "text": "De haberlo sabido, no habría venido.",
+      "ja": "知っていたら来なかったのに。",
+      "level": "C1",
+      "tags": [
+        "口語",
+        "条件法完了"
+      ],
+      "tokens": [
+        {
+          "surface": "De haberlo sabido",
+          "start": 0,
+          "end": 17,
+          "gloss": {
+            "lemma": "de + 完了不定詞",
+            "pos": "慣用表現",
+            "ja": "〜していたならば",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "no",
+          "start": 19,
+          "end": 21
+        },
+        {
+          "surface": "habría venido",
+          "start": 22,
+          "end": 35,
+          "gloss": {
+            "lemma": "venir",
+            "pos": "動詞",
+            "ja": "来る",
+            "inflection": {
+              "label": "条件法完了・1人称単数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0276",
+      "lang": "es",
+      "text": "Se me hace cuesta arriba levantarme los lunes.",
+      "ja": "月曜に起きるのがしんどくてたまらない。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Se",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "me",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "hace",
+          "start": 6,
+          "end": 10,
+          "gloss": {
+            "lemma": "hacer",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "cuesta arriba",
+          "start": 11,
+          "end": 24,
+          "gloss": {
+            "lemma": "hacérsele cuesta arriba",
+            "pos": "慣用表現",
+            "ja": "骨が折れる・気が重い",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "levantar",
+          "start": 25,
+          "end": 33,
+          "gloss": {
+            "lemma": "levantar",
+            "pos": "動詞",
+            "ja": "持ち上げる・起こす",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "me",
+          "start": 33,
+          "end": 35
+        },
+        {
+          "surface": "los lunes",
+          "start": 36,
+          "end": 45,
+          "gloss": {
+            "lemma": "los lunes",
+            "pos": "慣用表現",
+            "ja": "毎週月曜に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "hacérsele cuesta arriba は「〜が骨が折れる・気が重い」。"
+    },
+    {
+      "id": "es-0277",
+      "lang": "es",
+      "text": "Ya podrías haber avisado, ¿no crees?",
+      "ja": "ひと言くらい知らせてくれてもよかったんじゃない？",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Ya",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "podrías",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "poder",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "note": "ya podrías haber + 過去分詞で非難を表す",
+            "inflection": {
+              "label": "条件法現在・2人称単数",
+              "tense": "COND",
+              "person": "2sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（poder- → podr-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "haber avisado",
+          "start": 11,
+          "end": 24,
+          "gloss": {
+            "lemma": "avisar",
+            "pos": "動詞",
+            "ja": "知らせる・警告する",
+            "inflection": {
+              "label": "完了不定詞"
+            }
+          }
+        },
+        {
+          "surface": "no crees",
+          "start": 27,
+          "end": 35,
+          "gloss": {
+            "lemma": "¿no crees?",
+            "pos": "慣用表現",
+            "ja": "そう思わない？",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "ya podrías haber + 過去分詞は「〜してくれてもよかったのに」という非難。"
+    },
+    {
+      "id": "es-0278",
+      "lang": "es",
+      "text": "Está el horno para bollos, mejor no le digas nada.",
+      "ja": "今は虫の居所が悪いから、何も言わないほうがいい。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Está el horno para bollos",
+          "start": 0,
+          "end": 25,
+          "gloss": {
+            "lemma": "no está el horno para bollos",
+            "pos": "慣用表現",
+            "ja": "今はそんな状況ではない・機嫌が悪い",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "mejor",
+          "start": 27,
+          "end": 32,
+          "gloss": {
+            "lemma": "mejor",
+            "pos": "副詞",
+            "ja": "〜したほうがよい"
+          }
+        },
+        {
+          "surface": "no",
+          "start": 33,
+          "end": 35
+        },
+        {
+          "surface": "le",
+          "start": 36,
+          "end": 38
+        },
+        {
+          "surface": "digas",
+          "start": 39,
+          "end": 44,
+          "gloss": {
+            "lemma": "decir",
+            "pos": "動詞",
+            "ja": "言う",
+            "note": "否定命令なので接続法",
+            "inflection": {
+              "label": "接続法現在・2人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "2sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（dec- → dig-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "nada",
+          "start": 45,
+          "end": 49,
+          "gloss": {
+            "lemma": "nada",
+            "pos": "代名詞",
+            "ja": "何も〜ない"
+          }
+        }
+      ],
+      "grammar": "no está el horno para bollos は「今はそんな状況ではない・機嫌が悪い」。"
+    },
+    {
+      "id": "es-0279",
+      "lang": "es",
+      "text": "Aquí hay gato encerrado, te lo digo yo.",
+      "ja": "これは裏があるね、間違いない。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Aquí",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "aquí",
+            "pos": "副詞",
+            "ja": "ここに"
+          }
+        },
+        {
+          "surface": "hay gato encerrado",
+          "start": 5,
+          "end": 23,
+          "gloss": {
+            "lemma": "haber gato encerrado",
+            "pos": "慣用表現",
+            "ja": "裏がある・怪しい",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "te",
+          "start": 25,
+          "end": 27
+        },
+        {
+          "surface": "lo",
+          "start": 28,
+          "end": 30
+        },
+        {
+          "surface": "digo",
+          "start": 31,
+          "end": 35,
+          "gloss": {
+            "lemma": "decir",
+            "pos": "動詞",
+            "ja": "言う",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（dec- → dig-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "yo",
+          "start": 36,
+          "end": 38,
+          "gloss": {
+            "lemma": "yo",
+            "pos": "代名詞",
+            "ja": "私",
+            "note": "文末に置いて断言を強める"
+          }
+        }
+      ],
+      "grammar": "haber gato encerrado は「裏がある・怪しい」。te lo digo yo は断言の念押し。"
+    },
+    {
+      "id": "es-0280",
+      "lang": "es",
+      "text": "Sea lo que sea, no pienso rendirme ahora.",
+      "ja": "何があろうと、今さら諦めるつもりはない。",
+      "level": "C2",
+      "tags": [
+        "口語",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Sea lo que sea",
+          "start": 0,
+          "end": 14,
+          "gloss": {
+            "lemma": "sea lo que sea",
+            "pos": "慣用表現",
+            "ja": "何であれ",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "no",
+          "start": 16,
+          "end": 18
+        },
+        {
+          "surface": "pienso",
+          "start": 19,
+          "end": 25,
+          "gloss": {
+            "lemma": "pensar",
+            "pos": "動詞",
+            "ja": "考える・思う",
+            "note": "no pensar + 不定詞で「〜するつもりはない」",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が ie に変わる（pens- → piens-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "rendir",
+          "start": 26,
+          "end": 32,
+          "gloss": {
+            "lemma": "rendir",
+            "pos": "動詞",
+            "ja": "生む・果たす・屈服させる",
+            "note": "rendirse で「降参する」",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "me",
+          "start": 32,
+          "end": 34
+        },
+        {
+          "surface": "ahora",
+          "start": 35,
+          "end": 40,
+          "gloss": {
+            "lemma": "ahora",
+            "pos": "副詞",
+            "ja": "今"
+          }
+        }
+      ],
+      "grammar": "sea lo que sea は「何であれ」。no pensar + 不定詞で「〜するつもりはない」。"
     }
   ]
 }

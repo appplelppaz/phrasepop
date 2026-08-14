@@ -1,0 +1,611 @@
+{
+  "_comment": "バッチ7: 上級の日常会話・口語。ネイティブが実際に使うが教科書には出にくい表現。皮肉・ぼかし・罵り言葉の手前まで含む。",
+  "lang": "es",
+  "phrases": [
+    {
+      "id": "es-0241",
+      "text": "Como sigas así, vas a acabar mal.",
+      "ja": "そんな調子を続けてたら、ろくなことにならないぞ。",
+      "level": "C1",
+      "tags": ["口語", "接続法現在"],
+      "grammar": "como + 接続法は「もし〜したら」という警告の条件。si より脅しの含みが強い。",
+      "tokens": [
+        { "s": "Como", "lemma": "como + 接続法", "pos": "接続詞", "ja": "もし〜したら", "idiom": true, "note": "警告の含みを持つ条件。後ろは接続法" },
+        { "s": "sigas", "lemma": "seguir", "pos": "動詞", "ja": "続ける・ついていく", "infl": "SUBJ_PRES/2sg" },
+        { "s": "así", "lemma": "así", "pos": "副詞", "ja": "そのように" },
+        { "s": "vas", "lemma": "ir", "pos": "動詞", "ja": "行く", "infl": "IND_PRES/2sg", "note": "ir a + 不定詞で近接未来" },
+        { "s": "a", "skip": true },
+        { "s": "acabar mal", "lemma": "acabar mal", "pos": "慣用表現", "ja": "ろくな結果にならない", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0242",
+      "text": "No es por nada, pero te lo dije.",
+      "ja": "別に責めるわけじゃないけど、だから言ったでしょ。",
+      "level": "C1",
+      "tags": ["口語", "直説法点過去"],
+      "grammar": "no es por nada, pero は本音を言う前の前置き。「悪いけど」に近い。",
+      "tokens": [
+        { "s": "No es por nada", "lemma": "no es por nada, pero", "pos": "慣用表現", "ja": "別に他意はないけど", "idiom": true, "note": "本音を言う前の前置き" },
+        { "s": "te", "skip": true },
+        { "s": "lo", "skip": true },
+        { "s": "dije", "lemma": "decir", "pos": "動詞", "ja": "言う", "infl": "IND_PRET/1sg" }
+      ]
+    },
+    {
+      "id": "es-0243",
+      "text": "Se me está haciendo bola este trabajo.",
+      "ja": "この仕事、だんだん手に負えなくなってきた。",
+      "level": "C2",
+      "tags": ["口語", "現在分詞"],
+      "grammar": "hacérsele bola a uno は「手に負えなくなる」という口語表現。",
+      "tokens": [
+        { "s": "Se", "skip": true },
+        { "s": "me", "skip": true },
+        { "s": "está", "lemma": "estar", "pos": "動詞", "ja": "〜にいる・〜の状態である", "infl": "IND_PRES/3sg" },
+        { "s": "haciendo", "lemma": "hacer", "pos": "動詞", "ja": "する・作る", "infl": "GER" },
+        { "s": "bola", "lemma": "hacérsele bola", "pos": "慣用表現", "ja": "手に負えなくなる", "idiom": true, "note": "口語" },
+        { "s": "este", "skip": true },
+        { "s": "trabajo", "lemma": "trabajo", "pos": "名詞", "ja": "仕事" }
+      ]
+    },
+    {
+      "id": "es-0244",
+      "text": "Anda que no te lo advertí veces.",
+      "ja": "何度も忠告したのに、まったく。",
+      "level": "C2",
+      "tags": ["口語", "直説法点過去"],
+      "grammar": "anda que no + 動詞 は形は否定でも意味は強い肯定になる皮肉な言い方。",
+      "tokens": [
+        { "s": "Anda que no", "lemma": "anda que no", "pos": "慣用表現", "ja": "まったく〜したものだ", "idiom": true, "note": "形は否定だが意味は強い肯定。皮肉な口語" },
+        { "s": "te", "skip": true },
+        { "s": "lo", "skip": true },
+        { "s": "advertí", "lemma": "advertir", "pos": "動詞", "ja": "警告する・気づく", "infl": "IND_PRET/1sg" },
+        { "s": "veces", "lemma": "vez", "pos": "名詞", "ja": "回・度" }
+      ]
+    },
+    {
+      "id": "es-0245",
+      "text": "Ni que fuera el fin del mundo.",
+      "ja": "この世の終わりでもあるまいし。",
+      "level": "C2",
+      "tags": ["口語", "接続法過去"],
+      "grammar": "ni que + 接続法過去で「〜でもあるまいし」。相手の大げさな態度をたしなめる。",
+      "tokens": [
+        { "s": "Ni que", "lemma": "ni que + 接続法過去", "pos": "慣用表現", "ja": "〜でもあるまいし", "idiom": true, "note": "大げさな態度をたしなめる口語" },
+        { "s": "fuera", "lemma": "ser", "pos": "動詞", "ja": "〜である", "infl": "SUBJ_IMPF/3sg" },
+        { "s": "el fin del mundo", "lemma": "el fin del mundo", "pos": "名詞句", "ja": "この世の終わり", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0246",
+      "text": "Menuda cara tiene el tío.",
+      "ja": "あいつ、よくもまあそんな図々しいことを。",
+      "level": "C2",
+      "tags": ["口語", "直説法現在"],
+      "grammar": "menudo/menuda は「たいした〜」だが、口語では皮肉として使う。tener cara は「厚かましい」。",
+      "tokens": [
+        { "s": "Menuda", "lemma": "menudo", "pos": "形容詞", "ja": "たいした〜（皮肉）", "label": "女性単数", "note": "口語では皮肉の強調" },
+        { "s": "cara", "lemma": "tener cara", "pos": "慣用表現", "ja": "厚かましい・図々しい", "idiom": true },
+        { "s": "tiene", "lemma": "tener", "pos": "動詞", "ja": "持つ・所有する", "infl": "IND_PRES/3sg" },
+        { "s": "el", "skip": true },
+        { "s": "tío", "lemma": "tío", "pos": "名詞", "ja": "おじ・（口語で）やつ・男", "note": "口語では「やつ」の意味" }
+      ]
+    },
+    {
+      "id": "es-0247",
+      "text": "Como que me voy a creer eso.",
+      "ja": "そんな話、信じるわけないでしょ。",
+      "level": "C2",
+      "tags": ["口語", "直説法現在"],
+      "grammar": "como que + 直説法は、形は肯定でも「そんなわけない」という強い否定になる。",
+      "tokens": [
+        { "s": "Como que", "lemma": "como que", "pos": "慣用表現", "ja": "〜するわけがない", "idiom": true, "note": "形は肯定だが意味は強い否定" },
+        { "s": "me", "skip": true },
+        { "s": "voy", "lemma": "ir", "pos": "動詞", "ja": "行く", "infl": "IND_PRES/1sg" },
+        { "s": "a", "skip": true },
+        { "s": "creer", "lemma": "creer", "pos": "動詞", "ja": "信じる・思う", "label": "不定詞" },
+        { "s": "eso", "lemma": "eso", "pos": "代名詞", "ja": "それ" }
+      ]
+    },
+    {
+      "id": "es-0248",
+      "text": "Lo dejamos estar, que ya es tarde.",
+      "ja": "この話はもうやめとこう、遅いし。",
+      "level": "C1",
+      "tags": ["口語", "直説法現在"],
+      "grammar": "dejar estar は「そのままにしておく・触れないでおく」。文末の que は理由を添える口語。",
+      "tokens": [
+        { "s": "Lo", "skip": true },
+        { "s": "dejamos", "lemma": "dejar", "pos": "動詞", "ja": "置いていく・やめる", "infl": "IND_PRES/1pl" },
+        { "s": "estar", "lemma": "dejar estar", "pos": "慣用表現", "ja": "そのままにしておく", "idiom": true },
+        { "s": "que", "lemma": "que", "pos": "接続詞", "ja": "〜だから", "note": "文末に置くと理由を添える口語" },
+        { "s": "ya", "lemma": "ya", "pos": "副詞", "ja": "もう" },
+        { "s": "es", "lemma": "ser", "pos": "動詞", "ja": "〜である", "infl": "IND_PRES/3sg" },
+        { "s": "tarde", "lemma": "tarde", "pos": "副詞", "ja": "遅く" }
+      ]
+    },
+    {
+      "id": "es-0249",
+      "text": "A mí que no me cuenten milongas.",
+      "ja": "俺には作り話は通用しないぞ。",
+      "level": "C2",
+      "tags": ["口語", "接続法現在"],
+      "grammar": "contar milongas は「でたらめを並べる」。que + 接続法で拒絶を表す口語。",
+      "tokens": [
+        { "s": "A mí", "skip": true },
+        { "s": "que", "skip": true },
+        { "s": "no", "skip": true },
+        { "s": "me", "skip": true },
+        { "s": "cuenten", "lemma": "contar", "pos": "動詞", "ja": "数える・語る", "infl": "SUBJ_PRES/3pl" },
+        { "s": "milongas", "lemma": "contar milongas", "pos": "慣用表現", "ja": "でたらめを並べる", "idiom": true, "note": "口語" }
+      ]
+    },
+    {
+      "id": "es-0250",
+      "text": "Se le fue la olla por completo.",
+      "ja": "あいつ、完全に頭がどうかしてる。",
+      "level": "C2",
+      "tags": ["口語", "直説法点過去"],
+      "grammar": "írsele la olla a uno は「正気を失う・気が変になる」というくだけた表現。",
+      "tokens": [
+        { "s": "Se", "skip": true },
+        { "s": "le", "skip": true },
+        { "s": "fue", "lemma": "ir", "pos": "動詞", "ja": "行く", "infl": "IND_PRET/3sg" },
+        { "s": "la olla", "lemma": "írsele la olla", "pos": "慣用表現", "ja": "正気を失う・気が変になる", "idiom": true, "note": "くだけた口語" },
+        { "s": "por completo", "lemma": "por completo", "pos": "慣用表現", "ja": "完全に", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0251",
+      "text": "Vaya tela con lo que ha pasado hoy.",
+      "ja": "今日の出来事、まったくとんでもないな。",
+      "level": "C2",
+      "tags": ["口語", "直説法現在完了"],
+      "grammar": "vaya tela は驚きや呆れを表す間投詞的な口語。",
+      "tokens": [
+        { "s": "Vaya tela", "lemma": "vaya tela", "pos": "慣用表現", "ja": "まったくとんでもない", "idiom": true, "note": "驚き・呆れを表す口語" },
+        { "s": "con lo que", "lemma": "lo que", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
+        { "s": "ha pasado", "lemma": "pasar", "pos": "動詞", "ja": "通る・過ごす・起こる", "infl": "IND_PERF/3sg" },
+        { "s": "hoy", "lemma": "hoy", "pos": "副詞", "ja": "今日" }
+      ]
+    },
+    {
+      "id": "es-0252",
+      "text": "No me vengas ahora con excusas.",
+      "ja": "今さら言い訳なんかしないでよ。",
+      "level": "C1",
+      "tags": ["口語", "接続法現在", "否定命令"],
+      "grammar": "venir con は「〜を持ち出す」。否定命令なので接続法になる。",
+      "tokens": [
+        { "s": "No", "skip": true },
+        { "s": "me", "skip": true },
+        { "s": "vengas", "lemma": "venir", "pos": "動詞", "ja": "来る", "infl": "SUBJ_PRES/2sg", "note": "否定命令なので接続法。venir con で「〜を持ち出す」" },
+        { "s": "ahora", "lemma": "ahora", "pos": "副詞", "ja": "今" },
+        { "s": "con", "skip": true },
+        { "s": "excusas", "lemma": "excusa", "pos": "名詞", "ja": "言い訳・口実" }
+      ]
+    },
+    {
+      "id": "es-0253",
+      "text": "Tú sabrás lo que haces.",
+      "ja": "まあ、自分でわかってやってるんだろうけど。",
+      "level": "C2",
+      "tags": ["口語", "直説法未来"],
+      "grammar": "未来形は「〜なのだろう」という推量にも使う。ここでは突き放した含みが出る。",
+      "tokens": [
+        { "s": "Tú", "skip": true },
+        { "s": "sabrás", "lemma": "saber", "pos": "動詞", "ja": "知っている・〜できる", "infl": "IND_FUT/2sg", "note": "未来形の推量用法。突き放した含みが出る" },
+        { "s": "lo que", "lemma": "lo que", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
+        { "s": "haces", "lemma": "hacer", "pos": "動詞", "ja": "する・作る", "infl": "IND_PRES/2sg" }
+      ]
+    },
+    {
+      "id": "es-0254",
+      "text": "Estará durmiendo todavía, seguro.",
+      "ja": "きっとまだ寝てるんだろうな。",
+      "level": "C1",
+      "tags": ["口語", "直説法未来", "現在分詞"],
+      "grammar": "未来形 + 現在分詞で「今〜しているのだろう」という現在の推量になる。",
+      "tokens": [
+        { "s": "Estará", "lemma": "estar", "pos": "動詞", "ja": "〜にいる・〜の状態である", "infl": "IND_FUT/3sg", "note": "未来形だが現在の推量を表す" },
+        { "s": "durmiendo", "lemma": "dormir", "pos": "動詞", "ja": "眠る", "infl": "GER" },
+        { "s": "todavía", "lemma": "todavía", "pos": "副詞", "ja": "まだ" },
+        { "s": "seguro", "lemma": "seguro", "pos": "副詞", "ja": "きっと・確かに" }
+      ]
+    },
+    {
+      "id": "es-0255",
+      "text": "Habría jurado que lo había dejado aquí.",
+      "ja": "ここに置いたと断言してもいいくらいだったのに。",
+      "level": "C2",
+      "tags": ["口語", "条件法完了", "直説法過去完了"],
+      "grammar": "habría jurado que は「〜だと断言できたはずなのに」。記憶違いを認める言い方。",
+      "tokens": [
+        { "s": "Habría jurado que", "lemma": "habría jurado que", "pos": "慣用表現", "ja": "〜だと断言できたはずなのに", "idiom": true },
+        { "s": "lo", "skip": true },
+        { "s": "había dejado", "lemma": "dejar", "pos": "動詞", "ja": "置いていく・やめる", "infl": "IND_PLUP/1sg" },
+        { "s": "aquí", "lemma": "aquí", "pos": "副詞", "ja": "ここに" }
+      ]
+    },
+    {
+      "id": "es-0256",
+      "text": "Ya te vale, ¿eh?",
+      "ja": "いい加減にしなよ、ほんと。",
+      "level": "C2",
+      "tags": ["口語", "直説法現在"],
+      "grammar": "ya te vale は相手の言動をとがめる口語。「よくやるよ」に近い。",
+      "tokens": [
+        { "s": "Ya", "skip": true },
+        { "s": "te", "skip": true },
+        { "s": "vale", "lemma": "valer", "pos": "動詞", "ja": "価値がある・値段が〜だ", "infl": "IND_PRES/3sg", "note": "ya te vale で「いい加減にしろ」と相手をとがめる口語" }
+      ]
+    },
+    {
+      "id": "es-0257",
+      "text": "Por si fuera poco, encima se enfadó conmigo.",
+      "ja": "それだけでは足りないとばかりに、おまけに怒られた。",
+      "level": "C2",
+      "tags": ["口語", "接続法過去", "直説法点過去"],
+      "grammar": "por si fuera poco は「それだけでは足りないとばかりに」。悪いことが重なるときの定型。",
+      "tokens": [
+        { "s": "Por si", "skip": true },
+        { "s": "fuera", "lemma": "ser", "pos": "動詞", "ja": "〜である", "infl": "SUBJ_IMPF/3sg", "note": "por si fuera poco で「それだけでは足りないとばかりに」" },
+        { "s": "poco", "skip": true },
+        { "s": "encima", "lemma": "encima", "pos": "副詞", "ja": "おまけに・その上" },
+        { "s": "se", "skip": true },
+        { "s": "enfadó", "lemma": "enfadar", "pos": "動詞", "ja": "怒らせる・（再帰で）怒る", "label": "直説法点過去・3人称単数" },
+        { "s": "conmigo", "lemma": "conmigo", "pos": "代名詞", "ja": "私と一緒に" }
+      ]
+    },
+    {
+      "id": "es-0258",
+      "text": "Lo que faltaba, ahora se ha puesto a llover.",
+      "ja": "極めつけだ、今度は雨まで降り出した。",
+      "level": "C1",
+      "tags": ["口語", "直説法現在完了"],
+      "grammar": "lo que faltaba は「これで極めつけだ」という皮肉。",
+      "tokens": [
+        { "s": "Lo que faltaba", "lemma": "lo que faltaba", "pos": "慣用表現", "ja": "極めつけだ・これで全部そろった", "idiom": true, "note": "皮肉" },
+        { "s": "ahora", "lemma": "ahora", "pos": "副詞", "ja": "今" },
+        { "s": "se", "skip": true },
+        { "s": "ha puesto", "lemma": "poner", "pos": "動詞", "ja": "置く・つける", "infl": "IND_PERF/3sg", "note": "ponerse a + 不定詞で「〜し始める」" },
+        { "s": "a", "skip": true },
+        { "s": "llover", "lemma": "llover", "pos": "動詞", "ja": "雨が降る", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "es-0259",
+      "text": "No sé yo si eso es buena idea.",
+      "ja": "それがいい考えかどうか、正直どうかなあ。",
+      "level": "C2",
+      "tags": ["口語", "直説法現在"],
+      "grammar": "no sé yo は語順を崩して疑念を強めた口語。「どうかなあ」に近い。",
+      "tokens": [
+        { "s": "No", "skip": true },
+        { "s": "sé", "lemma": "saber", "pos": "動詞", "ja": "知っている・〜できる", "infl": "IND_PRES/1sg", "note": "no sé yo と語順を崩すと「どうかなあ」という疑念の口語になる" },
+        { "s": "yo", "skip": true },
+        { "s": "si", "skip": true },
+        { "s": "eso", "skip": true },
+        { "s": "es", "lemma": "ser", "pos": "動詞", "ja": "〜である", "infl": "IND_PRES/3sg" },
+        { "s": "buena idea", "lemma": "buena idea", "pos": "名詞句", "ja": "いい考え", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0260",
+      "text": "Como para fiarse de lo que dice.",
+      "ja": "あいつの言うことなんて、とても信用できたもんじゃない。",
+      "level": "C2",
+      "tags": ["口語", "直説法現在"],
+      "grammar": "como para + 不定詞は、単独で使うと「とても〜できたものではない」という反語になる。",
+      "tokens": [
+        { "s": "Como para", "lemma": "como para + 不定詞", "pos": "慣用表現", "ja": "とても〜できたものではない", "idiom": true, "note": "単独で使うと反語になる" },
+        { "s": "fiarse de", "lemma": "fiarse de", "pos": "慣用表現", "ja": "〜を信用する", "idiom": true },
+        { "s": "lo que", "lemma": "lo que", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
+        { "s": "dice", "lemma": "decir", "pos": "動詞", "ja": "言う", "infl": "IND_PRES/3sg" }
+      ]
+    },
+    {
+      "id": "es-0261",
+      "text": "Total, que al final no fuimos.",
+      "ja": "要するに、結局行かなかったってわけ。",
+      "level": "C1",
+      "tags": ["口語", "直説法点過去"],
+      "grammar": "total, que は話をまとめる口語の切り出し。「要するに」。",
+      "tokens": [
+        { "s": "Total, que", "lemma": "total, que", "pos": "慣用表現", "ja": "要するに・結局", "idiom": true, "note": "話をまとめる口語" },
+        { "s": "al final", "lemma": "al final", "pos": "慣用表現", "ja": "結局・最後には", "idiom": true },
+        { "s": "no", "skip": true },
+        { "s": "fuimos", "lemma": "ir", "pos": "動詞", "ja": "行く", "infl": "IND_PRET/1pl" }
+      ]
+    },
+    {
+      "id": "es-0262",
+      "text": "Se nota que no has dormido nada.",
+      "ja": "全然寝てないの、見ればわかるよ。",
+      "level": "C1",
+      "tags": ["口語", "直説法現在完了"],
+      "grammar": "se nota que は「〜なのが見てとれる」。",
+      "tokens": [
+        { "s": "Se nota que", "lemma": "se nota que", "pos": "慣用表現", "ja": "〜なのが見てとれる", "idiom": true },
+        { "s": "no", "skip": true },
+        { "s": "has dormido", "lemma": "dormir", "pos": "動詞", "ja": "眠る", "infl": "IND_PERF/2sg" },
+        { "s": "nada", "lemma": "nada", "pos": "副詞", "ja": "少しも〜ない" }
+      ]
+    },
+    {
+      "id": "es-0263",
+      "text": "A ver si nos vemos pronto, ¿vale?",
+      "ja": "近いうちにまた会おうよ、ね。",
+      "level": "C1",
+      "tags": ["口語", "接続法現在"],
+      "grammar": "a ver si は「〜するといいな」という願望・誘い。文字どおりの「見る」の意味はない。",
+      "tokens": [
+        { "s": "A ver si", "lemma": "a ver si", "pos": "慣用表現", "ja": "〜するといいな", "idiom": true, "note": "願望・誘いを表す口語" },
+        { "s": "nos", "skip": true },
+        { "s": "vemos", "lemma": "ver", "pos": "動詞", "ja": "見る・会う", "infl": "IND_PRES/1pl" },
+        { "s": "pronto", "lemma": "pronto", "pos": "副詞", "ja": "すぐに・早く" },
+        { "s": "vale", "lemma": "¿vale?", "pos": "慣用表現", "ja": "いい？・オーケー？", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0264",
+      "text": "Ni corto ni perezoso, se lo dijo a la cara.",
+      "ja": "彼はためらいもせず、面と向かってそれを言った。",
+      "level": "C2",
+      "tags": ["口語", "直説法点過去"],
+      "grammar": "ni corto ni perezoso は「ためらいもせず」。decir a la cara は「面と向かって言う」。",
+      "tokens": [
+        { "s": "Ni corto ni perezoso", "lemma": "ni corto ni perezoso", "pos": "慣用表現", "ja": "ためらいもせず", "idiom": true },
+        { "s": "se", "skip": true },
+        { "s": "lo", "skip": true },
+        { "s": "dijo", "lemma": "decir", "pos": "動詞", "ja": "言う", "infl": "IND_PRET/3sg" },
+        { "s": "a la cara", "lemma": "a la cara", "pos": "慣用表現", "ja": "面と向かって", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0265",
+      "text": "Me da que no va a venir.",
+      "ja": "たぶん来ないと思うんだよね。",
+      "level": "C2",
+      "tags": ["口語", "直説法現在"],
+      "grammar": "me da que は creo que のくだけた版。「なんとなく〜な気がする」。",
+      "tokens": [
+        { "s": "Me da que", "lemma": "me da que", "pos": "慣用表現", "ja": "なんとなく〜な気がする", "idiom": true, "note": "creo que のくだけた版" },
+        { "s": "no", "skip": true },
+        { "s": "va", "lemma": "ir", "pos": "動詞", "ja": "行く", "infl": "IND_PRES/3sg" },
+        { "s": "a", "skip": true },
+        { "s": "venir", "lemma": "venir", "pos": "動詞", "ja": "来る", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "es-0266",
+      "text": "Encima de que le ayudo, se queja.",
+      "ja": "手伝ってやってるのに、その上文句まで言う。",
+      "level": "C2",
+      "tags": ["口語", "直説法現在"],
+      "grammar": "encima de que は「〜してやっているのに、その上」。理不尽さへの不満を表す。",
+      "tokens": [
+        { "s": "Encima de que", "lemma": "encima de que", "pos": "慣用表現", "ja": "〜してやっているのに、その上", "idiom": true },
+        { "s": "le", "skip": true },
+        { "s": "ayudo", "lemma": "ayudar", "pos": "動詞", "ja": "助ける・手伝う", "infl": "IND_PRES/1sg" },
+        { "s": "se", "skip": true },
+        { "s": "queja", "lemma": "quejarse", "pos": "動詞", "ja": "不平を言う", "idiom": true, "note": "直説法現在・3人称単数" }
+      ]
+    },
+    {
+      "id": "es-0267",
+      "text": "Cualquiera diría que no te importa.",
+      "ja": "まるで気にしてないみたいに見えるけどね。",
+      "level": "C2",
+      "tags": ["口語", "条件法現在"],
+      "grammar": "cualquiera diría que は「誰が見ても〜のようだ」という皮肉。",
+      "tokens": [
+        { "s": "Cualquiera", "lemma": "cualquiera", "pos": "代名詞", "ja": "誰でも・どれでも" },
+        { "s": "diría", "lemma": "decir", "pos": "動詞", "ja": "言う", "infl": "COND/3sg", "note": "cualquiera diría que で皮肉を表す" },
+        { "s": "que", "skip": true },
+        { "s": "no", "skip": true },
+        { "s": "te", "skip": true },
+        { "s": "importa", "lemma": "importar", "pos": "動詞", "ja": "重要である・気にかかる", "label": "直説法現在・3人称単数" }
+      ]
+    },
+    {
+      "id": "es-0268",
+      "text": "Se las da de experto y no tiene ni idea.",
+      "ja": "専門家気取りだけど、何もわかっちゃいない。",
+      "level": "C2",
+      "tags": ["口語", "直説法現在"],
+      "grammar": "dárselas de は「〜を気取る」。批判的な含みを必ず伴う。",
+      "tokens": [
+        { "s": "Se las da de", "lemma": "dárselas de", "pos": "慣用表現", "ja": "〜を気取る", "idiom": true, "note": "批判的な含みを伴う" },
+        { "s": "experto", "lemma": "experto", "pos": "名詞", "ja": "専門家" },
+        { "s": "no", "skip": true },
+        { "s": "tiene", "lemma": "tener", "pos": "動詞", "ja": "持つ・所有する", "infl": "IND_PRES/3sg" },
+        { "s": "ni idea", "lemma": "no tener ni idea", "pos": "慣用表現", "ja": "まったく知らない", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0269",
+      "text": "Que sí, que ya voy, no me agobies.",
+      "ja": "はいはい、今行くってば、せかさないで。",
+      "level": "C2",
+      "tags": ["口語", "接続法現在"],
+      "grammar": "que sí, que... は苛立ちながら念を押す口語。否定命令なので agobies は接続法。",
+      "tokens": [
+        { "s": "Que sí", "lemma": "que sí", "pos": "慣用表現", "ja": "はいはい・そうだってば", "idiom": true, "note": "苛立ちを含んだ念押し" },
+        { "s": "que", "skip": true },
+        { "s": "ya", "lemma": "ya", "pos": "副詞", "ja": "もう・今" },
+        { "s": "voy", "lemma": "ir", "pos": "動詞", "ja": "行く", "infl": "IND_PRES/1sg" },
+        { "s": "no", "skip": true },
+        { "s": "me", "skip": true },
+        { "s": "agobies", "lemma": "agobiar", "pos": "動詞", "ja": "苦しめる・重荷になる", "infl": "SUBJ_PRES/2sg", "note": "否定命令なので接続法" }
+      ]
+    },
+    {
+      "id": "es-0270",
+      "text": "Menos lobos, que te conozco.",
+      "ja": "話を盛るなよ、君のことはわかってるんだから。",
+      "level": "C2",
+      "tags": ["口語", "直説法現在"],
+      "grammar": "menos lobos は「大げさに言うな」という古くからある口語表現。",
+      "tokens": [
+        { "s": "Menos lobos", "lemma": "menos lobos", "pos": "慣用表現", "ja": "大げさに言うな・話を盛るな", "idiom": true, "note": "古くからある口語" },
+        { "s": "que", "lemma": "que", "pos": "接続詞", "ja": "〜だから", "note": "文中で理由を添える口語" },
+        { "s": "te", "skip": true },
+        { "s": "conozco", "lemma": "conocer", "pos": "動詞", "ja": "知っている・知り合う", "infl": "IND_PRES/1sg" }
+      ]
+    },
+    {
+      "id": "es-0271",
+      "text": "Como no espabiles, te van a pasar por encima.",
+      "ja": "しっかりしないと、踏みつけにされるぞ。",
+      "level": "C2",
+      "tags": ["口語", "接続法現在"],
+      "grammar": "espabilar は「目を覚ます・しっかりする」。pasar por encima は「踏みつける」。",
+      "tokens": [
+        { "s": "Como no", "lemma": "como no + 接続法", "pos": "接続詞", "ja": "〜しないと", "idiom": true, "note": "警告の条件。後ろは接続法" },
+        { "s": "espabiles", "lemma": "espabilar", "pos": "動詞", "ja": "目を覚ます・しっかりする", "label": "接続法現在・2人称単数" },
+        { "s": "te", "skip": true },
+        { "s": "van", "lemma": "ir", "pos": "動詞", "ja": "行く", "infl": "IND_PRES/3pl" },
+        { "s": "a", "skip": true },
+        { "s": "pasar por encima", "lemma": "pasar por encima", "pos": "慣用表現", "ja": "踏みつける・無視して進む", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0272",
+      "text": "Hace un frío que pela esta mañana.",
+      "ja": "今朝は身を切るような寒さだ。",
+      "level": "C1",
+      "tags": ["口語", "直説法現在"],
+      "grammar": "que pela は「肌が剥けるほどの」という強調の口語。frío と calor に付く。",
+      "tokens": [
+        { "s": "Hace", "lemma": "hacer", "pos": "動詞", "ja": "する・作る", "infl": "IND_PRES/3sg" },
+        { "s": "un frío que pela", "lemma": "hacer un frío que pela", "pos": "慣用表現", "ja": "身を切るような寒さだ", "idiom": true, "note": "口語の強調表現" },
+        { "s": "esta mañana", "lemma": "esta mañana", "pos": "慣用表現", "ja": "今朝", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0273",
+      "text": "No te pongas así, que no era para tanto.",
+      "ja": "そんなにむきにならないでよ、大したことじゃなかったんだから。",
+      "level": "C1",
+      "tags": ["口語", "接続法現在", "直説法線過去"],
+      "grammar": "no ser para tanto は「大騒ぎするほどではない」。ponerse así は「そんなふうになる」。",
+      "tokens": [
+        { "s": "No", "skip": true },
+        { "s": "te", "skip": true },
+        { "s": "pongas", "lemma": "poner", "pos": "動詞", "ja": "置く・つける", "infl": "SUBJ_PRES/2sg", "note": "否定命令なので接続法" },
+        { "s": "así", "lemma": "así", "pos": "副詞", "ja": "そのように" },
+        { "s": "que", "skip": true },
+        { "s": "no", "skip": true },
+        { "s": "era", "lemma": "ser", "pos": "動詞", "ja": "〜である", "infl": "IND_IMPF/3sg" },
+        { "s": "para tanto", "lemma": "no ser para tanto", "pos": "慣用表現", "ja": "大騒ぎするほどではない", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0274",
+      "text": "Anda, echa una mano con esto.",
+      "ja": "ねえ、ちょっとこれ手伝ってよ。",
+      "level": "C1",
+      "tags": ["口語", "命令法"],
+      "grammar": "echar una mano は「手を貸す」。anda は呼びかけの口語。",
+      "tokens": [
+        { "s": "Anda", "lemma": "anda", "pos": "間投詞", "ja": "ねえ・さあ", "note": "呼びかけの口語" },
+        { "s": "echa", "lemma": "echar", "pos": "動詞", "ja": "投げる・注ぐ", "label": "命令法・2人称単数" },
+        { "s": "una mano", "lemma": "echar una mano", "pos": "慣用表現", "ja": "手を貸す", "idiom": true },
+        { "s": "con esto", "skip": true }
+      ]
+    },
+    {
+      "id": "es-0275",
+      "text": "De haberlo sabido, no habría venido.",
+      "ja": "知っていたら来なかったのに。",
+      "level": "C1",
+      "tags": ["口語", "条件法完了"],
+      "tokens": [
+        { "s": "De haberlo sabido", "lemma": "de + 完了不定詞", "pos": "慣用表現", "ja": "〜していたならば", "idiom": true },
+        { "s": "no", "skip": true },
+        { "s": "habría venido", "lemma": "venir", "pos": "動詞", "ja": "来る", "label": "条件法完了・1人称単数" }
+      ]
+    },
+    {
+      "id": "es-0276",
+      "text": "Se me hace cuesta arriba levantarme los lunes.",
+      "ja": "月曜に起きるのがしんどくてたまらない。",
+      "level": "C2",
+      "tags": ["口語", "直説法現在"],
+      "grammar": "hacérsele cuesta arriba は「〜が骨が折れる・気が重い」。",
+      "tokens": [
+        { "s": "Se", "skip": true },
+        { "s": "me", "skip": true },
+        { "s": "hace", "lemma": "hacer", "pos": "動詞", "ja": "する・作る", "infl": "IND_PRES/3sg" },
+        { "s": "cuesta arriba", "lemma": "hacérsele cuesta arriba", "pos": "慣用表現", "ja": "骨が折れる・気が重い", "idiom": true },
+        { "s": "levantar", "lemma": "levantar", "pos": "動詞", "ja": "持ち上げる・起こす", "label": "不定詞" },
+        { "s": "me", "skip": true },
+        { "s": "los lunes", "lemma": "los lunes", "pos": "慣用表現", "ja": "毎週月曜に", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0277",
+      "text": "Ya podrías haber avisado, ¿no crees?",
+      "ja": "ひと言くらい知らせてくれてもよかったんじゃない？",
+      "level": "C2",
+      "tags": ["口語", "条件法現在"],
+      "grammar": "ya podrías haber + 過去分詞は「〜してくれてもよかったのに」という非難。",
+      "tokens": [
+        { "s": "Ya", "skip": true },
+        { "s": "podrías", "lemma": "poder", "pos": "動詞", "ja": "〜できる", "infl": "COND/2sg", "note": "ya podrías haber + 過去分詞で非難を表す" },
+        { "s": "haber avisado", "lemma": "avisar", "pos": "動詞", "ja": "知らせる・警告する", "label": "完了不定詞" },
+        { "s": "no crees", "lemma": "¿no crees?", "pos": "慣用表現", "ja": "そう思わない？", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0278",
+      "text": "Está el horno para bollos, mejor no le digas nada.",
+      "ja": "今は虫の居所が悪いから、何も言わないほうがいい。",
+      "level": "C2",
+      "tags": ["口語", "接続法現在"],
+      "grammar": "no está el horno para bollos は「今はそんな状況ではない・機嫌が悪い」。",
+      "tokens": [
+        { "s": "Está el horno para bollos", "lemma": "no está el horno para bollos", "pos": "慣用表現", "ja": "今はそんな状況ではない・機嫌が悪い", "idiom": true },
+        { "s": "mejor", "lemma": "mejor", "pos": "副詞", "ja": "〜したほうがよい" },
+        { "s": "no", "skip": true },
+        { "s": "le", "skip": true },
+        { "s": "digas", "lemma": "decir", "pos": "動詞", "ja": "言う", "infl": "SUBJ_PRES/2sg", "note": "否定命令なので接続法" },
+        { "s": "nada", "lemma": "nada", "pos": "代名詞", "ja": "何も〜ない" }
+      ]
+    },
+    {
+      "id": "es-0279",
+      "text": "Aquí hay gato encerrado, te lo digo yo.",
+      "ja": "これは裏があるね、間違いない。",
+      "level": "C2",
+      "tags": ["口語", "直説法現在"],
+      "grammar": "haber gato encerrado は「裏がある・怪しい」。te lo digo yo は断言の念押し。",
+      "tokens": [
+        { "s": "Aquí", "lemma": "aquí", "pos": "副詞", "ja": "ここに" },
+        { "s": "hay gato encerrado", "lemma": "haber gato encerrado", "pos": "慣用表現", "ja": "裏がある・怪しい", "idiom": true },
+        { "s": "te", "skip": true },
+        { "s": "lo", "skip": true },
+        { "s": "digo", "lemma": "decir", "pos": "動詞", "ja": "言う", "infl": "IND_PRES/1sg" },
+        { "s": "yo", "lemma": "yo", "pos": "代名詞", "ja": "私", "note": "文末に置いて断言を強める" }
+      ]
+    },
+    {
+      "id": "es-0280",
+      "text": "Sea lo que sea, no pienso rendirme ahora.",
+      "ja": "何があろうと、今さら諦めるつもりはない。",
+      "level": "C2",
+      "tags": ["口語", "接続法現在"],
+      "grammar": "sea lo que sea は「何であれ」。no pensar + 不定詞で「〜するつもりはない」。",
+      "tokens": [
+        { "s": "Sea lo que sea", "lemma": "sea lo que sea", "pos": "慣用表現", "ja": "何であれ", "idiom": true },
+        { "s": "no", "skip": true },
+        { "s": "pienso", "lemma": "pensar", "pos": "動詞", "ja": "考える・思う", "infl": "IND_PRES/1sg", "note": "no pensar + 不定詞で「〜するつもりはない」" },
+        { "s": "rendir", "lemma": "rendir", "pos": "動詞", "ja": "生む・果たす・屈服させる", "label": "不定詞", "note": "rendirse で「降参する」" },
+        { "s": "me", "skip": true },
+        { "s": "ahora", "lemma": "ahora", "pos": "副詞", "ja": "今" }
+      ]
+    }
+  ]
+}
