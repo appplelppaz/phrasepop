@@ -1,0 +1,283 @@
+{
+  "_comment": "verbecc が内部エラーで活用できない動詞を手書きで補う。pasar と resultar は完全な規則 -ar 動詞、nevar は e→ie の非人称動詞。順序は 1sg,2sg,3sg,1pl,2pl,3pl。IMP の 1sg は存在しないので空文字。非人称動詞は 3sg 以外を空文字にする。",
+  "pasar": {
+    "IND_PRES": [
+      "paso",
+      "pasas",
+      "pasa",
+      "pasamos",
+      "pasáis",
+      "pasan"
+    ],
+    "IND_PRET": [
+      "pasé",
+      "pasaste",
+      "pasó",
+      "pasamos",
+      "pasasteis",
+      "pasaron"
+    ],
+    "IND_IMPF": [
+      "pasaba",
+      "pasabas",
+      "pasaba",
+      "pasábamos",
+      "pasabais",
+      "pasaban"
+    ],
+    "IND_FUT": [
+      "pasaré",
+      "pasarás",
+      "pasará",
+      "pasaremos",
+      "pasaréis",
+      "pasarán"
+    ],
+    "IND_PERF": [
+      "he pasado",
+      "has pasado",
+      "ha pasado",
+      "hemos pasado",
+      "habéis pasado",
+      "han pasado"
+    ],
+    "IND_PLUP": [
+      "había pasado",
+      "habías pasado",
+      "había pasado",
+      "habíamos pasado",
+      "habíais pasado",
+      "habían pasado"
+    ],
+    "COND": [
+      "pasaría",
+      "pasarías",
+      "pasaría",
+      "pasaríamos",
+      "pasaríais",
+      "pasarían"
+    ],
+    "SUBJ_PRES": [
+      "pase",
+      "pases",
+      "pase",
+      "pasemos",
+      "paséis",
+      "pasen"
+    ],
+    "SUBJ_IMPF": [
+      "pasara",
+      "pasaras",
+      "pasara",
+      "pasáramos",
+      "pasarais",
+      "pasaran"
+    ],
+    "SUBJ_PERF": [
+      "haya pasado",
+      "hayas pasado",
+      "haya pasado",
+      "hayamos pasado",
+      "hayáis pasado",
+      "hayan pasado"
+    ],
+    "IMP": [
+      "",
+      "pasa",
+      "pase",
+      "pasemos",
+      "pasad",
+      "pasen"
+    ],
+    "GER": [
+      "pasando"
+    ],
+    "PART": [
+      "pasado"
+    ]
+  },
+  "resultar": {
+    "IND_PRES": [
+      "resulto",
+      "resultas",
+      "resulta",
+      "resultamos",
+      "resultáis",
+      "resultan"
+    ],
+    "IND_PRET": [
+      "resulté",
+      "resultaste",
+      "resultó",
+      "resultamos",
+      "resultasteis",
+      "resultaron"
+    ],
+    "IND_IMPF": [
+      "resultaba",
+      "resultabas",
+      "resultaba",
+      "resultábamos",
+      "resultabais",
+      "resultaban"
+    ],
+    "IND_FUT": [
+      "resultaré",
+      "resultarás",
+      "resultará",
+      "resultaremos",
+      "resultaréis",
+      "resultarán"
+    ],
+    "IND_PERF": [
+      "he resultado",
+      "has resultado",
+      "ha resultado",
+      "hemos resultado",
+      "habéis resultado",
+      "han resultado"
+    ],
+    "IND_PLUP": [
+      "había resultado",
+      "habías resultado",
+      "había resultado",
+      "habíamos resultado",
+      "habíais resultado",
+      "habían resultado"
+    ],
+    "COND": [
+      "resultaría",
+      "resultarías",
+      "resultaría",
+      "resultaríamos",
+      "resultaríais",
+      "resultarían"
+    ],
+    "SUBJ_PRES": [
+      "resulte",
+      "resultes",
+      "resulte",
+      "resultemos",
+      "resultéis",
+      "resulten"
+    ],
+    "SUBJ_IMPF": [
+      "resultara",
+      "resultaras",
+      "resultara",
+      "resultáramos",
+      "resultarais",
+      "resultaran"
+    ],
+    "SUBJ_PERF": [
+      "haya resultado",
+      "hayas resultado",
+      "haya resultado",
+      "hayamos resultado",
+      "hayáis resultado",
+      "hayan resultado"
+    ],
+    "IMP": [
+      "",
+      "resulta",
+      "resulte",
+      "resultemos",
+      "resultad",
+      "resulten"
+    ],
+    "GER": [
+      "resultando"
+    ],
+    "PART": [
+      "resultado"
+    ]
+  },
+  "nevar": {
+    "IND_PRES": [
+      "",
+      "",
+      "nieva",
+      "",
+      "",
+      ""
+    ],
+    "IND_PRET": [
+      "",
+      "",
+      "nevó",
+      "",
+      "",
+      ""
+    ],
+    "IND_IMPF": [
+      "",
+      "",
+      "nevaba",
+      "",
+      "",
+      ""
+    ],
+    "IND_FUT": [
+      "",
+      "",
+      "nevará",
+      "",
+      "",
+      ""
+    ],
+    "IND_PERF": [
+      "",
+      "",
+      "ha nevado",
+      "",
+      "",
+      ""
+    ],
+    "IND_PLUP": [
+      "",
+      "",
+      "había nevado",
+      "",
+      "",
+      ""
+    ],
+    "COND": [
+      "",
+      "",
+      "nevaría",
+      "",
+      "",
+      ""
+    ],
+    "SUBJ_PRES": [
+      "",
+      "",
+      "nieve",
+      "",
+      "",
+      ""
+    ],
+    "SUBJ_IMPF": [
+      "",
+      "",
+      "nevara",
+      "",
+      "",
+      ""
+    ],
+    "SUBJ_PERF": [
+      "",
+      "",
+      "haya nevado",
+      "",
+      "",
+      ""
+    ],
+    "GER": [
+      "nevando"
+    ],
+    "PART": [
+      "nevado"
+    ]
+  }
+}

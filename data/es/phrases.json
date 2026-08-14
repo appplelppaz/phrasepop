@@ -1,0 +1,3100 @@
+{
+  "lang": "es",
+  "phrases": [
+    {
+      "id": "es-0001",
+      "lang": "es",
+      "text": "Hoy hace mucho calor.",
+      "ja": "今日はとても暑い。",
+      "level": "A1",
+      "tags": [
+        "直説法現在",
+        "天気"
+      ],
+      "tokens": [
+        {
+          "surface": "Hoy",
+          "start": 0,
+          "end": 3,
+          "gloss": {
+            "lemma": "hoy",
+            "pos": "副詞",
+            "ja": "今日"
+          }
+        },
+        {
+          "surface": "hace",
+          "start": 4,
+          "end": 8,
+          "gloss": {
+            "lemma": "hacer",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "note": "hacer calor で「暑い」",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "mucho",
+          "start": 9,
+          "end": 14,
+          "gloss": {
+            "lemma": "mucho",
+            "pos": "形容詞",
+            "ja": "多くの・とても"
+          }
+        },
+        {
+          "surface": "calor",
+          "start": 15,
+          "end": 20,
+          "gloss": {
+            "lemma": "calor",
+            "pos": "名詞",
+            "ja": "暑さ・熱"
+          }
+        }
+      ],
+      "grammar": "天気は hacer の3人称単数で表す。"
+    },
+    {
+      "id": "es-0002",
+      "lang": "es",
+      "text": "¿Dónde está la estación de tren?",
+      "ja": "駅はどこですか。",
+      "level": "A1",
+      "tags": [
+        "直説法現在",
+        "道案内"
+      ],
+      "tokens": [
+        {
+          "surface": "Dónde",
+          "start": 1,
+          "end": 6,
+          "gloss": {
+            "lemma": "dónde",
+            "pos": "疑問詞",
+            "ja": "どこ"
+          }
+        },
+        {
+          "surface": "está",
+          "start": 7,
+          "end": 11,
+          "gloss": {
+            "lemma": "estar",
+            "pos": "動詞",
+            "ja": "〜にいる・〜の状態である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "estación",
+          "start": 15,
+          "end": 23,
+          "gloss": {
+            "lemma": "estación",
+            "pos": "名詞",
+            "ja": "駅・季節"
+          }
+        },
+        {
+          "surface": "de",
+          "start": 24,
+          "end": 26
+        },
+        {
+          "surface": "tren",
+          "start": 27,
+          "end": 31,
+          "gloss": {
+            "lemma": "tren",
+            "pos": "名詞",
+            "ja": "電車"
+          }
+        }
+      ],
+      "grammar": "場所を表すときは ser ではなく estar を使う。"
+    },
+    {
+      "id": "es-0003",
+      "lang": "es",
+      "text": "Quiero un café con leche, por favor.",
+      "ja": "カフェオレをひとつお願いします。",
+      "level": "A1",
+      "tags": [
+        "直説法現在",
+        "注文"
+      ],
+      "tokens": [
+        {
+          "surface": "Quiero",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "querer",
+            "pos": "動詞",
+            "ja": "望む・愛する",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 7,
+          "end": 9
+        },
+        {
+          "surface": "café",
+          "start": 10,
+          "end": 14,
+          "gloss": {
+            "lemma": "café",
+            "pos": "名詞",
+            "ja": "コーヒー・喫茶店"
+          }
+        },
+        {
+          "surface": "con",
+          "start": 15,
+          "end": 18
+        },
+        {
+          "surface": "leche",
+          "start": 19,
+          "end": 24,
+          "gloss": {
+            "lemma": "leche",
+            "pos": "名詞",
+            "ja": "牛乳"
+          }
+        },
+        {
+          "surface": "por favor",
+          "start": 26,
+          "end": 35,
+          "gloss": {
+            "lemma": "por favor",
+            "pos": "慣用表現",
+            "ja": "お願いします",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0004",
+      "lang": "es",
+      "text": "No entiendo lo que dices.",
+      "ja": "君の言っていることが分からない。",
+      "level": "A2",
+      "tags": [
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "No",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "entiendo",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "entender",
+            "pos": "動詞",
+            "ja": "理解する",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "lo que",
+          "start": 12,
+          "end": 18,
+          "gloss": {
+            "lemma": "lo que",
+            "pos": "慣用表現",
+            "ja": "〜すること",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "dices",
+          "start": 19,
+          "end": 24,
+          "gloss": {
+            "lemma": "decir",
+            "pos": "動詞",
+            "ja": "言う",
+            "inflection": {
+              "label": "直説法現在・2人称単数",
+              "tense": "IND_PRES",
+              "person": "2sg"
+            }
+          }
+        }
+      ],
+      "grammar": "lo que は「〜すること」を表す関係詞。"
+    },
+    {
+      "id": "es-0005",
+      "lang": "es",
+      "text": "Mi hermana vive en Barcelona.",
+      "ja": "姉はバルセロナに住んでいる。",
+      "level": "A1",
+      "tags": [
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Mi",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "hermana",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "hermana",
+            "pos": "名詞",
+            "ja": "姉・妹"
+          }
+        },
+        {
+          "surface": "vive",
+          "start": 11,
+          "end": 15,
+          "gloss": {
+            "lemma": "vivir",
+            "pos": "動詞",
+            "ja": "住む・生きる",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "en",
+          "start": 16,
+          "end": 18
+        },
+        {
+          "surface": "Barcelona",
+          "start": 19,
+          "end": 28,
+          "gloss": {
+            "lemma": "Barcelona",
+            "pos": "固有名詞",
+            "ja": "バルセロナ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0006",
+      "lang": "es",
+      "text": "Estoy buscando un piso en el centro.",
+      "ja": "中心街でアパートを探している。",
+      "level": "A2",
+      "tags": [
+        "直説法現在",
+        "現在分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Estoy",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "estar",
+            "pos": "動詞",
+            "ja": "〜にいる・〜の状態である",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "buscando",
+          "start": 6,
+          "end": 14,
+          "gloss": {
+            "lemma": "buscar",
+            "pos": "動詞",
+            "ja": "探す",
+            "inflection": {
+              "label": "現在分詞（動名詞）",
+              "tense": "GER"
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 15,
+          "end": 17
+        },
+        {
+          "surface": "piso",
+          "start": 18,
+          "end": 22,
+          "gloss": {
+            "lemma": "piso",
+            "pos": "名詞",
+            "ja": "アパート・階"
+          }
+        },
+        {
+          "surface": "en",
+          "start": 23,
+          "end": 25
+        },
+        {
+          "surface": "el",
+          "start": 26,
+          "end": 28
+        },
+        {
+          "surface": "centro",
+          "start": 29,
+          "end": 35,
+          "gloss": {
+            "lemma": "centro",
+            "pos": "名詞",
+            "ja": "中心・中心街"
+          }
+        }
+      ],
+      "grammar": "estar + 現在分詞で進行中の動作を表す。"
+    },
+    {
+      "id": "es-0007",
+      "lang": "es",
+      "text": "¿Puedes ayudarme un momento?",
+      "ja": "ちょっと手伝ってくれる？",
+      "level": "A2",
+      "tags": [
+        "直説法現在",
+        "依頼"
+      ],
+      "tokens": [
+        {
+          "surface": "Puedes",
+          "start": 1,
+          "end": 7,
+          "gloss": {
+            "lemma": "poder",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "inflection": {
+              "label": "直説法現在・2人称単数",
+              "tense": "IND_PRES",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "ayudar",
+          "start": 8,
+          "end": 14,
+          "gloss": {
+            "lemma": "ayudar",
+            "pos": "動詞",
+            "ja": "助ける・手伝う",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "me",
+          "start": 14,
+          "end": 16
+        },
+        {
+          "surface": "un momento",
+          "start": 17,
+          "end": 27,
+          "gloss": {
+            "lemma": "un momento",
+            "pos": "慣用表現",
+            "ja": "ちょっとの間",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "poder + 不定詞。代名詞 me は不定詞の後ろにくっつく。"
+    },
+    {
+      "id": "es-0008",
+      "lang": "es",
+      "text": "Ayer fui al médico.",
+      "ja": "昨日は医者に行った。",
+      "level": "A2",
+      "tags": [
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Ayer",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "ayer",
+            "pos": "副詞",
+            "ja": "昨日"
+          }
+        },
+        {
+          "surface": "fui",
+          "start": 5,
+          "end": 8,
+          "gloss": {
+            "lemma": "ir",
+            "pos": "動詞",
+            "ja": "行く",
+            "inflection": {
+              "label": "直説法点過去・1人称単数",
+              "tense": "IND_PRET",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "al",
+          "start": 9,
+          "end": 11
+        },
+        {
+          "surface": "médico",
+          "start": 12,
+          "end": 18,
+          "gloss": {
+            "lemma": "médico",
+            "pos": "名詞",
+            "ja": "医者"
+          }
+        }
+      ],
+      "grammar": "点過去は完了した出来事を表す。ir と ser は点過去が同形。"
+    },
+    {
+      "id": "es-0009",
+      "lang": "es",
+      "text": "Anoche dormí muy mal.",
+      "ja": "昨夜はよく眠れなかった。",
+      "level": "A2",
+      "tags": [
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Anoche",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "anoche",
+            "pos": "副詞",
+            "ja": "昨夜"
+          }
+        },
+        {
+          "surface": "dormí",
+          "start": 7,
+          "end": 12,
+          "gloss": {
+            "lemma": "dormir",
+            "pos": "動詞",
+            "ja": "眠る",
+            "inflection": {
+              "label": "直説法点過去・1人称単数",
+              "tense": "IND_PRET",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "muy",
+          "start": 13,
+          "end": 16
+        },
+        {
+          "surface": "mal",
+          "start": 17,
+          "end": 20,
+          "gloss": {
+            "lemma": "mal",
+            "pos": "副詞",
+            "ja": "悪く・下手に"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0010",
+      "lang": "es",
+      "text": "El año pasado viajamos a Perú.",
+      "ja": "去年ペルーへ旅行した。",
+      "level": "A2",
+      "tags": [
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "año",
+          "start": 3,
+          "end": 6,
+          "gloss": {
+            "lemma": "año",
+            "pos": "名詞",
+            "ja": "年"
+          }
+        },
+        {
+          "surface": "pasado",
+          "start": 7,
+          "end": 13,
+          "gloss": {
+            "lemma": "pasado",
+            "pos": "形容詞",
+            "ja": "過ぎた・去った"
+          }
+        },
+        {
+          "surface": "viajamos",
+          "start": 14,
+          "end": 22,
+          "gloss": {
+            "lemma": "viajar",
+            "pos": "動詞",
+            "ja": "旅行する",
+            "inflection": {
+              "label": "直説法点過去・1人称複数",
+              "tense": "IND_PRET",
+              "person": "1pl"
+            }
+          }
+        },
+        {
+          "surface": "a",
+          "start": 23,
+          "end": 24
+        },
+        {
+          "surface": "Perú",
+          "start": 25,
+          "end": 29,
+          "gloss": {
+            "lemma": "Perú",
+            "pos": "固有名詞",
+            "ja": "ペルー"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0011",
+      "lang": "es",
+      "text": "Cuando era niño, jugaba al fútbol todos los días.",
+      "ja": "子どもの頃は毎日サッカーをしていた。",
+      "level": "B1",
+      "tags": [
+        "直説法線過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Cuando",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "cuando",
+            "pos": "接続詞",
+            "ja": "〜のとき"
+          }
+        },
+        {
+          "surface": "era",
+          "start": 7,
+          "end": 10,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法線過去・1人称単数",
+              "tense": "IND_IMPF",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "niño",
+          "start": 11,
+          "end": 15,
+          "gloss": {
+            "lemma": "niño",
+            "pos": "名詞",
+            "ja": "子ども・少年"
+          }
+        },
+        {
+          "surface": "jugaba",
+          "start": 17,
+          "end": 23,
+          "gloss": {
+            "lemma": "jugar",
+            "pos": "動詞",
+            "ja": "遊ぶ・（競技を）する",
+            "inflection": {
+              "label": "直説法線過去・1人称単数",
+              "tense": "IND_IMPF",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "al",
+          "start": 24,
+          "end": 26
+        },
+        {
+          "surface": "fútbol",
+          "start": 27,
+          "end": 33,
+          "gloss": {
+            "lemma": "fútbol",
+            "pos": "名詞",
+            "ja": "サッカー"
+          }
+        },
+        {
+          "surface": "todos los días",
+          "start": 34,
+          "end": 48,
+          "gloss": {
+            "lemma": "todos los días",
+            "pos": "慣用表現",
+            "ja": "毎日",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "線過去は過去の習慣や状態を表す。点過去との対比が要点。"
+    },
+    {
+      "id": "es-0012",
+      "lang": "es",
+      "text": "Antes veía la televisión todas las noches.",
+      "ja": "以前は毎晩テレビを見ていた。",
+      "level": "B1",
+      "tags": [
+        "直説法線過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Antes",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "antes",
+            "pos": "副詞",
+            "ja": "以前・前に"
+          }
+        },
+        {
+          "surface": "veía",
+          "start": 6,
+          "end": 10,
+          "gloss": {
+            "lemma": "ver",
+            "pos": "動詞",
+            "ja": "見る・会う",
+            "inflection": {
+              "label": "直説法線過去・1人称単数",
+              "tense": "IND_IMPF",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 11,
+          "end": 13
+        },
+        {
+          "surface": "televisión",
+          "start": 14,
+          "end": 24,
+          "gloss": {
+            "lemma": "televisión",
+            "pos": "名詞",
+            "ja": "テレビ"
+          }
+        },
+        {
+          "surface": "todas las noches",
+          "start": 25,
+          "end": 41,
+          "gloss": {
+            "lemma": "todas las noches",
+            "pos": "慣用表現",
+            "ja": "毎晩",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0013",
+      "lang": "es",
+      "text": "Mañana saldré temprano de casa.",
+      "ja": "明日は早く家を出る。",
+      "level": "A2",
+      "tags": [
+        "直説法未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Mañana",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "mañana",
+            "pos": "副詞",
+            "ja": "明日"
+          }
+        },
+        {
+          "surface": "saldré",
+          "start": 7,
+          "end": 13,
+          "gloss": {
+            "lemma": "salir",
+            "pos": "動詞",
+            "ja": "出る・出かける",
+            "inflection": {
+              "label": "直説法未来・1人称単数",
+              "tense": "IND_FUT",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "temprano",
+          "start": 14,
+          "end": 22,
+          "gloss": {
+            "lemma": "temprano",
+            "pos": "副詞",
+            "ja": "早く"
+          }
+        },
+        {
+          "surface": "de",
+          "start": 23,
+          "end": 25
+        },
+        {
+          "surface": "casa",
+          "start": 26,
+          "end": 30,
+          "gloss": {
+            "lemma": "casa",
+            "pos": "名詞",
+            "ja": "家"
+          }
+        }
+      ],
+      "grammar": "salir の未来は語幹が saldr- になる不規則型。"
+    },
+    {
+      "id": "es-0014",
+      "lang": "es",
+      "text": "Te llamaré cuando llegue.",
+      "ja": "着いたら電話するね。",
+      "level": "B1",
+      "tags": [
+        "直説法未来",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Te",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "llamaré",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "llamar",
+            "pos": "動詞",
+            "ja": "呼ぶ・電話する",
+            "inflection": {
+              "label": "直説法未来・1人称単数",
+              "tense": "IND_FUT",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "cuando",
+          "start": 11,
+          "end": 17,
+          "gloss": {
+            "lemma": "cuando",
+            "pos": "接続詞",
+            "ja": "〜のとき",
+            "note": "未来を指すときは後ろが接続法"
+          }
+        },
+        {
+          "surface": "llegue",
+          "start": 18,
+          "end": 24,
+          "gloss": {
+            "lemma": "llegar",
+            "pos": "動詞",
+            "ja": "着く・到着する",
+            "inflection": {
+              "label": "接続法現在・1人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "1sg"
+            }
+          }
+        }
+      ],
+      "grammar": "未来のことを指す cuando のあとは接続法になる。"
+    },
+    {
+      "id": "es-0015",
+      "lang": "es",
+      "text": "¿Has terminado el trabajo?",
+      "ja": "仕事は終わった？",
+      "level": "A2",
+      "tags": [
+        "直説法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Has terminado",
+          "start": 1,
+          "end": 14,
+          "gloss": {
+            "lemma": "terminar",
+            "pos": "動詞",
+            "ja": "終える・終わる",
+            "inflection": {
+              "label": "直説法現在完了・2人称単数",
+              "tense": "IND_PERF",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "el",
+          "start": 15,
+          "end": 17
+        },
+        {
+          "surface": "trabajo",
+          "start": 18,
+          "end": 25,
+          "gloss": {
+            "lemma": "trabajo",
+            "pos": "名詞",
+            "ja": "仕事"
+          }
+        }
+      ],
+      "grammar": "haber の現在形 + 過去分詞。今日・今週など現在に近い過去に使う。"
+    },
+    {
+      "id": "es-0016",
+      "lang": "es",
+      "text": "Nunca he estado en México.",
+      "ja": "メキシコには一度も行ったことがない。",
+      "level": "A2",
+      "tags": [
+        "直説法現在完了",
+        "経験"
+      ],
+      "tokens": [
+        {
+          "surface": "Nunca",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "nunca",
+            "pos": "副詞",
+            "ja": "一度も〜ない"
+          }
+        },
+        {
+          "surface": "he estado",
+          "start": 6,
+          "end": 15,
+          "gloss": {
+            "lemma": "estar",
+            "pos": "動詞",
+            "ja": "〜にいる・〜の状態である",
+            "inflection": {
+              "label": "直説法現在完了・1人称単数",
+              "tense": "IND_PERF",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "en",
+          "start": 16,
+          "end": 18
+        },
+        {
+          "surface": "México",
+          "start": 19,
+          "end": 25,
+          "gloss": {
+            "lemma": "México",
+            "pos": "固有名詞",
+            "ja": "メキシコ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0017",
+      "lang": "es",
+      "text": "Cuando llegué, ya se habían ido.",
+      "ja": "私が着いたときには、彼らはもう帰っていた。",
+      "level": "B1",
+      "tags": [
+        "直説法過去完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Cuando",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "cuando",
+            "pos": "接続詞",
+            "ja": "〜のとき"
+          }
+        },
+        {
+          "surface": "llegué",
+          "start": 7,
+          "end": 13,
+          "gloss": {
+            "lemma": "llegar",
+            "pos": "動詞",
+            "ja": "着く・到着する",
+            "inflection": {
+              "label": "直説法点過去・1人称単数",
+              "tense": "IND_PRET",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "ya",
+          "start": 15,
+          "end": 17,
+          "gloss": {
+            "lemma": "ya",
+            "pos": "副詞",
+            "ja": "もう・すでに"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 18,
+          "end": 20
+        },
+        {
+          "surface": "habían ido",
+          "start": 21,
+          "end": 31,
+          "gloss": {
+            "lemma": "ir",
+            "pos": "動詞",
+            "ja": "行く",
+            "note": "irse で「立ち去る」",
+            "inflection": {
+              "label": "直説法過去完了・3人称複数",
+              "tense": "IND_PLUP",
+              "person": "3pl"
+            }
+          }
+        }
+      ],
+      "grammar": "過去のある時点より前に完了していたことを表す。"
+    },
+    {
+      "id": "es-0018",
+      "lang": "es",
+      "text": "Me gustaría viajar por Sudamérica.",
+      "ja": "南米を旅してみたい。",
+      "level": "B1",
+      "tags": [
+        "条件法現在",
+        "願望"
+      ],
+      "tokens": [
+        {
+          "surface": "Me",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "gustaría",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "gustar",
+            "pos": "動詞",
+            "ja": "気に入る・好きだ",
+            "note": "主語は viajar なので3人称単数",
+            "inflection": {
+              "label": "条件法現在・3人称単数",
+              "tense": "COND",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "viajar",
+          "start": 12,
+          "end": 18,
+          "gloss": {
+            "lemma": "viajar",
+            "pos": "動詞",
+            "ja": "旅行する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "por",
+          "start": 19,
+          "end": 22
+        },
+        {
+          "surface": "Sudamérica",
+          "start": 23,
+          "end": 33,
+          "gloss": {
+            "lemma": "Sudamérica",
+            "pos": "固有名詞",
+            "ja": "南米"
+          }
+        }
+      ],
+      "grammar": "gustar は「〜が気に入る」。条件法にすると控えめな願望になる。"
+    },
+    {
+      "id": "es-0019",
+      "lang": "es",
+      "text": "Yo que tú, no diría nada.",
+      "ja": "僕が君なら、何も言わないだろうね。",
+      "level": "B2",
+      "tags": [
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Yo que tú",
+          "start": 0,
+          "end": 9,
+          "gloss": {
+            "lemma": "yo que tú",
+            "pos": "慣用表現",
+            "ja": "私が君なら",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "no",
+          "start": 11,
+          "end": 13
+        },
+        {
+          "surface": "diría",
+          "start": 14,
+          "end": 19,
+          "gloss": {
+            "lemma": "decir",
+            "pos": "動詞",
+            "ja": "言う",
+            "inflection": {
+              "label": "条件法現在・1人称単数",
+              "tense": "COND",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "nada",
+          "start": 20,
+          "end": 24,
+          "gloss": {
+            "lemma": "nada",
+            "pos": "代名詞",
+            "ja": "何も〜ない"
+          }
+        }
+      ],
+      "grammar": "yo que tú は「私が君なら」という決まり文句。"
+    },
+    {
+      "id": "es-0020",
+      "lang": "es",
+      "text": "Espero que tengas un buen día.",
+      "ja": "よい一日になりますように。",
+      "level": "A2",
+      "tags": [
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Espero",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "esperar",
+            "pos": "動詞",
+            "ja": "待つ・期待する",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 7,
+          "end": 10
+        },
+        {
+          "surface": "tengas",
+          "start": 11,
+          "end": 17,
+          "gloss": {
+            "lemma": "tener",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "接続法現在・2人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 18,
+          "end": 20
+        },
+        {
+          "surface": "buen",
+          "start": 21,
+          "end": 25,
+          "gloss": {
+            "lemma": "bueno",
+            "pos": "形容詞",
+            "ja": "よい",
+            "note": "男性単数名詞の前で buen に短縮"
+          }
+        },
+        {
+          "surface": "día",
+          "start": 26,
+          "end": 29,
+          "gloss": {
+            "lemma": "día",
+            "pos": "名詞",
+            "ja": "日・一日"
+          }
+        }
+      ],
+      "grammar": "esperar que のように願望・感情を表す動詞のあとは接続法。"
+    },
+    {
+      "id": "es-0021",
+      "lang": "es",
+      "text": "Ojalá no llueva mañana.",
+      "ja": "明日雨が降らないといいな。",
+      "level": "B1",
+      "tags": [
+        "接続法現在",
+        "願望"
+      ],
+      "tokens": [
+        {
+          "surface": "Ojalá",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "ojalá",
+            "pos": "間投詞",
+            "ja": "〜だといいな",
+            "note": "後ろは必ず接続法"
+          }
+        },
+        {
+          "surface": "no",
+          "start": 6,
+          "end": 8
+        },
+        {
+          "surface": "llueva",
+          "start": 9,
+          "end": 15,
+          "gloss": {
+            "lemma": "llover",
+            "pos": "動詞",
+            "ja": "雨が降る",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "mañana",
+          "start": 16,
+          "end": 22,
+          "gloss": {
+            "lemma": "mañana",
+            "pos": "副詞",
+            "ja": "明日"
+          }
+        }
+      ],
+      "grammar": "ojalá のあとは必ず接続法。"
+    },
+    {
+      "id": "es-0022",
+      "lang": "es",
+      "text": "No creo que sea buena idea.",
+      "ja": "それがいい考えだとは思わない。",
+      "level": "B1",
+      "tags": [
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "No",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "creo",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "creer",
+            "pos": "動詞",
+            "ja": "信じる・思う",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 8,
+          "end": 11
+        },
+        {
+          "surface": "sea",
+          "start": 12,
+          "end": 15,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "buena",
+          "start": 16,
+          "end": 21,
+          "gloss": {
+            "lemma": "bueno",
+            "pos": "形容詞",
+            "ja": "よい"
+          }
+        },
+        {
+          "surface": "idea",
+          "start": 22,
+          "end": 26,
+          "gloss": {
+            "lemma": "idea",
+            "pos": "名詞",
+            "ja": "考え・アイデア"
+          }
+        }
+      ],
+      "grammar": "creer が否定されると、従属節は接続法になる。"
+    },
+    {
+      "id": "es-0023",
+      "lang": "es",
+      "text": "Es importante que estudies todos los días.",
+      "ja": "毎日勉強することが大切だ。",
+      "level": "B1",
+      "tags": [
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Es",
+          "start": 0,
+          "end": 2,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "importante",
+          "start": 3,
+          "end": 13,
+          "gloss": {
+            "lemma": "importante",
+            "pos": "形容詞",
+            "ja": "重要な・大切な"
+          }
+        },
+        {
+          "surface": "que",
+          "start": 14,
+          "end": 17
+        },
+        {
+          "surface": "estudies",
+          "start": 18,
+          "end": 26,
+          "gloss": {
+            "lemma": "estudiar",
+            "pos": "動詞",
+            "ja": "勉強する",
+            "inflection": {
+              "label": "接続法現在・2人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "todos los días",
+          "start": 27,
+          "end": 41,
+          "gloss": {
+            "lemma": "todos los días",
+            "pos": "慣用表現",
+            "ja": "毎日",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "es + 形容詞 + que は接続法をとる。"
+    },
+    {
+      "id": "es-0024",
+      "lang": "es",
+      "text": "Si tuviera más tiempo, viajaría más.",
+      "ja": "もっと時間があれば、もっと旅行するのに。",
+      "level": "B2",
+      "tags": [
+        "接続法過去",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Si",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "tuviera",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "tener",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "接続法過去・1人称単数",
+              "tense": "SUBJ_IMPF",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "más",
+          "start": 11,
+          "end": 14,
+          "gloss": {
+            "lemma": "más",
+            "pos": "副詞",
+            "ja": "もっと・より多く"
+          }
+        },
+        {
+          "surface": "tiempo",
+          "start": 15,
+          "end": 21,
+          "gloss": {
+            "lemma": "tiempo",
+            "pos": "名詞",
+            "ja": "時間・天気"
+          }
+        },
+        {
+          "surface": "viajaría",
+          "start": 23,
+          "end": 31,
+          "gloss": {
+            "lemma": "viajar",
+            "pos": "動詞",
+            "ja": "旅行する",
+            "inflection": {
+              "label": "条件法現在・1人称単数",
+              "tense": "COND",
+              "person": "1sg"
+            }
+          }
+        }
+      ],
+      "grammar": "現在の事実に反する仮定は「si + 接続法過去, 条件法」。"
+    },
+    {
+      "id": "es-0025",
+      "lang": "es",
+      "text": "Me pidió que le ayudara.",
+      "ja": "彼は私に手伝ってほしいと言った。",
+      "level": "B2",
+      "tags": [
+        "接続法過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Me",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "pidió",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "pedir",
+            "pos": "動詞",
+            "ja": "頼む・注文する",
+            "inflection": {
+              "label": "直説法点過去・3人称単数",
+              "tense": "IND_PRET",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 9,
+          "end": 12
+        },
+        {
+          "surface": "le",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "surface": "ayudara",
+          "start": 16,
+          "end": 23,
+          "gloss": {
+            "lemma": "ayudar",
+            "pos": "動詞",
+            "ja": "助ける・手伝う",
+            "inflection": {
+              "label": "接続法過去・1人称単数",
+              "tense": "SUBJ_IMPF",
+              "person": "1sg"
+            }
+          }
+        }
+      ],
+      "grammar": "主節が過去のとき、従属節の接続法も過去になる（時制の一致）。"
+    },
+    {
+      "id": "es-0026",
+      "lang": "es",
+      "text": "¡Ven aquí ahora mismo!",
+      "ja": "今すぐこっちに来なさい！",
+      "level": "A2",
+      "tags": [
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Ven",
+          "start": 1,
+          "end": 4,
+          "gloss": {
+            "lemma": "venir",
+            "pos": "動詞",
+            "ja": "来る",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMP",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "aquí",
+          "start": 5,
+          "end": 9,
+          "gloss": {
+            "lemma": "aquí",
+            "pos": "副詞",
+            "ja": "ここに"
+          }
+        },
+        {
+          "surface": "ahora mismo",
+          "start": 10,
+          "end": 21,
+          "gloss": {
+            "lemma": "ahora mismo",
+            "pos": "慣用表現",
+            "ja": "今すぐ",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "venir の tú に対する命令形は ven という不規則形。"
+    },
+    {
+      "id": "es-0027",
+      "lang": "es",
+      "text": "Dime la verdad, por favor.",
+      "ja": "お願いだから本当のことを言って。",
+      "level": "A2",
+      "tags": [
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Di",
+          "start": 0,
+          "end": 2,
+          "gloss": {
+            "lemma": "decir",
+            "pos": "動詞",
+            "ja": "言う",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMP",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "me",
+          "start": 2,
+          "end": 4
+        },
+        {
+          "surface": "la",
+          "start": 5,
+          "end": 7
+        },
+        {
+          "surface": "verdad",
+          "start": 8,
+          "end": 14,
+          "gloss": {
+            "lemma": "verdad",
+            "pos": "名詞",
+            "ja": "真実・本当のこと"
+          }
+        },
+        {
+          "surface": "por favor",
+          "start": 16,
+          "end": 25,
+          "gloss": {
+            "lemma": "por favor",
+            "pos": "慣用表現",
+            "ja": "お願いします",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "肯定命令では代名詞が動詞の後ろにくっつく（di + me）。"
+    },
+    {
+      "id": "es-0028",
+      "lang": "es",
+      "text": "No hables tan rápido.",
+      "ja": "そんなに速く話さないで。",
+      "level": "B1",
+      "tags": [
+        "命令法",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "No",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "hables",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "hablar",
+            "pos": "動詞",
+            "ja": "話す",
+            "note": "否定命令なので接続法",
+            "inflection": {
+              "label": "接続法現在・2人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "tan",
+          "start": 10,
+          "end": 13,
+          "gloss": {
+            "lemma": "tan",
+            "pos": "副詞",
+            "ja": "そんなに・とても"
+          }
+        },
+        {
+          "surface": "rápido",
+          "start": 14,
+          "end": 20,
+          "gloss": {
+            "lemma": "rápido",
+            "pos": "副詞",
+            "ja": "速く"
+          }
+        }
+      ],
+      "grammar": "否定命令は命令形ではなく接続法現在を使う。"
+    },
+    {
+      "id": "es-0029",
+      "lang": "es",
+      "text": "Haz lo que quieras.",
+      "ja": "好きなようにすればいい。",
+      "level": "B1",
+      "tags": [
+        "命令法",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Haz",
+          "start": 0,
+          "end": 3,
+          "gloss": {
+            "lemma": "hacer",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMP",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "lo que",
+          "start": 4,
+          "end": 10,
+          "gloss": {
+            "lemma": "lo que",
+            "pos": "慣用表現",
+            "ja": "〜すること",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "quieras",
+          "start": 11,
+          "end": 18,
+          "gloss": {
+            "lemma": "querer",
+            "pos": "動詞",
+            "ja": "望む・愛する",
+            "inflection": {
+              "label": "接続法現在・2人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "2sg"
+            }
+          }
+        }
+      ],
+      "grammar": "「〜したいこと」のように不特定の内容を指す関係節は接続法。"
+    },
+    {
+      "id": "es-0030",
+      "lang": "es",
+      "text": "Acabo de llegar a casa.",
+      "ja": "ちょうど今家に着いたところだ。",
+      "level": "A2",
+      "tags": [
+        "直説法現在",
+        "熟語"
+      ],
+      "tokens": [
+        {
+          "surface": "Acabo",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "acabar",
+            "pos": "動詞",
+            "ja": "終える・たった今〜したところだ",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "de",
+          "start": 6,
+          "end": 8
+        },
+        {
+          "surface": "llegar",
+          "start": 9,
+          "end": 15,
+          "gloss": {
+            "lemma": "llegar",
+            "pos": "動詞",
+            "ja": "着く・到着する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "a",
+          "start": 16,
+          "end": 17
+        },
+        {
+          "surface": "casa",
+          "start": 18,
+          "end": 22,
+          "gloss": {
+            "lemma": "casa",
+            "pos": "名詞",
+            "ja": "家"
+          }
+        }
+      ],
+      "grammar": "acabar de + 不定詞で「〜したばかり」。"
+    },
+    {
+      "id": "es-0031",
+      "lang": "es",
+      "text": "Tengo ganas de ver esa película.",
+      "ja": "その映画が見たい。",
+      "level": "B1",
+      "tags": [
+        "直説法現在",
+        "熟語"
+      ],
+      "tokens": [
+        {
+          "surface": "Tengo",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "tener",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "ganas de",
+          "start": 6,
+          "end": 14,
+          "gloss": {
+            "lemma": "tener ganas de",
+            "pos": "慣用表現",
+            "ja": "〜したい気がする",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "ver",
+          "start": 15,
+          "end": 18,
+          "gloss": {
+            "lemma": "ver",
+            "pos": "動詞",
+            "ja": "見る・会う",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "esa",
+          "start": 19,
+          "end": 22
+        },
+        {
+          "surface": "película",
+          "start": 23,
+          "end": 31,
+          "gloss": {
+            "lemma": "película",
+            "pos": "名詞",
+            "ja": "映画"
+          }
+        }
+      ],
+      "grammar": "tener ganas de + 不定詞で「〜したい」。"
+    },
+    {
+      "id": "es-0032",
+      "lang": "es",
+      "text": "Vale la pena leer este libro.",
+      "ja": "この本は読む価値がある。",
+      "level": "B1",
+      "tags": [
+        "直説法現在",
+        "熟語"
+      ],
+      "tokens": [
+        {
+          "surface": "Vale",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "valer",
+            "pos": "動詞",
+            "ja": "価値がある・値段が〜だ",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "la pena",
+          "start": 5,
+          "end": 12,
+          "gloss": {
+            "lemma": "valer la pena",
+            "pos": "慣用表現",
+            "ja": "〜する価値がある",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "leer",
+          "start": 13,
+          "end": 17,
+          "gloss": {
+            "lemma": "leer",
+            "pos": "動詞",
+            "ja": "読む",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "este",
+          "start": 18,
+          "end": 22
+        },
+        {
+          "surface": "libro",
+          "start": 23,
+          "end": 28,
+          "gloss": {
+            "lemma": "libro",
+            "pos": "名詞",
+            "ja": "本"
+          }
+        }
+      ],
+      "grammar": "valer la pena で「〜する価値がある」。"
+    },
+    {
+      "id": "es-0033",
+      "lang": "es",
+      "text": "Se me olvidó por completo.",
+      "ja": "すっかり忘れてしまった。",
+      "level": "B1",
+      "tags": [
+        "直説法点過去",
+        "熟語"
+      ],
+      "tokens": [
+        {
+          "surface": "Se",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "me",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "olvidó",
+          "start": 6,
+          "end": 12,
+          "gloss": {
+            "lemma": "olvidar",
+            "pos": "動詞",
+            "ja": "忘れる",
+            "inflection": {
+              "label": "直説法点過去・3人称単数",
+              "tense": "IND_PRET",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "por completo",
+          "start": 13,
+          "end": 25,
+          "gloss": {
+            "lemma": "por completo",
+            "pos": "慣用表現",
+            "ja": "完全に・すっかり",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "se me olvidó は「うっかり忘れた」という無意志の言い方。"
+    },
+    {
+      "id": "es-0034",
+      "lang": "es",
+      "text": "Hace dos años que trabajo aquí.",
+      "ja": "ここで働いて2年になる。",
+      "level": "B1",
+      "tags": [
+        "直説法現在",
+        "熟語"
+      ],
+      "tokens": [
+        {
+          "surface": "Hace",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "hacer",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "note": "hace + 期間 + que で経過時間",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "dos",
+          "start": 5,
+          "end": 8
+        },
+        {
+          "surface": "años",
+          "start": 9,
+          "end": 13,
+          "gloss": {
+            "lemma": "año",
+            "pos": "名詞",
+            "ja": "年"
+          }
+        },
+        {
+          "surface": "que",
+          "start": 14,
+          "end": 17
+        },
+        {
+          "surface": "trabajo",
+          "start": 18,
+          "end": 25,
+          "gloss": {
+            "lemma": "trabajar",
+            "pos": "動詞",
+            "ja": "働く",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "aquí",
+          "start": 26,
+          "end": 30,
+          "gloss": {
+            "lemma": "aquí",
+            "pos": "副詞",
+            "ja": "ここに"
+          }
+        }
+      ],
+      "grammar": "hace + 期間 + que + 現在形で「〜して…になる」。"
+    },
+    {
+      "id": "es-0035",
+      "lang": "es",
+      "text": "Tengo que salir ahora.",
+      "ja": "もう出かけないといけない。",
+      "level": "A2",
+      "tags": [
+        "直説法現在",
+        "熟語"
+      ],
+      "tokens": [
+        {
+          "surface": "Tengo",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "tener",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 6,
+          "end": 9
+        },
+        {
+          "surface": "salir",
+          "start": 10,
+          "end": 15,
+          "gloss": {
+            "lemma": "salir",
+            "pos": "動詞",
+            "ja": "出る・出かける",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "ahora",
+          "start": 16,
+          "end": 21,
+          "gloss": {
+            "lemma": "ahora",
+            "pos": "副詞",
+            "ja": "今"
+          }
+        }
+      ],
+      "grammar": "tener que + 不定詞で義務を表す。"
+    },
+    {
+      "id": "es-0036",
+      "lang": "es",
+      "text": "Voy a comprar pan y leche.",
+      "ja": "パンと牛乳を買ってくる。",
+      "level": "A1",
+      "tags": [
+        "直説法現在",
+        "近接未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Voy",
+          "start": 0,
+          "end": 3,
+          "gloss": {
+            "lemma": "ir",
+            "pos": "動詞",
+            "ja": "行く",
+            "note": "ir a + 不定詞で近接未来",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "a",
+          "start": 4,
+          "end": 5
+        },
+        {
+          "surface": "comprar",
+          "start": 6,
+          "end": 13,
+          "gloss": {
+            "lemma": "comprar",
+            "pos": "動詞",
+            "ja": "買う",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "pan",
+          "start": 14,
+          "end": 17,
+          "gloss": {
+            "lemma": "pan",
+            "pos": "名詞",
+            "ja": "パン"
+          }
+        },
+        {
+          "surface": "y",
+          "start": 18,
+          "end": 19
+        },
+        {
+          "surface": "leche",
+          "start": 20,
+          "end": 25,
+          "gloss": {
+            "lemma": "leche",
+            "pos": "名詞",
+            "ja": "牛乳"
+          }
+        }
+      ],
+      "grammar": "ir a + 不定詞で近い未来を表す。"
+    },
+    {
+      "id": "es-0037",
+      "lang": "es",
+      "text": "¿A qué hora empieza la película?",
+      "ja": "映画は何時に始まりますか。",
+      "level": "A1",
+      "tags": [
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "A qué hora",
+          "start": 1,
+          "end": 11,
+          "gloss": {
+            "lemma": "a qué hora",
+            "pos": "慣用表現",
+            "ja": "何時に",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "empieza",
+          "start": 12,
+          "end": 19,
+          "gloss": {
+            "lemma": "empezar",
+            "pos": "動詞",
+            "ja": "始める・始まる",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 20,
+          "end": 22
+        },
+        {
+          "surface": "película",
+          "start": 23,
+          "end": 31,
+          "gloss": {
+            "lemma": "película",
+            "pos": "名詞",
+            "ja": "映画"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0038",
+      "lang": "es",
+      "text": "Todavía no he escrito la carta.",
+      "ja": "まだ手紙を書いていない。",
+      "level": "B1",
+      "tags": [
+        "直説法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Todavía",
+          "start": 0,
+          "end": 7,
+          "gloss": {
+            "lemma": "todavía",
+            "pos": "副詞",
+            "ja": "まだ"
+          }
+        },
+        {
+          "surface": "no",
+          "start": 8,
+          "end": 10
+        },
+        {
+          "surface": "he escrito",
+          "start": 11,
+          "end": 21,
+          "gloss": {
+            "lemma": "escribir",
+            "pos": "動詞",
+            "ja": "書く",
+            "inflection": {
+              "label": "直説法現在完了・1人称単数",
+              "tense": "IND_PERF",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "surface": "carta",
+          "start": 25,
+          "end": 30,
+          "gloss": {
+            "lemma": "carta",
+            "pos": "名詞",
+            "ja": "手紙"
+          }
+        }
+      ],
+      "grammar": "escribir の過去分詞は escrito という不規則形。"
+    },
+    {
+      "id": "es-0039",
+      "lang": "es",
+      "text": "Me alegro de que estés aquí.",
+      "ja": "君がここにいてくれて嬉しい。",
+      "level": "B1",
+      "tags": [
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Me",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "alegro",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "alegrar",
+            "pos": "動詞",
+            "ja": "喜ばせる・（再帰で）喜ぶ",
+            "inflection": {
+              "label": "直説法現在・1人称単数"
+            }
+          }
+        },
+        {
+          "surface": "de que",
+          "start": 10,
+          "end": 16
+        },
+        {
+          "surface": "estés",
+          "start": 17,
+          "end": 22,
+          "gloss": {
+            "lemma": "estar",
+            "pos": "動詞",
+            "ja": "〜にいる・〜の状態である",
+            "inflection": {
+              "label": "接続法現在・2人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "aquí",
+          "start": 23,
+          "end": 27,
+          "gloss": {
+            "lemma": "aquí",
+            "pos": "副詞",
+            "ja": "ここに"
+          }
+        }
+      ],
+      "grammar": "感情を表す表現のあとは接続法。"
+    },
+    {
+      "id": "es-0040",
+      "lang": "es",
+      "text": "Aunque llueva, iremos a la playa.",
+      "ja": "たとえ雨が降っても、海に行くつもりだ。",
+      "level": "B2",
+      "tags": [
+        "接続法現在",
+        "直説法未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Aunque",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "aunque",
+            "pos": "接続詞",
+            "ja": "〜だけれども・たとえ〜でも"
+          }
+        },
+        {
+          "surface": "llueva",
+          "start": 7,
+          "end": 13,
+          "gloss": {
+            "lemma": "llover",
+            "pos": "動詞",
+            "ja": "雨が降る",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "iremos",
+          "start": 15,
+          "end": 21,
+          "gloss": {
+            "lemma": "ir",
+            "pos": "動詞",
+            "ja": "行く",
+            "inflection": {
+              "label": "直説法未来・1人称複数",
+              "tense": "IND_FUT",
+              "person": "1pl"
+            }
+          }
+        },
+        {
+          "surface": "a",
+          "start": 22,
+          "end": 23
+        },
+        {
+          "surface": "la",
+          "start": 24,
+          "end": 26
+        },
+        {
+          "surface": "playa",
+          "start": 27,
+          "end": 32,
+          "gloss": {
+            "lemma": "playa",
+            "pos": "名詞",
+            "ja": "浜辺・海岸"
+          }
+        }
+      ],
+      "grammar": "aunque + 接続法で「たとえ〜でも」という譲歩を表す。"
+    },
+    {
+      "id": "es-0041",
+      "lang": "es",
+      "text": "Ese libro fue escrito por una mujer española.",
+      "ja": "その本はスペイン人の女性によって書かれた。",
+      "level": "B2",
+      "tags": [
+        "受動態",
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Ese",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "libro",
+          "start": 4,
+          "end": 9,
+          "gloss": {
+            "lemma": "libro",
+            "pos": "名詞",
+            "ja": "本"
+          }
+        },
+        {
+          "surface": "fue",
+          "start": 10,
+          "end": 13,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法点過去・3人称単数",
+              "tense": "IND_PRET",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "escrito",
+          "start": 14,
+          "end": 21,
+          "gloss": {
+            "lemma": "escribir",
+            "pos": "動詞",
+            "ja": "書く",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PART"
+            }
+          }
+        },
+        {
+          "surface": "por",
+          "start": 22,
+          "end": 25
+        },
+        {
+          "surface": "una",
+          "start": 26,
+          "end": 29
+        },
+        {
+          "surface": "mujer",
+          "start": 30,
+          "end": 35,
+          "gloss": {
+            "lemma": "mujer",
+            "pos": "名詞",
+            "ja": "女性・妻"
+          }
+        },
+        {
+          "surface": "española",
+          "start": 36,
+          "end": 44,
+          "gloss": {
+            "lemma": "español",
+            "pos": "形容詞",
+            "ja": "スペインの",
+            "inflection": {
+              "label": "女性単数"
+            }
+          }
+        }
+      ],
+      "grammar": "ser + 過去分詞で受動態。過去分詞は主語に性数一致する。"
+    },
+    {
+      "id": "es-0042",
+      "lang": "es",
+      "text": "Sigue lloviendo desde ayer.",
+      "ja": "昨日からずっと雨が降り続いている。",
+      "level": "B1",
+      "tags": [
+        "現在分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Sigue",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "seguir",
+            "pos": "動詞",
+            "ja": "続ける・ついていく",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "lloviendo",
+          "start": 6,
+          "end": 15,
+          "gloss": {
+            "lemma": "llover",
+            "pos": "動詞",
+            "ja": "雨が降る",
+            "inflection": {
+              "label": "現在分詞（動名詞）",
+              "tense": "GER"
+            }
+          }
+        },
+        {
+          "surface": "desde",
+          "start": 16,
+          "end": 21
+        },
+        {
+          "surface": "ayer",
+          "start": 22,
+          "end": 26,
+          "gloss": {
+            "lemma": "ayer",
+            "pos": "副詞",
+            "ja": "昨日"
+          }
+        }
+      ],
+      "grammar": "seguir + 現在分詞で「〜し続ける」。"
+    },
+    {
+      "id": "es-0043",
+      "lang": "es",
+      "text": "No sabía que vivías aquí.",
+      "ja": "君がここに住んでいるとは知らなかった。",
+      "level": "B1",
+      "tags": [
+        "直説法線過去"
+      ],
+      "tokens": [
+        {
+          "surface": "No",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "sabía",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "saber",
+            "pos": "動詞",
+            "ja": "知っている・〜できる",
+            "inflection": {
+              "label": "直説法線過去・1人称単数",
+              "tense": "IND_IMPF",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 9,
+          "end": 12
+        },
+        {
+          "surface": "vivías",
+          "start": 13,
+          "end": 19,
+          "gloss": {
+            "lemma": "vivir",
+            "pos": "動詞",
+            "ja": "住む・生きる",
+            "inflection": {
+              "label": "直説法線過去・2人称単数",
+              "tense": "IND_IMPF",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "aquí",
+          "start": 20,
+          "end": 24,
+          "gloss": {
+            "lemma": "aquí",
+            "pos": "副詞",
+            "ja": "ここに"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0044",
+      "lang": "es",
+      "text": "Me duele la cabeza desde esta mañana.",
+      "ja": "今朝から頭が痛い。",
+      "level": "A2",
+      "tags": [
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Me",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "duele",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "doler",
+            "pos": "動詞",
+            "ja": "痛む",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 9,
+          "end": 11
+        },
+        {
+          "surface": "cabeza",
+          "start": 12,
+          "end": 18,
+          "gloss": {
+            "lemma": "cabeza",
+            "pos": "名詞",
+            "ja": "頭"
+          }
+        },
+        {
+          "surface": "desde",
+          "start": 19,
+          "end": 24
+        },
+        {
+          "surface": "esta mañana",
+          "start": 25,
+          "end": 36,
+          "gloss": {
+            "lemma": "esta mañana",
+            "pos": "慣用表現",
+            "ja": "今朝",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "doler は gustar 型。痛む部分が主語になる。"
+    },
+    {
+      "id": "es-0045",
+      "lang": "es",
+      "text": "Dame un momento, por favor.",
+      "ja": "少し待ってください。",
+      "level": "A2",
+      "tags": [
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Da",
+          "start": 0,
+          "end": 2,
+          "gloss": {
+            "lemma": "dar",
+            "pos": "動詞",
+            "ja": "与える",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMP",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "me",
+          "start": 2,
+          "end": 4
+        },
+        {
+          "surface": "un momento",
+          "start": 5,
+          "end": 15,
+          "gloss": {
+            "lemma": "un momento",
+            "pos": "慣用表現",
+            "ja": "ちょっとの間",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "por favor",
+          "start": 17,
+          "end": 26,
+          "gloss": {
+            "lemma": "por favor",
+            "pos": "慣用表現",
+            "ja": "お願いします",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0046",
+      "lang": "es",
+      "text": "Habla más despacio, por favor.",
+      "ja": "もっとゆっくり話してください。",
+      "level": "A1",
+      "tags": [
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Habla",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "hablar",
+            "pos": "動詞",
+            "ja": "話す",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMP",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "más",
+          "start": 6,
+          "end": 9,
+          "gloss": {
+            "lemma": "más",
+            "pos": "副詞",
+            "ja": "もっと・より多く"
+          }
+        },
+        {
+          "surface": "despacio",
+          "start": 10,
+          "end": 18,
+          "gloss": {
+            "lemma": "despacio",
+            "pos": "副詞",
+            "ja": "ゆっくり"
+          }
+        },
+        {
+          "surface": "por favor",
+          "start": 20,
+          "end": 29,
+          "gloss": {
+            "lemma": "por favor",
+            "pos": "慣用表現",
+            "ja": "お願いします",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0047",
+      "lang": "es",
+      "text": "Si hubiera sabido, te habría llamado.",
+      "ja": "知っていたら、君に電話したのに。",
+      "level": "B2",
+      "tags": [
+        "接続法過去完了",
+        "条件法完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Si",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "hubiera sabido",
+          "start": 3,
+          "end": 17,
+          "gloss": {
+            "lemma": "saber",
+            "pos": "動詞",
+            "ja": "知っている・〜できる",
+            "inflection": {
+              "label": "接続法過去完了・1人称単数"
+            }
+          }
+        },
+        {
+          "surface": "te",
+          "start": 19,
+          "end": 21
+        },
+        {
+          "surface": "habría llamado",
+          "start": 22,
+          "end": 36,
+          "gloss": {
+            "lemma": "llamar",
+            "pos": "動詞",
+            "ja": "呼ぶ・電話する",
+            "inflection": {
+              "label": "条件法完了・1人称単数"
+            }
+          }
+        }
+      ],
+      "grammar": "過去の事実に反する仮定。ここでは活用表に無い複合形なので手書きラベル。"
+    },
+    {
+      "id": "es-0048",
+      "lang": "es",
+      "text": "Cada vez que la veo, me sonríe.",
+      "ja": "彼女に会うたびに、微笑んでくれる。",
+      "level": "B1",
+      "tags": [
+        "直説法現在",
+        "熟語"
+      ],
+      "tokens": [
+        {
+          "surface": "Cada vez que",
+          "start": 0,
+          "end": 12,
+          "gloss": {
+            "lemma": "cada vez que",
+            "pos": "慣用表現",
+            "ja": "〜するたびに",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "la",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "surface": "veo",
+          "start": 16,
+          "end": 19,
+          "gloss": {
+            "lemma": "ver",
+            "pos": "動詞",
+            "ja": "見る・会う",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "me",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "sonríe",
+          "start": 24,
+          "end": 30,
+          "gloss": {
+            "lemma": "sonreír",
+            "pos": "動詞",
+            "ja": "微笑む",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        }
+      ],
+      "grammar": "cada vez que で「〜するたびに」。"
+    },
+    {
+      "id": "es-0049",
+      "lang": "es",
+      "text": "Nos conocimos hace mucho tiempo.",
+      "ja": "私たちはずいぶん前に知り合った。",
+      "level": "B1",
+      "tags": [
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Nos",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "conocimos",
+          "start": 4,
+          "end": 13,
+          "gloss": {
+            "lemma": "conocer",
+            "pos": "動詞",
+            "ja": "知っている・知り合う",
+            "inflection": {
+              "label": "直説法点過去・1人称複数",
+              "tense": "IND_PRET",
+              "person": "1pl"
+            }
+          }
+        },
+        {
+          "surface": "hace mucho tiempo",
+          "start": 14,
+          "end": 31,
+          "gloss": {
+            "lemma": "hace mucho tiempo",
+            "pos": "慣用表現",
+            "ja": "ずいぶん前に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "conocer の点過去は「知り合った」という意味になる。"
+    },
+    {
+      "id": "es-0050",
+      "lang": "es",
+      "text": "Por fin ha dejado de nevar.",
+      "ja": "やっと雪がやんだ。",
+      "level": "B1",
+      "tags": [
+        "直説法現在完了",
+        "熟語"
+      ],
+      "tokens": [
+        {
+          "surface": "Por fin",
+          "start": 0,
+          "end": 7,
+          "gloss": {
+            "lemma": "por fin",
+            "pos": "慣用表現",
+            "ja": "ついに・やっと",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "ha dejado",
+          "start": 8,
+          "end": 17,
+          "gloss": {
+            "lemma": "dejar",
+            "pos": "動詞",
+            "ja": "置いていく・やめる・許す",
+            "inflection": {
+              "label": "直説法現在完了・3人称単数",
+              "tense": "IND_PERF",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "de",
+          "start": 18,
+          "end": 20
+        },
+        {
+          "surface": "nevar",
+          "start": 21,
+          "end": 26,
+          "gloss": {
+            "lemma": "nevar",
+            "pos": "動詞",
+            "ja": "雪が降る",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ],
+      "grammar": "dejar de + 不定詞で「〜するのをやめる」。"
+    }
+  ]
+}

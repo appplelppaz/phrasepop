@@ -1,0 +1,736 @@
+{
+  "_comment": "手書きのフレーズ原本。node scripts/build-phrases.mjs で phrases.json に変換される。トークンの start/end とビルド時に活用ラベルが自動生成され、表層形は data/es/verbs.json と照合される。infl は \"時制キー/人称\" 形式。機能語は skip: true。",
+  "lang": "es",
+  "phrases": [
+    {
+      "id": "es-0001",
+      "text": "Hoy hace mucho calor.",
+      "ja": "今日はとても暑い。",
+      "level": "A1",
+      "tags": ["直説法現在", "天気"],
+      "grammar": "天気は hacer の3人称単数で表す。",
+      "tokens": [
+        { "s": "Hoy", "lemma": "hoy", "pos": "副詞", "ja": "今日" },
+        { "s": "hace", "lemma": "hacer", "pos": "動詞", "ja": "する・作る", "infl": "IND_PRES/3sg", "note": "hacer calor で「暑い」" },
+        { "s": "mucho", "lemma": "mucho", "pos": "形容詞", "ja": "多くの・とても" },
+        { "s": "calor", "lemma": "calor", "pos": "名詞", "ja": "暑さ・熱" }
+      ]
+    },
+    {
+      "id": "es-0002",
+      "text": "¿Dónde está la estación de tren?",
+      "ja": "駅はどこですか。",
+      "level": "A1",
+      "tags": ["直説法現在", "道案内"],
+      "grammar": "場所を表すときは ser ではなく estar を使う。",
+      "tokens": [
+        { "s": "Dónde", "lemma": "dónde", "pos": "疑問詞", "ja": "どこ" },
+        { "s": "está", "lemma": "estar", "pos": "動詞", "ja": "〜にいる・〜の状態である", "infl": "IND_PRES/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "estación", "lemma": "estación", "pos": "名詞", "ja": "駅・季節" },
+        { "s": "de", "skip": true },
+        { "s": "tren", "lemma": "tren", "pos": "名詞", "ja": "電車" }
+      ]
+    },
+    {
+      "id": "es-0003",
+      "text": "Quiero un café con leche, por favor.",
+      "ja": "カフェオレをひとつお願いします。",
+      "level": "A1",
+      "tags": ["直説法現在", "注文"],
+      "tokens": [
+        { "s": "Quiero", "lemma": "querer", "pos": "動詞", "ja": "望む・愛する", "infl": "IND_PRES/1sg" },
+        { "s": "un", "skip": true },
+        { "s": "café", "lemma": "café", "pos": "名詞", "ja": "コーヒー・喫茶店" },
+        { "s": "con", "skip": true },
+        { "s": "leche", "lemma": "leche", "pos": "名詞", "ja": "牛乳" },
+        { "s": "por favor", "lemma": "por favor", "pos": "慣用表現", "ja": "お願いします", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0004",
+      "text": "No entiendo lo que dices.",
+      "ja": "君の言っていることが分からない。",
+      "level": "A2",
+      "tags": ["直説法現在"],
+      "grammar": "lo que は「〜すること」を表す関係詞。",
+      "tokens": [
+        { "s": "No", "skip": true },
+        { "s": "entiendo", "lemma": "entender", "pos": "動詞", "ja": "理解する", "infl": "IND_PRES/1sg" },
+        { "s": "lo que", "lemma": "lo que", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
+        { "s": "dices", "lemma": "decir", "pos": "動詞", "ja": "言う", "infl": "IND_PRES/2sg" }
+      ]
+    },
+    {
+      "id": "es-0005",
+      "text": "Mi hermana vive en Barcelona.",
+      "ja": "姉はバルセロナに住んでいる。",
+      "level": "A1",
+      "tags": ["直説法現在"],
+      "tokens": [
+        { "s": "Mi", "skip": true },
+        { "s": "hermana", "lemma": "hermana", "pos": "名詞", "ja": "姉・妹" },
+        { "s": "vive", "lemma": "vivir", "pos": "動詞", "ja": "住む・生きる", "infl": "IND_PRES/3sg" },
+        { "s": "en", "skip": true },
+        { "s": "Barcelona", "lemma": "Barcelona", "pos": "固有名詞", "ja": "バルセロナ" }
+      ]
+    },
+    {
+      "id": "es-0006",
+      "text": "Estoy buscando un piso en el centro.",
+      "ja": "中心街でアパートを探している。",
+      "level": "A2",
+      "tags": ["直説法現在", "現在分詞"],
+      "grammar": "estar + 現在分詞で進行中の動作を表す。",
+      "tokens": [
+        { "s": "Estoy", "lemma": "estar", "pos": "動詞", "ja": "〜にいる・〜の状態である", "infl": "IND_PRES/1sg" },
+        { "s": "buscando", "lemma": "buscar", "pos": "動詞", "ja": "探す", "infl": "GER" },
+        { "s": "un", "skip": true },
+        { "s": "piso", "lemma": "piso", "pos": "名詞", "ja": "アパート・階" },
+        { "s": "en", "skip": true },
+        { "s": "el", "skip": true },
+        { "s": "centro", "lemma": "centro", "pos": "名詞", "ja": "中心・中心街" }
+      ]
+    },
+    {
+      "id": "es-0007",
+      "text": "¿Puedes ayudarme un momento?",
+      "ja": "ちょっと手伝ってくれる？",
+      "level": "A2",
+      "tags": ["直説法現在", "依頼"],
+      "grammar": "poder + 不定詞。代名詞 me は不定詞の後ろにくっつく。",
+      "tokens": [
+        { "s": "Puedes", "lemma": "poder", "pos": "動詞", "ja": "〜できる", "infl": "IND_PRES/2sg" },
+        { "s": "ayudar", "lemma": "ayudar", "pos": "動詞", "ja": "助ける・手伝う", "label": "不定詞" },
+        { "s": "me", "skip": true },
+        { "s": "un momento", "lemma": "un momento", "pos": "慣用表現", "ja": "ちょっとの間", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0008",
+      "text": "Ayer fui al médico.",
+      "ja": "昨日は医者に行った。",
+      "level": "A2",
+      "tags": ["直説法点過去"],
+      "grammar": "点過去は完了した出来事を表す。ir と ser は点過去が同形。",
+      "tokens": [
+        { "s": "Ayer", "lemma": "ayer", "pos": "副詞", "ja": "昨日" },
+        { "s": "fui", "lemma": "ir", "pos": "動詞", "ja": "行く", "infl": "IND_PRET/1sg" },
+        { "s": "al", "skip": true },
+        { "s": "médico", "lemma": "médico", "pos": "名詞", "ja": "医者" }
+      ]
+    },
+    {
+      "id": "es-0009",
+      "text": "Anoche dormí muy mal.",
+      "ja": "昨夜はよく眠れなかった。",
+      "level": "A2",
+      "tags": ["直説法点過去"],
+      "tokens": [
+        { "s": "Anoche", "lemma": "anoche", "pos": "副詞", "ja": "昨夜" },
+        { "s": "dormí", "lemma": "dormir", "pos": "動詞", "ja": "眠る", "infl": "IND_PRET/1sg" },
+        { "s": "muy", "skip": true },
+        { "s": "mal", "lemma": "mal", "pos": "副詞", "ja": "悪く・下手に" }
+      ]
+    },
+    {
+      "id": "es-0010",
+      "text": "El año pasado viajamos a Perú.",
+      "ja": "去年ペルーへ旅行した。",
+      "level": "A2",
+      "tags": ["直説法点過去"],
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "año", "lemma": "año", "pos": "名詞", "ja": "年" },
+        { "s": "pasado", "lemma": "pasado", "pos": "形容詞", "ja": "過ぎた・去った" },
+        { "s": "viajamos", "lemma": "viajar", "pos": "動詞", "ja": "旅行する", "infl": "IND_PRET/1pl" },
+        { "s": "a", "skip": true },
+        { "s": "Perú", "lemma": "Perú", "pos": "固有名詞", "ja": "ペルー" }
+      ]
+    },
+    {
+      "id": "es-0011",
+      "text": "Cuando era niño, jugaba al fútbol todos los días.",
+      "ja": "子どもの頃は毎日サッカーをしていた。",
+      "level": "B1",
+      "tags": ["直説法線過去"],
+      "grammar": "線過去は過去の習慣や状態を表す。点過去との対比が要点。",
+      "tokens": [
+        { "s": "Cuando", "lemma": "cuando", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "era", "lemma": "ser", "pos": "動詞", "ja": "〜である", "infl": "IND_IMPF/1sg" },
+        { "s": "niño", "lemma": "niño", "pos": "名詞", "ja": "子ども・少年" },
+        { "s": "jugaba", "lemma": "jugar", "pos": "動詞", "ja": "遊ぶ・（競技を）する", "infl": "IND_IMPF/1sg" },
+        { "s": "al", "skip": true },
+        { "s": "fútbol", "lemma": "fútbol", "pos": "名詞", "ja": "サッカー" },
+        { "s": "todos los días", "lemma": "todos los días", "pos": "慣用表現", "ja": "毎日", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0012",
+      "text": "Antes veía la televisión todas las noches.",
+      "ja": "以前は毎晩テレビを見ていた。",
+      "level": "B1",
+      "tags": ["直説法線過去"],
+      "tokens": [
+        { "s": "Antes", "lemma": "antes", "pos": "副詞", "ja": "以前・前に" },
+        { "s": "veía", "lemma": "ver", "pos": "動詞", "ja": "見る・会う", "infl": "IND_IMPF/1sg" },
+        { "s": "la", "skip": true },
+        { "s": "televisión", "lemma": "televisión", "pos": "名詞", "ja": "テレビ" },
+        { "s": "todas las noches", "lemma": "todas las noches", "pos": "慣用表現", "ja": "毎晩", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0013",
+      "text": "Mañana saldré temprano de casa.",
+      "ja": "明日は早く家を出る。",
+      "level": "A2",
+      "tags": ["直説法未来"],
+      "grammar": "salir の未来は語幹が saldr- になる不規則型。",
+      "tokens": [
+        { "s": "Mañana", "lemma": "mañana", "pos": "副詞", "ja": "明日" },
+        { "s": "saldré", "lemma": "salir", "pos": "動詞", "ja": "出る・出かける", "infl": "IND_FUT/1sg" },
+        { "s": "temprano", "lemma": "temprano", "pos": "副詞", "ja": "早く" },
+        { "s": "de", "skip": true },
+        { "s": "casa", "lemma": "casa", "pos": "名詞", "ja": "家" }
+      ]
+    },
+    {
+      "id": "es-0014",
+      "text": "Te llamaré cuando llegue.",
+      "ja": "着いたら電話するね。",
+      "level": "B1",
+      "tags": ["直説法未来", "接続法現在"],
+      "grammar": "未来のことを指す cuando のあとは接続法になる。",
+      "tokens": [
+        { "s": "Te", "skip": true },
+        { "s": "llamaré", "lemma": "llamar", "pos": "動詞", "ja": "呼ぶ・電話する", "infl": "IND_FUT/1sg" },
+        { "s": "cuando", "lemma": "cuando", "pos": "接続詞", "ja": "〜のとき", "note": "未来を指すときは後ろが接続法" },
+        { "s": "llegue", "lemma": "llegar", "pos": "動詞", "ja": "着く・到着する", "infl": "SUBJ_PRES/1sg" }
+      ]
+    },
+    {
+      "id": "es-0015",
+      "text": "¿Has terminado el trabajo?",
+      "ja": "仕事は終わった？",
+      "level": "A2",
+      "tags": ["直説法現在完了"],
+      "grammar": "haber の現在形 + 過去分詞。今日・今週など現在に近い過去に使う。",
+      "tokens": [
+        { "s": "Has terminado", "lemma": "terminar", "pos": "動詞", "ja": "終える・終わる", "infl": "IND_PERF/2sg" },
+        { "s": "el", "skip": true },
+        { "s": "trabajo", "lemma": "trabajo", "pos": "名詞", "ja": "仕事" }
+      ]
+    },
+    {
+      "id": "es-0016",
+      "text": "Nunca he estado en México.",
+      "ja": "メキシコには一度も行ったことがない。",
+      "level": "A2",
+      "tags": ["直説法現在完了", "経験"],
+      "tokens": [
+        { "s": "Nunca", "lemma": "nunca", "pos": "副詞", "ja": "一度も〜ない" },
+        { "s": "he estado", "lemma": "estar", "pos": "動詞", "ja": "〜にいる・〜の状態である", "infl": "IND_PERF/1sg" },
+        { "s": "en", "skip": true },
+        { "s": "México", "lemma": "México", "pos": "固有名詞", "ja": "メキシコ" }
+      ]
+    },
+    {
+      "id": "es-0017",
+      "text": "Cuando llegué, ya se habían ido.",
+      "ja": "私が着いたときには、彼らはもう帰っていた。",
+      "level": "B1",
+      "tags": ["直説法過去完了"],
+      "grammar": "過去のある時点より前に完了していたことを表す。",
+      "tokens": [
+        { "s": "Cuando", "lemma": "cuando", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "llegué", "lemma": "llegar", "pos": "動詞", "ja": "着く・到着する", "infl": "IND_PRET/1sg" },
+        { "s": "ya", "lemma": "ya", "pos": "副詞", "ja": "もう・すでに" },
+        { "s": "se", "skip": true },
+        { "s": "habían ido", "lemma": "ir", "pos": "動詞", "ja": "行く", "infl": "IND_PLUP/3pl", "note": "irse で「立ち去る」" }
+      ]
+    },
+    {
+      "id": "es-0018",
+      "text": "Me gustaría viajar por Sudamérica.",
+      "ja": "南米を旅してみたい。",
+      "level": "B1",
+      "tags": ["条件法現在", "願望"],
+      "grammar": "gustar は「〜が気に入る」。条件法にすると控えめな願望になる。",
+      "tokens": [
+        { "s": "Me", "skip": true },
+        { "s": "gustaría", "lemma": "gustar", "pos": "動詞", "ja": "気に入る・好きだ", "infl": "COND/3sg", "note": "主語は viajar なので3人称単数" },
+        { "s": "viajar", "lemma": "viajar", "pos": "動詞", "ja": "旅行する", "label": "不定詞" },
+        { "s": "por", "skip": true },
+        { "s": "Sudamérica", "lemma": "Sudamérica", "pos": "固有名詞", "ja": "南米" }
+      ]
+    },
+    {
+      "id": "es-0019",
+      "text": "Yo que tú, no diría nada.",
+      "ja": "僕が君なら、何も言わないだろうね。",
+      "level": "B2",
+      "tags": ["条件法現在"],
+      "grammar": "yo que tú は「私が君なら」という決まり文句。",
+      "tokens": [
+        { "s": "Yo que tú", "lemma": "yo que tú", "pos": "慣用表現", "ja": "私が君なら", "idiom": true },
+        { "s": "no", "skip": true },
+        { "s": "diría", "lemma": "decir", "pos": "動詞", "ja": "言う", "infl": "COND/1sg" },
+        { "s": "nada", "lemma": "nada", "pos": "代名詞", "ja": "何も〜ない" }
+      ]
+    },
+    {
+      "id": "es-0020",
+      "text": "Espero que tengas un buen día.",
+      "ja": "よい一日になりますように。",
+      "level": "A2",
+      "tags": ["接続法現在"],
+      "grammar": "esperar que のように願望・感情を表す動詞のあとは接続法。",
+      "tokens": [
+        { "s": "Espero", "lemma": "esperar", "pos": "動詞", "ja": "待つ・期待する", "infl": "IND_PRES/1sg" },
+        { "s": "que", "skip": true },
+        { "s": "tengas", "lemma": "tener", "pos": "動詞", "ja": "持つ・所有する", "infl": "SUBJ_PRES/2sg" },
+        { "s": "un", "skip": true },
+        { "s": "buen", "lemma": "bueno", "pos": "形容詞", "ja": "よい", "note": "男性単数名詞の前で buen に短縮" },
+        { "s": "día", "lemma": "día", "pos": "名詞", "ja": "日・一日" }
+      ]
+    },
+    {
+      "id": "es-0021",
+      "text": "Ojalá no llueva mañana.",
+      "ja": "明日雨が降らないといいな。",
+      "level": "B1",
+      "tags": ["接続法現在", "願望"],
+      "grammar": "ojalá のあとは必ず接続法。",
+      "tokens": [
+        { "s": "Ojalá", "lemma": "ojalá", "pos": "間投詞", "ja": "〜だといいな", "note": "後ろは必ず接続法" },
+        { "s": "no", "skip": true },
+        { "s": "llueva", "lemma": "llover", "pos": "動詞", "ja": "雨が降る", "infl": "SUBJ_PRES/3sg" },
+        { "s": "mañana", "lemma": "mañana", "pos": "副詞", "ja": "明日" }
+      ]
+    },
+    {
+      "id": "es-0022",
+      "text": "No creo que sea buena idea.",
+      "ja": "それがいい考えだとは思わない。",
+      "level": "B1",
+      "tags": ["接続法現在"],
+      "grammar": "creer が否定されると、従属節は接続法になる。",
+      "tokens": [
+        { "s": "No", "skip": true },
+        { "s": "creo", "lemma": "creer", "pos": "動詞", "ja": "信じる・思う", "infl": "IND_PRES/1sg" },
+        { "s": "que", "skip": true },
+        { "s": "sea", "lemma": "ser", "pos": "動詞", "ja": "〜である", "infl": "SUBJ_PRES/3sg" },
+        { "s": "buena", "lemma": "bueno", "pos": "形容詞", "ja": "よい" },
+        { "s": "idea", "lemma": "idea", "pos": "名詞", "ja": "考え・アイデア" }
+      ]
+    },
+    {
+      "id": "es-0023",
+      "text": "Es importante que estudies todos los días.",
+      "ja": "毎日勉強することが大切だ。",
+      "level": "B1",
+      "tags": ["接続法現在"],
+      "grammar": "es + 形容詞 + que は接続法をとる。",
+      "tokens": [
+        { "s": "Es", "lemma": "ser", "pos": "動詞", "ja": "〜である", "infl": "IND_PRES/3sg" },
+        { "s": "importante", "lemma": "importante", "pos": "形容詞", "ja": "重要な・大切な" },
+        { "s": "que", "skip": true },
+        { "s": "estudies", "lemma": "estudiar", "pos": "動詞", "ja": "勉強する", "infl": "SUBJ_PRES/2sg" },
+        { "s": "todos los días", "lemma": "todos los días", "pos": "慣用表現", "ja": "毎日", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0024",
+      "text": "Si tuviera más tiempo, viajaría más.",
+      "ja": "もっと時間があれば、もっと旅行するのに。",
+      "level": "B2",
+      "tags": ["接続法過去", "条件法現在"],
+      "grammar": "現在の事実に反する仮定は「si + 接続法過去, 条件法」。",
+      "tokens": [
+        { "s": "Si", "skip": true },
+        { "s": "tuviera", "lemma": "tener", "pos": "動詞", "ja": "持つ・所有する", "infl": "SUBJ_IMPF/1sg" },
+        { "s": "más", "lemma": "más", "pos": "副詞", "ja": "もっと・より多く" },
+        { "s": "tiempo", "lemma": "tiempo", "pos": "名詞", "ja": "時間・天気" },
+        { "s": "viajaría", "lemma": "viajar", "pos": "動詞", "ja": "旅行する", "infl": "COND/1sg" }
+      ]
+    },
+    {
+      "id": "es-0025",
+      "text": "Me pidió que le ayudara.",
+      "ja": "彼は私に手伝ってほしいと言った。",
+      "level": "B2",
+      "tags": ["接続法過去"],
+      "grammar": "主節が過去のとき、従属節の接続法も過去になる（時制の一致）。",
+      "tokens": [
+        { "s": "Me", "skip": true },
+        { "s": "pidió", "lemma": "pedir", "pos": "動詞", "ja": "頼む・注文する", "infl": "IND_PRET/3sg" },
+        { "s": "que", "skip": true },
+        { "s": "le", "skip": true },
+        { "s": "ayudara", "lemma": "ayudar", "pos": "動詞", "ja": "助ける・手伝う", "infl": "SUBJ_IMPF/1sg" }
+      ]
+    },
+    {
+      "id": "es-0026",
+      "text": "¡Ven aquí ahora mismo!",
+      "ja": "今すぐこっちに来なさい！",
+      "level": "A2",
+      "tags": ["命令法"],
+      "grammar": "venir の tú に対する命令形は ven という不規則形。",
+      "tokens": [
+        { "s": "Ven", "lemma": "venir", "pos": "動詞", "ja": "来る", "infl": "IMP/2sg" },
+        { "s": "aquí", "lemma": "aquí", "pos": "副詞", "ja": "ここに" },
+        { "s": "ahora mismo", "lemma": "ahora mismo", "pos": "慣用表現", "ja": "今すぐ", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0027",
+      "text": "Dime la verdad, por favor.",
+      "ja": "お願いだから本当のことを言って。",
+      "level": "A2",
+      "tags": ["命令法"],
+      "grammar": "肯定命令では代名詞が動詞の後ろにくっつく（di + me）。",
+      "tokens": [
+        { "s": "Di", "lemma": "decir", "pos": "動詞", "ja": "言う", "infl": "IMP/2sg" },
+        { "s": "me", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "verdad", "lemma": "verdad", "pos": "名詞", "ja": "真実・本当のこと" },
+        { "s": "por favor", "lemma": "por favor", "pos": "慣用表現", "ja": "お願いします", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0028",
+      "text": "No hables tan rápido.",
+      "ja": "そんなに速く話さないで。",
+      "level": "B1",
+      "tags": ["命令法", "接続法現在"],
+      "grammar": "否定命令は命令形ではなく接続法現在を使う。",
+      "tokens": [
+        { "s": "No", "skip": true },
+        { "s": "hables", "lemma": "hablar", "pos": "動詞", "ja": "話す", "infl": "SUBJ_PRES/2sg", "note": "否定命令なので接続法" },
+        { "s": "tan", "lemma": "tan", "pos": "副詞", "ja": "そんなに・とても" },
+        { "s": "rápido", "lemma": "rápido", "pos": "副詞", "ja": "速く" }
+      ]
+    },
+    {
+      "id": "es-0029",
+      "text": "Haz lo que quieras.",
+      "ja": "好きなようにすればいい。",
+      "level": "B1",
+      "tags": ["命令法", "接続法現在"],
+      "grammar": "「〜したいこと」のように不特定の内容を指す関係節は接続法。",
+      "tokens": [
+        { "s": "Haz", "lemma": "hacer", "pos": "動詞", "ja": "する・作る", "infl": "IMP/2sg" },
+        { "s": "lo que", "lemma": "lo que", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
+        { "s": "quieras", "lemma": "querer", "pos": "動詞", "ja": "望む・愛する", "infl": "SUBJ_PRES/2sg" }
+      ]
+    },
+    {
+      "id": "es-0030",
+      "text": "Acabo de llegar a casa.",
+      "ja": "ちょうど今家に着いたところだ。",
+      "level": "A2",
+      "tags": ["直説法現在", "熟語"],
+      "grammar": "acabar de + 不定詞で「〜したばかり」。",
+      "tokens": [
+        { "s": "Acabo", "lemma": "acabar", "pos": "動詞", "ja": "終える・たった今〜したところだ", "infl": "IND_PRES/1sg" },
+        { "s": "de", "skip": true },
+        { "s": "llegar", "lemma": "llegar", "pos": "動詞", "ja": "着く・到着する", "label": "不定詞" },
+        { "s": "a", "skip": true },
+        { "s": "casa", "lemma": "casa", "pos": "名詞", "ja": "家" }
+      ]
+    },
+    {
+      "id": "es-0031",
+      "text": "Tengo ganas de ver esa película.",
+      "ja": "その映画が見たい。",
+      "level": "B1",
+      "tags": ["直説法現在", "熟語"],
+      "grammar": "tener ganas de + 不定詞で「〜したい」。",
+      "tokens": [
+        { "s": "Tengo", "lemma": "tener", "pos": "動詞", "ja": "持つ・所有する", "infl": "IND_PRES/1sg" },
+        { "s": "ganas de", "lemma": "tener ganas de", "pos": "慣用表現", "ja": "〜したい気がする", "idiom": true },
+        { "s": "ver", "lemma": "ver", "pos": "動詞", "ja": "見る・会う", "label": "不定詞" },
+        { "s": "esa", "skip": true },
+        { "s": "película", "lemma": "película", "pos": "名詞", "ja": "映画" }
+      ]
+    },
+    {
+      "id": "es-0032",
+      "text": "Vale la pena leer este libro.",
+      "ja": "この本は読む価値がある。",
+      "level": "B1",
+      "tags": ["直説法現在", "熟語"],
+      "grammar": "valer la pena で「〜する価値がある」。",
+      "tokens": [
+        { "s": "Vale", "lemma": "valer", "pos": "動詞", "ja": "価値がある・値段が〜だ", "infl": "IND_PRES/3sg" },
+        { "s": "la pena", "lemma": "valer la pena", "pos": "慣用表現", "ja": "〜する価値がある", "idiom": true },
+        { "s": "leer", "lemma": "leer", "pos": "動詞", "ja": "読む", "label": "不定詞" },
+        { "s": "este", "skip": true },
+        { "s": "libro", "lemma": "libro", "pos": "名詞", "ja": "本" }
+      ]
+    },
+    {
+      "id": "es-0033",
+      "text": "Se me olvidó por completo.",
+      "ja": "すっかり忘れてしまった。",
+      "level": "B1",
+      "tags": ["直説法点過去", "熟語"],
+      "grammar": "se me olvidó は「うっかり忘れた」という無意志の言い方。",
+      "tokens": [
+        { "s": "Se", "skip": true },
+        { "s": "me", "skip": true },
+        { "s": "olvidó", "lemma": "olvidar", "pos": "動詞", "ja": "忘れる", "infl": "IND_PRET/3sg" },
+        { "s": "por completo", "lemma": "por completo", "pos": "慣用表現", "ja": "完全に・すっかり", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0034",
+      "text": "Hace dos años que trabajo aquí.",
+      "ja": "ここで働いて2年になる。",
+      "level": "B1",
+      "tags": ["直説法現在", "熟語"],
+      "grammar": "hace + 期間 + que + 現在形で「〜して…になる」。",
+      "tokens": [
+        { "s": "Hace", "lemma": "hacer", "pos": "動詞", "ja": "する・作る", "infl": "IND_PRES/3sg", "note": "hace + 期間 + que で経過時間" },
+        { "s": "dos", "skip": true },
+        { "s": "años", "lemma": "año", "pos": "名詞", "ja": "年" },
+        { "s": "que", "skip": true },
+        { "s": "trabajo", "lemma": "trabajar", "pos": "動詞", "ja": "働く", "infl": "IND_PRES/1sg" },
+        { "s": "aquí", "lemma": "aquí", "pos": "副詞", "ja": "ここに" }
+      ]
+    },
+    {
+      "id": "es-0035",
+      "text": "Tengo que salir ahora.",
+      "ja": "もう出かけないといけない。",
+      "level": "A2",
+      "tags": ["直説法現在", "熟語"],
+      "grammar": "tener que + 不定詞で義務を表す。",
+      "tokens": [
+        { "s": "Tengo", "lemma": "tener", "pos": "動詞", "ja": "持つ・所有する", "infl": "IND_PRES/1sg" },
+        { "s": "que", "skip": true },
+        { "s": "salir", "lemma": "salir", "pos": "動詞", "ja": "出る・出かける", "label": "不定詞" },
+        { "s": "ahora", "lemma": "ahora", "pos": "副詞", "ja": "今" }
+      ]
+    },
+    {
+      "id": "es-0036",
+      "text": "Voy a comprar pan y leche.",
+      "ja": "パンと牛乳を買ってくる。",
+      "level": "A1",
+      "tags": ["直説法現在", "近接未来"],
+      "grammar": "ir a + 不定詞で近い未来を表す。",
+      "tokens": [
+        { "s": "Voy", "lemma": "ir", "pos": "動詞", "ja": "行く", "infl": "IND_PRES/1sg", "note": "ir a + 不定詞で近接未来" },
+        { "s": "a", "skip": true },
+        { "s": "comprar", "lemma": "comprar", "pos": "動詞", "ja": "買う", "label": "不定詞" },
+        { "s": "pan", "lemma": "pan", "pos": "名詞", "ja": "パン" },
+        { "s": "y", "skip": true },
+        { "s": "leche", "lemma": "leche", "pos": "名詞", "ja": "牛乳" }
+      ]
+    },
+    {
+      "id": "es-0037",
+      "text": "¿A qué hora empieza la película?",
+      "ja": "映画は何時に始まりますか。",
+      "level": "A1",
+      "tags": ["直説法現在"],
+      "tokens": [
+        { "s": "A qué hora", "lemma": "a qué hora", "pos": "慣用表現", "ja": "何時に", "idiom": true },
+        { "s": "empieza", "lemma": "empezar", "pos": "動詞", "ja": "始める・始まる", "infl": "IND_PRES/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "película", "lemma": "película", "pos": "名詞", "ja": "映画" }
+      ]
+    },
+    {
+      "id": "es-0038",
+      "text": "Todavía no he escrito la carta.",
+      "ja": "まだ手紙を書いていない。",
+      "level": "B1",
+      "tags": ["直説法現在完了"],
+      "grammar": "escribir の過去分詞は escrito という不規則形。",
+      "tokens": [
+        { "s": "Todavía", "lemma": "todavía", "pos": "副詞", "ja": "まだ" },
+        { "s": "no", "skip": true },
+        { "s": "he escrito", "lemma": "escribir", "pos": "動詞", "ja": "書く", "infl": "IND_PERF/1sg" },
+        { "s": "la", "skip": true },
+        { "s": "carta", "lemma": "carta", "pos": "名詞", "ja": "手紙" }
+      ]
+    },
+    {
+      "id": "es-0039",
+      "text": "Me alegro de que estés aquí.",
+      "ja": "君がここにいてくれて嬉しい。",
+      "level": "B1",
+      "tags": ["接続法現在"],
+      "grammar": "感情を表す表現のあとは接続法。",
+      "tokens": [
+        { "s": "Me", "skip": true },
+        { "s": "alegro", "lemma": "alegrar", "pos": "動詞", "ja": "喜ばせる・（再帰で）喜ぶ", "label": "直説法現在・1人称単数" },
+        { "s": "de que", "skip": true },
+        { "s": "estés", "lemma": "estar", "pos": "動詞", "ja": "〜にいる・〜の状態である", "infl": "SUBJ_PRES/2sg" },
+        { "s": "aquí", "lemma": "aquí", "pos": "副詞", "ja": "ここに" }
+      ]
+    },
+    {
+      "id": "es-0040",
+      "text": "Aunque llueva, iremos a la playa.",
+      "ja": "たとえ雨が降っても、海に行くつもりだ。",
+      "level": "B2",
+      "tags": ["接続法現在", "直説法未来"],
+      "grammar": "aunque + 接続法で「たとえ〜でも」という譲歩を表す。",
+      "tokens": [
+        { "s": "Aunque", "lemma": "aunque", "pos": "接続詞", "ja": "〜だけれども・たとえ〜でも" },
+        { "s": "llueva", "lemma": "llover", "pos": "動詞", "ja": "雨が降る", "infl": "SUBJ_PRES/3sg" },
+        { "s": "iremos", "lemma": "ir", "pos": "動詞", "ja": "行く", "infl": "IND_FUT/1pl" },
+        { "s": "a", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "playa", "lemma": "playa", "pos": "名詞", "ja": "浜辺・海岸" }
+      ]
+    },
+    {
+      "id": "es-0041",
+      "text": "Ese libro fue escrito por una mujer española.",
+      "ja": "その本はスペイン人の女性によって書かれた。",
+      "level": "B2",
+      "tags": ["受動態", "過去分詞"],
+      "grammar": "ser + 過去分詞で受動態。過去分詞は主語に性数一致する。",
+      "tokens": [
+        { "s": "Ese", "skip": true },
+        { "s": "libro", "lemma": "libro", "pos": "名詞", "ja": "本" },
+        { "s": "fue", "lemma": "ser", "pos": "動詞", "ja": "〜である", "infl": "IND_PRET/3sg" },
+        { "s": "escrito", "lemma": "escribir", "pos": "動詞", "ja": "書く", "infl": "PART" },
+        { "s": "por", "skip": true },
+        { "s": "una", "skip": true },
+        { "s": "mujer", "lemma": "mujer", "pos": "名詞", "ja": "女性・妻" },
+        { "s": "española", "lemma": "español", "pos": "形容詞", "ja": "スペインの", "label": "女性単数" }
+      ]
+    },
+    {
+      "id": "es-0042",
+      "text": "Sigue lloviendo desde ayer.",
+      "ja": "昨日からずっと雨が降り続いている。",
+      "level": "B1",
+      "tags": ["現在分詞"],
+      "grammar": "seguir + 現在分詞で「〜し続ける」。",
+      "tokens": [
+        { "s": "Sigue", "lemma": "seguir", "pos": "動詞", "ja": "続ける・ついていく", "infl": "IND_PRES/3sg" },
+        { "s": "lloviendo", "lemma": "llover", "pos": "動詞", "ja": "雨が降る", "infl": "GER" },
+        { "s": "desde", "skip": true },
+        { "s": "ayer", "lemma": "ayer", "pos": "副詞", "ja": "昨日" }
+      ]
+    },
+    {
+      "id": "es-0043",
+      "text": "No sabía que vivías aquí.",
+      "ja": "君がここに住んでいるとは知らなかった。",
+      "level": "B1",
+      "tags": ["直説法線過去"],
+      "tokens": [
+        { "s": "No", "skip": true },
+        { "s": "sabía", "lemma": "saber", "pos": "動詞", "ja": "知っている・〜できる", "infl": "IND_IMPF/1sg" },
+        { "s": "que", "skip": true },
+        { "s": "vivías", "lemma": "vivir", "pos": "動詞", "ja": "住む・生きる", "infl": "IND_IMPF/2sg" },
+        { "s": "aquí", "lemma": "aquí", "pos": "副詞", "ja": "ここに" }
+      ]
+    },
+    {
+      "id": "es-0044",
+      "text": "Me duele la cabeza desde esta mañana.",
+      "ja": "今朝から頭が痛い。",
+      "level": "A2",
+      "tags": ["直説法現在"],
+      "grammar": "doler は gustar 型。痛む部分が主語になる。",
+      "tokens": [
+        { "s": "Me", "skip": true },
+        { "s": "duele", "lemma": "doler", "pos": "動詞", "ja": "痛む", "label": "直説法現在・3人称単数" },
+        { "s": "la", "skip": true },
+        { "s": "cabeza", "lemma": "cabeza", "pos": "名詞", "ja": "頭" },
+        { "s": "desde", "skip": true },
+        { "s": "esta mañana", "lemma": "esta mañana", "pos": "慣用表現", "ja": "今朝", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0045",
+      "text": "Dame un momento, por favor.",
+      "ja": "少し待ってください。",
+      "level": "A2",
+      "tags": ["命令法"],
+      "tokens": [
+        { "s": "Da", "lemma": "dar", "pos": "動詞", "ja": "与える", "infl": "IMP/2sg" },
+        { "s": "me", "skip": true },
+        { "s": "un momento", "lemma": "un momento", "pos": "慣用表現", "ja": "ちょっとの間", "idiom": true },
+        { "s": "por favor", "lemma": "por favor", "pos": "慣用表現", "ja": "お願いします", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0046",
+      "text": "Habla más despacio, por favor.",
+      "ja": "もっとゆっくり話してください。",
+      "level": "A1",
+      "tags": ["命令法"],
+      "tokens": [
+        { "s": "Habla", "lemma": "hablar", "pos": "動詞", "ja": "話す", "infl": "IMP/2sg" },
+        { "s": "más", "lemma": "más", "pos": "副詞", "ja": "もっと・より多く" },
+        { "s": "despacio", "lemma": "despacio", "pos": "副詞", "ja": "ゆっくり" },
+        { "s": "por favor", "lemma": "por favor", "pos": "慣用表現", "ja": "お願いします", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0047",
+      "text": "Si hubiera sabido, te habría llamado.",
+      "ja": "知っていたら、君に電話したのに。",
+      "level": "B2",
+      "tags": ["接続法過去完了", "条件法完了"],
+      "grammar": "過去の事実に反する仮定。ここでは活用表に無い複合形なので手書きラベル。",
+      "tokens": [
+        { "s": "Si", "skip": true },
+        { "s": "hubiera sabido", "lemma": "saber", "pos": "動詞", "ja": "知っている・〜できる", "label": "接続法過去完了・1人称単数" },
+        { "s": "te", "skip": true },
+        { "s": "habría llamado", "lemma": "llamar", "pos": "動詞", "ja": "呼ぶ・電話する", "label": "条件法完了・1人称単数" }
+      ]
+    },
+    {
+      "id": "es-0048",
+      "text": "Cada vez que la veo, me sonríe.",
+      "ja": "彼女に会うたびに、微笑んでくれる。",
+      "level": "B1",
+      "tags": ["直説法現在", "熟語"],
+      "grammar": "cada vez que で「〜するたびに」。",
+      "tokens": [
+        { "s": "Cada vez que", "lemma": "cada vez que", "pos": "慣用表現", "ja": "〜するたびに", "idiom": true },
+        { "s": "la", "skip": true },
+        { "s": "veo", "lemma": "ver", "pos": "動詞", "ja": "見る・会う", "infl": "IND_PRES/1sg" },
+        { "s": "me", "skip": true },
+        { "s": "sonríe", "lemma": "sonreír", "pos": "動詞", "ja": "微笑む", "infl": "IND_PRES/3sg" }
+      ]
+    },
+    {
+      "id": "es-0049",
+      "text": "Nos conocimos hace mucho tiempo.",
+      "ja": "私たちはずいぶん前に知り合った。",
+      "level": "B1",
+      "tags": ["直説法点過去"],
+      "grammar": "conocer の点過去は「知り合った」という意味になる。",
+      "tokens": [
+        { "s": "Nos", "skip": true },
+        { "s": "conocimos", "lemma": "conocer", "pos": "動詞", "ja": "知っている・知り合う", "infl": "IND_PRET/1pl" },
+        { "s": "hace mucho tiempo", "lemma": "hace mucho tiempo", "pos": "慣用表現", "ja": "ずいぶん前に", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0050",
+      "text": "Por fin ha dejado de nevar.",
+      "ja": "やっと雪がやんだ。",
+      "level": "B1",
+      "tags": ["直説法現在完了", "熟語"],
+      "grammar": "dejar de + 不定詞で「〜するのをやめる」。",
+      "tokens": [
+        { "s": "Por fin", "lemma": "por fin", "pos": "慣用表現", "ja": "ついに・やっと", "idiom": true },
+        { "s": "ha dejado", "lemma": "dejar", "pos": "動詞", "ja": "置いていく・やめる・許す", "infl": "IND_PERF/3sg" },
+        { "s": "de", "skip": true },
+        { "s": "nevar", "lemma": "nevar", "pos": "動詞", "ja": "雪が降る", "label": "不定詞" }
+      ]
+    }
+  ]
+}

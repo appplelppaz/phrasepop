@@ -1,0 +1,520 @@
+{
+  "verbs": [
+    {
+      "lemma": "ser",
+      "ja": "〜である"
+    },
+    {
+      "lemma": "estar",
+      "ja": "〜にいる・〜の状態である"
+    },
+    {
+      "lemma": "tener",
+      "ja": "持つ・所有する"
+    },
+    {
+      "lemma": "hacer",
+      "ja": "する・作る"
+    },
+    {
+      "lemma": "poder",
+      "ja": "〜できる"
+    },
+    {
+      "lemma": "decir",
+      "ja": "言う"
+    },
+    {
+      "lemma": "ir",
+      "ja": "行く"
+    },
+    {
+      "lemma": "ver",
+      "ja": "見る・会う"
+    },
+    {
+      "lemma": "dar",
+      "ja": "与える"
+    },
+    {
+      "lemma": "saber",
+      "ja": "知っている・〜できる"
+    },
+    {
+      "lemma": "querer",
+      "ja": "望む・愛する"
+    },
+    {
+      "lemma": "llegar",
+      "ja": "着く・到着する"
+    },
+    {
+      "lemma": "pasar",
+      "ja": "通る・過ごす・起こる"
+    },
+    {
+      "lemma": "deber",
+      "ja": "〜すべきだ・借りがある"
+    },
+    {
+      "lemma": "poner",
+      "ja": "置く・つける"
+    },
+    {
+      "lemma": "parecer",
+      "ja": "〜のように見える"
+    },
+    {
+      "lemma": "quedar",
+      "ja": "残る・待ち合わせる"
+    },
+    {
+      "lemma": "creer",
+      "ja": "信じる・思う"
+    },
+    {
+      "lemma": "hablar",
+      "ja": "話す"
+    },
+    {
+      "lemma": "llevar",
+      "ja": "運ぶ・身につける"
+    },
+    {
+      "lemma": "dejar",
+      "ja": "置いていく・やめる・許す"
+    },
+    {
+      "lemma": "seguir",
+      "ja": "続ける・ついていく"
+    },
+    {
+      "lemma": "encontrar",
+      "ja": "見つける・出会う"
+    },
+    {
+      "lemma": "llamar",
+      "ja": "呼ぶ・電話する"
+    },
+    {
+      "lemma": "venir",
+      "ja": "来る"
+    },
+    {
+      "lemma": "pensar",
+      "ja": "考える・思う"
+    },
+    {
+      "lemma": "salir",
+      "ja": "出る・出かける"
+    },
+    {
+      "lemma": "volver",
+      "ja": "戻る・帰る"
+    },
+    {
+      "lemma": "tomar",
+      "ja": "取る・飲む・乗る"
+    },
+    {
+      "lemma": "conocer",
+      "ja": "知っている・知り合う"
+    },
+    {
+      "lemma": "vivir",
+      "ja": "住む・生きる"
+    },
+    {
+      "lemma": "sentir",
+      "ja": "感じる・残念に思う"
+    },
+    {
+      "lemma": "mirar",
+      "ja": "見る・眺める"
+    },
+    {
+      "lemma": "contar",
+      "ja": "数える・語る"
+    },
+    {
+      "lemma": "empezar",
+      "ja": "始める・始まる"
+    },
+    {
+      "lemma": "esperar",
+      "ja": "待つ・期待する"
+    },
+    {
+      "lemma": "buscar",
+      "ja": "探す"
+    },
+    {
+      "lemma": "entrar",
+      "ja": "入る"
+    },
+    {
+      "lemma": "trabajar",
+      "ja": "働く"
+    },
+    {
+      "lemma": "escribir",
+      "ja": "書く"
+    },
+    {
+      "lemma": "perder",
+      "ja": "失う・負ける・乗り遅れる"
+    },
+    {
+      "lemma": "entender",
+      "ja": "理解する"
+    },
+    {
+      "lemma": "pedir",
+      "ja": "頼む・注文する"
+    },
+    {
+      "lemma": "recibir",
+      "ja": "受け取る"
+    },
+    {
+      "lemma": "recordar",
+      "ja": "覚えている・思い出す"
+    },
+    {
+      "lemma": "terminar",
+      "ja": "終える・終わる"
+    },
+    {
+      "lemma": "permitir",
+      "ja": "許す・可能にする"
+    },
+    {
+      "lemma": "conseguir",
+      "ja": "手に入れる・成し遂げる"
+    },
+    {
+      "lemma": "comenzar",
+      "ja": "始める"
+    },
+    {
+      "lemma": "servir",
+      "ja": "役に立つ・給仕する"
+    },
+    {
+      "lemma": "sacar",
+      "ja": "取り出す・引き出す"
+    },
+    {
+      "lemma": "necesitar",
+      "ja": "必要とする"
+    },
+    {
+      "lemma": "mantener",
+      "ja": "維持する・養う"
+    },
+    {
+      "lemma": "leer",
+      "ja": "読む"
+    },
+    {
+      "lemma": "caer",
+      "ja": "落ちる・倒れる"
+    },
+    {
+      "lemma": "cambiar",
+      "ja": "変える・両替する"
+    },
+    {
+      "lemma": "crear",
+      "ja": "創る・生み出す"
+    },
+    {
+      "lemma": "abrir",
+      "ja": "開ける"
+    },
+    {
+      "lemma": "oír",
+      "ja": "聞こえる・耳にする"
+    },
+    {
+      "lemma": "acabar",
+      "ja": "終える・たった今〜したところだ"
+    },
+    {
+      "lemma": "ganar",
+      "ja": "勝つ・稼ぐ"
+    },
+    {
+      "lemma": "traer",
+      "ja": "持ってくる"
+    },
+    {
+      "lemma": "morir",
+      "ja": "死ぬ"
+    },
+    {
+      "lemma": "aceptar",
+      "ja": "受け入れる"
+    },
+    {
+      "lemma": "suponer",
+      "ja": "推測する・意味する"
+    },
+    {
+      "lemma": "comprender",
+      "ja": "理解する・含む"
+    },
+    {
+      "lemma": "lograr",
+      "ja": "成し遂げる"
+    },
+    {
+      "lemma": "explicar",
+      "ja": "説明する"
+    },
+    {
+      "lemma": "preguntar",
+      "ja": "尋ねる"
+    },
+    {
+      "lemma": "tocar",
+      "ja": "触る・演奏する"
+    },
+    {
+      "lemma": "estudiar",
+      "ja": "勉強する"
+    },
+    {
+      "lemma": "nacer",
+      "ja": "生まれる"
+    },
+    {
+      "lemma": "correr",
+      "ja": "走る"
+    },
+    {
+      "lemma": "pagar",
+      "ja": "払う"
+    },
+    {
+      "lemma": "ayudar",
+      "ja": "助ける・手伝う"
+    },
+    {
+      "lemma": "gustar",
+      "ja": "気に入る・好きだ"
+    },
+    {
+      "lemma": "jugar",
+      "ja": "遊ぶ・（競技を）する"
+    },
+    {
+      "lemma": "escuchar",
+      "ja": "聞く・耳を傾ける"
+    },
+    {
+      "lemma": "ofrecer",
+      "ja": "提供する・申し出る"
+    },
+    {
+      "lemma": "descubrir",
+      "ja": "発見する"
+    },
+    {
+      "lemma": "levantar",
+      "ja": "持ち上げる・起こす"
+    },
+    {
+      "lemma": "intentar",
+      "ja": "試みる"
+    },
+    {
+      "lemma": "usar",
+      "ja": "使う"
+    },
+    {
+      "lemma": "decidir",
+      "ja": "決める"
+    },
+    {
+      "lemma": "repetir",
+      "ja": "繰り返す"
+    },
+    {
+      "lemma": "olvidar",
+      "ja": "忘れる"
+    },
+    {
+      "lemma": "valer",
+      "ja": "価値がある・値段が〜だ"
+    },
+    {
+      "lemma": "comer",
+      "ja": "食べる"
+    },
+    {
+      "lemma": "beber",
+      "ja": "飲む"
+    },
+    {
+      "lemma": "dormir",
+      "ja": "眠る"
+    },
+    {
+      "lemma": "comprar",
+      "ja": "買う"
+    },
+    {
+      "lemma": "vender",
+      "ja": "売る"
+    },
+    {
+      "lemma": "andar",
+      "ja": "歩く・動く"
+    },
+    {
+      "lemma": "conducir",
+      "ja": "運転する・導く"
+    },
+    {
+      "lemma": "elegir",
+      "ja": "選ぶ"
+    },
+    {
+      "lemma": "enviar",
+      "ja": "送る"
+    },
+    {
+      "lemma": "subir",
+      "ja": "上がる・乗る"
+    },
+    {
+      "lemma": "bajar",
+      "ja": "下りる・下げる"
+    },
+    {
+      "lemma": "cerrar",
+      "ja": "閉める"
+    },
+    {
+      "lemma": "cocinar",
+      "ja": "料理する"
+    },
+    {
+      "lemma": "viajar",
+      "ja": "旅行する"
+    },
+    {
+      "lemma": "romper",
+      "ja": "壊す・破る"
+    },
+    {
+      "lemma": "construir",
+      "ja": "建てる・築く"
+    },
+    {
+      "lemma": "crecer",
+      "ja": "育つ・成長する"
+    },
+    {
+      "lemma": "mover",
+      "ja": "動かす"
+    },
+    {
+      "lemma": "sonreír",
+      "ja": "微笑む"
+    },
+    {
+      "lemma": "reír",
+      "ja": "笑う"
+    },
+    {
+      "lemma": "traducir",
+      "ja": "翻訳する"
+    },
+    {
+      "lemma": "producir",
+      "ja": "生産する・引き起こす"
+    },
+    {
+      "lemma": "aparecer",
+      "ja": "現れる"
+    },
+    {
+      "lemma": "ocurrir",
+      "ja": "起こる"
+    },
+    {
+      "lemma": "resultar",
+      "ja": "〜という結果になる・〜であることがわかる"
+    },
+    {
+      "lemma": "presentar",
+      "ja": "紹介する・提出する"
+    },
+    {
+      "lemma": "considerar",
+      "ja": "考慮する・みなす"
+    },
+    {
+      "lemma": "convertir",
+      "ja": "変える・変換する"
+    },
+    {
+      "lemma": "formar",
+      "ja": "形づくる・構成する"
+    },
+    {
+      "lemma": "reconocer",
+      "ja": "認める・見分ける"
+    },
+    {
+      "lemma": "alcanzar",
+      "ja": "届く・達する"
+    },
+    {
+      "lemma": "dirigir",
+      "ja": "指揮する・向ける"
+    },
+    {
+      "lemma": "utilizar",
+      "ja": "利用する"
+    },
+    {
+      "lemma": "cumplir",
+      "ja": "果たす・（年齢に）なる"
+    },
+    {
+      "lemma": "tratar",
+      "ja": "扱う・試みる"
+    },
+    {
+      "lemma": "existir",
+      "ja": "存在する"
+    },
+    {
+      "lemma": "realizar",
+      "ja": "実行する・実現する"
+    },
+    {
+      "lemma": "partir",
+      "ja": "出発する・分ける"
+    },
+    {
+      "lemma": "llover",
+      "ja": "雨が降る",
+      "impersonal": true,
+      "omit": [
+        "IMP"
+      ]
+    },
+    {
+      "lemma": "nevar",
+      "ja": "雪が降る",
+      "impersonal": true,
+      "omit": [
+        "IMP"
+      ]
+    }
+  ]
+}

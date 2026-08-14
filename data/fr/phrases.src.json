@@ -1,0 +1,779 @@
+{
+  "_comment": "手書きのフレーズ原本。node scripts/build-phrases.mjs で phrases.json に変換される。トークンの start/end と活用ラベルが自動生成され、表層形は data/fr/verbs.json と照合される。infl は \"時制キー/人称\" 形式。機能語は skip: true。",
+  "lang": "fr",
+  "phrases": [
+    {
+      "id": "fr-0001",
+      "text": "Il fait très froid aujourd'hui.",
+      "ja": "今日はとても寒い。",
+      "level": "A1",
+      "tags": ["直説法現在", "天気"],
+      "grammar": "天気は非人称の il fait 〜 で表す。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "fait", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "PRES/3sg", "note": "il fait + 形容詞で天気を表す" },
+        { "s": "très", "lemma": "très", "pos": "副詞", "ja": "とても" },
+        { "s": "froid", "lemma": "froid", "pos": "形容詞", "ja": "寒い・冷たい" },
+        { "s": "aujourd'hui", "lemma": "aujourd'hui", "pos": "副詞", "ja": "今日" }
+      ]
+    },
+    {
+      "id": "fr-0002",
+      "text": "Où est la gare, s'il vous plaît ?",
+      "ja": "すみません、駅はどこですか。",
+      "level": "A1",
+      "tags": ["直説法現在", "道案内"],
+      "tokens": [
+        { "s": "Où", "lemma": "où", "pos": "疑問詞", "ja": "どこ" },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "gare", "lemma": "gare", "pos": "名詞", "ja": "駅" },
+        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします・すみません", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0003",
+      "text": "Je voudrais un café, s'il vous plaît.",
+      "ja": "コーヒーをひとつお願いします。",
+      "level": "A1",
+      "tags": ["条件法現在", "注文"],
+      "grammar": "je veux より je voudrais のほうが丁寧。条件法は控えめな表現になる。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "voudrais", "lemma": "vouloir", "pos": "動詞", "ja": "〜したい・望む", "infl": "COND/1sg", "note": "丁寧な依頼の定型" },
+        { "s": "un", "skip": true },
+        { "s": "café", "lemma": "café", "pos": "名詞", "ja": "コーヒー・カフェ" },
+        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0004",
+      "text": "Je ne comprends pas ce que tu dis.",
+      "ja": "君の言っていることが分からない。",
+      "level": "A2",
+      "tags": ["直説法現在"],
+      "grammar": "否定は ne ... pas で動詞を挟む。ce que は「〜すること」。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "comprends", "lemma": "comprendre", "pos": "動詞", "ja": "理解する", "infl": "PRES/1sg" },
+        { "s": "pas", "skip": true },
+        { "s": "ce que", "lemma": "ce que", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
+        { "s": "tu", "skip": true },
+        { "s": "dis", "lemma": "dire", "pos": "動詞", "ja": "言う", "infl": "PRES/2sg" }
+      ]
+    },
+    {
+      "id": "fr-0005",
+      "text": "Ma sœur habite à Lyon.",
+      "ja": "姉はリヨンに住んでいる。",
+      "level": "A1",
+      "tags": ["直説法現在"],
+      "tokens": [
+        { "s": "Ma", "skip": true },
+        { "s": "sœur", "lemma": "sœur", "pos": "名詞", "ja": "姉・妹" },
+        { "s": "habite", "lemma": "habiter", "pos": "動詞", "ja": "住む", "label": "直説法現在・3人称単数" },
+        { "s": "à", "skip": true },
+        { "s": "Lyon", "lemma": "Lyon", "pos": "固有名詞", "ja": "リヨン" }
+      ]
+    },
+    {
+      "id": "fr-0006",
+      "text": "Nous allons au marché tous les samedis.",
+      "ja": "私たちは毎週土曜日に市場へ行く。",
+      "level": "A2",
+      "tags": ["直説法現在"],
+      "tokens": [
+        { "s": "Nous", "skip": true },
+        { "s": "allons", "lemma": "aller", "pos": "動詞", "ja": "行く", "infl": "PRES/1pl" },
+        { "s": "au", "skip": true },
+        { "s": "marché", "lemma": "marché", "pos": "名詞", "ja": "市場" },
+        { "s": "tous les samedis", "lemma": "tous les samedis", "pos": "慣用表現", "ja": "毎週土曜日に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0007",
+      "text": "Est-ce que tu peux m'aider un instant ?",
+      "ja": "ちょっと手伝ってくれる？",
+      "level": "A2",
+      "tags": ["直説法現在", "依頼"],
+      "grammar": "est-ce que は疑問文を作る決まり文句。pouvoir + 不定詞。",
+      "tokens": [
+        { "s": "Est-ce que", "lemma": "est-ce que", "pos": "慣用表現", "ja": "〜ですか", "idiom": true },
+        { "s": "tu", "skip": true },
+        { "s": "peux", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "PRES/2sg" },
+        { "s": "m'", "skip": true },
+        { "s": "aider", "lemma": "aider", "pos": "動詞", "ja": "助ける・手伝う", "label": "不定詞" },
+        { "s": "un instant", "lemma": "un instant", "pos": "慣用表現", "ja": "ちょっとの間", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0008",
+      "text": "Hier, je suis allé chez le médecin.",
+      "ja": "昨日、医者に行った。",
+      "level": "A2",
+      "tags": ["複合過去"],
+      "grammar": "移動を表す aller は助動詞に être を使う。過去分詞は主語に性数一致する。",
+      "tokens": [
+        { "s": "Hier", "lemma": "hier", "pos": "副詞", "ja": "昨日" },
+        { "s": "je", "skip": true },
+        { "s": "suis allé", "lemma": "aller", "pos": "動詞", "ja": "行く", "infl": "PC/1sg", "note": "助動詞は être" },
+        { "s": "chez", "skip": true },
+        { "s": "le", "skip": true },
+        { "s": "médecin", "lemma": "médecin", "pos": "名詞", "ja": "医者" }
+      ]
+    },
+    {
+      "id": "fr-0009",
+      "text": "J'ai pris le train ce matin.",
+      "ja": "今朝、電車に乗った。",
+      "level": "A2",
+      "tags": ["複合過去"],
+      "grammar": "大半の動詞は助動詞に avoir を使う。prendre の過去分詞は pris。",
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "ai pris", "lemma": "prendre", "pos": "動詞", "ja": "取る・乗る", "infl": "PC/1sg" },
+        { "s": "le", "skip": true },
+        { "s": "train", "lemma": "train", "pos": "名詞", "ja": "電車" },
+        { "s": "ce matin", "lemma": "ce matin", "pos": "慣用表現", "ja": "今朝", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0010",
+      "text": "Nous sommes partis très tôt.",
+      "ja": "私たちはとても早く出発した。",
+      "level": "A2",
+      "tags": ["複合過去"],
+      "grammar": "être を使う複合過去では、過去分詞が主語の数に一致して partis になる。",
+      "tokens": [
+        { "s": "Nous", "skip": true },
+        { "s": "sommes partis", "lemma": "partir", "pos": "動詞", "ja": "出発する・去る", "infl": "PC/1pl" },
+        { "s": "très", "lemma": "très", "pos": "副詞", "ja": "とても" },
+        { "s": "tôt", "lemma": "tôt", "pos": "副詞", "ja": "早く" }
+      ]
+    },
+    {
+      "id": "fr-0011",
+      "text": "Quand j'étais petit, je jouais au foot.",
+      "ja": "子どもの頃はサッカーをしていた。",
+      "level": "B1",
+      "tags": ["半過去"],
+      "grammar": "半過去は過去の習慣や状態を表す。複合過去との対比が要点。",
+      "tokens": [
+        { "s": "Quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "j'", "skip": true },
+        { "s": "étais", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "IMPF/1sg" },
+        { "s": "petit", "lemma": "petit", "pos": "形容詞", "ja": "小さい・幼い" },
+        { "s": "je", "skip": true },
+        { "s": "jouais", "lemma": "jouer", "pos": "動詞", "ja": "遊ぶ・演じる・演奏する", "infl": "IMPF/1sg" },
+        { "s": "au", "skip": true },
+        { "s": "foot", "lemma": "foot", "pos": "名詞", "ja": "サッカー" }
+      ]
+    },
+    {
+      "id": "fr-0012",
+      "text": "Avant, je lisais beaucoup de romans.",
+      "ja": "以前は小説をたくさん読んでいた。",
+      "level": "B1",
+      "tags": ["半過去"],
+      "tokens": [
+        { "s": "Avant", "lemma": "avant", "pos": "副詞", "ja": "以前・前に" },
+        { "s": "je", "skip": true },
+        { "s": "lisais", "lemma": "lire", "pos": "動詞", "ja": "読む", "infl": "IMPF/1sg" },
+        { "s": "beaucoup de", "lemma": "beaucoup de", "pos": "慣用表現", "ja": "たくさんの", "idiom": true },
+        { "s": "romans", "lemma": "roman", "pos": "名詞", "ja": "小説" }
+      ]
+    },
+    {
+      "id": "fr-0013",
+      "text": "Demain, je partirai de bonne heure.",
+      "ja": "明日は早くに出発する。",
+      "level": "A2",
+      "tags": ["単純未来"],
+      "tokens": [
+        { "s": "Demain", "lemma": "demain", "pos": "副詞", "ja": "明日" },
+        { "s": "je", "skip": true },
+        { "s": "partirai", "lemma": "partir", "pos": "動詞", "ja": "出発する・去る", "infl": "FUT/1sg" },
+        { "s": "de bonne heure", "lemma": "de bonne heure", "pos": "慣用表現", "ja": "早くに", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0014",
+      "text": "Je t'appellerai quand je serai arrivé.",
+      "ja": "着いたら電話するね。",
+      "level": "B1",
+      "tags": ["単純未来"],
+      "grammar": "フランス語では quand のあとも未来形にする。ここは英語と違う点。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "t'", "skip": true },
+        { "s": "appellerai", "lemma": "appeler", "pos": "動詞", "ja": "呼ぶ・電話する", "infl": "FUT/1sg" },
+        { "s": "quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき", "note": "未来のことでも未来形をとる" },
+        { "s": "je", "skip": true },
+        { "s": "serai arrivé", "lemma": "arriver", "pos": "動詞", "ja": "着く・起こる", "label": "前未来・1人称単数" }
+      ]
+    },
+    {
+      "id": "fr-0015",
+      "text": "Tu as fini ton travail ?",
+      "ja": "仕事は終わった？",
+      "level": "A2",
+      "tags": ["複合過去"],
+      "tokens": [
+        { "s": "Tu", "skip": true },
+        { "s": "as fini", "lemma": "finir", "pos": "動詞", "ja": "終える・終わる", "infl": "PC/2sg" },
+        { "s": "ton", "skip": true },
+        { "s": "travail", "lemma": "travail", "pos": "名詞", "ja": "仕事" }
+      ]
+    },
+    {
+      "id": "fr-0016",
+      "text": "Je ne suis jamais allé au Japon.",
+      "ja": "日本には一度も行ったことがない。",
+      "level": "A2",
+      "tags": ["複合過去", "経験"],
+      "grammar": "ne ... jamais は助動詞を挟む位置に入る。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "suis", "skip": true },
+        { "s": "jamais", "lemma": "jamais", "pos": "副詞", "ja": "一度も〜ない" },
+        { "s": "allé", "lemma": "aller", "pos": "動詞", "ja": "行く", "infl": "PPASSE" },
+        { "s": "au", "skip": true },
+        { "s": "Japon", "lemma": "Japon", "pos": "固有名詞", "ja": "日本" }
+      ]
+    },
+    {
+      "id": "fr-0017",
+      "text": "Quand je suis arrivé, ils étaient déjà partis.",
+      "ja": "私が着いたときには、彼らはもう帰っていた。",
+      "level": "B1",
+      "tags": ["大過去"],
+      "grammar": "大過去は過去のある時点より前に完了していたことを表す。",
+      "tokens": [
+        { "s": "Quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "je", "skip": true },
+        { "s": "suis arrivé", "lemma": "arriver", "pos": "動詞", "ja": "着く・起こる", "infl": "PC/1sg" },
+        { "s": "ils", "skip": true },
+        { "s": "étaient", "skip": true },
+        { "s": "déjà", "lemma": "déjà", "pos": "副詞", "ja": "もう・すでに" },
+        { "s": "partis", "lemma": "partir", "pos": "動詞", "ja": "出発する・去る", "label": "大過去の過去分詞（複数一致）" }
+      ]
+    },
+    {
+      "id": "fr-0018",
+      "text": "J'aimerais voyager en Amérique du Sud.",
+      "ja": "南米を旅してみたい。",
+      "level": "B1",
+      "tags": ["条件法現在", "願望"],
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "aimerais", "lemma": "aimer", "pos": "動詞", "ja": "好きだ・愛する", "infl": "COND/1sg", "note": "条件法で控えめな願望" },
+        { "s": "voyager", "lemma": "voyager", "pos": "動詞", "ja": "旅行する", "label": "不定詞" },
+        { "s": "en", "skip": true },
+        { "s": "Amérique du Sud", "lemma": "Amérique du Sud", "pos": "固有名詞", "ja": "南米" }
+      ]
+    },
+    {
+      "id": "fr-0019",
+      "text": "À ta place, je ne dirais rien.",
+      "ja": "僕が君なら、何も言わないだろうね。",
+      "level": "B2",
+      "tags": ["条件法現在"],
+      "grammar": "à ta place で「君の立場なら」。ne ... rien で「何も〜ない」。",
+      "tokens": [
+        { "s": "À ta place", "lemma": "à ta place", "pos": "慣用表現", "ja": "君の立場なら", "idiom": true },
+        { "s": "je", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "dirais", "lemma": "dire", "pos": "動詞", "ja": "言う", "infl": "COND/1sg" },
+        { "s": "rien", "lemma": "rien", "pos": "代名詞", "ja": "何も〜ない" }
+      ]
+    },
+    {
+      "id": "fr-0020",
+      "text": "Il faut que tu viennes avec nous.",
+      "ja": "君も一緒に来ないといけないよ。",
+      "level": "B1",
+      "tags": ["接続法現在"],
+      "grammar": "il faut que のあとは必ず接続法。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "faut", "lemma": "falloir", "pos": "動詞", "ja": "〜する必要がある", "infl": "PRES/3sg", "note": "il faut que の後ろは接続法" },
+        { "s": "que", "skip": true },
+        { "s": "tu", "skip": true },
+        { "s": "viennes", "lemma": "venir", "pos": "動詞", "ja": "来る", "infl": "SUBJ/2sg" },
+        { "s": "avec", "skip": true },
+        { "s": "nous", "skip": true }
+      ]
+    },
+    {
+      "id": "fr-0021",
+      "text": "Je suis content que tu sois là.",
+      "ja": "君がここにいてくれて嬉しい。",
+      "level": "B1",
+      "tags": ["接続法現在"],
+      "grammar": "感情を表す表現のあとは接続法。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "suis", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1sg" },
+        { "s": "content", "lemma": "content", "pos": "形容詞", "ja": "満足した・嬉しい" },
+        { "s": "que", "skip": true },
+        { "s": "tu", "skip": true },
+        { "s": "sois", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "SUBJ/2sg" },
+        { "s": "là", "lemma": "là", "pos": "副詞", "ja": "そこに・ここに" }
+      ]
+    },
+    {
+      "id": "fr-0022",
+      "text": "Je ne pense pas que ce soit une bonne idée.",
+      "ja": "それがいい考えだとは思わない。",
+      "level": "B1",
+      "tags": ["接続法現在"],
+      "grammar": "penser が否定されると、従属節は接続法になる。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "pense", "lemma": "penser", "pos": "動詞", "ja": "考える・思う", "infl": "PRES/1sg" },
+        { "s": "pas", "skip": true },
+        { "s": "que", "skip": true },
+        { "s": "ce", "skip": true },
+        { "s": "soit", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "SUBJ/3sg" },
+        { "s": "une", "skip": true },
+        { "s": "bonne", "lemma": "bon", "pos": "形容詞", "ja": "よい", "label": "女性単数" },
+        { "s": "idée", "lemma": "idée", "pos": "名詞", "ja": "考え・アイデア" }
+      ]
+    },
+    {
+      "id": "fr-0023",
+      "text": "Bien qu'il pleuve, nous irons à la plage.",
+      "ja": "雨が降っているけれど、海に行くつもりだ。",
+      "level": "B2",
+      "tags": ["接続法現在", "単純未来"],
+      "grammar": "bien que のあとは必ず接続法。",
+      "tokens": [
+        { "s": "Bien qu'", "lemma": "bien que", "pos": "接続詞", "ja": "〜だけれども", "idiom": true, "note": "後ろは必ず接続法" },
+        { "s": "il", "skip": true },
+        { "s": "pleuve", "lemma": "pleuvoir", "pos": "動詞", "ja": "雨が降る", "infl": "SUBJ/3sg" },
+        { "s": "nous", "skip": true },
+        { "s": "irons", "lemma": "aller", "pos": "動詞", "ja": "行く", "infl": "FUT/1pl" },
+        { "s": "à", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "plage", "lemma": "plage", "pos": "名詞", "ja": "浜辺・海岸" }
+      ]
+    },
+    {
+      "id": "fr-0024",
+      "text": "Si j'avais plus de temps, je voyagerais davantage.",
+      "ja": "もっと時間があれば、もっと旅行するのに。",
+      "level": "B2",
+      "tags": ["半過去", "条件法現在"],
+      "grammar": "現在の事実に反する仮定は「si + 半過去, 条件法現在」。si のあとに条件法は置けない。",
+      "tokens": [
+        { "s": "Si", "skip": true },
+        { "s": "j'", "skip": true },
+        { "s": "avais", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "IMPF/1sg" },
+        { "s": "plus de", "lemma": "plus de", "pos": "慣用表現", "ja": "もっと多くの", "idiom": true },
+        { "s": "temps", "lemma": "temps", "pos": "名詞", "ja": "時間・天気" },
+        { "s": "je", "skip": true },
+        { "s": "voyagerais", "lemma": "voyager", "pos": "動詞", "ja": "旅行する", "infl": "COND/1sg" },
+        { "s": "davantage", "lemma": "davantage", "pos": "副詞", "ja": "もっと・より多く" }
+      ]
+    },
+    {
+      "id": "fr-0025",
+      "text": "Viens ici tout de suite !",
+      "ja": "今すぐこっちに来なさい！",
+      "level": "A2",
+      "tags": ["命令法"],
+      "tokens": [
+        { "s": "Viens", "lemma": "venir", "pos": "動詞", "ja": "来る", "infl": "IMPER/2sg" },
+        { "s": "ici", "lemma": "ici", "pos": "副詞", "ja": "ここに" },
+        { "s": "tout de suite", "lemma": "tout de suite", "pos": "慣用表現", "ja": "今すぐ", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0026",
+      "text": "Parlez plus lentement, s'il vous plaît.",
+      "ja": "もっとゆっくり話してください。",
+      "level": "A1",
+      "tags": ["命令法"],
+      "tokens": [
+        { "s": "Parlez", "lemma": "parler", "pos": "動詞", "ja": "話す", "infl": "IMPER/2pl" },
+        { "s": "plus", "lemma": "plus", "pos": "副詞", "ja": "もっと" },
+        { "s": "lentement", "lemma": "lentement", "pos": "副詞", "ja": "ゆっくり" },
+        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0027",
+      "text": "N'oublie pas ton parapluie.",
+      "ja": "傘を忘れないでね。",
+      "level": "A2",
+      "tags": ["命令法"],
+      "grammar": "否定命令は ne ... pas で命令形を挟む。",
+      "tokens": [
+        { "s": "N'", "skip": true },
+        { "s": "oublie", "lemma": "oublier", "pos": "動詞", "ja": "忘れる", "infl": "IMPER/2sg" },
+        { "s": "pas", "skip": true },
+        { "s": "ton", "skip": true },
+        { "s": "parapluie", "lemma": "parapluie", "pos": "名詞", "ja": "傘" }
+      ]
+    },
+    {
+      "id": "fr-0028",
+      "text": "Faisons une pause de dix minutes.",
+      "ja": "10分休憩しよう。",
+      "level": "B1",
+      "tags": ["命令法"],
+      "grammar": "1人称複数の命令形は「〜しよう」という勧誘になる。",
+      "tokens": [
+        { "s": "Faisons", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "IMPER/1pl" },
+        { "s": "une", "skip": true },
+        { "s": "pause", "lemma": "pause", "pos": "名詞", "ja": "休憩" },
+        { "s": "de", "skip": true },
+        { "s": "dix", "skip": true },
+        { "s": "minutes", "lemma": "minute", "pos": "名詞", "ja": "分" }
+      ]
+    },
+    {
+      "id": "fr-0029",
+      "text": "Je viens d'arriver à la maison.",
+      "ja": "ちょうど今家に着いたところだ。",
+      "level": "A2",
+      "tags": ["直説法現在", "熟語"],
+      "grammar": "venir de + 不定詞で「〜したばかり」（近接過去）。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "viens", "lemma": "venir", "pos": "動詞", "ja": "来る", "infl": "PRES/1sg", "note": "venir de + 不定詞で近接過去" },
+        { "s": "d'", "skip": true },
+        { "s": "arriver", "lemma": "arriver", "pos": "動詞", "ja": "着く・起こる", "label": "不定詞" },
+        { "s": "à la maison", "lemma": "à la maison", "pos": "慣用表現", "ja": "家に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0030",
+      "text": "Je vais acheter du pain et du lait.",
+      "ja": "パンと牛乳を買ってくる。",
+      "level": "A1",
+      "tags": ["直説法現在", "近接未来"],
+      "grammar": "aller + 不定詞で近い未来を表す。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "vais", "lemma": "aller", "pos": "動詞", "ja": "行く", "infl": "PRES/1sg", "note": "aller + 不定詞で近接未来" },
+        { "s": "acheter", "lemma": "acheter", "pos": "動詞", "ja": "買う", "label": "不定詞" },
+        { "s": "du", "skip": true },
+        { "s": "pain", "lemma": "pain", "pos": "名詞", "ja": "パン" },
+        { "s": "et", "skip": true },
+        { "s": "du", "skip": true },
+        { "s": "lait", "lemma": "lait", "pos": "名詞", "ja": "牛乳" }
+      ]
+    },
+    {
+      "id": "fr-0031",
+      "text": "J'ai envie de voir ce film.",
+      "ja": "その映画が見たい。",
+      "level": "B1",
+      "tags": ["直説法現在", "熟語"],
+      "grammar": "avoir envie de + 不定詞で「〜したい」。",
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "ai", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/1sg" },
+        { "s": "envie de", "lemma": "avoir envie de", "pos": "慣用表現", "ja": "〜したい", "idiom": true },
+        { "s": "voir", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "label": "不定詞" },
+        { "s": "ce", "skip": true },
+        { "s": "film", "lemma": "film", "pos": "名詞", "ja": "映画" }
+      ]
+    },
+    {
+      "id": "fr-0032",
+      "text": "Ça vaut la peine de lire ce livre.",
+      "ja": "この本は読む価値がある。",
+      "level": "B1",
+      "tags": ["直説法現在", "熟語"],
+      "tokens": [
+        { "s": "Ça", "skip": true },
+        { "s": "vaut", "lemma": "valoir", "pos": "動詞", "ja": "価値がある", "infl": "PRES/3sg" },
+        { "s": "la peine de", "lemma": "valoir la peine de", "pos": "慣用表現", "ja": "〜する価値がある", "idiom": true },
+        { "s": "lire", "lemma": "lire", "pos": "動詞", "ja": "読む", "label": "不定詞" },
+        { "s": "ce", "skip": true },
+        { "s": "livre", "lemma": "livre", "pos": "名詞", "ja": "本" }
+      ]
+    },
+    {
+      "id": "fr-0033",
+      "text": "J'ai complètement oublié.",
+      "ja": "すっかり忘れていた。",
+      "level": "A2",
+      "tags": ["複合過去"],
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "ai", "skip": true },
+        { "s": "complètement", "lemma": "complètement", "pos": "副詞", "ja": "完全に・すっかり" },
+        { "s": "oublié", "lemma": "oublier", "pos": "動詞", "ja": "忘れる", "infl": "PPASSE" }
+      ]
+    },
+    {
+      "id": "fr-0034",
+      "text": "Je travaille ici depuis deux ans.",
+      "ja": "ここで働いて2年になる。",
+      "level": "B1",
+      "tags": ["直説法現在"],
+      "grammar": "depuis + 期間は現在形と組み合わせる。日本語の「〜になる」にあたる。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "travaille", "lemma": "travailler", "pos": "動詞", "ja": "働く・勉強する", "infl": "PRES/1sg" },
+        { "s": "ici", "lemma": "ici", "pos": "副詞", "ja": "ここに" },
+        { "s": "depuis", "lemma": "depuis", "pos": "前置詞", "ja": "〜から・〜以来", "note": "現在形と組み合わせる" },
+        { "s": "deux", "skip": true },
+        { "s": "ans", "lemma": "an", "pos": "名詞", "ja": "年" }
+      ]
+    },
+    {
+      "id": "fr-0035",
+      "text": "Je dois partir maintenant.",
+      "ja": "もう行かないといけない。",
+      "level": "A2",
+      "tags": ["直説法現在"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "dois", "lemma": "devoir", "pos": "動詞", "ja": "〜しなければならない・借りがある", "infl": "PRES/1sg" },
+        { "s": "partir", "lemma": "partir", "pos": "動詞", "ja": "出発する・去る", "label": "不定詞" },
+        { "s": "maintenant", "lemma": "maintenant", "pos": "副詞", "ja": "今" }
+      ]
+    },
+    {
+      "id": "fr-0036",
+      "text": "À quelle heure commence le film ?",
+      "ja": "映画は何時に始まりますか。",
+      "level": "A1",
+      "tags": ["直説法現在"],
+      "tokens": [
+        { "s": "À quelle heure", "lemma": "à quelle heure", "pos": "慣用表現", "ja": "何時に", "idiom": true },
+        { "s": "commence", "lemma": "commencer", "pos": "動詞", "ja": "始める・始まる", "infl": "PRES/3sg" },
+        { "s": "le", "skip": true },
+        { "s": "film", "lemma": "film", "pos": "名詞", "ja": "映画" }
+      ]
+    },
+    {
+      "id": "fr-0037",
+      "text": "Je n'ai pas encore écrit la lettre.",
+      "ja": "まだ手紙を書いていない。",
+      "level": "B1",
+      "tags": ["複合過去"],
+      "grammar": "écrire の過去分詞は écrit という不規則形。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "n'", "skip": true },
+        { "s": "ai", "skip": true },
+        { "s": "pas encore", "lemma": "pas encore", "pos": "慣用表現", "ja": "まだ〜ない", "idiom": true },
+        { "s": "écrit", "lemma": "écrire", "pos": "動詞", "ja": "書く", "infl": "PPASSE" },
+        { "s": "la", "skip": true },
+        { "s": "lettre", "lemma": "lettre", "pos": "名詞", "ja": "手紙" }
+      ]
+    },
+    {
+      "id": "fr-0038",
+      "text": "Ce livre a été écrit par une Française.",
+      "ja": "この本はフランス人女性によって書かれた。",
+      "level": "B2",
+      "tags": ["受動態"],
+      "grammar": "être + 過去分詞で受動態。複合過去では a été + 過去分詞になる。",
+      "tokens": [
+        { "s": "Ce", "skip": true },
+        { "s": "livre", "lemma": "livre", "pos": "名詞", "ja": "本" },
+        { "s": "a été écrit", "lemma": "écrire", "pos": "動詞", "ja": "書く", "label": "受動態・複合過去・3人称単数" },
+        { "s": "par", "skip": true },
+        { "s": "une", "skip": true },
+        { "s": "Française", "lemma": "Français", "pos": "名詞", "ja": "フランス人", "label": "女性単数" }
+      ]
+    },
+    {
+      "id": "fr-0039",
+      "text": "Il continue à pleuvoir depuis hier.",
+      "ja": "昨日からずっと雨が降り続いている。",
+      "level": "B1",
+      "tags": ["直説法現在"],
+      "grammar": "continuer à + 不定詞で「〜し続ける」。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "continue", "lemma": "continuer", "pos": "動詞", "ja": "続ける", "infl": "PRES/3sg" },
+        { "s": "à", "skip": true },
+        { "s": "pleuvoir", "lemma": "pleuvoir", "pos": "動詞", "ja": "雨が降る", "label": "不定詞" },
+        { "s": "depuis", "lemma": "depuis", "pos": "前置詞", "ja": "〜から・〜以来" },
+        { "s": "hier", "lemma": "hier", "pos": "副詞", "ja": "昨日" }
+      ]
+    },
+    {
+      "id": "fr-0040",
+      "text": "Je ne savais pas que tu habitais ici.",
+      "ja": "君がここに住んでいるとは知らなかった。",
+      "level": "B1",
+      "tags": ["半過去"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "savais", "lemma": "savoir", "pos": "動詞", "ja": "知っている・〜できる", "infl": "IMPF/1sg" },
+        { "s": "pas", "skip": true },
+        { "s": "que", "skip": true },
+        { "s": "tu", "skip": true },
+        { "s": "habitais", "lemma": "habiter", "pos": "動詞", "ja": "住む", "label": "半過去・2人称単数" },
+        { "s": "ici", "lemma": "ici", "pos": "副詞", "ja": "ここに" }
+      ]
+    },
+    {
+      "id": "fr-0041",
+      "text": "J'ai mal à la tête depuis ce matin.",
+      "ja": "今朝から頭が痛い。",
+      "level": "A2",
+      "tags": ["直説法現在", "熟語"],
+      "grammar": "avoir mal à + 体の部位で「〜が痛い」。",
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "ai", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/1sg" },
+        { "s": "mal à", "lemma": "avoir mal à", "pos": "慣用表現", "ja": "〜が痛い", "idiom": true },
+        { "s": "la", "skip": true },
+        { "s": "tête", "lemma": "tête", "pos": "名詞", "ja": "頭" },
+        { "s": "depuis", "skip": true },
+        { "s": "ce matin", "lemma": "ce matin", "pos": "慣用表現", "ja": "今朝", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0042",
+      "text": "Donne-moi un instant, s'il te plaît.",
+      "ja": "少し待って。",
+      "level": "A2",
+      "tags": ["命令法"],
+      "grammar": "肯定命令では代名詞が動詞の後ろにハイフンでつく。",
+      "tokens": [
+        { "s": "Donne", "lemma": "donner", "pos": "動詞", "ja": "与える", "infl": "IMPER/2sg" },
+        { "s": "moi", "skip": true },
+        { "s": "un instant", "lemma": "un instant", "pos": "慣用表現", "ja": "ちょっとの間", "idiom": true },
+        { "s": "s'il te plaît", "lemma": "s'il te plaît", "pos": "慣用表現", "ja": "お願い", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0043",
+      "text": "Nous nous sommes rencontrés il y a longtemps.",
+      "ja": "私たちはずいぶん前に知り合った。",
+      "level": "B1",
+      "tags": ["複合過去", "熟語"],
+      "grammar": "代名動詞の複合過去は必ず être を使う。il y a + 期間で「〜前に」。",
+      "tokens": [
+        { "s": "Nous", "skip": true },
+        { "s": "nous", "skip": true },
+        { "s": "sommes rencontrés", "lemma": "rencontrer", "pos": "動詞", "ja": "出会う・知り合う", "label": "複合過去・1人称複数（代名動詞）" },
+        { "s": "il y a longtemps", "lemma": "il y a longtemps", "pos": "慣用表現", "ja": "ずいぶん前に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0044",
+      "text": "Enfin, il a cessé de neiger.",
+      "ja": "やっと雪がやんだ。",
+      "level": "B1",
+      "tags": ["複合過去", "熟語"],
+      "tokens": [
+        { "s": "Enfin", "lemma": "enfin", "pos": "副詞", "ja": "ついに・やっと" },
+        { "s": "il", "skip": true },
+        { "s": "a cessé", "lemma": "cesser", "pos": "動詞", "ja": "やめる・止まる", "label": "複合過去・3人称単数" },
+        { "s": "de", "skip": true },
+        { "s": "neiger", "lemma": "neiger", "pos": "動詞", "ja": "雪が降る", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0045",
+      "text": "Chaque fois que je la vois, elle sourit.",
+      "ja": "彼女に会うたびに、微笑んでくれる。",
+      "level": "B1",
+      "tags": ["直説法現在", "熟語"],
+      "tokens": [
+        { "s": "Chaque fois que", "lemma": "chaque fois que", "pos": "慣用表現", "ja": "〜するたびに", "idiom": true },
+        { "s": "je", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "vois", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "infl": "PRES/1sg" },
+        { "s": "elle", "skip": true },
+        { "s": "sourit", "lemma": "sourire", "pos": "動詞", "ja": "微笑む", "infl": "PRES/3sg" }
+      ]
+    },
+    {
+      "id": "fr-0046",
+      "text": "Il vaut mieux que tu partes maintenant.",
+      "ja": "君はもう帰ったほうがいい。",
+      "level": "B2",
+      "tags": ["接続法現在"],
+      "grammar": "il vaut mieux que のあとは接続法。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "vaut mieux que", "lemma": "il vaut mieux que", "pos": "慣用表現", "ja": "〜したほうがよい", "idiom": true, "note": "後ろは接続法" },
+        { "s": "tu", "skip": true },
+        { "s": "partes", "lemma": "partir", "pos": "動詞", "ja": "出発する・去る", "infl": "SUBJ/2sg" },
+        { "s": "maintenant", "lemma": "maintenant", "pos": "副詞", "ja": "今" }
+      ]
+    },
+    {
+      "id": "fr-0047",
+      "text": "En attendant le bus, j'ai lu un journal.",
+      "ja": "バスを待っている間に新聞を読んだ。",
+      "level": "B1",
+      "tags": ["現在分詞", "複合過去"],
+      "grammar": "en + 現在分詞（ジェロンディフ）で「〜しながら・〜する間に」。",
+      "tokens": [
+        { "s": "En", "skip": true },
+        { "s": "attendant", "lemma": "attendre", "pos": "動詞", "ja": "待つ", "infl": "PPRES", "note": "en + 現在分詞でジェロンディフ" },
+        { "s": "le", "skip": true },
+        { "s": "bus", "lemma": "bus", "pos": "名詞", "ja": "バス" },
+        { "s": "j'", "skip": true },
+        { "s": "ai lu", "lemma": "lire", "pos": "動詞", "ja": "読む", "infl": "PC/1sg" },
+        { "s": "un", "skip": true },
+        { "s": "journal", "lemma": "journal", "pos": "名詞", "ja": "新聞" }
+      ]
+    },
+    {
+      "id": "fr-0048",
+      "text": "Elle est née à Paris en mille neuf cent quatre-vingt-dix.",
+      "ja": "彼女は1990年にパリで生まれた。",
+      "level": "B1",
+      "tags": ["複合過去"],
+      "grammar": "naître は être を使う。過去分詞が女性形 née になる。",
+      "tokens": [
+        { "s": "Elle", "skip": true },
+        { "s": "est", "skip": true },
+        { "s": "née", "lemma": "naître", "pos": "動詞", "ja": "生まれる", "label": "複合過去の過去分詞（女性単数一致）" },
+        { "s": "à", "skip": true },
+        { "s": "Paris", "lemma": "Paris", "pos": "固有名詞", "ja": "パリ" }
+      ]
+    },
+    {
+      "id": "fr-0049",
+      "text": "Le train était parti quand je suis arrivé.",
+      "ja": "私が着いたとき、電車はもう出てしまっていた。",
+      "level": "B2",
+      "tags": ["大過去", "複合過去"],
+      "grammar": "大過去（était + 過去分詞）は、複合過去で表す出来事より前に完了していたことを示す。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "train", "lemma": "train", "pos": "名詞", "ja": "電車" },
+        { "s": "était parti", "lemma": "partir", "pos": "動詞", "ja": "出発する・去る", "infl": "PQP/3sg" },
+        { "s": "quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "je", "skip": true },
+        { "s": "suis arrivé", "lemma": "arriver", "pos": "動詞", "ja": "着く・起こる", "infl": "PC/1sg" }
+      ]
+    },
+    {
+      "id": "fr-0050",
+      "text": "Il ne faut pas boire trop de café.",
+      "ja": "コーヒーを飲みすぎてはいけない。",
+      "level": "B1",
+      "tags": ["直説法現在"],
+      "grammar": "il ne faut pas + 不定詞で禁止を表す。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "faut", "lemma": "falloir", "pos": "動詞", "ja": "〜する必要がある", "infl": "PRES/3sg" },
+        { "s": "pas", "skip": true },
+        { "s": "boire", "lemma": "boire", "pos": "動詞", "ja": "飲む", "label": "不定詞" },
+        { "s": "trop de", "lemma": "trop de", "pos": "慣用表現", "ja": "〜が多すぎる", "idiom": true },
+        { "s": "café", "lemma": "café", "pos": "名詞", "ja": "コーヒー・カフェ" }
+      ]
+    }
+  ]
+}

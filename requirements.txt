@@ -1,0 +1,3 @@
+# スペイン語の活用表生成に必要（scripts/build_spanish_verbs.py）。
+# アプリの実行には不要 — data/es/verbs.json を作り直すときだけ使う。
+verbecc==2.0.2

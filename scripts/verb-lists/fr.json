@@ -1,0 +1,548 @@
+{
+  "verbs": [
+    {
+      "lemma": "être",
+      "ja": "〜である"
+    },
+    {
+      "lemma": "avoir",
+      "ja": "持つ・所有する"
+    },
+    {
+      "lemma": "faire",
+      "ja": "する・作る"
+    },
+    {
+      "lemma": "dire",
+      "ja": "言う"
+    },
+    {
+      "lemma": "aller",
+      "ja": "行く",
+      "aux": "ETRE"
+    },
+    {
+      "lemma": "voir",
+      "ja": "見る・会う"
+    },
+    {
+      "lemma": "savoir",
+      "ja": "知っている・〜できる"
+    },
+    {
+      "lemma": "pouvoir",
+      "ja": "〜できる",
+      "omit": [
+        "IMPER"
+      ]
+    },
+    {
+      "lemma": "vouloir",
+      "ja": "〜したい・望む"
+    },
+    {
+      "lemma": "venir",
+      "ja": "来る",
+      "aux": "ETRE"
+    },
+    {
+      "lemma": "devoir",
+      "ja": "〜しなければならない・借りがある"
+    },
+    {
+      "lemma": "prendre",
+      "ja": "取る・乗る"
+    },
+    {
+      "lemma": "croire",
+      "ja": "信じる・思う"
+    },
+    {
+      "lemma": "aimer",
+      "ja": "好きだ・愛する"
+    },
+    {
+      "lemma": "trouver",
+      "ja": "見つける・〜だと思う"
+    },
+    {
+      "lemma": "donner",
+      "ja": "与える"
+    },
+    {
+      "lemma": "parler",
+      "ja": "話す"
+    },
+    {
+      "lemma": "comprendre",
+      "ja": "理解する"
+    },
+    {
+      "lemma": "partir",
+      "ja": "出発する・去る",
+      "aux": "ETRE"
+    },
+    {
+      "lemma": "demander",
+      "ja": "尋ねる・求める"
+    },
+    {
+      "lemma": "tenir",
+      "ja": "持つ・保つ"
+    },
+    {
+      "lemma": "passer",
+      "ja": "通る・過ごす"
+    },
+    {
+      "lemma": "sembler",
+      "ja": "〜のように思われる"
+    },
+    {
+      "lemma": "laisser",
+      "ja": "残す・〜させておく"
+    },
+    {
+      "lemma": "rester",
+      "ja": "とどまる・残る",
+      "aux": "ETRE"
+    },
+    {
+      "lemma": "penser",
+      "ja": "考える・思う"
+    },
+    {
+      "lemma": "entendre",
+      "ja": "聞こえる・理解する"
+    },
+    {
+      "lemma": "regarder",
+      "ja": "見る・眺める"
+    },
+    {
+      "lemma": "répondre",
+      "ja": "答える"
+    },
+    {
+      "lemma": "rendre",
+      "ja": "返す・〜にする"
+    },
+    {
+      "lemma": "connaître",
+      "ja": "知っている・面識がある"
+    },
+    {
+      "lemma": "paraître",
+      "ja": "現れる・〜に見える"
+    },
+    {
+      "lemma": "arriver",
+      "ja": "着く・起こる",
+      "aux": "ETRE"
+    },
+    {
+      "lemma": "sentir",
+      "ja": "感じる・匂う"
+    },
+    {
+      "lemma": "attendre",
+      "ja": "待つ"
+    },
+    {
+      "lemma": "vivre",
+      "ja": "生きる・暮らす"
+    },
+    {
+      "lemma": "chercher",
+      "ja": "探す"
+    },
+    {
+      "lemma": "sortir",
+      "ja": "出る・外出する",
+      "aux": "ETRE"
+    },
+    {
+      "lemma": "mettre",
+      "ja": "置く・着る"
+    },
+    {
+      "lemma": "porter",
+      "ja": "運ぶ・身につける"
+    },
+    {
+      "lemma": "montrer",
+      "ja": "見せる・示す"
+    },
+    {
+      "lemma": "continuer",
+      "ja": "続ける"
+    },
+    {
+      "lemma": "écrire",
+      "ja": "書く"
+    },
+    {
+      "lemma": "appeler",
+      "ja": "呼ぶ・電話する"
+    },
+    {
+      "lemma": "permettre",
+      "ja": "許す・可能にする"
+    },
+    {
+      "lemma": "recevoir",
+      "ja": "受け取る・迎える"
+    },
+    {
+      "lemma": "jouer",
+      "ja": "遊ぶ・演じる・演奏する"
+    },
+    {
+      "lemma": "garder",
+      "ja": "取っておく・見守る"
+    },
+    {
+      "lemma": "tomber",
+      "ja": "落ちる・転ぶ",
+      "aux": "ETRE"
+    },
+    {
+      "lemma": "apporter",
+      "ja": "持ってくる"
+    },
+    {
+      "lemma": "apprendre",
+      "ja": "学ぶ・教える"
+    },
+    {
+      "lemma": "entrer",
+      "ja": "入る",
+      "aux": "ETRE"
+    },
+    {
+      "lemma": "lire",
+      "ja": "読む"
+    },
+    {
+      "lemma": "manger",
+      "ja": "食べる"
+    },
+    {
+      "lemma": "boire",
+      "ja": "飲む"
+    },
+    {
+      "lemma": "dormir",
+      "ja": "眠る"
+    },
+    {
+      "lemma": "courir",
+      "ja": "走る"
+    },
+    {
+      "lemma": "ouvrir",
+      "ja": "開ける"
+    },
+    {
+      "lemma": "offrir",
+      "ja": "贈る・提供する"
+    },
+    {
+      "lemma": "souffrir",
+      "ja": "苦しむ"
+    },
+    {
+      "lemma": "mourir",
+      "ja": "死ぬ",
+      "aux": "ETRE"
+    },
+    {
+      "lemma": "naître",
+      "ja": "生まれる",
+      "aux": "ETRE"
+    },
+    {
+      "lemma": "devenir",
+      "ja": "〜になる",
+      "aux": "ETRE"
+    },
+    {
+      "lemma": "revenir",
+      "ja": "戻ってくる",
+      "aux": "ETRE"
+    },
+    {
+      "lemma": "obtenir",
+      "ja": "得る・手に入れる"
+    },
+    {
+      "lemma": "servir",
+      "ja": "役立つ・給仕する"
+    },
+    {
+      "lemma": "sourire",
+      "ja": "微笑む"
+    },
+    {
+      "lemma": "rire",
+      "ja": "笑う"
+    },
+    {
+      "lemma": "conduire",
+      "ja": "運転する・導く"
+    },
+    {
+      "lemma": "produire",
+      "ja": "生産する・生み出す"
+    },
+    {
+      "lemma": "construire",
+      "ja": "建てる・築く"
+    },
+    {
+      "lemma": "détruire",
+      "ja": "破壊する"
+    },
+    {
+      "lemma": "plaire",
+      "ja": "気に入られる"
+    },
+    {
+      "lemma": "craindre",
+      "ja": "恐れる"
+    },
+    {
+      "lemma": "joindre",
+      "ja": "つなぐ・連絡を取る"
+    },
+    {
+      "lemma": "peindre",
+      "ja": "描く・塗る"
+    },
+    {
+      "lemma": "atteindre",
+      "ja": "達する・到達する"
+    },
+    {
+      "lemma": "éteindre",
+      "ja": "消す"
+    },
+    {
+      "lemma": "résoudre",
+      "ja": "解決する"
+    },
+    {
+      "lemma": "vaincre",
+      "ja": "打ち負かす"
+    },
+    {
+      "lemma": "convaincre",
+      "ja": "納得させる"
+    },
+    {
+      "lemma": "battre",
+      "ja": "打つ・打ち負かす"
+    },
+    {
+      "lemma": "promettre",
+      "ja": "約束する"
+    },
+    {
+      "lemma": "admettre",
+      "ja": "認める"
+    },
+    {
+      "lemma": "suffire",
+      "ja": "十分である"
+    },
+    {
+      "lemma": "décrire",
+      "ja": "描写する"
+    },
+    {
+      "lemma": "prévoir",
+      "ja": "予測する・予定する"
+    },
+    {
+      "lemma": "valoir",
+      "ja": "価値がある"
+    },
+    {
+      "lemma": "acheter",
+      "ja": "買う"
+    },
+    {
+      "lemma": "vendre",
+      "ja": "売る"
+    },
+    {
+      "lemma": "payer",
+      "ja": "払う"
+    },
+    {
+      "lemma": "aider",
+      "ja": "助ける・手伝う"
+    },
+    {
+      "lemma": "travailler",
+      "ja": "働く・勉強する"
+    },
+    {
+      "lemma": "étudier",
+      "ja": "勉強する・研究する"
+    },
+    {
+      "lemma": "commencer",
+      "ja": "始める・始まる"
+    },
+    {
+      "lemma": "finir",
+      "ja": "終える・終わる"
+    },
+    {
+      "lemma": "choisir",
+      "ja": "選ぶ"
+    },
+    {
+      "lemma": "réussir",
+      "ja": "成功する・合格する"
+    },
+    {
+      "lemma": "remplir",
+      "ja": "満たす・記入する"
+    },
+    {
+      "lemma": "grandir",
+      "ja": "成長する・大きくなる"
+    },
+    {
+      "lemma": "réfléchir",
+      "ja": "よく考える"
+    },
+    {
+      "lemma": "oublier",
+      "ja": "忘れる"
+    },
+    {
+      "lemma": "essayer",
+      "ja": "試す・やってみる"
+    },
+    {
+      "lemma": "envoyer",
+      "ja": "送る"
+    },
+    {
+      "lemma": "espérer",
+      "ja": "望む・期待する"
+    },
+    {
+      "lemma": "préférer",
+      "ja": "〜のほうを好む"
+    },
+    {
+      "lemma": "répéter",
+      "ja": "繰り返す"
+    },
+    {
+      "lemma": "lever",
+      "ja": "上げる・持ち上げる"
+    },
+    {
+      "lemma": "emmener",
+      "ja": "連れていく"
+    },
+    {
+      "lemma": "jeter",
+      "ja": "投げる・捨てる"
+    },
+    {
+      "lemma": "changer",
+      "ja": "変える・変わる"
+    },
+    {
+      "lemma": "voyager",
+      "ja": "旅行する"
+    },
+    {
+      "lemma": "nager",
+      "ja": "泳ぐ"
+    },
+    {
+      "lemma": "chanter",
+      "ja": "歌う"
+    },
+    {
+      "lemma": "danser",
+      "ja": "踊る"
+    },
+    {
+      "lemma": "marcher",
+      "ja": "歩く・（機械が）動く"
+    },
+    {
+      "lemma": "monter",
+      "ja": "上る・乗る"
+    },
+    {
+      "lemma": "descendre",
+      "ja": "降りる・下る"
+    },
+    {
+      "lemma": "fermer",
+      "ja": "閉める"
+    },
+    {
+      "lemma": "cuisiner",
+      "ja": "料理する"
+    },
+    {
+      "lemma": "raconter",
+      "ja": "語る・話して聞かせる"
+    },
+    {
+      "lemma": "expliquer",
+      "ja": "説明する"
+    },
+    {
+      "lemma": "utiliser",
+      "ja": "使う・利用する"
+    },
+    {
+      "lemma": "décider",
+      "ja": "決める"
+    },
+    {
+      "lemma": "accepter",
+      "ja": "受け入れる"
+    },
+    {
+      "lemma": "gagner",
+      "ja": "勝つ・稼ぐ"
+    },
+    {
+      "lemma": "perdre",
+      "ja": "失う・負ける"
+    },
+    {
+      "lemma": "suivre",
+      "ja": "ついていく・従う"
+    },
+    {
+      "lemma": "pleuvoir",
+      "ja": "雨が降る",
+      "impersonal": true,
+      "omit": [
+        "IMPER"
+      ]
+    },
+    {
+      "lemma": "falloir",
+      "ja": "〜する必要がある",
+      "impersonal": true,
+      "omit": [
+        "IMPER",
+        "PPRES"
+      ]
+    }
+  ]
+}
