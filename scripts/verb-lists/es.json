@@ -631,6 +631,166 @@
     {
       "lemma": "repercutir",
       "ja": "影響を及ぼす・波及する"
+    },
+    {
+      "lemma": "surgir",
+      "ja": "現れる・生じる"
+    },
+    {
+      "lemma": "evocar",
+      "ja": "想起させる・思い起こす"
+    },
+    {
+      "lemma": "contemplar",
+      "ja": "眺める・想定する"
+    },
+    {
+      "lemma": "estremecer",
+      "ja": "震わせる・戦慄させる"
+    },
+    {
+      "lemma": "vislumbrar",
+      "ja": "かすかに見える・予感する"
+    },
+    {
+      "lemma": "añorar",
+      "ja": "懐かしむ・恋しがる"
+    },
+    {
+      "lemma": "susurrar",
+      "ja": "ささやく"
+    },
+    {
+      "lemma": "apoderarse",
+      "ja": "占拠する・とらえる"
+    },
+    {
+      "lemma": "desvanecer",
+      "ja": "消え去らせる・かすませる"
+    },
+    {
+      "lemma": "arrancar",
+      "ja": "もぎ取る・始動する"
+    },
+    {
+      "lemma": "postular",
+      "ja": "仮定する・立候補する"
+    },
+    {
+      "lemma": "refutar",
+      "ja": "反駁する"
+    },
+    {
+      "lemma": "corroborar",
+      "ja": "裏付ける"
+    },
+    {
+      "lemma": "inferir",
+      "ja": "推論する"
+    },
+    {
+      "lemma": "delimitar",
+      "ja": "範囲を定める"
+    },
+    {
+      "lemma": "matizar",
+      "ja": "ニュアンスを加える・補足修正する"
+    },
+    {
+      "lemma": "esbozar",
+      "ja": "素描する・概略を示す"
+    },
+    {
+      "lemma": "subrayar",
+      "ja": "強調する・下線を引く"
+    },
+    {
+      "lemma": "evidenciar",
+      "ja": "明らかにする"
+    },
+    {
+      "lemma": "comparecer",
+      "ja": "出頭する・出廷する"
+    },
+    {
+      "lemma": "dimitir",
+      "ja": "辞任する"
+    },
+    {
+      "lemma": "imputar",
+      "ja": "訴追する・帰責する"
+    },
+    {
+      "lemma": "recabar",
+      "ja": "収集する・要請する"
+    },
+    {
+      "lemma": "esgrimir",
+      "ja": "振りかざす・論拠にする"
+    },
+    {
+      "lemma": "acatar",
+      "ja": "従う・遵守する"
+    },
+    {
+      "lemma": "zanjar",
+      "ja": "決着をつける"
+    },
+    {
+      "lemma": "recortar",
+      "ja": "削減する・切り取る"
+    },
+    {
+      "lemma": "blindar",
+      "ja": "保護する・守りを固める"
+    },
+    {
+      "lemma": "fastidiar",
+      "ja": "うんざりさせる・台無しにする"
+    },
+    {
+      "lemma": "aguantar",
+      "ja": "我慢する・持ちこたえる"
+    },
+    {
+      "lemma": "largarse",
+      "ja": "立ち去る"
+    },
+    {
+      "lemma": "agobiar",
+      "ja": "苦しめる・重荷になる"
+    },
+    {
+      "lemma": "quejarse",
+      "ja": "不平を言う"
+    },
+    {
+      "lemma": "fingir",
+      "ja": "ふりをする・装う"
+    },
+    {
+      "lemma": "presumir",
+      "ja": "自慢する・推定する"
+    },
+    {
+      "lemma": "rendirse",
+      "ja": "降参する・屈する"
+    },
+    {
+      "lemma": "desprender",
+      "ja": "放つ・切り離す"
+    },
+    {
+      "lemma": "padecer",
+      "ja": "患う・苦しむ"
+    },
+    {
+      "lemma": "ceder",
+      "ja": "譲る・屈する"
+    },
+    {
+      "lemma": "osar",
+      "ja": "あえて〜する"
     }
   ]
 }

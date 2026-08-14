@@ -21698,6 +21698,4577 @@
           "repercutido"
         ]
       }
+    },
+    {
+      "lemma": "surgir",
+      "ja": "現れる・生じる",
+      "forms": {
+        "IND_PRES": [
+          "surjo",
+          "surges",
+          "surge",
+          "surgimos",
+          "surgís",
+          "surgen"
+        ],
+        "IND_PRET": [
+          "surgí",
+          "surgiste",
+          "surgió",
+          "surgimos",
+          "surgisteis",
+          "surgieron"
+        ],
+        "IND_IMPF": [
+          "surgía",
+          "surgías",
+          "surgía",
+          "surgíamos",
+          "surgíais",
+          "surgían"
+        ],
+        "IND_FUT": [
+          "surgiré",
+          "surgirás",
+          "surgirá",
+          "surgiremos",
+          "surgiréis",
+          "surgirán"
+        ],
+        "IND_PERF": [
+          "he surgido",
+          "has surgido",
+          "ha surgido",
+          "hemos surgido",
+          "habéis surgido",
+          "han surgido"
+        ],
+        "IND_PLUP": [
+          "había surgido",
+          "habías surgido",
+          "había surgido",
+          "habíamos surgido",
+          "habíais surgido",
+          "habían surgido"
+        ],
+        "COND": [
+          "surgiría",
+          "surgirías",
+          "surgiría",
+          "surgiríamos",
+          "surgiríais",
+          "surgirían"
+        ],
+        "SUBJ_PRES": [
+          "surja",
+          "surjas",
+          "surja",
+          "surjamos",
+          "surjáis",
+          "surjan"
+        ],
+        "SUBJ_IMPF": [
+          "surgiera",
+          "surgieras",
+          "surgiera",
+          "surgiéramos",
+          "surgierais",
+          "surgieran"
+        ],
+        "SUBJ_PERF": [
+          "haya surgido",
+          "hayas surgido",
+          "haya surgido",
+          "hayamos surgido",
+          "hayáis surgido",
+          "hayan surgido"
+        ],
+        "IMP": [
+          "",
+          "surge",
+          "surja",
+          "surjamos",
+          "surgid",
+          "surjan"
+        ],
+        "GER": [
+          "surgiendo"
+        ],
+        "PART": [
+          "surgido"
+        ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 g → j",
+          "texts": [
+            "語幹の g が j に変わる（surg- → surj-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 g → j",
+          "texts": [
+            "語幹の g が j に変わる（surg- → surj-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 g → j",
+          "texts": [
+            "語幹の g が j に変わる（surg- → surj-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "evocar",
+      "ja": "想起させる・思い起こす",
+      "forms": {
+        "IND_PRES": [
+          "evoco",
+          "evocas",
+          "evoca",
+          "evocamos",
+          "evocáis",
+          "evocan"
+        ],
+        "IND_PRET": [
+          "evoqué",
+          "evocaste",
+          "evocó",
+          "evocamos",
+          "evocasteis",
+          "evocaron"
+        ],
+        "IND_IMPF": [
+          "evocaba",
+          "evocabas",
+          "evocaba",
+          "evocábamos",
+          "evocabais",
+          "evocaban"
+        ],
+        "IND_FUT": [
+          "evocaré",
+          "evocarás",
+          "evocará",
+          "evocaremos",
+          "evocaréis",
+          "evocarán"
+        ],
+        "IND_PERF": [
+          "he evocado",
+          "has evocado",
+          "ha evocado",
+          "hemos evocado",
+          "habéis evocado",
+          "han evocado"
+        ],
+        "IND_PLUP": [
+          "había evocado",
+          "habías evocado",
+          "había evocado",
+          "habíamos evocado",
+          "habíais evocado",
+          "habían evocado"
+        ],
+        "COND": [
+          "evocaría",
+          "evocarías",
+          "evocaría",
+          "evocaríamos",
+          "evocaríais",
+          "evocarían"
+        ],
+        "SUBJ_PRES": [
+          "evoque",
+          "evoques",
+          "evoque",
+          "evoquemos",
+          "evoquéis",
+          "evoquen"
+        ],
+        "SUBJ_IMPF": [
+          "evocara",
+          "evocaras",
+          "evocara",
+          "evocáramos",
+          "evocarais",
+          "evocaran"
+        ],
+        "SUBJ_PERF": [
+          "haya evocado",
+          "hayas evocado",
+          "haya evocado",
+          "hayamos evocado",
+          "hayáis evocado",
+          "hayan evocado"
+        ],
+        "IMP": [
+          "",
+          "evoca",
+          "evoque",
+          "evoquemos",
+          "evocad",
+          "evoquen"
+        ],
+        "GER": [
+          "evocando"
+        ],
+        "PART": [
+          "evocado"
+        ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（evoc- → evoqu-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（evoc- → evoqu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（evoc- → evoqu-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "contemplar",
+      "ja": "眺める・想定する",
+      "forms": {
+        "IND_PRES": [
+          "contemplo",
+          "contemplas",
+          "contempla",
+          "contemplamos",
+          "contempláis",
+          "contemplan"
+        ],
+        "IND_PRET": [
+          "contemplé",
+          "contemplaste",
+          "contempló",
+          "contemplamos",
+          "contemplasteis",
+          "contemplaron"
+        ],
+        "IND_IMPF": [
+          "contemplaba",
+          "contemplabas",
+          "contemplaba",
+          "contemplábamos",
+          "contemplabais",
+          "contemplaban"
+        ],
+        "IND_FUT": [
+          "contemplaré",
+          "contemplarás",
+          "contemplará",
+          "contemplaremos",
+          "contemplaréis",
+          "contemplarán"
+        ],
+        "IND_PERF": [
+          "he contemplado",
+          "has contemplado",
+          "ha contemplado",
+          "hemos contemplado",
+          "habéis contemplado",
+          "han contemplado"
+        ],
+        "IND_PLUP": [
+          "había contemplado",
+          "habías contemplado",
+          "había contemplado",
+          "habíamos contemplado",
+          "habíais contemplado",
+          "habían contemplado"
+        ],
+        "COND": [
+          "contemplaría",
+          "contemplarías",
+          "contemplaría",
+          "contemplaríamos",
+          "contemplaríais",
+          "contemplarían"
+        ],
+        "SUBJ_PRES": [
+          "contemple",
+          "contemples",
+          "contemple",
+          "contemplemos",
+          "contempléis",
+          "contemplen"
+        ],
+        "SUBJ_IMPF": [
+          "contemplara",
+          "contemplaras",
+          "contemplara",
+          "contempláramos",
+          "contemplarais",
+          "contemplaran"
+        ],
+        "SUBJ_PERF": [
+          "haya contemplado",
+          "hayas contemplado",
+          "haya contemplado",
+          "hayamos contemplado",
+          "hayáis contemplado",
+          "hayan contemplado"
+        ],
+        "IMP": [
+          "",
+          "contempla",
+          "contemple",
+          "contemplemos",
+          "contemplad",
+          "contemplen"
+        ],
+        "GER": [
+          "contemplando"
+        ],
+        "PART": [
+          "contemplado"
+        ]
+      }
+    },
+    {
+      "lemma": "estremecer",
+      "ja": "震わせる・戦慄させる",
+      "forms": {
+        "IND_PRES": [
+          "estremezco",
+          "estremeces",
+          "estremece",
+          "estremecemos",
+          "estremecéis",
+          "estremecen"
+        ],
+        "IND_PRET": [
+          "estremecí",
+          "estremeciste",
+          "estremeció",
+          "estremecimos",
+          "estremecisteis",
+          "estremecieron"
+        ],
+        "IND_IMPF": [
+          "estremecía",
+          "estremecías",
+          "estremecía",
+          "estremecíamos",
+          "estremecíais",
+          "estremecían"
+        ],
+        "IND_FUT": [
+          "estremeceré",
+          "estremecerás",
+          "estremecerá",
+          "estremeceremos",
+          "estremeceréis",
+          "estremecerán"
+        ],
+        "IND_PERF": [
+          "he estremecido",
+          "has estremecido",
+          "ha estremecido",
+          "hemos estremecido",
+          "habéis estremecido",
+          "han estremecido"
+        ],
+        "IND_PLUP": [
+          "había estremecido",
+          "habías estremecido",
+          "había estremecido",
+          "habíamos estremecido",
+          "habíais estremecido",
+          "habían estremecido"
+        ],
+        "COND": [
+          "estremecería",
+          "estremecerías",
+          "estremecería",
+          "estremeceríamos",
+          "estremeceríais",
+          "estremecerían"
+        ],
+        "SUBJ_PRES": [
+          "estremezca",
+          "estremezcas",
+          "estremezca",
+          "estremezcamos",
+          "estremezcáis",
+          "estremezcan"
+        ],
+        "SUBJ_IMPF": [
+          "estremeciera",
+          "estremecieras",
+          "estremeciera",
+          "estremeciéramos",
+          "estremecierais",
+          "estremecieran"
+        ],
+        "SUBJ_PERF": [
+          "haya estremecido",
+          "hayas estremecido",
+          "haya estremecido",
+          "hayamos estremecido",
+          "hayáis estremecido",
+          "hayan estremecido"
+        ],
+        "IMP": [
+          "",
+          "estremece",
+          "estremezca",
+          "estremezcamos",
+          "estremeced",
+          "estremezcan"
+        ],
+        "GER": [
+          "estremeciendo"
+        ],
+        "PART": [
+          "estremecido"
+        ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（estremec- → estremezc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（estremec- → estremezc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（estremec- → estremezc-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "vislumbrar",
+      "ja": "かすかに見える・予感する",
+      "forms": {
+        "IND_PRES": [
+          "vislumbro",
+          "vislumbras",
+          "vislumbra",
+          "vislumbramos",
+          "vislumbráis",
+          "vislumbran"
+        ],
+        "IND_PRET": [
+          "vislumbré",
+          "vislumbraste",
+          "vislumbró",
+          "vislumbramos",
+          "vislumbrasteis",
+          "vislumbraron"
+        ],
+        "IND_IMPF": [
+          "vislumbraba",
+          "vislumbrabas",
+          "vislumbraba",
+          "vislumbrábamos",
+          "vislumbrabais",
+          "vislumbraban"
+        ],
+        "IND_FUT": [
+          "vislumbraré",
+          "vislumbrarás",
+          "vislumbrará",
+          "vislumbraremos",
+          "vislumbraréis",
+          "vislumbrarán"
+        ],
+        "IND_PERF": [
+          "he vislumbrado",
+          "has vislumbrado",
+          "ha vislumbrado",
+          "hemos vislumbrado",
+          "habéis vislumbrado",
+          "han vislumbrado"
+        ],
+        "IND_PLUP": [
+          "había vislumbrado",
+          "habías vislumbrado",
+          "había vislumbrado",
+          "habíamos vislumbrado",
+          "habíais vislumbrado",
+          "habían vislumbrado"
+        ],
+        "COND": [
+          "vislumbraría",
+          "vislumbrarías",
+          "vislumbraría",
+          "vislumbraríamos",
+          "vislumbraríais",
+          "vislumbrarían"
+        ],
+        "SUBJ_PRES": [
+          "vislumbre",
+          "vislumbres",
+          "vislumbre",
+          "vislumbremos",
+          "vislumbréis",
+          "vislumbren"
+        ],
+        "SUBJ_IMPF": [
+          "vislumbrara",
+          "vislumbraras",
+          "vislumbrara",
+          "vislumbráramos",
+          "vislumbrarais",
+          "vislumbraran"
+        ],
+        "SUBJ_PERF": [
+          "haya vislumbrado",
+          "hayas vislumbrado",
+          "haya vislumbrado",
+          "hayamos vislumbrado",
+          "hayáis vislumbrado",
+          "hayan vislumbrado"
+        ],
+        "IMP": [
+          "",
+          "vislumbra",
+          "vislumbre",
+          "vislumbremos",
+          "vislumbrad",
+          "vislumbren"
+        ],
+        "GER": [
+          "vislumbrando"
+        ],
+        "PART": [
+          "vislumbrado"
+        ]
+      }
+    },
+    {
+      "lemma": "añorar",
+      "ja": "懐かしむ・恋しがる",
+      "forms": {
+        "IND_PRES": [
+          "añoro",
+          "añoras",
+          "añora",
+          "añoramos",
+          "añoráis",
+          "añoran"
+        ],
+        "IND_PRET": [
+          "añoré",
+          "añoraste",
+          "añoró",
+          "añoramos",
+          "añorasteis",
+          "añoraron"
+        ],
+        "IND_IMPF": [
+          "añoraba",
+          "añorabas",
+          "añoraba",
+          "añorábamos",
+          "añorabais",
+          "añoraban"
+        ],
+        "IND_FUT": [
+          "añoraré",
+          "añorarás",
+          "añorará",
+          "añoraremos",
+          "añoraréis",
+          "añorarán"
+        ],
+        "IND_PERF": [
+          "he añorado",
+          "has añorado",
+          "ha añorado",
+          "hemos añorado",
+          "habéis añorado",
+          "han añorado"
+        ],
+        "IND_PLUP": [
+          "había añorado",
+          "habías añorado",
+          "había añorado",
+          "habíamos añorado",
+          "habíais añorado",
+          "habían añorado"
+        ],
+        "COND": [
+          "añoraría",
+          "añorarías",
+          "añoraría",
+          "añoraríamos",
+          "añoraríais",
+          "añorarían"
+        ],
+        "SUBJ_PRES": [
+          "añore",
+          "añores",
+          "añore",
+          "añoremos",
+          "añoréis",
+          "añoren"
+        ],
+        "SUBJ_IMPF": [
+          "añorara",
+          "añoraras",
+          "añorara",
+          "añoráramos",
+          "añorarais",
+          "añoraran"
+        ],
+        "SUBJ_PERF": [
+          "haya añorado",
+          "hayas añorado",
+          "haya añorado",
+          "hayamos añorado",
+          "hayáis añorado",
+          "hayan añorado"
+        ],
+        "IMP": [
+          "",
+          "añora",
+          "añore",
+          "añoremos",
+          "añorad",
+          "añoren"
+        ],
+        "GER": [
+          "añorando"
+        ],
+        "PART": [
+          "añorado"
+        ]
+      }
+    },
+    {
+      "lemma": "susurrar",
+      "ja": "ささやく",
+      "forms": {
+        "IND_PRES": [
+          "susurro",
+          "susurras",
+          "susurra",
+          "susurramos",
+          "susurráis",
+          "susurran"
+        ],
+        "IND_PRET": [
+          "susurré",
+          "susurraste",
+          "susurró",
+          "susurramos",
+          "susurrasteis",
+          "susurraron"
+        ],
+        "IND_IMPF": [
+          "susurraba",
+          "susurrabas",
+          "susurraba",
+          "susurrábamos",
+          "susurrabais",
+          "susurraban"
+        ],
+        "IND_FUT": [
+          "susurraré",
+          "susurrarás",
+          "susurrará",
+          "susurraremos",
+          "susurraréis",
+          "susurrarán"
+        ],
+        "IND_PERF": [
+          "he susurrado",
+          "has susurrado",
+          "ha susurrado",
+          "hemos susurrado",
+          "habéis susurrado",
+          "han susurrado"
+        ],
+        "IND_PLUP": [
+          "había susurrado",
+          "habías susurrado",
+          "había susurrado",
+          "habíamos susurrado",
+          "habíais susurrado",
+          "habían susurrado"
+        ],
+        "COND": [
+          "susurraría",
+          "susurrarías",
+          "susurraría",
+          "susurraríamos",
+          "susurraríais",
+          "susurrarían"
+        ],
+        "SUBJ_PRES": [
+          "susurre",
+          "susurres",
+          "susurre",
+          "susurremos",
+          "susurréis",
+          "susurren"
+        ],
+        "SUBJ_IMPF": [
+          "susurrara",
+          "susurraras",
+          "susurrara",
+          "susurráramos",
+          "susurrarais",
+          "susurraran"
+        ],
+        "SUBJ_PERF": [
+          "haya susurrado",
+          "hayas susurrado",
+          "haya susurrado",
+          "hayamos susurrado",
+          "hayáis susurrado",
+          "hayan susurrado"
+        ],
+        "IMP": [
+          "",
+          "susurra",
+          "susurre",
+          "susurremos",
+          "susurrad",
+          "susurren"
+        ],
+        "GER": [
+          "susurrando"
+        ],
+        "PART": [
+          "susurrado"
+        ]
+      }
+    },
+    {
+      "lemma": "apoderarse",
+      "ja": "占拠する・とらえる",
+      "forms": {
+        "IND_PRES": [
+          "me apodero",
+          "te apoderas",
+          "se apodera",
+          "nos apoderamos",
+          "os apoderáis",
+          "se apoderan"
+        ],
+        "IND_PRET": [
+          "me apoderé",
+          "te apoderaste",
+          "se apoderó",
+          "nos apoderamos",
+          "os apoderasteis",
+          "se apoderaron"
+        ],
+        "IND_IMPF": [
+          "me apoderaba",
+          "te apoderabas",
+          "se apoderaba",
+          "nos apoderábamos",
+          "os apoderabais",
+          "se apoderaban"
+        ],
+        "IND_FUT": [
+          "me apoderaré",
+          "te apoderarás",
+          "se apoderará",
+          "nos apoderaremos",
+          "os apoderaréis",
+          "se apoderarán"
+        ],
+        "IND_PERF": [
+          "me he apoderado",
+          "te has apoderado",
+          "se ha apoderado",
+          "nos hemos apoderado",
+          "os habéis apoderado",
+          "se han apoderado"
+        ],
+        "IND_PLUP": [
+          "me había apoderado",
+          "te habías apoderado",
+          "se había apoderado",
+          "nos habíamos apoderado",
+          "os habíais apoderado",
+          "se habían apoderado"
+        ],
+        "COND": [
+          "me apoderaría",
+          "te apoderarías",
+          "se apoderaría",
+          "nos apoderaríamos",
+          "os apoderaríais",
+          "se apoderarían"
+        ],
+        "SUBJ_PRES": [
+          "me apodere",
+          "te apoderes",
+          "se apodere",
+          "nos apoderemos",
+          "os apoderéis",
+          "se apoderen"
+        ],
+        "SUBJ_IMPF": [
+          "me apoderara",
+          "te apoderaras",
+          "se apoderara",
+          "nos apoderáramos",
+          "os apoderarais",
+          "se apoderaran"
+        ],
+        "SUBJ_PERF": [
+          "me haya apoderado",
+          "te hayas apoderado",
+          "se haya apoderado",
+          "nos hayamos apoderado",
+          "os hayáis apoderado",
+          "se hayan apoderado"
+        ],
+        "IMP": [
+          "",
+          "apodera tú",
+          "apodere él",
+          "apoderemos nosotros",
+          "apoderad vosotros",
+          "apoderen ellos"
+        ],
+        "GER": [
+          "apoderando"
+        ],
+        "PART": [
+          "apoderado"
+        ]
+      }
+    },
+    {
+      "lemma": "desvanecer",
+      "ja": "消え去らせる・かすませる",
+      "forms": {
+        "IND_PRES": [
+          "desvanezco",
+          "desvaneces",
+          "desvanece",
+          "desvanecemos",
+          "desvanecéis",
+          "desvanecen"
+        ],
+        "IND_PRET": [
+          "desvanecí",
+          "desvaneciste",
+          "desvaneció",
+          "desvanecimos",
+          "desvanecisteis",
+          "desvanecieron"
+        ],
+        "IND_IMPF": [
+          "desvanecía",
+          "desvanecías",
+          "desvanecía",
+          "desvanecíamos",
+          "desvanecíais",
+          "desvanecían"
+        ],
+        "IND_FUT": [
+          "desvaneceré",
+          "desvanecerás",
+          "desvanecerá",
+          "desvaneceremos",
+          "desvaneceréis",
+          "desvanecerán"
+        ],
+        "IND_PERF": [
+          "he desvanecido",
+          "has desvanecido",
+          "ha desvanecido",
+          "hemos desvanecido",
+          "habéis desvanecido",
+          "han desvanecido"
+        ],
+        "IND_PLUP": [
+          "había desvanecido",
+          "habías desvanecido",
+          "había desvanecido",
+          "habíamos desvanecido",
+          "habíais desvanecido",
+          "habían desvanecido"
+        ],
+        "COND": [
+          "desvanecería",
+          "desvanecerías",
+          "desvanecería",
+          "desvaneceríamos",
+          "desvaneceríais",
+          "desvanecerían"
+        ],
+        "SUBJ_PRES": [
+          "desvanezca",
+          "desvanezcas",
+          "desvanezca",
+          "desvanezcamos",
+          "desvanezcáis",
+          "desvanezcan"
+        ],
+        "SUBJ_IMPF": [
+          "desvaneciera",
+          "desvanecieras",
+          "desvaneciera",
+          "desvaneciéramos",
+          "desvanecierais",
+          "desvanecieran"
+        ],
+        "SUBJ_PERF": [
+          "haya desvanecido",
+          "hayas desvanecido",
+          "haya desvanecido",
+          "hayamos desvanecido",
+          "hayáis desvanecido",
+          "hayan desvanecido"
+        ],
+        "IMP": [
+          "",
+          "desvanece",
+          "desvanezca",
+          "desvanezcamos",
+          "desvaneced",
+          "desvanezcan"
+        ],
+        "GER": [
+          "desvaneciendo"
+        ],
+        "PART": [
+          "desvanecido"
+        ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（desvanec- → desvanezc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（desvanec- → desvanezc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（desvanec- → desvanezc-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "arrancar",
+      "ja": "もぎ取る・始動する",
+      "forms": {
+        "IND_PRES": [
+          "arranco",
+          "arrancas",
+          "arranca",
+          "arrancamos",
+          "arrancáis",
+          "arrancan"
+        ],
+        "IND_PRET": [
+          "arranqué",
+          "arrancaste",
+          "arrancó",
+          "arrancamos",
+          "arrancasteis",
+          "arrancaron"
+        ],
+        "IND_IMPF": [
+          "arrancaba",
+          "arrancabas",
+          "arrancaba",
+          "arrancábamos",
+          "arrancabais",
+          "arrancaban"
+        ],
+        "IND_FUT": [
+          "arrancaré",
+          "arrancarás",
+          "arrancará",
+          "arrancaremos",
+          "arrancaréis",
+          "arrancarán"
+        ],
+        "IND_PERF": [
+          "he arrancado",
+          "has arrancado",
+          "ha arrancado",
+          "hemos arrancado",
+          "habéis arrancado",
+          "han arrancado"
+        ],
+        "IND_PLUP": [
+          "había arrancado",
+          "habías arrancado",
+          "había arrancado",
+          "habíamos arrancado",
+          "habíais arrancado",
+          "habían arrancado"
+        ],
+        "COND": [
+          "arrancaría",
+          "arrancarías",
+          "arrancaría",
+          "arrancaríamos",
+          "arrancaríais",
+          "arrancarían"
+        ],
+        "SUBJ_PRES": [
+          "arranque",
+          "arranques",
+          "arranque",
+          "arranquemos",
+          "arranquéis",
+          "arranquen"
+        ],
+        "SUBJ_IMPF": [
+          "arrancara",
+          "arrancaras",
+          "arrancara",
+          "arrancáramos",
+          "arrancarais",
+          "arrancaran"
+        ],
+        "SUBJ_PERF": [
+          "haya arrancado",
+          "hayas arrancado",
+          "haya arrancado",
+          "hayamos arrancado",
+          "hayáis arrancado",
+          "hayan arrancado"
+        ],
+        "IMP": [
+          "",
+          "arranca",
+          "arranque",
+          "arranquemos",
+          "arrancad",
+          "arranquen"
+        ],
+        "GER": [
+          "arrancando"
+        ],
+        "PART": [
+          "arrancado"
+        ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（arranc- → arranqu-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（arranc- → arranqu-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → qu",
+          "texts": [
+            "語幹の c が qu に変わる（arranc- → arranqu-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "postular",
+      "ja": "仮定する・立候補する",
+      "forms": {
+        "IND_PRES": [
+          "postulo",
+          "postulas",
+          "postula",
+          "postulamos",
+          "postuláis",
+          "postulan"
+        ],
+        "IND_PRET": [
+          "postulé",
+          "postulaste",
+          "postuló",
+          "postulamos",
+          "postulasteis",
+          "postularon"
+        ],
+        "IND_IMPF": [
+          "postulaba",
+          "postulabas",
+          "postulaba",
+          "postulábamos",
+          "postulabais",
+          "postulaban"
+        ],
+        "IND_FUT": [
+          "postularé",
+          "postularás",
+          "postulará",
+          "postularemos",
+          "postularéis",
+          "postularán"
+        ],
+        "IND_PERF": [
+          "he postulado",
+          "has postulado",
+          "ha postulado",
+          "hemos postulado",
+          "habéis postulado",
+          "han postulado"
+        ],
+        "IND_PLUP": [
+          "había postulado",
+          "habías postulado",
+          "había postulado",
+          "habíamos postulado",
+          "habíais postulado",
+          "habían postulado"
+        ],
+        "COND": [
+          "postularía",
+          "postularías",
+          "postularía",
+          "postularíamos",
+          "postularíais",
+          "postularían"
+        ],
+        "SUBJ_PRES": [
+          "postule",
+          "postules",
+          "postule",
+          "postulemos",
+          "postuléis",
+          "postulen"
+        ],
+        "SUBJ_IMPF": [
+          "postulara",
+          "postularas",
+          "postulara",
+          "postuláramos",
+          "postularais",
+          "postularan"
+        ],
+        "SUBJ_PERF": [
+          "haya postulado",
+          "hayas postulado",
+          "haya postulado",
+          "hayamos postulado",
+          "hayáis postulado",
+          "hayan postulado"
+        ],
+        "IMP": [
+          "",
+          "postula",
+          "postule",
+          "postulemos",
+          "postulad",
+          "postulen"
+        ],
+        "GER": [
+          "postulando"
+        ],
+        "PART": [
+          "postulado"
+        ]
+      }
+    },
+    {
+      "lemma": "refutar",
+      "ja": "反駁する",
+      "forms": {
+        "IND_PRES": [
+          "refuto",
+          "refutas",
+          "refuta",
+          "refutamos",
+          "refutáis",
+          "refutan"
+        ],
+        "IND_PRET": [
+          "refuté",
+          "refutaste",
+          "refutó",
+          "refutamos",
+          "refutasteis",
+          "refutaron"
+        ],
+        "IND_IMPF": [
+          "refutaba",
+          "refutabas",
+          "refutaba",
+          "refutábamos",
+          "refutabais",
+          "refutaban"
+        ],
+        "IND_FUT": [
+          "refutaré",
+          "refutarás",
+          "refutará",
+          "refutaremos",
+          "refutaréis",
+          "refutarán"
+        ],
+        "IND_PERF": [
+          "he refutado",
+          "has refutado",
+          "ha refutado",
+          "hemos refutado",
+          "habéis refutado",
+          "han refutado"
+        ],
+        "IND_PLUP": [
+          "había refutado",
+          "habías refutado",
+          "había refutado",
+          "habíamos refutado",
+          "habíais refutado",
+          "habían refutado"
+        ],
+        "COND": [
+          "refutaría",
+          "refutarías",
+          "refutaría",
+          "refutaríamos",
+          "refutaríais",
+          "refutarían"
+        ],
+        "SUBJ_PRES": [
+          "refute",
+          "refutes",
+          "refute",
+          "refutemos",
+          "refutéis",
+          "refuten"
+        ],
+        "SUBJ_IMPF": [
+          "refutara",
+          "refutaras",
+          "refutara",
+          "refutáramos",
+          "refutarais",
+          "refutaran"
+        ],
+        "SUBJ_PERF": [
+          "haya refutado",
+          "hayas refutado",
+          "haya refutado",
+          "hayamos refutado",
+          "hayáis refutado",
+          "hayan refutado"
+        ],
+        "IMP": [
+          "",
+          "refuta",
+          "refute",
+          "refutemos",
+          "refutad",
+          "refuten"
+        ],
+        "GER": [
+          "refutando"
+        ],
+        "PART": [
+          "refutado"
+        ]
+      }
+    },
+    {
+      "lemma": "corroborar",
+      "ja": "裏付ける",
+      "forms": {
+        "IND_PRES": [
+          "corroboro",
+          "corroboras",
+          "corrobora",
+          "corroboramos",
+          "corroboráis",
+          "corroboran"
+        ],
+        "IND_PRET": [
+          "corroboré",
+          "corroboraste",
+          "corroboró",
+          "corroboramos",
+          "corroborasteis",
+          "corroboraron"
+        ],
+        "IND_IMPF": [
+          "corroboraba",
+          "corroborabas",
+          "corroboraba",
+          "corroborábamos",
+          "corroborabais",
+          "corroboraban"
+        ],
+        "IND_FUT": [
+          "corroboraré",
+          "corroborarás",
+          "corroborará",
+          "corroboraremos",
+          "corroboraréis",
+          "corroborarán"
+        ],
+        "IND_PERF": [
+          "he corroborado",
+          "has corroborado",
+          "ha corroborado",
+          "hemos corroborado",
+          "habéis corroborado",
+          "han corroborado"
+        ],
+        "IND_PLUP": [
+          "había corroborado",
+          "habías corroborado",
+          "había corroborado",
+          "habíamos corroborado",
+          "habíais corroborado",
+          "habían corroborado"
+        ],
+        "COND": [
+          "corroboraría",
+          "corroborarías",
+          "corroboraría",
+          "corroboraríamos",
+          "corroboraríais",
+          "corroborarían"
+        ],
+        "SUBJ_PRES": [
+          "corrobore",
+          "corrobores",
+          "corrobore",
+          "corroboremos",
+          "corroboréis",
+          "corroboren"
+        ],
+        "SUBJ_IMPF": [
+          "corroborara",
+          "corroboraras",
+          "corroborara",
+          "corroboráramos",
+          "corroborarais",
+          "corroboraran"
+        ],
+        "SUBJ_PERF": [
+          "haya corroborado",
+          "hayas corroborado",
+          "haya corroborado",
+          "hayamos corroborado",
+          "hayáis corroborado",
+          "hayan corroborado"
+        ],
+        "IMP": [
+          "",
+          "corrobora",
+          "corrobore",
+          "corroboremos",
+          "corroborad",
+          "corroboren"
+        ],
+        "GER": [
+          "corroborando"
+        ],
+        "PART": [
+          "corroborado"
+        ]
+      }
+    },
+    {
+      "lemma": "inferir",
+      "ja": "推論する",
+      "forms": {
+        "IND_PRES": [
+          "infiero",
+          "infieres",
+          "infiere",
+          "inferimos",
+          "inferís",
+          "infieren"
+        ],
+        "IND_PRET": [
+          "inferí",
+          "inferiste",
+          "infirió",
+          "inferimos",
+          "inferisteis",
+          "infirieron"
+        ],
+        "IND_IMPF": [
+          "infería",
+          "inferías",
+          "infería",
+          "inferíamos",
+          "inferíais",
+          "inferían"
+        ],
+        "IND_FUT": [
+          "inferiré",
+          "inferirás",
+          "inferirá",
+          "inferiremos",
+          "inferiréis",
+          "inferirán"
+        ],
+        "IND_PERF": [
+          "he inferido",
+          "has inferido",
+          "ha inferido",
+          "hemos inferido",
+          "habéis inferido",
+          "han inferido"
+        ],
+        "IND_PLUP": [
+          "había inferido",
+          "habías inferido",
+          "había inferido",
+          "habíamos inferido",
+          "habíais inferido",
+          "habían inferido"
+        ],
+        "COND": [
+          "inferiría",
+          "inferirías",
+          "inferiría",
+          "inferiríamos",
+          "inferiríais",
+          "inferirían"
+        ],
+        "SUBJ_PRES": [
+          "infiera",
+          "infieras",
+          "infiera",
+          "infiramos",
+          "infiráis",
+          "infieran"
+        ],
+        "SUBJ_IMPF": [
+          "infiriera",
+          "infirieras",
+          "infiriera",
+          "infiriéramos",
+          "infirierais",
+          "infirieran"
+        ],
+        "SUBJ_PERF": [
+          "haya inferido",
+          "hayas inferido",
+          "haya inferido",
+          "hayamos inferido",
+          "hayáis inferido",
+          "hayan inferido"
+        ],
+        "IMP": [
+          "",
+          "infiere",
+          "infiera",
+          "infiramos",
+          "inferid",
+          "infieran"
+        ],
+        "GER": [
+          "infiriendo"
+        ],
+        "PART": [
+          "inferido"
+        ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 e → ie",
+          "texts": [
+            "語幹の e が ie に変わる（infer- → infier-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IND_PRET": {
+          "codes": "RRSRRS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（infer- → infir-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → ie / e → i",
+          "texts": [
+            "語幹の e が ie に変わる（infer- → infier-）",
+            "語幹の e が i に変わる（infer- → infir-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        "SUBJ_IMPF": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（infer- → infir-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-SSSRS",
+          "summary": "語幹交替 e → ie / e → i",
+          "texts": [
+            "語幹の e が ie に変わる（infer- → infier-）",
+            "語幹の e が i に変わる（infer- → infir-）"
+          ],
+          "idx": [
+            null,
+            0,
+            0,
+            1,
+            null,
+            0
+          ]
+        },
+        "GER": {
+          "codes": "S",
+          "summary": "語幹交替 e → i",
+          "texts": [
+            "語幹の e が i に変わる（infer- → infir-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "delimitar",
+      "ja": "範囲を定める",
+      "forms": {
+        "IND_PRES": [
+          "delimito",
+          "delimitas",
+          "delimita",
+          "delimitamos",
+          "delimitáis",
+          "delimitan"
+        ],
+        "IND_PRET": [
+          "delimité",
+          "delimitaste",
+          "delimitó",
+          "delimitamos",
+          "delimitasteis",
+          "delimitaron"
+        ],
+        "IND_IMPF": [
+          "delimitaba",
+          "delimitabas",
+          "delimitaba",
+          "delimitábamos",
+          "delimitabais",
+          "delimitaban"
+        ],
+        "IND_FUT": [
+          "delimitaré",
+          "delimitarás",
+          "delimitará",
+          "delimitaremos",
+          "delimitaréis",
+          "delimitarán"
+        ],
+        "IND_PERF": [
+          "he delimitado",
+          "has delimitado",
+          "ha delimitado",
+          "hemos delimitado",
+          "habéis delimitado",
+          "han delimitado"
+        ],
+        "IND_PLUP": [
+          "había delimitado",
+          "habías delimitado",
+          "había delimitado",
+          "habíamos delimitado",
+          "habíais delimitado",
+          "habían delimitado"
+        ],
+        "COND": [
+          "delimitaría",
+          "delimitarías",
+          "delimitaría",
+          "delimitaríamos",
+          "delimitaríais",
+          "delimitarían"
+        ],
+        "SUBJ_PRES": [
+          "delimite",
+          "delimites",
+          "delimite",
+          "delimitemos",
+          "delimitéis",
+          "delimiten"
+        ],
+        "SUBJ_IMPF": [
+          "delimitara",
+          "delimitaras",
+          "delimitara",
+          "delimitáramos",
+          "delimitarais",
+          "delimitaran"
+        ],
+        "SUBJ_PERF": [
+          "haya delimitado",
+          "hayas delimitado",
+          "haya delimitado",
+          "hayamos delimitado",
+          "hayáis delimitado",
+          "hayan delimitado"
+        ],
+        "IMP": [
+          "",
+          "delimita",
+          "delimite",
+          "delimitemos",
+          "delimitad",
+          "delimiten"
+        ],
+        "GER": [
+          "delimitando"
+        ],
+        "PART": [
+          "delimitado"
+        ]
+      }
+    },
+    {
+      "lemma": "matizar",
+      "ja": "ニュアンスを加える・補足修正する",
+      "forms": {
+        "IND_PRES": [
+          "matizo",
+          "matizas",
+          "matiza",
+          "matizamos",
+          "matizáis",
+          "matizan"
+        ],
+        "IND_PRET": [
+          "maticé",
+          "matizaste",
+          "matizó",
+          "matizamos",
+          "matizasteis",
+          "matizaron"
+        ],
+        "IND_IMPF": [
+          "matizaba",
+          "matizabas",
+          "matizaba",
+          "matizábamos",
+          "matizabais",
+          "matizaban"
+        ],
+        "IND_FUT": [
+          "matizaré",
+          "matizarás",
+          "matizará",
+          "matizaremos",
+          "matizaréis",
+          "matizarán"
+        ],
+        "IND_PERF": [
+          "he matizado",
+          "has matizado",
+          "ha matizado",
+          "hemos matizado",
+          "habéis matizado",
+          "han matizado"
+        ],
+        "IND_PLUP": [
+          "había matizado",
+          "habías matizado",
+          "había matizado",
+          "habíamos matizado",
+          "habíais matizado",
+          "habían matizado"
+        ],
+        "COND": [
+          "matizaría",
+          "matizarías",
+          "matizaría",
+          "matizaríamos",
+          "matizaríais",
+          "matizarían"
+        ],
+        "SUBJ_PRES": [
+          "matice",
+          "matices",
+          "matice",
+          "maticemos",
+          "maticéis",
+          "maticen"
+        ],
+        "SUBJ_IMPF": [
+          "matizara",
+          "matizaras",
+          "matizara",
+          "matizáramos",
+          "matizarais",
+          "matizaran"
+        ],
+        "SUBJ_PERF": [
+          "haya matizado",
+          "hayas matizado",
+          "haya matizado",
+          "hayamos matizado",
+          "hayáis matizado",
+          "hayan matizado"
+        ],
+        "IMP": [
+          "",
+          "matiza",
+          "matice",
+          "maticemos",
+          "matizad",
+          "maticen"
+        ],
+        "GER": [
+          "matizando"
+        ],
+        "PART": [
+          "matizado"
+        ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（matiz- → matic-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（matiz- → matic-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（matiz- → matic-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "esbozar",
+      "ja": "素描する・概略を示す",
+      "forms": {
+        "IND_PRES": [
+          "esbozo",
+          "esbozas",
+          "esboza",
+          "esbozamos",
+          "esbozáis",
+          "esbozan"
+        ],
+        "IND_PRET": [
+          "esbocé",
+          "esbozaste",
+          "esbozó",
+          "esbozamos",
+          "esbozasteis",
+          "esbozaron"
+        ],
+        "IND_IMPF": [
+          "esbozaba",
+          "esbozabas",
+          "esbozaba",
+          "esbozábamos",
+          "esbozabais",
+          "esbozaban"
+        ],
+        "IND_FUT": [
+          "esbozaré",
+          "esbozarás",
+          "esbozará",
+          "esbozaremos",
+          "esbozaréis",
+          "esbozarán"
+        ],
+        "IND_PERF": [
+          "he esbozado",
+          "has esbozado",
+          "ha esbozado",
+          "hemos esbozado",
+          "habéis esbozado",
+          "han esbozado"
+        ],
+        "IND_PLUP": [
+          "había esbozado",
+          "habías esbozado",
+          "había esbozado",
+          "habíamos esbozado",
+          "habíais esbozado",
+          "habían esbozado"
+        ],
+        "COND": [
+          "esbozaría",
+          "esbozarías",
+          "esbozaría",
+          "esbozaríamos",
+          "esbozaríais",
+          "esbozarían"
+        ],
+        "SUBJ_PRES": [
+          "esboce",
+          "esboces",
+          "esboce",
+          "esbocemos",
+          "esbocéis",
+          "esbocen"
+        ],
+        "SUBJ_IMPF": [
+          "esbozara",
+          "esbozaras",
+          "esbozara",
+          "esbozáramos",
+          "esbozarais",
+          "esbozaran"
+        ],
+        "SUBJ_PERF": [
+          "haya esbozado",
+          "hayas esbozado",
+          "haya esbozado",
+          "hayamos esbozado",
+          "hayáis esbozado",
+          "hayan esbozado"
+        ],
+        "IMP": [
+          "",
+          "esboza",
+          "esboce",
+          "esbocemos",
+          "esbozad",
+          "esbocen"
+        ],
+        "GER": [
+          "esbozando"
+        ],
+        "PART": [
+          "esbozado"
+        ]
+      },
+      "irr": {
+        "IND_PRET": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（esboz- → esboc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（esboz- → esboc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 z → c",
+          "texts": [
+            "語幹の z が c に変わる（esboz- → esboc-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "subrayar",
+      "ja": "強調する・下線を引く",
+      "forms": {
+        "IND_PRES": [
+          "subrayo",
+          "subrayas",
+          "subraya",
+          "subrayamos",
+          "subrayáis",
+          "subrayan"
+        ],
+        "IND_PRET": [
+          "subrayé",
+          "subrayaste",
+          "subrayó",
+          "subrayamos",
+          "subrayasteis",
+          "subrayaron"
+        ],
+        "IND_IMPF": [
+          "subrayaba",
+          "subrayabas",
+          "subrayaba",
+          "subrayábamos",
+          "subrayabais",
+          "subrayaban"
+        ],
+        "IND_FUT": [
+          "subrayaré",
+          "subrayarás",
+          "subrayará",
+          "subrayaremos",
+          "subrayaréis",
+          "subrayarán"
+        ],
+        "IND_PERF": [
+          "he subrayado",
+          "has subrayado",
+          "ha subrayado",
+          "hemos subrayado",
+          "habéis subrayado",
+          "han subrayado"
+        ],
+        "IND_PLUP": [
+          "había subrayado",
+          "habías subrayado",
+          "había subrayado",
+          "habíamos subrayado",
+          "habíais subrayado",
+          "habían subrayado"
+        ],
+        "COND": [
+          "subrayaría",
+          "subrayarías",
+          "subrayaría",
+          "subrayaríamos",
+          "subrayaríais",
+          "subrayarían"
+        ],
+        "SUBJ_PRES": [
+          "subraye",
+          "subrayes",
+          "subraye",
+          "subrayemos",
+          "subrayéis",
+          "subrayen"
+        ],
+        "SUBJ_IMPF": [
+          "subrayara",
+          "subrayaras",
+          "subrayara",
+          "subrayáramos",
+          "subrayarais",
+          "subrayaran"
+        ],
+        "SUBJ_PERF": [
+          "haya subrayado",
+          "hayas subrayado",
+          "haya subrayado",
+          "hayamos subrayado",
+          "hayáis subrayado",
+          "hayan subrayado"
+        ],
+        "IMP": [
+          "",
+          "subraya",
+          "subraye",
+          "subrayemos",
+          "subrayad",
+          "subrayen"
+        ],
+        "GER": [
+          "subrayando"
+        ],
+        "PART": [
+          "subrayado"
+        ]
+      }
+    },
+    {
+      "lemma": "evidenciar",
+      "ja": "明らかにする",
+      "forms": {
+        "IND_PRES": [
+          "evidencio",
+          "evidencias",
+          "evidencia",
+          "evidenciamos",
+          "evidenciáis",
+          "evidencian"
+        ],
+        "IND_PRET": [
+          "evidencié",
+          "evidenciaste",
+          "evidenció",
+          "evidenciamos",
+          "evidenciasteis",
+          "evidenciaron"
+        ],
+        "IND_IMPF": [
+          "evidenciaba",
+          "evidenciabas",
+          "evidenciaba",
+          "evidenciábamos",
+          "evidenciabais",
+          "evidenciaban"
+        ],
+        "IND_FUT": [
+          "evidenciaré",
+          "evidenciarás",
+          "evidenciará",
+          "evidenciaremos",
+          "evidenciaréis",
+          "evidenciarán"
+        ],
+        "IND_PERF": [
+          "he evidenciado",
+          "has evidenciado",
+          "ha evidenciado",
+          "hemos evidenciado",
+          "habéis evidenciado",
+          "han evidenciado"
+        ],
+        "IND_PLUP": [
+          "había evidenciado",
+          "habías evidenciado",
+          "había evidenciado",
+          "habíamos evidenciado",
+          "habíais evidenciado",
+          "habían evidenciado"
+        ],
+        "COND": [
+          "evidenciaría",
+          "evidenciarías",
+          "evidenciaría",
+          "evidenciaríamos",
+          "evidenciaríais",
+          "evidenciarían"
+        ],
+        "SUBJ_PRES": [
+          "evidencie",
+          "evidencies",
+          "evidencie",
+          "evidenciemos",
+          "evidenciéis",
+          "evidencien"
+        ],
+        "SUBJ_IMPF": [
+          "evidenciara",
+          "evidenciaras",
+          "evidenciara",
+          "evidenciáramos",
+          "evidenciarais",
+          "evidenciaran"
+        ],
+        "SUBJ_PERF": [
+          "haya evidenciado",
+          "hayas evidenciado",
+          "haya evidenciado",
+          "hayamos evidenciado",
+          "hayáis evidenciado",
+          "hayan evidenciado"
+        ],
+        "IMP": [
+          "",
+          "evidencia",
+          "evidencie",
+          "evidenciemos",
+          "evidenciad",
+          "evidencien"
+        ],
+        "GER": [
+          "evidenciando"
+        ],
+        "PART": [
+          "evidenciado"
+        ]
+      }
+    },
+    {
+      "lemma": "comparecer",
+      "ja": "出頭する・出廷する",
+      "forms": {
+        "IND_PRES": [
+          "comparezco",
+          "compareces",
+          "comparece",
+          "comparecemos",
+          "comparecéis",
+          "comparecen"
+        ],
+        "IND_PRET": [
+          "comparecí",
+          "compareciste",
+          "compareció",
+          "comparecimos",
+          "comparecisteis",
+          "comparecieron"
+        ],
+        "IND_IMPF": [
+          "comparecía",
+          "comparecías",
+          "comparecía",
+          "comparecíamos",
+          "comparecíais",
+          "comparecían"
+        ],
+        "IND_FUT": [
+          "compareceré",
+          "comparecerás",
+          "comparecerá",
+          "compareceremos",
+          "compareceréis",
+          "comparecerán"
+        ],
+        "IND_PERF": [
+          "he comparecido",
+          "has comparecido",
+          "ha comparecido",
+          "hemos comparecido",
+          "habéis comparecido",
+          "han comparecido"
+        ],
+        "IND_PLUP": [
+          "había comparecido",
+          "habías comparecido",
+          "había comparecido",
+          "habíamos comparecido",
+          "habíais comparecido",
+          "habían comparecido"
+        ],
+        "COND": [
+          "comparecería",
+          "comparecerías",
+          "comparecería",
+          "compareceríamos",
+          "compareceríais",
+          "comparecerían"
+        ],
+        "SUBJ_PRES": [
+          "comparezca",
+          "comparezcas",
+          "comparezca",
+          "comparezcamos",
+          "comparezcáis",
+          "comparezcan"
+        ],
+        "SUBJ_IMPF": [
+          "compareciera",
+          "comparecieras",
+          "compareciera",
+          "compareciéramos",
+          "comparecierais",
+          "comparecieran"
+        ],
+        "SUBJ_PERF": [
+          "haya comparecido",
+          "hayas comparecido",
+          "haya comparecido",
+          "hayamos comparecido",
+          "hayáis comparecido",
+          "hayan comparecido"
+        ],
+        "IMP": [
+          "",
+          "comparece",
+          "comparezca",
+          "comparezcamos",
+          "compareced",
+          "comparezcan"
+        ],
+        "GER": [
+          "compareciendo"
+        ],
+        "PART": [
+          "comparecido"
+        ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（comparec- → comparezc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（comparec- → comparezc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（comparec- → comparezc-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "dimitir",
+      "ja": "辞任する",
+      "forms": {
+        "IND_PRES": [
+          "dimito",
+          "dimites",
+          "dimite",
+          "dimitimos",
+          "dimitís",
+          "dimiten"
+        ],
+        "IND_PRET": [
+          "dimití",
+          "dimitiste",
+          "dimitió",
+          "dimitimos",
+          "dimitisteis",
+          "dimitieron"
+        ],
+        "IND_IMPF": [
+          "dimitía",
+          "dimitías",
+          "dimitía",
+          "dimitíamos",
+          "dimitíais",
+          "dimitían"
+        ],
+        "IND_FUT": [
+          "dimitiré",
+          "dimitirás",
+          "dimitirá",
+          "dimitiremos",
+          "dimitiréis",
+          "dimitirán"
+        ],
+        "IND_PERF": [
+          "he dimitido",
+          "has dimitido",
+          "ha dimitido",
+          "hemos dimitido",
+          "habéis dimitido",
+          "han dimitido"
+        ],
+        "IND_PLUP": [
+          "había dimitido",
+          "habías dimitido",
+          "había dimitido",
+          "habíamos dimitido",
+          "habíais dimitido",
+          "habían dimitido"
+        ],
+        "COND": [
+          "dimitiría",
+          "dimitirías",
+          "dimitiría",
+          "dimitiríamos",
+          "dimitiríais",
+          "dimitirían"
+        ],
+        "SUBJ_PRES": [
+          "dimita",
+          "dimitas",
+          "dimita",
+          "dimitamos",
+          "dimitáis",
+          "dimitan"
+        ],
+        "SUBJ_IMPF": [
+          "dimitiera",
+          "dimitieras",
+          "dimitiera",
+          "dimitiéramos",
+          "dimitierais",
+          "dimitieran"
+        ],
+        "SUBJ_PERF": [
+          "haya dimitido",
+          "hayas dimitido",
+          "haya dimitido",
+          "hayamos dimitido",
+          "hayáis dimitido",
+          "hayan dimitido"
+        ],
+        "IMP": [
+          "",
+          "dimite",
+          "dimita",
+          "dimitamos",
+          "dimitid",
+          "dimitan"
+        ],
+        "GER": [
+          "dimitiendo"
+        ],
+        "PART": [
+          "dimitido"
+        ]
+      }
+    },
+    {
+      "lemma": "imputar",
+      "ja": "訴追する・帰責する",
+      "forms": {
+        "IND_PRES": [
+          "imputo",
+          "imputas",
+          "imputa",
+          "imputamos",
+          "imputáis",
+          "imputan"
+        ],
+        "IND_PRET": [
+          "imputé",
+          "imputaste",
+          "imputó",
+          "imputamos",
+          "imputasteis",
+          "imputaron"
+        ],
+        "IND_IMPF": [
+          "imputaba",
+          "imputabas",
+          "imputaba",
+          "imputábamos",
+          "imputabais",
+          "imputaban"
+        ],
+        "IND_FUT": [
+          "imputaré",
+          "imputarás",
+          "imputará",
+          "imputaremos",
+          "imputaréis",
+          "imputarán"
+        ],
+        "IND_PERF": [
+          "he imputado",
+          "has imputado",
+          "ha imputado",
+          "hemos imputado",
+          "habéis imputado",
+          "han imputado"
+        ],
+        "IND_PLUP": [
+          "había imputado",
+          "habías imputado",
+          "había imputado",
+          "habíamos imputado",
+          "habíais imputado",
+          "habían imputado"
+        ],
+        "COND": [
+          "imputaría",
+          "imputarías",
+          "imputaría",
+          "imputaríamos",
+          "imputaríais",
+          "imputarían"
+        ],
+        "SUBJ_PRES": [
+          "impute",
+          "imputes",
+          "impute",
+          "imputemos",
+          "imputéis",
+          "imputen"
+        ],
+        "SUBJ_IMPF": [
+          "imputara",
+          "imputaras",
+          "imputara",
+          "imputáramos",
+          "imputarais",
+          "imputaran"
+        ],
+        "SUBJ_PERF": [
+          "haya imputado",
+          "hayas imputado",
+          "haya imputado",
+          "hayamos imputado",
+          "hayáis imputado",
+          "hayan imputado"
+        ],
+        "IMP": [
+          "",
+          "imputa",
+          "impute",
+          "imputemos",
+          "imputad",
+          "imputen"
+        ],
+        "GER": [
+          "imputando"
+        ],
+        "PART": [
+          "imputado"
+        ]
+      }
+    },
+    {
+      "lemma": "recabar",
+      "ja": "収集する・要請する",
+      "forms": {
+        "IND_PRES": [
+          "recabo",
+          "recabas",
+          "recaba",
+          "recabamos",
+          "recabáis",
+          "recaban"
+        ],
+        "IND_PRET": [
+          "recabé",
+          "recabaste",
+          "recabó",
+          "recabamos",
+          "recabasteis",
+          "recabaron"
+        ],
+        "IND_IMPF": [
+          "recababa",
+          "recababas",
+          "recababa",
+          "recabábamos",
+          "recababais",
+          "recababan"
+        ],
+        "IND_FUT": [
+          "recabaré",
+          "recabarás",
+          "recabará",
+          "recabaremos",
+          "recabaréis",
+          "recabarán"
+        ],
+        "IND_PERF": [
+          "he recabado",
+          "has recabado",
+          "ha recabado",
+          "hemos recabado",
+          "habéis recabado",
+          "han recabado"
+        ],
+        "IND_PLUP": [
+          "había recabado",
+          "habías recabado",
+          "había recabado",
+          "habíamos recabado",
+          "habíais recabado",
+          "habían recabado"
+        ],
+        "COND": [
+          "recabaría",
+          "recabarías",
+          "recabaría",
+          "recabaríamos",
+          "recabaríais",
+          "recabarían"
+        ],
+        "SUBJ_PRES": [
+          "recabe",
+          "recabes",
+          "recabe",
+          "recabemos",
+          "recabéis",
+          "recaben"
+        ],
+        "SUBJ_IMPF": [
+          "recabara",
+          "recabaras",
+          "recabara",
+          "recabáramos",
+          "recabarais",
+          "recabaran"
+        ],
+        "SUBJ_PERF": [
+          "haya recabado",
+          "hayas recabado",
+          "haya recabado",
+          "hayamos recabado",
+          "hayáis recabado",
+          "hayan recabado"
+        ],
+        "IMP": [
+          "",
+          "recaba",
+          "recabe",
+          "recabemos",
+          "recabad",
+          "recaben"
+        ],
+        "GER": [
+          "recabando"
+        ],
+        "PART": [
+          "recabado"
+        ]
+      }
+    },
+    {
+      "lemma": "esgrimir",
+      "ja": "振りかざす・論拠にする",
+      "forms": {
+        "IND_PRES": [
+          "esgrimo",
+          "esgrimes",
+          "esgrime",
+          "esgrimimos",
+          "esgrimís",
+          "esgrimen"
+        ],
+        "IND_PRET": [
+          "esgrimí",
+          "esgrimiste",
+          "esgrimió",
+          "esgrimimos",
+          "esgrimisteis",
+          "esgrimieron"
+        ],
+        "IND_IMPF": [
+          "esgrimía",
+          "esgrimías",
+          "esgrimía",
+          "esgrimíamos",
+          "esgrimíais",
+          "esgrimían"
+        ],
+        "IND_FUT": [
+          "esgrimiré",
+          "esgrimirás",
+          "esgrimirá",
+          "esgrimiremos",
+          "esgrimiréis",
+          "esgrimirán"
+        ],
+        "IND_PERF": [
+          "he esgrimido",
+          "has esgrimido",
+          "ha esgrimido",
+          "hemos esgrimido",
+          "habéis esgrimido",
+          "han esgrimido"
+        ],
+        "IND_PLUP": [
+          "había esgrimido",
+          "habías esgrimido",
+          "había esgrimido",
+          "habíamos esgrimido",
+          "habíais esgrimido",
+          "habían esgrimido"
+        ],
+        "COND": [
+          "esgrimiría",
+          "esgrimirías",
+          "esgrimiría",
+          "esgrimiríamos",
+          "esgrimiríais",
+          "esgrimirían"
+        ],
+        "SUBJ_PRES": [
+          "esgrima",
+          "esgrimas",
+          "esgrima",
+          "esgrimamos",
+          "esgrimáis",
+          "esgriman"
+        ],
+        "SUBJ_IMPF": [
+          "esgrimiera",
+          "esgrimieras",
+          "esgrimiera",
+          "esgrimiéramos",
+          "esgrimierais",
+          "esgrimieran"
+        ],
+        "SUBJ_PERF": [
+          "haya esgrimido",
+          "hayas esgrimido",
+          "haya esgrimido",
+          "hayamos esgrimido",
+          "hayáis esgrimido",
+          "hayan esgrimido"
+        ],
+        "IMP": [
+          "",
+          "esgrime",
+          "esgrima",
+          "esgrimamos",
+          "esgrimid",
+          "esgriman"
+        ],
+        "GER": [
+          "esgrimiendo"
+        ],
+        "PART": [
+          "esgrimido"
+        ]
+      }
+    },
+    {
+      "lemma": "acatar",
+      "ja": "従う・遵守する",
+      "forms": {
+        "IND_PRES": [
+          "acato",
+          "acatas",
+          "acata",
+          "acatamos",
+          "acatáis",
+          "acatan"
+        ],
+        "IND_PRET": [
+          "acaté",
+          "acataste",
+          "acató",
+          "acatamos",
+          "acatasteis",
+          "acataron"
+        ],
+        "IND_IMPF": [
+          "acataba",
+          "acatabas",
+          "acataba",
+          "acatábamos",
+          "acatabais",
+          "acataban"
+        ],
+        "IND_FUT": [
+          "acataré",
+          "acatarás",
+          "acatará",
+          "acataremos",
+          "acataréis",
+          "acatarán"
+        ],
+        "IND_PERF": [
+          "he acatado",
+          "has acatado",
+          "ha acatado",
+          "hemos acatado",
+          "habéis acatado",
+          "han acatado"
+        ],
+        "IND_PLUP": [
+          "había acatado",
+          "habías acatado",
+          "había acatado",
+          "habíamos acatado",
+          "habíais acatado",
+          "habían acatado"
+        ],
+        "COND": [
+          "acataría",
+          "acatarías",
+          "acataría",
+          "acataríamos",
+          "acataríais",
+          "acatarían"
+        ],
+        "SUBJ_PRES": [
+          "acate",
+          "acates",
+          "acate",
+          "acatemos",
+          "acatéis",
+          "acaten"
+        ],
+        "SUBJ_IMPF": [
+          "acatara",
+          "acataras",
+          "acatara",
+          "acatáramos",
+          "acatarais",
+          "acataran"
+        ],
+        "SUBJ_PERF": [
+          "haya acatado",
+          "hayas acatado",
+          "haya acatado",
+          "hayamos acatado",
+          "hayáis acatado",
+          "hayan acatado"
+        ],
+        "IMP": [
+          "",
+          "acata",
+          "acate",
+          "acatemos",
+          "acatad",
+          "acaten"
+        ],
+        "GER": [
+          "acatando"
+        ],
+        "PART": [
+          "acatado"
+        ]
+      }
+    },
+    {
+      "lemma": "zanjar",
+      "ja": "決着をつける",
+      "forms": {
+        "IND_PRES": [
+          "zanjo",
+          "zanjas",
+          "zanja",
+          "zanjamos",
+          "zanjáis",
+          "zanjan"
+        ],
+        "IND_PRET": [
+          "zanjé",
+          "zanjaste",
+          "zanjó",
+          "zanjamos",
+          "zanjasteis",
+          "zanjaron"
+        ],
+        "IND_IMPF": [
+          "zanjaba",
+          "zanjabas",
+          "zanjaba",
+          "zanjábamos",
+          "zanjabais",
+          "zanjaban"
+        ],
+        "IND_FUT": [
+          "zanjaré",
+          "zanjarás",
+          "zanjará",
+          "zanjaremos",
+          "zanjaréis",
+          "zanjarán"
+        ],
+        "IND_PERF": [
+          "he zanjado",
+          "has zanjado",
+          "ha zanjado",
+          "hemos zanjado",
+          "habéis zanjado",
+          "han zanjado"
+        ],
+        "IND_PLUP": [
+          "había zanjado",
+          "habías zanjado",
+          "había zanjado",
+          "habíamos zanjado",
+          "habíais zanjado",
+          "habían zanjado"
+        ],
+        "COND": [
+          "zanjaría",
+          "zanjarías",
+          "zanjaría",
+          "zanjaríamos",
+          "zanjaríais",
+          "zanjarían"
+        ],
+        "SUBJ_PRES": [
+          "zanje",
+          "zanjes",
+          "zanje",
+          "zanjemos",
+          "zanjéis",
+          "zanjen"
+        ],
+        "SUBJ_IMPF": [
+          "zanjara",
+          "zanjaras",
+          "zanjara",
+          "zanjáramos",
+          "zanjarais",
+          "zanjaran"
+        ],
+        "SUBJ_PERF": [
+          "haya zanjado",
+          "hayas zanjado",
+          "haya zanjado",
+          "hayamos zanjado",
+          "hayáis zanjado",
+          "hayan zanjado"
+        ],
+        "IMP": [
+          "",
+          "zanja",
+          "zanje",
+          "zanjemos",
+          "zanjad",
+          "zanjen"
+        ],
+        "GER": [
+          "zanjando"
+        ],
+        "PART": [
+          "zanjado"
+        ]
+      }
+    },
+    {
+      "lemma": "recortar",
+      "ja": "削減する・切り取る",
+      "forms": {
+        "IND_PRES": [
+          "recorto",
+          "recortas",
+          "recorta",
+          "recortamos",
+          "recortáis",
+          "recortan"
+        ],
+        "IND_PRET": [
+          "recorté",
+          "recortaste",
+          "recortó",
+          "recortamos",
+          "recortasteis",
+          "recortaron"
+        ],
+        "IND_IMPF": [
+          "recortaba",
+          "recortabas",
+          "recortaba",
+          "recortábamos",
+          "recortabais",
+          "recortaban"
+        ],
+        "IND_FUT": [
+          "recortaré",
+          "recortarás",
+          "recortará",
+          "recortaremos",
+          "recortaréis",
+          "recortarán"
+        ],
+        "IND_PERF": [
+          "he recortado",
+          "has recortado",
+          "ha recortado",
+          "hemos recortado",
+          "habéis recortado",
+          "han recortado"
+        ],
+        "IND_PLUP": [
+          "había recortado",
+          "habías recortado",
+          "había recortado",
+          "habíamos recortado",
+          "habíais recortado",
+          "habían recortado"
+        ],
+        "COND": [
+          "recortaría",
+          "recortarías",
+          "recortaría",
+          "recortaríamos",
+          "recortaríais",
+          "recortarían"
+        ],
+        "SUBJ_PRES": [
+          "recorte",
+          "recortes",
+          "recorte",
+          "recortemos",
+          "recortéis",
+          "recorten"
+        ],
+        "SUBJ_IMPF": [
+          "recortara",
+          "recortaras",
+          "recortara",
+          "recortáramos",
+          "recortarais",
+          "recortaran"
+        ],
+        "SUBJ_PERF": [
+          "haya recortado",
+          "hayas recortado",
+          "haya recortado",
+          "hayamos recortado",
+          "hayáis recortado",
+          "hayan recortado"
+        ],
+        "IMP": [
+          "",
+          "recorta",
+          "recorte",
+          "recortemos",
+          "recortad",
+          "recorten"
+        ],
+        "GER": [
+          "recortando"
+        ],
+        "PART": [
+          "recortado"
+        ]
+      }
+    },
+    {
+      "lemma": "blindar",
+      "ja": "保護する・守りを固める",
+      "forms": {
+        "IND_PRES": [
+          "blindo",
+          "blindas",
+          "blinda",
+          "blindamos",
+          "blindáis",
+          "blindan"
+        ],
+        "IND_PRET": [
+          "blindé",
+          "blindaste",
+          "blindó",
+          "blindamos",
+          "blindasteis",
+          "blindaron"
+        ],
+        "IND_IMPF": [
+          "blindaba",
+          "blindabas",
+          "blindaba",
+          "blindábamos",
+          "blindabais",
+          "blindaban"
+        ],
+        "IND_FUT": [
+          "blindaré",
+          "blindarás",
+          "blindará",
+          "blindaremos",
+          "blindaréis",
+          "blindarán"
+        ],
+        "IND_PERF": [
+          "he blindado",
+          "has blindado",
+          "ha blindado",
+          "hemos blindado",
+          "habéis blindado",
+          "han blindado"
+        ],
+        "IND_PLUP": [
+          "había blindado",
+          "habías blindado",
+          "había blindado",
+          "habíamos blindado",
+          "habíais blindado",
+          "habían blindado"
+        ],
+        "COND": [
+          "blindaría",
+          "blindarías",
+          "blindaría",
+          "blindaríamos",
+          "blindaríais",
+          "blindarían"
+        ],
+        "SUBJ_PRES": [
+          "blinde",
+          "blindes",
+          "blinde",
+          "blindemos",
+          "blindéis",
+          "blinden"
+        ],
+        "SUBJ_IMPF": [
+          "blindara",
+          "blindaras",
+          "blindara",
+          "blindáramos",
+          "blindarais",
+          "blindaran"
+        ],
+        "SUBJ_PERF": [
+          "haya blindado",
+          "hayas blindado",
+          "haya blindado",
+          "hayamos blindado",
+          "hayáis blindado",
+          "hayan blindado"
+        ],
+        "IMP": [
+          "",
+          "blinda",
+          "blinde",
+          "blindemos",
+          "blindad",
+          "blinden"
+        ],
+        "GER": [
+          "blindando"
+        ],
+        "PART": [
+          "blindado"
+        ]
+      }
+    },
+    {
+      "lemma": "fastidiar",
+      "ja": "うんざりさせる・台無しにする",
+      "forms": {
+        "IND_PRES": [
+          "fastidio",
+          "fastidias",
+          "fastidia",
+          "fastidiamos",
+          "fastidiáis",
+          "fastidian"
+        ],
+        "IND_PRET": [
+          "fastidié",
+          "fastidiaste",
+          "fastidió",
+          "fastidiamos",
+          "fastidiasteis",
+          "fastidiaron"
+        ],
+        "IND_IMPF": [
+          "fastidiaba",
+          "fastidiabas",
+          "fastidiaba",
+          "fastidiábamos",
+          "fastidiabais",
+          "fastidiaban"
+        ],
+        "IND_FUT": [
+          "fastidiaré",
+          "fastidiarás",
+          "fastidiará",
+          "fastidiaremos",
+          "fastidiaréis",
+          "fastidiarán"
+        ],
+        "IND_PERF": [
+          "he fastidiado",
+          "has fastidiado",
+          "ha fastidiado",
+          "hemos fastidiado",
+          "habéis fastidiado",
+          "han fastidiado"
+        ],
+        "IND_PLUP": [
+          "había fastidiado",
+          "habías fastidiado",
+          "había fastidiado",
+          "habíamos fastidiado",
+          "habíais fastidiado",
+          "habían fastidiado"
+        ],
+        "COND": [
+          "fastidiaría",
+          "fastidiarías",
+          "fastidiaría",
+          "fastidiaríamos",
+          "fastidiaríais",
+          "fastidiarían"
+        ],
+        "SUBJ_PRES": [
+          "fastidie",
+          "fastidies",
+          "fastidie",
+          "fastidiemos",
+          "fastidiéis",
+          "fastidien"
+        ],
+        "SUBJ_IMPF": [
+          "fastidiara",
+          "fastidiaras",
+          "fastidiara",
+          "fastidiáramos",
+          "fastidiarais",
+          "fastidiaran"
+        ],
+        "SUBJ_PERF": [
+          "haya fastidiado",
+          "hayas fastidiado",
+          "haya fastidiado",
+          "hayamos fastidiado",
+          "hayáis fastidiado",
+          "hayan fastidiado"
+        ],
+        "IMP": [
+          "",
+          "fastidia",
+          "fastidie",
+          "fastidiemos",
+          "fastidiad",
+          "fastidien"
+        ],
+        "GER": [
+          "fastidiando"
+        ],
+        "PART": [
+          "fastidiado"
+        ]
+      }
+    },
+    {
+      "lemma": "aguantar",
+      "ja": "我慢する・持ちこたえる",
+      "forms": {
+        "IND_PRES": [
+          "aguanto",
+          "aguantas",
+          "aguanta",
+          "aguantamos",
+          "aguantáis",
+          "aguantan"
+        ],
+        "IND_PRET": [
+          "aguanté",
+          "aguantaste",
+          "aguantó",
+          "aguantamos",
+          "aguantasteis",
+          "aguantaron"
+        ],
+        "IND_IMPF": [
+          "aguantaba",
+          "aguantabas",
+          "aguantaba",
+          "aguantábamos",
+          "aguantabais",
+          "aguantaban"
+        ],
+        "IND_FUT": [
+          "aguantaré",
+          "aguantarás",
+          "aguantará",
+          "aguantaremos",
+          "aguantaréis",
+          "aguantarán"
+        ],
+        "IND_PERF": [
+          "he aguantado",
+          "has aguantado",
+          "ha aguantado",
+          "hemos aguantado",
+          "habéis aguantado",
+          "han aguantado"
+        ],
+        "IND_PLUP": [
+          "había aguantado",
+          "habías aguantado",
+          "había aguantado",
+          "habíamos aguantado",
+          "habíais aguantado",
+          "habían aguantado"
+        ],
+        "COND": [
+          "aguantaría",
+          "aguantarías",
+          "aguantaría",
+          "aguantaríamos",
+          "aguantaríais",
+          "aguantarían"
+        ],
+        "SUBJ_PRES": [
+          "aguante",
+          "aguantes",
+          "aguante",
+          "aguantemos",
+          "aguantéis",
+          "aguanten"
+        ],
+        "SUBJ_IMPF": [
+          "aguantara",
+          "aguantaras",
+          "aguantara",
+          "aguantáramos",
+          "aguantarais",
+          "aguantaran"
+        ],
+        "SUBJ_PERF": [
+          "haya aguantado",
+          "hayas aguantado",
+          "haya aguantado",
+          "hayamos aguantado",
+          "hayáis aguantado",
+          "hayan aguantado"
+        ],
+        "IMP": [
+          "",
+          "aguanta",
+          "aguante",
+          "aguantemos",
+          "aguantad",
+          "aguanten"
+        ],
+        "GER": [
+          "aguantando"
+        ],
+        "PART": [
+          "aguantado"
+        ]
+      }
+    },
+    {
+      "lemma": "largarse",
+      "ja": "立ち去る",
+      "forms": {
+        "IND_PRES": [
+          "me largo",
+          "te largas",
+          "se larga",
+          "nos largamos",
+          "os largáis",
+          "se largan"
+        ],
+        "IND_PRET": [
+          "me largué",
+          "te largaste",
+          "se largó",
+          "nos largamos",
+          "os largasteis",
+          "se largaron"
+        ],
+        "IND_IMPF": [
+          "me largaba",
+          "te largabas",
+          "se largaba",
+          "nos largábamos",
+          "os largabais",
+          "se largaban"
+        ],
+        "IND_FUT": [
+          "me largaré",
+          "te largarás",
+          "se largará",
+          "nos largaremos",
+          "os largaréis",
+          "se largarán"
+        ],
+        "IND_PERF": [
+          "me he largado",
+          "te has largado",
+          "se ha largado",
+          "nos hemos largado",
+          "os habéis largado",
+          "se han largado"
+        ],
+        "IND_PLUP": [
+          "me había largado",
+          "te habías largado",
+          "se había largado",
+          "nos habíamos largado",
+          "os habíais largado",
+          "se habían largado"
+        ],
+        "COND": [
+          "me largaría",
+          "te largarías",
+          "se largaría",
+          "nos largaríamos",
+          "os largaríais",
+          "se largarían"
+        ],
+        "SUBJ_PRES": [
+          "me largue",
+          "te largues",
+          "se largue",
+          "nos larguemos",
+          "os larguéis",
+          "se larguen"
+        ],
+        "SUBJ_IMPF": [
+          "me largara",
+          "te largaras",
+          "se largara",
+          "nos largáramos",
+          "os largarais",
+          "se largaran"
+        ],
+        "SUBJ_PERF": [
+          "me haya largado",
+          "te hayas largado",
+          "se haya largado",
+          "nos hayamos largado",
+          "os hayáis largado",
+          "se hayan largado"
+        ],
+        "IMP": [
+          "",
+          "larga tú",
+          "largue él",
+          "larguemos nosotros",
+          "largad vosotros",
+          "larguen ellos"
+        ],
+        "GER": [
+          "largando"
+        ],
+        "PART": [
+          "largado"
+        ]
+      }
+    },
+    {
+      "lemma": "agobiar",
+      "ja": "苦しめる・重荷になる",
+      "forms": {
+        "IND_PRES": [
+          "agobio",
+          "agobias",
+          "agobia",
+          "agobiamos",
+          "agobiáis",
+          "agobian"
+        ],
+        "IND_PRET": [
+          "agobié",
+          "agobiaste",
+          "agobió",
+          "agobiamos",
+          "agobiasteis",
+          "agobiaron"
+        ],
+        "IND_IMPF": [
+          "agobiaba",
+          "agobiabas",
+          "agobiaba",
+          "agobiábamos",
+          "agobiabais",
+          "agobiaban"
+        ],
+        "IND_FUT": [
+          "agobiaré",
+          "agobiarás",
+          "agobiará",
+          "agobiaremos",
+          "agobiaréis",
+          "agobiarán"
+        ],
+        "IND_PERF": [
+          "he agobiado",
+          "has agobiado",
+          "ha agobiado",
+          "hemos agobiado",
+          "habéis agobiado",
+          "han agobiado"
+        ],
+        "IND_PLUP": [
+          "había agobiado",
+          "habías agobiado",
+          "había agobiado",
+          "habíamos agobiado",
+          "habíais agobiado",
+          "habían agobiado"
+        ],
+        "COND": [
+          "agobiaría",
+          "agobiarías",
+          "agobiaría",
+          "agobiaríamos",
+          "agobiaríais",
+          "agobiarían"
+        ],
+        "SUBJ_PRES": [
+          "agobie",
+          "agobies",
+          "agobie",
+          "agobiemos",
+          "agobiéis",
+          "agobien"
+        ],
+        "SUBJ_IMPF": [
+          "agobiara",
+          "agobiaras",
+          "agobiara",
+          "agobiáramos",
+          "agobiarais",
+          "agobiaran"
+        ],
+        "SUBJ_PERF": [
+          "haya agobiado",
+          "hayas agobiado",
+          "haya agobiado",
+          "hayamos agobiado",
+          "hayáis agobiado",
+          "hayan agobiado"
+        ],
+        "IMP": [
+          "",
+          "agobia",
+          "agobie",
+          "agobiemos",
+          "agobiad",
+          "agobien"
+        ],
+        "GER": [
+          "agobiando"
+        ],
+        "PART": [
+          "agobiado"
+        ]
+      }
+    },
+    {
+      "lemma": "quejarse",
+      "ja": "不平を言う",
+      "forms": {
+        "IND_PRES": [
+          "me quejo",
+          "te quejas",
+          "se queja",
+          "nos quejamos",
+          "os quejáis",
+          "se quejan"
+        ],
+        "IND_PRET": [
+          "me quejé",
+          "te quejaste",
+          "se quejó",
+          "nos quejamos",
+          "os quejasteis",
+          "se quejaron"
+        ],
+        "IND_IMPF": [
+          "me quejaba",
+          "te quejabas",
+          "se quejaba",
+          "nos quejábamos",
+          "os quejabais",
+          "se quejaban"
+        ],
+        "IND_FUT": [
+          "me quejaré",
+          "te quejarás",
+          "se quejará",
+          "nos quejaremos",
+          "os quejaréis",
+          "se quejarán"
+        ],
+        "IND_PERF": [
+          "me he quejado",
+          "te has quejado",
+          "se ha quejado",
+          "nos hemos quejado",
+          "os habéis quejado",
+          "se han quejado"
+        ],
+        "IND_PLUP": [
+          "me había quejado",
+          "te habías quejado",
+          "se había quejado",
+          "nos habíamos quejado",
+          "os habíais quejado",
+          "se habían quejado"
+        ],
+        "COND": [
+          "me quejaría",
+          "te quejarías",
+          "se quejaría",
+          "nos quejaríamos",
+          "os quejaríais",
+          "se quejarían"
+        ],
+        "SUBJ_PRES": [
+          "me queje",
+          "te quejes",
+          "se queje",
+          "nos quejemos",
+          "os quejéis",
+          "se quejen"
+        ],
+        "SUBJ_IMPF": [
+          "me quejara",
+          "te quejaras",
+          "se quejara",
+          "nos quejáramos",
+          "os quejarais",
+          "se quejaran"
+        ],
+        "SUBJ_PERF": [
+          "me haya quejado",
+          "te hayas quejado",
+          "se haya quejado",
+          "nos hayamos quejado",
+          "os hayáis quejado",
+          "se hayan quejado"
+        ],
+        "IMP": [
+          "",
+          "queja tú",
+          "queje él",
+          "quejemos nosotros",
+          "quejad vosotros",
+          "quejen ellos"
+        ],
+        "GER": [
+          "quejando"
+        ],
+        "PART": [
+          "quejado"
+        ]
+      }
+    },
+    {
+      "lemma": "fingir",
+      "ja": "ふりをする・装う",
+      "forms": {
+        "IND_PRES": [
+          "finjo",
+          "finges",
+          "finge",
+          "fingimos",
+          "fingís",
+          "fingen"
+        ],
+        "IND_PRET": [
+          "fingí",
+          "fingiste",
+          "fingió",
+          "fingimos",
+          "fingisteis",
+          "fingieron"
+        ],
+        "IND_IMPF": [
+          "fingía",
+          "fingías",
+          "fingía",
+          "fingíamos",
+          "fingíais",
+          "fingían"
+        ],
+        "IND_FUT": [
+          "fingiré",
+          "fingirás",
+          "fingirá",
+          "fingiremos",
+          "fingiréis",
+          "fingirán"
+        ],
+        "IND_PERF": [
+          "he fingido",
+          "has fingido",
+          "ha fingido",
+          "hemos fingido",
+          "habéis fingido",
+          "han fingido"
+        ],
+        "IND_PLUP": [
+          "había fingido",
+          "habías fingido",
+          "había fingido",
+          "habíamos fingido",
+          "habíais fingido",
+          "habían fingido"
+        ],
+        "COND": [
+          "fingiría",
+          "fingirías",
+          "fingiría",
+          "fingiríamos",
+          "fingiríais",
+          "fingirían"
+        ],
+        "SUBJ_PRES": [
+          "finja",
+          "finjas",
+          "finja",
+          "finjamos",
+          "finjáis",
+          "finjan"
+        ],
+        "SUBJ_IMPF": [
+          "fingiera",
+          "fingieras",
+          "fingiera",
+          "fingiéramos",
+          "fingierais",
+          "fingieran"
+        ],
+        "SUBJ_PERF": [
+          "haya fingido",
+          "hayas fingido",
+          "haya fingido",
+          "hayamos fingido",
+          "hayáis fingido",
+          "hayan fingido"
+        ],
+        "IMP": [
+          "",
+          "finge",
+          "finja",
+          "finjamos",
+          "fingid",
+          "finjan"
+        ],
+        "GER": [
+          "fingiendo"
+        ],
+        "PART": [
+          "fingido"
+        ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 g → j",
+          "texts": [
+            "語幹の g が j に変わる（fing- → finj-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 g → j",
+          "texts": [
+            "語幹の g が j に変わる（fing- → finj-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 g → j",
+          "texts": [
+            "語幹の g が j に変わる（fing- → finj-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "presumir",
+      "ja": "自慢する・推定する",
+      "forms": {
+        "IND_PRES": [
+          "presumo",
+          "presumes",
+          "presume",
+          "presumimos",
+          "presumís",
+          "presumen"
+        ],
+        "IND_PRET": [
+          "presumí",
+          "presumiste",
+          "presumió",
+          "presumimos",
+          "presumisteis",
+          "presumieron"
+        ],
+        "IND_IMPF": [
+          "presumía",
+          "presumías",
+          "presumía",
+          "presumíamos",
+          "presumíais",
+          "presumían"
+        ],
+        "IND_FUT": [
+          "presumiré",
+          "presumirás",
+          "presumirá",
+          "presumiremos",
+          "presumiréis",
+          "presumirán"
+        ],
+        "IND_PERF": [
+          "he presunto",
+          "has presunto",
+          "ha presunto",
+          "hemos presunto",
+          "habéis presunto",
+          "han presunto"
+        ],
+        "IND_PLUP": [
+          "había presunto",
+          "habías presunto",
+          "había presunto",
+          "habíamos presunto",
+          "habíais presunto",
+          "habían presunto"
+        ],
+        "COND": [
+          "presumiría",
+          "presumirías",
+          "presumiría",
+          "presumiríamos",
+          "presumiríais",
+          "presumirían"
+        ],
+        "SUBJ_PRES": [
+          "presuma",
+          "presumas",
+          "presuma",
+          "presumamos",
+          "presumáis",
+          "presuman"
+        ],
+        "SUBJ_IMPF": [
+          "presumiera",
+          "presumieras",
+          "presumiera",
+          "presumiéramos",
+          "presumierais",
+          "presumieran"
+        ],
+        "SUBJ_PERF": [
+          "haya presunto",
+          "hayas presunto",
+          "haya presunto",
+          "hayamos presunto",
+          "hayáis presunto",
+          "hayan presunto"
+        ],
+        "IMP": [
+          "",
+          "presume",
+          "presuma",
+          "presumamos",
+          "presumid",
+          "presuman"
+        ],
+        "GER": [
+          "presumiendo"
+        ],
+        "PART": [
+          "presunto"
+        ]
+      },
+      "irr": {
+        "PART": {
+          "codes": "E",
+          "summary": "完全不規則（規則形から大きく外れる）",
+          "texts": [
+            "規則的な作り方が無い不規則形。この形のまま覚える"
+          ],
+          "idx": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "rendirse",
+      "ja": "降参する・屈する",
+      "forms": {
+        "IND_PRES": [
+          "me rindo",
+          "te rindes",
+          "se rinde",
+          "nos rendimos",
+          "os rendís",
+          "se rinden"
+        ],
+        "IND_PRET": [
+          "me rendí",
+          "te rendiste",
+          "se rindió",
+          "nos rendimos",
+          "os rendisteis",
+          "se rindieron"
+        ],
+        "IND_IMPF": [
+          "me rendía",
+          "te rendías",
+          "se rendía",
+          "nos rendíamos",
+          "os rendíais",
+          "se rendían"
+        ],
+        "IND_FUT": [
+          "me rendiré",
+          "te rendirás",
+          "se rendirá",
+          "nos rendiremos",
+          "os rendiréis",
+          "se rendirán"
+        ],
+        "IND_PERF": [
+          "me he rendido",
+          "te has rendido",
+          "se ha rendido",
+          "nos hemos rendido",
+          "os habéis rendido",
+          "se han rendido"
+        ],
+        "IND_PLUP": [
+          "me había rendido",
+          "te habías rendido",
+          "se había rendido",
+          "nos habíamos rendido",
+          "os habíais rendido",
+          "se habían rendido"
+        ],
+        "COND": [
+          "me rendiría",
+          "te rendirías",
+          "se rendiría",
+          "nos rendiríamos",
+          "os rendiríais",
+          "se rendirían"
+        ],
+        "SUBJ_PRES": [
+          "me rinda",
+          "te rindas",
+          "se rinda",
+          "nos rindamos",
+          "os rindáis",
+          "se rindan"
+        ],
+        "SUBJ_IMPF": [
+          "me rindiera",
+          "te rindieras",
+          "se rindiera",
+          "nos rindiéramos",
+          "os rindierais",
+          "se rindieran"
+        ],
+        "SUBJ_PERF": [
+          "me haya rendido",
+          "te hayas rendido",
+          "se haya rendido",
+          "nos hayamos rendido",
+          "os hayáis rendido",
+          "se hayan rendido"
+        ],
+        "IMP": [
+          "",
+          "rinde tú",
+          "rinda él",
+          "rindamos nosotros",
+          "rendid vosotros",
+          "rindan ellos"
+        ],
+        "GER": [
+          "rindiendo"
+        ],
+        "PART": [
+          "rendido"
+        ]
+      }
+    },
+    {
+      "lemma": "desprender",
+      "ja": "放つ・切り離す",
+      "forms": {
+        "IND_PRES": [
+          "desprendo",
+          "desprendes",
+          "desprende",
+          "desprendemos",
+          "desprendéis",
+          "desprenden"
+        ],
+        "IND_PRET": [
+          "desprendí",
+          "desprendiste",
+          "desprendió",
+          "desprendimos",
+          "desprendisteis",
+          "desprendieron"
+        ],
+        "IND_IMPF": [
+          "desprendía",
+          "desprendías",
+          "desprendía",
+          "desprendíamos",
+          "desprendíais",
+          "desprendían"
+        ],
+        "IND_FUT": [
+          "desprenderé",
+          "desprenderás",
+          "desprenderá",
+          "desprenderemos",
+          "desprenderéis",
+          "desprenderán"
+        ],
+        "IND_PERF": [
+          "he desprendido",
+          "has desprendido",
+          "ha desprendido",
+          "hemos desprendido",
+          "habéis desprendido",
+          "han desprendido"
+        ],
+        "IND_PLUP": [
+          "había desprendido",
+          "habías desprendido",
+          "había desprendido",
+          "habíamos desprendido",
+          "habíais desprendido",
+          "habían desprendido"
+        ],
+        "COND": [
+          "desprendería",
+          "desprenderías",
+          "desprendería",
+          "desprenderíamos",
+          "desprenderíais",
+          "desprenderían"
+        ],
+        "SUBJ_PRES": [
+          "desprenda",
+          "desprendas",
+          "desprenda",
+          "desprendamos",
+          "desprendáis",
+          "desprendan"
+        ],
+        "SUBJ_IMPF": [
+          "desprendiera",
+          "desprendieras",
+          "desprendiera",
+          "desprendiéramos",
+          "desprendierais",
+          "desprendieran"
+        ],
+        "SUBJ_PERF": [
+          "haya desprendido",
+          "hayas desprendido",
+          "haya desprendido",
+          "hayamos desprendido",
+          "hayáis desprendido",
+          "hayan desprendido"
+        ],
+        "IMP": [
+          "",
+          "desprende",
+          "desprenda",
+          "desprendamos",
+          "desprended",
+          "desprendan"
+        ],
+        "GER": [
+          "desprendiendo"
+        ],
+        "PART": [
+          "desprendido"
+        ]
+      }
+    },
+    {
+      "lemma": "padecer",
+      "ja": "患う・苦しむ",
+      "forms": {
+        "IND_PRES": [
+          "padezco",
+          "padeces",
+          "padece",
+          "padecemos",
+          "padecéis",
+          "padecen"
+        ],
+        "IND_PRET": [
+          "padecí",
+          "padeciste",
+          "padeció",
+          "padecimos",
+          "padecisteis",
+          "padecieron"
+        ],
+        "IND_IMPF": [
+          "padecía",
+          "padecías",
+          "padecía",
+          "padecíamos",
+          "padecíais",
+          "padecían"
+        ],
+        "IND_FUT": [
+          "padeceré",
+          "padecerás",
+          "padecerá",
+          "padeceremos",
+          "padeceréis",
+          "padecerán"
+        ],
+        "IND_PERF": [
+          "he padecido",
+          "has padecido",
+          "ha padecido",
+          "hemos padecido",
+          "habéis padecido",
+          "han padecido"
+        ],
+        "IND_PLUP": [
+          "había padecido",
+          "habías padecido",
+          "había padecido",
+          "habíamos padecido",
+          "habíais padecido",
+          "habían padecido"
+        ],
+        "COND": [
+          "padecería",
+          "padecerías",
+          "padecería",
+          "padeceríamos",
+          "padeceríais",
+          "padecerían"
+        ],
+        "SUBJ_PRES": [
+          "padezca",
+          "padezcas",
+          "padezca",
+          "padezcamos",
+          "padezcáis",
+          "padezcan"
+        ],
+        "SUBJ_IMPF": [
+          "padeciera",
+          "padecieras",
+          "padeciera",
+          "padeciéramos",
+          "padecierais",
+          "padecieran"
+        ],
+        "SUBJ_PERF": [
+          "haya padecido",
+          "hayas padecido",
+          "haya padecido",
+          "hayamos padecido",
+          "hayáis padecido",
+          "hayan padecido"
+        ],
+        "IMP": [
+          "",
+          "padece",
+          "padezca",
+          "padezcamos",
+          "padeced",
+          "padezcan"
+        ],
+        "GER": [
+          "padeciendo"
+        ],
+        "PART": [
+          "padecido"
+        ]
+      },
+      "irr": {
+        "IND_PRES": {
+          "codes": "SRRRRR",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（padec- → padezc-）"
+          ],
+          "idx": [
+            0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "SUBJ_PRES": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（padec- → padezc-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMP": {
+          "codes": "-RSSRS",
+          "summary": "語幹交替 c → zc",
+          "texts": [
+            "語幹の c が zc に変わる（padec- → padezc-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            0,
+            null,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "ceder",
+      "ja": "譲る・屈する",
+      "forms": {
+        "IND_PRES": [
+          "cedo",
+          "cedes",
+          "cede",
+          "cedemos",
+          "cedéis",
+          "ceden"
+        ],
+        "IND_PRET": [
+          "cedí",
+          "cediste",
+          "cedió",
+          "cedimos",
+          "cedisteis",
+          "cedieron"
+        ],
+        "IND_IMPF": [
+          "cedía",
+          "cedías",
+          "cedía",
+          "cedíamos",
+          "cedíais",
+          "cedían"
+        ],
+        "IND_FUT": [
+          "cederé",
+          "cederás",
+          "cederá",
+          "cederemos",
+          "cederéis",
+          "cederán"
+        ],
+        "IND_PERF": [
+          "he cedido",
+          "has cedido",
+          "ha cedido",
+          "hemos cedido",
+          "habéis cedido",
+          "han cedido"
+        ],
+        "IND_PLUP": [
+          "había cedido",
+          "habías cedido",
+          "había cedido",
+          "habíamos cedido",
+          "habíais cedido",
+          "habían cedido"
+        ],
+        "COND": [
+          "cedería",
+          "cederías",
+          "cedería",
+          "cederíamos",
+          "cederíais",
+          "cederían"
+        ],
+        "SUBJ_PRES": [
+          "ceda",
+          "cedas",
+          "ceda",
+          "cedamos",
+          "cedáis",
+          "cedan"
+        ],
+        "SUBJ_IMPF": [
+          "cediera",
+          "cedieras",
+          "cediera",
+          "cediéramos",
+          "cedierais",
+          "cedieran"
+        ],
+        "SUBJ_PERF": [
+          "haya cedido",
+          "hayas cedido",
+          "haya cedido",
+          "hayamos cedido",
+          "hayáis cedido",
+          "hayan cedido"
+        ],
+        "IMP": [
+          "",
+          "cede",
+          "ceda",
+          "cedamos",
+          "ceded",
+          "cedan"
+        ],
+        "GER": [
+          "cediendo"
+        ],
+        "PART": [
+          "cedido"
+        ]
+      }
+    },
+    {
+      "lemma": "osar",
+      "ja": "あえて〜する",
+      "forms": {
+        "IND_PRES": [
+          "oso",
+          "osas",
+          "osa",
+          "osamos",
+          "osáis",
+          "osan"
+        ],
+        "IND_PRET": [
+          "osé",
+          "osaste",
+          "osó",
+          "osamos",
+          "osasteis",
+          "osaron"
+        ],
+        "IND_IMPF": [
+          "osaba",
+          "osabas",
+          "osaba",
+          "osábamos",
+          "osabais",
+          "osaban"
+        ],
+        "IND_FUT": [
+          "osaré",
+          "osarás",
+          "osará",
+          "osaremos",
+          "osaréis",
+          "osarán"
+        ],
+        "IND_PERF": [
+          "he osado",
+          "has osado",
+          "ha osado",
+          "hemos osado",
+          "habéis osado",
+          "han osado"
+        ],
+        "IND_PLUP": [
+          "había osado",
+          "habías osado",
+          "había osado",
+          "habíamos osado",
+          "habíais osado",
+          "habían osado"
+        ],
+        "COND": [
+          "osaría",
+          "osarías",
+          "osaría",
+          "osaríamos",
+          "osaríais",
+          "osarían"
+        ],
+        "SUBJ_PRES": [
+          "ose",
+          "oses",
+          "ose",
+          "osemos",
+          "oséis",
+          "osen"
+        ],
+        "SUBJ_IMPF": [
+          "osara",
+          "osaras",
+          "osara",
+          "osáramos",
+          "osarais",
+          "osaran"
+        ],
+        "SUBJ_PERF": [
+          "haya osado",
+          "hayas osado",
+          "haya osado",
+          "hayamos osado",
+          "hayáis osado",
+          "hayan osado"
+        ],
+        "IMP": [
+          "",
+          "osa",
+          "ose",
+          "osemos",
+          "osad",
+          "osen"
+        ],
+        "GER": [
+          "osando"
+        ],
+        "PART": [
+          "osado"
+        ]
+      }
     }
   ]
 }

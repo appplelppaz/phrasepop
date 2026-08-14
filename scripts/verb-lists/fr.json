@@ -659,6 +659,194 @@
     {
       "lemma": "relever",
       "ja": "立て直す・指摘する"
+    },
+    {
+      "lemma": "surgir",
+      "ja": "現れる・湧き出る"
+    },
+    {
+      "lemma": "évoquer",
+      "ja": "想起させる・言及する"
+    },
+    {
+      "lemma": "contempler",
+      "ja": "眺める・熟考する"
+    },
+    {
+      "lemma": "frémir",
+      "ja": "震える・戦慄する"
+    },
+    {
+      "lemma": "songer",
+      "ja": "思いを巡らす・考える"
+    },
+    {
+      "lemma": "murmurer",
+      "ja": "つぶやく・ささやく"
+    },
+    {
+      "lemma": "estomper",
+      "ja": "ぼかす・薄れさせる"
+    },
+    {
+      "lemma": "arracher",
+      "ja": "もぎ取る・奪い取る"
+    },
+    {
+      "lemma": "postuler",
+      "ja": "仮定する・応募する"
+    },
+    {
+      "lemma": "réfuter",
+      "ja": "反駁する"
+    },
+    {
+      "lemma": "corroborer",
+      "ja": "裏付ける"
+    },
+    {
+      "lemma": "inférer",
+      "ja": "推論する"
+    },
+    {
+      "lemma": "délimiter",
+      "ja": "範囲を定める"
+    },
+    {
+      "lemma": "nuancer",
+      "ja": "ニュアンスを加える"
+    },
+    {
+      "lemma": "esquisser",
+      "ja": "素描する・概略を示す"
+    },
+    {
+      "lemma": "comparaître",
+      "ja": "出頭する・出廷する"
+    },
+    {
+      "lemma": "démissionner",
+      "ja": "辞任する"
+    },
+    {
+      "lemma": "inculper",
+      "ja": "訴追する"
+    },
+    {
+      "lemma": "recueillir",
+      "ja": "収集する・受け入れる"
+    },
+    {
+      "lemma": "brandir",
+      "ja": "振りかざす"
+    },
+    {
+      "lemma": "trancher",
+      "ja": "決着をつける・切る"
+    },
+    {
+      "lemma": "réduire",
+      "ja": "削減する・縮小する"
+    },
+    {
+      "lemma": "bosser",
+      "ja": "働く・仕事する"
+    },
+    {
+      "lemma": "râler",
+      "ja": "文句を言う"
+    },
+    {
+      "lemma": "supporter",
+      "ja": "我慢する・支える"
+    },
+    {
+      "lemma": "oser",
+      "ja": "あえて〜する"
+    },
+    {
+      "lemma": "feindre",
+      "ja": "ふりをする・装う"
+    },
+    {
+      "lemma": "prétendre",
+      "ja": "主張する・自称する"
+    },
+    {
+      "lemma": "céder",
+      "ja": "譲る・屈する"
+    },
+    {
+      "lemma": "subir",
+      "ja": "被る・受ける"
+    },
+    {
+      "lemma": "aboutir",
+      "ja": "行き着く・実を結ぶ"
+    },
+    {
+      "lemma": "dissimuler",
+      "ja": "隠す"
+    },
+    {
+      "lemma": "surprendre",
+      "ja": "驚かせる・不意を突く"
+    },
+    {
+      "lemma": "parvenir",
+      "ja": "到達する・成し遂げる"
+    },
+    {
+      "lemma": "achever",
+      "ja": "終える・完成させる"
+    },
+    {
+      "lemma": "éclater",
+      "ja": "勃発する・破裂する"
+    },
+    {
+      "lemma": "croître",
+      "ja": "増大する・成長する"
+    },
+    {
+      "lemma": "adopter",
+      "ja": "採択する・採用する"
+    },
+    {
+      "lemma": "augmenter",
+      "ja": "増加する・増やす"
+    },
+    {
+      "lemma": "vérifier",
+      "ja": "検証する・確認する"
+    },
+    {
+      "lemma": "engager",
+      "ja": "着手する・雇う"
+    },
+    {
+      "lemma": "échouer",
+      "ja": "失敗する"
+    },
+    {
+      "lemma": "tarder",
+      "ja": "遅れる・手間取る"
+    },
+    {
+      "lemma": "relayer",
+      "ja": "中継する・伝える"
+    },
+    {
+      "lemma": "avancer",
+      "ja": "進める・提示する"
+    },
+    {
+      "lemma": "démontrer",
+      "ja": "証明する・示す"
+    },
+    {
+      "lemma": "créer",
+      "ja": "創る・生み出す"
     }
   ]
 }

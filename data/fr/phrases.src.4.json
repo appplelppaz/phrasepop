@@ -1,0 +1,719 @@
+{
+  "_comment": "バッチ4: 報道・時事（政治 / 経済 / 国際 / 司法）。C1〜C2 中心。直説法現在に偏らないよう、条件法（報道の伝聞用法）・大過去・接続法・分詞を厚くしてある。",
+  "lang": "fr",
+  "phrases": [
+    {
+      "id": "fr-0121",
+      "text": "Le ministre a comparu devant la commission pour s'expliquer.",
+      "ja": "大臣は釈明のため委員会に出頭した。",
+      "level": "C1",
+      "tags": ["報道", "政治", "複合過去"],
+      "grammar": "comparaître devant は「〜の前に出頭する」。議会・司法の報道で必ず出る。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "ministre", "lemma": "ministre", "pos": "名詞", "ja": "大臣" },
+        { "s": "a comparu", "lemma": "comparaître", "pos": "動詞", "ja": "出頭する・出廷する", "infl": "PC/3sg" },
+        { "s": "devant", "lemma": "devant", "pos": "前置詞", "ja": "〜の前で" },
+        { "s": "la", "skip": true },
+        { "s": "commission", "lemma": "commission", "pos": "名詞", "ja": "委員会" },
+        { "s": "s'expliquer", "lemma": "s'expliquer", "pos": "動詞", "ja": "釈明する・説明する", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0122",
+      "text": "Selon des sources proches, le président démissionnerait avant la fin du mois.",
+      "ja": "関係筋によれば、大統領は月末までに辞任する見通しだ。",
+      "level": "C2",
+      "tags": ["報道", "政治", "条件法現在"],
+      "grammar": "未確認情報を伝えるとき、フランス語の報道は条件法を使う（conditionnel journalistique）。",
+      "tokens": [
+        { "s": "Selon", "lemma": "selon", "pos": "前置詞", "ja": "〜によれば" },
+        { "s": "des sources proches", "lemma": "sources proches", "pos": "名詞句", "ja": "関係筋", "idiom": true },
+        { "s": "le", "skip": true },
+        { "s": "président", "lemma": "président", "pos": "名詞", "ja": "大統領・議長" },
+        { "s": "démissionnerait", "lemma": "démissionner", "pos": "動詞", "ja": "辞任する", "infl": "COND/3sg", "note": "報道の条件法。未確認情報であることを示す" },
+        { "s": "avant la fin du mois", "lemma": "la fin du mois", "pos": "名詞句", "ja": "月末", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0123",
+      "text": "Le parquet aurait inculpé trois hauts responsables pour détournement de fonds.",
+      "ja": "検察は3人の高官を資金横領で訴追したもようだ。",
+      "level": "C2",
+      "tags": ["報道", "司法", "条件法過去"],
+      "grammar": "条件法過去も未確認の過去を伝えるのに使う。「〜したもようだ」にあたる。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "parquet", "lemma": "parquet", "pos": "名詞", "ja": "検察・検察当局" },
+        { "s": "aurait inculpé", "lemma": "inculper", "pos": "動詞", "ja": "訴追する", "label": "条件法過去・3人称単数", "note": "未確認の過去を伝える報道の型" },
+        { "s": "trois", "skip": true },
+        { "s": "hauts responsables", "lemma": "haut responsable", "pos": "名詞句", "ja": "高官・幹部", "idiom": true },
+        { "s": "pour", "skip": true },
+        { "s": "détournement de fonds", "lemma": "détournement de fonds", "pos": "名詞句", "ja": "資金横領", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0124",
+      "text": "Le pouvoir a brandi des raisons de sécurité pour trancher le débat.",
+      "ja": "政府は安全上の理由を振りかざして議論に決着をつけた。",
+      "level": "C2",
+      "tags": ["報道", "政治", "複合過去"],
+      "grammar": "brandir は「（論拠を）振りかざす」。批判的な含みを伴う。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "pouvoir", "lemma": "pouvoir", "pos": "名詞", "ja": "権力・政権" },
+        { "s": "a brandi", "lemma": "brandir", "pos": "動詞", "ja": "振りかざす", "infl": "PC/3sg", "note": "批判的な含みを伴う" },
+        { "s": "des raisons de sécurité", "lemma": "raisons de sécurité", "pos": "名詞句", "ja": "安全上の理由", "idiom": true },
+        { "s": "pour", "skip": true },
+        { "s": "trancher", "lemma": "trancher", "pos": "動詞", "ja": "決着をつける・切る", "label": "不定詞" },
+        { "s": "le", "skip": true },
+        { "s": "débat", "lemma": "débat", "pos": "名詞", "ja": "議論・討論" }
+      ]
+    },
+    {
+      "id": "fr-0125",
+      "text": "Quand la crise a éclaté, la banque avait déjà réduit ses effectifs.",
+      "ja": "危機が表面化したときには、銀行はすでに人員を削減していた。",
+      "level": "C1",
+      "tags": ["報道", "経済", "大過去"],
+      "grammar": "大過去は複合過去より前に完了していたことを示す。報道の時系列説明に頻出。",
+      "tokens": [
+        { "s": "Quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "la", "skip": true },
+        { "s": "crise", "lemma": "crise", "pos": "名詞", "ja": "危機" },
+        { "s": "a éclaté", "lemma": "éclater", "pos": "動詞", "ja": "勃発する・破裂する", "infl": "PC/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "banque", "lemma": "banque", "pos": "名詞", "ja": "銀行" },
+        { "s": "avait", "skip": true },
+        { "s": "déjà", "lemma": "déjà", "pos": "副詞", "ja": "すでに" },
+        { "s": "réduit", "lemma": "réduire", "pos": "動詞", "ja": "削減する・縮小する", "infl": "PPASSE", "note": "大過去の過去分詞" },
+        { "s": "ses", "skip": true },
+        { "s": "effectifs", "lemma": "effectif", "pos": "名詞", "ja": "人員・要員" }
+      ]
+    },
+    {
+      "id": "fr-0126",
+      "text": "Ce n'est pas que le chômage ait baissé, mais que beaucoup ont cessé de chercher.",
+      "ja": "失業が減ったのではなく、多くの人が職探しをやめただけだ。",
+      "level": "C2",
+      "tags": ["報道", "経済", "接続法"],
+      "grammar": "ce n'est pas que + 接続法, mais que + 直説法。前半を否定して後半で言い直す型。",
+      "tokens": [
+        { "s": "Ce n'est pas que", "lemma": "ce n'est pas que", "pos": "慣用表現", "ja": "〜というわけではない", "idiom": true, "note": "後ろは接続法" },
+        { "s": "le", "skip": true },
+        { "s": "chômage", "lemma": "chômage", "pos": "名詞", "ja": "失業・失業率" },
+        { "s": "ait", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "SUBJ/3sg", "note": "接続法過去の助動詞" },
+        { "s": "baissé", "lemma": "baisser", "pos": "動詞", "ja": "下げる・下がる", "label": "過去分詞" },
+        { "s": "mais que", "skip": true },
+        { "s": "beaucoup", "lemma": "beaucoup", "pos": "代名詞", "ja": "多くの人" },
+        { "s": "ont cessé", "lemma": "cesser", "pos": "動詞", "ja": "やめる・止まる", "label": "複合過去・3人称複数" },
+        { "s": "de", "skip": true },
+        { "s": "chercher", "lemma": "chercher", "pos": "動詞", "ja": "探す", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0127",
+      "text": "L'accord, ratifié par les deux camps, entrera en vigueur en janvier.",
+      "ja": "双方が批准したこの協定は、1月に発効する。",
+      "level": "C1",
+      "tags": ["報道", "国際", "過去分詞", "単純未来"],
+      "grammar": "過去分詞を挿入句にして名詞を修飾する書き言葉の型。entrer en vigueur で「発効する」。",
+      "tokens": [
+        { "s": "L'", "skip": true },
+        { "s": "accord", "lemma": "accord", "pos": "名詞", "ja": "協定・合意" },
+        { "s": "ratifié", "lemma": "ratifier", "pos": "動詞", "ja": "批准する", "label": "過去分詞・男性単数", "note": "挿入句で名詞を修飾する" },
+        { "s": "par", "skip": true },
+        { "s": "les deux camps", "lemma": "les deux camps", "pos": "名詞句", "ja": "双方・両陣営", "idiom": true },
+        { "s": "entrera en vigueur", "lemma": "entrer en vigueur", "pos": "慣用表現", "ja": "発効する", "idiom": true },
+        { "s": "en", "skip": true },
+        { "s": "janvier", "lemma": "janvier", "pos": "名詞", "ja": "1月" }
+      ]
+    },
+    {
+      "id": "fr-0128",
+      "text": "Les syndicats réclament une hausse des salaires depuis des mois.",
+      "ja": "労働組合は数か月前から賃上げを要求し続けている。",
+      "level": "C1",
+      "tags": ["報道", "経済", "直説法現在"],
+      "grammar": "depuis + 期間は現在形と組む。日本語の「〜し続けている」にあたる。",
+      "tokens": [
+        { "s": "Les", "skip": true },
+        { "s": "syndicats", "lemma": "syndicat", "pos": "名詞", "ja": "労働組合" },
+        { "s": "réclament", "lemma": "réclamer", "pos": "動詞", "ja": "要求する", "label": "直説法現在・3人称複数" },
+        { "s": "une", "skip": true },
+        { "s": "hausse des salaires", "lemma": "hausse des salaires", "pos": "名詞句", "ja": "賃上げ", "idiom": true },
+        { "s": "depuis des mois", "lemma": "depuis des mois", "pos": "慣用表現", "ja": "数か月前から", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0129",
+      "text": "Le tribunal s'est plié à la décision bien qu'il la jugeât infondée.",
+      "ja": "裁判所は根拠がないと判断しながらもその決定に従った。",
+      "level": "C2",
+      "tags": ["司法", "接続法半過去"],
+      "grammar": "bien que のあとは接続法。文語では時制の一致で接続法半過去（jugeât）を使う。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "tribunal", "lemma": "tribunal", "pos": "名詞", "ja": "裁判所・法廷" },
+        { "s": "s'est plié à", "lemma": "se plier à", "pos": "慣用表現", "ja": "〜に従う・屈する", "idiom": true },
+        { "s": "la", "skip": true },
+        { "s": "décision", "lemma": "décision", "pos": "名詞", "ja": "決定・判断" },
+        { "s": "bien qu'", "lemma": "bien que", "pos": "接続詞", "ja": "〜だけれども", "idiom": true, "note": "後ろは必ず接続法" },
+        { "s": "il", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "jugeât", "lemma": "juger", "pos": "動詞", "ja": "判断する・裁く", "label": "接続法半過去・3人称単数", "note": "文語でのみ使う時制。現代の話し言葉では接続法現在で代用する" },
+        { "s": "infondée", "lemma": "infondé", "pos": "形容詞", "ja": "根拠のない", "label": "女性単数" }
+      ]
+    },
+    {
+      "id": "fr-0130",
+      "text": "On a recueilli des preuves suffisantes pour soutenir l'accusation.",
+      "ja": "起訴を支えるだけの証拠が収集された。",
+      "level": "C1",
+      "tags": ["司法", "複合過去"],
+      "grammar": "on は行為者を示さない主語。フランス語で受動の代わりによく使う。",
+      "tokens": [
+        { "s": "On", "skip": true },
+        { "s": "a recueilli", "lemma": "recueillir", "pos": "動詞", "ja": "収集する・受け入れる", "infl": "PC/3sg", "note": "on は行為者を示さない主語" },
+        { "s": "des", "skip": true },
+        { "s": "preuves", "lemma": "preuve", "pos": "名詞", "ja": "証拠" },
+        { "s": "suffisantes", "lemma": "suffisant", "pos": "形容詞", "ja": "十分な", "label": "女性複数" },
+        { "s": "pour", "skip": true },
+        { "s": "soutenir", "lemma": "soutenir", "pos": "動詞", "ja": "支える・主張する", "label": "不定詞" },
+        { "s": "l'", "skip": true },
+        { "s": "accusation", "lemma": "accusation", "pos": "名詞", "ja": "起訴・非難" }
+      ]
+    },
+    {
+      "id": "fr-0131",
+      "text": "Faute d'accord, la grève se prolongerait indéfiniment.",
+      "ja": "合意がなければ、ストは無期限に長引くことになる。",
+      "level": "C2",
+      "tags": ["報道", "条件法現在"],
+      "grammar": "faute de は「〜がないために」。条件節の代わりになる書き言葉。",
+      "tokens": [
+        { "s": "Faute d'", "lemma": "faute de", "pos": "慣用表現", "ja": "〜がないために", "idiom": true, "note": "条件節の代わりになる文章語" },
+        { "s": "accord", "lemma": "accord", "pos": "名詞", "ja": "協定・合意" },
+        { "s": "la", "skip": true },
+        { "s": "grève", "lemma": "grève", "pos": "名詞", "ja": "ストライキ" },
+        { "s": "se prolongerait", "lemma": "prolonger", "pos": "動詞", "ja": "長引かせる・延長する", "label": "条件法現在・3人称単数" },
+        { "s": "indéfiniment", "lemma": "indéfiniment", "pos": "副詞", "ja": "無期限に" }
+      ]
+    },
+    {
+      "id": "fr-0132",
+      "text": "L'opposition exige que le gouvernement rende des comptes au plus vite.",
+      "ja": "野党は政府に一刻も早い説明責任を求めている。",
+      "level": "C1",
+      "tags": ["報道", "政治", "接続法"],
+      "grammar": "exiger que は要求なので後ろは接続法。rendre des comptes で「説明責任を果たす」。",
+      "tokens": [
+        { "s": "L'", "skip": true },
+        { "s": "opposition", "lemma": "opposition", "pos": "名詞", "ja": "野党・反対" },
+        { "s": "exige", "lemma": "exiger", "pos": "動詞", "ja": "要求する", "label": "直説法現在・3人称単数" },
+        { "s": "que", "skip": true },
+        { "s": "le", "skip": true },
+        { "s": "gouvernement", "lemma": "gouvernement", "pos": "名詞", "ja": "政府" },
+        { "s": "rende", "lemma": "rendre", "pos": "動詞", "ja": "返す・〜にする", "infl": "SUBJ/3sg" },
+        { "s": "des comptes", "lemma": "rendre des comptes", "pos": "慣用表現", "ja": "説明責任を果たす", "idiom": true },
+        { "s": "au plus vite", "lemma": "au plus vite", "pos": "慣用表現", "ja": "一刻も早く", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0133",
+      "text": "Le déficit s'est creusé malgré les coupes votées l'an dernier.",
+      "ja": "昨年可決された削減策にもかかわらず、赤字は膨らんだ。",
+      "level": "C1",
+      "tags": ["報道", "経済", "複合過去"],
+      "grammar": "se creuser は「（差や赤字が）広がる」。votées は過去分詞の形容詞用法。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "déficit", "lemma": "déficit", "pos": "名詞", "ja": "赤字・不足" },
+        { "s": "s'est creusé", "lemma": "se creuser", "pos": "動詞", "ja": "（差や赤字が）広がる", "idiom": true },
+        { "s": "malgré", "lemma": "malgré", "pos": "前置詞", "ja": "〜にもかかわらず" },
+        { "s": "les", "skip": true },
+        { "s": "coupes", "lemma": "coupe", "pos": "名詞", "ja": "削減・カット" },
+        { "s": "votées", "lemma": "voter", "pos": "動詞", "ja": "可決する・投票する", "label": "過去分詞・女性複数" },
+        { "s": "l'an dernier", "lemma": "l'an dernier", "pos": "慣用表現", "ja": "昨年", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0134",
+      "text": "Personne n'avait prévu que le conflit s'aggrave aussi vite.",
+      "ja": "紛争がこれほど早く激化するとは誰も予想していなかった。",
+      "level": "C2",
+      "tags": ["報道", "国際", "大過去", "接続法"],
+      "tokens": [
+        { "s": "Personne", "lemma": "personne", "pos": "代名詞", "ja": "誰も〜ない" },
+        { "s": "n'", "skip": true },
+        { "s": "avait prévu", "lemma": "prévoir", "pos": "動詞", "ja": "予測する・予定する", "infl": "PQP/3sg" },
+        { "s": "que", "skip": true },
+        { "s": "le", "skip": true },
+        { "s": "conflit", "lemma": "conflit", "pos": "名詞", "ja": "紛争・対立" },
+        { "s": "s'", "skip": true },
+        { "s": "aggrave", "lemma": "aggraver", "pos": "動詞", "ja": "悪化させる", "infl": "SUBJ/3sg", "note": "prévoir が否定されると従属節は接続法になる" },
+        { "s": "aussi vite", "lemma": "aussi vite", "pos": "慣用表現", "ja": "これほど早く", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0135",
+      "text": "Ce chiffre contraste avec celui enregistré à la même période l'an passé.",
+      "ja": "この数字は前年同期に記録された値と対照的だ。",
+      "level": "C1",
+      "tags": ["報道", "経済", "過去分詞"],
+      "grammar": "celui + 過去分詞で「〜されたもの」。名詞の繰り返しを避ける統計記事の型。",
+      "tokens": [
+        { "s": "Ce", "skip": true },
+        { "s": "chiffre", "lemma": "chiffre", "pos": "名詞", "ja": "数字・数値" },
+        { "s": "contraste avec", "lemma": "contraster avec", "pos": "慣用表現", "ja": "〜と対照をなす", "idiom": true },
+        { "s": "celui", "lemma": "celui", "pos": "代名詞", "ja": "そのもの・それ" },
+        { "s": "enregistré", "lemma": "enregistrer", "pos": "動詞", "ja": "記録する・登録する", "label": "過去分詞・男性単数" },
+        { "s": "à la même période", "lemma": "à la même période", "pos": "慣用表現", "ja": "同期に", "idiom": true },
+        { "s": "l'an passé", "lemma": "l'an passé", "pos": "慣用表現", "ja": "前年", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0136",
+      "text": "Il va de soi que le pacte n'aboutira pas sans soutien parlementaire.",
+      "ja": "議会の支持なしにこの協定が実を結ばないのは自明だ。",
+      "level": "C2",
+      "tags": ["報道", "政治", "単純未来"],
+      "grammar": "il va de soi que は「〜は自明だ」。aboutir は「行き着く・実を結ぶ」。",
+      "tokens": [
+        { "s": "Il va de soi que", "lemma": "il va de soi que", "pos": "慣用表現", "ja": "〜は自明だ", "idiom": true },
+        { "s": "le", "skip": true },
+        { "s": "pacte", "lemma": "pacte", "pos": "名詞", "ja": "協定・盟約" },
+        { "s": "n'", "skip": true },
+        { "s": "aboutira", "lemma": "aboutir", "pos": "動詞", "ja": "行き着く・実を結ぶ", "infl": "FUT/3sg" },
+        { "s": "pas", "skip": true },
+        { "s": "sans", "skip": true },
+        { "s": "soutien parlementaire", "lemma": "soutien parlementaire", "pos": "名詞句", "ja": "議会の支持", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0137",
+      "text": "Le rapport met en évidence que les émissions n'ont pas assez diminué.",
+      "ja": "報告書は排出量が十分に減っていないことを明らかにしている。",
+      "level": "C1",
+      "tags": ["報道", "複合過去"],
+      "grammar": "mettre en évidence は「浮き彫りにする」。報告書の要約でよく使う。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "rapport", "lemma": "rapport", "pos": "名詞", "ja": "報告書・関係" },
+        { "s": "met en évidence", "lemma": "mettre en évidence", "pos": "慣用表現", "ja": "明らかにする・浮き彫りにする", "idiom": true },
+        { "s": "que", "skip": true },
+        { "s": "les", "skip": true },
+        { "s": "émissions", "lemma": "émission", "pos": "名詞", "ja": "排出・放送" },
+        { "s": "n'ont pas assez diminué", "lemma": "diminuer", "pos": "動詞", "ja": "減少させる・減る", "label": "複合過去・3人称複数（否定）" }
+      ]
+    },
+    {
+      "id": "fr-0138",
+      "text": "Il aurait suffi que l'organisme eût averti à temps.",
+      "ja": "その機関が早めに警告してさえいれば十分だったはずだ。",
+      "level": "C2",
+      "tags": ["論説", "条件法過去", "接続法大過去"],
+      "grammar": "文語の反実仮想。il aurait suffi que + 接続法大過去（eût averti）という最も硬い組み合わせ。",
+      "tokens": [
+        { "s": "Il aurait suffi que", "lemma": "il aurait suffi que", "pos": "慣用表現", "ja": "〜さえすれば十分だったはずだ", "idiom": true },
+        { "s": "l'", "skip": true },
+        { "s": "organisme", "lemma": "organisme", "pos": "名詞", "ja": "機関・組織" },
+        { "s": "eût averti", "lemma": "avertir", "pos": "動詞", "ja": "警告する", "label": "接続法大過去・3人称単数", "note": "文語でのみ使う。話し言葉では接続法過去で代用する" },
+        { "s": "à temps", "lemma": "à temps", "pos": "慣用表現", "ja": "間に合って・早めに", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0139",
+      "text": "Les données, recueillies pendant deux ans, restent à publier.",
+      "ja": "2年かけて集められたデータは、まだ公表されていない。",
+      "level": "C2",
+      "tags": ["学術", "報道", "過去分詞"],
+      "grammar": "rester à + 不定詞で「まだ〜されていない」。挿入句の過去分詞と組み合わせている。",
+      "tokens": [
+        { "s": "Les", "skip": true },
+        { "s": "données", "lemma": "donnée", "pos": "名詞", "ja": "データ・資料" },
+        { "s": "recueillies", "lemma": "recueillir", "pos": "動詞", "ja": "収集する・受け入れる", "label": "過去分詞・女性複数" },
+        { "s": "pendant", "skip": true },
+        { "s": "deux ans", "lemma": "an", "pos": "名詞", "ja": "年" },
+        { "s": "restent à", "lemma": "rester à + 不定詞", "pos": "慣用表現", "ja": "まだ〜されていない", "idiom": true },
+        { "s": "publier", "lemma": "publier", "pos": "動詞", "ja": "公表する・出版する", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0140",
+      "text": "Le porte-parole s'est borné à dire que l'affaire suivait son cours.",
+      "ja": "報道官は、その件は手続きが進行中だと述べるにとどめた。",
+      "level": "C2",
+      "tags": ["報道", "複合過去", "半過去"],
+      "grammar": "se borner à + 不定詞で「〜するにとどめる」。suivre son cours は「手続きどおり進む」。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "porte-parole", "lemma": "porte-parole", "pos": "名詞", "ja": "報道官" },
+        { "s": "s'est borné à", "lemma": "se borner à", "pos": "慣用表現", "ja": "〜するにとどめる", "idiom": true },
+        { "s": "dire", "lemma": "dire", "pos": "動詞", "ja": "言う", "label": "不定詞" },
+        { "s": "que", "skip": true },
+        { "s": "l'", "skip": true },
+        { "s": "affaire", "lemma": "affaire", "pos": "名詞", "ja": "件・事件" },
+        { "s": "suivait", "lemma": "suivre", "pos": "動詞", "ja": "ついていく・従う", "infl": "IMPF/3sg" },
+        { "s": "son cours", "lemma": "suivre son cours", "pos": "慣用表現", "ja": "手続きどおり進む", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0141",
+      "text": "Si accablantes que soient les preuves, la défense les contestera.",
+      "ja": "証拠がどれほど決定的でも、弁護側はそれに異議を唱えるだろう。",
+      "level": "C2",
+      "tags": ["司法", "接続法", "単純未来"],
+      "grammar": "si + 形容詞 + que + 接続法で「どれほど〜でも」。倒置を伴う文語表現。",
+      "tokens": [
+        { "s": "Si accablantes que", "lemma": "si... que + 接続法", "pos": "慣用表現", "ja": "どれほど〜でも", "idiom": true, "note": "文語。後ろは接続法" },
+        { "s": "soient", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "SUBJ/3pl" },
+        { "s": "les", "skip": true },
+        { "s": "preuves", "lemma": "preuve", "pos": "名詞", "ja": "証拠" },
+        { "s": "la", "skip": true },
+        { "s": "défense", "lemma": "défense", "pos": "名詞", "ja": "弁護・防御" },
+        { "s": "les", "skip": true },
+        { "s": "contestera", "lemma": "contester", "pos": "動詞", "ja": "異議を唱える", "infl": "FUT/3sg" }
+      ]
+    },
+    {
+      "id": "fr-0142",
+      "text": "La réforme est restée lettre morte après le refus du Sénat.",
+      "ja": "上院の拒否により、改革は空文に終わった。",
+      "level": "C2",
+      "tags": ["報道", "政治", "熟語", "複合過去"],
+      "grammar": "rester lettre morte は「実行されずに終わる」。",
+      "tokens": [
+        { "s": "La", "skip": true },
+        { "s": "réforme", "lemma": "réforme", "pos": "名詞", "ja": "改革" },
+        { "s": "est restée", "lemma": "rester", "pos": "動詞", "ja": "とどまる・残る", "label": "複合過去・3人称単数（女性一致）", "note": "助動詞が être なので過去分詞が主語 la réforme に女性一致する" },
+        { "s": "lettre morte", "lemma": "rester lettre morte", "pos": "慣用表現", "ja": "空文に終わる", "idiom": true },
+        { "s": "après", "skip": true },
+        { "s": "le", "skip": true },
+        { "s": "refus", "lemma": "refus", "pos": "名詞", "ja": "拒否" },
+        { "s": "du", "skip": true },
+        { "s": "Sénat", "lemma": "Sénat", "pos": "固有名詞", "ja": "上院" }
+      ]
+    },
+    {
+      "id": "fr-0143",
+      "text": "On estime que l'impact s'élèverait à plusieurs milliards.",
+      "ja": "影響額は数十億に上るとみられている。",
+      "level": "C2",
+      "tags": ["報道", "経済", "条件法現在"],
+      "grammar": "estimer que + 条件法で「〜に上るとみられる」。推定を弱める書き方。",
+      "tokens": [
+        { "s": "On", "skip": true },
+        { "s": "estime", "lemma": "estimer", "pos": "動詞", "ja": "見積もる・評価する", "infl": "PRES/3sg" },
+        { "s": "que", "skip": true },
+        { "s": "l'", "skip": true },
+        { "s": "impact", "lemma": "impact", "pos": "名詞", "ja": "影響・衝撃" },
+        { "s": "s'élèverait à", "lemma": "s'élever à", "pos": "慣用表現", "ja": "（金額が）〜に上る", "idiom": true, "note": "推定を弱める条件法" },
+        { "s": "plusieurs milliards", "lemma": "milliard", "pos": "名詞", "ja": "十億" }
+      ]
+    },
+    {
+      "id": "fr-0144",
+      "text": "Le juge a ordonné que le secret de l'instruction soit levé.",
+      "ja": "裁判官は捜査の秘密指定を解除するよう命じた。",
+      "level": "C2",
+      "tags": ["司法", "接続法", "受動態"],
+      "grammar": "ordonner que は命令なので接続法。ここでは受動の接続法（soit levé）。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "juge", "lemma": "juge", "pos": "名詞", "ja": "裁判官" },
+        { "s": "a ordonné", "lemma": "ordonner", "pos": "動詞", "ja": "命じる・整える", "label": "複合過去・3人称単数" },
+        { "s": "que", "skip": true },
+        { "s": "le secret de l'instruction", "lemma": "secret de l'instruction", "pos": "名詞句", "ja": "捜査の秘密指定", "idiom": true },
+        { "s": "soit", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "SUBJ/3sg" },
+        { "s": "levé", "lemma": "lever", "pos": "動詞", "ja": "上げる・（制限を）解除する", "infl": "PPASSE" }
+      ]
+    },
+    {
+      "id": "fr-0145",
+      "text": "Les marchés ont réagi avec prudence, dans l'attente de nouveaux indicateurs.",
+      "ja": "市場は新たな指標を待って慎重に反応した。",
+      "level": "C1",
+      "tags": ["報道", "経済", "複合過去"],
+      "grammar": "dans l'attente de は「〜を待って」。avec + 抽象名詞で副詞の代わりをする。",
+      "tokens": [
+        { "s": "Les", "skip": true },
+        { "s": "marchés", "lemma": "marché", "pos": "名詞", "ja": "市場" },
+        { "s": "ont réagi", "lemma": "réagir", "pos": "動詞", "ja": "反応する", "label": "複合過去・3人称複数" },
+        { "s": "avec prudence", "lemma": "avec prudence", "pos": "慣用表現", "ja": "慎重に", "idiom": true },
+        { "s": "dans l'attente de", "lemma": "dans l'attente de", "pos": "慣用表現", "ja": "〜を待って", "idiom": true },
+        { "s": "nouveaux", "skip": true },
+        { "s": "indicateurs", "lemma": "indicateur", "pos": "名詞", "ja": "指標" }
+      ]
+    },
+    {
+      "id": "fr-0146",
+      "text": "Il est indispensable que les parties cèdent si elles veulent éviter la rupture.",
+      "ja": "決裂を避けたいなら、双方が譲歩することが不可欠だ。",
+      "level": "C1",
+      "tags": ["国際", "接続法"],
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "indispensable", "lemma": "indispensable", "pos": "形容詞", "ja": "不可欠な" },
+        { "s": "que", "skip": true },
+        { "s": "les", "skip": true },
+        { "s": "parties", "lemma": "partie", "pos": "名詞", "ja": "当事者・部分" },
+        { "s": "cèdent", "lemma": "céder", "pos": "動詞", "ja": "譲る・屈する", "infl": "SUBJ/3pl" },
+        { "s": "si", "skip": true },
+        { "s": "elles", "skip": true },
+        { "s": "veulent", "lemma": "vouloir", "pos": "動詞", "ja": "〜したい・望む", "infl": "PRES/3pl" },
+        { "s": "éviter", "lemma": "éviter", "pos": "動詞", "ja": "避ける", "label": "不定詞" },
+        { "s": "la", "skip": true },
+        { "s": "rupture", "lemma": "rupture", "pos": "名詞", "ja": "決裂・破断" }
+      ]
+    },
+    {
+      "id": "fr-0147",
+      "text": "Le pays subit une inflation qu'on ne connaissait plus depuis les années quatre-vingt-dix.",
+      "ja": "その国は90年代以来経験していなかったインフレに見舞われている。",
+      "level": "C1",
+      "tags": ["報道", "経済", "半過去"],
+      "grammar": "関係節の中の半過去で「かつて続いていた状態」を表す。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "pays", "lemma": "pays", "pos": "名詞", "ja": "国" },
+        { "s": "subit", "lemma": "subir", "pos": "動詞", "ja": "被る・受ける", "infl": "PRES/3sg" },
+        { "s": "une", "skip": true },
+        { "s": "inflation", "lemma": "inflation", "pos": "名詞", "ja": "インフレ" },
+        { "s": "qu'", "skip": true },
+        { "s": "on", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "connaissait", "lemma": "connaître", "pos": "動詞", "ja": "知っている・経験する", "infl": "IMPF/3sg" },
+        { "s": "plus", "skip": true },
+        { "s": "les années quatre-vingt-dix", "lemma": "les années quatre-vingt-dix", "pos": "名詞句", "ja": "90年代", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0148",
+      "text": "Comme prévu, le sommet s'est soldé sans engagement ferme.",
+      "ja": "予定どおり、首脳会議は確たる約束のないまま幕を閉じた。",
+      "level": "C2",
+      "tags": ["報道", "国際", "複合過去"],
+      "grammar": "comme prévu は「予定どおり」。se solder par/sans で「〜という結果に終わる」。",
+      "tokens": [
+        { "s": "Comme prévu", "lemma": "comme prévu", "pos": "慣用表現", "ja": "予定どおり", "idiom": true },
+        { "s": "le", "skip": true },
+        { "s": "sommet", "lemma": "sommet", "pos": "名詞", "ja": "首脳会議・頂上" },
+        { "s": "s'est soldé", "lemma": "se solder", "pos": "動詞", "ja": "〜という結果に終わる", "idiom": true },
+        { "s": "sans", "skip": true },
+        { "s": "engagement ferme", "lemma": "engagement ferme", "pos": "名詞句", "ja": "確たる約束", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0149",
+      "text": "Autant que je m'en souvienne, une telle crise ne s'était jamais produite.",
+      "ja": "私の記憶にある限り、これほどの危機は起きたことがなかった。",
+      "level": "C2",
+      "tags": ["報道", "接続法", "大過去"],
+      "grammar": "autant que je m'en souvienne は「私の記憶にある限り」。接続法の決まり文句。",
+      "tokens": [
+        { "s": "Autant que je m'en souvienne", "lemma": "autant que je m'en souvienne", "pos": "慣用表現", "ja": "私の記憶にある限り", "idiom": true, "note": "接続法をとる決まり文句" },
+        { "s": "une telle crise", "lemma": "un tel", "pos": "形容詞", "ja": "そのような・これほどの" },
+        { "s": "ne s'était jamais produite", "lemma": "se produire", "pos": "動詞", "ja": "起こる・生じる", "label": "大過去・3人称単数（代名動詞・女性一致）" }
+      ]
+    },
+    {
+      "id": "fr-0150",
+      "text": "L'organisme appelle les États à renforcer leurs contrôles aux frontières.",
+      "ja": "その機関は各国に国境管理の強化を促している。",
+      "level": "C1",
+      "tags": ["国際", "直説法現在"],
+      "grammar": "appeler qqn à + 不定詞で「〜するよう促す」。スペイン語と違い接続法にはしない。",
+      "tokens": [
+        { "s": "L'", "skip": true },
+        { "s": "organisme", "lemma": "organisme", "pos": "名詞", "ja": "機関・組織" },
+        { "s": "appelle", "lemma": "appeler", "pos": "動詞", "ja": "呼ぶ・促す", "infl": "PRES/3sg", "note": "appeler qqn à + 不定詞で「〜するよう促す」" },
+        { "s": "les", "skip": true },
+        { "s": "États", "lemma": "État", "pos": "名詞", "ja": "国家" },
+        { "s": "à", "skip": true },
+        { "s": "renforcer", "lemma": "renforcer", "pos": "動詞", "ja": "強化する", "label": "不定詞" },
+        { "s": "contrôles aux frontières", "lemma": "contrôle aux frontières", "pos": "名詞句", "ja": "国境管理", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0151",
+      "text": "La mesure, longtemps attendue, n'a satisfait aucune des parties.",
+      "ja": "長らく待たれていたその措置は、どちらの側も満足させなかった。",
+      "level": "C2",
+      "tags": ["報道", "過去分詞", "複合過去"],
+      "tokens": [
+        { "s": "La", "skip": true },
+        { "s": "mesure", "lemma": "mesure", "pos": "名詞", "ja": "措置・対策" },
+        { "s": "longtemps", "lemma": "longtemps", "pos": "副詞", "ja": "長らく" },
+        { "s": "attendue", "lemma": "attendre", "pos": "動詞", "ja": "待つ", "label": "過去分詞・女性単数" },
+        { "s": "n'a satisfait", "lemma": "satisfaire", "pos": "動詞", "ja": "満足させる", "label": "複合過去・3人称単数（否定）" },
+        { "s": "aucune des parties", "lemma": "aucun de", "pos": "慣用表現", "ja": "どれも〜ない", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0152",
+      "text": "Il n'empêche que le gouvernement maintient que les chiffres valident sa gestion.",
+      "ja": "それでもなお政府は、数字が自らの運営を裏付けていると主張している。",
+      "level": "C2",
+      "tags": ["報道", "政治", "直説法現在"],
+      "grammar": "il n'empêche que は「それでもなお」。ne は否定ではなく形だけの虚辞。",
+      "tokens": [
+        { "s": "Il n'empêche que", "lemma": "il n'empêche que", "pos": "慣用表現", "ja": "それでもなお", "idiom": true, "note": "ne は否定ではなく虚辞" },
+        { "s": "le", "skip": true },
+        { "s": "gouvernement", "lemma": "gouvernement", "pos": "名詞", "ja": "政府" },
+        { "s": "maintient", "lemma": "maintenir", "pos": "動詞", "ja": "維持する・主張する", "label": "直説法現在・3人称単数" },
+        { "s": "que", "skip": true },
+        { "s": "les", "skip": true },
+        { "s": "chiffres", "lemma": "chiffre", "pos": "名詞", "ja": "数字・数値" },
+        { "s": "valident", "lemma": "valider", "pos": "動詞", "ja": "裏付ける・有効にする", "label": "直説法現在・3人称複数" },
+        { "s": "sa", "skip": true },
+        { "s": "gestion", "lemma": "gestion", "pos": "名詞", "ja": "運営・管理" }
+      ]
+    },
+    {
+      "id": "fr-0153",
+      "text": "L'accusé a nié les faits, tout en admettant avoir reçu l'argent.",
+      "ja": "被告は事実を否認したが、金銭を受け取ったことは認めた。",
+      "level": "C2",
+      "tags": ["司法", "複合過去", "現在分詞"],
+      "grammar": "tout en + 現在分詞で「〜しながらも」という譲歩。admettre + 完了不定詞で「〜したことを認める」。",
+      "tokens": [
+        { "s": "L'", "skip": true },
+        { "s": "accusé", "lemma": "accusé", "pos": "名詞", "ja": "被告" },
+        { "s": "a nié", "lemma": "nier", "pos": "動詞", "ja": "否定する", "label": "複合過去・3人称単数" },
+        { "s": "les", "skip": true },
+        { "s": "faits", "lemma": "fait", "pos": "名詞", "ja": "事実・出来事" },
+        { "s": "tout en", "lemma": "tout en + 現在分詞", "pos": "慣用表現", "ja": "〜しながらも", "idiom": true },
+        { "s": "admettant", "lemma": "admettre", "pos": "動詞", "ja": "認める", "infl": "PPRES" },
+        { "s": "avoir reçu", "lemma": "avoir + 過去分詞", "pos": "慣用表現", "ja": "〜したこと（完了不定詞）", "idiom": true },
+        { "s": "l'", "skip": true },
+        { "s": "argent", "lemma": "argent", "pos": "名詞", "ja": "お金・銀" }
+      ]
+    },
+    {
+      "id": "fr-0154",
+      "text": "D'où la décision de la commission de prolonger le délai.",
+      "ja": "そのため委員会は期限を延長することにした。",
+      "level": "C2",
+      "tags": ["報道", "名詞構文"],
+      "grammar": "d'où + 名詞は動詞を使わずに結果を示す書き言葉。論説・報道の要約でよく使う。",
+      "tokens": [
+        { "s": "D'où", "lemma": "d'où", "pos": "慣用表現", "ja": "そのため〜", "idiom": true, "note": "動詞を使わずに結果を示す文章語" },
+        { "s": "la", "skip": true },
+        { "s": "décision", "lemma": "décision", "pos": "名詞", "ja": "決定・判断" },
+        { "s": "de la", "skip": true },
+        { "s": "commission", "lemma": "commission", "pos": "名詞", "ja": "委員会" },
+        { "s": "prolonger", "lemma": "prolonger", "pos": "動詞", "ja": "延長する", "label": "不定詞" },
+        { "s": "le", "skip": true },
+        { "s": "délai", "lemma": "délai", "pos": "名詞", "ja": "期限・猶予" }
+      ]
+    },
+    {
+      "id": "fr-0155",
+      "text": "Les exportations ont progressé de cinq pour cent, selon le rapport.",
+      "ja": "報告書によれば、輸出は5パーセント増加した。",
+      "level": "C1",
+      "tags": ["報道", "経済", "複合過去"],
+      "grammar": "progresser de + 数字で増加幅を示す。統計記事の基本形。",
+      "tokens": [
+        { "s": "Les", "skip": true },
+        { "s": "exportations", "lemma": "exportation", "pos": "名詞", "ja": "輸出" },
+        { "s": "ont progressé", "lemma": "progresser", "pos": "動詞", "ja": "前進する・増加する", "label": "複合過去・3人称複数" },
+        { "s": "de cinq pour cent", "lemma": "pour cent", "pos": "名詞句", "ja": "パーセント", "idiom": true },
+        { "s": "selon", "lemma": "selon", "pos": "前置詞", "ja": "〜によれば" },
+        { "s": "le", "skip": true },
+        { "s": "rapport", "lemma": "rapport", "pos": "名詞", "ja": "報告書" }
+      ]
+    },
+    {
+      "id": "fr-0156",
+      "text": "Le décret a été abrogé sans qu'aucun débat parlementaire ait eu lieu.",
+      "ja": "議会での議論を一切経ずに、その政令は廃止された。",
+      "level": "C2",
+      "tags": ["司法", "受動態", "接続法"],
+      "grammar": "sans que のあとは接続法。avoir lieu は「行われる」。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "décret", "lemma": "décret", "pos": "名詞", "ja": "政令・布告" },
+        { "s": "a été abrogé", "lemma": "abroger", "pos": "動詞", "ja": "廃止する", "label": "受動態・複合過去・3人称単数" },
+        { "s": "sans qu'", "lemma": "sans que", "pos": "接続詞", "ja": "〜することなく", "idiom": true, "note": "後ろは必ず接続法" },
+        { "s": "aucun", "skip": true },
+        { "s": "débat parlementaire", "lemma": "débat parlementaire", "pos": "名詞句", "ja": "議会での議論", "idiom": true },
+        { "s": "ait eu lieu", "lemma": "avoir lieu", "pos": "慣用表現", "ja": "行われる", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0157",
+      "text": "Après avoir démissionné, le PDG a refusé de faire des déclarations.",
+      "ja": "辞任後、最高経営責任者は発言を拒んだ。",
+      "level": "C1",
+      "tags": ["報道", "経済", "複合過去"],
+      "grammar": "après avoir + 過去分詞で「〜した後で」。主語が同じときはこの形にする。",
+      "tokens": [
+        { "s": "Après avoir", "lemma": "après avoir + 過去分詞", "pos": "慣用表現", "ja": "〜した後で", "idiom": true },
+        { "s": "démissionné", "lemma": "démissionner", "pos": "動詞", "ja": "辞任する", "infl": "PPASSE" },
+        { "s": "le", "skip": true },
+        { "s": "PDG", "lemma": "PDG", "pos": "名詞", "ja": "最高経営責任者" },
+        { "s": "a refusé", "lemma": "refuser", "pos": "動詞", "ja": "拒む・断る", "label": "複合過去・3人称単数" },
+        { "s": "de", "skip": true },
+        { "s": "faire des déclarations", "lemma": "faire des déclarations", "pos": "慣用表現", "ja": "発言する・声明を出す", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0158",
+      "text": "On craint que la sécheresse n'aggrave la pénurie d'eau dans toute la région.",
+      "ja": "干ばつが地域全体の水不足を悪化させることが懸念されている。",
+      "level": "C2",
+      "tags": ["報道", "接続法"],
+      "grammar": "craindre que のあとの ne は否定ではなく虚辞。ここが日本人学習者のつまずきどころ。",
+      "tokens": [
+        { "s": "On", "skip": true },
+        { "s": "craint", "lemma": "craindre", "pos": "動詞", "ja": "恐れる", "infl": "PRES/3sg" },
+        { "s": "que", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "sécheresse", "lemma": "sécheresse", "pos": "名詞", "ja": "干ばつ" },
+        { "s": "n'", "skip": true, "note": "否定ではない虚辞の ne" },
+        { "s": "aggrave", "lemma": "aggraver", "pos": "動詞", "ja": "悪化させる", "infl": "SUBJ/3sg", "note": "craindre que の後ろは接続法。ne は虚辞で否定の意味は無い" },
+        { "s": "la", "skip": true },
+        { "s": "pénurie", "lemma": "pénurie", "pos": "名詞", "ja": "不足・欠乏" },
+        { "s": "d'", "skip": true },
+        { "s": "eau", "lemma": "eau", "pos": "名詞", "ja": "水" }
+      ]
+    },
+    {
+      "id": "fr-0159",
+      "text": "Loin d'atténuer la tension, le discours l'a attisée.",
+      "ja": "緊張を和らげるどころか、その演説はかえって煽った。",
+      "level": "C2",
+      "tags": ["論説", "複合過去"],
+      "grammar": "loin de + 不定詞で「〜するどころか」。論説で対比を作るときの型。",
+      "tokens": [
+        { "s": "Loin d'", "lemma": "loin de + 不定詞", "pos": "慣用表現", "ja": "〜するどころか", "idiom": true },
+        { "s": "atténuer", "lemma": "atténuer", "pos": "動詞", "ja": "緩和する", "label": "不定詞" },
+        { "s": "la", "skip": true },
+        { "s": "tension", "lemma": "tension", "pos": "名詞", "ja": "緊張" },
+        { "s": "le", "skip": true },
+        { "s": "discours", "lemma": "discours", "pos": "名詞", "ja": "演説・言説" },
+        { "s": "l'a attisée", "lemma": "attiser", "pos": "動詞", "ja": "煽る・かき立てる", "label": "複合過去・3人称単数（直接目的語の先行で女性一致）" }
+      ]
+    },
+    {
+      "id": "fr-0160",
+      "text": "Le pacte sera signé pour peu que les deux chambres le ratifient.",
+      "ja": "両院が批准しさえすれば、この協定は署名される。",
+      "level": "C2",
+      "tags": ["政治", "接続法", "単純未来"],
+      "grammar": "pour peu que は「〜しさえすれば」。後ろは必ず接続法。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "pacte", "lemma": "pacte", "pos": "名詞", "ja": "協定・盟約" },
+        { "s": "sera signé", "lemma": "signer", "pos": "動詞", "ja": "署名する", "label": "受動態・単純未来・3人称単数" },
+        { "s": "pour peu que", "lemma": "pour peu que", "pos": "慣用表現", "ja": "〜しさえすれば", "idiom": true, "note": "後ろは必ず接続法" },
+        { "s": "les deux chambres", "lemma": "les deux chambres", "pos": "名詞句", "ja": "両院", "idiom": true },
+        { "s": "le", "skip": true },
+        { "s": "ratifient", "lemma": "ratifier", "pos": "動詞", "ja": "批准する", "label": "接続法現在・3人称複数" }
+      ]
+    }
+  ]
+}

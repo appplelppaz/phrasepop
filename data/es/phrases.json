@@ -8351,6 +8351,3725 @@
         }
       ],
       "grammar": "habida cuenta de は「〜を考慮すると」という硬い書き言葉。coyuntura は「情勢・局面」。"
+    },
+    {
+      "id": "es-0121",
+      "lang": "es",
+      "text": "El ministro compareció ante la comisión para dar explicaciones.",
+      "ja": "大臣は説明のため委員会に出頭した。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "政治",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ministro",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "ministro",
+            "pos": "名詞",
+            "ja": "大臣"
+          }
+        },
+        {
+          "surface": "compareció",
+          "start": 12,
+          "end": 22,
+          "gloss": {
+            "lemma": "comparecer",
+            "pos": "動詞",
+            "ja": "出頭する・出廷する",
+            "inflection": {
+              "label": "直説法点過去・3人称単数",
+              "tense": "IND_PRET",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "ante",
+          "start": 23,
+          "end": 27,
+          "gloss": {
+            "lemma": "ante",
+            "pos": "前置詞",
+            "ja": "〜の前に・〜に対して"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 28,
+          "end": 30
+        },
+        {
+          "surface": "comisión",
+          "start": 31,
+          "end": 39,
+          "gloss": {
+            "lemma": "comisión",
+            "pos": "名詞",
+            "ja": "委員会"
+          }
+        },
+        {
+          "surface": "dar explicaciones",
+          "start": 45,
+          "end": 62,
+          "gloss": {
+            "lemma": "dar explicaciones",
+            "pos": "慣用表現",
+            "ja": "説明する・釈明する",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "comparecer ante は「〜の前に出頭する」。議会・司法の報道で必ず出る。"
+    },
+    {
+      "id": "es-0122",
+      "lang": "es",
+      "text": "Según fuentes cercanas, el presidente dimitiría antes de fin de mes.",
+      "ja": "関係筋によれば、大統領は月末までに辞任する見通しだ。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "政治",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Según",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "según",
+            "pos": "前置詞",
+            "ja": "〜によれば"
+          }
+        },
+        {
+          "surface": "fuentes cercanas",
+          "start": 6,
+          "end": 22,
+          "gloss": {
+            "lemma": "fuentes cercanas",
+            "pos": "名詞句",
+            "ja": "関係筋・近い筋",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "el",
+          "start": 24,
+          "end": 26
+        },
+        {
+          "surface": "presidente",
+          "start": 27,
+          "end": 37,
+          "gloss": {
+            "lemma": "presidente",
+            "pos": "名詞",
+            "ja": "大統領・議長"
+          }
+        },
+        {
+          "surface": "dimitiría",
+          "start": 38,
+          "end": 47,
+          "gloss": {
+            "lemma": "dimitir",
+            "pos": "動詞",
+            "ja": "辞任する",
+            "note": "報道の条件法。未確認情報であることを示す",
+            "inflection": {
+              "label": "条件法現在・3人称単数",
+              "tense": "COND",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "antes de",
+          "start": 48,
+          "end": 56
+        },
+        {
+          "surface": "fin de mes",
+          "start": 57,
+          "end": 67,
+          "gloss": {
+            "lemma": "fin de mes",
+            "pos": "名詞句",
+            "ja": "月末",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "未確認情報を伝えるとき、報道は条件法を使う。「〜らしい・〜という」の含みが出る。"
+    },
+    {
+      "id": "es-0123",
+      "lang": "es",
+      "text": "La fiscalía habría imputado a tres altos cargos por malversación.",
+      "ja": "検察は3人の高官を横領で訴追したもようだ。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "司法",
+        "条件法完了"
+      ],
+      "tokens": [
+        {
+          "surface": "La",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "fiscalía",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "fiscalía",
+            "pos": "名詞",
+            "ja": "検察・検察庁"
+          }
+        },
+        {
+          "surface": "habría imputado",
+          "start": 12,
+          "end": 27,
+          "gloss": {
+            "lemma": "imputar",
+            "pos": "動詞",
+            "ja": "訴追する・帰責する",
+            "note": "未確認の過去を伝える報道の型",
+            "inflection": {
+              "label": "条件法完了・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "a",
+          "start": 28,
+          "end": 29
+        },
+        {
+          "surface": "tres",
+          "start": 30,
+          "end": 34
+        },
+        {
+          "surface": "altos cargos",
+          "start": 35,
+          "end": 47,
+          "gloss": {
+            "lemma": "alto cargo",
+            "pos": "名詞句",
+            "ja": "高官・幹部",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "por",
+          "start": 48,
+          "end": 51
+        },
+        {
+          "surface": "malversación",
+          "start": 52,
+          "end": 64,
+          "gloss": {
+            "lemma": "malversación",
+            "pos": "名詞",
+            "ja": "横領・使い込み"
+          }
+        }
+      ],
+      "grammar": "条件法完了も未確認の過去を伝えるのに使う。「〜したもようだ」にあたる。"
+    },
+    {
+      "id": "es-0124",
+      "lang": "es",
+      "text": "El Ejecutivo esgrimió razones de seguridad para zanjar el debate.",
+      "ja": "政府は安全上の理由を持ち出して議論に決着をつけた。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "政治",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "Ejecutivo",
+          "start": 3,
+          "end": 12,
+          "gloss": {
+            "lemma": "ejecutivo",
+            "pos": "名詞",
+            "ja": "政府・行政府"
+          }
+        },
+        {
+          "surface": "esgrimió",
+          "start": 13,
+          "end": 21,
+          "gloss": {
+            "lemma": "esgrimir",
+            "pos": "動詞",
+            "ja": "振りかざす・論拠にする",
+            "note": "批判的な含みを伴うことが多い",
+            "inflection": {
+              "label": "直説法点過去・3人称単数",
+              "tense": "IND_PRET",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "razones de seguridad",
+          "start": 22,
+          "end": 42,
+          "gloss": {
+            "lemma": "razones de seguridad",
+            "pos": "名詞句",
+            "ja": "安全上の理由",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "para",
+          "start": 43,
+          "end": 47
+        },
+        {
+          "surface": "zanjar",
+          "start": 48,
+          "end": 54,
+          "gloss": {
+            "lemma": "zanjar",
+            "pos": "動詞",
+            "ja": "決着をつける",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "el",
+          "start": 55,
+          "end": 57
+        },
+        {
+          "surface": "debate",
+          "start": 58,
+          "end": 64,
+          "gloss": {
+            "lemma": "debate",
+            "pos": "名詞",
+            "ja": "議論・討論"
+          }
+        }
+      ],
+      "grammar": "esgrimir は「（論拠を）振りかざす」。批判的な含みを伴うことが多い。"
+    },
+    {
+      "id": "es-0125",
+      "lang": "es",
+      "text": "Cuando estalló la crisis, el banco ya había recortado la plantilla.",
+      "ja": "危機が表面化したときには、銀行はすでに人員を削減していた。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "経済",
+        "直説法過去完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Cuando",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "cuando",
+            "pos": "接続詞",
+            "ja": "〜のとき"
+          }
+        },
+        {
+          "surface": "estalló",
+          "start": 7,
+          "end": 14,
+          "gloss": {
+            "lemma": "estallar",
+            "pos": "動詞",
+            "ja": "勃発する・爆発する",
+            "inflection": {
+              "label": "直説法点過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 15,
+          "end": 17
+        },
+        {
+          "surface": "crisis",
+          "start": 18,
+          "end": 24,
+          "gloss": {
+            "lemma": "crisis",
+            "pos": "名詞",
+            "ja": "危機"
+          }
+        },
+        {
+          "surface": "el",
+          "start": 26,
+          "end": 28
+        },
+        {
+          "surface": "banco",
+          "start": 29,
+          "end": 34,
+          "gloss": {
+            "lemma": "banco",
+            "pos": "名詞",
+            "ja": "銀行"
+          }
+        },
+        {
+          "surface": "ya",
+          "start": 35,
+          "end": 37,
+          "gloss": {
+            "lemma": "ya",
+            "pos": "副詞",
+            "ja": "すでに"
+          }
+        },
+        {
+          "surface": "había recortado",
+          "start": 38,
+          "end": 53,
+          "gloss": {
+            "lemma": "recortar",
+            "pos": "動詞",
+            "ja": "削減する・切り取る",
+            "inflection": {
+              "label": "直説法過去完了・3人称単数",
+              "tense": "IND_PLUP",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 54,
+          "end": 56
+        },
+        {
+          "surface": "plantilla",
+          "start": 57,
+          "end": 66,
+          "gloss": {
+            "lemma": "plantilla",
+            "pos": "名詞",
+            "ja": "従業員・人員"
+          }
+        }
+      ],
+      "grammar": "過去のある時点より前に完了していたことを示す過去完了。報道の時系列説明に頻出。"
+    },
+    {
+      "id": "es-0126",
+      "lang": "es",
+      "text": "No es que el paro haya bajado, sino que mucha gente ha dejado de buscar.",
+      "ja": "失業が減ったのではなく、多くの人が職探しをやめただけだ。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "経済",
+        "接続法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "No es que",
+          "start": 0,
+          "end": 9,
+          "gloss": {
+            "lemma": "no es que",
+            "pos": "慣用表現",
+            "ja": "〜というわけではない",
+            "idiom": true,
+            "note": "後ろは接続法"
+          }
+        },
+        {
+          "surface": "el",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "surface": "paro",
+          "start": 13,
+          "end": 17,
+          "gloss": {
+            "lemma": "paro",
+            "pos": "名詞",
+            "ja": "失業・失業率"
+          }
+        },
+        {
+          "surface": "haya bajado",
+          "start": 18,
+          "end": 29,
+          "gloss": {
+            "lemma": "bajar",
+            "pos": "動詞",
+            "ja": "下りる・下がる",
+            "inflection": {
+              "label": "接続法現在完了・3人称単数",
+              "tense": "SUBJ_PERF",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "sino que",
+          "start": 31,
+          "end": 39,
+          "gloss": {
+            "lemma": "sino que",
+            "pos": "接続詞",
+            "ja": "そうではなく〜",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "mucha gente",
+          "start": 40,
+          "end": 51,
+          "gloss": {
+            "lemma": "mucha gente",
+            "pos": "名詞句",
+            "ja": "多くの人",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "ha dejado",
+          "start": 52,
+          "end": 61,
+          "gloss": {
+            "lemma": "dejar",
+            "pos": "動詞",
+            "ja": "置いていく・やめる",
+            "inflection": {
+              "label": "直説法現在完了・3人称単数",
+              "tense": "IND_PERF",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "de",
+          "start": 62,
+          "end": 64
+        },
+        {
+          "surface": "buscar",
+          "start": 65,
+          "end": 71,
+          "gloss": {
+            "lemma": "buscar",
+            "pos": "動詞",
+            "ja": "探す",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ],
+      "grammar": "no es que + 接続法, sino que + 直説法。前半を否定して後半で言い直す型。"
+    },
+    {
+      "id": "es-0127",
+      "lang": "es",
+      "text": "El acuerdo, blindado por ambas partes, entrará en vigor en enero.",
+      "ja": "双方が守りを固めたこの協定は、1月に発効する。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "国際",
+        "過去分詞",
+        "直説法未来"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "acuerdo",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "acuerdo",
+            "pos": "名詞",
+            "ja": "協定・合意"
+          }
+        },
+        {
+          "surface": "blindado",
+          "start": 12,
+          "end": 20,
+          "gloss": {
+            "lemma": "blindar",
+            "pos": "動詞",
+            "ja": "保護する・守りを固める",
+            "note": "挿入句で名詞を修飾する",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PART"
+            }
+          }
+        },
+        {
+          "surface": "por",
+          "start": 21,
+          "end": 24
+        },
+        {
+          "surface": "ambas partes",
+          "start": 25,
+          "end": 37,
+          "gloss": {
+            "lemma": "ambas partes",
+            "pos": "名詞句",
+            "ja": "双方",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "entrará en vigor",
+          "start": 39,
+          "end": 55,
+          "gloss": {
+            "lemma": "entrar en vigor",
+            "pos": "慣用表現",
+            "ja": "発効する",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "en",
+          "start": 56,
+          "end": 58
+        },
+        {
+          "surface": "enero",
+          "start": 59,
+          "end": 64,
+          "gloss": {
+            "lemma": "enero",
+            "pos": "名詞",
+            "ja": "1月"
+          }
+        }
+      ],
+      "grammar": "過去分詞を挿入句にして名詞を修飾する書き言葉の型。entrar en vigor で「発効する」。"
+    },
+    {
+      "id": "es-0128",
+      "lang": "es",
+      "text": "Los sindicatos vienen exigiendo una subida salarial desde hace meses.",
+      "ja": "労働組合は数か月前から賃上げを要求し続けている。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "経済",
+        "現在分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Los",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "sindicatos",
+          "start": 4,
+          "end": 14,
+          "gloss": {
+            "lemma": "sindicato",
+            "pos": "名詞",
+            "ja": "労働組合"
+          }
+        },
+        {
+          "surface": "vienen",
+          "start": 15,
+          "end": 21,
+          "gloss": {
+            "lemma": "venir",
+            "pos": "動詞",
+            "ja": "来る",
+            "note": "venir + 現在分詞で継続を表す",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "IND_PRES",
+              "person": "3pl",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が ie に変わる（ven- → vien-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "exigiendo",
+          "start": 22,
+          "end": 31,
+          "gloss": {
+            "lemma": "exigir",
+            "pos": "動詞",
+            "ja": "要求する",
+            "inflection": {
+              "label": "現在分詞"
+            }
+          }
+        },
+        {
+          "surface": "una",
+          "start": 32,
+          "end": 35
+        },
+        {
+          "surface": "subida salarial",
+          "start": 36,
+          "end": 51,
+          "gloss": {
+            "lemma": "subida salarial",
+            "pos": "名詞句",
+            "ja": "賃上げ",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "desde hace meses",
+          "start": 52,
+          "end": 68,
+          "gloss": {
+            "lemma": "desde hace",
+            "pos": "慣用表現",
+            "ja": "〜前から",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "venir + 現在分詞で「以前から〜し続けている」。estar + 現在分詞より継続の含みが強い。"
+    },
+    {
+      "id": "es-0129",
+      "lang": "es",
+      "text": "El tribunal acató la resolución aunque la considerara improcedente.",
+      "ja": "裁判所は不当と考えながらもその決定に従った。",
+      "level": "C2",
+      "tags": [
+        "司法",
+        "接続法過去",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "tribunal",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "tribunal",
+            "pos": "名詞",
+            "ja": "裁判所・法廷"
+          }
+        },
+        {
+          "surface": "acató",
+          "start": 12,
+          "end": 17,
+          "gloss": {
+            "lemma": "acatar",
+            "pos": "動詞",
+            "ja": "従う・遵守する",
+            "inflection": {
+              "label": "直説法点過去・3人称単数",
+              "tense": "IND_PRET",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 18,
+          "end": 20
+        },
+        {
+          "surface": "resolución",
+          "start": 21,
+          "end": 31,
+          "gloss": {
+            "lemma": "resolución",
+            "pos": "名詞",
+            "ja": "決定・決議"
+          }
+        },
+        {
+          "surface": "aunque",
+          "start": 32,
+          "end": 38,
+          "gloss": {
+            "lemma": "aunque",
+            "pos": "接続詞",
+            "ja": "〜だけれども"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 39,
+          "end": 41
+        },
+        {
+          "surface": "considerara",
+          "start": 42,
+          "end": 53,
+          "gloss": {
+            "lemma": "considerar",
+            "pos": "動詞",
+            "ja": "考慮する・みなす",
+            "inflection": {
+              "label": "接続法過去・3人称単数",
+              "tense": "SUBJ_IMPF",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "improcedente",
+          "start": 54,
+          "end": 66,
+          "gloss": {
+            "lemma": "improcedente",
+            "pos": "形容詞",
+            "ja": "不当な・不適切な"
+          }
+        }
+      ],
+      "grammar": "aunque + 接続法過去で「〜と考えていたにもかかわらず」。譲歩に接続法を使うと事実を前面に出さない。"
+    },
+    {
+      "id": "es-0130",
+      "lang": "es",
+      "text": "Se recabaron pruebas suficientes para sostener la acusación.",
+      "ja": "起訴を支えるだけの証拠が収集された。",
+      "level": "C1",
+      "tags": [
+        "司法",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Se",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "recabaron",
+          "start": 3,
+          "end": 12,
+          "gloss": {
+            "lemma": "recabar",
+            "pos": "動詞",
+            "ja": "収集する・要請する",
+            "note": "se + 3人称で行為者を示さない受動",
+            "inflection": {
+              "label": "直説法点過去・3人称複数",
+              "tense": "IND_PRET",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "pruebas",
+          "start": 13,
+          "end": 20,
+          "gloss": {
+            "lemma": "prueba",
+            "pos": "名詞",
+            "ja": "証拠・試験"
+          }
+        },
+        {
+          "surface": "suficientes",
+          "start": 21,
+          "end": 32,
+          "gloss": {
+            "lemma": "suficiente",
+            "pos": "形容詞",
+            "ja": "十分な",
+            "inflection": {
+              "label": "複数"
+            }
+          }
+        },
+        {
+          "surface": "para",
+          "start": 33,
+          "end": 37
+        },
+        {
+          "surface": "sostener",
+          "start": 38,
+          "end": 46,
+          "gloss": {
+            "lemma": "sostener",
+            "pos": "動詞",
+            "ja": "支える・主張する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 47,
+          "end": 49
+        },
+        {
+          "surface": "acusación",
+          "start": 50,
+          "end": 59,
+          "gloss": {
+            "lemma": "acusación",
+            "pos": "名詞",
+            "ja": "起訴・非難"
+          }
+        }
+      ],
+      "grammar": "se + 3人称は行為者を示さない受動。公文書・報道の基本形。"
+    },
+    {
+      "id": "es-0131",
+      "lang": "es",
+      "text": "De no mediar un acuerdo, la huelga se prolongaría indefinidamente.",
+      "ja": "合意が成立しなければ、ストは無期限に長引くことになる。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "De no mediar",
+          "start": 0,
+          "end": 12,
+          "gloss": {
+            "lemma": "de no + 不定詞",
+            "pos": "慣用表現",
+            "ja": "〜しなければ",
+            "idiom": true,
+            "note": "si 節の代わりに使う文章語"
+          }
+        },
+        {
+          "surface": "un",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "surface": "acuerdo",
+          "start": 16,
+          "end": 23,
+          "gloss": {
+            "lemma": "acuerdo",
+            "pos": "名詞",
+            "ja": "協定・合意"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 25,
+          "end": 27
+        },
+        {
+          "surface": "huelga",
+          "start": 28,
+          "end": 34,
+          "gloss": {
+            "lemma": "huelga",
+            "pos": "名詞",
+            "ja": "ストライキ"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 35,
+          "end": 37
+        },
+        {
+          "surface": "prolongaría",
+          "start": 38,
+          "end": 49,
+          "gloss": {
+            "lemma": "prolongar",
+            "pos": "動詞",
+            "ja": "長引かせる・延長する",
+            "inflection": {
+              "label": "条件法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "indefinidamente",
+          "start": 50,
+          "end": 65,
+          "gloss": {
+            "lemma": "indefinidamente",
+            "pos": "副詞",
+            "ja": "無期限に"
+          }
+        }
+      ],
+      "grammar": "de no + 不定詞は「もし〜しなければ」という条件節の書き言葉版。"
+    },
+    {
+      "id": "es-0132",
+      "lang": "es",
+      "text": "La oposición exige que el Gobierno rinda cuentas cuanto antes.",
+      "ja": "野党は政府に一刻も早い説明責任を求めている。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "政治",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "La",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "oposición",
+          "start": 3,
+          "end": 12,
+          "gloss": {
+            "lemma": "oposición",
+            "pos": "名詞",
+            "ja": "野党・反対"
+          }
+        },
+        {
+          "surface": "exige",
+          "start": 13,
+          "end": 18,
+          "gloss": {
+            "lemma": "exigir",
+            "pos": "動詞",
+            "ja": "要求する",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 19,
+          "end": 22
+        },
+        {
+          "surface": "el",
+          "start": 23,
+          "end": 25
+        },
+        {
+          "surface": "Gobierno",
+          "start": 26,
+          "end": 34,
+          "gloss": {
+            "lemma": "gobierno",
+            "pos": "名詞",
+            "ja": "政府"
+          }
+        },
+        {
+          "surface": "rinda",
+          "start": 35,
+          "end": 40,
+          "gloss": {
+            "lemma": "rendir",
+            "pos": "動詞",
+            "ja": "生む・果たす・屈服させる",
+            "inflection": {
+              "label": "接続法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "cuentas",
+          "start": 41,
+          "end": 48,
+          "gloss": {
+            "lemma": "rendir cuentas",
+            "pos": "慣用表現",
+            "ja": "説明責任を果たす",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "cuanto antes",
+          "start": 49,
+          "end": 61,
+          "gloss": {
+            "lemma": "cuanto antes",
+            "pos": "慣用表現",
+            "ja": "一刻も早く",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "exigir que は要求なので後ろは接続法。rendir cuentas で「説明責任を果たす」。"
+    },
+    {
+      "id": "es-0133",
+      "lang": "es",
+      "text": "El déficit se ha disparado pese a los recortes aprobados el año pasado.",
+      "ja": "昨年可決された削減策にもかかわらず、赤字は急増している。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "経済",
+        "直説法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "déficit",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "déficit",
+            "pos": "名詞",
+            "ja": "赤字・不足"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 11,
+          "end": 13
+        },
+        {
+          "surface": "ha disparado",
+          "start": 14,
+          "end": 26,
+          "gloss": {
+            "lemma": "disparar",
+            "pos": "動詞",
+            "ja": "発射する・（再帰で）急騰する",
+            "inflection": {
+              "label": "直説法現在完了・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "pese a",
+          "start": 27,
+          "end": 33,
+          "gloss": {
+            "lemma": "pese a",
+            "pos": "前置詞句",
+            "ja": "〜にもかかわらず",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "los",
+          "start": 34,
+          "end": 37
+        },
+        {
+          "surface": "recortes",
+          "start": 38,
+          "end": 46,
+          "gloss": {
+            "lemma": "recorte",
+            "pos": "名詞",
+            "ja": "削減・切り取り"
+          }
+        },
+        {
+          "surface": "aprobados",
+          "start": 47,
+          "end": 56,
+          "gloss": {
+            "lemma": "aprobar",
+            "pos": "動詞",
+            "ja": "承認する・可決する",
+            "inflection": {
+              "label": "過去分詞・男性複数"
+            }
+          }
+        }
+      ],
+      "grammar": "pese a は a pesar de の短い書き言葉版。dispararse で「急騰する」。"
+    },
+    {
+      "id": "es-0134",
+      "lang": "es",
+      "text": "Nadie previó que el conflicto se recrudeciera tan rápido.",
+      "ja": "紛争がこれほど早く激化するとは誰も予想しなかった。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "国際",
+        "接続法過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Nadie",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "nadie",
+            "pos": "代名詞",
+            "ja": "誰も〜ない"
+          }
+        },
+        {
+          "surface": "previó",
+          "start": 6,
+          "end": 12,
+          "gloss": {
+            "lemma": "prever",
+            "pos": "動詞",
+            "ja": "予測する・見込む",
+            "inflection": {
+              "label": "直説法点過去・3人称単数",
+              "tense": "IND_PRET",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 13,
+          "end": 16
+        },
+        {
+          "surface": "el",
+          "start": 17,
+          "end": 19
+        },
+        {
+          "surface": "conflicto",
+          "start": 20,
+          "end": 29,
+          "gloss": {
+            "lemma": "conflicto",
+            "pos": "名詞",
+            "ja": "紛争・対立"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 30,
+          "end": 32
+        },
+        {
+          "surface": "recrudeciera",
+          "start": 33,
+          "end": 45,
+          "gloss": {
+            "lemma": "recrudecer",
+            "pos": "動詞",
+            "ja": "激化する・再燃する",
+            "inflection": {
+              "label": "接続法過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "tan",
+          "start": 46,
+          "end": 49
+        },
+        {
+          "surface": "rápido",
+          "start": 50,
+          "end": 56,
+          "gloss": {
+            "lemma": "rápido",
+            "pos": "副詞",
+            "ja": "速く"
+          }
+        }
+      ],
+      "grammar": "主節が過去で否定されているため、従属節は接続法過去になる。"
+    },
+    {
+      "id": "es-0135",
+      "lang": "es",
+      "text": "La cifra contrasta con la registrada en el mismo periodo del año anterior.",
+      "ja": "この数字は前年同期に記録された値と対照的だ。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "経済",
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "La",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "cifra",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "cifra",
+            "pos": "名詞",
+            "ja": "数字・数値"
+          }
+        },
+        {
+          "surface": "contrasta",
+          "start": 9,
+          "end": 18,
+          "gloss": {
+            "lemma": "contrastar",
+            "pos": "動詞",
+            "ja": "対照をなす・照合する",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "con",
+          "start": 19,
+          "end": 22
+        },
+        {
+          "surface": "la registrada",
+          "start": 23,
+          "end": 36,
+          "gloss": {
+            "lemma": "registrar",
+            "pos": "動詞",
+            "ja": "記録する・登録する",
+            "note": "定冠詞 + 過去分詞で「記録されたもの」",
+            "inflection": {
+              "label": "過去分詞・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "en el mismo periodo",
+          "start": 37,
+          "end": 56,
+          "gloss": {
+            "lemma": "en el mismo periodo",
+            "pos": "慣用表現",
+            "ja": "同期に",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "del",
+          "start": 57,
+          "end": 60
+        },
+        {
+          "surface": "año anterior",
+          "start": 61,
+          "end": 73,
+          "gloss": {
+            "lemma": "año anterior",
+            "pos": "名詞句",
+            "ja": "前年",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "定冠詞 + 過去分詞で「〜されたもの」を表す。統計記事で名詞の繰り返しを避ける型。"
+    },
+    {
+      "id": "es-0136",
+      "lang": "es",
+      "text": "Se da por hecho que el pacto no prosperará sin apoyo parlamentario.",
+      "ja": "議会の支持なしにはこの協定が成立しないことは既定路線とみられている。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "政治",
+        "直説法未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Se",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "da por hecho que",
+          "start": 3,
+          "end": 19,
+          "gloss": {
+            "lemma": "dar por hecho que",
+            "pos": "慣用表現",
+            "ja": "〜を既定のこととみなす",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "el",
+          "start": 20,
+          "end": 22
+        },
+        {
+          "surface": "pacto",
+          "start": 23,
+          "end": 28,
+          "gloss": {
+            "lemma": "pacto",
+            "pos": "名詞",
+            "ja": "協定・盟約"
+          }
+        },
+        {
+          "surface": "no",
+          "start": 29,
+          "end": 31
+        },
+        {
+          "surface": "prosperará",
+          "start": 32,
+          "end": 42,
+          "gloss": {
+            "lemma": "prosperar",
+            "pos": "動詞",
+            "ja": "成功する・（法案が）通る",
+            "inflection": {
+              "label": "直説法未来・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "sin",
+          "start": 43,
+          "end": 46
+        },
+        {
+          "surface": "apoyo parlamentario",
+          "start": 47,
+          "end": 66,
+          "gloss": {
+            "lemma": "apoyo parlamentario",
+            "pos": "名詞句",
+            "ja": "議会の支持",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "dar por hecho que は「〜を既定のことと考える」。se を付けて無人称にしている。"
+    },
+    {
+      "id": "es-0137",
+      "lang": "es",
+      "text": "El informe evidencia que las emisiones no han descendido lo suficiente.",
+      "ja": "報告書は排出量が十分に減っていないことを明らかにしている。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "直説法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "informe",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "informe",
+            "pos": "名詞",
+            "ja": "報告書・レポート"
+          }
+        },
+        {
+          "surface": "evidencia",
+          "start": 11,
+          "end": 20,
+          "gloss": {
+            "lemma": "evidenciar",
+            "pos": "動詞",
+            "ja": "明らかにする",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 21,
+          "end": 24
+        },
+        {
+          "surface": "las",
+          "start": 25,
+          "end": 28
+        },
+        {
+          "surface": "emisiones",
+          "start": 29,
+          "end": 38,
+          "gloss": {
+            "lemma": "emisión",
+            "pos": "名詞",
+            "ja": "排出・放送"
+          }
+        },
+        {
+          "surface": "no",
+          "start": 39,
+          "end": 41
+        },
+        {
+          "surface": "han descendido",
+          "start": 42,
+          "end": 56,
+          "gloss": {
+            "lemma": "descender",
+            "pos": "動詞",
+            "ja": "下降する・下がる",
+            "inflection": {
+              "label": "直説法現在完了・3人称複数",
+              "tense": "IND_PERF",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "lo suficiente",
+          "start": 57,
+          "end": 70,
+          "gloss": {
+            "lemma": "lo suficiente",
+            "pos": "慣用表現",
+            "ja": "十分なだけ",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0138",
+      "lang": "es",
+      "text": "Habría bastado con que el organismo hubiera advertido a tiempo.",
+      "ja": "その機関が早めに警告してさえいれば十分だったはずだ。",
+      "level": "C2",
+      "tags": [
+        "論説",
+        "接続法過去完了",
+        "条件法完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Habría bastado",
+          "start": 0,
+          "end": 14,
+          "gloss": {
+            "lemma": "bastar",
+            "pos": "動詞",
+            "ja": "足りる・十分である",
+            "inflection": {
+              "label": "条件法完了・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "con que",
+          "start": 15,
+          "end": 22
+        },
+        {
+          "surface": "el",
+          "start": 23,
+          "end": 25
+        },
+        {
+          "surface": "organismo",
+          "start": 26,
+          "end": 35,
+          "gloss": {
+            "lemma": "organismo",
+            "pos": "名詞",
+            "ja": "機関・組織"
+          }
+        },
+        {
+          "surface": "hubiera advertido",
+          "start": 36,
+          "end": 53,
+          "gloss": {
+            "lemma": "advertir",
+            "pos": "動詞",
+            "ja": "警告する・気づく",
+            "inflection": {
+              "label": "接続法過去完了・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "a tiempo",
+          "start": 54,
+          "end": 62,
+          "gloss": {
+            "lemma": "a tiempo",
+            "pos": "慣用表現",
+            "ja": "間に合って・早めに",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "bastar con que + 接続法。過去の反実仮想なので接続法過去完了と条件法完了が組む。"
+    },
+    {
+      "id": "es-0139",
+      "lang": "es",
+      "text": "Los datos, recabados durante dos años, aún están por publicar.",
+      "ja": "2年かけて集められたデータは、まだ公表されていない。",
+      "level": "C2",
+      "tags": [
+        "学術",
+        "報道",
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Los",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "datos",
+          "start": 4,
+          "end": 9,
+          "gloss": {
+            "lemma": "dato",
+            "pos": "名詞",
+            "ja": "データ・資料"
+          }
+        },
+        {
+          "surface": "recabados",
+          "start": 11,
+          "end": 20,
+          "gloss": {
+            "lemma": "recabar",
+            "pos": "動詞",
+            "ja": "収集する・要請する",
+            "inflection": {
+              "label": "過去分詞・男性複数"
+            }
+          }
+        },
+        {
+          "surface": "durante",
+          "start": 21,
+          "end": 28
+        },
+        {
+          "surface": "dos años",
+          "start": 29,
+          "end": 37,
+          "gloss": {
+            "lemma": "año",
+            "pos": "名詞",
+            "ja": "年"
+          }
+        },
+        {
+          "surface": "aún",
+          "start": 39,
+          "end": 42,
+          "gloss": {
+            "lemma": "aún",
+            "pos": "副詞",
+            "ja": "まだ"
+          }
+        },
+        {
+          "surface": "están por",
+          "start": 43,
+          "end": 52,
+          "gloss": {
+            "lemma": "estar por + 不定詞",
+            "pos": "慣用表現",
+            "ja": "まだ〜されていない",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "publicar",
+          "start": 53,
+          "end": 61,
+          "gloss": {
+            "lemma": "publicar",
+            "pos": "動詞",
+            "ja": "公表する・出版する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ],
+      "grammar": "estar por + 不定詞で「まだ〜されていない」。挿入句の過去分詞と組み合わせている。"
+    },
+    {
+      "id": "es-0140",
+      "lang": "es",
+      "text": "El portavoz se limitó a decir que el asunto seguía bajo investigación.",
+      "ja": "報道官は、その件は捜査中だと述べるにとどめた。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "直説法点過去",
+        "直説法線過去"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "portavoz",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "portavoz",
+            "pos": "名詞",
+            "ja": "報道官"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "limitó",
+          "start": 15,
+          "end": 21,
+          "gloss": {
+            "lemma": "limitar",
+            "pos": "動詞",
+            "ja": "制限する・（再帰で）〜にとどめる",
+            "inflection": {
+              "label": "直説法点過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "a",
+          "start": 22,
+          "end": 23
+        },
+        {
+          "surface": "decir",
+          "start": 24,
+          "end": 29,
+          "gloss": {
+            "lemma": "decir",
+            "pos": "動詞",
+            "ja": "言う",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 30,
+          "end": 33
+        },
+        {
+          "surface": "el",
+          "start": 34,
+          "end": 36
+        },
+        {
+          "surface": "asunto",
+          "start": 37,
+          "end": 43,
+          "gloss": {
+            "lemma": "asunto",
+            "pos": "名詞",
+            "ja": "件・事柄"
+          }
+        },
+        {
+          "surface": "seguía",
+          "start": 44,
+          "end": 50,
+          "gloss": {
+            "lemma": "seguir",
+            "pos": "動詞",
+            "ja": "続ける・ついていく",
+            "inflection": {
+              "label": "直説法線過去・3人称単数",
+              "tense": "IND_IMPF",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "bajo investigación",
+          "start": 51,
+          "end": 69,
+          "gloss": {
+            "lemma": "bajo investigación",
+            "pos": "慣用表現",
+            "ja": "捜査中で",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "limitarse a + 不定詞で「〜するにとどめる」。時制の一致で従属節は線過去。"
+    },
+    {
+      "id": "es-0141",
+      "lang": "es",
+      "text": "Por muy contundentes que sean las pruebas, la defensa las cuestionará.",
+      "ja": "証拠がどれほど決定的でも、弁護側はそれに異議を唱えるだろう。",
+      "level": "C2",
+      "tags": [
+        "司法",
+        "接続法現在",
+        "直説法未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Por muy",
+          "start": 0,
+          "end": 7,
+          "gloss": {
+            "lemma": "por muy... que",
+            "pos": "慣用表現",
+            "ja": "どれほど〜でも",
+            "idiom": true,
+            "note": "後ろは接続法"
+          }
+        },
+        {
+          "surface": "contundentes",
+          "start": 8,
+          "end": 20,
+          "gloss": {
+            "lemma": "contundente",
+            "pos": "形容詞",
+            "ja": "決定的な・有無を言わせぬ",
+            "inflection": {
+              "label": "複数"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 21,
+          "end": 24
+        },
+        {
+          "surface": "sean",
+          "start": 25,
+          "end": 29,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "接続法現在・3人称複数",
+              "tense": "SUBJ_PRES",
+              "person": "3pl",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（s- → se-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "las",
+          "start": 30,
+          "end": 33
+        },
+        {
+          "surface": "pruebas",
+          "start": 34,
+          "end": 41,
+          "gloss": {
+            "lemma": "prueba",
+            "pos": "名詞",
+            "ja": "証拠・試験"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 43,
+          "end": 45
+        },
+        {
+          "surface": "defensa",
+          "start": 46,
+          "end": 53,
+          "gloss": {
+            "lemma": "defensa",
+            "pos": "名詞",
+            "ja": "弁護・防御"
+          }
+        },
+        {
+          "surface": "las",
+          "start": 54,
+          "end": 57
+        },
+        {
+          "surface": "cuestionará",
+          "start": 58,
+          "end": 69,
+          "gloss": {
+            "lemma": "cuestionar",
+            "pos": "動詞",
+            "ja": "疑問を投げかける",
+            "inflection": {
+              "label": "直説法未来・3人称単数",
+              "tense": "IND_FUT",
+              "person": "3sg"
+            }
+          }
+        }
+      ],
+      "grammar": "por muy + 形容詞 + que + 接続法で「どれほど〜でも」。"
+    },
+    {
+      "id": "es-0142",
+      "lang": "es",
+      "text": "La reforma quedó en papel mojado tras la negativa del Senado.",
+      "ja": "上院の拒否により、改革は絵に描いた餅に終わった。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "政治",
+        "熟語",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "La",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "reforma",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "reforma",
+            "pos": "名詞",
+            "ja": "改革"
+          }
+        },
+        {
+          "surface": "quedó",
+          "start": 11,
+          "end": 16,
+          "gloss": {
+            "lemma": "quedar",
+            "pos": "動詞",
+            "ja": "残る・〜のままになる",
+            "inflection": {
+              "label": "直説法点過去・3人称単数",
+              "tense": "IND_PRET",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "en papel mojado",
+          "start": 17,
+          "end": 32,
+          "gloss": {
+            "lemma": "quedar en papel mojado",
+            "pos": "慣用表現",
+            "ja": "絵に描いた餅に終わる",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "tras",
+          "start": 33,
+          "end": 37,
+          "gloss": {
+            "lemma": "tras",
+            "pos": "前置詞",
+            "ja": "〜の後で"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 38,
+          "end": 40
+        },
+        {
+          "surface": "negativa",
+          "start": 41,
+          "end": 49,
+          "gloss": {
+            "lemma": "negativa",
+            "pos": "名詞",
+            "ja": "拒否・否認"
+          }
+        },
+        {
+          "surface": "del",
+          "start": 50,
+          "end": 53
+        },
+        {
+          "surface": "Senado",
+          "start": 54,
+          "end": 60,
+          "gloss": {
+            "lemma": "Senado",
+            "pos": "固有名詞",
+            "ja": "上院"
+          }
+        }
+      ],
+      "grammar": "quedar en papel mojado は「実行されずに終わる」。tras は después de の書き言葉版。"
+    },
+    {
+      "id": "es-0143",
+      "lang": "es",
+      "text": "Se estima que el impacto ascendería a varios miles de millones.",
+      "ja": "影響額は数十億に上るとみられている。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "経済",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Se estima que",
+          "start": 0,
+          "end": 13,
+          "gloss": {
+            "lemma": "se estima que",
+            "pos": "慣用表現",
+            "ja": "〜と見積もられている",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "el",
+          "start": 14,
+          "end": 16
+        },
+        {
+          "surface": "impacto",
+          "start": 17,
+          "end": 24,
+          "gloss": {
+            "lemma": "impacto",
+            "pos": "名詞",
+            "ja": "影響・衝撃"
+          }
+        },
+        {
+          "surface": "ascendería",
+          "start": 25,
+          "end": 35,
+          "gloss": {
+            "lemma": "ascender",
+            "pos": "動詞",
+            "ja": "上る・昇進する",
+            "note": "推定を弱める条件法",
+            "inflection": {
+              "label": "条件法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "a",
+          "start": 36,
+          "end": 37
+        },
+        {
+          "surface": "varios miles de millones",
+          "start": 38,
+          "end": 62,
+          "gloss": {
+            "lemma": "miles de millones",
+            "pos": "名詞句",
+            "ja": "数十億",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "se estima que + 条件法で「〜に上るとみられる」。推定を弱める書き方。"
+    },
+    {
+      "id": "es-0144",
+      "lang": "es",
+      "text": "El juez ordenó que se levantara el secreto de sumario.",
+      "ja": "裁判官は捜査資料の秘密指定を解除するよう命じた。",
+      "level": "C2",
+      "tags": [
+        "司法",
+        "接続法過去"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "juez",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "juez",
+            "pos": "名詞",
+            "ja": "裁判官"
+          }
+        },
+        {
+          "surface": "ordenó",
+          "start": 8,
+          "end": 14,
+          "gloss": {
+            "lemma": "ordenar",
+            "pos": "動詞",
+            "ja": "命じる・整える",
+            "inflection": {
+              "label": "直説法点過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 15,
+          "end": 18
+        },
+        {
+          "surface": "se",
+          "start": 19,
+          "end": 21
+        },
+        {
+          "surface": "levantara",
+          "start": 22,
+          "end": 31,
+          "gloss": {
+            "lemma": "levantar",
+            "pos": "動詞",
+            "ja": "持ち上げる・（制限を）解除する",
+            "inflection": {
+              "label": "接続法過去・3人称単数",
+              "tense": "SUBJ_IMPF",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "el secreto de sumario",
+          "start": 32,
+          "end": 53,
+          "gloss": {
+            "lemma": "secreto de sumario",
+            "pos": "名詞句",
+            "ja": "捜査資料の秘密指定",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "ordenar que は命令なので接続法。主節が過去だから接続法過去になる。"
+    },
+    {
+      "id": "es-0145",
+      "lang": "es",
+      "text": "Los mercados reaccionaron con cautela, a la espera de nuevos indicadores.",
+      "ja": "市場は新たな指標を待って慎重に反応した。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "経済",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Los",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "mercados",
+          "start": 4,
+          "end": 12,
+          "gloss": {
+            "lemma": "mercado",
+            "pos": "名詞",
+            "ja": "市場"
+          }
+        },
+        {
+          "surface": "reaccionaron",
+          "start": 13,
+          "end": 25,
+          "gloss": {
+            "lemma": "reaccionar",
+            "pos": "動詞",
+            "ja": "反応する",
+            "inflection": {
+              "label": "直説法点過去・3人称複数"
+            }
+          }
+        },
+        {
+          "surface": "con cautela",
+          "start": 26,
+          "end": 37,
+          "gloss": {
+            "lemma": "con cautela",
+            "pos": "慣用表現",
+            "ja": "慎重に",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "a la espera de",
+          "start": 39,
+          "end": 53,
+          "gloss": {
+            "lemma": "a la espera de",
+            "pos": "慣用表現",
+            "ja": "〜を待って",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "nuevos",
+          "start": 54,
+          "end": 60
+        },
+        {
+          "surface": "indicadores",
+          "start": 61,
+          "end": 72,
+          "gloss": {
+            "lemma": "indicador",
+            "pos": "名詞",
+            "ja": "指標"
+          }
+        }
+      ],
+      "grammar": "a la espera de は「〜を待って」。con + 抽象名詞で副詞の代わりをする（con cautela = 慎重に）。"
+    },
+    {
+      "id": "es-0146",
+      "lang": "es",
+      "text": "Es imprescindible que las partes cedan si quieren evitar la ruptura.",
+      "ja": "決裂を避けたいなら、双方が譲歩することが不可欠だ。",
+      "level": "C1",
+      "tags": [
+        "国際",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Es",
+          "start": 0,
+          "end": 2,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "imprescindible",
+          "start": 3,
+          "end": 17,
+          "gloss": {
+            "lemma": "imprescindible",
+            "pos": "形容詞",
+            "ja": "不可欠な"
+          }
+        },
+        {
+          "surface": "que",
+          "start": 18,
+          "end": 21
+        },
+        {
+          "surface": "las",
+          "start": 22,
+          "end": 25
+        },
+        {
+          "surface": "partes",
+          "start": 26,
+          "end": 32,
+          "gloss": {
+            "lemma": "parte",
+            "pos": "名詞",
+            "ja": "当事者・部分"
+          }
+        },
+        {
+          "surface": "cedan",
+          "start": 33,
+          "end": 38,
+          "gloss": {
+            "lemma": "ceder",
+            "pos": "動詞",
+            "ja": "譲る・屈する",
+            "inflection": {
+              "label": "接続法現在・3人称複数",
+              "tense": "SUBJ_PRES",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "si",
+          "start": 39,
+          "end": 41
+        },
+        {
+          "surface": "quieren",
+          "start": 42,
+          "end": 49,
+          "gloss": {
+            "lemma": "querer",
+            "pos": "動詞",
+            "ja": "望む・愛する",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "IND_PRES",
+              "person": "3pl",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が ie に変わる（quer- → quier-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "evitar",
+          "start": 50,
+          "end": 56,
+          "gloss": {
+            "lemma": "evitar",
+            "pos": "動詞",
+            "ja": "避ける",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 57,
+          "end": 59
+        },
+        {
+          "surface": "ruptura",
+          "start": 60,
+          "end": 67,
+          "gloss": {
+            "lemma": "ruptura",
+            "pos": "名詞",
+            "ja": "決裂・破断"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0147",
+      "lang": "es",
+      "text": "El país padece una inflación que no se veía desde los años noventa.",
+      "ja": "その国は90年代以来のインフレに苦しんでいる。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "経済",
+        "直説法線過去"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "país",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "país",
+            "pos": "名詞",
+            "ja": "国"
+          }
+        },
+        {
+          "surface": "padece",
+          "start": 8,
+          "end": 14,
+          "gloss": {
+            "lemma": "padecer",
+            "pos": "動詞",
+            "ja": "患う・苦しむ",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "una",
+          "start": 15,
+          "end": 18
+        },
+        {
+          "surface": "inflación",
+          "start": 19,
+          "end": 28,
+          "gloss": {
+            "lemma": "inflación",
+            "pos": "名詞",
+            "ja": "インフレ"
+          }
+        },
+        {
+          "surface": "que",
+          "start": 29,
+          "end": 32
+        },
+        {
+          "surface": "no",
+          "start": 33,
+          "end": 35
+        },
+        {
+          "surface": "se",
+          "start": 36,
+          "end": 38
+        },
+        {
+          "surface": "veía",
+          "start": 39,
+          "end": 43,
+          "gloss": {
+            "lemma": "ver",
+            "pos": "動詞",
+            "ja": "見る・会う",
+            "inflection": {
+              "label": "直説法線過去・3人称単数",
+              "tense": "IND_IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（v- → ve-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "desde los años noventa",
+          "start": 44,
+          "end": 66,
+          "gloss": {
+            "lemma": "los años noventa",
+            "pos": "名詞句",
+            "ja": "90年代",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "関係節の中の線過去で「かつて見られた状態」を表す。desde los años + 数字で年代を指す。"
+    },
+    {
+      "id": "es-0148",
+      "lang": "es",
+      "text": "Tal y como estaba previsto, la cumbre se saldó sin compromisos firmes.",
+      "ja": "予定どおり、首脳会議は確たる約束のないまま幕を閉じた。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "国際",
+        "直説法線過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Tal y como",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "tal y como",
+            "pos": "慣用表現",
+            "ja": "ちょうど〜のとおりに",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "estaba",
+          "start": 11,
+          "end": 17,
+          "gloss": {
+            "lemma": "estar",
+            "pos": "動詞",
+            "ja": "〜にいる・〜の状態である",
+            "inflection": {
+              "label": "直説法線過去・3人称単数",
+              "tense": "IND_IMPF",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "previsto",
+          "start": 18,
+          "end": 26,
+          "gloss": {
+            "lemma": "prever",
+            "pos": "動詞",
+            "ja": "予測する・見込む",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PART",
+              "irregular": {
+                "code": "E",
+                "text": "規則的な作り方が無い不規則形。この形のまま覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 28,
+          "end": 30
+        },
+        {
+          "surface": "cumbre",
+          "start": 31,
+          "end": 37,
+          "gloss": {
+            "lemma": "cumbre",
+            "pos": "名詞",
+            "ja": "首脳会議・頂上"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 38,
+          "end": 40
+        },
+        {
+          "surface": "saldó",
+          "start": 41,
+          "end": 46,
+          "gloss": {
+            "lemma": "saldar",
+            "pos": "動詞",
+            "ja": "清算する・決着させる",
+            "note": "saldarse con/sin で「〜という結果に終わる」",
+            "inflection": {
+              "label": "直説法点過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "sin",
+          "start": 47,
+          "end": 50
+        },
+        {
+          "surface": "compromisos firmes",
+          "start": 51,
+          "end": 69,
+          "gloss": {
+            "lemma": "compromiso firme",
+            "pos": "名詞句",
+            "ja": "確たる約束",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "tal y como estaba previsto は「予定どおり」。saldarse con/sin で「〜という結果に終わる」。"
+    },
+    {
+      "id": "es-0149",
+      "lang": "es",
+      "text": "Que yo recuerde, nunca se había producido una crisis semejante.",
+      "ja": "私の記憶にある限り、これほどの危機は起きたことがなかった。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "接続法現在",
+        "直説法過去完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Que",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "yo",
+          "start": 4,
+          "end": 6
+        },
+        {
+          "surface": "recuerde",
+          "start": 7,
+          "end": 15,
+          "gloss": {
+            "lemma": "recordar",
+            "pos": "動詞",
+            "ja": "覚えている・思い出す",
+            "note": "que yo recuerde で「私の記憶にある限り」",
+            "inflection": {
+              "label": "接続法現在・1人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の o が ue に変わる（record- → recuerd-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "nunca",
+          "start": 17,
+          "end": 22,
+          "gloss": {
+            "lemma": "nunca",
+            "pos": "副詞",
+            "ja": "一度も〜ない"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 23,
+          "end": 25
+        },
+        {
+          "surface": "había producido",
+          "start": 26,
+          "end": 41,
+          "gloss": {
+            "lemma": "producir",
+            "pos": "動詞",
+            "ja": "生産する・引き起こす",
+            "inflection": {
+              "label": "直説法過去完了・3人称単数",
+              "tense": "IND_PLUP",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "una",
+          "start": 42,
+          "end": 45
+        },
+        {
+          "surface": "crisis",
+          "start": 46,
+          "end": 52,
+          "gloss": {
+            "lemma": "crisis",
+            "pos": "名詞",
+            "ja": "危機"
+          }
+        },
+        {
+          "surface": "semejante",
+          "start": 53,
+          "end": 62,
+          "gloss": {
+            "lemma": "semejante",
+            "pos": "形容詞",
+            "ja": "そのような・類似の"
+          }
+        }
+      ],
+      "grammar": "que yo recuerde は「私の記憶にある限り」という接続法の決まり文句。"
+    },
+    {
+      "id": "es-0150",
+      "lang": "es",
+      "text": "El organismo insta a los Estados a que refuercen sus controles fronterizos.",
+      "ja": "その機関は各国に国境管理の強化を促している。",
+      "level": "C1",
+      "tags": [
+        "国際",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "organismo",
+          "start": 3,
+          "end": 12,
+          "gloss": {
+            "lemma": "organismo",
+            "pos": "名詞",
+            "ja": "機関・組織"
+          }
+        },
+        {
+          "surface": "insta",
+          "start": 13,
+          "end": 18,
+          "gloss": {
+            "lemma": "instar",
+            "pos": "動詞",
+            "ja": "促す・強く求める",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "a",
+          "start": 19,
+          "end": 20
+        },
+        {
+          "surface": "los",
+          "start": 21,
+          "end": 24
+        },
+        {
+          "surface": "Estados",
+          "start": 25,
+          "end": 32,
+          "gloss": {
+            "lemma": "Estado",
+            "pos": "名詞",
+            "ja": "国家"
+          }
+        },
+        {
+          "surface": "a que",
+          "start": 33,
+          "end": 38
+        },
+        {
+          "surface": "refuercen",
+          "start": 39,
+          "end": 48,
+          "gloss": {
+            "lemma": "reforzar",
+            "pos": "動詞",
+            "ja": "強化する",
+            "inflection": {
+              "label": "接続法現在・3人称複数"
+            }
+          }
+        },
+        {
+          "surface": "controles fronterizos",
+          "start": 53,
+          "end": 74,
+          "gloss": {
+            "lemma": "control fronterizo",
+            "pos": "名詞句",
+            "ja": "国境管理",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "instar a alguien a que + 接続法で「〜するよう促す」。国際報道の定型。"
+    },
+    {
+      "id": "es-0151",
+      "lang": "es",
+      "text": "La medida, largamente esperada, no ha satisfecho a ninguna de las partes.",
+      "ja": "長らく待たれていたその措置は、どちらの側も満足させなかった。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "過去分詞",
+        "直説法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "La",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "medida",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "medida",
+            "pos": "名詞",
+            "ja": "措置・対策"
+          }
+        },
+        {
+          "surface": "largamente",
+          "start": 11,
+          "end": 21,
+          "gloss": {
+            "lemma": "largamente",
+            "pos": "副詞",
+            "ja": "長らく"
+          }
+        },
+        {
+          "surface": "esperada",
+          "start": 22,
+          "end": 30,
+          "gloss": {
+            "lemma": "esperar",
+            "pos": "動詞",
+            "ja": "待つ・期待する",
+            "inflection": {
+              "label": "過去分詞・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "no",
+          "start": 32,
+          "end": 34
+        },
+        {
+          "surface": "ha satisfecho",
+          "start": 35,
+          "end": 48,
+          "gloss": {
+            "lemma": "satisfacer",
+            "pos": "動詞",
+            "ja": "満足させる",
+            "note": "過去分詞は satisfecho という不規則形",
+            "inflection": {
+              "label": "直説法現在完了・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "a ninguna de las partes",
+          "start": 49,
+          "end": 72,
+          "gloss": {
+            "lemma": "ninguna de las partes",
+            "pos": "名詞句",
+            "ja": "どちらの側も〜ない",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0152",
+      "lang": "es",
+      "text": "Con todo, el Gobierno mantiene que las cifras avalan su gestión.",
+      "ja": "それでもなお政府は、数字が自らの運営を裏付けていると主張している。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "政治",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Con todo",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "con todo",
+            "pos": "慣用表現",
+            "ja": "それでもなお",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "el",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "surface": "Gobierno",
+          "start": 13,
+          "end": 21,
+          "gloss": {
+            "lemma": "gobierno",
+            "pos": "名詞",
+            "ja": "政府"
+          }
+        },
+        {
+          "surface": "mantiene",
+          "start": 22,
+          "end": 30,
+          "gloss": {
+            "lemma": "mantener",
+            "pos": "動詞",
+            "ja": "維持する・主張する",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が ie に変わる（manten- → mantien-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 31,
+          "end": 34
+        },
+        {
+          "surface": "las",
+          "start": 35,
+          "end": 38
+        },
+        {
+          "surface": "cifras",
+          "start": 39,
+          "end": 45,
+          "gloss": {
+            "lemma": "cifra",
+            "pos": "名詞",
+            "ja": "数字・数値"
+          }
+        },
+        {
+          "surface": "avalan",
+          "start": 46,
+          "end": 52,
+          "gloss": {
+            "lemma": "avalar",
+            "pos": "動詞",
+            "ja": "保証する・裏付ける",
+            "inflection": {
+              "label": "直説法現在・3人称複数"
+            }
+          }
+        },
+        {
+          "surface": "su",
+          "start": 53,
+          "end": 55
+        },
+        {
+          "surface": "gestión",
+          "start": 56,
+          "end": 63,
+          "gloss": {
+            "lemma": "gestión",
+            "pos": "名詞",
+            "ja": "運営・管理"
+          }
+        }
+      ],
+      "grammar": "con todo は sin embargo と同じく「それでも」。文頭の書き言葉の接続表現。"
+    },
+    {
+      "id": "es-0153",
+      "lang": "es",
+      "text": "El acusado negó los hechos, si bien admitió haber recibido el dinero.",
+      "ja": "被告は事実を否認したが、金銭を受け取ったことは認めた。",
+      "level": "C2",
+      "tags": [
+        "司法",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "acusado",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "acusado",
+            "pos": "名詞",
+            "ja": "被告"
+          }
+        },
+        {
+          "surface": "negó",
+          "start": 11,
+          "end": 15,
+          "gloss": {
+            "lemma": "negar",
+            "pos": "動詞",
+            "ja": "否定する・拒む",
+            "inflection": {
+              "label": "直説法点過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "los",
+          "start": 16,
+          "end": 19
+        },
+        {
+          "surface": "hechos",
+          "start": 20,
+          "end": 26,
+          "gloss": {
+            "lemma": "hecho",
+            "pos": "名詞",
+            "ja": "事実・出来事"
+          }
+        },
+        {
+          "surface": "si bien",
+          "start": 28,
+          "end": 35,
+          "gloss": {
+            "lemma": "si bien",
+            "pos": "接続詞",
+            "ja": "〜ではあるが",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "admitió",
+          "start": 36,
+          "end": 43,
+          "gloss": {
+            "lemma": "aceptar",
+            "pos": "動詞",
+            "ja": "認める・受け入れる",
+            "inflection": {
+              "label": "直説法点過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "haber recibido",
+          "start": 44,
+          "end": 58,
+          "gloss": {
+            "lemma": "haber + 過去分詞",
+            "pos": "慣用表現",
+            "ja": "〜したこと（完了不定詞）",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "el",
+          "start": 59,
+          "end": 61
+        },
+        {
+          "surface": "dinero",
+          "start": 62,
+          "end": 68,
+          "gloss": {
+            "lemma": "dinero",
+            "pos": "名詞",
+            "ja": "お金"
+          }
+        }
+      ],
+      "grammar": "admitir + 完了不定詞（haber + 過去分詞）で「〜したことを認める」。"
+    },
+    {
+      "id": "es-0154",
+      "lang": "es",
+      "text": "De ahí que la comisión haya decidido ampliar el plazo.",
+      "ja": "そのため委員会は期限の延長を決めた。",
+      "level": "C2",
+      "tags": [
+        "報道",
+        "接続法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "De ahí que",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "de ahí que",
+            "pos": "慣用表現",
+            "ja": "そのため〜",
+            "idiom": true,
+            "note": "結果を示すが後ろは必ず接続法"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 11,
+          "end": 13
+        },
+        {
+          "surface": "comisión",
+          "start": 14,
+          "end": 22,
+          "gloss": {
+            "lemma": "comisión",
+            "pos": "名詞",
+            "ja": "委員会"
+          }
+        },
+        {
+          "surface": "haya decidido",
+          "start": 23,
+          "end": 36,
+          "gloss": {
+            "lemma": "decidir",
+            "pos": "動詞",
+            "ja": "決める",
+            "inflection": {
+              "label": "接続法現在完了・3人称単数",
+              "tense": "SUBJ_PERF",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "ampliar",
+          "start": 37,
+          "end": 44,
+          "gloss": {
+            "lemma": "ampliar",
+            "pos": "動詞",
+            "ja": "拡大する・延長する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "el",
+          "start": 45,
+          "end": 47
+        },
+        {
+          "surface": "plazo",
+          "start": 48,
+          "end": 53,
+          "gloss": {
+            "lemma": "plazo",
+            "pos": "名詞",
+            "ja": "期限・期間"
+          }
+        }
+      ],
+      "grammar": "de ahí que は「だから〜」。結果を示すが、後ろは必ず接続法になる点が要注意。"
+    },
+    {
+      "id": "es-0155",
+      "lang": "es",
+      "text": "Las exportaciones crecieron un cinco por ciento, según recoge el informe.",
+      "ja": "報告書によれば、輸出は5パーセント増加した。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "経済",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Las",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "exportaciones",
+          "start": 4,
+          "end": 17,
+          "gloss": {
+            "lemma": "exportación",
+            "pos": "名詞",
+            "ja": "輸出"
+          }
+        },
+        {
+          "surface": "crecieron",
+          "start": 18,
+          "end": 27,
+          "gloss": {
+            "lemma": "crecer",
+            "pos": "動詞",
+            "ja": "育つ・成長する",
+            "inflection": {
+              "label": "直説法点過去・3人称複数",
+              "tense": "IND_PRET",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "un cinco por ciento",
+          "start": 28,
+          "end": 47,
+          "gloss": {
+            "lemma": "por ciento",
+            "pos": "名詞句",
+            "ja": "パーセント",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "según recoge",
+          "start": 49,
+          "end": 61,
+          "gloss": {
+            "lemma": "según recoge",
+            "pos": "慣用表現",
+            "ja": "〜が伝えるところによれば",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "el",
+          "start": 62,
+          "end": 64
+        },
+        {
+          "surface": "informe",
+          "start": 65,
+          "end": 72,
+          "gloss": {
+            "lemma": "informe",
+            "pos": "名詞",
+            "ja": "報告書"
+          }
+        }
+      ],
+      "grammar": "según recoge... は「〜が伝えるところによれば」。倒置した挿入句で出典を示す。"
+    },
+    {
+      "id": "es-0156",
+      "lang": "es",
+      "text": "El decreto fue derogado sin que mediara debate parlamentario alguno.",
+      "ja": "議会での議論を一切経ずに、その政令は廃止された。",
+      "level": "C2",
+      "tags": [
+        "司法",
+        "受動態",
+        "接続法過去"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "decreto",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "decreto",
+            "pos": "名詞",
+            "ja": "政令・布告"
+          }
+        },
+        {
+          "surface": "fue derogado",
+          "start": 11,
+          "end": 23,
+          "gloss": {
+            "lemma": "derogar",
+            "pos": "動詞",
+            "ja": "廃止する",
+            "inflection": {
+              "label": "受動態・点過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "sin que",
+          "start": 24,
+          "end": 31,
+          "gloss": {
+            "lemma": "sin que",
+            "pos": "接続詞",
+            "ja": "〜することなく",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "mediara",
+          "start": 32,
+          "end": 39,
+          "gloss": {
+            "lemma": "mediar",
+            "pos": "動詞",
+            "ja": "介在する・仲裁する",
+            "inflection": {
+              "label": "接続法過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "debate parlamentario",
+          "start": 40,
+          "end": 60,
+          "gloss": {
+            "lemma": "debate parlamentario",
+            "pos": "名詞句",
+            "ja": "議会での議論",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "alguno",
+          "start": 61,
+          "end": 67,
+          "gloss": {
+            "lemma": "alguno",
+            "pos": "形容詞",
+            "ja": "（否定文で名詞の後）少しも〜ない",
+            "note": "名詞の後ろに置くと否定を強める"
+          }
+        }
+      ],
+      "grammar": "名詞の後ろに置く alguno は否定を強める（＝ninguno）。sin que のあとは接続法。"
+    },
+    {
+      "id": "es-0157",
+      "lang": "es",
+      "text": "Tras dimitir, el consejero delegado se negó a hacer declaraciones.",
+      "ja": "辞任後、最高経営責任者は発言を拒んだ。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "経済",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Tras",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "tras",
+            "pos": "前置詞",
+            "ja": "〜の後で"
+          }
+        },
+        {
+          "surface": "dimitir",
+          "start": 5,
+          "end": 12,
+          "gloss": {
+            "lemma": "dimitir",
+            "pos": "動詞",
+            "ja": "辞任する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "el",
+          "start": 14,
+          "end": 16
+        },
+        {
+          "surface": "consejero delegado",
+          "start": 17,
+          "end": 35,
+          "gloss": {
+            "lemma": "consejero delegado",
+            "pos": "名詞句",
+            "ja": "最高経営責任者",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "se",
+          "start": 36,
+          "end": 38
+        },
+        {
+          "surface": "negó",
+          "start": 39,
+          "end": 43,
+          "gloss": {
+            "lemma": "negar",
+            "pos": "動詞",
+            "ja": "否定する・拒む",
+            "note": "negarse a で「〜を拒む」",
+            "inflection": {
+              "label": "直説法点過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "a",
+          "start": 44,
+          "end": 45
+        },
+        {
+          "surface": "hacer declaraciones",
+          "start": 46,
+          "end": 65,
+          "gloss": {
+            "lemma": "hacer declaraciones",
+            "pos": "慣用表現",
+            "ja": "発言する・声明を出す",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0158",
+      "lang": "es",
+      "text": "Se prevé que la sequía agrave la escasez de agua en toda la región.",
+      "ja": "干ばつが地域全体の水不足を悪化させると見込まれている。",
+      "level": "C1",
+      "tags": [
+        "報道",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Se",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "prevé",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "prever",
+            "pos": "動詞",
+            "ja": "予測する・見込む",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は preveo / prevés / prevé / prevemos / preveis / prevén と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 9,
+          "end": 12
+        },
+        {
+          "surface": "la",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "surface": "sequía",
+          "start": 16,
+          "end": 22,
+          "gloss": {
+            "lemma": "sequía",
+            "pos": "名詞",
+            "ja": "干ばつ"
+          }
+        },
+        {
+          "surface": "agrave",
+          "start": 23,
+          "end": 29,
+          "gloss": {
+            "lemma": "agravar",
+            "pos": "動詞",
+            "ja": "悪化させる",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 30,
+          "end": 32
+        },
+        {
+          "surface": "escasez",
+          "start": 33,
+          "end": 40,
+          "gloss": {
+            "lemma": "escasez",
+            "pos": "名詞",
+            "ja": "不足・欠乏"
+          }
+        },
+        {
+          "surface": "de",
+          "start": 41,
+          "end": 43
+        },
+        {
+          "surface": "agua",
+          "start": 44,
+          "end": 48,
+          "gloss": {
+            "lemma": "agua",
+            "pos": "名詞",
+            "ja": "水"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0159",
+      "lang": "es",
+      "text": "Lejos de mitigar la tensión, el discurso la avivó.",
+      "ja": "緊張を和らげるどころか、その演説はかえって煽った。",
+      "level": "C2",
+      "tags": [
+        "論説",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Lejos de",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "lejos de + 不定詞",
+            "pos": "慣用表現",
+            "ja": "〜するどころか",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "mitigar",
+          "start": 9,
+          "end": 16,
+          "gloss": {
+            "lemma": "mitigar",
+            "pos": "動詞",
+            "ja": "緩和する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 17,
+          "end": 19
+        },
+        {
+          "surface": "tensión",
+          "start": 20,
+          "end": 27,
+          "gloss": {
+            "lemma": "tensión",
+            "pos": "名詞",
+            "ja": "緊張"
+          }
+        },
+        {
+          "surface": "el",
+          "start": 29,
+          "end": 31
+        },
+        {
+          "surface": "discurso",
+          "start": 32,
+          "end": 40,
+          "gloss": {
+            "lemma": "discurso",
+            "pos": "名詞",
+            "ja": "演説・言説"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 41,
+          "end": 43
+        },
+        {
+          "surface": "avivó",
+          "start": 44,
+          "end": 49,
+          "gloss": {
+            "lemma": "avivar",
+            "pos": "動詞",
+            "ja": "煽る・活気づける",
+            "inflection": {
+              "label": "直説法点過去・3人称単数"
+            }
+          }
+        }
+      ],
+      "grammar": "lejos de + 不定詞で「〜するどころか」。論説で対比を作るときの型。"
+    },
+    {
+      "id": "es-0160",
+      "lang": "es",
+      "text": "El pacto se firmará siempre y cuando ambas cámaras lo ratifiquen.",
+      "ja": "両院が批准する場合に限り、この協定は署名される。",
+      "level": "C2",
+      "tags": [
+        "政治",
+        "接続法現在",
+        "直説法未来"
+      ],
+      "tokens": [
+        {
+          "surface": "El",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "pacto",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "pacto",
+            "pos": "名詞",
+            "ja": "協定・盟約"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 9,
+          "end": 11
+        },
+        {
+          "surface": "firmará",
+          "start": 12,
+          "end": 19,
+          "gloss": {
+            "lemma": "firmar",
+            "pos": "動詞",
+            "ja": "署名する",
+            "inflection": {
+              "label": "直説法未来・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "siempre y cuando",
+          "start": 20,
+          "end": 36,
+          "gloss": {
+            "lemma": "siempre y cuando",
+            "pos": "慣用表現",
+            "ja": "〜する場合に限り",
+            "idiom": true,
+            "note": "後ろは必ず接続法"
+          }
+        },
+        {
+          "surface": "ambas",
+          "start": 37,
+          "end": 42
+        },
+        {
+          "surface": "cámaras",
+          "start": 43,
+          "end": 50,
+          "gloss": {
+            "lemma": "cámara",
+            "pos": "名詞",
+            "ja": "議院・部屋・カメラ"
+          }
+        },
+        {
+          "surface": "lo",
+          "start": 51,
+          "end": 53
+        },
+        {
+          "surface": "ratifiquen",
+          "start": 54,
+          "end": 64,
+          "gloss": {
+            "lemma": "ratificar",
+            "pos": "動詞",
+            "ja": "批准する・追認する",
+            "inflection": {
+              "label": "接続法現在・3人称複数"
+            }
+          }
+        }
+      ],
+      "grammar": "siempre y cuando は「〜する場合に限り」。条件を厳しく限定し、後ろは接続法。"
     }
   ]
 }

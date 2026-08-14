@@ -1,0 +1,736 @@
+{
+  "_comment": "バッチ4: 報道・時事（政治 / 経済 / 国際 / 司法）。C1〜C2 中心。直説法現在に偏らないよう、条件法・過去完了・接続法完了・分詞を厚くしてある。",
+  "lang": "es",
+  "phrases": [
+    {
+      "id": "es-0121",
+      "text": "El ministro compareció ante la comisión para dar explicaciones.",
+      "ja": "大臣は説明のため委員会に出頭した。",
+      "level": "C1",
+      "tags": ["報道", "政治", "直説法点過去"],
+      "grammar": "comparecer ante は「〜の前に出頭する」。議会・司法の報道で必ず出る。",
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "ministro", "lemma": "ministro", "pos": "名詞", "ja": "大臣" },
+        { "s": "compareció", "lemma": "comparecer", "pos": "動詞", "ja": "出頭する・出廷する", "infl": "IND_PRET/3sg" },
+        { "s": "ante", "lemma": "ante", "pos": "前置詞", "ja": "〜の前に・〜に対して" },
+        { "s": "la", "skip": true },
+        { "s": "comisión", "lemma": "comisión", "pos": "名詞", "ja": "委員会" },
+        { "s": "dar explicaciones", "lemma": "dar explicaciones", "pos": "慣用表現", "ja": "説明する・釈明する", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0122",
+      "text": "Según fuentes cercanas, el presidente dimitiría antes de fin de mes.",
+      "ja": "関係筋によれば、大統領は月末までに辞任する見通しだ。",
+      "level": "C2",
+      "tags": ["報道", "政治", "条件法現在"],
+      "grammar": "未確認情報を伝えるとき、報道は条件法を使う。「〜らしい・〜という」の含みが出る。",
+      "tokens": [
+        { "s": "Según", "lemma": "según", "pos": "前置詞", "ja": "〜によれば" },
+        { "s": "fuentes cercanas", "lemma": "fuentes cercanas", "pos": "名詞句", "ja": "関係筋・近い筋", "idiom": true },
+        { "s": "el", "skip": true },
+        { "s": "presidente", "lemma": "presidente", "pos": "名詞", "ja": "大統領・議長" },
+        { "s": "dimitiría", "lemma": "dimitir", "pos": "動詞", "ja": "辞任する", "infl": "COND/3sg", "note": "報道の条件法。未確認情報であることを示す" },
+        { "s": "antes de", "skip": true },
+        { "s": "fin de mes", "lemma": "fin de mes", "pos": "名詞句", "ja": "月末", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0123",
+      "text": "La fiscalía habría imputado a tres altos cargos por malversación.",
+      "ja": "検察は3人の高官を横領で訴追したもようだ。",
+      "level": "C2",
+      "tags": ["報道", "司法", "条件法完了"],
+      "grammar": "条件法完了も未確認の過去を伝えるのに使う。「〜したもようだ」にあたる。",
+      "tokens": [
+        { "s": "La", "skip": true },
+        { "s": "fiscalía", "lemma": "fiscalía", "pos": "名詞", "ja": "検察・検察庁" },
+        { "s": "habría imputado", "lemma": "imputar", "pos": "動詞", "ja": "訴追する・帰責する", "label": "条件法完了・3人称単数", "note": "未確認の過去を伝える報道の型" },
+        { "s": "a", "skip": true },
+        { "s": "tres", "skip": true },
+        { "s": "altos cargos", "lemma": "alto cargo", "pos": "名詞句", "ja": "高官・幹部", "idiom": true },
+        { "s": "por", "skip": true },
+        { "s": "malversación", "lemma": "malversación", "pos": "名詞", "ja": "横領・使い込み" }
+      ]
+    },
+    {
+      "id": "es-0124",
+      "text": "El Ejecutivo esgrimió razones de seguridad para zanjar el debate.",
+      "ja": "政府は安全上の理由を持ち出して議論に決着をつけた。",
+      "level": "C2",
+      "tags": ["報道", "政治", "直説法点過去"],
+      "grammar": "esgrimir は「（論拠を）振りかざす」。批判的な含みを伴うことが多い。",
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "Ejecutivo", "lemma": "ejecutivo", "pos": "名詞", "ja": "政府・行政府" },
+        { "s": "esgrimió", "lemma": "esgrimir", "pos": "動詞", "ja": "振りかざす・論拠にする", "infl": "IND_PRET/3sg", "note": "批判的な含みを伴うことが多い" },
+        { "s": "razones de seguridad", "lemma": "razones de seguridad", "pos": "名詞句", "ja": "安全上の理由", "idiom": true },
+        { "s": "para", "skip": true },
+        { "s": "zanjar", "lemma": "zanjar", "pos": "動詞", "ja": "決着をつける", "label": "不定詞" },
+        { "s": "el", "skip": true },
+        { "s": "debate", "lemma": "debate", "pos": "名詞", "ja": "議論・討論" }
+      ]
+    },
+    {
+      "id": "es-0125",
+      "text": "Cuando estalló la crisis, el banco ya había recortado la plantilla.",
+      "ja": "危機が表面化したときには、銀行はすでに人員を削減していた。",
+      "level": "C1",
+      "tags": ["報道", "経済", "直説法過去完了"],
+      "grammar": "過去のある時点より前に完了していたことを示す過去完了。報道の時系列説明に頻出。",
+      "tokens": [
+        { "s": "Cuando", "lemma": "cuando", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "estalló", "lemma": "estallar", "pos": "動詞", "ja": "勃発する・爆発する", "label": "直説法点過去・3人称単数" },
+        { "s": "la", "skip": true },
+        { "s": "crisis", "lemma": "crisis", "pos": "名詞", "ja": "危機" },
+        { "s": "el", "skip": true },
+        { "s": "banco", "lemma": "banco", "pos": "名詞", "ja": "銀行" },
+        { "s": "ya", "lemma": "ya", "pos": "副詞", "ja": "すでに" },
+        { "s": "había recortado", "lemma": "recortar", "pos": "動詞", "ja": "削減する・切り取る", "infl": "IND_PLUP/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "plantilla", "lemma": "plantilla", "pos": "名詞", "ja": "従業員・人員" }
+      ]
+    },
+    {
+      "id": "es-0126",
+      "text": "No es que el paro haya bajado, sino que mucha gente ha dejado de buscar.",
+      "ja": "失業が減ったのではなく、多くの人が職探しをやめただけだ。",
+      "level": "C2",
+      "tags": ["報道", "経済", "接続法現在完了"],
+      "grammar": "no es que + 接続法, sino que + 直説法。前半を否定して後半で言い直す型。",
+      "tokens": [
+        { "s": "No es que", "lemma": "no es que", "pos": "慣用表現", "ja": "〜というわけではない", "idiom": true, "note": "後ろは接続法" },
+        { "s": "el", "skip": true },
+        { "s": "paro", "lemma": "paro", "pos": "名詞", "ja": "失業・失業率" },
+        { "s": "haya bajado", "lemma": "bajar", "pos": "動詞", "ja": "下りる・下がる", "infl": "SUBJ_PERF/3sg" },
+        { "s": "sino que", "lemma": "sino que", "pos": "接続詞", "ja": "そうではなく〜", "idiom": true },
+        { "s": "mucha gente", "lemma": "mucha gente", "pos": "名詞句", "ja": "多くの人", "idiom": true },
+        { "s": "ha dejado", "lemma": "dejar", "pos": "動詞", "ja": "置いていく・やめる", "infl": "IND_PERF/3sg" },
+        { "s": "de", "skip": true },
+        { "s": "buscar", "lemma": "buscar", "pos": "動詞", "ja": "探す", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "es-0127",
+      "text": "El acuerdo, blindado por ambas partes, entrará en vigor en enero.",
+      "ja": "双方が守りを固めたこの協定は、1月に発効する。",
+      "level": "C2",
+      "tags": ["報道", "国際", "過去分詞", "直説法未来"],
+      "grammar": "過去分詞を挿入句にして名詞を修飾する書き言葉の型。entrar en vigor で「発効する」。",
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "acuerdo", "lemma": "acuerdo", "pos": "名詞", "ja": "協定・合意" },
+        { "s": "blindado", "lemma": "blindar", "pos": "動詞", "ja": "保護する・守りを固める", "infl": "PART", "note": "挿入句で名詞を修飾する" },
+        { "s": "por", "skip": true },
+        { "s": "ambas partes", "lemma": "ambas partes", "pos": "名詞句", "ja": "双方", "idiom": true },
+        { "s": "entrará en vigor", "lemma": "entrar en vigor", "pos": "慣用表現", "ja": "発効する", "idiom": true },
+        { "s": "en", "skip": true },
+        { "s": "enero", "lemma": "enero", "pos": "名詞", "ja": "1月" }
+      ]
+    },
+    {
+      "id": "es-0128",
+      "text": "Los sindicatos vienen exigiendo una subida salarial desde hace meses.",
+      "ja": "労働組合は数か月前から賃上げを要求し続けている。",
+      "level": "C1",
+      "tags": ["報道", "経済", "現在分詞"],
+      "grammar": "venir + 現在分詞で「以前から〜し続けている」。estar + 現在分詞より継続の含みが強い。",
+      "tokens": [
+        { "s": "Los", "skip": true },
+        { "s": "sindicatos", "lemma": "sindicato", "pos": "名詞", "ja": "労働組合" },
+        { "s": "vienen", "lemma": "venir", "pos": "動詞", "ja": "来る", "infl": "IND_PRES/3pl", "note": "venir + 現在分詞で継続を表す" },
+        { "s": "exigiendo", "lemma": "exigir", "pos": "動詞", "ja": "要求する", "label": "現在分詞" },
+        { "s": "una", "skip": true },
+        { "s": "subida salarial", "lemma": "subida salarial", "pos": "名詞句", "ja": "賃上げ", "idiom": true },
+        { "s": "desde hace meses", "lemma": "desde hace", "pos": "慣用表現", "ja": "〜前から", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0129",
+      "text": "El tribunal acató la resolución aunque la considerara improcedente.",
+      "ja": "裁判所は不当と考えながらもその決定に従った。",
+      "level": "C2",
+      "tags": ["司法", "接続法過去", "直説法点過去"],
+      "grammar": "aunque + 接続法過去で「〜と考えていたにもかかわらず」。譲歩に接続法を使うと事実を前面に出さない。",
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "tribunal", "lemma": "tribunal", "pos": "名詞", "ja": "裁判所・法廷" },
+        { "s": "acató", "lemma": "acatar", "pos": "動詞", "ja": "従う・遵守する", "infl": "IND_PRET/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "resolución", "lemma": "resolución", "pos": "名詞", "ja": "決定・決議" },
+        { "s": "aunque", "lemma": "aunque", "pos": "接続詞", "ja": "〜だけれども" },
+        { "s": "la", "skip": true },
+        { "s": "considerara", "lemma": "considerar", "pos": "動詞", "ja": "考慮する・みなす", "infl": "SUBJ_IMPF/3sg" },
+        { "s": "improcedente", "lemma": "improcedente", "pos": "形容詞", "ja": "不当な・不適切な" }
+      ]
+    },
+    {
+      "id": "es-0130",
+      "text": "Se recabaron pruebas suficientes para sostener la acusación.",
+      "ja": "起訴を支えるだけの証拠が収集された。",
+      "level": "C1",
+      "tags": ["司法", "直説法点過去"],
+      "grammar": "se + 3人称は行為者を示さない受動。公文書・報道の基本形。",
+      "tokens": [
+        { "s": "Se", "skip": true },
+        { "s": "recabaron", "lemma": "recabar", "pos": "動詞", "ja": "収集する・要請する", "infl": "IND_PRET/3pl", "note": "se + 3人称で行為者を示さない受動" },
+        { "s": "pruebas", "lemma": "prueba", "pos": "名詞", "ja": "証拠・試験" },
+        { "s": "suficientes", "lemma": "suficiente", "pos": "形容詞", "ja": "十分な", "label": "複数" },
+        { "s": "para", "skip": true },
+        { "s": "sostener", "lemma": "sostener", "pos": "動詞", "ja": "支える・主張する", "label": "不定詞" },
+        { "s": "la", "skip": true },
+        { "s": "acusación", "lemma": "acusación", "pos": "名詞", "ja": "起訴・非難" }
+      ]
+    },
+    {
+      "id": "es-0131",
+      "text": "De no mediar un acuerdo, la huelga se prolongaría indefinidamente.",
+      "ja": "合意が成立しなければ、ストは無期限に長引くことになる。",
+      "level": "C2",
+      "tags": ["報道", "条件法現在"],
+      "grammar": "de no + 不定詞は「もし〜しなければ」という条件節の書き言葉版。",
+      "tokens": [
+        { "s": "De no mediar", "lemma": "de no + 不定詞", "pos": "慣用表現", "ja": "〜しなければ", "idiom": true, "note": "si 節の代わりに使う文章語" },
+        { "s": "un", "skip": true },
+        { "s": "acuerdo", "lemma": "acuerdo", "pos": "名詞", "ja": "協定・合意" },
+        { "s": "la", "skip": true },
+        { "s": "huelga", "lemma": "huelga", "pos": "名詞", "ja": "ストライキ" },
+        { "s": "se", "skip": true },
+        { "s": "prolongaría", "lemma": "prolongar", "pos": "動詞", "ja": "長引かせる・延長する", "label": "条件法現在・3人称単数" },
+        { "s": "indefinidamente", "lemma": "indefinidamente", "pos": "副詞", "ja": "無期限に" }
+      ]
+    },
+    {
+      "id": "es-0132",
+      "text": "La oposición exige que el Gobierno rinda cuentas cuanto antes.",
+      "ja": "野党は政府に一刻も早い説明責任を求めている。",
+      "level": "C1",
+      "tags": ["報道", "政治", "接続法現在"],
+      "grammar": "exigir que は要求なので後ろは接続法。rendir cuentas で「説明責任を果たす」。",
+      "tokens": [
+        { "s": "La", "skip": true },
+        { "s": "oposición", "lemma": "oposición", "pos": "名詞", "ja": "野党・反対" },
+        { "s": "exige", "lemma": "exigir", "pos": "動詞", "ja": "要求する", "label": "直説法現在・3人称単数" },
+        { "s": "que", "skip": true },
+        { "s": "el", "skip": true },
+        { "s": "Gobierno", "lemma": "gobierno", "pos": "名詞", "ja": "政府" },
+        { "s": "rinda", "lemma": "rendir", "pos": "動詞", "ja": "生む・果たす・屈服させる", "label": "接続法現在・3人称単数" },
+        { "s": "cuentas", "lemma": "rendir cuentas", "pos": "慣用表現", "ja": "説明責任を果たす", "idiom": true },
+        { "s": "cuanto antes", "lemma": "cuanto antes", "pos": "慣用表現", "ja": "一刻も早く", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0133",
+      "text": "El déficit se ha disparado pese a los recortes aprobados el año pasado.",
+      "ja": "昨年可決された削減策にもかかわらず、赤字は急増している。",
+      "level": "C1",
+      "tags": ["報道", "経済", "直説法現在完了"],
+      "grammar": "pese a は a pesar de の短い書き言葉版。dispararse で「急騰する」。",
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "déficit", "lemma": "déficit", "pos": "名詞", "ja": "赤字・不足" },
+        { "s": "se", "skip": true },
+        { "s": "ha disparado", "lemma": "disparar", "pos": "動詞", "ja": "発射する・（再帰で）急騰する", "label": "直説法現在完了・3人称単数" },
+        { "s": "pese a", "lemma": "pese a", "pos": "前置詞句", "ja": "〜にもかかわらず", "idiom": true },
+        { "s": "los", "skip": true },
+        { "s": "recortes", "lemma": "recorte", "pos": "名詞", "ja": "削減・切り取り" },
+        { "s": "aprobados", "lemma": "aprobar", "pos": "動詞", "ja": "承認する・可決する", "label": "過去分詞・男性複数" }
+      ]
+    },
+    {
+      "id": "es-0134",
+      "text": "Nadie previó que el conflicto se recrudeciera tan rápido.",
+      "ja": "紛争がこれほど早く激化するとは誰も予想しなかった。",
+      "level": "C2",
+      "tags": ["報道", "国際", "接続法過去"],
+      "grammar": "主節が過去で否定されているため、従属節は接続法過去になる。",
+      "tokens": [
+        { "s": "Nadie", "lemma": "nadie", "pos": "代名詞", "ja": "誰も〜ない" },
+        { "s": "previó", "lemma": "prever", "pos": "動詞", "ja": "予測する・見込む", "infl": "IND_PRET/3sg" },
+        { "s": "que", "skip": true },
+        { "s": "el", "skip": true },
+        { "s": "conflicto", "lemma": "conflicto", "pos": "名詞", "ja": "紛争・対立" },
+        { "s": "se", "skip": true },
+        { "s": "recrudeciera", "lemma": "recrudecer", "pos": "動詞", "ja": "激化する・再燃する", "label": "接続法過去・3人称単数" },
+        { "s": "tan", "skip": true },
+        { "s": "rápido", "lemma": "rápido", "pos": "副詞", "ja": "速く" }
+      ]
+    },
+    {
+      "id": "es-0135",
+      "text": "La cifra contrasta con la registrada en el mismo periodo del año anterior.",
+      "ja": "この数字は前年同期に記録された値と対照的だ。",
+      "level": "C1",
+      "tags": ["報道", "経済", "過去分詞"],
+      "grammar": "定冠詞 + 過去分詞で「〜されたもの」を表す。統計記事で名詞の繰り返しを避ける型。",
+      "tokens": [
+        { "s": "La", "skip": true },
+        { "s": "cifra", "lemma": "cifra", "pos": "名詞", "ja": "数字・数値" },
+        { "s": "contrasta", "lemma": "contrastar", "pos": "動詞", "ja": "対照をなす・照合する", "label": "直説法現在・3人称単数" },
+        { "s": "con", "skip": true },
+        { "s": "la registrada", "lemma": "registrar", "pos": "動詞", "ja": "記録する・登録する", "label": "過去分詞・女性単数", "note": "定冠詞 + 過去分詞で「記録されたもの」" },
+        { "s": "en el mismo periodo", "lemma": "en el mismo periodo", "pos": "慣用表現", "ja": "同期に", "idiom": true },
+        { "s": "del", "skip": true },
+        { "s": "año anterior", "lemma": "año anterior", "pos": "名詞句", "ja": "前年", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0136",
+      "text": "Se da por hecho que el pacto no prosperará sin apoyo parlamentario.",
+      "ja": "議会の支持なしにはこの協定が成立しないことは既定路線とみられている。",
+      "level": "C2",
+      "tags": ["報道", "政治", "直説法未来"],
+      "grammar": "dar por hecho que は「〜を既定のことと考える」。se を付けて無人称にしている。",
+      "tokens": [
+        { "s": "Se", "skip": true },
+        { "s": "da por hecho que", "lemma": "dar por hecho que", "pos": "慣用表現", "ja": "〜を既定のこととみなす", "idiom": true },
+        { "s": "el", "skip": true },
+        { "s": "pacto", "lemma": "pacto", "pos": "名詞", "ja": "協定・盟約" },
+        { "s": "no", "skip": true },
+        { "s": "prosperará", "lemma": "prosperar", "pos": "動詞", "ja": "成功する・（法案が）通る", "label": "直説法未来・3人称単数" },
+        { "s": "sin", "skip": true },
+        { "s": "apoyo parlamentario", "lemma": "apoyo parlamentario", "pos": "名詞句", "ja": "議会の支持", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0137",
+      "text": "El informe evidencia que las emisiones no han descendido lo suficiente.",
+      "ja": "報告書は排出量が十分に減っていないことを明らかにしている。",
+      "level": "C1",
+      "tags": ["報道", "直説法現在完了"],
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "informe", "lemma": "informe", "pos": "名詞", "ja": "報告書・レポート" },
+        { "s": "evidencia", "lemma": "evidenciar", "pos": "動詞", "ja": "明らかにする", "infl": "IND_PRES/3sg" },
+        { "s": "que", "skip": true },
+        { "s": "las", "skip": true },
+        { "s": "emisiones", "lemma": "emisión", "pos": "名詞", "ja": "排出・放送" },
+        { "s": "no", "skip": true },
+        { "s": "han descendido", "lemma": "descender", "pos": "動詞", "ja": "下降する・下がる", "infl": "IND_PERF/3pl" },
+        { "s": "lo suficiente", "lemma": "lo suficiente", "pos": "慣用表現", "ja": "十分なだけ", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0138",
+      "text": "Habría bastado con que el organismo hubiera advertido a tiempo.",
+      "ja": "その機関が早めに警告してさえいれば十分だったはずだ。",
+      "level": "C2",
+      "tags": ["論説", "接続法過去完了", "条件法完了"],
+      "grammar": "bastar con que + 接続法。過去の反実仮想なので接続法過去完了と条件法完了が組む。",
+      "tokens": [
+        { "s": "Habría bastado", "lemma": "bastar", "pos": "動詞", "ja": "足りる・十分である", "label": "条件法完了・3人称単数" },
+        { "s": "con que", "skip": true },
+        { "s": "el", "skip": true },
+        { "s": "organismo", "lemma": "organismo", "pos": "名詞", "ja": "機関・組織" },
+        { "s": "hubiera advertido", "lemma": "advertir", "pos": "動詞", "ja": "警告する・気づく", "label": "接続法過去完了・3人称単数" },
+        { "s": "a tiempo", "lemma": "a tiempo", "pos": "慣用表現", "ja": "間に合って・早めに", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0139",
+      "text": "Los datos, recabados durante dos años, aún están por publicar.",
+      "ja": "2年かけて集められたデータは、まだ公表されていない。",
+      "level": "C2",
+      "tags": ["学術", "報道", "過去分詞"],
+      "grammar": "estar por + 不定詞で「まだ〜されていない」。挿入句の過去分詞と組み合わせている。",
+      "tokens": [
+        { "s": "Los", "skip": true },
+        { "s": "datos", "lemma": "dato", "pos": "名詞", "ja": "データ・資料" },
+        { "s": "recabados", "lemma": "recabar", "pos": "動詞", "ja": "収集する・要請する", "label": "過去分詞・男性複数" },
+        { "s": "durante", "skip": true },
+        { "s": "dos años", "lemma": "año", "pos": "名詞", "ja": "年" },
+        { "s": "aún", "lemma": "aún", "pos": "副詞", "ja": "まだ" },
+        { "s": "están por", "lemma": "estar por + 不定詞", "pos": "慣用表現", "ja": "まだ〜されていない", "idiom": true },
+        { "s": "publicar", "lemma": "publicar", "pos": "動詞", "ja": "公表する・出版する", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "es-0140",
+      "text": "El portavoz se limitó a decir que el asunto seguía bajo investigación.",
+      "ja": "報道官は、その件は捜査中だと述べるにとどめた。",
+      "level": "C1",
+      "tags": ["報道", "直説法点過去", "直説法線過去"],
+      "grammar": "limitarse a + 不定詞で「〜するにとどめる」。時制の一致で従属節は線過去。",
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "portavoz", "lemma": "portavoz", "pos": "名詞", "ja": "報道官" },
+        { "s": "se", "skip": true },
+        { "s": "limitó", "lemma": "limitar", "pos": "動詞", "ja": "制限する・（再帰で）〜にとどめる", "label": "直説法点過去・3人称単数" },
+        { "s": "a", "skip": true },
+        { "s": "decir", "lemma": "decir", "pos": "動詞", "ja": "言う", "label": "不定詞" },
+        { "s": "que", "skip": true },
+        { "s": "el", "skip": true },
+        { "s": "asunto", "lemma": "asunto", "pos": "名詞", "ja": "件・事柄" },
+        { "s": "seguía", "lemma": "seguir", "pos": "動詞", "ja": "続ける・ついていく", "infl": "IND_IMPF/3sg" },
+        { "s": "bajo investigación", "lemma": "bajo investigación", "pos": "慣用表現", "ja": "捜査中で", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0141",
+      "text": "Por muy contundentes que sean las pruebas, la defensa las cuestionará.",
+      "ja": "証拠がどれほど決定的でも、弁護側はそれに異議を唱えるだろう。",
+      "level": "C2",
+      "tags": ["司法", "接続法現在", "直説法未来"],
+      "grammar": "por muy + 形容詞 + que + 接続法で「どれほど〜でも」。",
+      "tokens": [
+        { "s": "Por muy", "lemma": "por muy... que", "pos": "慣用表現", "ja": "どれほど〜でも", "idiom": true, "note": "後ろは接続法" },
+        { "s": "contundentes", "lemma": "contundente", "pos": "形容詞", "ja": "決定的な・有無を言わせぬ", "label": "複数" },
+        { "s": "que", "skip": true },
+        { "s": "sean", "lemma": "ser", "pos": "動詞", "ja": "〜である", "infl": "SUBJ_PRES/3pl" },
+        { "s": "las", "skip": true },
+        { "s": "pruebas", "lemma": "prueba", "pos": "名詞", "ja": "証拠・試験" },
+        { "s": "la", "skip": true },
+        { "s": "defensa", "lemma": "defensa", "pos": "名詞", "ja": "弁護・防御" },
+        { "s": "las", "skip": true },
+        { "s": "cuestionará", "lemma": "cuestionar", "pos": "動詞", "ja": "疑問を投げかける", "infl": "IND_FUT/3sg" }
+      ]
+    },
+    {
+      "id": "es-0142",
+      "text": "La reforma quedó en papel mojado tras la negativa del Senado.",
+      "ja": "上院の拒否により、改革は絵に描いた餅に終わった。",
+      "level": "C2",
+      "tags": ["報道", "政治", "熟語", "直説法点過去"],
+      "grammar": "quedar en papel mojado は「実行されずに終わる」。tras は después de の書き言葉版。",
+      "tokens": [
+        { "s": "La", "skip": true },
+        { "s": "reforma", "lemma": "reforma", "pos": "名詞", "ja": "改革" },
+        { "s": "quedó", "lemma": "quedar", "pos": "動詞", "ja": "残る・〜のままになる", "infl": "IND_PRET/3sg" },
+        { "s": "en papel mojado", "lemma": "quedar en papel mojado", "pos": "慣用表現", "ja": "絵に描いた餅に終わる", "idiom": true },
+        { "s": "tras", "lemma": "tras", "pos": "前置詞", "ja": "〜の後で" },
+        { "s": "la", "skip": true },
+        { "s": "negativa", "lemma": "negativa", "pos": "名詞", "ja": "拒否・否認" },
+        { "s": "del", "skip": true },
+        { "s": "Senado", "lemma": "Senado", "pos": "固有名詞", "ja": "上院" }
+      ]
+    },
+    {
+      "id": "es-0143",
+      "text": "Se estima que el impacto ascendería a varios miles de millones.",
+      "ja": "影響額は数十億に上るとみられている。",
+      "level": "C2",
+      "tags": ["報道", "経済", "条件法現在"],
+      "grammar": "se estima que + 条件法で「〜に上るとみられる」。推定を弱める書き方。",
+      "tokens": [
+        { "s": "Se estima que", "lemma": "se estima que", "pos": "慣用表現", "ja": "〜と見積もられている", "idiom": true },
+        { "s": "el", "skip": true },
+        { "s": "impacto", "lemma": "impacto", "pos": "名詞", "ja": "影響・衝撃" },
+        { "s": "ascendería", "lemma": "ascender", "pos": "動詞", "ja": "上る・昇進する", "label": "条件法現在・3人称単数", "note": "推定を弱める条件法" },
+        { "s": "a", "skip": true },
+        { "s": "varios miles de millones", "lemma": "miles de millones", "pos": "名詞句", "ja": "数十億", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0144",
+      "text": "El juez ordenó que se levantara el secreto de sumario.",
+      "ja": "裁判官は捜査資料の秘密指定を解除するよう命じた。",
+      "level": "C2",
+      "tags": ["司法", "接続法過去"],
+      "grammar": "ordenar que は命令なので接続法。主節が過去だから接続法過去になる。",
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "juez", "lemma": "juez", "pos": "名詞", "ja": "裁判官" },
+        { "s": "ordenó", "lemma": "ordenar", "pos": "動詞", "ja": "命じる・整える", "label": "直説法点過去・3人称単数" },
+        { "s": "que", "skip": true },
+        { "s": "se", "skip": true },
+        { "s": "levantara", "lemma": "levantar", "pos": "動詞", "ja": "持ち上げる・（制限を）解除する", "infl": "SUBJ_IMPF/3sg" },
+        { "s": "el secreto de sumario", "lemma": "secreto de sumario", "pos": "名詞句", "ja": "捜査資料の秘密指定", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0145",
+      "text": "Los mercados reaccionaron con cautela, a la espera de nuevos indicadores.",
+      "ja": "市場は新たな指標を待って慎重に反応した。",
+      "level": "C1",
+      "tags": ["報道", "経済", "直説法点過去"],
+      "grammar": "a la espera de は「〜を待って」。con + 抽象名詞で副詞の代わりをする（con cautela = 慎重に）。",
+      "tokens": [
+        { "s": "Los", "skip": true },
+        { "s": "mercados", "lemma": "mercado", "pos": "名詞", "ja": "市場" },
+        { "s": "reaccionaron", "lemma": "reaccionar", "pos": "動詞", "ja": "反応する", "label": "直説法点過去・3人称複数" },
+        { "s": "con cautela", "lemma": "con cautela", "pos": "慣用表現", "ja": "慎重に", "idiom": true },
+        { "s": "a la espera de", "lemma": "a la espera de", "pos": "慣用表現", "ja": "〜を待って", "idiom": true },
+        { "s": "nuevos", "skip": true },
+        { "s": "indicadores", "lemma": "indicador", "pos": "名詞", "ja": "指標" }
+      ]
+    },
+    {
+      "id": "es-0146",
+      "text": "Es imprescindible que las partes cedan si quieren evitar la ruptura.",
+      "ja": "決裂を避けたいなら、双方が譲歩することが不可欠だ。",
+      "level": "C1",
+      "tags": ["国際", "接続法現在"],
+      "tokens": [
+        { "s": "Es", "lemma": "ser", "pos": "動詞", "ja": "〜である", "infl": "IND_PRES/3sg" },
+        { "s": "imprescindible", "lemma": "imprescindible", "pos": "形容詞", "ja": "不可欠な" },
+        { "s": "que", "skip": true },
+        { "s": "las", "skip": true },
+        { "s": "partes", "lemma": "parte", "pos": "名詞", "ja": "当事者・部分" },
+        { "s": "cedan", "lemma": "ceder", "pos": "動詞", "ja": "譲る・屈する", "infl": "SUBJ_PRES/3pl" },
+        { "s": "si", "skip": true },
+        { "s": "quieren", "lemma": "querer", "pos": "動詞", "ja": "望む・愛する", "infl": "IND_PRES/3pl" },
+        { "s": "evitar", "lemma": "evitar", "pos": "動詞", "ja": "避ける", "label": "不定詞" },
+        { "s": "la", "skip": true },
+        { "s": "ruptura", "lemma": "ruptura", "pos": "名詞", "ja": "決裂・破断" }
+      ]
+    },
+    {
+      "id": "es-0147",
+      "text": "El país padece una inflación que no se veía desde los años noventa.",
+      "ja": "その国は90年代以来のインフレに苦しんでいる。",
+      "level": "C1",
+      "tags": ["報道", "経済", "直説法線過去"],
+      "grammar": "関係節の中の線過去で「かつて見られた状態」を表す。desde los años + 数字で年代を指す。",
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "país", "lemma": "país", "pos": "名詞", "ja": "国" },
+        { "s": "padece", "lemma": "padecer", "pos": "動詞", "ja": "患う・苦しむ", "infl": "IND_PRES/3sg" },
+        { "s": "una", "skip": true },
+        { "s": "inflación", "lemma": "inflación", "pos": "名詞", "ja": "インフレ" },
+        { "s": "que", "skip": true },
+        { "s": "no", "skip": true },
+        { "s": "se", "skip": true },
+        { "s": "veía", "lemma": "ver", "pos": "動詞", "ja": "見る・会う", "infl": "IND_IMPF/3sg" },
+        { "s": "desde los años noventa", "lemma": "los años noventa", "pos": "名詞句", "ja": "90年代", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0148",
+      "text": "Tal y como estaba previsto, la cumbre se saldó sin compromisos firmes.",
+      "ja": "予定どおり、首脳会議は確たる約束のないまま幕を閉じた。",
+      "level": "C2",
+      "tags": ["報道", "国際", "直説法線過去"],
+      "grammar": "tal y como estaba previsto は「予定どおり」。saldarse con/sin で「〜という結果に終わる」。",
+      "tokens": [
+        { "s": "Tal y como", "lemma": "tal y como", "pos": "慣用表現", "ja": "ちょうど〜のとおりに", "idiom": true },
+        { "s": "estaba", "lemma": "estar", "pos": "動詞", "ja": "〜にいる・〜の状態である", "infl": "IND_IMPF/3sg" },
+        { "s": "previsto", "lemma": "prever", "pos": "動詞", "ja": "予測する・見込む", "infl": "PART" },
+        { "s": "la", "skip": true },
+        { "s": "cumbre", "lemma": "cumbre", "pos": "名詞", "ja": "首脳会議・頂上" },
+        { "s": "se", "skip": true },
+        { "s": "saldó", "lemma": "saldar", "pos": "動詞", "ja": "清算する・決着させる", "label": "直説法点過去・3人称単数", "note": "saldarse con/sin で「〜という結果に終わる」" },
+        { "s": "sin", "skip": true },
+        { "s": "compromisos firmes", "lemma": "compromiso firme", "pos": "名詞句", "ja": "確たる約束", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0149",
+      "text": "Que yo recuerde, nunca se había producido una crisis semejante.",
+      "ja": "私の記憶にある限り、これほどの危機は起きたことがなかった。",
+      "level": "C2",
+      "tags": ["報道", "接続法現在", "直説法過去完了"],
+      "grammar": "que yo recuerde は「私の記憶にある限り」という接続法の決まり文句。",
+      "tokens": [
+        { "s": "Que", "skip": true },
+        { "s": "yo", "skip": true },
+        { "s": "recuerde", "lemma": "recordar", "pos": "動詞", "ja": "覚えている・思い出す", "infl": "SUBJ_PRES/1sg", "note": "que yo recuerde で「私の記憶にある限り」" },
+        { "s": "nunca", "lemma": "nunca", "pos": "副詞", "ja": "一度も〜ない" },
+        { "s": "se", "skip": true },
+        { "s": "había producido", "lemma": "producir", "pos": "動詞", "ja": "生産する・引き起こす", "infl": "IND_PLUP/3sg" },
+        { "s": "una", "skip": true },
+        { "s": "crisis", "lemma": "crisis", "pos": "名詞", "ja": "危機" },
+        { "s": "semejante", "lemma": "semejante", "pos": "形容詞", "ja": "そのような・類似の" }
+      ]
+    },
+    {
+      "id": "es-0150",
+      "text": "El organismo insta a los Estados a que refuercen sus controles fronterizos.",
+      "ja": "その機関は各国に国境管理の強化を促している。",
+      "level": "C1",
+      "tags": ["国際", "接続法現在"],
+      "grammar": "instar a alguien a que + 接続法で「〜するよう促す」。国際報道の定型。",
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "organismo", "lemma": "organismo", "pos": "名詞", "ja": "機関・組織" },
+        { "s": "insta", "lemma": "instar", "pos": "動詞", "ja": "促す・強く求める", "label": "直説法現在・3人称単数" },
+        { "s": "a", "skip": true },
+        { "s": "los", "skip": true },
+        { "s": "Estados", "lemma": "Estado", "pos": "名詞", "ja": "国家" },
+        { "s": "a que", "skip": true },
+        { "s": "refuercen", "lemma": "reforzar", "pos": "動詞", "ja": "強化する", "label": "接続法現在・3人称複数" },
+        { "s": "controles fronterizos", "lemma": "control fronterizo", "pos": "名詞句", "ja": "国境管理", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0151",
+      "text": "La medida, largamente esperada, no ha satisfecho a ninguna de las partes.",
+      "ja": "長らく待たれていたその措置は、どちらの側も満足させなかった。",
+      "level": "C2",
+      "tags": ["報道", "過去分詞", "直説法現在完了"],
+      "tokens": [
+        { "s": "La", "skip": true },
+        { "s": "medida", "lemma": "medida", "pos": "名詞", "ja": "措置・対策" },
+        { "s": "largamente", "lemma": "largamente", "pos": "副詞", "ja": "長らく" },
+        { "s": "esperada", "lemma": "esperar", "pos": "動詞", "ja": "待つ・期待する", "label": "過去分詞・女性単数" },
+        { "s": "no", "skip": true },
+        { "s": "ha satisfecho", "lemma": "satisfacer", "pos": "動詞", "ja": "満足させる", "label": "直説法現在完了・3人称単数", "note": "過去分詞は satisfecho という不規則形" },
+        { "s": "a ninguna de las partes", "lemma": "ninguna de las partes", "pos": "名詞句", "ja": "どちらの側も〜ない", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0152",
+      "text": "Con todo, el Gobierno mantiene que las cifras avalan su gestión.",
+      "ja": "それでもなお政府は、数字が自らの運営を裏付けていると主張している。",
+      "level": "C1",
+      "tags": ["報道", "政治", "直説法現在"],
+      "grammar": "con todo は sin embargo と同じく「それでも」。文頭の書き言葉の接続表現。",
+      "tokens": [
+        { "s": "Con todo", "lemma": "con todo", "pos": "慣用表現", "ja": "それでもなお", "idiom": true },
+        { "s": "el", "skip": true },
+        { "s": "Gobierno", "lemma": "gobierno", "pos": "名詞", "ja": "政府" },
+        { "s": "mantiene", "lemma": "mantener", "pos": "動詞", "ja": "維持する・主張する", "infl": "IND_PRES/3sg" },
+        { "s": "que", "skip": true },
+        { "s": "las", "skip": true },
+        { "s": "cifras", "lemma": "cifra", "pos": "名詞", "ja": "数字・数値" },
+        { "s": "avalan", "lemma": "avalar", "pos": "動詞", "ja": "保証する・裏付ける", "label": "直説法現在・3人称複数" },
+        { "s": "su", "skip": true },
+        { "s": "gestión", "lemma": "gestión", "pos": "名詞", "ja": "運営・管理" }
+      ]
+    },
+    {
+      "id": "es-0153",
+      "text": "El acusado negó los hechos, si bien admitió haber recibido el dinero.",
+      "ja": "被告は事実を否認したが、金銭を受け取ったことは認めた。",
+      "level": "C2",
+      "tags": ["司法", "直説法点過去"],
+      "grammar": "admitir + 完了不定詞（haber + 過去分詞）で「〜したことを認める」。",
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "acusado", "lemma": "acusado", "pos": "名詞", "ja": "被告" },
+        { "s": "negó", "lemma": "negar", "pos": "動詞", "ja": "否定する・拒む", "label": "直説法点過去・3人称単数" },
+        { "s": "los", "skip": true },
+        { "s": "hechos", "lemma": "hecho", "pos": "名詞", "ja": "事実・出来事" },
+        { "s": "si bien", "lemma": "si bien", "pos": "接続詞", "ja": "〜ではあるが", "idiom": true },
+        { "s": "admitió", "lemma": "aceptar", "pos": "動詞", "ja": "認める・受け入れる", "label": "直説法点過去・3人称単数" },
+        { "s": "haber recibido", "lemma": "haber + 過去分詞", "pos": "慣用表現", "ja": "〜したこと（完了不定詞）", "idiom": true },
+        { "s": "el", "skip": true },
+        { "s": "dinero", "lemma": "dinero", "pos": "名詞", "ja": "お金" }
+      ]
+    },
+    {
+      "id": "es-0154",
+      "text": "De ahí que la comisión haya decidido ampliar el plazo.",
+      "ja": "そのため委員会は期限の延長を決めた。",
+      "level": "C2",
+      "tags": ["報道", "接続法現在完了"],
+      "grammar": "de ahí que は「だから〜」。結果を示すが、後ろは必ず接続法になる点が要注意。",
+      "tokens": [
+        { "s": "De ahí que", "lemma": "de ahí que", "pos": "慣用表現", "ja": "そのため〜", "idiom": true, "note": "結果を示すが後ろは必ず接続法" },
+        { "s": "la", "skip": true },
+        { "s": "comisión", "lemma": "comisión", "pos": "名詞", "ja": "委員会" },
+        { "s": "haya decidido", "lemma": "decidir", "pos": "動詞", "ja": "決める", "infl": "SUBJ_PERF/3sg" },
+        { "s": "ampliar", "lemma": "ampliar", "pos": "動詞", "ja": "拡大する・延長する", "label": "不定詞" },
+        { "s": "el", "skip": true },
+        { "s": "plazo", "lemma": "plazo", "pos": "名詞", "ja": "期限・期間" }
+      ]
+    },
+    {
+      "id": "es-0155",
+      "text": "Las exportaciones crecieron un cinco por ciento, según recoge el informe.",
+      "ja": "報告書によれば、輸出は5パーセント増加した。",
+      "level": "C1",
+      "tags": ["報道", "経済", "直説法点過去"],
+      "grammar": "según recoge... は「〜が伝えるところによれば」。倒置した挿入句で出典を示す。",
+      "tokens": [
+        { "s": "Las", "skip": true },
+        { "s": "exportaciones", "lemma": "exportación", "pos": "名詞", "ja": "輸出" },
+        { "s": "crecieron", "lemma": "crecer", "pos": "動詞", "ja": "育つ・成長する", "infl": "IND_PRET/3pl" },
+        { "s": "un cinco por ciento", "lemma": "por ciento", "pos": "名詞句", "ja": "パーセント", "idiom": true },
+        { "s": "según recoge", "lemma": "según recoge", "pos": "慣用表現", "ja": "〜が伝えるところによれば", "idiom": true },
+        { "s": "el", "skip": true },
+        { "s": "informe", "lemma": "informe", "pos": "名詞", "ja": "報告書" }
+      ]
+    },
+    {
+      "id": "es-0156",
+      "text": "El decreto fue derogado sin que mediara debate parlamentario alguno.",
+      "ja": "議会での議論を一切経ずに、その政令は廃止された。",
+      "level": "C2",
+      "tags": ["司法", "受動態", "接続法過去"],
+      "grammar": "名詞の後ろに置く alguno は否定を強める（＝ninguno）。sin que のあとは接続法。",
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "decreto", "lemma": "decreto", "pos": "名詞", "ja": "政令・布告" },
+        { "s": "fue derogado", "lemma": "derogar", "pos": "動詞", "ja": "廃止する", "label": "受動態・点過去・3人称単数" },
+        { "s": "sin que", "lemma": "sin que", "pos": "接続詞", "ja": "〜することなく", "idiom": true },
+        { "s": "mediara", "lemma": "mediar", "pos": "動詞", "ja": "介在する・仲裁する", "label": "接続法過去・3人称単数" },
+        { "s": "debate parlamentario", "lemma": "debate parlamentario", "pos": "名詞句", "ja": "議会での議論", "idiom": true },
+        { "s": "alguno", "lemma": "alguno", "pos": "形容詞", "ja": "（否定文で名詞の後）少しも〜ない", "note": "名詞の後ろに置くと否定を強める" }
+      ]
+    },
+    {
+      "id": "es-0157",
+      "text": "Tras dimitir, el consejero delegado se negó a hacer declaraciones.",
+      "ja": "辞任後、最高経営責任者は発言を拒んだ。",
+      "level": "C1",
+      "tags": ["報道", "経済", "直説法点過去"],
+      "tokens": [
+        { "s": "Tras", "lemma": "tras", "pos": "前置詞", "ja": "〜の後で" },
+        { "s": "dimitir", "lemma": "dimitir", "pos": "動詞", "ja": "辞任する", "label": "不定詞" },
+        { "s": "el", "skip": true },
+        { "s": "consejero delegado", "lemma": "consejero delegado", "pos": "名詞句", "ja": "最高経営責任者", "idiom": true },
+        { "s": "se", "skip": true },
+        { "s": "negó", "lemma": "negar", "pos": "動詞", "ja": "否定する・拒む", "label": "直説法点過去・3人称単数", "note": "negarse a で「〜を拒む」" },
+        { "s": "a", "skip": true },
+        { "s": "hacer declaraciones", "lemma": "hacer declaraciones", "pos": "慣用表現", "ja": "発言する・声明を出す", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0158",
+      "text": "Se prevé que la sequía agrave la escasez de agua en toda la región.",
+      "ja": "干ばつが地域全体の水不足を悪化させると見込まれている。",
+      "level": "C1",
+      "tags": ["報道", "接続法現在"],
+      "tokens": [
+        { "s": "Se", "skip": true },
+        { "s": "prevé", "lemma": "prever", "pos": "動詞", "ja": "予測する・見込む", "infl": "IND_PRES/3sg" },
+        { "s": "que", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "sequía", "lemma": "sequía", "pos": "名詞", "ja": "干ばつ" },
+        { "s": "agrave", "lemma": "agravar", "pos": "動詞", "ja": "悪化させる", "infl": "SUBJ_PRES/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "escasez", "lemma": "escasez", "pos": "名詞", "ja": "不足・欠乏" },
+        { "s": "de", "skip": true },
+        { "s": "agua", "lemma": "agua", "pos": "名詞", "ja": "水" }
+      ]
+    },
+    {
+      "id": "es-0159",
+      "text": "Lejos de mitigar la tensión, el discurso la avivó.",
+      "ja": "緊張を和らげるどころか、その演説はかえって煽った。",
+      "level": "C2",
+      "tags": ["論説", "直説法点過去"],
+      "grammar": "lejos de + 不定詞で「〜するどころか」。論説で対比を作るときの型。",
+      "tokens": [
+        { "s": "Lejos de", "lemma": "lejos de + 不定詞", "pos": "慣用表現", "ja": "〜するどころか", "idiom": true },
+        { "s": "mitigar", "lemma": "mitigar", "pos": "動詞", "ja": "緩和する", "label": "不定詞" },
+        { "s": "la", "skip": true },
+        { "s": "tensión", "lemma": "tensión", "pos": "名詞", "ja": "緊張" },
+        { "s": "el", "skip": true },
+        { "s": "discurso", "lemma": "discurso", "pos": "名詞", "ja": "演説・言説" },
+        { "s": "la", "skip": true },
+        { "s": "avivó", "lemma": "avivar", "pos": "動詞", "ja": "煽る・活気づける", "label": "直説法点過去・3人称単数" }
+      ]
+    },
+    {
+      "id": "es-0160",
+      "text": "El pacto se firmará siempre y cuando ambas cámaras lo ratifiquen.",
+      "ja": "両院が批准する場合に限り、この協定は署名される。",
+      "level": "C2",
+      "tags": ["政治", "接続法現在", "直説法未来"],
+      "grammar": "siempre y cuando は「〜する場合に限り」。条件を厳しく限定し、後ろは接続法。",
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "pacto", "lemma": "pacto", "pos": "名詞", "ja": "協定・盟約" },
+        { "s": "se", "skip": true },
+        { "s": "firmará", "lemma": "firmar", "pos": "動詞", "ja": "署名する", "label": "直説法未来・3人称単数" },
+        { "s": "siempre y cuando", "lemma": "siempre y cuando", "pos": "慣用表現", "ja": "〜する場合に限り", "idiom": true, "note": "後ろは必ず接続法" },
+        { "s": "ambas", "skip": true },
+        { "s": "cámaras", "lemma": "cámara", "pos": "名詞", "ja": "議院・部屋・カメラ" },
+        { "s": "lo", "skip": true },
+        { "s": "ratifiquen", "lemma": "ratificar", "pos": "動詞", "ja": "批准する・追認する", "label": "接続法現在・3人称複数" }
+      ]
+    }
+  ]
+}
