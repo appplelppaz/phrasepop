@@ -1,0 +1,709 @@
+{
+  "_comment": "バッチ5: 文学・小説の語り。単純過去（passé simple）を中心に据えてある。小説・伝記・歴史記述の基本時制で、話し言葉には出ないが読解には必須。大過去・接続法半過去も厚くした。",
+  "lang": "fr",
+  "phrases": [
+    {
+      "id": "fr-0161",
+      "text": "Il ouvrit la porte et s'arrêta net sur le seuil.",
+      "ja": "彼は扉を開け、敷居のところでぴたりと立ち止まった。",
+      "level": "C1",
+      "tags": ["文学", "単純過去"],
+      "grammar": "単純過去は小説の地の文で「次々に起きた出来事」を語る時制。話し言葉では使わない。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "ouvrit", "lemma": "ouvrir", "pos": "動詞", "ja": "開ける", "infl": "PS/3sg", "note": "小説の地の文で使う時制。会話では複合過去になる" },
+        { "s": "la", "skip": true },
+        { "s": "porte", "lemma": "porte", "pos": "名詞", "ja": "ドア・扉" },
+        { "s": "s'arrêta", "lemma": "arrêter", "pos": "動詞", "ja": "止める・（代名動詞で）立ち止まる", "label": "単純過去・3人称単数（代名動詞）" },
+        { "s": "net", "lemma": "net", "pos": "副詞", "ja": "ぴたりと・きっぱりと" },
+        { "s": "sur le seuil", "lemma": "seuil", "pos": "名詞", "ja": "敷居・入口" }
+      ]
+    },
+    {
+      "id": "fr-0162",
+      "text": "Elle prit le livre, l'ouvrit, puis le referma aussitôt.",
+      "ja": "彼女は本を手に取り、開き、そしてすぐに閉じた。",
+      "level": "C1",
+      "tags": ["文学", "単純過去"],
+      "grammar": "単純過去を並べると、出来事が次々と切れ目なく進む語りになる。",
+      "tokens": [
+        { "s": "Elle", "skip": true },
+        { "s": "prit", "lemma": "prendre", "pos": "動詞", "ja": "取る・乗る", "infl": "PS/3sg" },
+        { "s": "le", "skip": true },
+        { "s": "livre", "lemma": "livre", "pos": "名詞", "ja": "本" },
+        { "s": "l'", "skip": true },
+        { "s": "ouvrit", "lemma": "ouvrir", "pos": "動詞", "ja": "開ける", "infl": "PS/3sg" },
+        { "s": "puis", "lemma": "puis", "pos": "副詞", "ja": "それから" },
+        { "s": "le", "skip": true },
+        { "s": "referma", "lemma": "fermer", "pos": "動詞", "ja": "閉める", "label": "単純過去・3人称単数（refermer）" },
+        { "s": "aussitôt", "lemma": "aussitôt", "pos": "副詞", "ja": "すぐさま" }
+      ]
+    },
+    {
+      "id": "fr-0163",
+      "text": "Le vieil homme mourut sans que personne l'apprît.",
+      "ja": "その老人は、誰にも知られぬまま息を引き取った。",
+      "level": "C2",
+      "tags": ["文学", "単純過去", "接続法半過去"],
+      "grammar": "地の文が単純過去のとき、sans que のあとは接続法半過去になる。最も文語的な組み合わせ。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "vieil", "lemma": "vieux", "pos": "形容詞", "ja": "年老いた・古い", "label": "母音の前の男性単数", "note": "vieux が母音の前で vieil に変わる不規則な形" },
+        { "s": "homme", "lemma": "homme", "pos": "名詞", "ja": "男性・人" },
+        { "s": "mourut", "lemma": "mourir", "pos": "動詞", "ja": "死ぬ", "infl": "PS/3sg" },
+        { "s": "sans que", "lemma": "sans que", "pos": "接続詞", "ja": "〜することなく", "idiom": true },
+        { "s": "personne", "lemma": "personne", "pos": "代名詞", "ja": "誰も〜ない" },
+        { "s": "l'", "skip": true },
+        { "s": "apprît", "lemma": "apprendre", "pos": "動詞", "ja": "学ぶ・知る", "label": "接続法半過去・3人称単数", "note": "文語専用。話し言葉では接続法現在で代用する" }
+      ]
+    },
+    {
+      "id": "fr-0164",
+      "text": "Ils vinrent, ils virent, et ils s'en allèrent sans un mot.",
+      "ja": "彼らは来て、見て、そして一言も発さずに去っていった。",
+      "level": "C1",
+      "tags": ["文学", "単純過去"],
+      "grammar": "venir と voir の単純過去は vinrent / virent。似ているが語幹が違う代表的な不規則。",
+      "tokens": [
+        { "s": "Ils", "skip": true },
+        { "s": "vinrent", "lemma": "venir", "pos": "動詞", "ja": "来る", "infl": "PS/3pl" },
+        { "s": "virent", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "infl": "PS/3pl" },
+        { "s": "s'en allèrent", "lemma": "s'en aller", "pos": "動詞", "ja": "立ち去る", "idiom": true },
+        { "s": "sans un mot", "lemma": "sans un mot", "pos": "慣用表現", "ja": "一言も発さずに", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0165",
+      "text": "Il fut surpris de la trouver là, si calme.",
+      "ja": "彼女がそこにいて、しかも落ち着いているのを見て彼は驚いた。",
+      "level": "C1",
+      "tags": ["文学", "単純過去"],
+      "grammar": "être の単純過去 fut は最も頻出。受動的な状態変化を語るのに使う。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "fut", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PS/3sg" },
+        { "s": "surpris", "lemma": "surprendre", "pos": "動詞", "ja": "驚かせる・不意を突く", "infl": "PPASSE" },
+        { "s": "de", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "trouver", "lemma": "trouver", "pos": "動詞", "ja": "見つける・〜だと思う", "label": "不定詞" },
+        { "s": "là", "lemma": "là", "pos": "副詞", "ja": "そこに" },
+        { "s": "si", "lemma": "si", "pos": "副詞", "ja": "そんなに・とても" },
+        { "s": "calme", "lemma": "calme", "pos": "形容詞", "ja": "静かな・落ち着いた" }
+      ]
+    },
+    {
+      "id": "fr-0166",
+      "text": "Elle eut soudain le sentiment qu'on l'observait.",
+      "ja": "彼女はふいに、誰かに見られている気がした。",
+      "level": "C1",
+      "tags": ["文学", "単純過去", "半過去"],
+      "grammar": "単純過去（突発）と半過去（続いていた状態）の対比。語りの基本的な組み立て。",
+      "tokens": [
+        { "s": "Elle", "skip": true },
+        { "s": "eut", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PS/3sg" },
+        { "s": "soudain", "lemma": "soudain", "pos": "副詞", "ja": "ふいに・突然" },
+        { "s": "le", "skip": true },
+        { "s": "sentiment", "lemma": "sentiment", "pos": "名詞", "ja": "感じ・感情" },
+        { "s": "qu'", "skip": true },
+        { "s": "on", "skip": true },
+        { "s": "l'", "skip": true },
+        { "s": "observait", "lemma": "observer", "pos": "動詞", "ja": "観察する・見つめる", "label": "半過去・3人称単数", "note": "続いていた状態なので半過去" }
+      ]
+    },
+    {
+      "id": "fr-0167",
+      "text": "La nuit tomba, et le village entier se tut.",
+      "ja": "夜のとばりが下り、村じゅうが静まりかえった。",
+      "level": "C2",
+      "tags": ["文学", "単純過去"],
+      "grammar": "se taire の単純過去は se tut。短く切れる単純過去が場面転換を作る。",
+      "tokens": [
+        { "s": "La", "skip": true },
+        { "s": "nuit", "lemma": "nuit", "pos": "名詞", "ja": "夜" },
+        { "s": "tomba", "lemma": "tomber", "pos": "動詞", "ja": "落ちる・（夜が）訪れる", "infl": "PS/3sg" },
+        { "s": "le", "skip": true },
+        { "s": "village", "lemma": "village", "pos": "名詞", "ja": "村" },
+        { "s": "entier", "lemma": "entier", "pos": "形容詞", "ja": "全体の・まるごとの" },
+        { "s": "se tut", "lemma": "se taire", "pos": "動詞", "ja": "黙る・静まる", "idiom": true, "note": "単純過去・3人称単数" }
+      ]
+    },
+    {
+      "id": "fr-0168",
+      "text": "Il fit un pas, hésita, puis rebroussa chemin.",
+      "ja": "彼は一歩踏み出し、ためらい、そして引き返した。",
+      "level": "C1",
+      "tags": ["文学", "単純過去"],
+      "grammar": "rebrousser chemin は「来た道を引き返す」。faire の単純過去 fit は頻出。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "fit", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "PS/3sg" },
+        { "s": "un pas", "lemma": "faire un pas", "pos": "慣用表現", "ja": "一歩踏み出す", "idiom": true },
+        { "s": "hésita", "lemma": "hésiter", "pos": "動詞", "ja": "ためらう", "label": "単純過去・3人称単数" },
+        { "s": "puis", "lemma": "puis", "pos": "副詞", "ja": "それから" },
+        { "s": "rebroussa chemin", "lemma": "rebrousser chemin", "pos": "慣用表現", "ja": "来た道を引き返す", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0169",
+      "text": "Quand il arriva, la fête était déjà finie depuis longtemps.",
+      "ja": "彼が着いたとき、祭りはとうに終わっていた。",
+      "level": "C1",
+      "tags": ["文学", "単純過去", "半過去"],
+      "grammar": "単純過去の出来事と、その時点で続いていた状態（半過去）の組み合わせ。",
+      "tokens": [
+        { "s": "Quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "il", "skip": true },
+        { "s": "arriva", "lemma": "arriver", "pos": "動詞", "ja": "着く・起こる", "infl": "PS/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "fête", "lemma": "fête", "pos": "名詞", "ja": "祭り・パーティー" },
+        { "s": "était", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "IMPF/3sg" },
+        { "s": "déjà", "lemma": "déjà", "pos": "副詞", "ja": "すでに" },
+        { "s": "finie", "lemma": "finir", "pos": "動詞", "ja": "終える・終わる", "label": "過去分詞・女性単数" }
+      ]
+    },
+    {
+      "id": "fr-0170",
+      "text": "Elle songea longtemps à ce qu'il lui avait dit ce soir-là.",
+      "ja": "彼女はその晩に彼が言ったことを、長いあいだ思い返していた。",
+      "level": "C2",
+      "tags": ["文学", "単純過去", "大過去"],
+      "grammar": "大過去は単純過去より前に起きたことを示す。語りの時間の層をつくる。",
+      "tokens": [
+        { "s": "Elle", "skip": true },
+        { "s": "songea", "lemma": "songer", "pos": "動詞", "ja": "思いを巡らす・考える", "infl": "PS/3sg" },
+        { "s": "longtemps", "lemma": "longtemps", "pos": "副詞", "ja": "長いあいだ" },
+        { "s": "à ce qu'", "lemma": "ce que", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
+        { "s": "il", "skip": true },
+        { "s": "lui", "skip": true },
+        { "s": "avait dit", "lemma": "dire", "pos": "動詞", "ja": "言う", "infl": "PQP/3sg" },
+        { "s": "ce soir-là", "lemma": "ce soir-là", "pos": "慣用表現", "ja": "その晩", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0171",
+      "text": "Une silhouette surgit de l'ombre et disparut aussi vite.",
+      "ja": "人影が闇から現れ、同じ速さで消えた。",
+      "level": "C1",
+      "tags": ["文学", "単純過去"],
+      "tokens": [
+        { "s": "Une", "skip": true },
+        { "s": "silhouette", "lemma": "silhouette", "pos": "名詞", "ja": "人影・輪郭" },
+        { "s": "surgit", "lemma": "surgir", "pos": "動詞", "ja": "現れる・湧き出る", "infl": "PS/3sg" },
+        { "s": "de l'ombre", "lemma": "ombre", "pos": "名詞", "ja": "影・闇" },
+        { "s": "disparut", "lemma": "disparaître", "pos": "動詞", "ja": "消える・姿を消す", "label": "単純過去・3人称単数" },
+        { "s": "aussi vite", "lemma": "aussi vite", "pos": "慣用表現", "ja": "同じくらい速く", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0172",
+      "text": "Il murmura quelques mots que nul ne comprit.",
+      "ja": "彼は誰にも理解できない言葉をいくつかつぶやいた。",
+      "level": "C2",
+      "tags": ["文学", "単純過去"],
+      "grammar": "nul は personne の文語版。comprendre の単純過去は comprit。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "murmura", "lemma": "murmurer", "pos": "動詞", "ja": "つぶやく・ささやく", "infl": "PS/3sg" },
+        { "s": "quelques", "skip": true },
+        { "s": "mots", "lemma": "mot", "pos": "名詞", "ja": "言葉・単語" },
+        { "s": "que", "skip": true },
+        { "s": "nul", "lemma": "nul", "pos": "代名詞", "ja": "誰も〜ない", "note": "personne の文語版" },
+        { "s": "ne", "skip": true },
+        { "s": "comprit", "lemma": "comprendre", "pos": "動詞", "ja": "理解する", "infl": "PS/3sg" }
+      ]
+    },
+    {
+      "id": "fr-0173",
+      "text": "Le sol frémit sous leurs pieds, et tous se turent.",
+      "ja": "足元の地面が震え、皆が押し黙った。",
+      "level": "C2",
+      "tags": ["文学", "単純過去"],
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "sol", "lemma": "sol", "pos": "名詞", "ja": "地面・床" },
+        { "s": "frémit", "lemma": "frémir", "pos": "動詞", "ja": "震える・戦慄する", "infl": "PS/3sg" },
+        { "s": "sous", "skip": true },
+        { "s": "leurs", "skip": true },
+        { "s": "pieds", "lemma": "pied", "pos": "名詞", "ja": "足" },
+        { "s": "tous", "lemma": "tous", "pos": "代名詞", "ja": "皆・全員" },
+        { "s": "se turent", "lemma": "se taire", "pos": "動詞", "ja": "黙る・静まる", "idiom": true, "note": "単純過去・3人称複数" }
+      ]
+    },
+    {
+      "id": "fr-0174",
+      "text": "Il contempla longuement le paysage avant de reprendre la route.",
+      "ja": "彼はしばらく景色を眺めてから、再び道を進んだ。",
+      "level": "C1",
+      "tags": ["文学", "単純過去"],
+      "grammar": "avant de + 不定詞で「〜する前に」。主語が同じときはこの形にする。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "contempla", "lemma": "contempler", "pos": "動詞", "ja": "眺める・熟考する", "infl": "PS/3sg" },
+        { "s": "longuement", "lemma": "longuement", "pos": "副詞", "ja": "長々と・じっくりと" },
+        { "s": "le", "skip": true },
+        { "s": "paysage", "lemma": "paysage", "pos": "名詞", "ja": "風景・景色" },
+        { "s": "avant de", "lemma": "avant de + 不定詞", "pos": "慣用表現", "ja": "〜する前に", "idiom": true },
+        { "s": "reprendre la route", "lemma": "reprendre la route", "pos": "慣用表現", "ja": "再び道を進む", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0175",
+      "text": "Elle naquit dans un village que la guerre avait déjà ruiné.",
+      "ja": "彼女は、戦争がすでに荒廃させていた村で生まれた。",
+      "level": "C2",
+      "tags": ["文学", "単純過去", "大過去"],
+      "grammar": "naître の単純過去は naquit。伝記の書き出しで使う型。",
+      "tokens": [
+        { "s": "Elle", "skip": true },
+        { "s": "naquit", "lemma": "naître", "pos": "動詞", "ja": "生まれる", "infl": "PS/3sg" },
+        { "s": "dans un", "skip": true },
+        { "s": "village", "lemma": "village", "pos": "名詞", "ja": "村" },
+        { "s": "que", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "guerre", "lemma": "guerre", "pos": "名詞", "ja": "戦争" },
+        { "s": "avait", "skip": true },
+        { "s": "déjà", "lemma": "déjà", "pos": "副詞", "ja": "すでに" },
+        { "s": "ruiné", "lemma": "ruiner", "pos": "動詞", "ja": "破滅させる・荒廃させる", "label": "大過去の過去分詞" }
+      ]
+    },
+    {
+      "id": "fr-0176",
+      "text": "Il évoqua son enfance avec une tendresse qui la bouleversa.",
+      "ja": "彼が語る子ども時代の優しさに、彼女は心を揺さぶられた。",
+      "level": "C2",
+      "tags": ["文学", "単純過去"],
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "évoqua", "lemma": "évoquer", "pos": "動詞", "ja": "想起させる・言及する", "infl": "PS/3sg" },
+        { "s": "son", "skip": true },
+        { "s": "enfance", "lemma": "enfance", "pos": "名詞", "ja": "幼少期・子ども時代" },
+        { "s": "avec une tendresse", "lemma": "tendresse", "pos": "名詞", "ja": "優しさ・慈しみ" },
+        { "s": "qui", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "bouleversa", "lemma": "bouleverser", "pos": "動詞", "ja": "動転させる・心を揺さぶる", "label": "単純過去・3人称単数" }
+      ]
+    },
+    {
+      "id": "fr-0177",
+      "text": "On eût dit que le temps s'était arrêté dans cette pièce.",
+      "ja": "その部屋では時が止まってしまったかのようだった。",
+      "level": "C2",
+      "tags": ["文学", "条件法過去第二形", "大過去"],
+      "grammar": "on eût dit は「〜のようだった」。形は接続法大過去だが条件法過去の代わりに使う文語形。",
+      "tokens": [
+        { "s": "On eût dit que", "lemma": "on eût dit que", "pos": "慣用表現", "ja": "〜のようだった", "idiom": true, "note": "文語。形は接続法大過去だが条件法過去の意味になる" },
+        { "s": "le", "skip": true },
+        { "s": "temps", "lemma": "temps", "pos": "名詞", "ja": "時間・天気" },
+        { "s": "s'était arrêté", "lemma": "arrêter", "pos": "動詞", "ja": "止める・（代名動詞で）止まる", "label": "大過去・3人称単数（代名動詞）" },
+        { "s": "dans cette", "skip": true },
+        { "s": "pièce", "lemma": "pièce", "pos": "名詞", "ja": "部屋・戯曲" }
+      ]
+    },
+    {
+      "id": "fr-0178",
+      "text": "Il aurait voulu parler, mais aucun son ne sortit de sa gorge.",
+      "ja": "彼は口を開きたかったが、喉からは何の音も出てこなかった。",
+      "level": "C2",
+      "tags": ["文学", "条件法過去", "単純過去"],
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "aurait voulu", "lemma": "vouloir", "pos": "動詞", "ja": "〜したい・望む", "label": "条件法過去・3人称単数" },
+        { "s": "parler", "lemma": "parler", "pos": "動詞", "ja": "話す", "label": "不定詞" },
+        { "s": "aucun", "skip": true },
+        { "s": "son", "lemma": "son", "pos": "名詞", "ja": "音" },
+        { "s": "ne", "skip": true },
+        { "s": "sortit", "lemma": "sortir", "pos": "動詞", "ja": "出る・外出する", "infl": "PS/3sg" },
+        { "s": "de sa", "skip": true },
+        { "s": "gorge", "lemma": "gorge", "pos": "名詞", "ja": "喉" }
+      ]
+    },
+    {
+      "id": "fr-0179",
+      "text": "Le vent se leva, dispersant les feuilles sur le chemin.",
+      "ja": "風が立ち、小道の落ち葉を吹き散らした。",
+      "level": "C1",
+      "tags": ["文学", "単純過去", "現在分詞"],
+      "grammar": "現在分詞を後置すると、主動作に付随する動きを簡潔に添えられる。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "vent", "lemma": "vent", "pos": "名詞", "ja": "風" },
+        { "s": "se leva", "lemma": "lever", "pos": "動詞", "ja": "上げる・（代名動詞で）立つ", "label": "単純過去・3人称単数（代名動詞）" },
+        { "s": "dispersant", "lemma": "disperser", "pos": "動詞", "ja": "撒き散らす・分散させる", "label": "現在分詞", "note": "主動作に付随する動きを添える" },
+        { "s": "les", "skip": true },
+        { "s": "feuilles", "lemma": "feuille", "pos": "名詞", "ja": "葉・紙" },
+        { "s": "sur le", "skip": true },
+        { "s": "chemin", "lemma": "chemin", "pos": "名詞", "ja": "道・小道" }
+      ]
+    },
+    {
+      "id": "fr-0180",
+      "text": "Elle attendit qu'il fût parti pour ouvrir la lettre.",
+      "ja": "彼女は彼が去るのを待ってから、手紙を開いた。",
+      "level": "C2",
+      "tags": ["文学", "単純過去", "接続法大過去"],
+      "grammar": "attendre que は接続法。地の文が単純過去なので、文語では接続法大過去になる。",
+      "tokens": [
+        { "s": "Elle", "skip": true },
+        { "s": "attendit", "lemma": "attendre", "pos": "動詞", "ja": "待つ", "infl": "PS/3sg" },
+        { "s": "qu'", "skip": true },
+        { "s": "il", "skip": true },
+        { "s": "fût parti", "lemma": "partir", "pos": "動詞", "ja": "出発する・去る", "label": "接続法大過去・3人称単数", "note": "文語専用。話し言葉では接続法過去で代用する" },
+        { "s": "pour", "skip": true },
+        { "s": "ouvrir", "lemma": "ouvrir", "pos": "動詞", "ja": "開ける", "label": "不定詞" },
+        { "s": "la", "skip": true },
+        { "s": "lettre", "lemma": "lettre", "pos": "名詞", "ja": "手紙・文字" }
+      ]
+    },
+    {
+      "id": "fr-0181",
+      "text": "Les années passèrent, et nul ne reparla jamais de cette nuit.",
+      "ja": "年月が過ぎ、あの夜のことを二度と口にする者はいなかった。",
+      "level": "C2",
+      "tags": ["文学", "単純過去"],
+      "tokens": [
+        { "s": "Les", "skip": true },
+        { "s": "années", "lemma": "année", "pos": "名詞", "ja": "年・年月" },
+        { "s": "passèrent", "lemma": "passer", "pos": "動詞", "ja": "通る・過ぎる", "infl": "PS/3pl" },
+        { "s": "nul", "lemma": "nul", "pos": "代名詞", "ja": "誰も〜ない", "note": "personne の文語版" },
+        { "s": "ne", "skip": true },
+        { "s": "reparla", "lemma": "parler", "pos": "動詞", "ja": "話す", "label": "単純過去・3人称単数（reparler）" },
+        { "s": "jamais", "lemma": "jamais", "pos": "副詞", "ja": "決して〜ない" },
+        { "s": "de cette", "skip": true },
+        { "s": "nuit", "lemma": "nuit", "pos": "名詞", "ja": "夜" }
+      ]
+    },
+    {
+      "id": "fr-0182",
+      "text": "Il dissimula son trouble et répondit d'une voix égale.",
+      "ja": "彼は動揺を隠し、平静な声で答えた。",
+      "level": "C1",
+      "tags": ["文学", "単純過去"],
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "dissimula", "lemma": "dissimuler", "pos": "動詞", "ja": "隠す", "infl": "PS/3sg" },
+        { "s": "son", "skip": true },
+        { "s": "trouble", "lemma": "trouble", "pos": "名詞", "ja": "動揺・混乱" },
+        { "s": "répondit", "lemma": "répondre", "pos": "動詞", "ja": "答える", "infl": "PS/3sg" },
+        { "s": "d'une voix égale", "lemma": "d'une voix égale", "pos": "慣用表現", "ja": "平静な声で", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0183",
+      "text": "À peine fut-il sorti que la pluie se mit à tomber.",
+      "ja": "彼が出るか出ないかのうちに、雨が降り始めた。",
+      "level": "C2",
+      "tags": ["文学", "単純過去", "倒置"],
+      "grammar": "à peine を文頭に置くと主語と動詞が倒置する。「〜するやいなや」。",
+      "tokens": [
+        { "s": "À peine", "lemma": "à peine... que", "pos": "慣用表現", "ja": "〜するやいなや", "idiom": true, "note": "文頭に置くと倒置が起きる" },
+        { "s": "fut-il sorti", "lemma": "sortir", "pos": "動詞", "ja": "出る・外出する", "label": "前過去・3人称単数（倒置）" },
+        { "s": "que", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "pluie", "lemma": "pluie", "pos": "名詞", "ja": "雨" },
+        { "s": "se mit à", "lemma": "se mettre à", "pos": "慣用表現", "ja": "〜し始める", "idiom": true },
+        { "s": "tomber", "lemma": "tomber", "pos": "動詞", "ja": "落ちる・降る", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0184",
+      "text": "Il feignit l'indifférence, bien que son cœur battît à tout rompre.",
+      "ja": "心臓が張り裂けそうに鳴っていたが、彼は無関心を装った。",
+      "level": "C2",
+      "tags": ["文学", "単純過去", "接続法半過去"],
+      "grammar": "battre の接続法半過去は battît。à tout rompre は「激しく」。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "feignit", "lemma": "feindre", "pos": "動詞", "ja": "ふりをする・装う", "infl": "PS/3sg" },
+        { "s": "l'", "skip": true },
+        { "s": "indifférence", "lemma": "indifférence", "pos": "名詞", "ja": "無関心" },
+        { "s": "bien que", "lemma": "bien que", "pos": "接続詞", "ja": "〜だけれども", "idiom": true },
+        { "s": "son", "skip": true },
+        { "s": "cœur", "lemma": "cœur", "pos": "名詞", "ja": "心臓・心" },
+        { "s": "battît", "lemma": "battre", "pos": "動詞", "ja": "打つ・打ち負かす", "label": "接続法半過去・3人称単数" },
+        { "s": "à tout rompre", "lemma": "à tout rompre", "pos": "慣用表現", "ja": "激しく・割れんばかりに", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0185",
+      "text": "Elle osa enfin lui demander ce qu'il comptait faire.",
+      "ja": "彼女はついに、彼が何をするつもりなのか尋ねた。",
+      "level": "C1",
+      "tags": ["文学", "単純過去", "半過去"],
+      "grammar": "compter + 不定詞で「〜するつもりだ」。",
+      "tokens": [
+        { "s": "Elle", "skip": true },
+        { "s": "osa", "lemma": "oser", "pos": "動詞", "ja": "あえて〜する", "infl": "PS/3sg" },
+        { "s": "enfin", "lemma": "enfin", "pos": "副詞", "ja": "ついに・やっと" },
+        { "s": "lui", "skip": true },
+        { "s": "demander", "lemma": "demander", "pos": "動詞", "ja": "尋ねる・求める", "label": "不定詞" },
+        { "s": "ce qu'", "lemma": "ce que", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
+        { "s": "il", "skip": true },
+        { "s": "comptait", "lemma": "compter", "pos": "動詞", "ja": "数える・〜するつもりだ", "label": "半過去・3人称単数" },
+        { "s": "faire", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0186",
+      "text": "Le souvenir de cette journée ne s'estompa jamais tout à fait.",
+      "ja": "あの日の記憶は、ついに完全には薄れなかった。",
+      "level": "C2",
+      "tags": ["文学", "単純過去"],
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "souvenir", "lemma": "souvenir", "pos": "名詞", "ja": "思い出・記憶" },
+        { "s": "de cette", "skip": true },
+        { "s": "journée", "lemma": "journée", "pos": "名詞", "ja": "一日・日中" },
+        { "s": "ne", "skip": true },
+        { "s": "s'estompa", "lemma": "estomper", "pos": "動詞", "ja": "ぼかす・薄れさせる", "label": "単純過去・3人称単数（代名動詞）" },
+        { "s": "jamais", "lemma": "jamais", "pos": "副詞", "ja": "決して〜ない" },
+        { "s": "tout à fait", "lemma": "tout à fait", "pos": "慣用表現", "ja": "完全に・まったく", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0187",
+      "text": "Il subit son sort sans se plaindre une seule fois.",
+      "ja": "彼は一度も不平を言わずに、自らの運命を受け入れた。",
+      "level": "C1",
+      "tags": ["文学", "単純過去"],
+      "grammar": "subir の単純過去は現在形と同形（subit）。文脈で見分ける必要がある。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "subit", "lemma": "subir", "pos": "動詞", "ja": "被る・受ける", "infl": "PS/3sg", "note": "単純過去と直説法現在が同形。文脈で見分ける" },
+        { "s": "son", "skip": true },
+        { "s": "sort", "lemma": "sort", "pos": "名詞", "ja": "運命・くじ" },
+        { "s": "sans", "skip": true },
+        { "s": "se plaindre", "lemma": "se plaindre", "pos": "動詞", "ja": "不平を言う", "idiom": true },
+        { "s": "une seule fois", "lemma": "une seule fois", "pos": "慣用表現", "ja": "一度たりとも", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0188",
+      "text": "Ils s'aperçurent trop tard que la porte s'était refermée.",
+      "ja": "扉が閉まってしまっていたことに、彼らは気づくのが遅すぎた。",
+      "level": "C2",
+      "tags": ["文学", "単純過去", "大過去"],
+      "tokens": [
+        { "s": "Ils", "skip": true },
+        { "s": "s'aperçurent", "lemma": "s'apercevoir", "pos": "動詞", "ja": "気づく", "idiom": true, "note": "単純過去・3人称複数。ç は c の音を保つための綴り" },
+        { "s": "trop tard", "lemma": "trop tard", "pos": "慣用表現", "ja": "遅すぎて", "idiom": true },
+        { "s": "que", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "porte", "lemma": "porte", "pos": "名詞", "ja": "ドア・扉" },
+        { "s": "s'était refermée", "lemma": "fermer", "pos": "動詞", "ja": "閉める", "label": "大過去・3人称単数（代名動詞・女性一致）" }
+      ]
+    },
+    {
+      "id": "fr-0189",
+      "text": "Rien ne laissait présager ce qui allait advenir.",
+      "ja": "これから起きることを予感させるものは何もなかった。",
+      "level": "C2",
+      "tags": ["文学", "半過去"],
+      "grammar": "laisser présager で「〜を予感させる」。aller + 不定詞の半過去で「これから〜しようとしていた」。",
+      "tokens": [
+        { "s": "Rien", "lemma": "rien", "pos": "代名詞", "ja": "何も〜ない" },
+        { "s": "ne", "skip": true },
+        { "s": "laissait", "lemma": "laisser", "pos": "動詞", "ja": "残す・〜させておく", "infl": "IMPF/3sg" },
+        { "s": "présager", "lemma": "présager", "pos": "動詞", "ja": "予感させる・前触れとなる", "label": "不定詞" },
+        { "s": "ce qui", "lemma": "ce qui", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
+        { "s": "allait", "lemma": "aller", "pos": "動詞", "ja": "行く", "infl": "IMPF/3sg", "note": "aller の半過去 + 不定詞で「〜しようとしていた」" },
+        { "s": "advenir", "lemma": "advenir", "pos": "動詞", "ja": "起こる・生じる", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0190",
+      "text": "Il arracha la page, la froissa, puis la jeta au feu.",
+      "ja": "彼はページを引きちぎり、くしゃくしゃに丸め、火にくべた。",
+      "level": "C1",
+      "tags": ["文学", "単純過去"],
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "arracha", "lemma": "arracher", "pos": "動詞", "ja": "もぎ取る・奪い取る", "infl": "PS/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "page", "lemma": "page", "pos": "名詞", "ja": "ページ" },
+        { "s": "la", "skip": true },
+        { "s": "froissa", "lemma": "froisser", "pos": "動詞", "ja": "しわくちゃにする・気を悪くさせる", "label": "単純過去・3人称単数" },
+        { "s": "puis", "lemma": "puis", "pos": "副詞", "ja": "それから" },
+        { "s": "la", "skip": true },
+        { "s": "jeta", "lemma": "jeter", "pos": "動詞", "ja": "投げる・捨てる", "infl": "PS/3sg" },
+        { "s": "au feu", "lemma": "feu", "pos": "名詞", "ja": "火" }
+      ]
+    },
+    {
+      "id": "fr-0191",
+      "text": "Quoiqu'elle eût tout prévu, rien ne se passa comme elle l'espérait.",
+      "ja": "すべて計算していたにもかかわらず、何ひとつ彼女の思惑どおりには運ばなかった。",
+      "level": "C2",
+      "tags": ["文学", "接続法大過去", "単純過去"],
+      "grammar": "quoique は bien que と同義で接続法をとる。文語では接続法大過去になる。",
+      "tokens": [
+        { "s": "Quoiqu'", "lemma": "quoique", "pos": "接続詞", "ja": "〜だけれども", "idiom": true, "note": "bien que と同義。後ろは接続法" },
+        { "s": "elle", "skip": true },
+        { "s": "eût tout prévu", "lemma": "prévoir", "pos": "動詞", "ja": "予測する・予定する", "label": "接続法大過去・3人称単数" },
+        { "s": "rien", "lemma": "rien", "pos": "代名詞", "ja": "何も〜ない" },
+        { "s": "ne", "skip": true },
+        { "s": "se passa", "lemma": "passer", "pos": "動詞", "ja": "通る・（代名動詞で）起こる", "label": "単純過去・3人称単数（代名動詞）" },
+        { "s": "comme", "skip": true },
+        { "s": "elle", "skip": true },
+        { "s": "l'espérait", "lemma": "espérer", "pos": "動詞", "ja": "望む・期待する", "label": "半過去・3人称単数" }
+      ]
+    },
+    {
+      "id": "fr-0192",
+      "text": "La foule se dispersa peu à peu, laissant la place déserte.",
+      "ja": "群衆は少しずつ散っていき、広場は人けのないままになった。",
+      "level": "C1",
+      "tags": ["文学", "単純過去", "現在分詞"],
+      "tokens": [
+        { "s": "La", "skip": true },
+        { "s": "foule", "lemma": "foule", "pos": "名詞", "ja": "群衆・人混み" },
+        { "s": "se dispersa", "lemma": "disperser", "pos": "動詞", "ja": "撒き散らす・分散させる", "label": "単純過去・3人称単数（代名動詞）" },
+        { "s": "peu à peu", "lemma": "peu à peu", "pos": "慣用表現", "ja": "少しずつ", "idiom": true },
+        { "s": "laissant", "lemma": "laisser", "pos": "動詞", "ja": "残す・〜させておく", "infl": "PPRES" },
+        { "s": "la", "skip": true },
+        { "s": "place", "lemma": "place", "pos": "名詞", "ja": "広場・場所" },
+        { "s": "déserte", "lemma": "désert", "pos": "形容詞", "ja": "人けのない", "label": "女性単数" }
+      ]
+    },
+    {
+      "id": "fr-0193",
+      "text": "Il crut un instant l'avoir reconnue, puis se ravisa.",
+      "ja": "彼は一瞬彼女だと思ったが、すぐに考えを改めた。",
+      "level": "C2",
+      "tags": ["文学", "単純過去"],
+      "grammar": "croire の単純過去は crut。se raviser は「考え直す」。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "crut", "lemma": "croire", "pos": "動詞", "ja": "信じる・思う", "infl": "PS/3sg" },
+        { "s": "un instant", "lemma": "un instant", "pos": "慣用表現", "ja": "一瞬", "idiom": true },
+        { "s": "l'avoir reconnue", "lemma": "reconnaître", "pos": "動詞", "ja": "見分ける・認める", "label": "完了不定詞（女性一致）" },
+        { "s": "puis", "lemma": "puis", "pos": "副詞", "ja": "それから" },
+        { "s": "se ravisa", "lemma": "se raviser", "pos": "動詞", "ja": "考え直す", "idiom": true, "note": "単純過去・3人称単数" }
+      ]
+    },
+    {
+      "id": "fr-0194",
+      "text": "Ce fut la dernière fois qu'on la vit dans ce quartier.",
+      "ja": "彼女がこの界隈で見られたのは、それが最後だった。",
+      "level": "C1",
+      "tags": ["文学", "単純過去"],
+      "grammar": "ce fut は「それが〜だった」。物語の締めくくりでよく使う。",
+      "tokens": [
+        { "s": "Ce", "skip": true },
+        { "s": "fut", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PS/3sg" },
+        { "s": "la dernière fois", "lemma": "la dernière fois", "pos": "慣用表現", "ja": "最後の時", "idiom": true },
+        { "s": "qu'", "skip": true },
+        { "s": "on", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "vit", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "infl": "PS/3sg" },
+        { "s": "dans ce", "skip": true },
+        { "s": "quartier", "lemma": "quartier", "pos": "名詞", "ja": "界隈・地区" }
+      ]
+    },
+    {
+      "id": "fr-0195",
+      "text": "Elle céda enfin, non par conviction, mais par lassitude.",
+      "ja": "彼女はついに折れた。納得したからではなく、疲れ果てたからだ。",
+      "level": "C2",
+      "tags": ["文学", "単純過去"],
+      "grammar": "non par A, mais par B で理由を対比させる書き言葉の型。",
+      "tokens": [
+        { "s": "Elle", "skip": true },
+        { "s": "céda", "lemma": "céder", "pos": "動詞", "ja": "譲る・屈する", "infl": "PS/3sg" },
+        { "s": "enfin", "lemma": "enfin", "pos": "副詞", "ja": "ついに" },
+        { "s": "non par", "lemma": "non par... mais par...", "pos": "慣用表現", "ja": "〜からではなく…から", "idiom": true },
+        { "s": "conviction", "lemma": "conviction", "pos": "名詞", "ja": "確信・信念" },
+        { "s": "lassitude", "lemma": "lassitude", "pos": "名詞", "ja": "倦怠・疲労" }
+      ]
+    },
+    {
+      "id": "fr-0196",
+      "text": "Il parvint au sommet alors que le jour se levait à peine.",
+      "ja": "夜が明けきらぬうちに、彼は頂上へたどり着いた。",
+      "level": "C1",
+      "tags": ["文学", "単純過去", "半過去"],
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "parvint", "lemma": "parvenir", "pos": "動詞", "ja": "到達する・成し遂げる", "infl": "PS/3sg" },
+        { "s": "au", "skip": true },
+        { "s": "sommet", "lemma": "sommet", "pos": "名詞", "ja": "頂上・首脳会議" },
+        { "s": "alors que", "lemma": "alors que", "pos": "接続詞", "ja": "〜する一方で・〜のときに", "idiom": true },
+        { "s": "le", "skip": true },
+        { "s": "jour", "lemma": "jour", "pos": "名詞", "ja": "日・昼" },
+        { "s": "se levait", "lemma": "lever", "pos": "動詞", "ja": "上げる・（代名動詞で）昇る", "label": "半過去・3人称単数（代名動詞）" },
+        { "s": "à peine", "lemma": "à peine", "pos": "副詞", "ja": "かろうじて・やっと" }
+      ]
+    },
+    {
+      "id": "fr-0197",
+      "text": "Le silence qui suivit fut plus éloquent que tous les discours.",
+      "ja": "そのあとに続いた沈黙は、どんな演説よりも雄弁だった。",
+      "level": "C2",
+      "tags": ["文学", "単純過去"],
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "silence", "lemma": "silence", "pos": "名詞", "ja": "沈黙・静けさ" },
+        { "s": "qui", "skip": true },
+        { "s": "suivit", "lemma": "suivre", "pos": "動詞", "ja": "ついていく・続く", "infl": "PS/3sg" },
+        { "s": "fut", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PS/3sg" },
+        { "s": "plus", "skip": true },
+        { "s": "éloquent", "lemma": "éloquent", "pos": "形容詞", "ja": "雄弁な・物を言う" },
+        { "s": "que tous les", "skip": true },
+        { "s": "discours", "lemma": "discours", "pos": "名詞", "ja": "演説・言説" }
+      ]
+    },
+    {
+      "id": "fr-0198",
+      "text": "Ils aboutirent à un accord dont nul ne fut vraiment satisfait.",
+      "ja": "彼らは合意に至ったが、誰ひとり心から満足してはいなかった。",
+      "level": "C2",
+      "tags": ["文学", "単純過去"],
+      "grammar": "dont は de を含む関係代名詞。「〜について」の意味を担う。",
+      "tokens": [
+        { "s": "Ils", "skip": true },
+        { "s": "aboutirent", "lemma": "aboutir", "pos": "動詞", "ja": "行き着く・実を結ぶ", "infl": "PS/3pl" },
+        { "s": "à un", "skip": true },
+        { "s": "accord", "lemma": "accord", "pos": "名詞", "ja": "協定・合意" },
+        { "s": "dont", "lemma": "dont", "pos": "関係代名詞", "ja": "〜についての・〜の", "note": "de を含む関係代名詞" },
+        { "s": "nul", "lemma": "nul", "pos": "代名詞", "ja": "誰も〜ない" },
+        { "s": "ne", "skip": true },
+        { "s": "fut", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PS/3sg" },
+        { "s": "vraiment", "lemma": "vraiment", "pos": "副詞", "ja": "本当に" },
+        { "s": "satisfait", "lemma": "satisfaire", "pos": "動詞", "ja": "満足させる", "label": "過去分詞" }
+      ]
+    },
+    {
+      "id": "fr-0199",
+      "text": "Elle relut la lettre trois fois avant d'en saisir le sens.",
+      "ja": "彼女は意味をつかむまでに、手紙を三度読み返した。",
+      "level": "C1",
+      "tags": ["文学", "単純過去"],
+      "tokens": [
+        { "s": "Elle", "skip": true },
+        { "s": "relut", "lemma": "lire", "pos": "動詞", "ja": "読む", "label": "単純過去・3人称単数（relire）" },
+        { "s": "la", "skip": true },
+        { "s": "lettre", "lemma": "lettre", "pos": "名詞", "ja": "手紙・文字" },
+        { "s": "trois fois", "lemma": "fois", "pos": "名詞", "ja": "回・度" },
+        { "s": "avant d'", "lemma": "avant de + 不定詞", "pos": "慣用表現", "ja": "〜する前に", "idiom": true },
+        { "s": "en saisir", "lemma": "saisir", "pos": "動詞", "ja": "つかむ・把握する", "label": "不定詞" },
+        { "s": "le sens", "lemma": "sens", "pos": "名詞", "ja": "意味・方向・感覚" }
+      ]
+    },
+    {
+      "id": "fr-0200",
+      "text": "Ainsi s'acheva une histoire que personne n'avait vu venir.",
+      "ja": "こうして、誰も予期していなかった物語は幕を閉じた。",
+      "level": "C2",
+      "tags": ["文学", "単純過去", "大過去", "倒置"],
+      "grammar": "ainsi を文頭に置くと倒置が起きる。voir venir は「（事態を）予期する」。",
+      "tokens": [
+        { "s": "Ainsi", "lemma": "ainsi", "pos": "副詞", "ja": "このように・こうして", "note": "文頭に置くと倒置が起きる" },
+        { "s": "s'acheva", "lemma": "achever", "pos": "動詞", "ja": "終える・完成させる", "label": "単純過去・3人称単数（代名動詞・倒置）" },
+        { "s": "une", "skip": true },
+        { "s": "histoire", "lemma": "histoire", "pos": "名詞", "ja": "物語・歴史" },
+        { "s": "que", "skip": true },
+        { "s": "personne", "lemma": "personne", "pos": "代名詞", "ja": "誰も〜ない" },
+        { "s": "n'avait vu venir", "lemma": "voir venir", "pos": "慣用表現", "ja": "（事態を）予期する", "idiom": true, "note": "大過去" }
+      ]
+    }
+  ]
+}

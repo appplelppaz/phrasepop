@@ -1,0 +1,672 @@
+{
+  "_comment": "バッチ5: 文学・小説の語り。点過去と線過去の対比を軸に、接続法過去・接続法過去完了・過去完了を厚くしてある。フランス語の単純過去に対応する位置づけ。",
+  "lang": "es",
+  "phrases": [
+    {
+      "id": "es-0161",
+      "text": "Abrió la puerta y se detuvo en seco en el umbral.",
+      "ja": "彼は扉を開け、敷居のところでぴたりと立ち止まった。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去"],
+      "grammar": "点過去を連ねると、出来事が次々に進む語りになる。detenerse の点過去は se detuvo。",
+      "tokens": [
+        { "s": "Abrió", "lemma": "abrir", "pos": "動詞", "ja": "開ける", "infl": "IND_PRET/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "puerta", "lemma": "puerta", "pos": "名詞", "ja": "ドア・扉" },
+        { "s": "se", "skip": true },
+        { "s": "detuvo", "lemma": "detener", "pos": "動詞", "ja": "止める・（再帰で）立ち止まる", "label": "直説法点過去・3人称単数" },
+        { "s": "en seco", "lemma": "en seco", "pos": "慣用表現", "ja": "ぴたりと・急に", "idiom": true },
+        { "s": "en el", "skip": true },
+        { "s": "umbral", "lemma": "umbral", "pos": "名詞", "ja": "敷居・入口" }
+      ]
+    },
+    {
+      "id": "es-0162",
+      "text": "Cogió el libro, lo abrió y volvió a cerrarlo enseguida.",
+      "ja": "彼女は本を手に取り、開き、そしてすぐに閉じた。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去"],
+      "grammar": "volver a + 不定詞で「再び〜する」。動作の反復を表す最も普通の言い方。",
+      "tokens": [
+        { "s": "Cogió", "lemma": "coger", "pos": "動詞", "ja": "取る・つかむ", "label": "直説法点過去・3人称単数" },
+        { "s": "el", "skip": true },
+        { "s": "libro", "lemma": "libro", "pos": "名詞", "ja": "本" },
+        { "s": "lo", "skip": true },
+        { "s": "abrió", "lemma": "abrir", "pos": "動詞", "ja": "開ける", "infl": "IND_PRET/3sg" },
+        { "s": "volvió", "lemma": "volver", "pos": "動詞", "ja": "戻る・帰る", "infl": "IND_PRET/3sg", "note": "volver a + 不定詞で「再び〜する」" },
+        { "s": "a", "skip": true },
+        { "s": "cerrar", "lemma": "cerrar", "pos": "動詞", "ja": "閉める", "label": "不定詞" },
+        { "s": "lo", "skip": true },
+        { "s": "enseguida", "lemma": "enseguida", "pos": "副詞", "ja": "すぐに" }
+      ]
+    },
+    {
+      "id": "es-0163",
+      "text": "El anciano murió sin que nadie se enterara.",
+      "ja": "その老人は、誰にも知られぬまま息を引き取った。",
+      "level": "C2",
+      "tags": ["文学", "直説法点過去", "接続法過去"],
+      "grammar": "sin que のあとは必ず接続法。主節が点過去なので接続法過去になる。",
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "anciano", "lemma": "anciano", "pos": "名詞", "ja": "老人" },
+        { "s": "murió", "lemma": "morir", "pos": "動詞", "ja": "死ぬ", "infl": "IND_PRET/3sg" },
+        { "s": "sin que", "lemma": "sin que", "pos": "接続詞", "ja": "〜することなく", "idiom": true },
+        { "s": "nadie", "lemma": "nadie", "pos": "代名詞", "ja": "誰も〜ない" },
+        { "s": "se", "skip": true },
+        { "s": "enterara", "lemma": "enterar", "pos": "動詞", "ja": "知らせる・（再帰で）知る", "label": "接続法過去・3人称単数" }
+      ]
+    },
+    {
+      "id": "es-0164",
+      "text": "Vinieron, miraron y se marcharon sin decir palabra.",
+      "ja": "彼らは来て、見て、そして一言も発さずに去っていった。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去"],
+      "grammar": "sin decir palabra は冠詞を落とした文語表現。「一言も発さずに」。",
+      "tokens": [
+        { "s": "Vinieron", "lemma": "venir", "pos": "動詞", "ja": "来る", "infl": "IND_PRET/3pl" },
+        { "s": "miraron", "lemma": "mirar", "pos": "動詞", "ja": "見る・眺める", "infl": "IND_PRET/3pl" },
+        { "s": "se", "skip": true },
+        { "s": "marcharon", "lemma": "marchar", "pos": "動詞", "ja": "行進する・（再帰で）立ち去る", "label": "直説法点過去・3人称複数" },
+        { "s": "sin decir palabra", "lemma": "sin decir palabra", "pos": "慣用表現", "ja": "一言も発さずに", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0165",
+      "text": "Le sorprendió encontrarla allí, tan serena.",
+      "ja": "彼女がそこにいて、しかも落ち着いているのを見て彼は驚いた。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去"],
+      "grammar": "sorprender は gustar 型。驚かせるものが主語になる。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "sorprendió", "lemma": "sorprender", "pos": "動詞", "ja": "驚かせる", "label": "直説法点過去・3人称単数", "note": "主語は encontrarla" },
+        { "s": "encontrar", "lemma": "encontrar", "pos": "動詞", "ja": "見つける・出会う", "label": "不定詞" },
+        { "s": "la", "skip": true },
+        { "s": "allí", "lemma": "allí", "pos": "副詞", "ja": "そこに" },
+        { "s": "tan", "lemma": "tan", "pos": "副詞", "ja": "そんなに・とても" },
+        { "s": "serena", "lemma": "sereno", "pos": "形容詞", "ja": "落ち着いた・穏やかな", "label": "女性単数" }
+      ]
+    },
+    {
+      "id": "es-0166",
+      "text": "De pronto tuvo la sensación de que la observaban.",
+      "ja": "彼女はふいに、誰かに見られている気がした。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去", "直説法線過去"],
+      "grammar": "点過去（突発）と線過去（続いていた状態）の対比。語りの基本的な組み立て。",
+      "tokens": [
+        { "s": "De pronto", "lemma": "de pronto", "pos": "慣用表現", "ja": "ふいに・突然", "idiom": true },
+        { "s": "tuvo", "lemma": "tener", "pos": "動詞", "ja": "持つ・所有する", "infl": "IND_PRET/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "sensación", "lemma": "sensación", "pos": "名詞", "ja": "感覚・感じ" },
+        { "s": "de que", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "observaban", "lemma": "observar", "pos": "動詞", "ja": "観察する・見つめる", "label": "直説法線過去・3人称複数", "note": "続いていた状態なので線過去" }
+      ]
+    },
+    {
+      "id": "es-0167",
+      "text": "Cayó la noche y el pueblo entero enmudeció.",
+      "ja": "夜のとばりが下り、村じゅうが静まりかえった。",
+      "level": "C2",
+      "tags": ["文学", "直説法点過去"],
+      "tokens": [
+        { "s": "Cayó", "lemma": "caer", "pos": "動詞", "ja": "落ちる・倒れる", "infl": "IND_PRET/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "noche", "lemma": "noche", "pos": "名詞", "ja": "夜" },
+        { "s": "el", "skip": true },
+        { "s": "pueblo", "lemma": "pueblo", "pos": "名詞", "ja": "村・民衆" },
+        { "s": "entero", "lemma": "entero", "pos": "形容詞", "ja": "全体の・まるごとの" },
+        { "s": "enmudeció", "lemma": "enmudecer", "pos": "動詞", "ja": "黙り込む・静まる", "label": "直説法点過去・3人称単数" }
+      ]
+    },
+    {
+      "id": "es-0168",
+      "text": "Dio un paso, vaciló y luego desanduvo el camino.",
+      "ja": "彼は一歩踏み出し、ためらい、そして引き返した。",
+      "level": "C2",
+      "tags": ["文学", "直説法点過去"],
+      "grammar": "desandar el camino で「来た道を引き返す」。andar 型の不規則な点過去。",
+      "tokens": [
+        { "s": "Dio", "lemma": "dar", "pos": "動詞", "ja": "与える", "infl": "IND_PRET/3sg" },
+        { "s": "un paso", "lemma": "dar un paso", "pos": "慣用表現", "ja": "一歩踏み出す", "idiom": true },
+        { "s": "vaciló", "lemma": "vacilar", "pos": "動詞", "ja": "ためらう・ぐらつく", "label": "直説法点過去・3人称単数" },
+        { "s": "luego", "lemma": "luego", "pos": "副詞", "ja": "その後・それから" },
+        { "s": "desanduvo el camino", "lemma": "desandar el camino", "pos": "慣用表現", "ja": "来た道を引き返す", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0169",
+      "text": "Cuando llegó, la fiesta había terminado hacía rato.",
+      "ja": "彼が着いたとき、祭りはとうに終わっていた。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去", "直説法過去完了"],
+      "grammar": "点過去の出来事より前に完了していたことを過去完了で示す。hacía rato は「かなり前に」。",
+      "tokens": [
+        { "s": "Cuando", "lemma": "cuando", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "llegó", "lemma": "llegar", "pos": "動詞", "ja": "着く・到着する", "infl": "IND_PRET/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "fiesta", "lemma": "fiesta", "pos": "名詞", "ja": "祭り・パーティー" },
+        { "s": "había terminado", "lemma": "terminar", "pos": "動詞", "ja": "終える・終わる", "infl": "IND_PLUP/3sg" },
+        { "s": "hacía rato", "lemma": "hacía rato", "pos": "慣用表現", "ja": "かなり前に", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0170",
+      "text": "Pensó largamente en lo que él le había dicho aquella noche.",
+      "ja": "彼女はその晩に彼が言ったことを、長いあいだ思い返していた。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去", "直説法過去完了"],
+      "tokens": [
+        { "s": "Pensó", "lemma": "pensar", "pos": "動詞", "ja": "考える・思う", "infl": "IND_PRET/3sg" },
+        { "s": "largamente", "lemma": "largamente", "pos": "副詞", "ja": "長々と" },
+        { "s": "en lo que", "lemma": "lo que", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
+        { "s": "él", "skip": true },
+        { "s": "le", "skip": true },
+        { "s": "había dicho", "lemma": "decir", "pos": "動詞", "ja": "言う", "infl": "IND_PLUP/3sg" },
+        { "s": "aquella noche", "lemma": "aquella noche", "pos": "慣用表現", "ja": "あの晩", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0171",
+      "text": "Una silueta surgió de la sombra y desapareció igual de rápido.",
+      "ja": "人影が闇から現れ、同じ速さで消えた。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去"],
+      "tokens": [
+        { "s": "Una", "skip": true },
+        { "s": "silueta", "lemma": "silueta", "pos": "名詞", "ja": "人影・輪郭" },
+        { "s": "surgió", "lemma": "surgir", "pos": "動詞", "ja": "現れる・生じる", "infl": "IND_PRET/3sg" },
+        { "s": "de la sombra", "lemma": "sombra", "pos": "名詞", "ja": "影・闇" },
+        { "s": "desapareció", "lemma": "desaparecer", "pos": "動詞", "ja": "消える・姿を消す", "label": "直説法点過去・3人称単数" },
+        { "s": "igual de rápido", "lemma": "igual de", "pos": "慣用表現", "ja": "同じくらい〜", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0172",
+      "text": "Susurró unas palabras que nadie logró entender.",
+      "ja": "彼は誰にも理解できない言葉をいくつかつぶやいた。",
+      "level": "C2",
+      "tags": ["文学", "直説法点過去"],
+      "grammar": "lograr + 不定詞で「なんとか〜できる」。否定すると「〜できなかった」。",
+      "tokens": [
+        { "s": "Susurró", "lemma": "susurrar", "pos": "動詞", "ja": "ささやく", "infl": "IND_PRET/3sg" },
+        { "s": "unas", "skip": true },
+        { "s": "palabras", "lemma": "palabra", "pos": "名詞", "ja": "言葉・単語" },
+        { "s": "que", "skip": true },
+        { "s": "nadie", "lemma": "nadie", "pos": "代名詞", "ja": "誰も〜ない" },
+        { "s": "logró", "lemma": "lograr", "pos": "動詞", "ja": "成し遂げる・なんとか〜できる", "infl": "IND_PRET/3sg" },
+        { "s": "entender", "lemma": "entender", "pos": "動詞", "ja": "理解する", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "es-0173",
+      "text": "El suelo se estremeció bajo sus pies y todos callaron.",
+      "ja": "足元の地面が震え、皆が押し黙った。",
+      "level": "C2",
+      "tags": ["文学", "直説法点過去"],
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "suelo", "lemma": "suelo", "pos": "名詞", "ja": "地面・床" },
+        { "s": "se", "skip": true },
+        { "s": "estremeció", "lemma": "estremecer", "pos": "動詞", "ja": "震わせる・戦慄させる", "infl": "IND_PRET/3sg" },
+        { "s": "bajo", "skip": true },
+        { "s": "sus", "skip": true },
+        { "s": "pies", "lemma": "pie", "pos": "名詞", "ja": "足" },
+        { "s": "todos", "lemma": "todos", "pos": "代名詞", "ja": "皆・全員" },
+        { "s": "callaron", "lemma": "callar", "pos": "動詞", "ja": "黙る・黙らせる", "label": "直説法点過去・3人称複数" }
+      ]
+    },
+    {
+      "id": "es-0174",
+      "text": "Contempló el paisaje un buen rato antes de reanudar la marcha.",
+      "ja": "彼はしばらく景色を眺めてから、再び歩き出した。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去"],
+      "tokens": [
+        { "s": "Contempló", "lemma": "contemplar", "pos": "動詞", "ja": "眺める・想定する", "infl": "IND_PRET/3sg" },
+        { "s": "el", "skip": true },
+        { "s": "paisaje", "lemma": "paisaje", "pos": "名詞", "ja": "風景・景色" },
+        { "s": "un buen rato", "lemma": "un buen rato", "pos": "慣用表現", "ja": "かなりの間", "idiom": true },
+        { "s": "antes de", "skip": true },
+        { "s": "reanudar", "lemma": "reanudar", "pos": "動詞", "ja": "再開する", "label": "不定詞" },
+        { "s": "la", "skip": true },
+        { "s": "marcha", "lemma": "marcha", "pos": "名詞", "ja": "歩み・行進" }
+      ]
+    },
+    {
+      "id": "es-0175",
+      "text": "Nació en un pueblo que la guerra ya había arrasado.",
+      "ja": "彼女は、戦争がすでに荒廃させていた村で生まれた。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去", "直説法過去完了"],
+      "tokens": [
+        { "s": "Nació", "lemma": "nacer", "pos": "動詞", "ja": "生まれる", "infl": "IND_PRET/3sg" },
+        { "s": "en un", "skip": true },
+        { "s": "pueblo", "lemma": "pueblo", "pos": "名詞", "ja": "村・民衆" },
+        { "s": "que", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "guerra", "lemma": "guerra", "pos": "名詞", "ja": "戦争" },
+        { "s": "ya", "lemma": "ya", "pos": "副詞", "ja": "すでに" },
+        { "s": "había arrasado", "lemma": "arrasar", "pos": "動詞", "ja": "壊滅させる・なぎ倒す", "label": "直説法過去完了・3人称単数" }
+      ]
+    },
+    {
+      "id": "es-0176",
+      "text": "Evocó su infancia con una ternura que la conmovió.",
+      "ja": "彼が語る子ども時代の優しさに、彼女は心を動かされた。",
+      "level": "C2",
+      "tags": ["文学", "直説法点過去"],
+      "tokens": [
+        { "s": "Evocó", "lemma": "evocar", "pos": "動詞", "ja": "想起させる・思い起こす", "infl": "IND_PRET/3sg" },
+        { "s": "su", "skip": true },
+        { "s": "infancia", "lemma": "infancia", "pos": "名詞", "ja": "幼少期・子ども時代" },
+        { "s": "con una ternura", "lemma": "ternura", "pos": "名詞", "ja": "優しさ・慈しみ" },
+        { "s": "que", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "conmovió", "lemma": "conmover", "pos": "動詞", "ja": "感動させる・揺さぶる", "label": "直説法点過去・3人称単数" }
+      ]
+    },
+    {
+      "id": "es-0177",
+      "text": "Parecía que el tiempo se hubiera detenido en aquella habitación.",
+      "ja": "その部屋では時が止まってしまったかのようだった。",
+      "level": "C2",
+      "tags": ["文学", "接続法過去完了"],
+      "grammar": "parecía que + 接続法過去完了で「〜してしまったかのようだった」。反実の含みが出る。",
+      "tokens": [
+        { "s": "Parecía", "lemma": "parecer", "pos": "動詞", "ja": "〜のように見える", "infl": "IND_IMPF/3sg" },
+        { "s": "que", "skip": true },
+        { "s": "el", "skip": true },
+        { "s": "tiempo", "lemma": "tiempo", "pos": "名詞", "ja": "時間・天気" },
+        { "s": "se", "skip": true },
+        { "s": "hubiera detenido", "lemma": "detener", "pos": "動詞", "ja": "止める・引き止める", "label": "接続法過去完了・3人称単数", "note": "反実の含みを出す" },
+        { "s": "en aquella", "skip": true },
+        { "s": "habitación", "lemma": "habitación", "pos": "名詞", "ja": "部屋" }
+      ]
+    },
+    {
+      "id": "es-0178",
+      "text": "Habría querido hablar, pero no le salió ni un sonido.",
+      "ja": "彼は口を開きたかったが、声ひとつ出てこなかった。",
+      "level": "C2",
+      "tags": ["文学", "条件法完了", "直説法点過去"],
+      "tokens": [
+        { "s": "Habría querido", "lemma": "querer", "pos": "動詞", "ja": "望む・愛する", "label": "条件法完了・3人称単数" },
+        { "s": "hablar", "lemma": "hablar", "pos": "動詞", "ja": "話す", "label": "不定詞" },
+        { "s": "no", "skip": true },
+        { "s": "le", "skip": true },
+        { "s": "salió", "lemma": "salir", "pos": "動詞", "ja": "出る・出かける", "infl": "IND_PRET/3sg" },
+        { "s": "ni un sonido", "lemma": "ni un", "pos": "慣用表現", "ja": "ひとつも〜ない", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0179",
+      "text": "Se levantó el viento, esparciendo las hojas por el sendero.",
+      "ja": "風が立ち、小道の落ち葉を吹き散らした。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去", "現在分詞"],
+      "grammar": "現在分詞を後置すると、主動作に付随する動きを簡潔に添えられる。",
+      "tokens": [
+        { "s": "Se", "skip": true },
+        { "s": "levantó", "lemma": "levantar", "pos": "動詞", "ja": "持ち上げる・起こす", "infl": "IND_PRET/3sg" },
+        { "s": "el", "skip": true },
+        { "s": "viento", "lemma": "viento", "pos": "名詞", "ja": "風" },
+        { "s": "esparciendo", "lemma": "esparcir", "pos": "動詞", "ja": "撒き散らす", "label": "現在分詞", "note": "主動作に付随する動きを添える" },
+        { "s": "las", "skip": true },
+        { "s": "hojas", "lemma": "hoja", "pos": "名詞", "ja": "葉・紙" },
+        { "s": "por el", "skip": true },
+        { "s": "sendero", "lemma": "sendero", "pos": "名詞", "ja": "小道" }
+      ]
+    },
+    {
+      "id": "es-0180",
+      "text": "Esperó a que se hubiera marchado para abrir la carta.",
+      "ja": "彼女は彼が去ってしまうのを待ってから、手紙を開いた。",
+      "level": "C2",
+      "tags": ["文学", "接続法過去完了"],
+      "grammar": "esperar a que + 接続法。完了を強調するときは接続法過去完了を使う。",
+      "tokens": [
+        { "s": "Esperó", "lemma": "esperar", "pos": "動詞", "ja": "待つ・期待する", "infl": "IND_PRET/3sg" },
+        { "s": "a que", "skip": true },
+        { "s": "se", "skip": true },
+        { "s": "hubiera marchado", "lemma": "marchar", "pos": "動詞", "ja": "行進する・（再帰で）立ち去る", "label": "接続法過去完了・3人称単数" },
+        { "s": "para", "skip": true },
+        { "s": "abrir", "lemma": "abrir", "pos": "動詞", "ja": "開ける", "label": "不定詞" },
+        { "s": "la", "skip": true },
+        { "s": "carta", "lemma": "carta", "pos": "名詞", "ja": "手紙" }
+      ]
+    },
+    {
+      "id": "es-0181",
+      "text": "Pasaron los años y nadie volvió a hablar de aquella noche.",
+      "ja": "年月が過ぎ、あの夜のことを二度と口にする者はいなかった。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去"],
+      "tokens": [
+        { "s": "Pasaron", "lemma": "pasar", "pos": "動詞", "ja": "通る・過ごす・起こる", "infl": "IND_PRET/3pl" },
+        { "s": "los", "skip": true },
+        { "s": "años", "lemma": "año", "pos": "名詞", "ja": "年" },
+        { "s": "nadie", "lemma": "nadie", "pos": "代名詞", "ja": "誰も〜ない" },
+        { "s": "volvió", "lemma": "volver", "pos": "動詞", "ja": "戻る・帰る", "infl": "IND_PRET/3sg", "note": "volver a + 不定詞で「再び〜する」" },
+        { "s": "a", "skip": true },
+        { "s": "hablar", "lemma": "hablar", "pos": "動詞", "ja": "話す", "label": "不定詞" },
+        { "s": "de aquella noche", "lemma": "aquella noche", "pos": "慣用表現", "ja": "あの晩", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0182",
+      "text": "Disimuló su turbación y respondió con voz serena.",
+      "ja": "彼は動揺を隠し、平静な声で答えた。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去"],
+      "tokens": [
+        { "s": "Disimuló", "lemma": "disimular", "pos": "動詞", "ja": "隠す・取り繕う", "label": "直説法点過去・3人称単数" },
+        { "s": "su", "skip": true },
+        { "s": "turbación", "lemma": "turbación", "pos": "名詞", "ja": "動揺・混乱" },
+        { "s": "respondió", "lemma": "responder", "pos": "動詞", "ja": "答える", "label": "直説法点過去・3人称単数" },
+        { "s": "con voz serena", "lemma": "con voz serena", "pos": "慣用表現", "ja": "平静な声で", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0183",
+      "text": "Apenas hubo salido, empezó a llover.",
+      "ja": "彼が出るか出ないかのうちに、雨が降り始めた。",
+      "level": "C2",
+      "tags": ["文学", "直説法前過去"],
+      "grammar": "apenas + 前過去（hubo + 過去分詞）は「〜するやいなや」。文語でしか使わない時制。",
+      "tokens": [
+        { "s": "Apenas", "lemma": "apenas", "pos": "副詞", "ja": "〜するやいなや・かろうじて" },
+        { "s": "hubo salido", "lemma": "salir", "pos": "動詞", "ja": "出る・出かける", "label": "直説法前過去・3人称単数", "note": "文語でのみ使う時制。現代では過去完了か点過去で代用する" },
+        { "s": "empezó", "lemma": "empezar", "pos": "動詞", "ja": "始める・始まる", "infl": "IND_PRET/3sg" },
+        { "s": "a", "skip": true },
+        { "s": "llover", "lemma": "llover", "pos": "動詞", "ja": "雨が降る", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "es-0184",
+      "text": "Fingió indiferencia, aunque el corazón le latiera con fuerza.",
+      "ja": "心臓が激しく鳴っていたが、彼は無関心を装った。",
+      "level": "C2",
+      "tags": ["文学", "直説法点過去", "接続法過去"],
+      "grammar": "aunque + 接続法過去で、事実を前面に出さずに譲歩する。",
+      "tokens": [
+        { "s": "Fingió", "lemma": "fingir", "pos": "動詞", "ja": "ふりをする・装う", "infl": "IND_PRET/3sg" },
+        { "s": "indiferencia", "lemma": "indiferencia", "pos": "名詞", "ja": "無関心" },
+        { "s": "aunque", "lemma": "aunque", "pos": "接続詞", "ja": "〜だけれども" },
+        { "s": "el", "skip": true },
+        { "s": "corazón", "lemma": "corazón", "pos": "名詞", "ja": "心臓・心" },
+        { "s": "le", "skip": true },
+        { "s": "latiera", "lemma": "latir", "pos": "動詞", "ja": "鼓動する", "label": "接続法過去・3人称単数" },
+        { "s": "con fuerza", "lemma": "con fuerza", "pos": "慣用表現", "ja": "力強く・激しく", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0185",
+      "text": "Por fin se atrevió a preguntarle qué pensaba hacer.",
+      "ja": "彼女はついに、彼が何をするつもりなのか尋ねた。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去", "直説法線過去"],
+      "grammar": "atreverse a + 不定詞で「あえて〜する」。pensar + 不定詞は「〜するつもりだ」。",
+      "tokens": [
+        { "s": "Por fin", "lemma": "por fin", "pos": "慣用表現", "ja": "ついに・やっと", "idiom": true },
+        { "s": "se atrevió a", "lemma": "atreverse a", "pos": "慣用表現", "ja": "あえて〜する", "idiom": true },
+        { "s": "preguntar", "lemma": "preguntar", "pos": "動詞", "ja": "尋ねる", "label": "不定詞" },
+        { "s": "le", "skip": true },
+        { "s": "qué", "skip": true },
+        { "s": "pensaba", "lemma": "pensar", "pos": "動詞", "ja": "考える・思う", "infl": "IND_IMPF/3sg", "note": "pensar + 不定詞で「〜するつもりだ」" },
+        { "s": "hacer", "lemma": "hacer", "pos": "動詞", "ja": "する・作る", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "es-0186",
+      "text": "El recuerdo de aquel día nunca se desvaneció del todo.",
+      "ja": "あの日の記憶は、ついに完全には薄れなかった。",
+      "level": "C2",
+      "tags": ["文学", "直説法点過去"],
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "recuerdo", "lemma": "recuerdo", "pos": "名詞", "ja": "思い出・記憶" },
+        { "s": "de aquel", "skip": true },
+        { "s": "día", "lemma": "día", "pos": "名詞", "ja": "日・一日" },
+        { "s": "nunca", "lemma": "nunca", "pos": "副詞", "ja": "決して〜ない" },
+        { "s": "se", "skip": true },
+        { "s": "desvaneció", "lemma": "desvanecer", "pos": "動詞", "ja": "消え去らせる・かすませる", "infl": "IND_PRET/3sg" },
+        { "s": "del todo", "lemma": "del todo", "pos": "慣用表現", "ja": "完全に", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0187",
+      "text": "Padeció su suerte sin quejarse ni una sola vez.",
+      "ja": "彼は一度も不平を言わずに、自らの運命に耐えた。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去"],
+      "tokens": [
+        { "s": "Padeció", "lemma": "padecer", "pos": "動詞", "ja": "患う・苦しむ", "infl": "IND_PRET/3sg" },
+        { "s": "su", "skip": true },
+        { "s": "suerte", "lemma": "suerte", "pos": "名詞", "ja": "運・運命" },
+        { "s": "sin", "skip": true },
+        { "s": "quejarse", "lemma": "quejarse", "pos": "動詞", "ja": "不平を言う", "idiom": true },
+        { "s": "ni una sola vez", "lemma": "ni una sola vez", "pos": "慣用表現", "ja": "一度たりとも", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0188",
+      "text": "Se dieron cuenta demasiado tarde de que la puerta se había cerrado.",
+      "ja": "扉が閉まってしまっていたことに、彼らは気づくのが遅すぎた。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去", "直説法過去完了"],
+      "tokens": [
+        { "s": "Se", "skip": true },
+        { "s": "dieron cuenta", "lemma": "darse cuenta de", "pos": "慣用表現", "ja": "気づく", "idiom": true },
+        { "s": "demasiado tarde", "lemma": "demasiado tarde", "pos": "慣用表現", "ja": "遅すぎて", "idiom": true },
+        { "s": "de que", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "puerta", "lemma": "puerta", "pos": "名詞", "ja": "ドア・扉" },
+        { "s": "se", "skip": true },
+        { "s": "había cerrado", "lemma": "cerrar", "pos": "動詞", "ja": "閉める", "infl": "IND_PLUP/3sg" }
+      ]
+    },
+    {
+      "id": "es-0189",
+      "text": "Nada hacía presagiar lo que estaba a punto de ocurrir.",
+      "ja": "これから起きることを予感させるものは何もなかった。",
+      "level": "C2",
+      "tags": ["文学", "直説法線過去"],
+      "grammar": "hacer presagiar で「予感させる」。estar a punto de は「まさに〜しようとしている」。",
+      "tokens": [
+        { "s": "Nada", "lemma": "nada", "pos": "代名詞", "ja": "何も〜ない" },
+        { "s": "hacía", "lemma": "hacer", "pos": "動詞", "ja": "する・作る", "infl": "IND_IMPF/3sg" },
+        { "s": "presagiar", "lemma": "presagiar", "pos": "動詞", "ja": "予感させる・前触れとなる", "label": "不定詞" },
+        { "s": "lo que", "lemma": "lo que", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
+        { "s": "estaba a punto de", "lemma": "estar a punto de", "pos": "慣用表現", "ja": "まさに〜しようとしている", "idiom": true },
+        { "s": "ocurrir", "lemma": "ocurrir", "pos": "動詞", "ja": "起こる", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "es-0190",
+      "text": "Arrancó la página, la estrujó y la arrojó al fuego.",
+      "ja": "彼はページを引きちぎり、くしゃくしゃに丸め、火にくべた。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去"],
+      "tokens": [
+        { "s": "Arrancó", "lemma": "arrancar", "pos": "動詞", "ja": "もぎ取る・始動する", "infl": "IND_PRET/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "página", "lemma": "página", "pos": "名詞", "ja": "ページ" },
+        { "s": "la", "skip": true },
+        { "s": "estrujó", "lemma": "estrujar", "pos": "動詞", "ja": "握りつぶす・絞る", "label": "直説法点過去・3人称単数" },
+        { "s": "la", "skip": true },
+        { "s": "arrojó", "lemma": "arrojar", "pos": "動詞", "ja": "投げる・放つ", "label": "直説法点過去・3人称単数" },
+        { "s": "al fuego", "lemma": "fuego", "pos": "名詞", "ja": "火" }
+      ]
+    },
+    {
+      "id": "es-0191",
+      "text": "Aunque lo hubiera previsto todo, nada salió como esperaba.",
+      "ja": "すべて計算していたにもかかわらず、何ひとつ思惑どおりには運ばなかった。",
+      "level": "C2",
+      "tags": ["文学", "接続法過去完了", "直説法点過去"],
+      "tokens": [
+        { "s": "Aunque", "lemma": "aunque", "pos": "接続詞", "ja": "〜だけれども" },
+        { "s": "lo", "skip": true },
+        { "s": "hubiera previsto", "lemma": "prever", "pos": "動詞", "ja": "予測する・見込む", "label": "接続法過去完了・3人称単数" },
+        { "s": "todo", "lemma": "todo", "pos": "代名詞", "ja": "すべて" },
+        { "s": "nada", "lemma": "nada", "pos": "代名詞", "ja": "何も〜ない" },
+        { "s": "salió", "lemma": "salir", "pos": "動詞", "ja": "出る・（結果が）出る", "infl": "IND_PRET/3sg" },
+        { "s": "como", "skip": true },
+        { "s": "esperaba", "lemma": "esperar", "pos": "動詞", "ja": "待つ・期待する", "infl": "IND_IMPF/3sg" }
+      ]
+    },
+    {
+      "id": "es-0192",
+      "text": "La multitud se dispersó poco a poco, dejando la plaza desierta.",
+      "ja": "群衆は少しずつ散っていき、広場は人けのないままになった。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去", "現在分詞"],
+      "tokens": [
+        { "s": "La", "skip": true },
+        { "s": "multitud", "lemma": "multitud", "pos": "名詞", "ja": "群衆・多数" },
+        { "s": "se", "skip": true },
+        { "s": "dispersó", "lemma": "dispersar", "pos": "動詞", "ja": "撒き散らす・分散させる", "label": "直説法点過去・3人称単数" },
+        { "s": "poco a poco", "lemma": "poco a poco", "pos": "慣用表現", "ja": "少しずつ", "idiom": true },
+        { "s": "dejando", "lemma": "dejar", "pos": "動詞", "ja": "置いていく・〜のままにする", "infl": "GER" },
+        { "s": "la", "skip": true },
+        { "s": "plaza", "lemma": "plaza", "pos": "名詞", "ja": "広場" },
+        { "s": "desierta", "lemma": "desierto", "pos": "形容詞", "ja": "人けのない", "label": "女性単数" }
+      ]
+    },
+    {
+      "id": "es-0193",
+      "text": "Por un instante creyó reconocerla, pero luego cambió de idea.",
+      "ja": "彼は一瞬彼女だと思ったが、すぐに考えを改めた。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去"],
+      "tokens": [
+        { "s": "Por un instante", "lemma": "por un instante", "pos": "慣用表現", "ja": "一瞬", "idiom": true },
+        { "s": "creyó", "lemma": "creer", "pos": "動詞", "ja": "信じる・思う", "infl": "IND_PRET/3sg" },
+        { "s": "reconocer", "lemma": "reconocer", "pos": "動詞", "ja": "認める・見分ける", "label": "不定詞" },
+        { "s": "la", "skip": true },
+        { "s": "cambió de idea", "lemma": "cambiar de idea", "pos": "慣用表現", "ja": "考えを改める", "idiom": true }
+      ]
+    },
+    {
+      "id": "es-0194",
+      "text": "Aquella fue la última vez que se la vio por el barrio.",
+      "ja": "彼女がこの界隈で見られたのは、それが最後だった。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去"],
+      "tokens": [
+        { "s": "Aquella", "skip": true },
+        { "s": "fue", "lemma": "ser", "pos": "動詞", "ja": "〜である", "infl": "IND_PRET/3sg" },
+        { "s": "la última vez", "lemma": "la última vez", "pos": "慣用表現", "ja": "最後の時", "idiom": true },
+        { "s": "que", "skip": true },
+        { "s": "se", "skip": true },
+        { "s": "la", "skip": true },
+        { "s": "vio", "lemma": "ver", "pos": "動詞", "ja": "見る・会う", "infl": "IND_PRET/3sg" },
+        { "s": "por el", "skip": true },
+        { "s": "barrio", "lemma": "barrio", "pos": "名詞", "ja": "地区・界隈" }
+      ]
+    },
+    {
+      "id": "es-0195",
+      "text": "Cedió al fin, no por convicción, sino por cansancio.",
+      "ja": "彼女はついに折れた。納得したからではなく、疲れ果てたからだ。",
+      "level": "C2",
+      "tags": ["文学", "直説法点過去"],
+      "grammar": "no por A, sino por B で理由を対比させる書き言葉の型。",
+      "tokens": [
+        { "s": "Cedió", "lemma": "ceder", "pos": "動詞", "ja": "譲る・屈する", "infl": "IND_PRET/3sg" },
+        { "s": "al fin", "lemma": "al fin", "pos": "慣用表現", "ja": "ついに", "idiom": true },
+        { "s": "no por", "lemma": "no por... sino por...", "pos": "慣用表現", "ja": "〜からではなく…から", "idiom": true },
+        { "s": "convicción", "lemma": "convicción", "pos": "名詞", "ja": "確信・信念" },
+        { "s": "cansancio", "lemma": "cansancio", "pos": "名詞", "ja": "疲労" }
+      ]
+    },
+    {
+      "id": "es-0196",
+      "text": "Alcanzó la cima cuando apenas amanecía.",
+      "ja": "夜が明けきらぬうちに、彼は頂上へたどり着いた。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去", "直説法線過去"],
+      "tokens": [
+        { "s": "Alcanzó", "lemma": "alcanzar", "pos": "動詞", "ja": "届く・達する", "infl": "IND_PRET/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "cima", "lemma": "cima", "pos": "名詞", "ja": "頂上" },
+        { "s": "cuando", "lemma": "cuando", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "apenas", "lemma": "apenas", "pos": "副詞", "ja": "かろうじて・やっと" },
+        { "s": "amanecía", "lemma": "amanecer", "pos": "動詞", "ja": "夜が明ける", "label": "直説法線過去・3人称単数" }
+      ]
+    },
+    {
+      "id": "es-0197",
+      "text": "El silencio que siguió fue más elocuente que cualquier discurso.",
+      "ja": "そのあとに続いた沈黙は、どんな演説よりも雄弁だった。",
+      "level": "C2",
+      "tags": ["文学", "直説法点過去"],
+      "tokens": [
+        { "s": "El", "skip": true },
+        { "s": "silencio", "lemma": "silencio", "pos": "名詞", "ja": "沈黙・静けさ" },
+        { "s": "que", "skip": true },
+        { "s": "siguió", "lemma": "seguir", "pos": "動詞", "ja": "続ける・ついていく", "infl": "IND_PRET/3sg" },
+        { "s": "fue", "lemma": "ser", "pos": "動詞", "ja": "〜である", "infl": "IND_PRET/3sg" },
+        { "s": "más", "skip": true },
+        { "s": "elocuente", "lemma": "elocuente", "pos": "形容詞", "ja": "雄弁な・物を言う" },
+        { "s": "que cualquier", "skip": true },
+        { "s": "discurso", "lemma": "discurso", "pos": "名詞", "ja": "演説・言説" }
+      ]
+    },
+    {
+      "id": "es-0198",
+      "text": "Llegaron a un acuerdo con el que nadie quedó realmente satisfecho.",
+      "ja": "彼らは合意に至ったが、誰ひとり心から満足してはいなかった。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去"],
+      "tokens": [
+        { "s": "Llegaron", "lemma": "llegar", "pos": "動詞", "ja": "着く・到着する", "infl": "IND_PRET/3pl", "note": "llegar a un acuerdo で「合意に達する」" },
+        { "s": "a un", "skip": true },
+        { "s": "acuerdo", "lemma": "acuerdo", "pos": "名詞", "ja": "合意・協定" },
+        { "s": "con el que", "skip": true },
+        { "s": "nadie", "lemma": "nadie", "pos": "代名詞", "ja": "誰も〜ない" },
+        { "s": "quedó", "lemma": "quedar", "pos": "動詞", "ja": "残る・〜のままになる", "infl": "IND_PRET/3sg" },
+        { "s": "realmente", "lemma": "realmente", "pos": "副詞", "ja": "本当に・実際に" },
+        { "s": "satisfecho", "lemma": "satisfacer", "pos": "動詞", "ja": "満足させる", "label": "過去分詞" }
+      ]
+    },
+    {
+      "id": "es-0199",
+      "text": "Releyó la carta tres veces antes de captar su sentido.",
+      "ja": "彼女は意味をつかむまでに、手紙を三度読み返した。",
+      "level": "C1",
+      "tags": ["文学", "直説法点過去"],
+      "tokens": [
+        { "s": "Releyó", "lemma": "leer", "pos": "動詞", "ja": "読む", "label": "直説法点過去・3人称単数（releer）" },
+        { "s": "la", "skip": true },
+        { "s": "carta", "lemma": "carta", "pos": "名詞", "ja": "手紙" },
+        { "s": "tres veces", "lemma": "vez", "pos": "名詞", "ja": "回・度" },
+        { "s": "antes de", "skip": true },
+        { "s": "captar", "lemma": "captar", "pos": "動詞", "ja": "つかむ・把握する", "label": "不定詞" },
+        { "s": "su", "skip": true },
+        { "s": "sentido", "lemma": "sentido", "pos": "名詞", "ja": "意味・感覚・方向" }
+      ]
+    },
+    {
+      "id": "es-0200",
+      "text": "Así concluyó una historia que nadie había visto venir.",
+      "ja": "こうして、誰も予期していなかった物語は幕を閉じた。",
+      "level": "C2",
+      "tags": ["文学", "直説法点過去", "直説法過去完了"],
+      "grammar": "ver venir は「（事態を）予期する」。物語の締めくくりの型。",
+      "tokens": [
+        { "s": "Así", "lemma": "así", "pos": "副詞", "ja": "このように・こうして" },
+        { "s": "concluyó", "lemma": "concluir", "pos": "動詞", "ja": "結論づける・終える", "label": "直説法点過去・3人称単数" },
+        { "s": "una", "skip": true },
+        { "s": "historia", "lemma": "historia", "pos": "名詞", "ja": "物語・歴史" },
+        { "s": "que", "skip": true },
+        { "s": "nadie", "lemma": "nadie", "pos": "代名詞", "ja": "誰も〜ない" },
+        { "s": "había visto venir", "lemma": "ver venir", "pos": "慣用表現", "ja": "（事態を）予期する", "idiom": true, "note": "直説法過去完了" }
+      ]
+    }
+  ]
+}
