@@ -21774,6 +21774,2929 @@
         }
       ],
       "grammar": "sea lo que sea は「何であれ」。no pensar + 不定詞で「〜するつもりはない」。"
+    },
+    {
+      "id": "es-0281",
+      "lang": "es",
+      "text": "Ten paciencia y no te precipites en la decisión.",
+      "ja": "焦らずに、決断を急がないように。",
+      "level": "C1",
+      "tags": [
+        "命令法",
+        "接続法現在",
+        "助言"
+      ],
+      "tokens": [
+        {
+          "surface": "Ten",
+          "start": 0,
+          "end": 3,
+          "gloss": {
+            "lemma": "tener",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMP",
+              "person": "2sg",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は ten / tenga / tengamos / tened / tengan と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "paciencia",
+          "start": 4,
+          "end": 13,
+          "gloss": {
+            "lemma": "tener paciencia",
+            "pos": "慣用表現",
+            "ja": "辛抱する",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "no",
+          "start": 16,
+          "end": 18
+        },
+        {
+          "surface": "te",
+          "start": 19,
+          "end": 21
+        },
+        {
+          "surface": "precipites",
+          "start": 22,
+          "end": 32,
+          "gloss": {
+            "lemma": "precipitar",
+            "pos": "動詞",
+            "ja": "急がせる・（再帰で）先走る",
+            "note": "否定命令なので接続法",
+            "inflection": {
+              "label": "接続法現在・2人称単数"
+            }
+          }
+        },
+        {
+          "surface": "en la",
+          "start": 33,
+          "end": 38
+        },
+        {
+          "surface": "decisión",
+          "start": 39,
+          "end": 47,
+          "gloss": {
+            "lemma": "decisión",
+            "pos": "名詞",
+            "ja": "決定・決断"
+          }
+        }
+      ],
+      "grammar": "肯定命令（ten）と否定命令（no te precipites＝接続法）が一文に並ぶ。"
+    },
+    {
+      "id": "es-0282",
+      "lang": "es",
+      "text": "Sal de ahí y ven conmigo ahora mismo.",
+      "ja": "そこから出て、今すぐ一緒に来なさい。",
+      "level": "C1",
+      "tags": [
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Sal",
+          "start": 0,
+          "end": 3,
+          "gloss": {
+            "lemma": "salir",
+            "pos": "動詞",
+            "ja": "出る・出かける",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMP",
+              "person": "2sg",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は sal / salga / salgamos / salid / salgan と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "de ahí",
+          "start": 4,
+          "end": 10,
+          "gloss": {
+            "lemma": "de ahí",
+            "pos": "慣用表現",
+            "ja": "そこから",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "ven",
+          "start": 13,
+          "end": 16,
+          "gloss": {
+            "lemma": "venir",
+            "pos": "動詞",
+            "ja": "来る",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMP",
+              "person": "2sg",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は ven / venga / vengamos / venid / vengan と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "conmigo",
+          "start": 17,
+          "end": 24,
+          "gloss": {
+            "lemma": "conmigo",
+            "pos": "代名詞",
+            "ja": "私と一緒に"
+          }
+        },
+        {
+          "surface": "ahora mismo",
+          "start": 25,
+          "end": 36,
+          "gloss": {
+            "lemma": "ahora mismo",
+            "pos": "慣用表現",
+            "ja": "今すぐ",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "salir と venir の tú 命令形はどちらも不規則（sal / ven）。語尾がまるごと落ちる型。"
+    },
+    {
+      "id": "es-0283",
+      "lang": "es",
+      "text": "Pongamos que tuviera razón: ¿qué cambiaría eso?",
+      "ja": "仮に彼が正しいとして、それで何が変わる？",
+      "level": "C2",
+      "tags": [
+        "命令法",
+        "接続法過去",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Pongamos",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "poner",
+            "pos": "動詞",
+            "ja": "置く・つける",
+            "note": "pongamos que で「仮に〜だとして」",
+            "inflection": {
+              "label": "命令法・1人称複数",
+              "tense": "IMP",
+              "person": "1pl",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（pon- → pong-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 9,
+          "end": 12
+        },
+        {
+          "surface": "tuviera",
+          "start": 13,
+          "end": 20,
+          "gloss": {
+            "lemma": "tener",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "接続法過去・3人称単数",
+              "tense": "SUBJ_IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（ten- → tuv-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "razón",
+          "start": 21,
+          "end": 26,
+          "gloss": {
+            "lemma": "tener razón",
+            "pos": "慣用表現",
+            "ja": "正しい・道理がある",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "qué",
+          "start": 29,
+          "end": 32
+        },
+        {
+          "surface": "cambiaría",
+          "start": 33,
+          "end": 42,
+          "gloss": {
+            "lemma": "cambiar",
+            "pos": "動詞",
+            "ja": "変える・両替する",
+            "inflection": {
+              "label": "条件法現在・3人称単数",
+              "tense": "COND",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "eso",
+          "start": 43,
+          "end": 46,
+          "gloss": {
+            "lemma": "eso",
+            "pos": "代名詞",
+            "ja": "それ"
+          }
+        }
+      ],
+      "grammar": "pongamos que は「仮に〜だとして」。1人称複数の命令形が議論の切り出しに使われる。"
+    },
+    {
+      "id": "es-0284",
+      "lang": "es",
+      "text": "Haz lo que consideres oportuno, pero avisa antes.",
+      "ja": "適切だと思うようにすればいい。ただし事前に知らせて。",
+      "level": "C1",
+      "tags": [
+        "命令法",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Haz",
+          "start": 0,
+          "end": 3,
+          "gloss": {
+            "lemma": "hacer",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMP",
+              "person": "2sg",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は haz / haga / hagamos / haced / hagan と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "lo que",
+          "start": 4,
+          "end": 10,
+          "gloss": {
+            "lemma": "lo que",
+            "pos": "慣用表現",
+            "ja": "〜すること",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "consideres",
+          "start": 11,
+          "end": 21,
+          "gloss": {
+            "lemma": "considerar",
+            "pos": "動詞",
+            "ja": "考慮する・みなす",
+            "inflection": {
+              "label": "接続法現在・2人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "oportuno",
+          "start": 22,
+          "end": 30,
+          "gloss": {
+            "lemma": "oportuno",
+            "pos": "形容詞",
+            "ja": "適切な・時宜を得た"
+          }
+        },
+        {
+          "surface": "avisa",
+          "start": 37,
+          "end": 42,
+          "gloss": {
+            "lemma": "avisar",
+            "pos": "動詞",
+            "ja": "知らせる・警告する",
+            "inflection": {
+              "label": "命令法・2人称単数"
+            }
+          }
+        },
+        {
+          "surface": "antes",
+          "start": 43,
+          "end": 48,
+          "gloss": {
+            "lemma": "antes",
+            "pos": "副詞",
+            "ja": "前に・以前に"
+          }
+        }
+      ],
+      "grammar": "不特定の内容を指す関係節（lo que consideres）は接続法になる。"
+    },
+    {
+      "id": "es-0285",
+      "lang": "es",
+      "text": "Me alegra que hayas conseguido el puesto.",
+      "ja": "そのポストを勝ち取れてよかったね。",
+      "level": "C1",
+      "tags": [
+        "接続法現在完了",
+        "感情"
+      ],
+      "tokens": [
+        {
+          "surface": "Me",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "alegra",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "alegrar",
+            "pos": "動詞",
+            "ja": "喜ばせる",
+            "inflection": {
+              "label": "直説法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 10,
+          "end": 13
+        },
+        {
+          "surface": "hayas conseguido",
+          "start": 14,
+          "end": 30,
+          "gloss": {
+            "lemma": "conseguir",
+            "pos": "動詞",
+            "ja": "手に入れる・成し遂げる",
+            "inflection": {
+              "label": "接続法現在完了・2人称単数",
+              "tense": "SUBJ_PERF",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "el",
+          "start": 31,
+          "end": 33
+        },
+        {
+          "surface": "puesto",
+          "start": 34,
+          "end": 40,
+          "gloss": {
+            "lemma": "puesto",
+            "pos": "名詞",
+            "ja": "職・地位"
+          }
+        }
+      ],
+      "grammar": "感情を表す表現のあと、完了した出来事を指すときは接続法現在完了になる。"
+    },
+    {
+      "id": "es-0286",
+      "lang": "es",
+      "text": "Es una pena que no hayan podido asistir.",
+      "ja": "彼らが出席できなかったのは残念だ。",
+      "level": "C1",
+      "tags": [
+        "接続法現在完了",
+        "感情"
+      ],
+      "tokens": [
+        {
+          "surface": "Es una pena que",
+          "start": 0,
+          "end": 15,
+          "gloss": {
+            "lemma": "es una pena que",
+            "pos": "慣用表現",
+            "ja": "〜は残念だ",
+            "idiom": true,
+            "note": "後ろは接続法"
+          }
+        },
+        {
+          "surface": "no",
+          "start": 16,
+          "end": 18
+        },
+        {
+          "surface": "hayan podido",
+          "start": 19,
+          "end": 31,
+          "gloss": {
+            "lemma": "poder",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "inflection": {
+              "label": "接続法現在完了・3人称複数",
+              "tense": "SUBJ_PERF",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "asistir",
+          "start": 32,
+          "end": 39,
+          "gloss": {
+            "lemma": "asistir",
+            "pos": "動詞",
+            "ja": "出席する・援助する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0287",
+      "lang": "es",
+      "text": "Dudo que hayan leído el informe entero.",
+      "ja": "彼らが報告書を全部読んだとは思えない。",
+      "level": "C1",
+      "tags": [
+        "接続法現在完了",
+        "疑い"
+      ],
+      "tokens": [
+        {
+          "surface": "Dudo",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "dudar",
+            "pos": "動詞",
+            "ja": "疑う・ためらう",
+            "inflection": {
+              "label": "直説法現在・1人称単数"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 5,
+          "end": 8
+        },
+        {
+          "surface": "hayan leído",
+          "start": 9,
+          "end": 20,
+          "gloss": {
+            "lemma": "leer",
+            "pos": "動詞",
+            "ja": "読む",
+            "inflection": {
+              "label": "接続法現在完了・3人称複数",
+              "tense": "SUBJ_PERF",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "el",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "informe",
+          "start": 24,
+          "end": 31,
+          "gloss": {
+            "lemma": "informe",
+            "pos": "名詞",
+            "ja": "報告書"
+          }
+        },
+        {
+          "surface": "entero",
+          "start": 32,
+          "end": 38,
+          "gloss": {
+            "lemma": "entero",
+            "pos": "形容詞",
+            "ja": "全体の・まるごとの"
+          }
+        }
+      ],
+      "grammar": "dudar que は疑いを表すので必ず接続法をとる。"
+    },
+    {
+      "id": "es-0288",
+      "lang": "es",
+      "text": "No creo que se haya dado cuenta de nada.",
+      "ja": "彼は何も気づいていないと思う。",
+      "level": "C1",
+      "tags": [
+        "接続法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "No",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "creo",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "creer",
+            "pos": "動詞",
+            "ja": "信じる・思う",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 8,
+          "end": 11
+        },
+        {
+          "surface": "se",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "haya dado",
+          "start": 15,
+          "end": 24,
+          "gloss": {
+            "lemma": "dar",
+            "pos": "動詞",
+            "ja": "与える",
+            "inflection": {
+              "label": "接続法現在完了・3人称単数",
+              "tense": "SUBJ_PERF",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "cuenta de",
+          "start": 25,
+          "end": 34,
+          "gloss": {
+            "lemma": "darse cuenta de",
+            "pos": "慣用表現",
+            "ja": "気づく",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "nada",
+          "start": 35,
+          "end": 39,
+          "gloss": {
+            "lemma": "nada",
+            "pos": "代名詞",
+            "ja": "何も〜ない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0289",
+      "lang": "es",
+      "text": "Ojalá hubiera aceptado aquella oferta.",
+      "ja": "あのとき申し出を受けていればよかったのに。",
+      "level": "C2",
+      "tags": [
+        "接続法過去完了",
+        "後悔"
+      ],
+      "tokens": [
+        {
+          "surface": "Ojalá",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "ojalá",
+            "pos": "間投詞",
+            "ja": "〜だといいな・〜だったらよかったのに",
+            "note": "接続法過去完了と組むと過去への後悔になる"
+          }
+        },
+        {
+          "surface": "hubiera aceptado",
+          "start": 6,
+          "end": 22,
+          "gloss": {
+            "lemma": "aceptar",
+            "pos": "動詞",
+            "ja": "受け入れる",
+            "inflection": {
+              "label": "接続法過去完了・1人称単数"
+            }
+          }
+        },
+        {
+          "surface": "aquella",
+          "start": 23,
+          "end": 30
+        },
+        {
+          "surface": "oferta",
+          "start": 31,
+          "end": 37,
+          "gloss": {
+            "lemma": "oferta",
+            "pos": "名詞",
+            "ja": "申し出・特売"
+          }
+        }
+      ],
+      "grammar": "ojalá + 接続法過去完了は、過去の事実に反する後悔を表す。"
+    },
+    {
+      "id": "es-0290",
+      "lang": "es",
+      "text": "Si me lo hubieras dicho antes, todo habría sido distinto.",
+      "ja": "もっと早く言ってくれていたら、すべて違っていたのに。",
+      "level": "C2",
+      "tags": [
+        "接続法過去完了",
+        "条件法完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Si",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "me",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "lo",
+          "start": 6,
+          "end": 8
+        },
+        {
+          "surface": "hubieras dicho",
+          "start": 9,
+          "end": 23,
+          "gloss": {
+            "lemma": "decir",
+            "pos": "動詞",
+            "ja": "言う",
+            "inflection": {
+              "label": "接続法過去完了・2人称単数"
+            }
+          }
+        },
+        {
+          "surface": "antes",
+          "start": 24,
+          "end": 29,
+          "gloss": {
+            "lemma": "antes",
+            "pos": "副詞",
+            "ja": "前に・以前に"
+          }
+        },
+        {
+          "surface": "todo",
+          "start": 31,
+          "end": 35,
+          "gloss": {
+            "lemma": "todo",
+            "pos": "代名詞",
+            "ja": "すべて"
+          }
+        },
+        {
+          "surface": "habría sido",
+          "start": 36,
+          "end": 47,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "条件法完了・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "distinto",
+          "start": 48,
+          "end": 56,
+          "gloss": {
+            "lemma": "distinto",
+            "pos": "形容詞",
+            "ja": "異なる・別の"
+          }
+        }
+      ],
+      "grammar": "過去の反実仮想の完全形。si + 接続法過去完了, 条件法完了。"
+    },
+    {
+      "id": "es-0291",
+      "lang": "es",
+      "text": "Le pedí que me esperara, pero ya se había marchado.",
+      "ja": "待っててと頼んだのに、彼はもう行ってしまっていた。",
+      "level": "C1",
+      "tags": [
+        "接続法過去",
+        "直説法過去完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Le",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "pedí",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "pedir",
+            "pos": "動詞",
+            "ja": "頼む・注文する",
+            "inflection": {
+              "label": "直説法点過去・1人称単数",
+              "tense": "IND_PRET",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 8,
+          "end": 11
+        },
+        {
+          "surface": "me",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "esperara",
+          "start": 15,
+          "end": 23,
+          "gloss": {
+            "lemma": "esperar",
+            "pos": "動詞",
+            "ja": "待つ・期待する",
+            "inflection": {
+              "label": "接続法過去・3人称単数",
+              "tense": "SUBJ_IMPF",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "ya",
+          "start": 30,
+          "end": 32,
+          "gloss": {
+            "lemma": "ya",
+            "pos": "副詞",
+            "ja": "もう・すでに"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 33,
+          "end": 35
+        },
+        {
+          "surface": "había marchado",
+          "start": 36,
+          "end": 50,
+          "gloss": {
+            "lemma": "marchar",
+            "pos": "動詞",
+            "ja": "行進する・（再帰で）立ち去る",
+            "inflection": {
+              "label": "直説法過去完了・3人称単数"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0292",
+      "lang": "es",
+      "text": "Nos exigieron que entregáramos el trabajo antes del viernes.",
+      "ja": "金曜までに課題を提出するよう求められた。",
+      "level": "C1",
+      "tags": [
+        "接続法過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Nos",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "exigieron",
+          "start": 4,
+          "end": 13,
+          "gloss": {
+            "lemma": "exigir",
+            "pos": "動詞",
+            "ja": "要求する",
+            "inflection": {
+              "label": "直説法点過去・3人称複数"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 14,
+          "end": 17
+        },
+        {
+          "surface": "entregáramos",
+          "start": 18,
+          "end": 30,
+          "gloss": {
+            "lemma": "entregar",
+            "pos": "動詞",
+            "ja": "手渡す・提出する",
+            "inflection": {
+              "label": "接続法過去・1人称複数"
+            }
+          }
+        },
+        {
+          "surface": "el",
+          "start": 31,
+          "end": 33
+        },
+        {
+          "surface": "trabajo",
+          "start": 34,
+          "end": 41,
+          "gloss": {
+            "lemma": "trabajo",
+            "pos": "名詞",
+            "ja": "仕事・課題"
+          }
+        },
+        {
+          "surface": "antes del",
+          "start": 42,
+          "end": 51
+        },
+        {
+          "surface": "viernes",
+          "start": 52,
+          "end": 59,
+          "gloss": {
+            "lemma": "viernes",
+            "pos": "名詞",
+            "ja": "金曜日"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0293",
+      "lang": "es",
+      "text": "Buscaban a alguien que supiera japonés y chino.",
+      "ja": "日本語と中国語ができる人を探していた。",
+      "level": "C2",
+      "tags": [
+        "接続法過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Buscaban",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "buscar",
+            "pos": "動詞",
+            "ja": "探す",
+            "inflection": {
+              "label": "直説法線過去・3人称複数",
+              "tense": "IND_IMPF",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "a alguien",
+          "start": 9,
+          "end": 18,
+          "gloss": {
+            "lemma": "alguien",
+            "pos": "代名詞",
+            "ja": "誰か"
+          }
+        },
+        {
+          "surface": "que",
+          "start": 19,
+          "end": 22
+        },
+        {
+          "surface": "supiera",
+          "start": 23,
+          "end": 30,
+          "gloss": {
+            "lemma": "saber",
+            "pos": "動詞",
+            "ja": "知っている・〜できる",
+            "note": "存在が不確かな人を指す関係節なので接続法",
+            "inflection": {
+              "label": "接続法過去・3人称単数",
+              "tense": "SUBJ_IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（sab- → sup-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "japonés",
+          "start": 31,
+          "end": 38,
+          "gloss": {
+            "lemma": "japonés",
+            "pos": "名詞",
+            "ja": "日本語・日本人"
+          }
+        },
+        {
+          "surface": "chino",
+          "start": 41,
+          "end": 46,
+          "gloss": {
+            "lemma": "chino",
+            "pos": "名詞",
+            "ja": "中国語・中国人"
+          }
+        }
+      ],
+      "grammar": "存在するか分からない人・物を指す関係節は接続法。主節が過去なら接続法過去。"
+    },
+    {
+      "id": "es-0294",
+      "lang": "es",
+      "text": "Para cuando llegamos, ya habían cerrado las puertas.",
+      "ja": "私たちが着いたころには、すでに門は閉ざされていた。",
+      "level": "C1",
+      "tags": [
+        "直説法過去完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Para cuando",
+          "start": 0,
+          "end": 11,
+          "gloss": {
+            "lemma": "para cuando",
+            "pos": "慣用表現",
+            "ja": "〜するころには",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "llegamos",
+          "start": 12,
+          "end": 20,
+          "gloss": {
+            "lemma": "llegar",
+            "pos": "動詞",
+            "ja": "着く・到着する",
+            "inflection": {
+              "label": "直説法点過去・1人称複数",
+              "tense": "IND_PRET",
+              "person": "1pl"
+            }
+          }
+        },
+        {
+          "surface": "ya",
+          "start": 22,
+          "end": 24,
+          "gloss": {
+            "lemma": "ya",
+            "pos": "副詞",
+            "ja": "もう・すでに"
+          }
+        },
+        {
+          "surface": "habían cerrado",
+          "start": 25,
+          "end": 39,
+          "gloss": {
+            "lemma": "cerrar",
+            "pos": "動詞",
+            "ja": "閉める",
+            "inflection": {
+              "label": "直説法過去完了・3人称複数",
+              "tense": "IND_PLUP",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "las",
+          "start": 40,
+          "end": 43
+        },
+        {
+          "surface": "puertas",
+          "start": 44,
+          "end": 51,
+          "gloss": {
+            "lemma": "puerta",
+            "pos": "名詞",
+            "ja": "ドア・門"
+          }
+        }
+      ],
+      "grammar": "para cuando は「〜するころには」。過去完了と組んで時間の前後を示す。"
+    },
+    {
+      "id": "es-0295",
+      "lang": "es",
+      "text": "Nunca había visto una reacción semejante.",
+      "ja": "あんな反応は見たことがなかった。",
+      "level": "B2",
+      "tags": [
+        "直説法過去完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Nunca",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "nunca",
+            "pos": "副詞",
+            "ja": "一度も〜ない"
+          }
+        },
+        {
+          "surface": "había visto",
+          "start": 6,
+          "end": 17,
+          "gloss": {
+            "lemma": "ver",
+            "pos": "動詞",
+            "ja": "見る・会う",
+            "inflection": {
+              "label": "直説法過去完了・1人称単数",
+              "tense": "IND_PLUP",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "una",
+          "start": 18,
+          "end": 21
+        },
+        {
+          "surface": "reacción",
+          "start": 22,
+          "end": 30,
+          "gloss": {
+            "lemma": "reacción",
+            "pos": "名詞",
+            "ja": "反応"
+          }
+        },
+        {
+          "surface": "semejante",
+          "start": 31,
+          "end": 40,
+          "gloss": {
+            "lemma": "semejante",
+            "pos": "形容詞",
+            "ja": "そのような・類似の"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0296",
+      "lang": "es",
+      "text": "Yo en tu lugar no me habría metido en eso.",
+      "ja": "僕が君の立場なら、そんなことに首を突っ込まなかったよ。",
+      "level": "C2",
+      "tags": [
+        "条件法完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Yo en tu lugar",
+          "start": 0,
+          "end": 14,
+          "gloss": {
+            "lemma": "yo en tu lugar",
+            "pos": "慣用表現",
+            "ja": "私が君の立場なら",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "no",
+          "start": 15,
+          "end": 17
+        },
+        {
+          "surface": "me",
+          "start": 18,
+          "end": 20
+        },
+        {
+          "surface": "habría metido",
+          "start": 21,
+          "end": 34,
+          "gloss": {
+            "lemma": "meter",
+            "pos": "動詞",
+            "ja": "入れる・突っ込む",
+            "note": "meterse en で「首を突っ込む」",
+            "inflection": {
+              "label": "条件法完了・1人称単数"
+            }
+          }
+        },
+        {
+          "surface": "en eso",
+          "start": 35,
+          "end": 41
+        }
+      ],
+      "grammar": "meterse en は「首を突っ込む」。yo en tu lugar は「私が君の立場なら」。"
+    },
+    {
+      "id": "es-0297",
+      "lang": "es",
+      "text": "¿Te importaría repetirlo un poco más despacio?",
+      "ja": "もう少しゆっくり言ってもらえますか。",
+      "level": "B2",
+      "tags": [
+        "条件法現在",
+        "依頼"
+      ],
+      "tokens": [
+        {
+          "surface": "Te",
+          "start": 1,
+          "end": 3
+        },
+        {
+          "surface": "importaría",
+          "start": 4,
+          "end": 14,
+          "gloss": {
+            "lemma": "importar",
+            "pos": "動詞",
+            "ja": "重要である・気にかかる",
+            "note": "条件法にすると丁寧な依頼になる",
+            "inflection": {
+              "label": "条件法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "repetir",
+          "start": 15,
+          "end": 22,
+          "gloss": {
+            "lemma": "repetir",
+            "pos": "動詞",
+            "ja": "繰り返す",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "lo",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "surface": "un poco más",
+          "start": 25,
+          "end": 36,
+          "gloss": {
+            "lemma": "un poco más",
+            "pos": "慣用表現",
+            "ja": "もう少し",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "despacio",
+          "start": 37,
+          "end": 45,
+          "gloss": {
+            "lemma": "despacio",
+            "pos": "副詞",
+            "ja": "ゆっくり"
+          }
+        }
+      ],
+      "grammar": "importar を条件法にすると、最も丁寧な依頼になる。"
+    },
+    {
+      "id": "es-0298",
+      "lang": "es",
+      "text": "Yo diría que el problema viene de más atrás.",
+      "ja": "問題の根はもっと前にあると思うね。",
+      "level": "C1",
+      "tags": [
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Yo",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "diría",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "decir",
+            "pos": "動詞",
+            "ja": "言う",
+            "note": "yo diría que で断定を避ける控えめな主張になる",
+            "inflection": {
+              "label": "条件法現在・1人称単数",
+              "tense": "COND",
+              "person": "1sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（decir- → dir-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "el",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "surface": "problema",
+          "start": 16,
+          "end": 24,
+          "gloss": {
+            "lemma": "problema",
+            "pos": "名詞",
+            "ja": "問題"
+          }
+        },
+        {
+          "surface": "viene",
+          "start": 25,
+          "end": 30,
+          "gloss": {
+            "lemma": "venir",
+            "pos": "動詞",
+            "ja": "来る",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が ie に変わる（ven- → vien-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "de más atrás",
+          "start": 31,
+          "end": 43,
+          "gloss": {
+            "lemma": "de más atrás",
+            "pos": "慣用表現",
+            "ja": "もっと前から",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "yo diría que は「私だったら〜と言う」＝控えめな主張。断定を避ける。"
+    },
+    {
+      "id": "es-0299",
+      "lang": "es",
+      "text": "Serían las tres cuando por fin sonó el teléfono.",
+      "ja": "ようやく電話が鳴ったのは、三時ごろだっただろう。",
+      "level": "C2",
+      "tags": [
+        "条件法現在",
+        "直説法点過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Serían",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "条件法の過去推量。「〜だっただろう」",
+            "inflection": {
+              "label": "条件法現在・3人称複数",
+              "tense": "COND",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "las tres",
+          "start": 7,
+          "end": 15,
+          "gloss": {
+            "lemma": "las tres",
+            "pos": "名詞句",
+            "ja": "三時",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "cuando",
+          "start": 16,
+          "end": 22,
+          "gloss": {
+            "lemma": "cuando",
+            "pos": "接続詞",
+            "ja": "〜のとき"
+          }
+        },
+        {
+          "surface": "por fin",
+          "start": 23,
+          "end": 30,
+          "gloss": {
+            "lemma": "por fin",
+            "pos": "慣用表現",
+            "ja": "ついに・やっと",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "sonó",
+          "start": 31,
+          "end": 35,
+          "gloss": {
+            "lemma": "sonar",
+            "pos": "動詞",
+            "ja": "鳴る・響く",
+            "inflection": {
+              "label": "直説法点過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "el",
+          "start": 36,
+          "end": 38
+        },
+        {
+          "surface": "teléfono",
+          "start": 39,
+          "end": 47,
+          "gloss": {
+            "lemma": "teléfono",
+            "pos": "名詞",
+            "ja": "電話"
+          }
+        }
+      ],
+      "grammar": "条件法は過去の推量にも使う。「〜だっただろう」。"
+    },
+    {
+      "id": "es-0300",
+      "lang": "es",
+      "text": "Podríamos habernos ahorrado todo este lío.",
+      "ja": "この面倒はすべて避けられたはずなのに。",
+      "level": "C2",
+      "tags": [
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Podríamos",
+          "start": 0,
+          "end": 9,
+          "gloss": {
+            "lemma": "poder",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "note": "条件法 + 完了不定詞で「〜できたはずなのに」",
+            "inflection": {
+              "label": "条件法現在・1人称複数",
+              "tense": "COND",
+              "person": "1pl",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（poder- → podr-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "habernos ahorrado",
+          "start": 10,
+          "end": 27,
+          "gloss": {
+            "lemma": "ahorrar",
+            "pos": "動詞",
+            "ja": "節約する・省く",
+            "inflection": {
+              "label": "完了不定詞"
+            }
+          }
+        },
+        {
+          "surface": "todo este",
+          "start": 28,
+          "end": 37
+        },
+        {
+          "surface": "lío",
+          "start": 38,
+          "end": 41,
+          "gloss": {
+            "lemma": "lío",
+            "pos": "名詞",
+            "ja": "面倒・ごたごた"
+          }
+        }
+      ],
+      "grammar": "poder の条件法 + 完了不定詞で「〜できたはずなのに」という後悔。"
+    },
+    {
+      "id": "es-0301",
+      "lang": "es",
+      "text": "Una vez terminada la reunión, nos fuimos todos.",
+      "ja": "会議が終わると、私たちは全員引き上げた。",
+      "level": "C2",
+      "tags": [
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Una vez",
+          "start": 0,
+          "end": 7,
+          "gloss": {
+            "lemma": "una vez + 過去分詞",
+            "pos": "慣用表現",
+            "ja": "いったん〜されると",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "terminada",
+          "start": 8,
+          "end": 17,
+          "gloss": {
+            "lemma": "terminar",
+            "pos": "動詞",
+            "ja": "終える・終わる",
+            "inflection": {
+              "label": "過去分詞・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 18,
+          "end": 20
+        },
+        {
+          "surface": "reunión",
+          "start": 21,
+          "end": 28,
+          "gloss": {
+            "lemma": "reunión",
+            "pos": "名詞",
+            "ja": "会議・集まり"
+          }
+        },
+        {
+          "surface": "nos",
+          "start": 30,
+          "end": 33
+        },
+        {
+          "surface": "fuimos",
+          "start": 34,
+          "end": 40,
+          "gloss": {
+            "lemma": "ir",
+            "pos": "動詞",
+            "ja": "行く",
+            "inflection": {
+              "label": "直説法点過去・1人称複数",
+              "tense": "IND_PRET",
+              "person": "1pl",
+              "irregular": {
+                "code": "S",
+                "text": "不規則形。この時制は fui / fuiste / fue / fuimos / fuisteis / fueron と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "todos",
+          "start": 41,
+          "end": 46,
+          "gloss": {
+            "lemma": "todos",
+            "pos": "代名詞",
+            "ja": "皆・全員"
+          }
+        }
+      ],
+      "grammar": "una vez + 過去分詞で「いったん〜されると」。動詞を使わない簡潔な時間節。"
+    },
+    {
+      "id": "es-0302",
+      "lang": "es",
+      "text": "Dicho esto, no comparto su conclusión.",
+      "ja": "そうは言っても、彼の結論には賛成しない。",
+      "level": "C2",
+      "tags": [
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Dicho esto",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "dicho esto",
+            "pos": "慣用表現",
+            "ja": "そうは言っても・以上を踏まえて",
+            "idiom": true,
+            "note": "過去分詞だけで前置きを作る"
+          }
+        },
+        {
+          "surface": "no",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "comparto",
+          "start": 15,
+          "end": 23,
+          "gloss": {
+            "lemma": "compartir",
+            "pos": "動詞",
+            "ja": "共有する・分かち合う",
+            "inflection": {
+              "label": "直説法現在・1人称単数"
+            }
+          }
+        },
+        {
+          "surface": "su",
+          "start": 24,
+          "end": 26
+        },
+        {
+          "surface": "conclusión",
+          "start": 27,
+          "end": 37,
+          "gloss": {
+            "lemma": "conclusión",
+            "pos": "名詞",
+            "ja": "結論"
+          }
+        }
+      ],
+      "grammar": "dicho esto は「そうは言っても」。過去分詞だけで前置きを作る書き言葉。"
+    },
+    {
+      "id": "es-0303",
+      "lang": "es",
+      "text": "Visto lo visto, mejor no insistir más.",
+      "ja": "この様子では、これ以上粘らないほうがいい。",
+      "level": "C2",
+      "tags": [
+        "過去分詞",
+        "口語"
+      ],
+      "tokens": [
+        {
+          "surface": "Visto lo visto",
+          "start": 0,
+          "end": 14,
+          "gloss": {
+            "lemma": "visto lo visto",
+            "pos": "慣用表現",
+            "ja": "この様子では",
+            "idiom": true,
+            "note": "過去分詞を重ねた決まり文句"
+          }
+        },
+        {
+          "surface": "mejor",
+          "start": 16,
+          "end": 21,
+          "gloss": {
+            "lemma": "mejor",
+            "pos": "副詞",
+            "ja": "〜したほうがよい"
+          }
+        },
+        {
+          "surface": "no",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "surface": "insistir",
+          "start": 25,
+          "end": 33,
+          "gloss": {
+            "lemma": "insistir",
+            "pos": "動詞",
+            "ja": "固執する・言い張る",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "más",
+          "start": 34,
+          "end": 37,
+          "gloss": {
+            "lemma": "más",
+            "pos": "副詞",
+            "ja": "もっと・これ以上"
+          }
+        }
+      ],
+      "grammar": "visto lo visto は「この様子では」。過去分詞を重ねた決まり文句。"
+    },
+    {
+      "id": "es-0304",
+      "lang": "es",
+      "text": "Sigo esperando una explicación convincente.",
+      "ja": "納得のいく説明をまだ待っている。",
+      "level": "B2",
+      "tags": [
+        "現在分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Sigo",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "seguir",
+            "pos": "動詞",
+            "ja": "続ける・ついていく",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "IND_PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（segu- → sig-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "esperando",
+          "start": 5,
+          "end": 14,
+          "gloss": {
+            "lemma": "esperar",
+            "pos": "動詞",
+            "ja": "待つ・期待する",
+            "inflection": {
+              "label": "現在分詞（動名詞）",
+              "tense": "GER"
+            }
+          }
+        },
+        {
+          "surface": "una",
+          "start": 15,
+          "end": 18
+        },
+        {
+          "surface": "explicación",
+          "start": 19,
+          "end": 30,
+          "gloss": {
+            "lemma": "explicación",
+            "pos": "名詞",
+            "ja": "説明"
+          }
+        },
+        {
+          "surface": "convincente",
+          "start": 31,
+          "end": 42,
+          "gloss": {
+            "lemma": "convincente",
+            "pos": "形容詞",
+            "ja": "説得力のある"
+          }
+        }
+      ],
+      "grammar": "seguir + 現在分詞で「〜し続けている」。"
+    },
+    {
+      "id": "es-0305",
+      "lang": "es",
+      "text": "Acabé aceptando aunque no me convenciera del todo.",
+      "ja": "完全には納得していなかったが、結局は受け入れた。",
+      "level": "C2",
+      "tags": [
+        "現在分詞",
+        "接続法過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Acabé",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "acabar",
+            "pos": "動詞",
+            "ja": "終える・結局〜する",
+            "note": "acabar + 現在分詞で「結局〜することになる」",
+            "inflection": {
+              "label": "直説法点過去・1人称単数",
+              "tense": "IND_PRET",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "aceptando",
+          "start": 6,
+          "end": 15,
+          "gloss": {
+            "lemma": "aceptar",
+            "pos": "動詞",
+            "ja": "受け入れる",
+            "inflection": {
+              "label": "現在分詞（動名詞）",
+              "tense": "GER"
+            }
+          }
+        },
+        {
+          "surface": "aunque",
+          "start": 16,
+          "end": 22,
+          "gloss": {
+            "lemma": "aunque",
+            "pos": "接続詞",
+            "ja": "〜だけれども"
+          }
+        },
+        {
+          "surface": "no",
+          "start": 23,
+          "end": 25
+        },
+        {
+          "surface": "me",
+          "start": 26,
+          "end": 28
+        },
+        {
+          "surface": "convenciera",
+          "start": 29,
+          "end": 40,
+          "gloss": {
+            "lemma": "convencer",
+            "pos": "動詞",
+            "ja": "納得させる・説得する",
+            "inflection": {
+              "label": "接続法過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "del todo",
+          "start": 41,
+          "end": 49,
+          "gloss": {
+            "lemma": "del todo",
+            "pos": "慣用表現",
+            "ja": "完全に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "acabar + 現在分詞で「結局〜することになる」。"
+    },
+    {
+      "id": "es-0306",
+      "lang": "es",
+      "text": "Anda diciendo por ahí que fue idea suya.",
+      "ja": "自分のアイデアだったと、あちこちで言いふらしている。",
+      "level": "C2",
+      "tags": [
+        "現在分詞",
+        "口語"
+      ],
+      "tokens": [
+        {
+          "surface": "Anda",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "andar",
+            "pos": "動詞",
+            "ja": "歩く・動く",
+            "note": "andar + 現在分詞で「あちこちで〜している」",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "diciendo",
+          "start": 5,
+          "end": 13,
+          "gloss": {
+            "lemma": "decir",
+            "pos": "動詞",
+            "ja": "言う",
+            "inflection": {
+              "label": "現在分詞（動名詞）",
+              "tense": "GER",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が i に変わる（dec- → dic-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "por ahí",
+          "start": 14,
+          "end": 21,
+          "gloss": {
+            "lemma": "por ahí",
+            "pos": "慣用表現",
+            "ja": "あちこちで",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "que",
+          "start": 22,
+          "end": 25
+        },
+        {
+          "surface": "fue",
+          "start": 26,
+          "end": 29,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法点過去・3人称単数",
+              "tense": "IND_PRET",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は fui / fuiste / fue / fuimos / fuisteis / fueron と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "idea",
+          "start": 30,
+          "end": 34,
+          "gloss": {
+            "lemma": "idea",
+            "pos": "名詞",
+            "ja": "考え・アイデア"
+          }
+        },
+        {
+          "surface": "suya",
+          "start": 35,
+          "end": 39,
+          "gloss": {
+            "lemma": "suyo",
+            "pos": "所有詞",
+            "ja": "彼の・彼女の",
+            "inflection": {
+              "label": "女性単数"
+            }
+          }
+        }
+      ],
+      "grammar": "andar + 現在分詞は「あちこちで〜している」。批判的な含みを伴うことが多い。"
+    },
+    {
+      "id": "es-0307",
+      "lang": "es",
+      "text": "Cuando hayas terminado, avisa y lo revisamos.",
+      "ja": "終わったら知らせて。一緒に見直そう。",
+      "level": "C1",
+      "tags": [
+        "接続法現在完了",
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Cuando",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "cuando",
+            "pos": "接続詞",
+            "ja": "〜のとき",
+            "note": "未来を指すときは後ろが接続法"
+          }
+        },
+        {
+          "surface": "hayas terminado",
+          "start": 7,
+          "end": 22,
+          "gloss": {
+            "lemma": "terminar",
+            "pos": "動詞",
+            "ja": "終える・終わる",
+            "inflection": {
+              "label": "接続法現在完了・2人称単数",
+              "tense": "SUBJ_PERF",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "avisa",
+          "start": 24,
+          "end": 29,
+          "gloss": {
+            "lemma": "avisar",
+            "pos": "動詞",
+            "ja": "知らせる・警告する",
+            "inflection": {
+              "label": "命令法・2人称単数"
+            }
+          }
+        },
+        {
+          "surface": "lo",
+          "start": 32,
+          "end": 34
+        },
+        {
+          "surface": "revisamos",
+          "start": 35,
+          "end": 44,
+          "gloss": {
+            "lemma": "revisar",
+            "pos": "動詞",
+            "ja": "見直す・点検する",
+            "inflection": {
+              "label": "直説法現在・1人称複数"
+            }
+          }
+        }
+      ],
+      "grammar": "未来の完了を指す cuando のあとは接続法現在完了になる。"
+    },
+    {
+      "id": "es-0308",
+      "lang": "es",
+      "text": "Que nadie salga de la sala hasta nuevo aviso.",
+      "ja": "追って通知があるまで、誰も部屋から出ないように。",
+      "level": "C1",
+      "tags": [
+        "接続法現在",
+        "命令"
+      ],
+      "tokens": [
+        {
+          "surface": "Que",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "nadie",
+          "start": 4,
+          "end": 9,
+          "gloss": {
+            "lemma": "nadie",
+            "pos": "代名詞",
+            "ja": "誰も〜ない"
+          }
+        },
+        {
+          "surface": "salga",
+          "start": 10,
+          "end": 15,
+          "gloss": {
+            "lemma": "salir",
+            "pos": "動詞",
+            "ja": "出る・出かける",
+            "note": "que + 接続法で第三者への命令",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（sal- → salg-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "de la",
+          "start": 16,
+          "end": 21
+        },
+        {
+          "surface": "sala",
+          "start": 22,
+          "end": 26,
+          "gloss": {
+            "lemma": "sala",
+            "pos": "名詞",
+            "ja": "部屋・ホール"
+          }
+        },
+        {
+          "surface": "hasta nuevo aviso",
+          "start": 27,
+          "end": 44,
+          "gloss": {
+            "lemma": "hasta nuevo aviso",
+            "pos": "慣用表現",
+            "ja": "追って通知があるまで",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "que + 接続法で第三者への命令を表す。掲示や指示でよく使う。"
+    },
+    {
+      "id": "es-0309",
+      "lang": "es",
+      "text": "Trae los documentos y ponlos sobre la mesa.",
+      "ja": "書類を持ってきて、机の上に置いておいて。",
+      "level": "B2",
+      "tags": [
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Trae",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "traer",
+            "pos": "動詞",
+            "ja": "持ってくる",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMP",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "los",
+          "start": 5,
+          "end": 8
+        },
+        {
+          "surface": "documentos",
+          "start": 9,
+          "end": 19,
+          "gloss": {
+            "lemma": "documento",
+            "pos": "名詞",
+            "ja": "書類・文書"
+          }
+        },
+        {
+          "surface": "pon",
+          "start": 22,
+          "end": 25,
+          "gloss": {
+            "lemma": "poner",
+            "pos": "動詞",
+            "ja": "置く・つける",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMP",
+              "person": "2sg",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は pon / ponga / pongamos / poned / pongan と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "los",
+          "start": 25,
+          "end": 28
+        },
+        {
+          "surface": "sobre la",
+          "start": 29,
+          "end": 37
+        },
+        {
+          "surface": "mesa",
+          "start": 38,
+          "end": 42,
+          "gloss": {
+            "lemma": "mesa",
+            "pos": "名詞",
+            "ja": "机・テーブル"
+          }
+        }
+      ],
+      "grammar": "肯定命令では代名詞が動詞にくっつく（deja + los）。"
+    },
+    {
+      "id": "es-0310",
+      "lang": "es",
+      "text": "Oye, dime una cosa: ¿tú sabías algo de esto?",
+      "ja": "ねえ、ひとつ聞くけど、これについて何か知ってた？",
+      "level": "B2",
+      "tags": [
+        "命令法",
+        "直説法線過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Oye",
+          "start": 0,
+          "end": 3,
+          "gloss": {
+            "lemma": "oír",
+            "pos": "動詞",
+            "ja": "聞こえる・耳にする",
+            "note": "呼びかけの「ねえ」としても使う",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMP",
+              "person": "2sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（o- → oy-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "di",
+          "start": 5,
+          "end": 7,
+          "gloss": {
+            "lemma": "decir",
+            "pos": "動詞",
+            "ja": "言う",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMP",
+              "person": "2sg",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は di / diga / digamos / decid / digan と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "me",
+          "start": 7,
+          "end": 9
+        },
+        {
+          "surface": "una cosa",
+          "start": 10,
+          "end": 18,
+          "gloss": {
+            "lemma": "una cosa",
+            "pos": "名詞句",
+            "ja": "ひとつのこと",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "tú",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "sabías",
+          "start": 24,
+          "end": 30,
+          "gloss": {
+            "lemma": "saber",
+            "pos": "動詞",
+            "ja": "知っている・〜できる",
+            "inflection": {
+              "label": "直説法線過去・2人称単数",
+              "tense": "IND_IMPF",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "algo",
+          "start": 31,
+          "end": 35,
+          "gloss": {
+            "lemma": "algo",
+            "pos": "代名詞",
+            "ja": "何か"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0311",
+      "lang": "es",
+      "text": "Sed breves, que el tiempo se nos echa encima.",
+      "ja": "手短にね、時間が迫ってるから。",
+      "level": "C2",
+      "tags": [
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Sed",
+          "start": 0,
+          "end": 3,
+          "gloss": {
+            "lemma": "ser",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "命令法・2人称複数",
+              "tense": "IMP",
+              "person": "2pl"
+            }
+          }
+        },
+        {
+          "surface": "breves",
+          "start": 4,
+          "end": 10,
+          "gloss": {
+            "lemma": "breve",
+            "pos": "形容詞",
+            "ja": "短い・簡潔な",
+            "inflection": {
+              "label": "複数"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 12,
+          "end": 15
+        },
+        {
+          "surface": "el",
+          "start": 16,
+          "end": 18
+        },
+        {
+          "surface": "tiempo",
+          "start": 19,
+          "end": 25,
+          "gloss": {
+            "lemma": "tiempo",
+            "pos": "名詞",
+            "ja": "時間・天気"
+          }
+        },
+        {
+          "surface": "se nos echa encima",
+          "start": 26,
+          "end": 44,
+          "gloss": {
+            "lemma": "echarse encima",
+            "pos": "慣用表現",
+            "ja": "（時が）差し迫る",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "vosotros の命令形は不定詞の r を d に替える（ser → sed）。"
+    },
+    {
+      "id": "es-0312",
+      "lang": "es",
+      "text": "Vayamos por partes antes de sacar conclusiones.",
+      "ja": "結論を出す前に、順を追って整理しよう。",
+      "level": "C1",
+      "tags": [
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Vayamos",
+          "start": 0,
+          "end": 7,
+          "gloss": {
+            "lemma": "ir",
+            "pos": "動詞",
+            "ja": "行く",
+            "inflection": {
+              "label": "命令法・1人称複数",
+              "tense": "IMP",
+              "person": "1pl",
+              "irregular": {
+                "code": "S",
+                "text": "不規則形。この時制は ve / vaya / vayamos / id / vayan と変化する"
+              }
+            }
+          }
+        },
+        {
+          "surface": "por partes",
+          "start": 8,
+          "end": 18,
+          "gloss": {
+            "lemma": "ir por partes",
+            "pos": "慣用表現",
+            "ja": "順を追って進める",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "antes de",
+          "start": 19,
+          "end": 27
+        },
+        {
+          "surface": "sacar conclusiones",
+          "start": 28,
+          "end": 46,
+          "gloss": {
+            "lemma": "sacar conclusiones",
+            "pos": "慣用表現",
+            "ja": "結論を出す",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "ir の1人称複数命令は vayamos。ir por partes は「順を追う」。"
+    },
+    {
+      "id": "es-0313",
+      "lang": "es",
+      "text": "Habrá que ver si el acuerdo se mantiene.",
+      "ja": "合意が維持されるかどうかは、見てみないとわからない。",
+      "level": "C1",
+      "tags": [
+        "直説法未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Habrá que",
+          "start": 0,
+          "end": 9,
+          "gloss": {
+            "lemma": "habrá que + 不定詞",
+            "pos": "慣用表現",
+            "ja": "〜する必要があるだろう",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "ver",
+          "start": 10,
+          "end": 13,
+          "gloss": {
+            "lemma": "ver",
+            "pos": "動詞",
+            "ja": "見る・会う",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "si",
+          "start": 14,
+          "end": 16
+        },
+        {
+          "surface": "el",
+          "start": 17,
+          "end": 19
+        },
+        {
+          "surface": "acuerdo",
+          "start": 20,
+          "end": 27,
+          "gloss": {
+            "lemma": "acuerdo",
+            "pos": "名詞",
+            "ja": "合意・協定"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 28,
+          "end": 30
+        },
+        {
+          "surface": "mantiene",
+          "start": 31,
+          "end": 39,
+          "gloss": {
+            "lemma": "mantener",
+            "pos": "動詞",
+            "ja": "維持する・養う",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が ie に変わる（manten- → mantien-）"
+              }
+            }
+          }
+        }
+      ],
+      "grammar": "habrá que + 不定詞は「〜する必要があるだろう」。主語を立てない未来の義務。"
+    },
+    {
+      "id": "es-0314",
+      "lang": "es",
+      "text": "Para entonces ya habremos entregado el proyecto.",
+      "ja": "その頃にはもう企画を提出し終えているだろう。",
+      "level": "C2",
+      "tags": [
+        "直説法未来完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Para entonces",
+          "start": 0,
+          "end": 13,
+          "gloss": {
+            "lemma": "para entonces",
+            "pos": "慣用表現",
+            "ja": "その頃には",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "ya",
+          "start": 14,
+          "end": 16,
+          "gloss": {
+            "lemma": "ya",
+            "pos": "副詞",
+            "ja": "もう・すでに"
+          }
+        },
+        {
+          "surface": "habremos entregado",
+          "start": 17,
+          "end": 35,
+          "gloss": {
+            "lemma": "entregar",
+            "pos": "動詞",
+            "ja": "手渡す・提出する",
+            "inflection": {
+              "label": "直説法未来完了・1人称複数"
+            }
+          }
+        },
+        {
+          "surface": "el",
+          "start": 36,
+          "end": 38
+        },
+        {
+          "surface": "proyecto",
+          "start": 39,
+          "end": 47,
+          "gloss": {
+            "lemma": "proyecto",
+            "pos": "名詞",
+            "ja": "企画・計画"
+          }
+        }
+      ],
+      "grammar": "未来完了は「未来のある時点までに〜し終えている」。para entonces と組む。"
+    },
+    {
+      "id": "es-0315",
+      "lang": "es",
+      "text": "No habrá quien lo convenza a estas alturas.",
+      "ja": "今さら彼を説得できる者はいないだろう。",
+      "level": "C2",
+      "tags": [
+        "直説法未来",
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "No habrá quien",
+          "start": 0,
+          "end": 14,
+          "gloss": {
+            "lemma": "no haber quien + 接続法",
+            "pos": "慣用表現",
+            "ja": "〜する者はいないだろう",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "lo",
+          "start": 15,
+          "end": 17
+        },
+        {
+          "surface": "convenza",
+          "start": 18,
+          "end": 26,
+          "gloss": {
+            "lemma": "convencer",
+            "pos": "動詞",
+            "ja": "納得させる・説得する",
+            "inflection": {
+              "label": "接続法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "a estas alturas",
+          "start": 27,
+          "end": 42,
+          "gloss": {
+            "lemma": "a estas alturas",
+            "pos": "慣用表現",
+            "ja": "今さら・この期に及んで",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "no haber quien + 接続法で「〜する者はいない」。a estas alturas は「今さら」。"
+    },
+    {
+      "id": "es-0316",
+      "lang": "es",
+      "text": "Se ha hecho todo lo que se ha podido.",
+      "ja": "できることはすべてやった。",
+      "level": "B2",
+      "tags": [
+        "直説法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Se",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ha hecho",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "hacer",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "直説法現在完了・3人称単数",
+              "tense": "IND_PERF",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "todo lo que",
+          "start": 12,
+          "end": 23,
+          "gloss": {
+            "lemma": "todo lo que",
+            "pos": "慣用表現",
+            "ja": "〜するものすべて",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "se",
+          "start": 24,
+          "end": 26
+        },
+        {
+          "surface": "ha podido",
+          "start": 27,
+          "end": 36,
+          "gloss": {
+            "lemma": "poder",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "inflection": {
+              "label": "直説法現在完了・3人称単数",
+              "tense": "IND_PERF",
+              "person": "3sg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-0317",
+      "lang": "es",
+      "text": "Últimamente se ha vuelto muy susceptible.",
+      "ja": "最近、彼はやたらと気を悪くしやすくなった。",
+      "level": "C1",
+      "tags": [
+        "直説法現在完了"
+      ],
+      "tokens": [
+        {
+          "surface": "Últimamente",
+          "start": 0,
+          "end": 11,
+          "gloss": {
+            "lemma": "últimamente",
+            "pos": "副詞",
+            "ja": "最近"
+          }
+        },
+        {
+          "surface": "se",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "ha vuelto",
+          "start": 15,
+          "end": 24,
+          "gloss": {
+            "lemma": "volver",
+            "pos": "動詞",
+            "ja": "戻る・帰る",
+            "note": "volverse + 形容詞で性格の変化を表す",
+            "inflection": {
+              "label": "直説法現在完了・3人称単数",
+              "tense": "IND_PERF",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "muy",
+          "start": 25,
+          "end": 28
+        },
+        {
+          "surface": "susceptible",
+          "start": 29,
+          "end": 40,
+          "gloss": {
+            "lemma": "susceptible",
+            "pos": "形容詞",
+            "ja": "気を悪くしやすい・敏感な"
+          }
+        }
+      ],
+      "grammar": "volverse + 形容詞は「（性格が）〜になる」という非意図的な変化。"
+    },
+    {
+      "id": "es-0318",
+      "lang": "es",
+      "text": "Con tal de que lo entregues a tiempo, me da igual cómo.",
+      "ja": "期限に間に合いさえすれば、やり方は問わない。",
+      "level": "C2",
+      "tags": [
+        "接続法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Con tal de que",
+          "start": 0,
+          "end": 14,
+          "gloss": {
+            "lemma": "con tal de que",
+            "pos": "慣用表現",
+            "ja": "〜しさえすれば",
+            "idiom": true,
+            "note": "後ろは必ず接続法"
+          }
+        },
+        {
+          "surface": "lo",
+          "start": 15,
+          "end": 17
+        },
+        {
+          "surface": "entregues",
+          "start": 18,
+          "end": 27,
+          "gloss": {
+            "lemma": "entregar",
+            "pos": "動詞",
+            "ja": "手渡す・提出する",
+            "inflection": {
+              "label": "接続法現在・2人称単数"
+            }
+          }
+        },
+        {
+          "surface": "a tiempo",
+          "start": 28,
+          "end": 36,
+          "gloss": {
+            "lemma": "a tiempo",
+            "pos": "慣用表現",
+            "ja": "間に合って",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "me da igual",
+          "start": 38,
+          "end": 49,
+          "gloss": {
+            "lemma": "dar igual",
+            "pos": "慣用表現",
+            "ja": "どうでもいい",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "con tal de que は「〜しさえすれば」。後ろは必ず接続法。"
+    },
+    {
+      "id": "es-0319",
+      "lang": "es",
+      "text": "De no haber sido por ti, no lo habríamos logrado.",
+      "ja": "君がいなかったら、成し遂げられなかっただろう。",
+      "level": "C2",
+      "tags": [
+        "条件法完了"
+      ],
+      "tokens": [
+        {
+          "surface": "De no haber sido por",
+          "start": 0,
+          "end": 20,
+          "gloss": {
+            "lemma": "de no haber sido por",
+            "pos": "慣用表現",
+            "ja": "〜がなかったら",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "ti",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "no",
+          "start": 25,
+          "end": 27
+        },
+        {
+          "surface": "lo",
+          "start": 28,
+          "end": 30
+        },
+        {
+          "surface": "habríamos logrado",
+          "start": 31,
+          "end": 48,
+          "gloss": {
+            "lemma": "lograr",
+            "pos": "動詞",
+            "ja": "成し遂げる",
+            "inflection": {
+              "label": "条件法完了・1人称複数"
+            }
+          }
+        }
+      ],
+      "grammar": "de no haber sido por は「〜がなかったら」。感謝を述べる定型。"
+    },
+    {
+      "id": "es-0320",
+      "lang": "es",
+      "text": "Sea como fuere, lo hecho hecho está.",
+      "ja": "どうであれ、済んだことは済んだことだ。",
+      "level": "C2",
+      "tags": [
+        "接続法過去",
+        "過去分詞",
+        "成句"
+      ],
+      "tokens": [
+        {
+          "surface": "Sea como fuere",
+          "start": 0,
+          "end": 14,
+          "gloss": {
+            "lemma": "sea como fuere",
+            "pos": "慣用表現",
+            "ja": "どうであれ",
+            "idiom": true,
+            "note": "fuere は接続法未来という古い時制。今はこの決まり文句にだけ残る"
+          }
+        },
+        {
+          "surface": "lo hecho hecho está",
+          "start": 16,
+          "end": 35,
+          "gloss": {
+            "lemma": "lo hecho hecho está",
+            "pos": "ことわざ",
+            "ja": "済んだことは済んだこと",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "sea como fuere は最も古風な譲歩形。fuere は接続法未来という古い時制。"
     }
   ]
 }

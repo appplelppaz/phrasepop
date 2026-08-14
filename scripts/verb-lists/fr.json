@@ -794,7 +794,12 @@
     },
     {
       "lemma": "parvenir",
-      "ja": "到達する・成し遂げる"
+      "ja": "到達する・成し遂げる",
+      "aux": "ETRE"
+    },
+    {
+      "lemma": "prévenir",
+      "ja": "知らせる・予防する"
     },
     {
       "lemma": "achever",

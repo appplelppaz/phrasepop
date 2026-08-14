@@ -30612,6 +30612,248 @@
       }
     },
     {
+      "lemma": "prévenir",
+      "ja": "知らせる・予防する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "préviens",
+          "préviens",
+          "prévient",
+          "prévenons",
+          "prévenez",
+          "préviennent"
+        ],
+        "IMPF": [
+          "prévenais",
+          "prévenais",
+          "prévenait",
+          "prévenions",
+          "préveniez",
+          "prévenaient"
+        ],
+        "FUT": [
+          "préviendrai",
+          "préviendras",
+          "préviendra",
+          "préviendrons",
+          "préviendrez",
+          "préviendront"
+        ],
+        "PC": [
+          "ai prévenu",
+          "as prévenu",
+          "a prévenu",
+          "avons prévenu",
+          "avez prévenu",
+          "ont prévenu"
+        ],
+        "PQP": [
+          "avais prévenu",
+          "avais prévenu",
+          "avait prévenu",
+          "avions prévenu",
+          "aviez prévenu",
+          "avaient prévenu"
+        ],
+        "PS": [
+          "prévins",
+          "prévins",
+          "prévint",
+          "prévînmes",
+          "prévîntes",
+          "prévinrent"
+        ],
+        "COND": [
+          "préviendrais",
+          "préviendrais",
+          "préviendrait",
+          "préviendrions",
+          "préviendriez",
+          "préviendraient"
+        ],
+        "SUBJ": [
+          "prévienne",
+          "préviennes",
+          "prévienne",
+          "prévenions",
+          "préveniez",
+          "préviennent"
+        ],
+        "IMPER": [
+          "",
+          "préviens",
+          "",
+          "prévenons",
+          "prévenez",
+          ""
+        ],
+        "PPRES": [
+          "prévenant"
+        ],
+        "PPASSE": [
+          "prévenu"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMPF": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "FUT": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "PC": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "PQP": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "PS": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ": {
+          "codes": "IIIIII",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-I-II-",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            null,
+            0,
+            null,
+            0,
+            0,
+            null
+          ]
+        },
+        "PPRES": {
+          "codes": "I",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0
+          ]
+        },
+        "PPASSE": {
+          "codes": "I",
+          "summary": "不規則動詞（第3群）",
+          "texts": [
+            "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+          ],
+          "idx": [
+            0
+          ]
+        }
+      }
+    },
+    {
       "lemma": "achever",
       "ja": "終える・完成させる",
       "aux": "AVOIR",

@@ -22230,6 +22230,3150 @@
         }
       ],
       "grammar": "quoi qu'il arrive は「何があろうと」。compter + 不定詞で「〜するつもりだ」。"
+    },
+    {
+      "id": "fr-0281",
+      "lang": "fr",
+      "text": "Sois patient et ne te précipite pas dans ta décision.",
+      "ja": "焦らずに、決断を急がないように。",
+      "level": "C1",
+      "tags": [
+        "命令法",
+        "助言"
+      ],
+      "tokens": [
+        {
+          "surface": "Sois",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMPER",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "patient",
+          "start": 5,
+          "end": 12,
+          "gloss": {
+            "lemma": "patient",
+            "pos": "形容詞",
+            "ja": "辛抱強い"
+          }
+        },
+        {
+          "surface": "ne",
+          "start": 16,
+          "end": 18
+        },
+        {
+          "surface": "te",
+          "start": 19,
+          "end": 21
+        },
+        {
+          "surface": "précipite",
+          "start": 22,
+          "end": 31,
+          "gloss": {
+            "lemma": "précipiter",
+            "pos": "動詞",
+            "ja": "急がせる・（代名動詞で）先走る",
+            "inflection": {
+              "label": "命令法・2人称単数"
+            }
+          }
+        },
+        {
+          "surface": "pas",
+          "start": 32,
+          "end": 35
+        },
+        {
+          "surface": "dans ta",
+          "start": 36,
+          "end": 43
+        },
+        {
+          "surface": "décision",
+          "start": 44,
+          "end": 52,
+          "gloss": {
+            "lemma": "décision",
+            "pos": "名詞",
+            "ja": "決定・決断"
+          }
+        }
+      ],
+      "grammar": "être の命令形は sois という不規則形。否定命令は ne ... pas で挟む。"
+    },
+    {
+      "id": "fr-0282",
+      "lang": "fr",
+      "text": "Sors de là et viens avec moi tout de suite.",
+      "ja": "そこから出て、今すぐ一緒に来なさい。",
+      "level": "B2",
+      "tags": [
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Sors",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "sortir",
+            "pos": "動詞",
+            "ja": "出る・外出する",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMPER",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "de là",
+          "start": 5,
+          "end": 10,
+          "gloss": {
+            "lemma": "de là",
+            "pos": "慣用表現",
+            "ja": "そこから",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "viens",
+          "start": 14,
+          "end": 19,
+          "gloss": {
+            "lemma": "venir",
+            "pos": "動詞",
+            "ja": "来る",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMPER",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "avec moi",
+          "start": 20,
+          "end": 28
+        },
+        {
+          "surface": "tout de suite",
+          "start": 29,
+          "end": 42,
+          "gloss": {
+            "lemma": "tout de suite",
+            "pos": "慣用表現",
+            "ja": "今すぐ",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "-ir 動詞でも sortir 型は命令法 2人称単数が -s で終わる（sors / viens）。"
+    },
+    {
+      "id": "fr-0283",
+      "lang": "fr",
+      "text": "Admettons qu'il ait raison : qu'est-ce que ça changerait ?",
+      "ja": "仮に彼が正しいとして、それで何が変わる？",
+      "level": "C2",
+      "tags": [
+        "命令法",
+        "接続法",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Admettons",
+          "start": 0,
+          "end": 9,
+          "gloss": {
+            "lemma": "admettre",
+            "pos": "動詞",
+            "ja": "認める",
+            "note": "admettons que で「仮に〜だとして」",
+            "inflection": {
+              "label": "命令法・1人称複数",
+              "tense": "IMPER",
+              "person": "1pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "qu'",
+          "start": 10,
+          "end": 13
+        },
+        {
+          "surface": "il",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "surface": "ait",
+          "start": 16,
+          "end": 19,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "raison",
+          "start": 20,
+          "end": 26,
+          "gloss": {
+            "lemma": "avoir raison",
+            "pos": "慣用表現",
+            "ja": "正しい・道理がある",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "ça",
+          "start": 43,
+          "end": 45
+        },
+        {
+          "surface": "changerait",
+          "start": 46,
+          "end": 56,
+          "gloss": {
+            "lemma": "changer",
+            "pos": "動詞",
+            "ja": "変える・変わる",
+            "inflection": {
+              "label": "条件法現在・3人称単数",
+              "tense": "COND",
+              "person": "3sg"
+            }
+          }
+        }
+      ],
+      "grammar": "admettons que は「仮に〜だとして」。1人称複数の命令形が議論の切り出しになる。"
+    },
+    {
+      "id": "fr-0284",
+      "lang": "fr",
+      "text": "Fais ce que tu juges opportun, mais préviens avant.",
+      "ja": "適切だと思うようにすればいい。ただし事前に知らせて。",
+      "level": "C1",
+      "tags": [
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Fais",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "faire",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMPER",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "ce que",
+          "start": 5,
+          "end": 11,
+          "gloss": {
+            "lemma": "ce que",
+            "pos": "慣用表現",
+            "ja": "〜すること",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "tu",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "juges",
+          "start": 15,
+          "end": 20,
+          "gloss": {
+            "lemma": "juger",
+            "pos": "動詞",
+            "ja": "判断する・裁く",
+            "note": "スペイン語と違い接続法にしない",
+            "inflection": {
+              "label": "直説法現在・2人称単数"
+            }
+          }
+        },
+        {
+          "surface": "opportun",
+          "start": 21,
+          "end": 29,
+          "gloss": {
+            "lemma": "opportun",
+            "pos": "形容詞",
+            "ja": "適切な・時宜を得た"
+          }
+        },
+        {
+          "surface": "préviens",
+          "start": 36,
+          "end": 44,
+          "gloss": {
+            "lemma": "prévenir",
+            "pos": "動詞",
+            "ja": "知らせる・予防する",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMPER",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "avant",
+          "start": 45,
+          "end": 50,
+          "gloss": {
+            "lemma": "avant",
+            "pos": "副詞",
+            "ja": "前に・以前に"
+          }
+        }
+      ],
+      "grammar": "faire の命令法 2人称単数は fais。スペイン語と違い、ここでは接続法にしない。"
+    },
+    {
+      "id": "fr-0285",
+      "lang": "fr",
+      "text": "Je suis ravi que tu aies obtenu ce poste.",
+      "ja": "そのポストを勝ち取れてよかったね。",
+      "level": "C1",
+      "tags": [
+        "接続法",
+        "感情"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "suis",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "ravi",
+          "start": 8,
+          "end": 12,
+          "gloss": {
+            "lemma": "ravi",
+            "pos": "形容詞",
+            "ja": "非常に嬉しい"
+          }
+        },
+        {
+          "surface": "que",
+          "start": 13,
+          "end": 16
+        },
+        {
+          "surface": "tu",
+          "start": 17,
+          "end": 19
+        },
+        {
+          "surface": "aies",
+          "start": 20,
+          "end": 24,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "note": "接続法過去の助動詞",
+            "inflection": {
+              "label": "接続法現在・2人称単数",
+              "tense": "SUBJ",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "obtenu",
+          "start": 25,
+          "end": 31,
+          "gloss": {
+            "lemma": "obtenir",
+            "pos": "動詞",
+            "ja": "得る・手に入れる",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "ce",
+          "start": 32,
+          "end": 34
+        },
+        {
+          "surface": "poste",
+          "start": 35,
+          "end": 40,
+          "gloss": {
+            "lemma": "poste",
+            "pos": "名詞",
+            "ja": "職・地位"
+          }
+        }
+      ],
+      "grammar": "感情を表す表現のあと、完了した出来事は接続法過去（aies obtenu）になる。"
+    },
+    {
+      "id": "fr-0286",
+      "lang": "fr",
+      "text": "C'est dommage qu'ils n'aient pas pu assister.",
+      "ja": "彼らが出席できなかったのは残念だ。",
+      "level": "C1",
+      "tags": [
+        "接続法",
+        "感情"
+      ],
+      "tokens": [
+        {
+          "surface": "C'est dommage",
+          "start": 0,
+          "end": 13,
+          "gloss": {
+            "lemma": "c'est dommage que",
+            "pos": "慣用表現",
+            "ja": "〜は残念だ",
+            "idiom": true,
+            "note": "後ろは接続法"
+          }
+        },
+        {
+          "surface": "qu'",
+          "start": 14,
+          "end": 17
+        },
+        {
+          "surface": "ils",
+          "start": 17,
+          "end": 20
+        },
+        {
+          "surface": "n'",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "aient",
+          "start": 23,
+          "end": 28,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "接続法現在・3人称複数",
+              "tense": "SUBJ",
+              "person": "3pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas",
+          "start": 29,
+          "end": 32
+        },
+        {
+          "surface": "pu",
+          "start": 33,
+          "end": 35,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "note": "aient + pu で接続法過去",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "assister",
+          "start": 36,
+          "end": 44,
+          "gloss": {
+            "lemma": "assister",
+            "pos": "動詞",
+            "ja": "出席する・立ち会う",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0287",
+      "lang": "fr",
+      "text": "Je doute qu'ils aient lu le rapport en entier.",
+      "ja": "彼らが報告書を全部読んだとは思えない。",
+      "level": "C1",
+      "tags": [
+        "接続法",
+        "疑い"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "doute",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "douter",
+            "pos": "動詞",
+            "ja": "疑う",
+            "inflection": {
+              "label": "直説法現在・1人称単数"
+            }
+          }
+        },
+        {
+          "surface": "qu'",
+          "start": 9,
+          "end": 12
+        },
+        {
+          "surface": "ils",
+          "start": 12,
+          "end": 15
+        },
+        {
+          "surface": "aient",
+          "start": 16,
+          "end": 21,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "接続法現在・3人称複数",
+              "tense": "SUBJ",
+              "person": "3pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "lu",
+          "start": 22,
+          "end": 24,
+          "gloss": {
+            "lemma": "lire",
+            "pos": "動詞",
+            "ja": "読む",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "le",
+          "start": 25,
+          "end": 27
+        },
+        {
+          "surface": "rapport",
+          "start": 28,
+          "end": 35,
+          "gloss": {
+            "lemma": "rapport",
+            "pos": "名詞",
+            "ja": "報告書・関係"
+          }
+        },
+        {
+          "surface": "en entier",
+          "start": 36,
+          "end": 45,
+          "gloss": {
+            "lemma": "en entier",
+            "pos": "慣用表現",
+            "ja": "全部・まるごと",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "douter que は疑いを表すので必ず接続法をとる。"
+    },
+    {
+      "id": "fr-0288",
+      "lang": "fr",
+      "text": "Je ne pense pas qu'il se soit rendu compte de quoi que ce soit.",
+      "ja": "彼は何も気づいていないと思う。",
+      "level": "C2",
+      "tags": [
+        "接続法"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ne",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "pense",
+          "start": 6,
+          "end": 11,
+          "gloss": {
+            "lemma": "penser",
+            "pos": "動詞",
+            "ja": "考える・思う",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "pas",
+          "start": 12,
+          "end": 15
+        },
+        {
+          "surface": "qu'il",
+          "start": 16,
+          "end": 21
+        },
+        {
+          "surface": "se soit rendu compte de",
+          "start": 22,
+          "end": 45,
+          "gloss": {
+            "lemma": "se rendre compte de",
+            "pos": "慣用表現",
+            "ja": "気づく・実感する",
+            "idiom": true,
+            "note": "接続法過去"
+          }
+        },
+        {
+          "surface": "quoi que ce soit",
+          "start": 46,
+          "end": 62,
+          "gloss": {
+            "lemma": "quoi que ce soit",
+            "pos": "慣用表現",
+            "ja": "何であれ・何ひとつ",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "quoi que ce soit は「何であれ・何ひとつ」。否定文で使うと「何も〜ない」。"
+    },
+    {
+      "id": "fr-0289",
+      "lang": "fr",
+      "text": "Si seulement j'avais accepté cette offre.",
+      "ja": "あのとき申し出を受けていればよかったのに。",
+      "level": "C1",
+      "tags": [
+        "大過去",
+        "後悔"
+      ],
+      "tokens": [
+        {
+          "surface": "Si seulement",
+          "start": 0,
+          "end": 12,
+          "gloss": {
+            "lemma": "si seulement",
+            "pos": "慣用表現",
+            "ja": "〜でありさえすれば・〜だったらよかったのに",
+            "idiom": true,
+            "note": "大過去と組むと過去への後悔になる"
+          }
+        },
+        {
+          "surface": "j'",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "surface": "avais accepté",
+          "start": 15,
+          "end": 28,
+          "gloss": {
+            "lemma": "accepter",
+            "pos": "動詞",
+            "ja": "受け入れる",
+            "inflection": {
+              "label": "大過去・1人称単数",
+              "tense": "PQP",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "cette",
+          "start": 29,
+          "end": 34
+        },
+        {
+          "surface": "offre",
+          "start": 35,
+          "end": 40,
+          "gloss": {
+            "lemma": "offre",
+            "pos": "名詞",
+            "ja": "申し出・オファー"
+          }
+        }
+      ],
+      "grammar": "si seulement + 大過去で過去への後悔を表す。スペイン語の ojalá + 接続法過去完了にあたる。"
+    },
+    {
+      "id": "fr-0290",
+      "lang": "fr",
+      "text": "Si tu me l'avais dit plus tôt, tout aurait été différent.",
+      "ja": "もっと早く言ってくれていたら、すべて違っていたのに。",
+      "level": "C2",
+      "tags": [
+        "大過去",
+        "条件法過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Si",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "tu",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "me l'",
+          "start": 6,
+          "end": 11
+        },
+        {
+          "surface": "avais dit",
+          "start": 11,
+          "end": 20,
+          "gloss": {
+            "lemma": "dire",
+            "pos": "動詞",
+            "ja": "言う",
+            "inflection": {
+              "label": "大過去・2人称単数",
+              "tense": "PQP",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "plus tôt",
+          "start": 21,
+          "end": 29,
+          "gloss": {
+            "lemma": "plus tôt",
+            "pos": "慣用表現",
+            "ja": "もっと早く",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "tout",
+          "start": 31,
+          "end": 35,
+          "gloss": {
+            "lemma": "tout",
+            "pos": "代名詞",
+            "ja": "すべて"
+          }
+        },
+        {
+          "surface": "aurait été",
+          "start": 36,
+          "end": 46,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "条件法過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "différent",
+          "start": 47,
+          "end": 56,
+          "gloss": {
+            "lemma": "différent",
+            "pos": "形容詞",
+            "ja": "異なる・別の"
+          }
+        }
+      ],
+      "grammar": "過去の反実仮想の完全形。si + 大過去, 条件法過去。"
+    },
+    {
+      "id": "fr-0291",
+      "lang": "fr",
+      "text": "Je lui ai demandé de m'attendre, mais il était parti sans rien dire.",
+      "ja": "待っててと頼んだのに、彼は何も言わずに行ってしまっていた。",
+      "level": "B2",
+      "tags": [
+        "複合過去",
+        "大過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "lui",
+          "start": 3,
+          "end": 6
+        },
+        {
+          "surface": "ai demandé",
+          "start": 7,
+          "end": 17,
+          "gloss": {
+            "lemma": "demander",
+            "pos": "動詞",
+            "ja": "尋ねる・求める",
+            "note": "demander à qqn de + 不定詞。接続法にしない",
+            "inflection": {
+              "label": "複合過去・1人称単数",
+              "tense": "PC",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "de m'",
+          "start": 18,
+          "end": 23
+        },
+        {
+          "surface": "attendre",
+          "start": 23,
+          "end": 31,
+          "gloss": {
+            "lemma": "attendre",
+            "pos": "動詞",
+            "ja": "待つ",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "il",
+          "start": 38,
+          "end": 40
+        },
+        {
+          "surface": "était parti",
+          "start": 41,
+          "end": 52,
+          "gloss": {
+            "lemma": "partir",
+            "pos": "動詞",
+            "ja": "出発する・去る",
+            "inflection": {
+              "label": "大過去・3人称単数",
+              "tense": "PQP",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "sans rien dire",
+          "start": 53,
+          "end": 67,
+          "gloss": {
+            "lemma": "sans rien dire",
+            "pos": "慣用表現",
+            "ja": "何も言わずに",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "demander à qqn de + 不定詞。フランス語は接続法にせず不定詞を使う点がスペイン語と違う。"
+    },
+    {
+      "id": "fr-0292",
+      "lang": "fr",
+      "text": "On a exigé que nous rendions le travail avant vendredi.",
+      "ja": "金曜までに課題を提出するよう求められた。",
+      "level": "C1",
+      "tags": [
+        "接続法",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "On",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "a exigé",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "exiger",
+            "pos": "動詞",
+            "ja": "要求する",
+            "inflection": {
+              "label": "複合過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 11,
+          "end": 14
+        },
+        {
+          "surface": "nous",
+          "start": 15,
+          "end": 19
+        },
+        {
+          "surface": "rendions",
+          "start": 20,
+          "end": 28,
+          "gloss": {
+            "lemma": "rendre",
+            "pos": "動詞",
+            "ja": "返す・提出する",
+            "inflection": {
+              "label": "接続法現在・1人称複数",
+              "tense": "SUBJ",
+              "person": "1pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "le",
+          "start": 29,
+          "end": 31
+        },
+        {
+          "surface": "travail",
+          "start": 32,
+          "end": 39,
+          "gloss": {
+            "lemma": "travail",
+            "pos": "名詞",
+            "ja": "仕事・課題"
+          }
+        },
+        {
+          "surface": "avant",
+          "start": 40,
+          "end": 45
+        },
+        {
+          "surface": "vendredi",
+          "start": 46,
+          "end": 54,
+          "gloss": {
+            "lemma": "vendredi",
+            "pos": "名詞",
+            "ja": "金曜日"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0293",
+      "lang": "fr",
+      "text": "Ils cherchaient quelqu'un qui sache le japonais et le chinois.",
+      "ja": "日本語と中国語ができる人を探していた。",
+      "level": "C2",
+      "tags": [
+        "接続法",
+        "半過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Ils",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "cherchaient",
+          "start": 4,
+          "end": 15,
+          "gloss": {
+            "lemma": "chercher",
+            "pos": "動詞",
+            "ja": "探す",
+            "inflection": {
+              "label": "半過去・3人称複数",
+              "tense": "IMPF",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "quelqu'un",
+          "start": 16,
+          "end": 25,
+          "gloss": {
+            "lemma": "quelqu'un",
+            "pos": "代名詞",
+            "ja": "誰か"
+          }
+        },
+        {
+          "surface": "qui",
+          "start": 26,
+          "end": 29
+        },
+        {
+          "surface": "sache",
+          "start": 30,
+          "end": 35,
+          "gloss": {
+            "lemma": "savoir",
+            "pos": "動詞",
+            "ja": "知っている・〜できる",
+            "note": "存在が不確かな人を指す関係節なので接続法",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "le japonais",
+          "start": 36,
+          "end": 47,
+          "gloss": {
+            "lemma": "japonais",
+            "pos": "名詞",
+            "ja": "日本語"
+          }
+        },
+        {
+          "surface": "le chinois",
+          "start": 51,
+          "end": 61,
+          "gloss": {
+            "lemma": "chinois",
+            "pos": "名詞",
+            "ja": "中国語"
+          }
+        }
+      ],
+      "grammar": "存在するか分からない人を指す関係節は接続法になる。"
+    },
+    {
+      "id": "fr-0294",
+      "lang": "fr",
+      "text": "Quand nous sommes arrivés, on avait fermé toutes les portes.",
+      "ja": "私たちが着いたころには、門はすべて閉ざされていた。",
+      "level": "B2",
+      "tags": [
+        "複合過去",
+        "大過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Quand",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "quand",
+            "pos": "接続詞",
+            "ja": "〜のとき"
+          }
+        },
+        {
+          "surface": "nous",
+          "start": 6,
+          "end": 10
+        },
+        {
+          "surface": "sommes arrivés",
+          "start": 11,
+          "end": 25,
+          "gloss": {
+            "lemma": "arriver",
+            "pos": "動詞",
+            "ja": "着く・起こる",
+            "inflection": {
+              "label": "複合過去・1人称複数",
+              "tense": "PC",
+              "person": "1pl"
+            }
+          }
+        },
+        {
+          "surface": "on",
+          "start": 27,
+          "end": 29
+        },
+        {
+          "surface": "avait fermé",
+          "start": 30,
+          "end": 41,
+          "gloss": {
+            "lemma": "fermer",
+            "pos": "動詞",
+            "ja": "閉める",
+            "inflection": {
+              "label": "大過去・3人称単数",
+              "tense": "PQP",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "toutes",
+          "start": 42,
+          "end": 48,
+          "gloss": {
+            "lemma": "tout",
+            "pos": "形容詞",
+            "ja": "すべての",
+            "inflection": {
+              "label": "女性複数"
+            }
+          }
+        },
+        {
+          "surface": "les",
+          "start": 49,
+          "end": 52
+        },
+        {
+          "surface": "portes",
+          "start": 53,
+          "end": 59,
+          "gloss": {
+            "lemma": "porte",
+            "pos": "名詞",
+            "ja": "ドア・門"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0295",
+      "lang": "fr",
+      "text": "Jamais je n'avais vu une réaction pareille.",
+      "ja": "あんな反応は見たことがなかった。",
+      "level": "B2",
+      "tags": [
+        "大過去",
+        "倒置"
+      ],
+      "tokens": [
+        {
+          "surface": "Jamais",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "jamais",
+            "pos": "副詞",
+            "ja": "一度も〜ない",
+            "note": "文頭に出して強調"
+          }
+        },
+        {
+          "surface": "je",
+          "start": 7,
+          "end": 9
+        },
+        {
+          "surface": "n'",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "surface": "avais vu",
+          "start": 12,
+          "end": 20,
+          "gloss": {
+            "lemma": "voir",
+            "pos": "動詞",
+            "ja": "見る・会う",
+            "inflection": {
+              "label": "大過去・1人称単数",
+              "tense": "PQP",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "une",
+          "start": 21,
+          "end": 24
+        },
+        {
+          "surface": "réaction",
+          "start": 25,
+          "end": 33,
+          "gloss": {
+            "lemma": "réaction",
+            "pos": "名詞",
+            "ja": "反応"
+          }
+        },
+        {
+          "surface": "pareille",
+          "start": 34,
+          "end": 42,
+          "gloss": {
+            "lemma": "pareil",
+            "pos": "形容詞",
+            "ja": "同じような・そんな",
+            "inflection": {
+              "label": "女性単数"
+            }
+          }
+        }
+      ],
+      "grammar": "jamais を文頭に出すと強調になり、je n' が後ろに回る。書き言葉でよく使う語順。"
+    },
+    {
+      "id": "fr-0296",
+      "lang": "fr",
+      "text": "À ta place, je ne me serais pas mêlé de ça.",
+      "ja": "僕が君の立場なら、そんなことに首を突っ込まなかったよ。",
+      "level": "C2",
+      "tags": [
+        "条件法過去"
+      ],
+      "tokens": [
+        {
+          "surface": "À ta place",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "à ta place",
+            "pos": "慣用表現",
+            "ja": "君の立場なら",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "je",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "ne me serais pas mêlé de",
+          "start": 15,
+          "end": 39,
+          "gloss": {
+            "lemma": "se mêler de",
+            "pos": "慣用表現",
+            "ja": "首を突っ込む・干渉する",
+            "idiom": true,
+            "note": "条件法過去。代名動詞なので助動詞は être"
+          }
+        },
+        {
+          "surface": "ça",
+          "start": 40,
+          "end": 42,
+          "gloss": {
+            "lemma": "ça",
+            "pos": "代名詞",
+            "ja": "それ"
+          }
+        }
+      ],
+      "grammar": "se mêler de は「首を突っ込む」。代名動詞なので条件法過去も être を使う。"
+    },
+    {
+      "id": "fr-0297",
+      "lang": "fr",
+      "text": "Cela vous dérangerait-il de répéter un peu plus lentement ?",
+      "ja": "もう少しゆっくり言ってもらえますか。",
+      "level": "C1",
+      "tags": [
+        "条件法現在",
+        "依頼"
+      ],
+      "tokens": [
+        {
+          "surface": "Cela",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "surface": "vous",
+          "start": 5,
+          "end": 9
+        },
+        {
+          "surface": "dérangerait",
+          "start": 10,
+          "end": 21,
+          "gloss": {
+            "lemma": "déranger",
+            "pos": "動詞",
+            "ja": "邪魔する・迷惑をかける",
+            "note": "条件法 + 倒置で最も丁寧な依頼になる",
+            "inflection": {
+              "label": "条件法現在・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "il",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "surface": "de",
+          "start": 25,
+          "end": 27
+        },
+        {
+          "surface": "répéter",
+          "start": 28,
+          "end": 35,
+          "gloss": {
+            "lemma": "répéter",
+            "pos": "動詞",
+            "ja": "繰り返す",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "un peu plus",
+          "start": 36,
+          "end": 47,
+          "gloss": {
+            "lemma": "un peu plus",
+            "pos": "慣用表現",
+            "ja": "もう少し",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "lentement",
+          "start": 48,
+          "end": 57,
+          "gloss": {
+            "lemma": "lentement",
+            "pos": "副詞",
+            "ja": "ゆっくり"
+          }
+        }
+      ],
+      "grammar": "条件法 + 倒置疑問で最も丁寧な依頼になる。-t- は母音の衝突を避けるために挟む。"
+    },
+    {
+      "id": "fr-0298",
+      "lang": "fr",
+      "text": "Je dirais que le problème remonte à bien plus loin.",
+      "ja": "問題の根はもっと前にあると思うね。",
+      "level": "C1",
+      "tags": [
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "dirais",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "dire",
+            "pos": "動詞",
+            "ja": "言う",
+            "note": "je dirais que で断定を避ける控えめな主張になる",
+            "inflection": {
+              "label": "条件法現在・1人称単数",
+              "tense": "COND",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "que",
+          "start": 10,
+          "end": 13
+        },
+        {
+          "surface": "le",
+          "start": 14,
+          "end": 16
+        },
+        {
+          "surface": "problème",
+          "start": 17,
+          "end": 25,
+          "gloss": {
+            "lemma": "problème",
+            "pos": "名詞",
+            "ja": "問題"
+          }
+        },
+        {
+          "surface": "remonte à",
+          "start": 26,
+          "end": 35,
+          "gloss": {
+            "lemma": "remonter à",
+            "pos": "慣用表現",
+            "ja": "〜にさかのぼる",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "bien plus loin",
+          "start": 36,
+          "end": 50,
+          "gloss": {
+            "lemma": "bien plus loin",
+            "pos": "慣用表現",
+            "ja": "ずっと前・ずっと遠く",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "je dirais que は「私としては〜だと思う」。断定を避ける控えめな主張。"
+    },
+    {
+      "id": "fr-0299",
+      "lang": "fr",
+      "text": "Il devait être trois heures quand le téléphone a enfin sonné.",
+      "ja": "ようやく電話が鳴ったのは、三時ごろだっただろう。",
+      "level": "C1",
+      "tags": [
+        "半過去",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "devait",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "devoir",
+            "pos": "動詞",
+            "ja": "〜しなければならない・〜のはずだ",
+            "note": "半過去で過去の推量を表す",
+            "inflection": {
+              "label": "半過去・3人称単数",
+              "tense": "IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "être",
+          "start": 10,
+          "end": 14,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "trois heures",
+          "start": 15,
+          "end": 27,
+          "gloss": {
+            "lemma": "heure",
+            "pos": "名詞",
+            "ja": "時間・時"
+          }
+        },
+        {
+          "surface": "quand",
+          "start": 28,
+          "end": 33,
+          "gloss": {
+            "lemma": "quand",
+            "pos": "接続詞",
+            "ja": "〜のとき"
+          }
+        },
+        {
+          "surface": "le",
+          "start": 34,
+          "end": 36
+        },
+        {
+          "surface": "téléphone",
+          "start": 37,
+          "end": 46,
+          "gloss": {
+            "lemma": "téléphone",
+            "pos": "名詞",
+            "ja": "電話"
+          }
+        },
+        {
+          "surface": "a enfin sonné",
+          "start": 47,
+          "end": 60,
+          "gloss": {
+            "lemma": "sonner",
+            "pos": "動詞",
+            "ja": "鳴る・鳴らす",
+            "inflection": {
+              "label": "複合過去・3人称単数"
+            }
+          }
+        }
+      ],
+      "grammar": "devoir の半過去で過去の推量を表す。「〜だっただろう」。"
+    },
+    {
+      "id": "fr-0300",
+      "lang": "fr",
+      "text": "On aurait pu s'épargner toute cette histoire.",
+      "ja": "この面倒はすべて避けられたはずなのに。",
+      "level": "C2",
+      "tags": [
+        "条件法過去"
+      ],
+      "tokens": [
+        {
+          "surface": "On",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "aurait pu",
+          "start": 3,
+          "end": 12,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "note": "「〜できたはずなのに」という後悔",
+            "inflection": {
+              "label": "条件法過去・3人称単数"
+            }
+          }
+        },
+        {
+          "surface": "s'épargner",
+          "start": 13,
+          "end": 23,
+          "gloss": {
+            "lemma": "épargner",
+            "pos": "動詞",
+            "ja": "節約する・免れさせる",
+            "inflection": {
+              "label": "不定詞（代名動詞）"
+            }
+          }
+        },
+        {
+          "surface": "toute cette",
+          "start": 24,
+          "end": 35
+        },
+        {
+          "surface": "histoire",
+          "start": 36,
+          "end": 44,
+          "gloss": {
+            "lemma": "histoire",
+            "pos": "名詞",
+            "ja": "話・面倒・歴史"
+          }
+        }
+      ],
+      "grammar": "on aurait pu + 不定詞で「〜できたはずなのに」という後悔。"
+    },
+    {
+      "id": "fr-0301",
+      "lang": "fr",
+      "text": "Une fois la réunion terminée, nous sommes partis aussitôt.",
+      "ja": "会議が終わると、私たちはすぐに引き上げた。",
+      "level": "C1",
+      "tags": [
+        "過去分詞",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Une fois",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "une fois + 過去分詞",
+            "pos": "慣用表現",
+            "ja": "いったん〜されると",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "la",
+          "start": 9,
+          "end": 11
+        },
+        {
+          "surface": "réunion",
+          "start": 12,
+          "end": 19,
+          "gloss": {
+            "lemma": "réunion",
+            "pos": "名詞",
+            "ja": "会議・集まり"
+          }
+        },
+        {
+          "surface": "terminée",
+          "start": 20,
+          "end": 28,
+          "gloss": {
+            "lemma": "terminer",
+            "pos": "動詞",
+            "ja": "終える・終わる",
+            "inflection": {
+              "label": "過去分詞・女性単数"
+            }
+          }
+        },
+        {
+          "surface": "nous",
+          "start": 30,
+          "end": 34
+        },
+        {
+          "surface": "sommes partis",
+          "start": 35,
+          "end": 48,
+          "gloss": {
+            "lemma": "partir",
+            "pos": "動詞",
+            "ja": "出発する・去る",
+            "inflection": {
+              "label": "複合過去・1人称複数",
+              "tense": "PC",
+              "person": "1pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "aussitôt",
+          "start": 49,
+          "end": 57,
+          "gloss": {
+            "lemma": "aussitôt",
+            "pos": "副詞",
+            "ja": "すぐに・ただちに"
+          }
+        }
+      ],
+      "grammar": "une fois + 名詞 + 過去分詞で「いったん〜されると」。動詞を使わない時間節。"
+    },
+    {
+      "id": "fr-0302",
+      "lang": "fr",
+      "text": "Cela dit, je ne partage pas sa conclusion.",
+      "ja": "そうは言っても、彼の結論には賛成しない。",
+      "level": "C1",
+      "tags": [
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Cela dit",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "cela dit",
+            "pos": "慣用表現",
+            "ja": "そうは言っても",
+            "idiom": true,
+            "note": "過去分詞だけで前置きを作る"
+          }
+        },
+        {
+          "surface": "je",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "surface": "ne",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "surface": "partage",
+          "start": 16,
+          "end": 23,
+          "gloss": {
+            "lemma": "partager",
+            "pos": "動詞",
+            "ja": "共有する・分かち合う",
+            "inflection": {
+              "label": "直説法現在・1人称単数"
+            }
+          }
+        },
+        {
+          "surface": "pas sa",
+          "start": 24,
+          "end": 30
+        },
+        {
+          "surface": "conclusion",
+          "start": 31,
+          "end": 41,
+          "gloss": {
+            "lemma": "conclusion",
+            "pos": "名詞",
+            "ja": "結論"
+          }
+        }
+      ],
+      "grammar": "cela dit は「そうは言っても」。過去分詞だけで前置きを作る。"
+    },
+    {
+      "id": "fr-0303",
+      "lang": "fr",
+      "text": "Vu la tournure des choses, mieux vaut ne pas insister.",
+      "ja": "この様子では、これ以上粘らないほうがいい。",
+      "level": "C2",
+      "tags": [
+        "過去分詞"
+      ],
+      "tokens": [
+        {
+          "surface": "Vu",
+          "start": 0,
+          "end": 2,
+          "gloss": {
+            "lemma": "vu + 名詞",
+            "pos": "前置詞",
+            "ja": "〜を考えると",
+            "idiom": true,
+            "note": "過去分詞が前置詞のように働く"
+          }
+        },
+        {
+          "surface": "la tournure des choses",
+          "start": 3,
+          "end": 25,
+          "gloss": {
+            "lemma": "la tournure des choses",
+            "pos": "名詞句",
+            "ja": "事の成り行き",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "mieux vaut",
+          "start": 27,
+          "end": 37,
+          "gloss": {
+            "lemma": "mieux vaut",
+            "pos": "慣用表現",
+            "ja": "〜したほうがよい",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "ne pas",
+          "start": 38,
+          "end": 44
+        },
+        {
+          "surface": "insister",
+          "start": 45,
+          "end": 53,
+          "gloss": {
+            "lemma": "insister",
+            "pos": "動詞",
+            "ja": "固執する・言い張る",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ],
+      "grammar": "vu + 名詞は「〜を見るに・〜を考えると」。過去分詞が前置詞のように働く。"
+    },
+    {
+      "id": "fr-0304",
+      "lang": "fr",
+      "text": "J'attends toujours une explication convaincante.",
+      "ja": "納得のいく説明をまだ待っている。",
+      "level": "B2",
+      "tags": [
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "J'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "attends",
+          "start": 2,
+          "end": 9,
+          "gloss": {
+            "lemma": "attendre",
+            "pos": "動詞",
+            "ja": "待つ",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "toujours",
+          "start": 10,
+          "end": 18,
+          "gloss": {
+            "lemma": "toujours",
+            "pos": "副詞",
+            "ja": "いつも・相変わらず",
+            "note": "「まだ」の意味でも使う"
+          }
+        },
+        {
+          "surface": "une",
+          "start": 19,
+          "end": 22
+        },
+        {
+          "surface": "explication",
+          "start": 23,
+          "end": 34,
+          "gloss": {
+            "lemma": "explication",
+            "pos": "名詞",
+            "ja": "説明"
+          }
+        },
+        {
+          "surface": "convaincante",
+          "start": 35,
+          "end": 47,
+          "gloss": {
+            "lemma": "convaincant",
+            "pos": "形容詞",
+            "ja": "説得力のある",
+            "inflection": {
+              "label": "女性単数"
+            }
+          }
+        }
+      ],
+      "grammar": "toujours は「いつも」だけでなく「相変わらず・まだ」の意味でも使う。"
+    },
+    {
+      "id": "fr-0305",
+      "lang": "fr",
+      "text": "J'ai fini par accepter, sans en être vraiment convaincu.",
+      "ja": "完全には納得していなかったが、結局は受け入れた。",
+      "level": "C1",
+      "tags": [
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "J'ai fini par",
+          "start": 0,
+          "end": 13,
+          "gloss": {
+            "lemma": "finir par + 不定詞",
+            "pos": "慣用表現",
+            "ja": "結局〜することになる",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "accepter",
+          "start": 14,
+          "end": 22,
+          "gloss": {
+            "lemma": "accepter",
+            "pos": "動詞",
+            "ja": "受け入れる",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "sans en être",
+          "start": 24,
+          "end": 36
+        },
+        {
+          "surface": "vraiment",
+          "start": 37,
+          "end": 45,
+          "gloss": {
+            "lemma": "vraiment",
+            "pos": "副詞",
+            "ja": "本当に"
+          }
+        },
+        {
+          "surface": "convaincu",
+          "start": 46,
+          "end": 55,
+          "gloss": {
+            "lemma": "convaincre",
+            "pos": "動詞",
+            "ja": "納得させる",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        }
+      ],
+      "grammar": "finir par + 不定詞で「結局〜することになる」。"
+    },
+    {
+      "id": "fr-0306",
+      "lang": "fr",
+      "text": "Il va racontant partout que c'était son idée.",
+      "ja": "自分のアイデアだったと、あちこちで言いふらしている。",
+      "level": "C2",
+      "tags": [
+        "現在分詞",
+        "半過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "va",
+          "start": 3,
+          "end": 5,
+          "gloss": {
+            "lemma": "aller",
+            "pos": "動詞",
+            "ja": "行く",
+            "note": "aller + 現在分詞は文語で「〜して回る」",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "racontant",
+          "start": 6,
+          "end": 15,
+          "gloss": {
+            "lemma": "raconter",
+            "pos": "動詞",
+            "ja": "語る・話して聞かせる",
+            "inflection": {
+              "label": "現在分詞",
+              "tense": "PPRES"
+            }
+          }
+        },
+        {
+          "surface": "partout",
+          "start": 16,
+          "end": 23,
+          "gloss": {
+            "lemma": "partout",
+            "pos": "副詞",
+            "ja": "至るところで"
+          }
+        },
+        {
+          "surface": "que",
+          "start": 24,
+          "end": 27
+        },
+        {
+          "surface": "c'",
+          "start": 28,
+          "end": 30
+        },
+        {
+          "surface": "était",
+          "start": 30,
+          "end": 35,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "半過去・3人称単数",
+              "tense": "IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "son idée",
+          "start": 36,
+          "end": 44,
+          "gloss": {
+            "lemma": "idée",
+            "pos": "名詞",
+            "ja": "考え・アイデア"
+          }
+        }
+      ],
+      "grammar": "aller + 現在分詞は文語で「〜し続ける・〜して回る」。批判的な含みを伴う。"
+    },
+    {
+      "id": "fr-0307",
+      "lang": "fr",
+      "text": "Quand tu auras terminé, préviens-moi et on relira ensemble.",
+      "ja": "終わったら知らせて。一緒に見直そう。",
+      "level": "C2",
+      "tags": [
+        "前未来",
+        "命令法",
+        "単純未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Quand",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "quand",
+            "pos": "接続詞",
+            "ja": "〜のとき"
+          }
+        },
+        {
+          "surface": "tu",
+          "start": 6,
+          "end": 8
+        },
+        {
+          "surface": "auras terminé",
+          "start": 9,
+          "end": 22,
+          "gloss": {
+            "lemma": "terminer",
+            "pos": "動詞",
+            "ja": "終える・終わる",
+            "note": "未来のある時点までの完了を表す",
+            "inflection": {
+              "label": "前未来・2人称単数"
+            }
+          }
+        },
+        {
+          "surface": "préviens",
+          "start": 24,
+          "end": 32,
+          "gloss": {
+            "lemma": "prévenir",
+            "pos": "動詞",
+            "ja": "知らせる・予防する",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMPER",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "moi",
+          "start": 33,
+          "end": 36
+        },
+        {
+          "surface": "on",
+          "start": 40,
+          "end": 42
+        },
+        {
+          "surface": "relira",
+          "start": 43,
+          "end": 49,
+          "gloss": {
+            "lemma": "lire",
+            "pos": "動詞",
+            "ja": "読む",
+            "inflection": {
+              "label": "単純未来・3人称単数（relire）"
+            }
+          }
+        },
+        {
+          "surface": "ensemble",
+          "start": 50,
+          "end": 58,
+          "gloss": {
+            "lemma": "ensemble",
+            "pos": "副詞",
+            "ja": "一緒に"
+          }
+        }
+      ],
+      "grammar": "前未来（auras terminé）は「未来のある時点までに〜し終えている」。quand と組む。"
+    },
+    {
+      "id": "fr-0308",
+      "lang": "fr",
+      "text": "Que personne ne sorte de la salle jusqu'à nouvel ordre.",
+      "ja": "追って通知があるまで、誰も部屋から出ないように。",
+      "level": "C1",
+      "tags": [
+        "接続法",
+        "命令"
+      ],
+      "tokens": [
+        {
+          "surface": "Que",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "personne",
+          "start": 4,
+          "end": 12,
+          "gloss": {
+            "lemma": "personne",
+            "pos": "代名詞",
+            "ja": "誰も〜ない"
+          }
+        },
+        {
+          "surface": "ne",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "surface": "sorte",
+          "start": 16,
+          "end": 21,
+          "gloss": {
+            "lemma": "sortir",
+            "pos": "動詞",
+            "ja": "出る・外出する",
+            "note": "que + 接続法で第三者への命令",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "de la",
+          "start": 22,
+          "end": 27
+        },
+        {
+          "surface": "salle",
+          "start": 28,
+          "end": 33,
+          "gloss": {
+            "lemma": "salle",
+            "pos": "名詞",
+            "ja": "部屋・ホール"
+          }
+        },
+        {
+          "surface": "jusqu'à nouvel ordre",
+          "start": 34,
+          "end": 54,
+          "gloss": {
+            "lemma": "jusqu'à nouvel ordre",
+            "pos": "慣用表現",
+            "ja": "追って通知があるまで",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "que + 接続法で第三者への命令を表す。掲示や指示でよく使う。"
+    },
+    {
+      "id": "fr-0309",
+      "lang": "fr",
+      "text": "Apporte les documents et pose-les sur la table.",
+      "ja": "書類を持ってきて、机の上に置いておいて。",
+      "level": "B2",
+      "tags": [
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Apporte",
+          "start": 0,
+          "end": 7,
+          "gloss": {
+            "lemma": "apporter",
+            "pos": "動詞",
+            "ja": "持ってくる",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMPER",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "les",
+          "start": 8,
+          "end": 11
+        },
+        {
+          "surface": "documents",
+          "start": 12,
+          "end": 21,
+          "gloss": {
+            "lemma": "document",
+            "pos": "名詞",
+            "ja": "書類・文書"
+          }
+        },
+        {
+          "surface": "pose",
+          "start": 25,
+          "end": 29,
+          "gloss": {
+            "lemma": "poser",
+            "pos": "動詞",
+            "ja": "置く・（問題を）提起する",
+            "inflection": {
+              "label": "命令法・2人称単数"
+            }
+          }
+        },
+        {
+          "surface": "les",
+          "start": 30,
+          "end": 33
+        },
+        {
+          "surface": "sur la",
+          "start": 34,
+          "end": 40
+        },
+        {
+          "surface": "table",
+          "start": 41,
+          "end": 46,
+          "gloss": {
+            "lemma": "table",
+            "pos": "名詞",
+            "ja": "机・テーブル"
+          }
+        }
+      ],
+      "grammar": "肯定命令では代名詞が動詞の後ろにハイフンでつく（pose-les）。"
+    },
+    {
+      "id": "fr-0310",
+      "lang": "fr",
+      "text": "Dis donc, tu savais quelque chose là-dessus, toi ?",
+      "ja": "ねえ、これについて何か知ってた？",
+      "level": "C1",
+      "tags": [
+        "命令法",
+        "半過去",
+        "口語"
+      ],
+      "tokens": [
+        {
+          "surface": "Dis",
+          "start": 0,
+          "end": 3,
+          "gloss": {
+            "lemma": "dire",
+            "pos": "動詞",
+            "ja": "言う",
+            "note": "dis donc で「ねえ」という呼びかけになる",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMPER",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "donc",
+          "start": 4,
+          "end": 8
+        },
+        {
+          "surface": "tu",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "surface": "savais",
+          "start": 13,
+          "end": 19,
+          "gloss": {
+            "lemma": "savoir",
+            "pos": "動詞",
+            "ja": "知っている・〜できる",
+            "inflection": {
+              "label": "半過去・2人称単数",
+              "tense": "IMPF",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "quelque chose",
+          "start": 20,
+          "end": 33,
+          "gloss": {
+            "lemma": "quelque chose",
+            "pos": "代名詞",
+            "ja": "何か"
+          }
+        },
+        {
+          "surface": "là-dessus",
+          "start": 34,
+          "end": 43,
+          "gloss": {
+            "lemma": "là-dessus",
+            "pos": "副詞",
+            "ja": "それについて"
+          }
+        }
+      ],
+      "grammar": "dis donc は呼びかけの口語。là-dessus は「それについて」。"
+    },
+    {
+      "id": "fr-0311",
+      "lang": "fr",
+      "text": "Soyez brefs, le temps nous est compté.",
+      "ja": "手短にね、時間が限られてるから。",
+      "level": "C2",
+      "tags": [
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Soyez",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "命令法・2人称複数",
+              "tense": "IMPER",
+              "person": "2pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "brefs",
+          "start": 6,
+          "end": 11,
+          "gloss": {
+            "lemma": "bref",
+            "pos": "形容詞",
+            "ja": "短い・簡潔な",
+            "inflection": {
+              "label": "男性複数"
+            }
+          }
+        },
+        {
+          "surface": "le temps nous est compté",
+          "start": 13,
+          "end": 37,
+          "gloss": {
+            "lemma": "le temps est compté",
+            "pos": "慣用表現",
+            "ja": "時間が限られている",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "être の2人称複数命令は soyez。le temps est compté は「時間が限られている」。"
+    },
+    {
+      "id": "fr-0312",
+      "lang": "fr",
+      "text": "Procédons par étapes avant de tirer des conclusions.",
+      "ja": "結論を出す前に、順を追って整理しよう。",
+      "level": "C1",
+      "tags": [
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Procédons",
+          "start": 0,
+          "end": 9,
+          "gloss": {
+            "lemma": "procéder",
+            "pos": "動詞",
+            "ja": "進める・着手する",
+            "inflection": {
+              "label": "命令法・1人称複数"
+            }
+          }
+        },
+        {
+          "surface": "par étapes",
+          "start": 10,
+          "end": 20,
+          "gloss": {
+            "lemma": "par étapes",
+            "pos": "慣用表現",
+            "ja": "段階を追って",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "avant de",
+          "start": 21,
+          "end": 29
+        },
+        {
+          "surface": "tirer des conclusions",
+          "start": 30,
+          "end": 51,
+          "gloss": {
+            "lemma": "tirer des conclusions",
+            "pos": "慣用表現",
+            "ja": "結論を出す",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "procéder par étapes は「段階を追って進める」。tirer des conclusions は「結論を出す」。"
+    },
+    {
+      "id": "fr-0313",
+      "lang": "fr",
+      "text": "Il faudra voir si l'accord tient dans la durée.",
+      "ja": "合意が持続するかどうかは、見てみないとわからない。",
+      "level": "C1",
+      "tags": [
+        "単純未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "faudra",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "falloir",
+            "pos": "動詞",
+            "ja": "〜する必要がある",
+            "inflection": {
+              "label": "単純未来・3人称単数",
+              "tense": "FUT",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "voir",
+          "start": 10,
+          "end": 14,
+          "gloss": {
+            "lemma": "voir",
+            "pos": "動詞",
+            "ja": "見る・会う",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "si",
+          "start": 15,
+          "end": 17
+        },
+        {
+          "surface": "l'",
+          "start": 18,
+          "end": 20
+        },
+        {
+          "surface": "accord",
+          "start": 20,
+          "end": 26,
+          "gloss": {
+            "lemma": "accord",
+            "pos": "名詞",
+            "ja": "協定・合意"
+          }
+        },
+        {
+          "surface": "tient",
+          "start": 27,
+          "end": 32,
+          "gloss": {
+            "lemma": "tenir",
+            "pos": "動詞",
+            "ja": "持つ・持ちこたえる",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "dans la durée",
+          "start": 33,
+          "end": 46,
+          "gloss": {
+            "lemma": "dans la durée",
+            "pos": "慣用表現",
+            "ja": "長期的に・持続的に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "il faudra voir si は「〜かどうか見てみないとわからない」。tenir は「持ちこたえる」。"
+    },
+    {
+      "id": "fr-0314",
+      "lang": "fr",
+      "text": "D'ici là, nous aurons rendu le projet.",
+      "ja": "その頃にはもう企画を提出し終えているだろう。",
+      "level": "C2",
+      "tags": [
+        "前未来"
+      ],
+      "tokens": [
+        {
+          "surface": "D'ici là",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "d'ici là",
+            "pos": "慣用表現",
+            "ja": "それまでに",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "nous",
+          "start": 10,
+          "end": 14
+        },
+        {
+          "surface": "aurons rendu",
+          "start": 15,
+          "end": 27,
+          "gloss": {
+            "lemma": "rendre",
+            "pos": "動詞",
+            "ja": "返す・提出する",
+            "inflection": {
+              "label": "前未来・1人称複数"
+            }
+          }
+        },
+        {
+          "surface": "le",
+          "start": 28,
+          "end": 30
+        },
+        {
+          "surface": "projet",
+          "start": 31,
+          "end": 37,
+          "gloss": {
+            "lemma": "projet",
+            "pos": "名詞",
+            "ja": "企画・計画"
+          }
+        }
+      ],
+      "grammar": "前未来は「未来のある時点までに〜し終えている」。d'ici là は「それまでに」。"
+    },
+    {
+      "id": "fr-0315",
+      "lang": "fr",
+      "text": "Personne ne pourra le convaincre à ce stade.",
+      "ja": "今さら彼を説得できる者はいないだろう。",
+      "level": "C1",
+      "tags": [
+        "単純未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Personne",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "personne",
+            "pos": "代名詞",
+            "ja": "誰も〜ない"
+          }
+        },
+        {
+          "surface": "ne",
+          "start": 9,
+          "end": 11
+        },
+        {
+          "surface": "pourra",
+          "start": 12,
+          "end": 18,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "inflection": {
+              "label": "単純未来・3人称単数",
+              "tense": "FUT",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "le",
+          "start": 19,
+          "end": 21
+        },
+        {
+          "surface": "convaincre",
+          "start": 22,
+          "end": 32,
+          "gloss": {
+            "lemma": "convaincre",
+            "pos": "動詞",
+            "ja": "納得させる",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "à ce stade",
+          "start": 33,
+          "end": 43,
+          "gloss": {
+            "lemma": "à ce stade",
+            "pos": "慣用表現",
+            "ja": "この段階では・今さら",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "à ce stade は「この段階では・今さら」。"
+    },
+    {
+      "id": "fr-0316",
+      "lang": "fr",
+      "text": "On a fait tout ce qu'on a pu.",
+      "ja": "できることはすべてやった。",
+      "level": "B2",
+      "tags": [
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "On",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "a fait",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "faire",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "tout ce qu'",
+          "start": 10,
+          "end": 21,
+          "gloss": {
+            "lemma": "tout ce que",
+            "pos": "慣用表現",
+            "ja": "〜するものすべて",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "on",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "a pu",
+          "start": 24,
+          "end": 28,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0317",
+      "lang": "fr",
+      "text": "Ces derniers temps, il est devenu très susceptible.",
+      "ja": "最近、彼はやたらと気を悪くしやすくなった。",
+      "level": "C1",
+      "tags": [
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Ces derniers temps",
+          "start": 0,
+          "end": 18,
+          "gloss": {
+            "lemma": "ces derniers temps",
+            "pos": "慣用表現",
+            "ja": "最近",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "il",
+          "start": 20,
+          "end": 22
+        },
+        {
+          "surface": "est devenu",
+          "start": 23,
+          "end": 33,
+          "gloss": {
+            "lemma": "devenir",
+            "pos": "動詞",
+            "ja": "〜になる",
+            "note": "助動詞は être",
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "très",
+          "start": 34,
+          "end": 38
+        },
+        {
+          "surface": "susceptible",
+          "start": 39,
+          "end": 50,
+          "gloss": {
+            "lemma": "susceptible",
+            "pos": "形容詞",
+            "ja": "気を悪くしやすい・敏感な"
+          }
+        }
+      ],
+      "grammar": "devenir は être を助動詞にとる。ces derniers temps は「最近」。"
+    },
+    {
+      "id": "fr-0318",
+      "lang": "fr",
+      "text": "Pourvu que tu le rendes à temps, peu importe comment.",
+      "ja": "期限に間に合いさえすれば、やり方は問わない。",
+      "level": "C2",
+      "tags": [
+        "接続法"
+      ],
+      "tokens": [
+        {
+          "surface": "Pourvu que",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "pourvu que",
+            "pos": "慣用表現",
+            "ja": "〜しさえすれば",
+            "idiom": true,
+            "note": "後ろは必ず接続法"
+          }
+        },
+        {
+          "surface": "tu",
+          "start": 11,
+          "end": 13
+        },
+        {
+          "surface": "le",
+          "start": 14,
+          "end": 16
+        },
+        {
+          "surface": "rendes",
+          "start": 17,
+          "end": 23,
+          "gloss": {
+            "lemma": "rendre",
+            "pos": "動詞",
+            "ja": "返す・提出する",
+            "inflection": {
+              "label": "接続法現在・2人称単数",
+              "tense": "SUBJ",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "à temps",
+          "start": 24,
+          "end": 31,
+          "gloss": {
+            "lemma": "à temps",
+            "pos": "慣用表現",
+            "ja": "間に合って",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "peu importe",
+          "start": 33,
+          "end": 44,
+          "gloss": {
+            "lemma": "peu importe",
+            "pos": "慣用表現",
+            "ja": "〜は問わない・どうでもよい",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "pourvu que は「〜しさえすれば」。後ろは必ず接続法。peu importe は「〜は問わない」。"
+    },
+    {
+      "id": "fr-0319",
+      "lang": "fr",
+      "text": "Sans toi, nous n'y serions jamais arrivés.",
+      "ja": "君がいなかったら、成し遂げられなかっただろう。",
+      "level": "C1",
+      "tags": [
+        "条件法過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Sans toi",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "sans + 名詞",
+            "pos": "慣用表現",
+            "ja": "〜がなかったら",
+            "idiom": true,
+            "note": "条件節の代わりになる"
+          }
+        },
+        {
+          "surface": "nous",
+          "start": 10,
+          "end": 14
+        },
+        {
+          "surface": "n'y serions jamais arrivés",
+          "start": 15,
+          "end": 41,
+          "gloss": {
+            "lemma": "y arriver",
+            "pos": "慣用表現",
+            "ja": "うまくやり遂げる",
+            "idiom": true,
+            "note": "条件法過去・1人称複数"
+          }
+        }
+      ],
+      "grammar": "sans + 名詞で条件節の代わりになる。y arriver は「うまくやり遂げる」。"
+    },
+    {
+      "id": "fr-0320",
+      "lang": "fr",
+      "text": "Quoi qu'il en soit, ce qui est fait est fait.",
+      "ja": "どうであれ、済んだことは済んだことだ。",
+      "level": "C2",
+      "tags": [
+        "接続法",
+        "成句"
+      ],
+      "tokens": [
+        {
+          "surface": "Quoi qu'il en soit",
+          "start": 0,
+          "end": 18,
+          "gloss": {
+            "lemma": "quoi qu'il en soit",
+            "pos": "慣用表現",
+            "ja": "どうであれ",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "ce qui est fait est fait",
+          "start": 20,
+          "end": 44,
+          "gloss": {
+            "lemma": "ce qui est fait est fait",
+            "pos": "ことわざ",
+            "ja": "済んだことは済んだこと",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "ce qui est fait est fait は「済んだことは済んだこと」。スペイン語 lo hecho hecho está に対応する。"
     }
   ]
 }
