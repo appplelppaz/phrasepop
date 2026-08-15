@@ -70,7 +70,7 @@ export function PhraseCard({
         {infl?.person && (
           // flex にしておくのが要点。ふつうの inline の箱にすると、この箱が行の高さぶん
           // 伸びてマークがベースラインまで押し下げられ、単語に重なってしまう。
-          <span className="pointer-events-none absolute top-0.5 left-1/2 z-10 flex -translate-x-1/2">
+          <span className="pointer-events-none absolute top-0.5 left-1/2 z-10 flex -translate-x-1/2 whitespace-nowrap">
             <PersonMark person={infl.person} color={style ? "var(--tense)" : "currentColor"} />
           </span>
         )}
