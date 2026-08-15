@@ -137,27 +137,37 @@ function checkBank(lang, bank, table) {
       const infl = gloss.inflection;
       if (!infl?.tense) continue; // 手書きラベルのみのものは照合対象外
 
-      const verb = verbByLemma.get(gloss.lemma);
+      // 熟語トークンの活用は、熟語そのものではなく中の動詞（gloss.verb）を指す。
+      // 例: "dieron cuenta" の lemma は "darse cuenta de" だが、活用するのは dar。
+      const inflLemma = gloss.verb ? gloss.verb.lemma : gloss.lemma;
+      const inflSurface = gloss.verb ? gloss.verb.surface : token.surface;
+
+      if (gloss.verb && !norm(token.surface).includes(norm(inflSurface))) {
+        fail(`${where}: verb の "${inflSurface}" が熟語 "${token.surface}" の中に無い`);
+        continue;
+      }
+
+      const verb = verbByLemma.get(inflLemma);
       if (!verb) {
-        fail(`${where}: "${gloss.lemma}" が活用表に無いのに時制キーが付いている`);
+        fail(`${where}: "${inflLemma}" が活用表に無いのに時制キーが付いている`);
         continue;
       }
       const row = verb.forms[infl.tense];
       if (!row) {
-        fail(`${where}: ${gloss.lemma} に時制 "${infl.tense}" が無い`);
+        fail(`${where}: ${inflLemma} に時制 "${infl.tense}" が無い`);
         continue;
       }
       const expected = infl.person ? row[PERSON_INDEX[infl.person]] : row[0];
       if (!expected) {
-        fail(`${where}: ${gloss.lemma} / ${infl.tense} / ${infl.person ?? "-"} が空`);
+        fail(`${where}: ${inflLemma} / ${infl.tense} / ${infl.person ?? "-"} が空`);
         continue;
       }
       // 複合時制は助動詞を含むので、末尾の語（分詞）との一致も許す。
       const candidates = [expected, expected.split(" ").slice(-1)[0]];
-      if (!candidates.some((c) => norm(c) === norm(token.surface))) {
+      if (!candidates.some((c) => norm(c) === norm(inflSurface))) {
         fail(
-          `${where}: 活用不一致。"${token.surface}" に ${infl.label} が付いているが ` +
-            `${gloss.lemma} / ${infl.tense} / ${infl.person ?? "-"} は "${expected}"`,
+          `${where}: 活用不一致。"${inflSurface}" に ${infl.label} が付いているが ` +
+            `${inflLemma} / ${infl.tense} / ${infl.person ?? "-"} は "${expected}"`,
         );
       }
 

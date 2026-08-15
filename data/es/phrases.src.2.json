@@ -110,7 +110,7 @@
       "tags": ["疑問", "直説法点過去"],
       "grammar": "¿Cómo es que...? は por qué より驚きや不満がこもる言い方。",
       "tokens": [
-        { "s": "Cómo es que", "lemma": "cómo es que", "pos": "慣用表現", "ja": "どうして〜なのか", "idiom": true, "note": "驚き・不満を含む" },
+        { "s": "Cómo es que", "lemma": "cómo es que", "pos": "慣用表現", "ja": "どうして〜なのか", "idiom": true, "note": "驚き・不満を含む", "verb": { "s": "es", "lemma": "ser", "infl": "IND_PRES/3sg" } },
         { "s": "no", "skip": true },
         { "s": "me", "skip": true },
         { "s": "lo", "skip": true },
@@ -154,7 +154,7 @@
       "grammar": "dar igual は「どうでもいい」。不特定の内容を指す lo que のあとは接続法。",
       "tokens": [
         { "s": "Me", "skip": true },
-        { "s": "da igual", "lemma": "dar igual", "pos": "慣用表現", "ja": "どうでもいい", "idiom": true },
+        { "s": "da igual", "lemma": "dar igual", "pos": "慣用表現", "ja": "どうでもいい", "idiom": true, "verb": { "s": "da", "lemma": "dar", "infl": "IND_PRES/3sg" } },
         { "s": "lo que", "lemma": "lo que", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
         { "s": "digan", "lemma": "decir", "pos": "動詞", "ja": "言う", "infl": "SUBJ_PRES/3pl" }
       ]
@@ -417,7 +417,7 @@
       "tags": ["成句", "直説法現在"],
       "grammar": "más vale A que B で「B より A のほうがましだ」。ことわざとしてそのまま使う。",
       "tokens": [
-        { "s": "Más vale", "lemma": "más vale", "pos": "慣用表現", "ja": "〜のほうがましだ", "idiom": true },
+        { "s": "Más vale", "lemma": "más vale", "pos": "慣用表現", "ja": "〜のほうがましだ", "idiom": true, "verb": { "s": "vale", "lemma": "valer", "infl": "IND_PRES/3sg" } },
         { "s": "tarde", "lemma": "tarde", "pos": "副詞", "ja": "遅く" },
         { "s": "que", "skip": true },
         { "s": "nunca", "lemma": "nunca", "pos": "副詞", "ja": "決して〜ない" }
@@ -497,7 +497,7 @@
       "tags": ["接続法現在", "熟語"],
       "grammar": "sea como sea は「どうであれ」。同じ接続法を繰り返す譲歩の型。",
       "tokens": [
-        { "s": "Sea como sea", "lemma": "sea como sea", "pos": "慣用表現", "ja": "どうであれ", "idiom": true },
+        { "s": "Sea como sea", "lemma": "sea como sea", "pos": "慣用表現", "ja": "どうであれ", "idiom": true, "verb": { "s": "Sea", "lemma": "ser", "infl": "SUBJ_PRES/3sg" } },
         { "s": "hay que", "lemma": "hay que", "pos": "慣用表現", "ja": "〜しなければならない", "idiom": true, "note": "主語を立てない義務表現" },
         { "s": "terminar", "lemma": "terminar", "pos": "動詞", "ja": "終える・終わる", "label": "不定詞" },
         { "s": "lo", "skip": true },
@@ -512,7 +512,7 @@
       "tags": ["接続法現在", "直説法未来"],
       "grammar": "「接続法 + lo que + 同じ接続法」で「何を〜しようと」。",
       "tokens": [
-        { "s": "Digan lo que digan", "lemma": "digan lo que digan", "pos": "慣用表現", "ja": "何と言われようと", "idiom": true },
+        { "s": "Digan lo que digan", "lemma": "digan lo que digan", "pos": "慣用表現", "ja": "何と言われようと", "idiom": true, "verb": { "s": "Digan", "lemma": "decir", "infl": "SUBJ_PRES/3pl" } },
         { "s": "seguiré", "lemma": "seguir", "pos": "動詞", "ja": "続ける・ついていく", "infl": "IND_FUT/1sg" },
         { "s": "adelante", "lemma": "adelante", "pos": "副詞", "ja": "前へ" }
       ]

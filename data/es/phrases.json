@@ -3658,7 +3658,20 @@
             "pos": "慣用表現",
             "ja": "どうして〜なのか",
             "idiom": true,
-            "note": "驚き・不満を含む"
+            "note": "驚き・不満を含む",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
+              }
+            },
+            "verb": {
+              "surface": "es",
+              "lemma": "ser"
+            }
           }
         },
         {
@@ -3828,7 +3841,16 @@
             "lemma": "dar igual",
             "pos": "慣用表現",
             "ja": "どうでもいい",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "da",
+              "lemma": "dar"
+            }
           }
         },
         {
@@ -5027,7 +5049,16 @@
             "lemma": "más vale",
             "pos": "慣用表現",
             "ja": "〜のほうがましだ",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "vale",
+              "lemma": "valer"
+            }
           }
         },
         {
@@ -5414,7 +5445,20 @@
             "lemma": "sea como sea",
             "pos": "慣用表現",
             "ja": "どうであれ",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（s- → se-）"
+              }
+            },
+            "verb": {
+              "surface": "Sea",
+              "lemma": "ser"
+            }
           }
         },
         {
@@ -5479,7 +5523,20 @@
             "lemma": "digan lo que digan",
             "pos": "慣用表現",
             "ja": "何と言われようと",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "接続法現在・3人称複数",
+              "tense": "SUBJ_PRES",
+              "person": "3pl",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（dec- → dig-）"
+              }
+            },
+            "verb": {
+              "surface": "Digan",
+              "lemma": "decir"
+            }
           }
         },
         {
@@ -8166,7 +8223,20 @@
             "lemma": "estar por + 不定詞",
             "pos": "慣用表現",
             "ja": "まだ〜されていない",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は estoy / estás / está / estamos / estáis / están と変化する"
+              }
+            },
+            "verb": {
+              "surface": "está",
+              "lemma": "estar"
+            }
           }
         },
         {
@@ -8815,7 +8885,20 @@
             "pos": "慣用表現",
             "ja": "〜というわけではない",
             "idiom": true,
-            "note": "後ろは接続法"
+            "note": "後ろは接続法",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
+              }
+            },
+            "verb": {
+              "surface": "es",
+              "lemma": "ser"
+            }
           }
         },
         {
@@ -8973,7 +9056,16 @@
             "lemma": "entrar en vigor",
             "pos": "慣用表現",
             "ja": "発効する",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法未来・3人称単数",
+              "tense": "IND_FUT",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "entrará",
+              "lemma": "entrar"
+            }
           }
         },
         {
@@ -9078,7 +9170,16 @@
             "lemma": "desde hace",
             "pos": "慣用表現",
             "ja": "〜前から",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "hace",
+              "lemma": "hacer"
+            }
           }
         }
       ],
@@ -9751,7 +9852,16 @@
             "lemma": "dar por hecho que",
             "pos": "慣用表現",
             "ja": "〜を既定のこととみなす",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "da",
+              "lemma": "dar"
+            }
           }
         },
         {
@@ -10045,7 +10155,20 @@
             "lemma": "estar por + 不定詞",
             "pos": "慣用表現",
             "ja": "まだ〜されていない",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "IND_PRES",
+              "person": "3pl",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は estoy / estás / está / estamos / estáis / están と変化する"
+              }
+            },
+            "verb": {
+              "surface": "están",
+              "lemma": "estar"
+            }
           }
         },
         {
@@ -10407,7 +10530,16 @@
             "lemma": "se estima que",
             "pos": "慣用表現",
             "ja": "〜と見積もられている",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "estima",
+              "lemma": "estimar"
+            }
           }
         },
         {
@@ -11426,7 +11558,15 @@
             "lemma": "haber + 過去分詞",
             "pos": "慣用表現",
             "ja": "〜したこと（完了不定詞）",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PART"
+            },
+            "verb": {
+              "surface": "recibido",
+              "lemma": "recibir"
+            }
           }
         },
         {
@@ -12841,7 +12981,16 @@
             "lemma": "hacía rato",
             "pos": "慣用表現",
             "ja": "かなり前に",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法線過去・3人称単数",
+              "tense": "IND_IMPF",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "hacía",
+              "lemma": "hacer"
+            }
           }
         }
       ],
@@ -14372,7 +14521,20 @@
             "lemma": "darse cuenta de",
             "pos": "慣用表現",
             "ja": "気づく",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法点過去・3人称複数",
+              "tense": "IND_PRET",
+              "person": "3pl",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は di / diste / dio / dimos / disteis / dieron と変化する"
+              }
+            },
+            "verb": {
+              "surface": "dieron",
+              "lemma": "dar"
+            }
           }
         },
         {
@@ -14496,7 +14658,16 @@
             "lemma": "estar a punto de",
             "pos": "慣用表現",
             "ja": "まさに〜しようとしている",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法線過去・3人称単数",
+              "tense": "IND_IMPF",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "estaba",
+              "lemma": "estar"
+            }
           }
         },
         {
@@ -14868,7 +15039,16 @@
             "lemma": "cambiar de idea",
             "pos": "慣用表現",
             "ja": "考えを改める",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法点過去・3人称単数",
+              "tense": "IND_PRET",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "cambió",
+              "lemma": "cambiar"
+            }
           }
         }
       ]
@@ -15474,7 +15654,16 @@
             "pos": "慣用表現",
             "ja": "（事態を）予期する",
             "idiom": true,
-            "note": "直説法過去完了"
+            "note": "直説法過去完了",
+            "inflection": {
+              "label": "直説法過去完了・3人称単数",
+              "tense": "IND_PLUP",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "había visto",
+              "lemma": "ver"
+            }
           }
         }
       ],
@@ -16511,7 +16700,20 @@
             "lemma": "estar por + 不定詞",
             "pos": "慣用表現",
             "ja": "まだ〜されていない",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は estoy / estás / está / estamos / estáis / están と変化する"
+              }
+            },
+            "verb": {
+              "surface": "está",
+              "lemma": "estar"
+            }
           }
         },
         {
@@ -17009,7 +17211,15 @@
             "lemma": "dado que",
             "pos": "接続詞",
             "ja": "〜である以上・〜なので",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PART"
+            },
+            "verb": {
+              "surface": "Dado",
+              "lemma": "dar"
+            }
           }
         },
         {
@@ -17544,7 +17754,20 @@
             "pos": "慣用表現",
             "ja": "〜だろう・〜の可能性が高い",
             "idiom": true,
-            "note": "後ろは接続法"
+            "note": "後ろは接続法",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
+              }
+            },
+            "verb": {
+              "surface": "Es",
+              "lemma": "ser"
+            }
           }
         },
         {
@@ -18345,7 +18568,16 @@
             "lemma": "llevar a cabo",
             "pos": "慣用表現",
             "ja": "実施する・遂行する",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法点過去・3人称単数",
+              "tense": "IND_PRET",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "llevó",
+              "lemma": "llevar"
+            }
           }
         },
         {
@@ -18746,7 +18978,16 @@
             "pos": "慣用表現",
             "ja": "見落とす・見過ごす",
             "idiom": true,
-            "note": "直説法過去完了"
+            "note": "直説法過去完了",
+            "inflection": {
+              "label": "直説法過去完了・3人称単数",
+              "tense": "IND_PLUP",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "había pasado",
+              "lemma": "pasar"
+            }
           }
         }
       ],
@@ -18771,7 +19012,20 @@
             "lemma": "sea cual sea",
             "pos": "慣用表現",
             "ja": "どれであれ",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（s- → se-）"
+              }
+            },
+            "verb": {
+              "surface": "Sea",
+              "lemma": "ser"
+            }
           }
         },
         {
@@ -18944,7 +19198,16 @@
             "lemma": "quedar pendiente",
             "pos": "慣用表現",
             "ja": "未解決のまま残る",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "Queda",
+              "lemma": "quedar"
+            }
           }
         },
         {
@@ -19129,7 +19392,20 @@
             "pos": "慣用表現",
             "ja": "別に他意はないけど",
             "idiom": true,
-            "note": "本音を言う前の前置き"
+            "note": "本音を言う前の前置き",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
+              }
+            },
+            "verb": {
+              "surface": "es",
+              "lemma": "ser"
+            }
           }
         },
         {
@@ -19268,7 +19544,16 @@
             "pos": "慣用表現",
             "ja": "まったく〜したものだ",
             "idiom": true,
-            "note": "形は否定だが意味は強い肯定。皮肉な口語"
+            "note": "形は否定だが意味は強い肯定。皮肉な口語",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMP",
+              "person": "2sg"
+            },
+            "verb": {
+              "surface": "Anda",
+              "lemma": "andar"
+            }
           }
         },
         {
@@ -19763,7 +20048,20 @@
             "pos": "慣用表現",
             "ja": "まったくとんでもない",
             "idiom": true,
-            "note": "驚き・呆れを表す口語"
+            "note": "驚き・呆れを表す口語",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "不規則形。この時制は vaya / vayas / vaya / vayamos / vayáis / vayan と変化する"
+              }
+            },
+            "verb": {
+              "surface": "Vaya",
+              "lemma": "ir"
+            }
           }
         },
         {
@@ -20591,7 +20889,16 @@
             "lemma": "¿vale?",
             "pos": "慣用表現",
             "ja": "いい？・オーケー？",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "vale",
+              "lemma": "valer"
+            }
           }
         }
       ],
@@ -20682,7 +20989,16 @@
             "pos": "慣用表現",
             "ja": "なんとなく〜な気がする",
             "idiom": true,
-            "note": "creo que のくだけた版"
+            "note": "creo que のくだけた版",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "da",
+              "lemma": "dar"
+            }
           }
         },
         {
@@ -20884,7 +21200,16 @@
             "pos": "慣用表現",
             "ja": "〜を気取る",
             "idiom": true,
-            "note": "批判的な含みを伴う"
+            "note": "批判的な含みを伴う",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "da",
+              "lemma": "dar"
+            }
           }
         },
         {
@@ -21381,7 +21706,15 @@
             "lemma": "de + 完了不定詞",
             "pos": "慣用表現",
             "ja": "〜していたならば",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PART"
+            },
+            "verb": {
+              "surface": "sabido",
+              "lemma": "saber"
+            }
           }
         },
         {
@@ -21540,7 +21873,16 @@
             "lemma": "¿no crees?",
             "pos": "慣用表現",
             "ja": "そう思わない？",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・2人称単数",
+              "tense": "IND_PRES",
+              "person": "2sg"
+            },
+            "verb": {
+              "surface": "crees",
+              "lemma": "creer"
+            }
           }
         }
       ],
@@ -21565,7 +21907,20 @@
             "lemma": "no está el horno para bollos",
             "pos": "慣用表現",
             "ja": "今はそんな状況ではない・機嫌が悪い",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "E",
+                "text": "不規則形。この時制は estoy / estás / está / estamos / estáis / están と変化する"
+              }
+            },
+            "verb": {
+              "surface": "Está",
+              "lemma": "estar"
+            }
           }
         },
         {
@@ -21715,7 +22070,20 @@
             "lemma": "sea lo que sea",
             "pos": "慣用表現",
             "ja": "何であれ",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（s- → se-）"
+              }
+            },
+            "verb": {
+              "surface": "Sea",
+              "lemma": "ser"
+            }
           }
         },
         {
@@ -22221,7 +22589,20 @@
             "pos": "慣用表現",
             "ja": "〜は残念だ",
             "idiom": true,
-            "note": "後ろは接続法"
+            "note": "後ろは接続法",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "IND_PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "B",
+                "text": "不規則形。この時制は soy / eres / es / somos / sois / son と変化する"
+              }
+            },
+            "verb": {
+              "surface": "Es",
+              "lemma": "ser"
+            }
           }
         },
         {

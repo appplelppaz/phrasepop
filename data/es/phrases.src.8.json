@@ -90,7 +90,7 @@
       "level": "C1",
       "tags": ["接続法現在完了", "感情"],
       "tokens": [
-        { "s": "Es una pena que", "lemma": "es una pena que", "pos": "慣用表現", "ja": "〜は残念だ", "idiom": true, "note": "後ろは接続法" },
+        { "s": "Es una pena que", "lemma": "es una pena que", "pos": "慣用表現", "ja": "〜は残念だ", "idiom": true, "note": "後ろは接続法", "verb": { "s": "Es", "lemma": "ser", "infl": "IND_PRES/3sg" } },
         { "s": "no", "skip": true },
         { "s": "hayan podido", "lemma": "poder", "pos": "動詞", "ja": "〜できる", "infl": "SUBJ_PERF/3pl" },
         { "s": "asistir", "lemma": "asistir", "pos": "動詞", "ja": "出席する・援助する", "label": "不定詞" }

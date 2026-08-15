@@ -71,6 +71,12 @@ export type Gloss = {
   reading?: string;
   /** 熟語・成語・慣用句のとき true。 */
   idiom?: boolean;
+  /**
+   * 熟語が動詞を含むときの、その動詞。
+   * 熟語トークンは動詞トークンと重ねられないので、活用している語をここに持つ。
+   * このとき inflection はこの動詞の活用を指す。
+   */
+  verb?: { surface: string; lemma: string };
   inflection?: Inflection;
   /** 「後ろは必ず接続法」のような補足。 */
   note?: string;

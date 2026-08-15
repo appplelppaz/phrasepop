@@ -133,7 +133,20 @@
             "lemma": "s'il vous plaît",
             "pos": "慣用表現",
             "ja": "お願いします・すみません",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "plaît",
+              "lemma": "plaire"
+            }
           }
         }
       ]
@@ -197,7 +210,20 @@
             "lemma": "s'il vous plaît",
             "pos": "慣用表現",
             "ja": "お願いします",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "plaît",
+              "lemma": "plaire"
+            }
           }
         }
       ],
@@ -1831,7 +1857,20 @@
             "lemma": "s'il vous plaît",
             "pos": "慣用表現",
             "ja": "お願いします",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "plaît",
+              "lemma": "plaire"
+            }
           }
         }
       ]
@@ -2906,7 +2945,20 @@
             "lemma": "s'il te plaît",
             "pos": "慣用表現",
             "ja": "お願い",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "plaît",
+              "lemma": "plaire"
+            }
           }
         }
       ],
@@ -2954,7 +3006,20 @@
             "lemma": "il y a longtemps",
             "pos": "慣用表現",
             "ja": "ずいぶん前に",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "a",
+              "lemma": "avoir"
+            }
           }
         }
       ],
@@ -3120,7 +3185,20 @@
             "pos": "慣用表現",
             "ja": "〜したほうがよい",
             "idiom": true,
-            "note": "後ろは接続法"
+            "note": "後ろは接続法",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "vaut",
+              "lemma": "valoir"
+            }
           }
         },
         {
@@ -3950,7 +4028,20 @@
             "pos": "慣用表現",
             "ja": "どうして〜なのか",
             "idiom": true,
-            "note": "口語。後ろは接続法"
+            "note": "口語。後ろは接続法",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "fait",
+              "lemma": "faire"
+            }
           }
         },
         {
@@ -4112,7 +4203,20 @@
             "lemma": "être égal",
             "pos": "慣用表現",
             "ja": "どうでもいい",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "est",
+              "lemma": "être"
+            }
           }
         },
         {
@@ -4635,7 +4739,20 @@
             "lemma": "il se fait tard",
             "pos": "慣用表現",
             "ja": "遅くなってきた",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "fait",
+              "lemma": "faire"
+            }
           }
         },
         {
@@ -4953,7 +5070,20 @@
             "lemma": "avoir l'air",
             "pos": "慣用表現",
             "ja": "〜のように見える",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "a",
+              "lemma": "avoir"
+            }
           }
         }
       ],
@@ -5165,7 +5295,20 @@
             "pos": "慣用表現",
             "ja": "〜にうんざりしている",
             "idiom": true,
-            "note": "口語"
+            "note": "口語",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "ai",
+              "lemma": "avoir"
+            }
           }
         },
         {
@@ -5598,7 +5741,16 @@
             "lemma": "y arriver",
             "pos": "慣用表現",
             "ja": "うまくやり遂げる",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "単純未来・2人称単数",
+              "tense": "FUT",
+              "person": "2sg"
+            },
+            "verb": {
+              "surface": "arriveras",
+              "lemma": "arriver"
+            }
           }
         }
       ],
@@ -5701,7 +5853,20 @@
             "lemma": "quoi qu'il en soit",
             "pos": "慣用表現",
             "ja": "どうであれ",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "soit",
+              "lemma": "être"
+            }
           }
         },
         {
@@ -5809,7 +5974,20 @@
             "lemma": "se mettre à",
             "pos": "慣用表現",
             "ja": "〜し始める",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "mis",
+              "lemma": "mettre"
+            }
           }
         },
         {
@@ -6078,7 +6256,20 @@
             "lemma": "avoir du mal à",
             "pos": "慣用表現",
             "ja": "〜するのが難しい",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "ai",
+              "lemma": "avoir"
+            }
           }
         },
         {
@@ -6597,7 +6788,20 @@
             "lemma": "ça fait... que",
             "pos": "慣用表現",
             "ja": "〜して…になる",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "fait",
+              "lemma": "faire"
+            }
           }
         },
         {
@@ -7199,7 +7403,16 @@
             "lemma": "porter atteinte à",
             "pos": "慣用表現",
             "ja": "〜を侵害する",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "porte",
+              "lemma": "porter"
+            }
           }
         },
         {
@@ -7327,7 +7540,20 @@
             "lemma": "il ne fait aucun doute que",
             "pos": "慣用表現",
             "ja": "〜は疑いようがない",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "fait",
+              "lemma": "faire"
+            }
           }
         },
         {
@@ -7937,7 +8163,20 @@
             "pos": "慣用表現",
             "ja": "どんな〜であろうと",
             "idiom": true,
-            "note": "quel は後ろの名詞に性数一致する"
+            "note": "quel は後ろの名詞に性数一致する",
+            "inflection": {
+              "label": "接続法現在・3人称複数",
+              "tense": "SUBJ",
+              "person": "3pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "soient",
+              "lemma": "être"
+            }
           }
         },
         {
@@ -8517,7 +8756,16 @@
             "lemma": "rester à + 不定詞",
             "pos": "慣用表現",
             "ja": "まだ〜されていない",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "reste",
+              "lemma": "rester"
+            }
           }
         },
         {
@@ -8627,7 +8875,19 @@
             "pos": "慣用表現",
             "ja": "〜を考慮すると",
             "idiom": true,
-            "note": "硬い書き言葉"
+            "note": "硬い書き言葉",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "tenu",
+              "lemma": "tenir"
+            }
           }
         },
         {
@@ -9159,7 +9419,20 @@
             "pos": "慣用表現",
             "ja": "〜というわけではない",
             "idiom": true,
-            "note": "後ろは接続法"
+            "note": "後ろは接続法",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "est",
+              "lemma": "être"
+            }
           }
         },
         {
@@ -9325,7 +9598,16 @@
             "lemma": "entrer en vigueur",
             "pos": "慣用表現",
             "ja": "発効する",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "単純未来・3人称単数",
+              "tense": "FUT",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "entrera",
+              "lemma": "entrer"
+            }
           }
         },
         {
@@ -9450,7 +9732,16 @@
             "lemma": "se plier à",
             "pos": "慣用表現",
             "ja": "〜に従う・屈する",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "plié",
+              "lemma": "plier"
+            }
           }
         },
         {
@@ -9833,7 +10124,16 @@
             "lemma": "se creuser",
             "pos": "動詞",
             "ja": "（差や赤字が）広がる",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "creusé",
+              "lemma": "creuser"
+            }
           }
         },
         {
@@ -10095,7 +10395,20 @@
             "lemma": "il va de soi que",
             "pos": "慣用表現",
             "ja": "〜は自明だ",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "va",
+              "lemma": "aller"
+            }
           }
         },
         {
@@ -10191,7 +10504,20 @@
             "lemma": "mettre en évidence",
             "pos": "慣用表現",
             "ja": "明らかにする・浮き彫りにする",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "met",
+              "lemma": "mettre"
+            }
           }
         },
         {
@@ -10359,7 +10685,16 @@
             "lemma": "rester à + 不定詞",
             "pos": "慣用表現",
             "ja": "まだ〜されていない",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "PRES",
+              "person": "3pl"
+            },
+            "verb": {
+              "surface": "restent",
+              "lemma": "rester"
+            }
           }
         },
         {
@@ -10413,7 +10748,16 @@
             "lemma": "se borner à",
             "pos": "慣用表現",
             "ja": "〜するにとどめる",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "borné",
+              "lemma": "borner"
+            }
           }
         },
         {
@@ -11191,7 +11535,19 @@
             "lemma": "comme prévu",
             "pos": "慣用表現",
             "ja": "予定どおり",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "prévu",
+              "lemma": "prévoir"
+            }
           }
         },
         {
@@ -11217,7 +11573,16 @@
             "lemma": "se solder",
             "pos": "動詞",
             "ja": "〜という結果に終わる",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "soldé",
+              "lemma": "solder"
+            }
           }
         },
         {
@@ -11653,7 +12018,19 @@
             "lemma": "avoir + 過去分詞",
             "pos": "慣用表現",
             "ja": "〜したこと（完了不定詞）",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "reçu",
+              "lemma": "recevoir"
+            }
           }
         },
         {
@@ -12644,7 +13021,20 @@
             "lemma": "s'en aller",
             "pos": "動詞",
             "ja": "立ち去る",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "単純過去・3人称複数",
+              "tense": "PS",
+              "person": "3pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "allèrent",
+              "lemma": "aller"
+            }
           }
         },
         {
@@ -13761,7 +14151,19 @@
             "pos": "慣用表現",
             "ja": "〜のようだった",
             "idiom": true,
-            "note": "文語。形は接続法大過去だが条件法過去の意味になる"
+            "note": "文語。形は接続法大過去だが条件法過去の意味になる",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "dit",
+              "lemma": "dire"
+            }
           }
         },
         {
@@ -14332,7 +14734,20 @@
             "lemma": "se mettre à",
             "pos": "慣用表現",
             "ja": "〜し始める",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "単純過去・3人称単数",
+              "tense": "PS",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "mit",
+              "lemma": "mettre"
+            }
           }
         },
         {
@@ -16200,7 +16615,20 @@
             "lemma": "tenir à",
             "pos": "慣用表現",
             "ja": "〜に起因する",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "tient",
+              "lemma": "tenir"
+            }
           }
         },
         {
@@ -16480,7 +16908,19 @@
             "pos": "慣用表現",
             "ja": "そうであるならば",
             "idiom": true,
-            "note": "現在分詞を使った論証の接続表現"
+            "note": "現在分詞を使った論証の接続表現",
+            "inflection": {
+              "label": "現在分詞",
+              "tense": "PPRES",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "étant",
+              "lemma": "être"
+            }
           }
         },
         {
@@ -16750,7 +17190,19 @@
             "lemma": "compte tenu de",
             "pos": "慣用表現",
             "ja": "〜を考慮すると",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "tenu",
+              "lemma": "tenir"
+            }
           }
         },
         {
@@ -16772,7 +17224,20 @@
             "lemma": "il y a lieu de",
             "pos": "慣用表現",
             "ja": "〜するのが妥当だ",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "a",
+              "lemma": "avoir"
+            }
           }
         },
         {
@@ -16979,7 +17444,16 @@
             "lemma": "rester à + 不定詞",
             "pos": "慣用表現",
             "ja": "まだ〜されていない",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "reste",
+              "lemma": "rester"
+            }
           }
         },
         {
@@ -17501,7 +17975,19 @@
             "lemma": "étant donné que",
             "pos": "接続詞",
             "ja": "〜である以上・〜なので",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "現在分詞",
+              "tense": "PPRES",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "Étant",
+              "lemma": "être"
+            }
           }
         },
         {
@@ -17784,7 +18270,20 @@
             "pos": "慣用表現",
             "ja": "〜することが推奨される",
             "idiom": true,
-            "note": "後ろは接続法"
+            "note": "後ろは接続法",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "est",
+              "lemma": "être"
+            }
           }
         },
         {
@@ -17872,7 +18371,19 @@
             "pos": "慣用表現",
             "ja": "〜に照らして",
             "idiom": true,
-            "note": "硬い書き言葉"
+            "note": "硬い書き言葉",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "vu",
+              "lemma": "voir"
+            }
           }
         },
         {
@@ -18044,7 +18555,20 @@
             "pos": "慣用表現",
             "ja": "〜だろう・〜の可能性が高い",
             "idiom": true,
-            "note": "後ろは接続法"
+            "note": "後ろは接続法",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "est",
+              "lemma": "être"
+            }
           }
         },
         {
@@ -19284,7 +19808,20 @@
             "pos": "慣用表現",
             "ja": "どのような〜であれ",
             "idiom": true,
-            "note": "quel は後ろの名詞に性数一致する"
+            "note": "quel は後ろの名詞に性数一致する",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "soit",
+              "lemma": "être"
+            }
           }
         },
         {
@@ -19457,7 +19994,16 @@
             "lemma": "il reste à + 不定詞",
             "pos": "慣用表現",
             "ja": "〜することが今後の課題である",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "reste",
+              "lemma": "rester"
+            }
           }
         },
         {
@@ -19632,7 +20178,20 @@
             "pos": "慣用表現",
             "ja": "別に他意はないけど",
             "idiom": true,
-            "note": "話し言葉では ne が落ちる"
+            "note": "話し言葉では ne が落ちる",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "est",
+              "lemma": "être"
+            }
           }
         },
         {
@@ -19696,7 +20255,16 @@
             "lemma": "commencer à",
             "pos": "慣用表現",
             "ja": "〜し始める",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "commence",
+              "lemma": "commencer"
+            }
           }
         },
         {
@@ -20216,7 +20784,16 @@
             "pos": "動詞",
             "ja": "起こる・過ぎる",
             "idiom": true,
-            "note": "複合過去・3人称単数"
+            "note": "複合過去・3人称単数",
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "passé",
+              "lemma": "passer"
+            }
           }
         },
         {
@@ -20655,7 +21232,16 @@
             "pos": "動詞",
             "ja": "怒る・腹を立てる",
             "idiom": true,
-            "note": "複合過去・3人称単数"
+            "note": "複合過去・3人称単数",
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg"
+            },
+            "verb": {
+              "surface": "fâché",
+              "lemma": "fâcher"
+            }
           }
         },
         {
@@ -21006,7 +21592,20 @@
             "lemma": "ça se voit que",
             "pos": "慣用表現",
             "ja": "〜なのが見てとれる",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "voit",
+              "lemma": "voir"
+            }
           }
         },
         {
@@ -21066,7 +21665,20 @@
             "pos": "動詞",
             "ja": "会う・顔を合わせる",
             "idiom": true,
-            "note": "現在形で近い未来の約束を表す"
+            "note": "現在形で近い未来の約束を表す",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "voit",
+              "lemma": "voir"
+            }
           }
         },
         {
@@ -21183,7 +21795,20 @@
             "pos": "慣用表現",
             "ja": "〜な気がする",
             "idiom": true,
-            "note": "croire より確信が弱い"
+            "note": "croire より確信が弱い",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "ai",
+              "lemma": "avoir"
+            }
           }
         },
         {
@@ -21366,7 +21991,20 @@
             "lemma": "être égal",
             "pos": "慣用表現",
             "ja": "どうでもいい",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "est",
+              "lemma": "être"
+            }
           }
         }
       ],
@@ -21433,7 +22071,20 @@
             "lemma": "n'y connaître rien",
             "pos": "慣用表現",
             "ja": "何もわかっていない",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "connaît",
+              "lemma": "connaître"
+            }
           }
         }
       ],
@@ -21927,7 +22578,20 @@
             "pos": "慣用表現",
             "ja": "〜するのがとても苦しい",
             "idiom": true,
-            "note": "avoir du mal à の強調版"
+            "note": "avoir du mal à の強調版",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "ai",
+              "lemma": "avoir"
+            }
           }
         },
         {
@@ -22036,7 +22700,20 @@
             "lemma": "ce n'est pas le moment",
             "pos": "慣用表現",
             "ja": "今はそのタイミングではない",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "est",
+              "lemma": "être"
+            }
           }
         },
         {
@@ -22048,7 +22725,20 @@
             "pos": "慣用表現",
             "ja": "〜したほうがよい",
             "idiom": true,
-            "note": "話し言葉では il が落ちる"
+            "note": "話し言葉では il が落ちる",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "vaut",
+              "lemma": "valoir"
+            }
           }
         },
         {
@@ -22098,7 +22788,20 @@
             "pos": "慣用表現",
             "ja": "裏がある・怪しい",
             "idiom": true,
-            "note": "直訳は「岩の下に鰻がいる」"
+            "note": "直訳は「岩の下に鰻がいる」",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "a",
+              "lemma": "avoir"
+            }
           }
         },
         {
@@ -22722,7 +23425,20 @@
             "pos": "慣用表現",
             "ja": "〜は残念だ",
             "idiom": true,
-            "note": "後ろは接続法"
+            "note": "後ろは接続法",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "est",
+              "lemma": "être"
+            }
           }
         },
         {
@@ -22968,7 +23684,20 @@
             "lemma": "quoi que ce soit",
             "pos": "慣用表現",
             "ja": "何であれ・何ひとつ",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "soit",
+              "lemma": "être"
+            }
           }
         }
       ],
@@ -24051,7 +24780,19 @@
             "pos": "慣用表現",
             "ja": "そうは言っても",
             "idiom": true,
-            "note": "過去分詞だけで前置きを作る"
+            "note": "過去分詞だけで前置きを作る",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "dit",
+              "lemma": "dire"
+            }
           }
         },
         {
@@ -24114,7 +24855,19 @@
             "pos": "前置詞",
             "ja": "〜を考えると",
             "idiom": true,
-            "note": "過去分詞が前置詞のように働く"
+            "note": "過去分詞が前置詞のように働く",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "Vu",
+              "lemma": "voir"
+            }
           }
         },
         {
@@ -24136,7 +24889,20 @@
             "lemma": "mieux vaut",
             "pos": "慣用表現",
             "ja": "〜したほうがよい",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "vaut",
+              "lemma": "valoir"
+            }
           }
         },
         {
@@ -24254,7 +25020,16 @@
             "lemma": "finir par + 不定詞",
             "pos": "慣用表現",
             "ja": "結局〜することになる",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "複合過去・1人称単数",
+              "tense": "PC",
+              "person": "1sg"
+            },
+            "verb": {
+              "surface": "ai fini",
+              "lemma": "finir"
+            }
           }
         },
         {
@@ -24794,7 +25569,20 @@
             "lemma": "le temps est compté",
             "pos": "慣用表現",
             "ja": "時間が限られている",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "est",
+              "lemma": "être"
+            }
           }
         }
       ],
@@ -25358,7 +26146,20 @@
             "lemma": "quoi qu'il en soit",
             "pos": "慣用表現",
             "ja": "どうであれ",
-            "idiom": true
+            "idiom": true,
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "soit",
+              "lemma": "être"
+            }
           }
         },
         {

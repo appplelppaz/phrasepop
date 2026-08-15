@@ -26,7 +26,7 @@
       "tags": ["口語", "直説法点過去"],
       "grammar": "no es por nada, pero は本音を言う前の前置き。「悪いけど」に近い。",
       "tokens": [
-        { "s": "No es por nada", "lemma": "no es por nada, pero", "pos": "慣用表現", "ja": "別に他意はないけど", "idiom": true, "note": "本音を言う前の前置き" },
+        { "s": "No es por nada", "lemma": "no es por nada, pero", "pos": "慣用表現", "ja": "別に他意はないけど", "idiom": true, "note": "本音を言う前の前置き", "verb": { "s": "es", "lemma": "ser", "infl": "IND_PRES/3sg" } },
         { "s": "te", "skip": true },
         { "s": "lo", "skip": true },
         { "s": "dije", "lemma": "decir", "pos": "動詞", "ja": "言う", "infl": "IND_PRET/1sg" }
@@ -57,7 +57,7 @@
       "tags": ["口語", "直説法点過去"],
       "grammar": "anda que no + 動詞 は形は否定でも意味は強い肯定になる皮肉な言い方。",
       "tokens": [
-        { "s": "Anda que no", "lemma": "anda que no", "pos": "慣用表現", "ja": "まったく〜したものだ", "idiom": true, "note": "形は否定だが意味は強い肯定。皮肉な口語" },
+        { "s": "Anda que no", "lemma": "anda que no", "pos": "慣用表現", "ja": "まったく〜したものだ", "idiom": true, "note": "形は否定だが意味は強い肯定。皮肉な口語", "verb": { "s": "Anda", "lemma": "andar", "infl": "IMP/2sg" } },
         { "s": "te", "skip": true },
         { "s": "lo", "skip": true },
         { "s": "advertí", "lemma": "advertir", "pos": "動詞", "ja": "警告する・気づく", "infl": "IND_PRET/1sg" },
@@ -164,7 +164,7 @@
       "tags": ["口語", "直説法現在完了"],
       "grammar": "vaya tela は驚きや呆れを表す間投詞的な口語。",
       "tokens": [
-        { "s": "Vaya tela", "lemma": "vaya tela", "pos": "慣用表現", "ja": "まったくとんでもない", "idiom": true, "note": "驚き・呆れを表す口語" },
+        { "s": "Vaya tela", "lemma": "vaya tela", "pos": "慣用表現", "ja": "まったくとんでもない", "idiom": true, "note": "驚き・呆れを表す口語", "verb": { "s": "Vaya", "lemma": "ir", "infl": "SUBJ_PRES/3sg" } },
         { "s": "con lo que", "lemma": "lo que", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
         { "s": "ha pasado", "lemma": "pasar", "pos": "動詞", "ja": "通る・過ごす・起こる", "infl": "IND_PERF/3sg" },
         { "s": "hoy", "lemma": "hoy", "pos": "副詞", "ja": "今日" }
@@ -345,7 +345,7 @@
         { "s": "nos", "skip": true },
         { "s": "vemos", "lemma": "ver", "pos": "動詞", "ja": "見る・会う", "infl": "IND_PRES/1pl" },
         { "s": "pronto", "lemma": "pronto", "pos": "副詞", "ja": "すぐに・早く" },
-        { "s": "vale", "lemma": "¿vale?", "pos": "慣用表現", "ja": "いい？・オーケー？", "idiom": true }
+        { "s": "vale", "lemma": "¿vale?", "pos": "慣用表現", "ja": "いい？・オーケー？", "idiom": true, "verb": { "s": "vale", "lemma": "valer", "infl": "IND_PRES/3sg" } }
       ]
     },
     {
@@ -371,7 +371,7 @@
       "tags": ["口語", "直説法現在"],
       "grammar": "me da que は creo que のくだけた版。「なんとなく〜な気がする」。",
       "tokens": [
-        { "s": "Me da que", "lemma": "me da que", "pos": "慣用表現", "ja": "なんとなく〜な気がする", "idiom": true, "note": "creo que のくだけた版" },
+        { "s": "Me da que", "lemma": "me da que", "pos": "慣用表現", "ja": "なんとなく〜な気がする", "idiom": true, "note": "creo que のくだけた版", "verb": { "s": "da", "lemma": "dar", "infl": "IND_PRES/3sg" } },
         { "s": "no", "skip": true },
         { "s": "va", "lemma": "ir", "pos": "動詞", "ja": "行く", "infl": "IND_PRES/3sg" },
         { "s": "a", "skip": true },
@@ -417,7 +417,7 @@
       "tags": ["口語", "直説法現在"],
       "grammar": "dárselas de は「〜を気取る」。批判的な含みを必ず伴う。",
       "tokens": [
-        { "s": "Se las da de", "lemma": "dárselas de", "pos": "慣用表現", "ja": "〜を気取る", "idiom": true, "note": "批判的な含みを伴う" },
+        { "s": "Se las da de", "lemma": "dárselas de", "pos": "慣用表現", "ja": "〜を気取る", "idiom": true, "note": "批判的な含みを伴う", "verb": { "s": "da", "lemma": "dar", "infl": "IND_PRES/3sg" } },
         { "s": "experto", "lemma": "experto", "pos": "名詞", "ja": "専門家" },
         { "s": "no", "skip": true },
         { "s": "tiene", "lemma": "tener", "pos": "動詞", "ja": "持つ・所有する", "infl": "IND_PRES/3sg" },
@@ -523,7 +523,7 @@
       "level": "C1",
       "tags": ["口語", "条件法完了"],
       "tokens": [
-        { "s": "De haberlo sabido", "lemma": "de + 完了不定詞", "pos": "慣用表現", "ja": "〜していたならば", "idiom": true },
+        { "s": "De haberlo sabido", "lemma": "de + 完了不定詞", "pos": "慣用表現", "ja": "〜していたならば", "idiom": true, "verb": { "s": "sabido", "lemma": "saber", "infl": "PART" } },
         { "s": "no", "skip": true },
         { "s": "habría venido", "lemma": "venir", "pos": "動詞", "ja": "来る", "label": "条件法完了・1人称単数" }
       ]
@@ -556,7 +556,7 @@
         { "s": "Ya", "skip": true },
         { "s": "podrías", "lemma": "poder", "pos": "動詞", "ja": "〜できる", "infl": "COND/2sg", "note": "ya podrías haber + 過去分詞で非難を表す" },
         { "s": "haber avisado", "lemma": "avisar", "pos": "動詞", "ja": "知らせる・警告する", "label": "完了不定詞" },
-        { "s": "no crees", "lemma": "¿no crees?", "pos": "慣用表現", "ja": "そう思わない？", "idiom": true }
+        { "s": "no crees", "lemma": "¿no crees?", "pos": "慣用表現", "ja": "そう思わない？", "idiom": true, "verb": { "s": "crees", "lemma": "creer", "infl": "IND_PRES/2sg" } }
       ]
     },
     {
@@ -567,7 +567,7 @@
       "tags": ["口語", "接続法現在"],
       "grammar": "no está el horno para bollos は「今はそんな状況ではない・機嫌が悪い」。",
       "tokens": [
-        { "s": "Está el horno para bollos", "lemma": "no está el horno para bollos", "pos": "慣用表現", "ja": "今はそんな状況ではない・機嫌が悪い", "idiom": true },
+        { "s": "Está el horno para bollos", "lemma": "no está el horno para bollos", "pos": "慣用表現", "ja": "今はそんな状況ではない・機嫌が悪い", "idiom": true, "verb": { "s": "Está", "lemma": "estar", "infl": "IND_PRES/3sg" } },
         { "s": "mejor", "lemma": "mejor", "pos": "副詞", "ja": "〜したほうがよい" },
         { "s": "no", "skip": true },
         { "s": "le", "skip": true },
@@ -599,7 +599,7 @@
       "tags": ["口語", "接続法現在"],
       "grammar": "sea lo que sea は「何であれ」。no pensar + 不定詞で「〜するつもりはない」。",
       "tokens": [
-        { "s": "Sea lo que sea", "lemma": "sea lo que sea", "pos": "慣用表現", "ja": "何であれ", "idiom": true },
+        { "s": "Sea lo que sea", "lemma": "sea lo que sea", "pos": "慣用表現", "ja": "何であれ", "idiom": true, "verb": { "s": "Sea", "lemma": "ser", "infl": "SUBJ_PRES/3sg" } },
         { "s": "no", "skip": true },
         { "s": "pienso", "lemma": "pensar", "pos": "動詞", "ja": "考える・思う", "infl": "IND_PRES/1sg", "note": "no pensar + 不定詞で「〜するつもりはない」" },
         { "s": "rendir", "lemma": "rendir", "pos": "動詞", "ja": "生む・果たす・屈服させる", "label": "不定詞", "note": "rendirse で「降参する」" },

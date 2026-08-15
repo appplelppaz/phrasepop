@@ -30854,6 +30854,431 @@
       }
     },
     {
+      "lemma": "plier",
+      "ja": "折る・曲げる",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "plie",
+          "plies",
+          "plie",
+          "plions",
+          "pliez",
+          "plient"
+        ],
+        "IMPF": [
+          "pliais",
+          "pliais",
+          "pliait",
+          "pliions",
+          "pliiez",
+          "pliaient"
+        ],
+        "FUT": [
+          "plierai",
+          "plieras",
+          "pliera",
+          "plierons",
+          "plierez",
+          "plieront"
+        ],
+        "PC": [
+          "ai plié",
+          "as plié",
+          "a plié",
+          "avons plié",
+          "avez plié",
+          "ont plié"
+        ],
+        "PQP": [
+          "avais plié",
+          "avais plié",
+          "avait plié",
+          "avions plié",
+          "aviez plié",
+          "avaient plié"
+        ],
+        "PS": [
+          "pliai",
+          "plias",
+          "plia",
+          "pliâmes",
+          "pliâtes",
+          "plièrent"
+        ],
+        "COND": [
+          "plierais",
+          "plierais",
+          "plierait",
+          "plierions",
+          "plieriez",
+          "plieraient"
+        ],
+        "SUBJ": [
+          "plie",
+          "plies",
+          "plie",
+          "pliions",
+          "pliiez",
+          "plient"
+        ],
+        "IMPER": [
+          "",
+          "plie",
+          "",
+          "plions",
+          "pliez",
+          ""
+        ],
+        "PPRES": [
+          "pliant"
+        ],
+        "PPASSE": [
+          "plié"
+        ]
+      }
+    },
+    {
+      "lemma": "creuser",
+      "ja": "掘る・深める",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "creuse",
+          "creuses",
+          "creuse",
+          "creusons",
+          "creusez",
+          "creusent"
+        ],
+        "IMPF": [
+          "creusais",
+          "creusais",
+          "creusait",
+          "creusions",
+          "creusiez",
+          "creusaient"
+        ],
+        "FUT": [
+          "creuserai",
+          "creuseras",
+          "creusera",
+          "creuserons",
+          "creuserez",
+          "creuseront"
+        ],
+        "PC": [
+          "ai creusé",
+          "as creusé",
+          "a creusé",
+          "avons creusé",
+          "avez creusé",
+          "ont creusé"
+        ],
+        "PQP": [
+          "avais creusé",
+          "avais creusé",
+          "avait creusé",
+          "avions creusé",
+          "aviez creusé",
+          "avaient creusé"
+        ],
+        "PS": [
+          "creusai",
+          "creusas",
+          "creusa",
+          "creusâmes",
+          "creusâtes",
+          "creusèrent"
+        ],
+        "COND": [
+          "creuserais",
+          "creuserais",
+          "creuserait",
+          "creuserions",
+          "creuseriez",
+          "creuseraient"
+        ],
+        "SUBJ": [
+          "creuse",
+          "creuses",
+          "creuse",
+          "creusions",
+          "creusiez",
+          "creusent"
+        ],
+        "IMPER": [
+          "",
+          "creuse",
+          "",
+          "creusons",
+          "creusez",
+          ""
+        ],
+        "PPRES": [
+          "creusant"
+        ],
+        "PPASSE": [
+          "creusé"
+        ]
+      }
+    },
+    {
+      "lemma": "borner",
+      "ja": "限る・区切る",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "borne",
+          "bornes",
+          "borne",
+          "bornons",
+          "bornez",
+          "bornent"
+        ],
+        "IMPF": [
+          "bornais",
+          "bornais",
+          "bornait",
+          "bornions",
+          "borniez",
+          "bornaient"
+        ],
+        "FUT": [
+          "bornerai",
+          "borneras",
+          "bornera",
+          "bornerons",
+          "bornerez",
+          "borneront"
+        ],
+        "PC": [
+          "ai borné",
+          "as borné",
+          "a borné",
+          "avons borné",
+          "avez borné",
+          "ont borné"
+        ],
+        "PQP": [
+          "avais borné",
+          "avais borné",
+          "avait borné",
+          "avions borné",
+          "aviez borné",
+          "avaient borné"
+        ],
+        "PS": [
+          "bornai",
+          "bornas",
+          "borna",
+          "bornâmes",
+          "bornâtes",
+          "bornèrent"
+        ],
+        "COND": [
+          "bornerais",
+          "bornerais",
+          "bornerait",
+          "bornerions",
+          "borneriez",
+          "borneraient"
+        ],
+        "SUBJ": [
+          "borne",
+          "bornes",
+          "borne",
+          "bornions",
+          "borniez",
+          "bornent"
+        ],
+        "IMPER": [
+          "",
+          "borne",
+          "",
+          "bornons",
+          "bornez",
+          ""
+        ],
+        "PPRES": [
+          "bornant"
+        ],
+        "PPASSE": [
+          "borné"
+        ]
+      }
+    },
+    {
+      "lemma": "solder",
+      "ja": "清算する・決着をつける",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "solde",
+          "soldes",
+          "solde",
+          "soldons",
+          "soldez",
+          "soldent"
+        ],
+        "IMPF": [
+          "soldais",
+          "soldais",
+          "soldait",
+          "soldions",
+          "soldiez",
+          "soldaient"
+        ],
+        "FUT": [
+          "solderai",
+          "solderas",
+          "soldera",
+          "solderons",
+          "solderez",
+          "solderont"
+        ],
+        "PC": [
+          "ai soldé",
+          "as soldé",
+          "a soldé",
+          "avons soldé",
+          "avez soldé",
+          "ont soldé"
+        ],
+        "PQP": [
+          "avais soldé",
+          "avais soldé",
+          "avait soldé",
+          "avions soldé",
+          "aviez soldé",
+          "avaient soldé"
+        ],
+        "PS": [
+          "soldai",
+          "soldas",
+          "solda",
+          "soldâmes",
+          "soldâtes",
+          "soldèrent"
+        ],
+        "COND": [
+          "solderais",
+          "solderais",
+          "solderait",
+          "solderions",
+          "solderiez",
+          "solderaient"
+        ],
+        "SUBJ": [
+          "solde",
+          "soldes",
+          "solde",
+          "soldions",
+          "soldiez",
+          "soldent"
+        ],
+        "IMPER": [
+          "",
+          "solde",
+          "",
+          "soldons",
+          "soldez",
+          ""
+        ],
+        "PPRES": [
+          "soldant"
+        ],
+        "PPASSE": [
+          "soldé"
+        ]
+      }
+    },
+    {
+      "lemma": "fâcher",
+      "ja": "怒らせる",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "fâche",
+          "fâches",
+          "fâche",
+          "fâchons",
+          "fâchez",
+          "fâchent"
+        ],
+        "IMPF": [
+          "fâchais",
+          "fâchais",
+          "fâchait",
+          "fâchions",
+          "fâchiez",
+          "fâchaient"
+        ],
+        "FUT": [
+          "fâcherai",
+          "fâcheras",
+          "fâchera",
+          "fâcherons",
+          "fâcherez",
+          "fâcheront"
+        ],
+        "PC": [
+          "ai fâché",
+          "as fâché",
+          "a fâché",
+          "avons fâché",
+          "avez fâché",
+          "ont fâché"
+        ],
+        "PQP": [
+          "avais fâché",
+          "avais fâché",
+          "avait fâché",
+          "avions fâché",
+          "aviez fâché",
+          "avaient fâché"
+        ],
+        "PS": [
+          "fâchai",
+          "fâchas",
+          "fâcha",
+          "fâchâmes",
+          "fâchâtes",
+          "fâchèrent"
+        ],
+        "COND": [
+          "fâcherais",
+          "fâcherais",
+          "fâcherait",
+          "fâcherions",
+          "fâcheriez",
+          "fâcheraient"
+        ],
+        "SUBJ": [
+          "fâche",
+          "fâches",
+          "fâche",
+          "fâchions",
+          "fâchiez",
+          "fâchent"
+        ],
+        "IMPER": [
+          "",
+          "fâche",
+          "",
+          "fâchons",
+          "fâchez",
+          ""
+        ],
+        "PPRES": [
+          "fâchant"
+        ],
+        "PPASSE": [
+          "fâché"
+        ]
+      }
+    },
+    {
       "lemma": "achever",
       "ja": "終える・完成させる",
       "aux": "AVOIR",

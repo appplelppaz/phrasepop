@@ -26,7 +26,7 @@
       "tags": ["口語", "大過去"],
       "grammar": "話し言葉では ne が落ちて c'est pas になる。書き言葉では ce n'est pas。",
       "tokens": [
-        { "s": "C'est pas pour dire", "lemma": "c'est pas pour dire", "pos": "慣用表現", "ja": "別に他意はないけど", "idiom": true, "note": "話し言葉では ne が落ちる" },
+        { "s": "C'est pas pour dire", "lemma": "c'est pas pour dire", "pos": "慣用表現", "ja": "別に他意はないけど", "idiom": true, "note": "話し言葉では ne が落ちる", "verb": { "s": "est", "lemma": "être", "infl": "PRES/3sg" } },
         { "s": "je", "skip": true },
         { "s": "t'", "skip": true },
         { "s": "avais prévenu", "lemma": "prévenir", "pos": "動詞", "ja": "知らせる・予防する", "label": "大過去・1人称単数" }
@@ -42,7 +42,7 @@
       "tokens": [
         { "s": "Ce", "skip": true },
         { "s": "boulot", "lemma": "boulot", "pos": "名詞", "ja": "仕事", "note": "travail のくだけた語" },
-        { "s": "commence à", "lemma": "commencer à", "pos": "慣用表現", "ja": "〜し始める", "idiom": true },
+        { "s": "commence à", "lemma": "commencer à", "pos": "慣用表現", "ja": "〜し始める", "idiom": true, "verb": { "s": "commence", "lemma": "commencer", "infl": "PRES/3sg" } },
         { "s": "me prendre la tête", "lemma": "prendre la tête à qqn", "pos": "慣用表現", "ja": "うんざりさせる・悩ませる", "idiom": true, "note": "口語" }
       ]
     },
@@ -163,7 +163,7 @@
       "tokens": [
         { "s": "La vache", "lemma": "la vache", "pos": "間投詞", "ja": "うわ・すごい", "idiom": true, "note": "驚きを表す口語。牛の意味はない" },
         { "s": "ce qui", "lemma": "ce qui", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
-        { "s": "s'est passé", "lemma": "se passer", "pos": "動詞", "ja": "起こる・過ぎる", "idiom": true, "note": "複合過去・3人称単数" },
+        { "s": "s'est passé", "lemma": "se passer", "pos": "動詞", "ja": "起こる・過ぎる", "idiom": true, "note": "複合過去・3人称単数", "verb": { "s": "passé", "lemma": "passer", "infl": "PC/3sg" } },
         { "s": "aujourd'hui", "lemma": "aujourd'hui", "pos": "副詞", "ja": "今日" }
       ]
     },
@@ -257,7 +257,7 @@
         { "s": "suffisait", "lemma": "suffire", "pos": "動詞", "ja": "十分である", "infl": "IMPF/3sg" },
         { "s": "pas", "skip": true },
         { "s": "il", "skip": true },
-        { "s": "s'est fâché", "lemma": "se fâcher", "pos": "動詞", "ja": "怒る・腹を立てる", "idiom": true, "note": "複合過去・3人称単数" },
+        { "s": "s'est fâché", "lemma": "se fâcher", "pos": "動詞", "ja": "怒る・腹を立てる", "idiom": true, "note": "複合過去・3人称単数", "verb": { "s": "fâché", "lemma": "fâcher", "infl": "PC/3sg" } },
         { "s": "contre moi", "skip": true }
       ]
     },
@@ -334,7 +334,7 @@
       "tags": ["口語", "複合過去"],
       "grammar": "ça se voit que は「〜なのが見てとれる」というくだけた言い方。",
       "tokens": [
-        { "s": "Ça se voit que", "lemma": "ça se voit que", "pos": "慣用表現", "ja": "〜なのが見てとれる", "idiom": true },
+        { "s": "Ça se voit que", "lemma": "ça se voit que", "pos": "慣用表現", "ja": "〜なのが見てとれる", "idiom": true, "verb": { "s": "voit", "lemma": "voir", "infl": "PRES/3sg" } },
         { "s": "tu", "skip": true },
         { "s": "n'as pas dormi", "lemma": "dormir", "pos": "動詞", "ja": "眠る", "label": "複合過去・2人称単数（否定）" },
         { "s": "du tout", "lemma": "pas du tout", "pos": "慣用表現", "ja": "まったく〜ない", "idiom": true }
@@ -349,7 +349,7 @@
       "grammar": "現在形で近い未来の約束を表す、会話で普通の言い方。",
       "tokens": [
         { "s": "On", "skip": true },
-        { "s": "se voit", "lemma": "se voir", "pos": "動詞", "ja": "会う・顔を合わせる", "idiom": true, "note": "現在形で近い未来の約束を表す" },
+        { "s": "se voit", "lemma": "se voir", "pos": "動詞", "ja": "会う・顔を合わせる", "idiom": true, "note": "現在形で近い未来の約束を表す", "verb": { "s": "voit", "lemma": "voir", "infl": "PRES/3sg" } },
         { "s": "bientôt", "lemma": "bientôt", "pos": "副詞", "ja": "まもなく・近いうちに" },
         { "s": "d'accord", "lemma": "d'accord", "pos": "慣用表現", "ja": "了解・いいね", "idiom": true }
       ]
@@ -378,7 +378,7 @@
       "grammar": "avoir l'impression que は「〜な気がする」。croire より確信が弱い。",
       "tokens": [
         { "s": "J'", "skip": true },
-        { "s": "ai l'impression qu'", "lemma": "avoir l'impression que", "pos": "慣用表現", "ja": "〜な気がする", "idiom": true, "note": "croire より確信が弱い" },
+        { "s": "ai l'impression qu'", "lemma": "avoir l'impression que", "pos": "慣用表現", "ja": "〜な気がする", "idiom": true, "note": "croire より確信が弱い", "verb": { "s": "ai", "lemma": "avoir", "infl": "PRES/1sg" } },
         { "s": "il", "skip": true },
         { "s": "ne", "skip": true },
         { "s": "viendra", "lemma": "venir", "pos": "動詞", "ja": "来る", "infl": "FUT/3sg" },
@@ -414,7 +414,7 @@
         { "s": "croirait", "lemma": "croire", "pos": "動詞", "ja": "信じる・思う", "infl": "COND/3sg", "note": "on croirait que で皮肉を表す" },
         { "s": "que", "skip": true },
         { "s": "ça", "skip": true },
-        { "s": "t'est complètement égal", "lemma": "être égal", "pos": "慣用表現", "ja": "どうでもいい", "idiom": true }
+        { "s": "t'est complètement égal", "lemma": "être égal", "pos": "慣用表現", "ja": "どうでもいい", "idiom": true, "verb": { "s": "est", "lemma": "être", "infl": "PRES/3sg" } }
       ]
     },
     {
@@ -430,7 +430,7 @@
         { "s": "experts", "lemma": "expert", "pos": "名詞", "ja": "専門家" },
         { "s": "alors qu'", "lemma": "alors que", "pos": "接続詞", "ja": "〜なのに・〜する一方で", "idiom": true },
         { "s": "il", "skip": true },
-        { "s": "n'y connaît rien", "lemma": "n'y connaître rien", "pos": "慣用表現", "ja": "何もわかっていない", "idiom": true }
+        { "s": "n'y connaît rien", "lemma": "n'y connaître rien", "pos": "慣用表現", "ja": "何もわかっていない", "idiom": true, "verb": { "s": "connaît", "lemma": "connaître", "infl": "PRES/3sg" } }
       ]
     },
     {
@@ -547,7 +547,7 @@
       "tags": ["口語", "直説法現在"],
       "grammar": "avoir un mal fou à は avoir du mal à の強調版。fou が「ものすごい」を表す。",
       "tokens": [
-        { "s": "J'ai un mal fou à", "lemma": "avoir un mal fou à", "pos": "慣用表現", "ja": "〜するのがとても苦しい", "idiom": true, "note": "avoir du mal à の強調版" },
+        { "s": "J'ai un mal fou à", "lemma": "avoir un mal fou à", "pos": "慣用表現", "ja": "〜するのがとても苦しい", "idiom": true, "note": "avoir du mal à の強調版", "verb": { "s": "ai", "lemma": "avoir", "infl": "PRES/1sg" } },
         { "s": "me lever", "lemma": "se lever", "pos": "動詞", "ja": "起きる・立ち上がる", "idiom": true },
         { "s": "le lundi", "lemma": "le lundi", "pos": "慣用表現", "ja": "毎週月曜に", "idiom": true }
       ]
@@ -575,8 +575,8 @@
       "grammar": "話し言葉では il が落ちて vaut mieux になる。否定の不定詞は ne rien + 不定詞の順。",
       "tokens": [
         { "s": "Ce", "skip": true },
-        { "s": "n'est pas le moment", "lemma": "ce n'est pas le moment", "pos": "慣用表現", "ja": "今はそのタイミングではない", "idiom": true },
-        { "s": "vaut mieux", "lemma": "il vaut mieux", "pos": "慣用表現", "ja": "〜したほうがよい", "idiom": true, "note": "話し言葉では il が落ちる" },
+        { "s": "n'est pas le moment", "lemma": "ce n'est pas le moment", "pos": "慣用表現", "ja": "今はそのタイミングではない", "idiom": true, "verb": { "s": "est", "lemma": "être", "infl": "PRES/3sg" } },
+        { "s": "vaut mieux", "lemma": "il vaut mieux", "pos": "慣用表現", "ja": "〜したほうがよい", "idiom": true, "note": "話し言葉では il が落ちる", "verb": { "s": "vaut", "lemma": "valoir", "infl": "PRES/3sg" } },
         { "s": "ne rien", "skip": true },
         { "s": "lui", "skip": true },
         { "s": "dire", "lemma": "dire", "pos": "動詞", "ja": "言う", "label": "不定詞", "note": "否定の不定詞は ne rien + 不定詞の順" }
@@ -590,7 +590,7 @@
       "tags": ["口語", "直説法現在"],
       "grammar": "il y a anguille sous roche は「裏がある・怪しい」。直訳は「岩の下に鰻がいる」。",
       "tokens": [
-        { "s": "Il y a anguille sous roche", "lemma": "il y a anguille sous roche", "pos": "慣用表現", "ja": "裏がある・怪しい", "idiom": true, "note": "直訳は「岩の下に鰻がいる」" },
+        { "s": "Il y a anguille sous roche", "lemma": "il y a anguille sous roche", "pos": "慣用表現", "ja": "裏がある・怪しい", "idiom": true, "note": "直訳は「岩の下に鰻がいる」", "verb": { "s": "a", "lemma": "avoir", "infl": "PRES/3sg" } },
         { "s": "je", "skip": true },
         { "s": "te le", "skip": true },
         { "s": "dis", "lemma": "dire", "pos": "動詞", "ja": "言う", "infl": "PRES/1sg", "note": "文末に添えて断言を強める" }

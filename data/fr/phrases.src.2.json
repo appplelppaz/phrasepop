@@ -119,7 +119,7 @@
       "tags": ["疑問", "接続法", "口語"],
       "grammar": "comment ça se fait que は pourquoi の口語版で、後ろは接続法。教科書ではあまり扱われない。",
       "tokens": [
-        { "s": "Comment ça se fait que", "lemma": "comment ça se fait que", "pos": "慣用表現", "ja": "どうして〜なのか", "idiom": true, "note": "口語。後ろは接続法" },
+        { "s": "Comment ça se fait que", "lemma": "comment ça se fait que", "pos": "慣用表現", "ja": "どうして〜なのか", "idiom": true, "note": "口語。後ろは接続法", "verb": { "s": "fait", "lemma": "faire", "infl": "PRES/3sg" } },
         { "s": "tu", "skip": true },
         { "s": "ne", "skip": true },
         { "s": "m'", "skip": true },
@@ -152,7 +152,7 @@
       "tokens": [
         { "s": "Ça", "skip": true },
         { "s": "m'", "skip": true },
-        { "s": "est égal", "lemma": "être égal", "pos": "慣用表現", "ja": "どうでもいい", "idiom": true },
+        { "s": "est égal", "lemma": "être égal", "pos": "慣用表現", "ja": "どうでもいい", "idiom": true, "verb": { "s": "est", "lemma": "être", "infl": "PRES/3sg" } },
         { "s": "ce qu'", "lemma": "ce que", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
         { "s": "ils", "skip": true },
         { "s": "disent", "lemma": "dire", "pos": "動詞", "ja": "言う", "infl": "PRES/3pl" }
@@ -272,7 +272,7 @@
       "grammar": "devoir の条件法は「〜したほうがいい」という控えめな助言になる。",
       "tokens": [
         { "s": "Il", "skip": true },
-        { "s": "se fait tard", "lemma": "il se fait tard", "pos": "慣用表現", "ja": "遅くなってきた", "idiom": true },
+        { "s": "se fait tard", "lemma": "il se fait tard", "pos": "慣用表現", "ja": "遅くなってきた", "idiom": true, "verb": { "s": "fait", "lemma": "faire", "infl": "PRES/3sg" } },
         { "s": "on", "skip": true },
         { "s": "devrait", "lemma": "devoir", "pos": "動詞", "ja": "〜しなければならない・借りがある", "infl": "COND/3sg", "note": "条件法で控えめな助言" },
         { "s": "y aller", "lemma": "y aller", "pos": "慣用表現", "ja": "そろそろ行く", "idiom": true }
@@ -338,7 +338,7 @@
         { "s": "qu'", "skip": true },
         { "s": "elle", "skip": true },
         { "s": "n'", "skip": true, "note": "否定ではない虚辞の ne" },
-        { "s": "en a l'air", "lemma": "avoir l'air", "pos": "慣用表現", "ja": "〜のように見える", "idiom": true }
+        { "s": "en a l'air", "lemma": "avoir l'air", "pos": "慣用表現", "ja": "〜のように見える", "idiom": true, "verb": { "s": "a", "lemma": "avoir", "infl": "PRES/3sg" } }
       ]
     },
     {
@@ -385,7 +385,7 @@
       "grammar": "en avoir marre de は「〜にうんざりしている」。会話で非常によく使う。",
       "tokens": [
         { "s": "J'", "skip": true },
-        { "s": "en ai marre de", "lemma": "en avoir marre de", "pos": "慣用表現", "ja": "〜にうんざりしている", "idiom": true, "note": "口語" },
+        { "s": "en ai marre de", "lemma": "en avoir marre de", "pos": "慣用表現", "ja": "〜にうんざりしている", "idiom": true, "note": "口語", "verb": { "s": "ai", "lemma": "avoir", "infl": "PRES/1sg" } },
         { "s": "ce", "skip": true },
         { "s": "travail", "lemma": "travail", "pos": "名詞", "ja": "仕事" }
       ]
@@ -480,7 +480,7 @@
         { "s": "fasses", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "SUBJ/2sg" },
         { "s": "tu", "skip": true },
         { "s": "n'", "skip": true },
-        { "s": "y arriveras", "lemma": "y arriver", "pos": "慣用表現", "ja": "うまくやり遂げる", "idiom": true }
+        { "s": "y arriveras", "lemma": "y arriver", "pos": "慣用表現", "ja": "うまくやり遂げる", "idiom": true, "verb": { "s": "arriveras", "lemma": "arriver", "infl": "FUT/2sg" } }
       ]
     },
     {
@@ -507,7 +507,7 @@
       "tags": ["接続法", "熟語"],
       "grammar": "quoi qu'il en soit は「どうであれ」という決まり文句。",
       "tokens": [
-        { "s": "Quoi qu'il en soit", "lemma": "quoi qu'il en soit", "pos": "慣用表現", "ja": "どうであれ", "idiom": true },
+        { "s": "Quoi qu'il en soit", "lemma": "quoi qu'il en soit", "pos": "慣用表現", "ja": "どうであれ", "idiom": true, "verb": { "s": "soit", "lemma": "être", "infl": "SUBJ/3sg" } },
         { "s": "il", "skip": true },
         { "s": "faut", "lemma": "falloir", "pos": "動詞", "ja": "〜する必要がある", "infl": "PRES/3sg" },
         { "s": "finir", "lemma": "finir", "pos": "動詞", "ja": "終える・終わる", "label": "不定詞" },
@@ -526,7 +526,7 @@
         { "s": "je", "skip": true },
         { "s": "suis arrivé", "lemma": "arriver", "pos": "動詞", "ja": "着く・起こる", "infl": "PC/1sg" },
         { "s": "il", "skip": true },
-        { "s": "s'est mis à", "lemma": "se mettre à", "pos": "慣用表現", "ja": "〜し始める", "idiom": true },
+        { "s": "s'est mis à", "lemma": "se mettre à", "pos": "慣用表現", "ja": "〜し始める", "idiom": true, "verb": { "s": "mis", "lemma": "mettre", "infl": "PC/3sg" } },
         { "s": "pleuvoir", "lemma": "pleuvoir", "pos": "動詞", "ja": "雨が降る", "label": "不定詞" }
       ]
     },
@@ -586,7 +586,7 @@
       "grammar": "avoir du mal à + 不定詞で「〜するのが難しい・苦手だ」。",
       "tokens": [
         { "s": "J'", "skip": true },
-        { "s": "ai du mal à", "lemma": "avoir du mal à", "pos": "慣用表現", "ja": "〜するのが難しい", "idiom": true },
+        { "s": "ai du mal à", "lemma": "avoir du mal à", "pos": "慣用表現", "ja": "〜するのが難しい", "idiom": true, "verb": { "s": "ai", "lemma": "avoir", "infl": "PRES/1sg" } },
         { "s": "me", "skip": true },
         { "s": "lever", "lemma": "lever", "pos": "動詞", "ja": "上げる・持ち上げる", "label": "不定詞", "note": "se lever で「起きる」" },
         { "s": "tôt", "lemma": "tôt", "pos": "副詞", "ja": "早く" }
@@ -704,7 +704,7 @@
       "tags": ["熟語", "直説法現在"],
       "grammar": "ça fait + 期間 + que + 現在形。depuis と同じ意味だが語順が違う。",
       "tokens": [
-        { "s": "Ça fait", "lemma": "ça fait... que", "pos": "慣用表現", "ja": "〜して…になる", "idiom": true },
+        { "s": "Ça fait", "lemma": "ça fait... que", "pos": "慣用表現", "ja": "〜して…になる", "idiom": true, "verb": { "s": "fait", "lemma": "faire", "infl": "PRES/3sg" } },
         { "s": "deux", "skip": true },
         { "s": "ans", "lemma": "an", "pos": "名詞", "ja": "年" },
         { "s": "que", "skip": true },

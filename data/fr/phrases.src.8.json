@@ -95,7 +95,7 @@
       "level": "C1",
       "tags": ["接続法", "感情"],
       "tokens": [
-        { "s": "C'est dommage", "lemma": "c'est dommage que", "pos": "慣用表現", "ja": "〜は残念だ", "idiom": true, "note": "後ろは接続法" },
+        { "s": "C'est dommage", "lemma": "c'est dommage que", "pos": "慣用表現", "ja": "〜は残念だ", "idiom": true, "note": "後ろは接続法", "verb": { "s": "est", "lemma": "être", "infl": "PRES/3sg" } },
         { "s": "qu'", "skip": true },
         { "s": "ils", "skip": true },
         { "s": "n'", "skip": true },
@@ -138,7 +138,7 @@
         { "s": "pas", "skip": true },
         { "s": "qu'il", "skip": true },
         { "s": "se soit rendu compte de", "lemma": "se rendre compte de", "pos": "慣用表現", "ja": "気づく・実感する", "idiom": true, "note": "接続法過去" },
-        { "s": "quoi que ce soit", "lemma": "quoi que ce soit", "pos": "慣用表現", "ja": "何であれ・何ひとつ", "idiom": true }
+        { "s": "quoi que ce soit", "lemma": "quoi que ce soit", "pos": "慣用表現", "ja": "何であれ・何ひとつ", "idiom": true, "verb": { "s": "soit", "lemma": "être", "infl": "SUBJ/3sg" } }
       ]
     },
     {
@@ -368,7 +368,7 @@
       "tags": ["過去分詞"],
       "grammar": "cela dit は「そうは言っても」。過去分詞だけで前置きを作る。",
       "tokens": [
-        { "s": "Cela dit", "lemma": "cela dit", "pos": "慣用表現", "ja": "そうは言っても", "idiom": true, "note": "過去分詞だけで前置きを作る" },
+        { "s": "Cela dit", "lemma": "cela dit", "pos": "慣用表現", "ja": "そうは言っても", "idiom": true, "note": "過去分詞だけで前置きを作る", "verb": { "s": "dit", "lemma": "dire", "infl": "PPASSE" } },
         { "s": "je", "skip": true },
         { "s": "ne", "skip": true },
         { "s": "partage", "lemma": "partager", "pos": "動詞", "ja": "共有する・分かち合う", "label": "直説法現在・1人称単数" },
@@ -384,9 +384,9 @@
       "tags": ["過去分詞"],
       "grammar": "vu + 名詞は「〜を見るに・〜を考えると」。過去分詞が前置詞のように働く。",
       "tokens": [
-        { "s": "Vu", "lemma": "vu + 名詞", "pos": "前置詞", "ja": "〜を考えると", "idiom": true, "note": "過去分詞が前置詞のように働く" },
+        { "s": "Vu", "lemma": "vu + 名詞", "pos": "前置詞", "ja": "〜を考えると", "idiom": true, "note": "過去分詞が前置詞のように働く", "verb": { "s": "Vu", "lemma": "voir", "infl": "PPASSE" } },
         { "s": "la tournure des choses", "lemma": "la tournure des choses", "pos": "名詞句", "ja": "事の成り行き", "idiom": true },
-        { "s": "mieux vaut", "lemma": "mieux vaut", "pos": "慣用表現", "ja": "〜したほうがよい", "idiom": true },
+        { "s": "mieux vaut", "lemma": "mieux vaut", "pos": "慣用表現", "ja": "〜したほうがよい", "idiom": true, "verb": { "s": "vaut", "lemma": "valoir", "infl": "PRES/3sg" } },
         { "s": "ne pas", "skip": true },
         { "s": "insister", "lemma": "insister", "pos": "動詞", "ja": "固執する・言い張る", "label": "不定詞" }
       ]
@@ -415,7 +415,7 @@
       "tags": ["複合過去"],
       "grammar": "finir par + 不定詞で「結局〜することになる」。",
       "tokens": [
-        { "s": "J'ai fini par", "lemma": "finir par + 不定詞", "pos": "慣用表現", "ja": "結局〜することになる", "idiom": true },
+        { "s": "J'ai fini par", "lemma": "finir par + 不定詞", "pos": "慣用表現", "ja": "結局〜することになる", "idiom": true, "verb": { "s": "ai fini", "lemma": "finir", "infl": "PC/1sg" } },
         { "s": "accepter", "lemma": "accepter", "pos": "動詞", "ja": "受け入れる", "label": "不定詞" },
         { "s": "sans en être", "skip": true },
         { "s": "vraiment", "lemma": "vraiment", "pos": "副詞", "ja": "本当に" },
@@ -518,7 +518,7 @@
       "tokens": [
         { "s": "Soyez", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "IMPER/2pl" },
         { "s": "brefs", "lemma": "bref", "pos": "形容詞", "ja": "短い・簡潔な", "label": "男性複数" },
-        { "s": "le temps nous est compté", "lemma": "le temps est compté", "pos": "慣用表現", "ja": "時間が限られている", "idiom": true }
+        { "s": "le temps nous est compté", "lemma": "le temps est compté", "pos": "慣用表現", "ja": "時間が限られている", "idiom": true, "verb": { "s": "est", "lemma": "être", "infl": "PRES/3sg" } }
       ]
     },
     {
@@ -650,7 +650,7 @@
       "tags": ["接続法", "成句"],
       "grammar": "ce qui est fait est fait は「済んだことは済んだこと」。スペイン語 lo hecho hecho está に対応する。",
       "tokens": [
-        { "s": "Quoi qu'il en soit", "lemma": "quoi qu'il en soit", "pos": "慣用表現", "ja": "どうであれ", "idiom": true },
+        { "s": "Quoi qu'il en soit", "lemma": "quoi qu'il en soit", "pos": "慣用表現", "ja": "どうであれ", "idiom": true, "verb": { "s": "soit", "lemma": "être", "infl": "SUBJ/3sg" } },
         { "s": "ce qui est fait est fait", "lemma": "ce qui est fait est fait", "pos": "ことわざ", "ja": "済んだことは済んだこと", "idiom": true }
       ]
     }

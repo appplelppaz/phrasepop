@@ -150,7 +150,7 @@
         { "s": "la", "skip": true },
         { "s": "fiesta", "lemma": "fiesta", "pos": "名詞", "ja": "祭り・パーティー" },
         { "s": "había terminado", "lemma": "terminar", "pos": "動詞", "ja": "終える・終わる", "infl": "IND_PLUP/3sg" },
-        { "s": "hacía rato", "lemma": "hacía rato", "pos": "慣用表現", "ja": "かなり前に", "idiom": true }
+        { "s": "hacía rato", "lemma": "hacía rato", "pos": "慣用表現", "ja": "かなり前に", "idiom": true, "verb": { "s": "hacía", "lemma": "hacer", "infl": "IND_IMPF/3sg" } }
       ]
     },
     {
@@ -460,7 +460,7 @@
       "tags": ["文学", "直説法点過去", "直説法過去完了"],
       "tokens": [
         { "s": "Se", "skip": true },
-        { "s": "dieron cuenta", "lemma": "darse cuenta de", "pos": "慣用表現", "ja": "気づく", "idiom": true },
+        { "s": "dieron cuenta", "lemma": "darse cuenta de", "pos": "慣用表現", "ja": "気づく", "idiom": true, "verb": { "s": "dieron", "lemma": "dar", "infl": "IND_PRET/3pl" } },
         { "s": "demasiado tarde", "lemma": "demasiado tarde", "pos": "慣用表現", "ja": "遅すぎて", "idiom": true },
         { "s": "de que", "skip": true },
         { "s": "la", "skip": true },
@@ -481,7 +481,7 @@
         { "s": "hacía", "lemma": "hacer", "pos": "動詞", "ja": "する・作る", "infl": "IND_IMPF/3sg" },
         { "s": "presagiar", "lemma": "presagiar", "pos": "動詞", "ja": "予感させる・前触れとなる", "label": "不定詞" },
         { "s": "lo que", "lemma": "lo que", "pos": "慣用表現", "ja": "〜すること", "idiom": true },
-        { "s": "estaba a punto de", "lemma": "estar a punto de", "pos": "慣用表現", "ja": "まさに〜しようとしている", "idiom": true },
+        { "s": "estaba a punto de", "lemma": "estar a punto de", "pos": "慣用表現", "ja": "まさに〜しようとしている", "idiom": true, "verb": { "s": "estaba", "lemma": "estar", "infl": "IND_IMPF/3sg" } },
         { "s": "ocurrir", "lemma": "ocurrir", "pos": "動詞", "ja": "起こる", "label": "不定詞" }
       ]
     },
@@ -548,7 +548,7 @@
         { "s": "creyó", "lemma": "creer", "pos": "動詞", "ja": "信じる・思う", "infl": "IND_PRET/3sg" },
         { "s": "reconocer", "lemma": "reconocer", "pos": "動詞", "ja": "認める・見分ける", "label": "不定詞" },
         { "s": "la", "skip": true },
-        { "s": "cambió de idea", "lemma": "cambiar de idea", "pos": "慣用表現", "ja": "考えを改める", "idiom": true }
+        { "s": "cambió de idea", "lemma": "cambiar de idea", "pos": "慣用表現", "ja": "考えを改める", "idiom": true, "verb": { "s": "cambió", "lemma": "cambiar", "infl": "IND_PRET/3sg" } }
       ]
     },
     {
@@ -665,7 +665,7 @@
         { "s": "historia", "lemma": "historia", "pos": "名詞", "ja": "物語・歴史" },
         { "s": "que", "skip": true },
         { "s": "nadie", "lemma": "nadie", "pos": "代名詞", "ja": "誰も〜ない" },
-        { "s": "había visto venir", "lemma": "ver venir", "pos": "慣用表現", "ja": "（事態を）予期する", "idiom": true, "note": "直説法過去完了" }
+        { "s": "había visto venir", "lemma": "ver venir", "pos": "慣用表現", "ja": "（事態を）予期する", "idiom": true, "note": "直説法過去完了", "verb": { "s": "había visto", "lemma": "ver", "infl": "IND_PLUP/3sg" } }
       ]
     }
   ]

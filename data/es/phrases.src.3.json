@@ -323,7 +323,7 @@
         { "s": "una", "skip": true },
         { "s": "hipótesis", "lemma": "hipótesis", "pos": "名詞", "ja": "仮説" },
         { "s": "aún", "lemma": "aún", "pos": "副詞", "ja": "まだ" },
-        { "s": "está por", "lemma": "estar por + 不定詞", "pos": "慣用表現", "ja": "まだ〜されていない", "idiom": true },
+        { "s": "está por", "lemma": "estar por + 不定詞", "pos": "慣用表現", "ja": "まだ〜されていない", "idiom": true, "verb": { "s": "está", "lemma": "estar", "infl": "IND_PRES/3sg" } },
         { "s": "demostrar", "lemma": "demostrar", "pos": "動詞", "ja": "証明する・示す", "label": "不定詞" }
       ]
     },
