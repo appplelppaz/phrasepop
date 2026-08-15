@@ -178,7 +178,10 @@ export function StudyClient({
           </section>
 
           {/* ◯ / ✕ */}
-          <div className="sticky bottom-0 flex justify-center gap-8 bg-gradient-to-t from-slate-50 via-slate-50 to-transparent pb-3 pt-5 dark:from-slate-950 dark:via-slate-950">
+          <div
+            data-safe-bottom
+            className="sticky bottom-0 flex justify-center gap-8 bg-gradient-to-t from-slate-50 via-slate-50 to-transparent pt-5 dark:from-slate-950 dark:via-slate-950"
+          >
             <button
               type="button"
               onClick={() => mark("shaky")}

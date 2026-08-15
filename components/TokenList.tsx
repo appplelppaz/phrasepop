@@ -65,17 +65,15 @@ export function TokenList({
                   {token.surface}
                 </span>
                 {showLemma && (
-                  <span className="text-sm text-slate-500 dark:text-slate-400">
+                  <span className="text-sm text-slate-600">
                     <span aria-hidden>→</span>{" "}
                     <span lang={phrase.lang} className="font-medium">
                       {gloss.lemma}
                     </span>
                   </span>
                 )}
-                {gloss.reading && (
-                  <span className="text-sm text-slate-500 dark:text-slate-400">{gloss.reading}</span>
-                )}
-                <span className="text-xs text-slate-400 dark:text-slate-500">{gloss.pos}</span>
+                {gloss.reading && <span className="text-sm text-slate-600">{gloss.reading}</span>}
+                <span className="text-[13px] text-slate-500">{gloss.pos}</span>
               </div>
 
               <div className="mt-1.5 text-base">{gloss.ja}</div>
@@ -84,7 +82,7 @@ export function TokenList({
                 <div className="mt-2.5 flex flex-wrap items-center gap-1.5">
                   {style && <TenseChip style={style} />}
                   {gloss.idiom && (
-                    <span className="rounded-md bg-violet-100 px-2 py-0.5 text-xs font-medium text-violet-900 dark:bg-violet-400/15 dark:text-violet-200">
+                    <span className="rounded-md bg-violet-100 px-2 py-0.5 text-[13px] font-semibold text-violet-900">
                       熟語
                     </span>
                   )}
@@ -92,23 +90,22 @@ export function TokenList({
                 </div>
               )}
 
-              {/* 不規則活用の中身。規則形との差分を具体的に示す。 */}
+              {/* 不規則活用の中身。規則形との差分を具体的に示す。
+                  赤地に赤文字だと読めないので、赤は左の線に残して本文は濃い色にする。 */}
               {irregular && (
                 <p
-                  className="mt-2 rounded-lg px-3 py-2 text-sm"
+                  className="mt-2 rounded-r-lg border-l-[3px] py-2 pl-3 pr-3 text-[15px] leading-relaxed text-slate-800"
                   data-irregular-mark
                   style={{
-                    backgroundColor: "color-mix(in srgb, var(--irr) 10%, transparent)",
-                    color: "var(--irr)",
+                    backgroundColor: "color-mix(in srgb, var(--irr) 8%, #fff)",
+                    borderColor: "var(--irr)",
                   }}
                 >
                   {irregular.text}
                 </p>
               )}
 
-              {gloss.note && (
-                <p className="mt-2 text-xs text-slate-500 dark:text-slate-400">{gloss.note}</p>
-              )}
+              {gloss.note && <p className="mt-2 text-[13px] text-slate-600">{gloss.note}</p>}
             </button>
           </li>
         );

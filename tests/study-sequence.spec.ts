@@ -83,7 +83,7 @@ for (const lang of ["es", "fr"]) {
     await expect(page.getByRole("heading", { name: "設定" })).toBeVisible();
     await expect(page.getByText("色の意味（法と時制）")).toBeVisible();
     await expect(page.getByText("速さ")).toBeVisible();
-    await expect(page.getByText("人称アイコン")).toBeVisible();
+    await expect(page.getByText("人称の表示")).toBeVisible();
 
     await page.getByRole("button", { name: "閉じる" }).click();
     await expect(page.getByRole("heading", { name: "設定" })).toBeHidden();

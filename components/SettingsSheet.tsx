@@ -184,10 +184,10 @@ export function SettingsSheet({
           </div>
         </section>
 
-        {/* 人称アイコン */}
+        {/* 人称の表示 */}
         <section className="mb-8">
           <h2 className="mb-3 text-sm font-semibold text-slate-500 dark:text-slate-400">
-            人称アイコン
+            人称の表示
           </h2>
           <div className="grid grid-cols-2 gap-3 rounded-2xl border border-slate-200 bg-white p-4 text-sm dark:border-slate-800 dark:bg-slate-900">
             {(Object.keys(PERSON_SPEC) as (keyof typeof PERSON_SPEC)[]).map((p) => (
@@ -197,8 +197,8 @@ export function SettingsSheet({
               </div>
             ))}
           </div>
-          <p className="mt-2 text-xs text-slate-400 dark:text-slate-500">
-            人型ひとつが単数、ふたつが複数。数字が人称です。
+          <p className="mt-2 text-xs text-slate-500 dark:text-slate-500">
+            数字が人称、「単」が単数、「複」が複数です。色は法と時制を表します。
           </p>
         </section>
 
