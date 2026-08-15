@@ -1,6 +1,15 @@
 @import "tailwindcss";
 
 /*
+ * ホーム画面から全画面で起動すると、画面下端までアプリの領域になる（viewportFit: "cover"）。
+ * ○/✕ ボタンがホームインジケータに重ならないよう、その分だけ下に余白を足す。
+ * 対応していないブラウザでは env() が 0 になるので pb-3 相当に落ち着く。
+ */
+[data-safe-bottom] {
+  padding-bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
+}
+
+/*
  * 法・時制の色はコンポーネント側で --tense / --tense-dark の 2 つを渡してくる。
  * 暗い背景では明るいほうへ差し替える。不規則マークの色も同じ仕組み。
  */
