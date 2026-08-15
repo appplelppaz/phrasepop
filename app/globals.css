@@ -1,6 +1,16 @@
 @import "tailwindcss";
 
 /*
+ * ダークモードは使わない。端末がダーク設定でも常にライトで表示する。
+ *
+ * Tailwind の dark: は既定で prefers-color-scheme を見るため、CSS からは止められない。
+ * ここで .dark クラス基準に付け替えることで、どこにも .dark を付けていない以上
+ * dark: が発火しなくなる。ソース中の dark:* はそのまま残してあるので、
+ * この 1 行を消せばダークモードが戻る。
+ */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
  * ホーム画面から全画面で起動すると、画面下端までアプリの領域になる（viewportFit: "cover"）。
  * ○/✕ ボタンがホームインジケータに重ならないよう、その分だけ下に余白を足す。
  * 対応していないブラウザでは env() が 0 になるので pb-3 相当に落ち着く。
@@ -22,13 +32,7 @@
   --irr: #dc2626;
 }
 
-@media (prefers-color-scheme: dark) {
-  [data-tense-chip],
-  [data-tense-underline] {
-    --tense: var(--tense-dark);
-  }
-  [data-irregular-mark],
-  [data-irregular-underline] {
-    --irr: #fca5a5;
-  }
-}
+/*
+ * 暗い背景用の明色（--tense-dark / 明るい赤）への差し替えは、ダークモードをやめたので
+ * 行わない。lib/grammar.ts の colorDark は残してあるため、戻すときはここを書き戻す。
+ */

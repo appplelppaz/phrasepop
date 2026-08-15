@@ -10,10 +10,10 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f8fafc" },
-    { media: "(prefers-color-scheme: dark)", color: "#020617" },
-  ],
+  // ダークモードは使わない。端末がダーク設定でも白背景のままにする。
+  // これを入れないと iOS がフォーム部品やスクロールバーを勝手に暗くする。
+  colorScheme: "light",
+  themeColor: "#f8fafc",
   // ノッチのある端末で端まで塗るため。上下の余白は globals.css の safe-area で見る。
   viewportFit: "cover",
 };

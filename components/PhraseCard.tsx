@@ -9,7 +9,7 @@ import { PersonMark } from "./GrammarMarks";
  *
  * 文字での説明は入れず、色と記号だけで文法情報を伝える:
  *   - 活用している語の下線の色 = 法と時制（青系＝直説法 / 紫＝接続法 / 琥珀＝条件法 / 赤＝命令法）
- *   - 語の真上の人型アイコン = 人称（人型ひとつ＝単数、ふたつ＝複数、数字が人称）
+ *   - 語の真上のマーク = 人称（数字が人称、単＝単数 / 複＝複数）
  *   - 不規則活用の語は下線が波線になり、赤い点が付く
  *
  * タップすると該当語がハイライトされ、下の単語カードと連動する。
@@ -52,10 +52,25 @@ export function PhraseCard({
     const irregular = infl?.irregular;
 
     parts.push(
-      <span key={`t-${i}`} className="relative inline-block">
-        {/* 人称アイコンは語の真上に重ねる */}
+      <span
+        key={`t-${i}`}
+        className="relative inline-block"
+        // --tense は人称マークと下線の両方が使うので、その共通の親であるここで定義する。
+        // button 側に置くと、兄弟である人称マークから参照できない。
+        style={
+          style
+            ? ({
+                ["--tense" as string]: style.color,
+                ["--tense-dark" as string]: style.colorDark,
+              } as React.CSSProperties)
+            : undefined
+        }
+      >
+        {/* 人称マークは語の真上に重ねる */}
         {infl?.person && (
-          <span className="pointer-events-none absolute -top-3.5 left-1/2 -translate-x-1/2">
+          // flex にしておくのが要点。ふつうの inline の箱にすると、この箱が行の高さぶん
+          // 伸びてマークがベースラインまで押し下げられ、単語に重なってしまう。
+          <span className="pointer-events-none absolute top-0.5 left-1/2 z-10 flex -translate-x-1/2">
             <PersonMark person={infl.person} color={style ? "var(--tense)" : "currentColor"} />
           </span>
         )}
@@ -72,8 +87,6 @@ export function PhraseCard({
           style={
             style
               ? ({
-                  ["--tense" as string]: style.color,
-                  ["--tense-dark" as string]: style.colorDark,
                   color: "var(--tense)",
                   textDecorationLine: "underline",
                   textDecorationColor: irregular ? "var(--irr)" : "var(--tense)",
@@ -99,7 +112,9 @@ export function PhraseCard({
     <p
       lang={phrase.lang}
       className={[
-        "pt-4 text-[27px] leading-[1.75] tracking-tight",
+        // 行間を広めに取っているのは、人称マークを語の真上に置く余白を作るため。
+        // これを詰めるとマークが単語に重なる。
+        "pt-5 text-[27px] leading-[2.45] tracking-tight",
         dimmed ? "opacity-50" : "",
       ].join(" ")}
     >
