@@ -43,3 +43,6 @@ next-env.d.ts
 # playwright
 /test-results/
 /playwright-report/
+
+# 活用表のビルド時ログ（scripts/build_spanish_verbs.py）
+verbecc.log
