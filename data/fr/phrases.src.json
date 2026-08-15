@@ -28,7 +28,7 @@
         { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
         { "s": "la", "skip": true },
         { "s": "gare", "lemma": "gare", "pos": "名詞", "ja": "駅" },
-        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします・すみません", "idiom": true }
+        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします・すみません", "idiom": true, "verb": { "s": "plaît", "lemma": "plaire", "infl": "PRES/3sg" } }
       ]
     },
     {
@@ -43,7 +43,7 @@
         { "s": "voudrais", "lemma": "vouloir", "pos": "動詞", "ja": "〜したい・望む", "infl": "COND/1sg", "note": "丁寧な依頼の定型" },
         { "s": "un", "skip": true },
         { "s": "café", "lemma": "café", "pos": "名詞", "ja": "コーヒー・カフェ" },
-        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします", "idiom": true }
+        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします", "idiom": true, "verb": { "s": "plaît", "lemma": "plaire", "infl": "PRES/3sg" } }
       ]
     },
     {
@@ -401,7 +401,7 @@
         { "s": "Parlez", "lemma": "parler", "pos": "動詞", "ja": "話す", "infl": "IMPER/2pl" },
         { "s": "plus", "lemma": "plus", "pos": "副詞", "ja": "もっと" },
         { "s": "lentement", "lemma": "lentement", "pos": "副詞", "ja": "ゆっくり" },
-        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします", "idiom": true }
+        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします", "idiom": true, "verb": { "s": "plaît", "lemma": "plaire", "infl": "PRES/3sg" } }
       ]
     },
     {
@@ -648,7 +648,7 @@
         { "s": "Donne", "lemma": "donner", "pos": "動詞", "ja": "与える", "infl": "IMPER/2sg" },
         { "s": "moi", "skip": true },
         { "s": "un instant", "lemma": "un instant", "pos": "慣用表現", "ja": "ちょっとの間", "idiom": true },
-        { "s": "s'il te plaît", "lemma": "s'il te plaît", "pos": "慣用表現", "ja": "お願い", "idiom": true }
+        { "s": "s'il te plaît", "lemma": "s'il te plaît", "pos": "慣用表現", "ja": "お願い", "idiom": true, "verb": { "s": "plaît", "lemma": "plaire", "infl": "PRES/3sg" } }
       ]
     },
     {
@@ -662,7 +662,7 @@
         { "s": "Nous", "skip": true },
         { "s": "nous", "skip": true },
         { "s": "sommes rencontrés", "lemma": "rencontrer", "pos": "動詞", "ja": "出会う・知り合う", "label": "複合過去・1人称複数（代名動詞）" },
-        { "s": "il y a longtemps", "lemma": "il y a longtemps", "pos": "慣用表現", "ja": "ずいぶん前に", "idiom": true }
+        { "s": "il y a longtemps", "lemma": "il y a longtemps", "pos": "慣用表現", "ja": "ずいぶん前に", "idiom": true, "verb": { "s": "a", "lemma": "avoir", "infl": "PRES/3sg" } }
       ]
     },
     {
@@ -703,7 +703,7 @@
       "grammar": "il vaut mieux que のあとは接続法。",
       "tokens": [
         { "s": "Il", "skip": true },
-        { "s": "vaut mieux que", "lemma": "il vaut mieux que", "pos": "慣用表現", "ja": "〜したほうがよい", "idiom": true, "note": "後ろは接続法" },
+        { "s": "vaut mieux que", "lemma": "il vaut mieux que", "pos": "慣用表現", "ja": "〜したほうがよい", "idiom": true, "note": "後ろは接続法", "verb": { "s": "vaut", "lemma": "valoir", "infl": "PRES/3sg" } },
         { "s": "tu", "skip": true },
         { "s": "partes", "lemma": "partir", "pos": "動詞", "ja": "出発する・去る", "infl": "SUBJ/2sg" },
         { "s": "maintenant", "lemma": "maintenant", "pos": "副詞", "ja": "今" }

@@ -100,7 +100,7 @@
       "tags": ["報道", "経済", "接続法現在完了"],
       "grammar": "no es que + 接続法, sino que + 直説法。前半を否定して後半で言い直す型。",
       "tokens": [
-        { "s": "No es que", "lemma": "no es que", "pos": "慣用表現", "ja": "〜というわけではない", "idiom": true, "note": "後ろは接続法" },
+        { "s": "No es que", "lemma": "no es que", "pos": "慣用表現", "ja": "〜というわけではない", "idiom": true, "note": "後ろは接続法", "verb": { "s": "es", "lemma": "ser", "infl": "IND_PRES/3sg" } },
         { "s": "el", "skip": true },
         { "s": "paro", "lemma": "paro", "pos": "名詞", "ja": "失業・失業率" },
         { "s": "haya bajado", "lemma": "bajar", "pos": "動詞", "ja": "下りる・下がる", "infl": "SUBJ_PERF/3sg" },
@@ -124,7 +124,7 @@
         { "s": "blindado", "lemma": "blindar", "pos": "動詞", "ja": "保護する・守りを固める", "infl": "PART", "note": "挿入句で名詞を修飾する" },
         { "s": "por", "skip": true },
         { "s": "ambas partes", "lemma": "ambas partes", "pos": "名詞句", "ja": "双方", "idiom": true },
-        { "s": "entrará en vigor", "lemma": "entrar en vigor", "pos": "慣用表現", "ja": "発効する", "idiom": true },
+        { "s": "entrará en vigor", "lemma": "entrar en vigor", "pos": "慣用表現", "ja": "発効する", "idiom": true, "verb": { "s": "entrará", "lemma": "entrar", "infl": "IND_FUT/3sg" } },
         { "s": "en", "skip": true },
         { "s": "enero", "lemma": "enero", "pos": "名詞", "ja": "1月" }
       ]
@@ -143,7 +143,7 @@
         { "s": "exigiendo", "lemma": "exigir", "pos": "動詞", "ja": "要求する", "label": "現在分詞" },
         { "s": "una", "skip": true },
         { "s": "subida salarial", "lemma": "subida salarial", "pos": "名詞句", "ja": "賃上げ", "idiom": true },
-        { "s": "desde hace meses", "lemma": "desde hace", "pos": "慣用表現", "ja": "〜前から", "idiom": true }
+        { "s": "desde hace meses", "lemma": "desde hace", "pos": "慣用表現", "ja": "〜前から", "idiom": true, "verb": { "s": "hace", "lemma": "hacer", "infl": "IND_PRES/3sg" } }
       ]
     },
     {
@@ -284,7 +284,7 @@
       "grammar": "dar por hecho que は「〜を既定のことと考える」。se を付けて無人称にしている。",
       "tokens": [
         { "s": "Se", "skip": true },
-        { "s": "da por hecho que", "lemma": "dar por hecho que", "pos": "慣用表現", "ja": "〜を既定のこととみなす", "idiom": true },
+        { "s": "da por hecho que", "lemma": "dar por hecho que", "pos": "慣用表現", "ja": "〜を既定のこととみなす", "idiom": true, "verb": { "s": "da", "lemma": "dar", "infl": "IND_PRES/3sg" } },
         { "s": "el", "skip": true },
         { "s": "pacto", "lemma": "pacto", "pos": "名詞", "ja": "協定・盟約" },
         { "s": "no", "skip": true },
@@ -341,7 +341,7 @@
         { "s": "durante", "skip": true },
         { "s": "dos años", "lemma": "año", "pos": "名詞", "ja": "年" },
         { "s": "aún", "lemma": "aún", "pos": "副詞", "ja": "まだ" },
-        { "s": "están por", "lemma": "estar por + 不定詞", "pos": "慣用表現", "ja": "まだ〜されていない", "idiom": true },
+        { "s": "están por", "lemma": "estar por + 不定詞", "pos": "慣用表現", "ja": "まだ〜されていない", "idiom": true, "verb": { "s": "están", "lemma": "estar", "infl": "IND_PRES/3pl" } },
         { "s": "publicar", "lemma": "publicar", "pos": "動詞", "ja": "公表する・出版する", "label": "不定詞" }
       ]
     },
@@ -413,7 +413,7 @@
       "tags": ["報道", "経済", "条件法現在"],
       "grammar": "se estima que + 条件法で「〜に上るとみられる」。推定を弱める書き方。",
       "tokens": [
-        { "s": "Se estima que", "lemma": "se estima que", "pos": "慣用表現", "ja": "〜と見積もられている", "idiom": true },
+        { "s": "Se estima que", "lemma": "se estima que", "pos": "慣用表現", "ja": "〜と見積もられている", "idiom": true, "verb": { "s": "estima", "lemma": "estimar", "infl": "IND_PRES/3sg" } },
         { "s": "el", "skip": true },
         { "s": "impacto", "lemma": "impacto", "pos": "名詞", "ja": "影響・衝撃" },
         { "s": "ascendería", "lemma": "ascender", "pos": "動詞", "ja": "上る・昇進する", "label": "条件法現在・3人称単数", "note": "推定を弱める条件法" },
@@ -603,7 +603,7 @@
         { "s": "hechos", "lemma": "hecho", "pos": "名詞", "ja": "事実・出来事" },
         { "s": "si bien", "lemma": "si bien", "pos": "接続詞", "ja": "〜ではあるが", "idiom": true },
         { "s": "admitió", "lemma": "aceptar", "pos": "動詞", "ja": "認める・受け入れる", "label": "直説法点過去・3人称単数" },
-        { "s": "haber recibido", "lemma": "haber + 過去分詞", "pos": "慣用表現", "ja": "〜したこと（完了不定詞）", "idiom": true },
+        { "s": "haber recibido", "lemma": "haber + 過去分詞", "pos": "慣用表現", "ja": "〜したこと（完了不定詞）", "idiom": true, "verb": { "s": "recibido", "lemma": "recibir", "infl": "PART" } },
         { "s": "el", "skip": true },
         { "s": "dinero", "lemma": "dinero", "pos": "名詞", "ja": "お金" }
       ]

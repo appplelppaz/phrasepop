@@ -78,6 +78,20 @@ export function TokenList({
 
               <div className="mt-1.5 text-base">{gloss.ja}</div>
 
+              {/* 熟語の中の動詞。原形と活用は普通の動詞と同じように出す。 */}
+              {gloss.verb && (
+                <div className="mt-1.5 text-sm text-slate-600">
+                  <span lang={phrase.lang} className="font-semibold text-slate-800">
+                    {gloss.verb.surface}
+                  </span>{" "}
+                  <span aria-hidden>→</span>{" "}
+                  <span lang={phrase.lang} className="font-medium">
+                    {gloss.verb.lemma}
+                  </span>
+                  <span className="ml-1.5 text-[13px] text-slate-500">動詞</span>
+                </div>
+              )}
+
               {(style || gloss.idiom || irregular) && (
                 <div className="mt-2.5 flex flex-wrap items-center gap-1.5">
                   {style && <TenseChip style={style} />}

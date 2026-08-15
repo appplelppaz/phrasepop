@@ -200,7 +200,7 @@
         { "s": "un", "skip": true },
         { "s": "modelo", "lemma": "modelo", "pos": "名詞", "ja": "モデル・模型" },
         { "s": "aún", "lemma": "aún", "pos": "副詞", "ja": "まだ" },
-        { "s": "está por", "lemma": "estar por + 不定詞", "pos": "慣用表現", "ja": "まだ〜されていない", "idiom": true },
+        { "s": "está por", "lemma": "estar por + 不定詞", "pos": "慣用表現", "ja": "まだ〜されていない", "idiom": true, "verb": { "s": "está", "lemma": "estar", "infl": "IND_PRES/3sg" } },
         { "s": "validar", "lemma": "validar", "pos": "動詞", "ja": "検証する・有効にする", "label": "不定詞" }
       ]
     },
@@ -299,7 +299,7 @@
       "tags": ["学術", "条件法現在"],
       "grammar": "dado que は「〜である以上」。条件法で結論を控えめに述べる。",
       "tokens": [
-        { "s": "Dado que", "lemma": "dado que", "pos": "接続詞", "ja": "〜である以上・〜なので", "idiom": true },
+        { "s": "Dado que", "lemma": "dado que", "pos": "接続詞", "ja": "〜である以上・〜なので", "idiom": true, "verb": { "s": "Dado", "lemma": "dar", "infl": "PART" } },
         { "s": "la", "skip": true },
         { "s": "evidencia", "lemma": "evidencia", "pos": "名詞", "ja": "証拠・明白さ" },
         { "s": "es", "lemma": "ser", "pos": "動詞", "ja": "〜である", "infl": "IND_PRES/3sg" },
@@ -401,7 +401,7 @@
       "tags": ["学術", "接続法現在"],
       "grammar": "haber de + 不定詞は tener que の書き言葉版で「〜せねばならない」。",
       "tokens": [
-        { "s": "Es probable que", "lemma": "es probable que", "pos": "慣用表現", "ja": "〜だろう・〜の可能性が高い", "idiom": true, "note": "後ろは接続法" },
+        { "s": "Es probable que", "lemma": "es probable que", "pos": "慣用表現", "ja": "〜だろう・〜の可能性が高い", "idiom": true, "note": "後ろは接続法", "verb": { "s": "Es", "lemma": "ser", "infl": "IND_PRES/3sg" } },
         { "s": "futuros", "skip": true },
         { "s": "trabajos", "lemma": "trabajo", "pos": "名詞", "ja": "研究・仕事" },
         { "s": "hayan de", "lemma": "haber de + 不定詞", "pos": "慣用表現", "ja": "〜せねばならない", "idiom": true, "note": "tener que の書き言葉版" },
@@ -556,7 +556,7 @@
       "tokens": [
         { "s": "La revisión bibliográfica", "lemma": "revisión bibliográfica", "pos": "名詞句", "ja": "文献レビュー", "idiom": true },
         { "s": "se", "skip": true },
-        { "s": "llevó a cabo", "lemma": "llevar a cabo", "pos": "慣用表現", "ja": "実施する・遂行する", "idiom": true },
+        { "s": "llevó a cabo", "lemma": "llevar a cabo", "pos": "慣用表現", "ja": "実施する・遂行する", "idiom": true, "verb": { "s": "llevó", "lemma": "llevar", "infl": "IND_PRET/3sg" } },
         { "s": "siguiendo", "lemma": "seguir", "pos": "動詞", "ja": "続ける・従う", "infl": "GER", "note": "様態を表す現在分詞" },
         { "s": "criterios", "lemma": "criterio", "pos": "名詞", "ja": "基準・判断" },
         { "s": "explícitos", "lemma": "explícito", "pos": "形容詞", "ja": "明示的な", "label": "男性複数" }
@@ -628,7 +628,7 @@
         { "s": "matices", "lemma": "matiz", "pos": "名詞", "ja": "ニュアンス・細部" },
         { "s": "que", "skip": true },
         { "s": "la literatura previa", "lemma": "literatura previa", "pos": "名詞句", "ja": "先行文献", "idiom": true },
-        { "s": "había pasado por alto", "lemma": "pasar por alto", "pos": "慣用表現", "ja": "見落とす・見過ごす", "idiom": true, "note": "直説法過去完了" }
+        { "s": "había pasado por alto", "lemma": "pasar por alto", "pos": "慣用表現", "ja": "見落とす・見過ごす", "idiom": true, "note": "直説法過去完了", "verb": { "s": "había pasado", "lemma": "pasar", "infl": "IND_PLUP/3sg" } }
       ]
     },
     {
@@ -639,7 +639,7 @@
       "tags": ["学術", "接続法現在"],
       "grammar": "sea cual sea は「どれであれ」。同じ接続法を繰り返す譲歩の型。",
       "tokens": [
-        { "s": "Sea cual sea", "lemma": "sea cual sea", "pos": "慣用表現", "ja": "どれであれ", "idiom": true },
+        { "s": "Sea cual sea", "lemma": "sea cual sea", "pos": "慣用表現", "ja": "どれであれ", "idiom": true, "verb": { "s": "Sea", "lemma": "ser", "infl": "SUBJ_PRES/3sg" } },
         { "s": "el", "skip": true },
         { "s": "enfoque", "lemma": "enfoque", "pos": "名詞", "ja": "アプローチ・焦点" },
         { "s": "la", "skip": true },
@@ -676,7 +676,7 @@
       "tags": ["学術", "直説法現在"],
       "grammar": "quedar pendiente は「未解決のまま残る」。論文の結びで今後の課題を示す型。",
       "tokens": [
-        { "s": "Queda pendiente", "lemma": "quedar pendiente", "pos": "慣用表現", "ja": "未解決のまま残る", "idiom": true },
+        { "s": "Queda pendiente", "lemma": "quedar pendiente", "pos": "慣用表現", "ja": "未解決のまま残る", "idiom": true, "verb": { "s": "Queda", "lemma": "quedar", "infl": "IND_PRES/3sg" } },
         { "s": "determinar", "lemma": "determinar", "pos": "動詞", "ja": "決定する・特定する", "label": "不定詞" },
         { "s": "hasta qué punto", "lemma": "hasta qué punto", "pos": "慣用表現", "ja": "どこまで・どの程度", "idiom": true },
         { "s": "el", "skip": true },

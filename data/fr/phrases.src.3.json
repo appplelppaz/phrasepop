@@ -52,7 +52,7 @@
         { "s": "que", "skip": true },
         { "s": "la", "skip": true },
         { "s": "disposition", "lemma": "disposition", "pos": "名詞", "ja": "規定・配置" },
-        { "s": "porte atteinte aux", "lemma": "porter atteinte à", "pos": "慣用表現", "ja": "〜を侵害する", "idiom": true },
+        { "s": "porte atteinte aux", "lemma": "porter atteinte à", "pos": "慣用表現", "ja": "〜を侵害する", "idiom": true, "verb": { "s": "porte", "lemma": "porter", "infl": "PRES/3sg" } },
         { "s": "libertés fondamentales", "lemma": "libertés fondamentales", "pos": "名詞句", "ja": "基本的自由", "idiom": true }
       ]
     },
@@ -83,7 +83,7 @@
       "tags": ["法律", "熟語", "単純未来"],
       "grammar": "il ne fait aucun doute que は「疑いの余地はない」。faire jurisprudence で「判例となる」。",
       "tokens": [
-        { "s": "Il ne fait aucun doute que", "lemma": "il ne fait aucun doute que", "pos": "慣用表現", "ja": "〜は疑いようがない", "idiom": true },
+        { "s": "Il ne fait aucun doute que", "lemma": "il ne fait aucun doute que", "pos": "慣用表現", "ja": "〜は疑いようがない", "idiom": true, "verb": { "s": "fait", "lemma": "faire", "infl": "PRES/3sg" } },
         { "s": "cette", "skip": true },
         { "s": "décision", "lemma": "décision", "pos": "名詞", "ja": "決定・判断" },
         { "s": "fera", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "FUT/3sg" },
@@ -205,7 +205,7 @@
       "tags": ["論説", "接続法", "単純未来"],
       "grammar": "quel que soit は「どんな〜であろうと」。quel が名詞に性数一致するのが要点。",
       "tokens": [
-        { "s": "Quelles que soient", "lemma": "quel que soit", "pos": "慣用表現", "ja": "どんな〜であろうと", "idiom": true, "note": "quel は後ろの名詞に性数一致する" },
+        { "s": "Quelles que soient", "lemma": "quel que soit", "pos": "慣用表現", "ja": "どんな〜であろうと", "idiom": true, "note": "quel は後ろの名詞に性数一致する", "verb": { "s": "soient", "lemma": "être", "infl": "SUBJ/3pl" } },
         { "s": "les", "skip": true },
         { "s": "réformes", "lemma": "réforme", "pos": "名詞", "ja": "改革" },
         { "s": "engagées", "lemma": "engager", "pos": "動詞", "ja": "着手する・雇う", "label": "過去分詞・女性複数" },
@@ -318,7 +318,7 @@
         { "s": "une", "skip": true },
         { "s": "hypothèse", "lemma": "hypothèse", "pos": "名詞", "ja": "仮説" },
         { "s": "qui", "skip": true },
-        { "s": "reste à", "lemma": "rester à + 不定詞", "pos": "慣用表現", "ja": "まだ〜されていない", "idiom": true },
+        { "s": "reste à", "lemma": "rester à + 不定詞", "pos": "慣用表現", "ja": "まだ〜されていない", "idiom": true, "verb": { "s": "reste", "lemma": "rester", "infl": "PRES/3sg" } },
         { "s": "démontrer", "lemma": "démontrer", "pos": "動詞", "ja": "証明する・示す", "label": "不定詞" }
       ]
     },
@@ -346,7 +346,7 @@
       "tags": ["報道", "経済", "複合過去"],
       "grammar": "compte tenu de は「〜を考慮すると」という硬い書き言葉。conjoncture は「情勢・局面」。",
       "tokens": [
-        { "s": "Compte tenu de", "lemma": "compte tenu de", "pos": "慣用表現", "ja": "〜を考慮すると", "idiom": true, "note": "硬い書き言葉" },
+        { "s": "Compte tenu de", "lemma": "compte tenu de", "pos": "慣用表現", "ja": "〜を考慮すると", "idiom": true, "note": "硬い書き言葉", "verb": { "s": "tenu", "lemma": "tenir", "infl": "PPASSE" } },
         { "s": "la", "skip": true },
         { "s": "conjoncture", "lemma": "conjoncture", "pos": "名詞", "ja": "情勢・局面" },
         { "s": "la", "skip": true },

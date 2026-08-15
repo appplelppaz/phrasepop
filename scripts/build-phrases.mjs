@@ -19,6 +19,11 @@
  *   { "s": "llueva", "lemma": "llover", "pos": "動詞", "ja": "雨が降る", "infl": "SUBJ_PRES/3sg" }
  *   { "s": "no", "skip": true }                        機能語（意味カードを出さない）
  *   { "s": "ojalá que", "lemma": "...", "idiom": true } 熟語・成語（複数語にまたがる）
+ *
+ * 熟語が動詞を含むときは、その動詞の活用も普通の動詞と同じように出す。
+ * トークンは重ねられないので、熟語トークン側に「中のどの語か」を書く:
+ *   { "s": "dieron cuenta", "lemma": "darse cuenta de", "pos": "慣用表現", "ja": "気づく",
+ *     "idiom": true, "verb": { "s": "dieron", "lemma": "dar", "infl": "IND_PRET/3pl" } }
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -40,6 +45,64 @@ const PERSON_INDEX = { "1sg": 0, "2sg": 1, "3sg": 2, "1pl": 3, "2pl": 4, "3pl": 
 
 /** 比較用の正規化。文頭の大文字や前後の記号を無視する。 */
 const norm = (s) => s.toLocaleLowerCase().normalize("NFC").trim();
+
+/**
+ * 活用キー（"SUBJ_PRES/3sg"）から活用ラベルを作り、表層形が活用表と一致するか照合する。
+ *
+ * 一致しなければ errors に積んで null を返す。ここを通さずに活用ラベルを付ける経路は
+ * 作らない。熟語の中の動詞（darse cuenta の dieron）も普通の動詞と同じくここを通す。
+ */
+function resolveInflection({ lang, table, verbByLemma, lemma, infl, surface, where, errors }) {
+  const [tense, person] = infl.split("/");
+  const tenseLabel = table.tenseLabels[tense];
+  const verb = verbByLemma.get(lemma);
+
+  if (!tenseLabel) {
+    errors.push(`${where}: 未知の時制キー "${tense}" ("${surface}")`);
+    return null;
+  }
+  if (!verb) {
+    errors.push(
+      `${where}: "${lemma}" が活用表に無い。scripts/verb-lists/${lang}.json に足して活用表を作り直す`,
+    );
+    return null;
+  }
+  const row = verb.forms[tense];
+  if (!row) {
+    errors.push(`${where}: ${lemma} に時制 "${tense}" が無い`);
+    return null;
+  }
+
+  // 人称を持たない形（分詞・不定詞）は 0 番だけを見る。
+  const idx = person ? PERSON_INDEX[person] : 0;
+  if (person && idx === undefined) {
+    errors.push(`${where}: 未知の人称 "${person}" ("${surface}")`);
+    return null;
+  }
+
+  const expected = row[idx];
+  // 複合時制は "he hablado" のように助動詞を含むので、表層形が単語 1 つのときは
+  // 末尾の語（分詞）と照合する。
+  const candidates = person ? [expected, expected.split(" ").slice(-1)[0]] : [expected];
+  if (!candidates.some((c) => norm(c) === norm(surface))) {
+    errors.push(
+      `${where}: 活用が一致しない。"${surface}" と書かれているが ` +
+        `${lemma} / ${infl} は "${expected}"`,
+    );
+    return null;
+  }
+
+  const inflection = person
+    ? { label: `${tenseLabel}・${PERSON_LABEL[person]}`, tense, person }
+    : { label: tenseLabel, tense };
+
+  // 不規則活用なら、その人称に限った説明を添える。
+  // 「本来の規則形」との差分から自動生成されるので手書きの誤りが入らない。
+  const detail = analyzeTense(lang, lemma, tense, row, verb.forms)?.perPerson?.[idx];
+  if (detail) inflection.irregular = { code: detail.code, text: detail.text };
+
+  return inflection;
+}
 
 function build(lang, errors) {
   // 原本は phrases.src.json / phrases.src.2.json … と分割してよい。
@@ -110,67 +173,27 @@ function build(lang, errors) {
 
       // --- 活用ラベルを活用表から生成し、表層形と突き合わせる ---------------
       if (t.infl) {
-        const [tense, person] = t.infl.split("/");
-        const tenseLabel = table.tenseLabels[tense];
-        const verb = verbByLemma.get(t.lemma);
-
-        if (!tenseLabel) {
-          errors.push(`${where}: 未知の時制キー "${tense}" ("${t.s}")`);
-        } else if (!verb) {
-          errors.push(
-            `${where}: "${t.lemma}" が活用表に無い。scripts/verb-lists/${lang}.json に足して活用表を作り直す`,
-          );
+        const inflection = resolveInflection({
+          lang, table, verbByLemma,
+          lemma: t.lemma, infl: t.infl, surface: t.s, where, errors,
+        });
+        if (inflection) gloss.inflection = inflection;
+      } else if (t.verb) {
+        // 熟語の中の動詞。トークンは重ねられないので、熟語トークンに
+        // 「中のどの語がどう活用しているか」を持たせる。照合は普通の動詞と同じ。
+        const v = t.verb;
+        if (!v.s || !v.lemma || !v.infl) {
+          errors.push(`${where}: "${t.s}" の verb には s / lemma / infl が要る`);
+        } else if (!t.s.toLocaleLowerCase().includes(v.s.toLocaleLowerCase())) {
+          errors.push(`${where}: verb の "${v.s}" が熟語 "${t.s}" の中に無い`);
         } else {
-          const row = verb.forms[tense];
-          if (!row) {
-            errors.push(`${where}: ${t.lemma} に時制 "${tense}" が無い`);
-          } else if (person) {
-            const idx = PERSON_INDEX[person];
-            if (idx === undefined) {
-              errors.push(`${where}: 未知の人称 "${person}" ("${t.s}")`);
-            } else {
-              const expected = row[idx];
-              // 複合時制は "he hablado" のように助動詞を含むので、表層形が単語 1 つのときは
-              // 末尾の語（分詞）と照合する。
-              const candidates = [expected, expected.split(" ").slice(-1)[0]];
-              if (!candidates.some((c) => norm(c) === norm(t.s))) {
-                errors.push(
-                  `${where}: 活用が一致しない。"${t.s}" と書かれているが ` +
-                    `${t.lemma} / ${tense} / ${person} は "${expected}"`,
-                );
-              } else {
-                gloss.inflection = {
-                  label: `${tenseLabel}・${PERSON_LABEL[person]}`,
-                  tense,
-                  person,
-                };
-                // 不規則活用なら、その人称に限った説明を添える。
-                // 「本来の規則形」との差分から自動生成されるので手書きの誤りが入らない。
-                const analysis = analyzeTense(lang, t.lemma, tense, row, verb.forms);
-                const detail = analysis?.perPerson?.[idx];
-                if (detail) {
-                  gloss.inflection.irregular = {
-                    code: detail.code,
-                    text: detail.text,
-                  };
-                }
-              }
-            }
-          } else {
-            // 分詞など人称を持たない形。
-            const expected = row[0];
-            if (norm(expected) !== norm(t.s)) {
-              errors.push(
-                `${where}: 活用が一致しない。"${t.s}" と書かれているが ${t.lemma} / ${tense} は "${expected}"`,
-              );
-            } else {
-              gloss.inflection = { label: tenseLabel, tense };
-              const analysis = analyzeTense(lang, t.lemma, tense, row, verb.forms);
-              const detail = analysis?.perPerson?.[0];
-              if (detail) {
-                gloss.inflection.irregular = { code: detail.code, text: detail.text };
-              }
-            }
+          const inflection = resolveInflection({
+            lang, table, verbByLemma,
+            lemma: v.lemma, infl: v.infl, surface: v.s, where, errors,
+          });
+          if (inflection) {
+            gloss.inflection = inflection;
+            gloss.verb = { surface: v.s, lemma: v.lemma };
           }
         }
       } else if (t.label) {

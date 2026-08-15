@@ -51,7 +51,7 @@
         { "s": "que", "skip": true },
         { "s": "le", "skip": true },
         { "s": "phénomène", "lemma": "phénomène", "pos": "名詞", "ja": "現象" },
-        { "s": "tient à", "lemma": "tenir à", "pos": "慣用表現", "ja": "〜に起因する", "idiom": true },
+        { "s": "tient à", "lemma": "tenir à", "pos": "慣用表現", "ja": "〜に起因する", "idiom": true, "verb": { "s": "tient", "lemma": "tenir", "infl": "PRES/3sg" } },
         { "s": "des facteurs structurels", "lemma": "facteur structurel", "pos": "名詞句", "ja": "構造的要因", "idiom": true }
       ]
     },
@@ -111,7 +111,7 @@
       "tags": ["学術", "現在分詞"],
       "grammar": "cela étant は「そうであるならば」。現在分詞を使った論証の接続表現。",
       "tokens": [
-        { "s": "Cela étant", "lemma": "cela étant", "pos": "慣用表現", "ja": "そうであるならば", "idiom": true, "note": "現在分詞を使った論証の接続表現" },
+        { "s": "Cela étant", "lemma": "cela étant", "pos": "慣用表現", "ja": "そうであるならば", "idiom": true, "note": "現在分詞を使った論証の接続表現", "verb": { "s": "étant", "lemma": "être", "infl": "PPRES" } },
         { "s": "la", "skip": true },
         { "s": "conclusion", "lemma": "conclusion", "pos": "名詞", "ja": "結論" },
         { "s": "de l'", "skip": true },
@@ -164,9 +164,9 @@
       "tags": ["学術", "直説法現在"],
       "grammar": "il y a lieu de は「〜するのが妥当だ」という硬い言い方。ce qui précède は「前述の内容」。",
       "tokens": [
-        { "s": "Compte tenu de", "lemma": "compte tenu de", "pos": "慣用表現", "ja": "〜を考慮すると", "idiom": true },
+        { "s": "Compte tenu de", "lemma": "compte tenu de", "pos": "慣用表現", "ja": "〜を考慮すると", "idiom": true, "verb": { "s": "tenu", "lemma": "tenir", "infl": "PPASSE" } },
         { "s": "ce qui précède", "lemma": "ce qui précède", "pos": "慣用表現", "ja": "前述の内容", "idiom": true },
-        { "s": "il y a lieu de", "lemma": "il y a lieu de", "pos": "慣用表現", "ja": "〜するのが妥当だ", "idiom": true },
+        { "s": "il y a lieu de", "lemma": "il y a lieu de", "pos": "慣用表現", "ja": "〜するのが妥当だ", "idiom": true, "verb": { "s": "a", "lemma": "avoir", "infl": "PRES/3sg" } },
         { "s": "revoir", "lemma": "revoir", "pos": "動詞", "ja": "見直す・再会する", "label": "不定詞" },
         { "s": "le cadre théorique", "lemma": "cadre théorique", "pos": "名詞句", "ja": "理論的枠組み", "idiom": true }
       ]
@@ -201,7 +201,7 @@
         { "s": "un", "skip": true },
         { "s": "modèle", "lemma": "modèle", "pos": "名詞", "ja": "モデル・模型" },
         { "s": "qui", "skip": true },
-        { "s": "reste à", "lemma": "rester à + 不定詞", "pos": "慣用表現", "ja": "まだ〜されていない", "idiom": true },
+        { "s": "reste à", "lemma": "rester à + 不定詞", "pos": "慣用表現", "ja": "まだ〜されていない", "idiom": true, "verb": { "s": "reste", "lemma": "rester", "infl": "PRES/3sg" } },
         { "s": "valider", "lemma": "valider", "pos": "動詞", "ja": "検証する・有効にする", "label": "不定詞" }
       ]
     },
@@ -302,7 +302,7 @@
       "tags": ["学術", "条件法現在"],
       "grammar": "étant donné que は「〜である以上」。条件法で結論を控えめに述べる。",
       "tokens": [
-        { "s": "Étant donné que", "lemma": "étant donné que", "pos": "接続詞", "ja": "〜である以上・〜なので", "idiom": true },
+        { "s": "Étant donné que", "lemma": "étant donné que", "pos": "接続詞", "ja": "〜である以上・〜なので", "idiom": true, "verb": { "s": "Étant", "lemma": "être", "infl": "PPRES" } },
         { "s": "les", "skip": true },
         { "s": "preuves", "lemma": "preuve", "pos": "名詞", "ja": "証拠" },
         { "s": "sont", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3pl" },
@@ -353,7 +353,7 @@
       "level": "C2",
       "tags": ["学術", "接続法", "受動態"],
       "tokens": [
-        { "s": "Il est recommandé que", "lemma": "il est recommandé que", "pos": "慣用表現", "ja": "〜することが推奨される", "idiom": true, "note": "後ろは接続法" },
+        { "s": "Il est recommandé que", "lemma": "il est recommandé que", "pos": "慣用表現", "ja": "〜することが推奨される", "idiom": true, "note": "後ろは接続法", "verb": { "s": "est", "lemma": "être", "infl": "PRES/3sg" } },
         { "s": "les", "skip": true },
         { "s": "données", "lemma": "donnée", "pos": "名詞", "ja": "データ・資料" },
         { "s": "soient", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "SUBJ/3pl" },
@@ -370,7 +370,7 @@
       "tags": ["学術", "直説法現在"],
       "grammar": "au vu de は「〜に照らして」という硬い書き言葉。",
       "tokens": [
-        { "s": "Au vu de", "lemma": "au vu de", "pos": "慣用表現", "ja": "〜に照らして", "idiom": true, "note": "硬い書き言葉" },
+        { "s": "Au vu de", "lemma": "au vu de", "pos": "慣用表現", "ja": "〜に照らして", "idiom": true, "note": "硬い書き言葉", "verb": { "s": "vu", "lemma": "voir", "infl": "PPASSE" } },
         { "s": "ce qui a été observé", "lemma": "observer", "pos": "動詞", "ja": "観察する", "label": "受動態・複合過去" },
         { "s": "l'", "skip": true },
         { "s": "hypothèse", "lemma": "hypothèse", "pos": "名詞", "ja": "仮説" },
@@ -403,7 +403,7 @@
       "level": "C1",
       "tags": ["学術", "接続法"],
       "tokens": [
-        { "s": "Il est probable que", "lemma": "il est probable que", "pos": "慣用表現", "ja": "〜だろう・〜の可能性が高い", "idiom": true, "note": "後ろは接続法" },
+        { "s": "Il est probable que", "lemma": "il est probable que", "pos": "慣用表現", "ja": "〜だろう・〜の可能性が高い", "idiom": true, "note": "後ろは接続法", "verb": { "s": "est", "lemma": "être", "infl": "PRES/3sg" } },
         { "s": "de futurs", "skip": true },
         { "s": "travaux", "lemma": "travail", "pos": "名詞", "ja": "研究・仕事", "note": "複数形は travaux という不規則形" },
         { "s": "doivent", "lemma": "devoir", "pos": "動詞", "ja": "〜しなければならない", "infl": "SUBJ/3pl" },
@@ -642,7 +642,7 @@
       "tags": ["学術", "接続法"],
       "grammar": "quel que soit は「どのような〜であれ」。quel が後ろの名詞に性数一致する。",
       "tokens": [
-        { "s": "Quelle que soit", "lemma": "quel que soit", "pos": "慣用表現", "ja": "どのような〜であれ", "idiom": true, "note": "quel は後ろの名詞に性数一致する" },
+        { "s": "Quelle que soit", "lemma": "quel que soit", "pos": "慣用表現", "ja": "どのような〜であれ", "idiom": true, "note": "quel は後ろの名詞に性数一致する", "verb": { "s": "soit", "lemma": "être", "infl": "SUBJ/3sg" } },
         { "s": "l'", "skip": true },
         { "s": "approche", "lemma": "approche", "pos": "名詞", "ja": "アプローチ・接近" },
         { "s": "l'", "skip": true },
@@ -679,7 +679,7 @@
       "tags": ["学術", "直説法現在"],
       "grammar": "il reste à + 不定詞は「〜することが残っている」。論文の結びで今後の課題を示す。",
       "tokens": [
-        { "s": "Il reste à", "lemma": "il reste à + 不定詞", "pos": "慣用表現", "ja": "〜することが今後の課題である", "idiom": true },
+        { "s": "Il reste à", "lemma": "il reste à + 不定詞", "pos": "慣用表現", "ja": "〜することが今後の課題である", "idiom": true, "verb": { "s": "reste", "lemma": "rester", "infl": "PRES/3sg" } },
         { "s": "déterminer", "lemma": "déterminer", "pos": "動詞", "ja": "決定する・特定する", "label": "不定詞" },
         { "s": "dans quelle mesure", "lemma": "dans quelle mesure", "pos": "慣用表現", "ja": "どこまで・どの程度", "idiom": true },
         { "s": "l'", "skip": true },

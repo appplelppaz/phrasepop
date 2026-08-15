@@ -68,7 +68,7 @@
         { "s": "Ils", "skip": true },
         { "s": "vinrent", "lemma": "venir", "pos": "動詞", "ja": "来る", "infl": "PS/3pl" },
         { "s": "virent", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "infl": "PS/3pl" },
-        { "s": "s'en allèrent", "lemma": "s'en aller", "pos": "動詞", "ja": "立ち去る", "idiom": true },
+        { "s": "s'en allèrent", "lemma": "s'en aller", "pos": "動詞", "ja": "立ち去る", "idiom": true, "verb": { "s": "allèrent", "lemma": "aller", "infl": "PS/3pl" } },
         { "s": "sans un mot", "lemma": "sans un mot", "pos": "慣用表現", "ja": "一言も発さずに", "idiom": true }
       ]
     },
@@ -291,7 +291,7 @@
       "tags": ["文学", "条件法過去第二形", "大過去"],
       "grammar": "on eût dit は「〜のようだった」。形は接続法大過去だが条件法過去の代わりに使う文語形。",
       "tokens": [
-        { "s": "On eût dit que", "lemma": "on eût dit que", "pos": "慣用表現", "ja": "〜のようだった", "idiom": true, "note": "文語。形は接続法大過去だが条件法過去の意味になる" },
+        { "s": "On eût dit que", "lemma": "on eût dit que", "pos": "慣用表現", "ja": "〜のようだった", "idiom": true, "note": "文語。形は接続法大過去だが条件法過去の意味になる", "verb": { "s": "dit", "lemma": "dire", "infl": "PPASSE" } },
         { "s": "le", "skip": true },
         { "s": "temps", "lemma": "temps", "pos": "名詞", "ja": "時間・天気" },
         { "s": "s'était arrêté", "lemma": "arrêter", "pos": "動詞", "ja": "止める・（代名動詞で）止まる", "label": "大過去・3人称単数（代名動詞）" },
@@ -400,7 +400,7 @@
         { "s": "que", "skip": true },
         { "s": "la", "skip": true },
         { "s": "pluie", "lemma": "pluie", "pos": "名詞", "ja": "雨" },
-        { "s": "se mit à", "lemma": "se mettre à", "pos": "慣用表現", "ja": "〜し始める", "idiom": true },
+        { "s": "se mit à", "lemma": "se mettre à", "pos": "慣用表現", "ja": "〜し始める", "idiom": true, "verb": { "s": "mit", "lemma": "mettre", "infl": "PS/3sg" } },
         { "s": "tomber", "lemma": "tomber", "pos": "動詞", "ja": "落ちる・降る", "label": "不定詞" }
       ]
     },
