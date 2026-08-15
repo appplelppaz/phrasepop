@@ -122,3 +122,28 @@ test("es: 不規則活用の中身が表示される", async ({ page }) => {
   }
   throw new Error("12 枚めくっても不規則活用のフレーズが出なかった");
 });
+
+/**
+ * 人称マークは語の真上に絶対配置しているため、箱の幅が語の幅から計算される。
+ * whitespace-nowrap が無いと「3単」が2行に折り返し、短い語（es, fue, van など）の
+ * 上では語に重なる。実際に本番でそうなったので、折り返していないことを見張る。
+ */
+test("人称マークが折り返して単語に重ならない", async ({ page }) => {
+  await startStudy(page, "es");
+
+  let seen = 0;
+  for (let i = 0; i < 30; i += 1) {
+    const marks = page.locator(
+      "main p[lang] [aria-label$='人称単数'], main p[lang] [aria-label$='人称複数']",
+    );
+    for (let m = 0; m < (await marks.count()); m += 1) {
+      const box = await marks.nth(m).boundingBox();
+      const word = await marks.nth(m).textContent();
+      // 1行なら 20px 前後。折り返すと倍近くになる。
+      expect(box!.height, `人称マーク "${word}" が折り返している`).toBeLessThan(25);
+      seen += 1;
+    }
+    await page.getByRole("button", { name: "覚えた" }).click();
+  }
+  expect(seen, "30 枚めくっても人称マークが1つも出なかった").toBeGreaterThan(0);
+});

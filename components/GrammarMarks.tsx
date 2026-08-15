@@ -20,7 +20,10 @@ export function PersonMark({ person, color }: { person: Person; color: string })
   const spec = PERSON_SPEC[person];
   return (
     <span
-      className="inline-flex items-center rounded-full px-1.5 py-px text-[12px] font-bold leading-[1.4] tabular-nums text-white"
+      // whitespace-nowrap が要る。語の上に絶対配置すると箱の幅が語の幅から
+      // 計算されるため、短い語（fue, van など）の上では「3単」が2行に折り返して
+      // 語に重なる。
+      className="inline-flex items-center whitespace-nowrap rounded-full px-1.5 py-px text-[12px] font-bold leading-[1.4] tabular-nums text-white"
       style={{ backgroundColor: color }}
       title={spec.label}
       aria-label={spec.label}
