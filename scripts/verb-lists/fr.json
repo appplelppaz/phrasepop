@@ -822,6 +822,35 @@
       "ja": "聞く・耳を傾ける"
     },
     {
+      "lemma": "retrouver",
+      "ja": "再び見つける・落ち合う"
+    },
+    {
+      "lemma": "quitter",
+      "ja": "去る・（電話を）切る"
+    },
+    {
+      "lemma": "rappeler",
+      "ja": "かけ直す・思い出させる"
+    },
+    {
+      "lemma": "rentrer",
+      "ja": "帰る・戻る",
+      "aux": "ETRE"
+    },
+    {
+      "lemma": "arranger",
+      "ja": "整える・都合がよい"
+    },
+    {
+      "lemma": "décaler",
+      "ja": "ずらす"
+    },
+    {
+      "lemma": "amuser",
+      "ja": "楽しませる"
+    },
+    {
       "lemma": "traverser",
       "ja": "渡る・横断する"
     },

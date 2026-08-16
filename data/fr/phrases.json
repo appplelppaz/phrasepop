@@ -15124,6 +15124,2731 @@
         }
       ],
       "grammar": "faire mieux de + 不定詞で「〜したほうがよい」。条件法で忠告になる。"
+    },
+    {
+      "id": "fr-0221",
+      "lang": "fr",
+      "text": "Quelle heure est-il ?",
+      "ja": "何時ですか。",
+      "level": "A1",
+      "tags": [
+        "時間",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Quelle heure",
+          "start": 0,
+          "end": 12,
+          "gloss": {
+            "lemma": "quelle heure",
+            "pos": "疑問詞",
+            "ja": "何時",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "est",
+          "start": 13,
+          "end": 16,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "時刻の il は非人称",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "il",
+          "start": 17,
+          "end": 19
+        }
+      ],
+      "grammar": "時刻を尋ねる決まり文句。il は天気や時刻を表す非人称の主語。"
+    },
+    {
+      "id": "fr-0222",
+      "lang": "fr",
+      "text": "Il est huit heures et demie.",
+      "ja": "8時半です。",
+      "level": "A1",
+      "tags": [
+        "時間",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "est",
+          "start": 3,
+          "end": 6,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "huit",
+          "start": 7,
+          "end": 11,
+          "gloss": {
+            "lemma": "huit",
+            "pos": "数詞",
+            "ja": "8"
+          }
+        },
+        {
+          "surface": "heures",
+          "start": 12,
+          "end": 18,
+          "gloss": {
+            "lemma": "heure",
+            "pos": "名詞",
+            "ja": "時間・時刻"
+          }
+        },
+        {
+          "surface": "et demie",
+          "start": 19,
+          "end": 27,
+          "gloss": {
+            "lemma": "et demie",
+            "pos": "慣用表現",
+            "ja": "〜時半",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "et demie は「半」。heures が女性名詞なので demie も女性形になる。"
+    },
+    {
+      "id": "fr-0223",
+      "lang": "fr",
+      "text": "Je me lève à sept heures.",
+      "ja": "7時に起きます。",
+      "level": "A1",
+      "tags": [
+        "時間",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je me",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "lève",
+          "start": 6,
+          "end": 10,
+          "gloss": {
+            "lemma": "lever",
+            "pos": "動詞",
+            "ja": "上げる・（代名動詞で）起きる",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の e が è に変わる（lev- → lèv-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "à sept heures",
+          "start": 11,
+          "end": 24,
+          "gloss": {
+            "lemma": "à sept heures",
+            "pos": "慣用表現",
+            "ja": "7時に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "se lever は代名動詞。è に変わる語幹（je me lève）に注意。"
+    },
+    {
+      "id": "fr-0224",
+      "lang": "fr",
+      "text": "On se retrouve devant le cinéma ?",
+      "ja": "映画館の前で待ち合わせる？",
+      "level": "A1",
+      "tags": [
+        "約束",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "On se",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "retrouve",
+          "start": 6,
+          "end": 14,
+          "gloss": {
+            "lemma": "retrouver",
+            "pos": "動詞",
+            "ja": "再び見つける・（代名動詞で）落ち合う",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "devant",
+          "start": 15,
+          "end": 21,
+          "gloss": {
+            "lemma": "devant",
+            "pos": "前置詞",
+            "ja": "〜の前で"
+          }
+        },
+        {
+          "surface": "le",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "surface": "cinéma",
+          "start": 25,
+          "end": 31,
+          "gloss": {
+            "lemma": "cinéma",
+            "pos": "名詞",
+            "ja": "映画館・映画"
+          }
+        }
+      ],
+      "grammar": "se retrouver で「落ち合う」。待ち合わせの決まり文句。"
+    },
+    {
+      "id": "fr-0225",
+      "lang": "fr",
+      "text": "Allô, c'est Marie à l'appareil.",
+      "ja": "もしもし、マリです。",
+      "level": "A1",
+      "tags": [
+        "電話",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Allô",
+          "start": 0,
+          "end": 4,
+          "gloss": {
+            "lemma": "allô",
+            "pos": "間投詞",
+            "ja": "もしもし"
+          }
+        },
+        {
+          "surface": "c'",
+          "start": 6,
+          "end": 8
+        },
+        {
+          "surface": "est",
+          "start": 8,
+          "end": 11,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "Marie",
+          "start": 12,
+          "end": 17,
+          "gloss": {
+            "lemma": "Marie",
+            "pos": "固有名詞",
+            "ja": "マリ（人名）"
+          }
+        },
+        {
+          "surface": "à l'appareil",
+          "start": 18,
+          "end": 30,
+          "gloss": {
+            "lemma": "à l'appareil",
+            "pos": "慣用表現",
+            "ja": "電話口で",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "à l'appareil は「電話口で」。電話で名乗るときの決まり文句。"
+    },
+    {
+      "id": "fr-0226",
+      "lang": "fr",
+      "text": "Je te téléphone ce soir.",
+      "ja": "今晩電話するね。",
+      "level": "A1",
+      "tags": [
+        "電話",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "te",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "téléphone",
+          "start": 6,
+          "end": 15,
+          "gloss": {
+            "lemma": "téléphoner",
+            "pos": "動詞",
+            "ja": "電話する",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "ce soir",
+          "start": 16,
+          "end": 23,
+          "gloss": {
+            "lemma": "ce soir",
+            "pos": "慣用表現",
+            "ja": "今晩",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "téléphoner à qqn。人は間接目的語なので te になる。"
+    },
+    {
+      "id": "fr-0227",
+      "lang": "fr",
+      "text": "Aujourd'hui, c'est lundi.",
+      "ja": "今日は月曜です。",
+      "level": "A1",
+      "tags": [
+        "時間",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Aujourd'hui",
+          "start": 0,
+          "end": 11,
+          "gloss": {
+            "lemma": "aujourd'hui",
+            "pos": "副詞",
+            "ja": "今日"
+          }
+        },
+        {
+          "surface": "c'",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "surface": "est",
+          "start": 15,
+          "end": 18,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "lundi",
+          "start": 19,
+          "end": 24,
+          "gloss": {
+            "lemma": "lundi",
+            "pos": "名詞",
+            "ja": "月曜日"
+          }
+        }
+      ],
+      "grammar": "曜日に冠詞を付けなければ「その日」を指す。"
+    },
+    {
+      "id": "fr-0228",
+      "lang": "fr",
+      "text": "Je suis libre demain après-midi.",
+      "ja": "明日の午後は空いています。",
+      "level": "A1",
+      "tags": [
+        "予定",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "suis",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "libre",
+          "start": 8,
+          "end": 13,
+          "gloss": {
+            "lemma": "libre",
+            "pos": "形容詞",
+            "ja": "自由な・空いている"
+          }
+        },
+        {
+          "surface": "demain après-midi",
+          "start": 14,
+          "end": 31,
+          "gloss": {
+            "lemma": "demain après-midi",
+            "pos": "慣用表現",
+            "ja": "明日の午後",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0229",
+      "lang": "fr",
+      "text": "On mange à midi.",
+      "ja": "お昼に食べます。",
+      "level": "A1",
+      "tags": [
+        "時間",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "On",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "mange",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "manger",
+            "pos": "動詞",
+            "ja": "食べる",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "à midi",
+          "start": 9,
+          "end": 15,
+          "gloss": {
+            "lemma": "à midi",
+            "pos": "慣用表現",
+            "ja": "正午に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "midi（正午）と minuit（真夜中）には冠詞を付けない。"
+    },
+    {
+      "id": "fr-0230",
+      "lang": "fr",
+      "text": "Ne quittez pas, je vous le passe.",
+      "ja": "少々お待ちください、おつなぎします。",
+      "level": "A1",
+      "tags": [
+        "電話",
+        "命令法",
+        "否定"
+      ],
+      "tokens": [
+        {
+          "surface": "Ne",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "quittez",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "quitter",
+            "pos": "動詞",
+            "ja": "去る・（電話を）切る",
+            "inflection": {
+              "label": "命令法・2人称複数",
+              "tense": "IMPER",
+              "person": "2pl"
+            }
+          }
+        },
+        {
+          "surface": "pas",
+          "start": 11,
+          "end": 14
+        },
+        {
+          "surface": "je vous le",
+          "start": 16,
+          "end": 26
+        },
+        {
+          "surface": "passe",
+          "start": 27,
+          "end": 32,
+          "gloss": {
+            "lemma": "passer",
+            "pos": "動詞",
+            "ja": "通す・（電話を）つなぐ",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg"
+            }
+          }
+        }
+      ],
+      "grammar": "Ne quittez pas は電話の「切らないでください」＝「お待ちください」。"
+    },
+    {
+      "id": "fr-0231",
+      "lang": "fr",
+      "text": "Tu es libre ce week-end ?",
+      "ja": "今週末は空いてる？",
+      "level": "A2",
+      "tags": [
+        "予定",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Tu",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "es",
+          "start": 3,
+          "end": 5,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・2人称単数",
+              "tense": "PRES",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "libre",
+          "start": 6,
+          "end": 11,
+          "gloss": {
+            "lemma": "libre",
+            "pos": "形容詞",
+            "ja": "自由な・空いている"
+          }
+        },
+        {
+          "surface": "ce week-end",
+          "start": 12,
+          "end": 23,
+          "gloss": {
+            "lemma": "ce week-end",
+            "pos": "慣用表現",
+            "ja": "今週末",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0232",
+      "lang": "fr",
+      "text": "On va se voir la semaine prochaine.",
+      "ja": "来週会いましょう。",
+      "level": "A2",
+      "tags": [
+        "約束",
+        "近接未来"
+      ],
+      "tokens": [
+        {
+          "surface": "On",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "va",
+          "start": 3,
+          "end": 5,
+          "gloss": {
+            "lemma": "aller",
+            "pos": "動詞",
+            "ja": "行く・〜するつもりだ",
+            "note": "aller + 不定詞で近接未来",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "se",
+          "start": 6,
+          "end": 8
+        },
+        {
+          "surface": "voir",
+          "start": 9,
+          "end": 13,
+          "gloss": {
+            "lemma": "voir",
+            "pos": "動詞",
+            "ja": "見る・会う",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "la semaine prochaine",
+          "start": 14,
+          "end": 34,
+          "gloss": {
+            "lemma": "la semaine prochaine",
+            "pos": "慣用表現",
+            "ja": "来週",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0233",
+      "lang": "fr",
+      "text": "J'ai rendez-vous chez le dentiste.",
+      "ja": "歯医者の予約があります。",
+      "level": "A2",
+      "tags": [
+        "予定",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "J'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ai rendez-vous",
+          "start": 2,
+          "end": 16,
+          "gloss": {
+            "lemma": "avoir rendez-vous",
+            "pos": "慣用表現",
+            "ja": "約束・予約がある",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "ai",
+              "lemma": "avoir"
+            }
+          }
+        },
+        {
+          "surface": "chez",
+          "start": 17,
+          "end": 21,
+          "gloss": {
+            "lemma": "chez",
+            "pos": "前置詞",
+            "ja": "〜のところへ・〜の家で"
+          }
+        },
+        {
+          "surface": "le",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "surface": "dentiste",
+          "start": 25,
+          "end": 33,
+          "gloss": {
+            "lemma": "dentiste",
+            "pos": "名詞",
+            "ja": "歯医者"
+          }
+        }
+      ],
+      "grammar": "avoir rendez-vous で「約束・予約がある」。chez + 人で「〜のところへ」。"
+    },
+    {
+      "id": "fr-0234",
+      "lang": "fr",
+      "text": "Désolé, je ne peux pas ce jour-là.",
+      "ja": "ごめん、その日は無理です。",
+      "level": "A2",
+      "tags": [
+        "予定",
+        "否定",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Désolé",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "désolé",
+            "pos": "形容詞",
+            "ja": "申し訳なく思う"
+          }
+        },
+        {
+          "surface": "je",
+          "start": 8,
+          "end": 10
+        },
+        {
+          "surface": "ne",
+          "start": 11,
+          "end": 13
+        },
+        {
+          "surface": "peux",
+          "start": 14,
+          "end": 18,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas",
+          "start": 19,
+          "end": 22
+        },
+        {
+          "surface": "ce jour-là",
+          "start": 23,
+          "end": 33,
+          "gloss": {
+            "lemma": "ce jour-là",
+            "pos": "慣用表現",
+            "ja": "その日は",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0235",
+      "lang": "fr",
+      "text": "On peut remettre ça à jeudi ?",
+      "ja": "木曜に延ばせますか。",
+      "level": "A2",
+      "tags": [
+        "予定",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "On",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "peut",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "remettre",
+          "start": 8,
+          "end": 16,
+          "gloss": {
+            "lemma": "remettre",
+            "pos": "動詞",
+            "ja": "戻す・延期する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "ça",
+          "start": 17,
+          "end": 19
+        },
+        {
+          "surface": "à jeudi",
+          "start": 20,
+          "end": 27,
+          "gloss": {
+            "lemma": "à jeudi",
+            "pos": "慣用表現",
+            "ja": "木曜に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "remettre à + 日で「〜に延期する」。"
+    },
+    {
+      "id": "fr-0236",
+      "lang": "fr",
+      "text": "J'ai essayé de t'appeler ce matin.",
+      "ja": "今朝あなたに電話しようとしました。",
+      "level": "A2",
+      "tags": [
+        "電話",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "J'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ai essayé",
+          "start": 2,
+          "end": 11,
+          "gloss": {
+            "lemma": "essayer",
+            "pos": "動詞",
+            "ja": "試す・試みる",
+            "inflection": {
+              "label": "複合過去・1人称単数",
+              "tense": "PC",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "de t'",
+          "start": 12,
+          "end": 17
+        },
+        {
+          "surface": "appeler",
+          "start": 17,
+          "end": 24,
+          "gloss": {
+            "lemma": "appeler",
+            "pos": "動詞",
+            "ja": "呼ぶ・電話する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "ce matin",
+          "start": 25,
+          "end": 33,
+          "gloss": {
+            "lemma": "ce matin",
+            "pos": "慣用表現",
+            "ja": "今朝",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "essayer de + 不定詞で「〜しようとする」。"
+    },
+    {
+      "id": "fr-0237",
+      "lang": "fr",
+      "text": "Je vous rappelle dans dix minutes.",
+      "ja": "10分後にかけ直します。",
+      "level": "A2",
+      "tags": [
+        "電話",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "vous",
+          "start": 3,
+          "end": 7
+        },
+        {
+          "surface": "rappelle",
+          "start": 8,
+          "end": 16,
+          "gloss": {
+            "lemma": "rappeler",
+            "pos": "動詞",
+            "ja": "かけ直す・思い出させる",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の l が ll に変わる（rappel- → rappell-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "dans dix minutes",
+          "start": 17,
+          "end": 33,
+          "gloss": {
+            "lemma": "dans dix minutes",
+            "pos": "慣用表現",
+            "ja": "10分後に",
+            "idiom": true,
+            "note": "dans + 期間で「〜後に」"
+          }
+        }
+      ],
+      "grammar": "dans + 期間で「〜後に」。en + 期間（〜かけて）と混同しないこと。"
+    },
+    {
+      "id": "fr-0238",
+      "lang": "fr",
+      "text": "Le matin, je bois toujours du café.",
+      "ja": "朝はいつもコーヒーを飲みます。",
+      "level": "A2",
+      "tags": [
+        "時間",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Le matin",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "le matin",
+            "pos": "慣用表現",
+            "ja": "朝に",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "je",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "surface": "bois",
+          "start": 13,
+          "end": 17,
+          "gloss": {
+            "lemma": "boire",
+            "pos": "動詞",
+            "ja": "飲む",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "toujours",
+          "start": 18,
+          "end": 26,
+          "gloss": {
+            "lemma": "toujours",
+            "pos": "副詞",
+            "ja": "いつも・ずっと"
+          }
+        },
+        {
+          "surface": "du",
+          "start": 27,
+          "end": 29
+        },
+        {
+          "surface": "café",
+          "start": 30,
+          "end": 34,
+          "gloss": {
+            "lemma": "café",
+            "pos": "名詞",
+            "ja": "コーヒー・カフェ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0239",
+      "lang": "fr",
+      "text": "Je me couche tard le week-end.",
+      "ja": "週末は遅くに寝ます。",
+      "level": "A2",
+      "tags": [
+        "時間",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je me",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "couche",
+          "start": 6,
+          "end": 12,
+          "gloss": {
+            "lemma": "coucher",
+            "pos": "動詞",
+            "ja": "寝かせる・（代名動詞で）寝る",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "tard",
+          "start": 13,
+          "end": 17,
+          "gloss": {
+            "lemma": "tard",
+            "pos": "副詞",
+            "ja": "遅く"
+          }
+        },
+        {
+          "surface": "le week-end",
+          "start": 18,
+          "end": 29,
+          "gloss": {
+            "lemma": "le week-end",
+            "pos": "慣用表現",
+            "ja": "週末は",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0240",
+      "lang": "fr",
+      "text": "Vous pouvez laisser un message.",
+      "ja": "伝言を残していただけます。",
+      "level": "A2",
+      "tags": [
+        "電話",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Vous",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "surface": "pouvez",
+          "start": 5,
+          "end": 11,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "inflection": {
+              "label": "直説法現在・2人称複数",
+              "tense": "PRES",
+              "person": "2pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "laisser",
+          "start": 12,
+          "end": 19,
+          "gloss": {
+            "lemma": "laisser",
+            "pos": "動詞",
+            "ja": "残す・〜させておく",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 20,
+          "end": 22
+        },
+        {
+          "surface": "message",
+          "start": 23,
+          "end": 30,
+          "gloss": {
+            "lemma": "message",
+            "pos": "名詞",
+            "ja": "伝言・メッセージ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0241",
+      "lang": "fr",
+      "text": "Il est déjà tard, je rentre.",
+      "ja": "もう遅いので帰ります。",
+      "level": "A2",
+      "tags": [
+        "時間",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "est",
+          "start": 3,
+          "end": 6,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "déjà",
+          "start": 7,
+          "end": 11,
+          "gloss": {
+            "lemma": "déjà",
+            "pos": "副詞",
+            "ja": "すでに・もう"
+          }
+        },
+        {
+          "surface": "tard",
+          "start": 12,
+          "end": 16,
+          "gloss": {
+            "lemma": "tard",
+            "pos": "副詞",
+            "ja": "遅く"
+          }
+        },
+        {
+          "surface": "je",
+          "start": 18,
+          "end": 20
+        },
+        {
+          "surface": "rentre",
+          "start": 21,
+          "end": 27,
+          "gloss": {
+            "lemma": "rentrer",
+            "pos": "動詞",
+            "ja": "帰る・戻る",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0242",
+      "lang": "fr",
+      "text": "Ça t'arrange si on décale d'une heure ?",
+      "ja": "1時間ずらしても大丈夫？",
+      "level": "A2",
+      "tags": [
+        "予定",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Ça",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "t'",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "arrange",
+          "start": 5,
+          "end": 12,
+          "gloss": {
+            "lemma": "arranger",
+            "pos": "動詞",
+            "ja": "整える・都合がよい",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "si on",
+          "start": 13,
+          "end": 18
+        },
+        {
+          "surface": "décale",
+          "start": 19,
+          "end": 25,
+          "gloss": {
+            "lemma": "décaler",
+            "pos": "動詞",
+            "ja": "ずらす",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "d'une heure",
+          "start": 26,
+          "end": 37,
+          "gloss": {
+            "lemma": "d'une heure",
+            "pos": "慣用表現",
+            "ja": "1時間ぶん",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "arranger qqn で「〜にとって都合がよい」。"
+    },
+    {
+      "id": "fr-0243",
+      "lang": "fr",
+      "text": "J'ai oublié notre rendez-vous, je suis vraiment désolé.",
+      "ja": "約束を忘れていました、本当にごめんなさい。",
+      "level": "B1",
+      "tags": [
+        "予定",
+        "複合過去",
+        "謝罪"
+      ],
+      "tokens": [
+        {
+          "surface": "J'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ai oublié",
+          "start": 2,
+          "end": 11,
+          "gloss": {
+            "lemma": "oublier",
+            "pos": "動詞",
+            "ja": "忘れる",
+            "inflection": {
+              "label": "複合過去・1人称単数",
+              "tense": "PC",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "notre",
+          "start": 12,
+          "end": 17
+        },
+        {
+          "surface": "rendez-vous",
+          "start": 18,
+          "end": 29,
+          "gloss": {
+            "lemma": "rendez-vous",
+            "pos": "名詞",
+            "ja": "約束・予約"
+          }
+        },
+        {
+          "surface": "je",
+          "start": 31,
+          "end": 33
+        },
+        {
+          "surface": "suis",
+          "start": 34,
+          "end": 38,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "vraiment",
+          "start": 39,
+          "end": 47,
+          "gloss": {
+            "lemma": "vraiment",
+            "pos": "副詞",
+            "ja": "本当に"
+          }
+        },
+        {
+          "surface": "désolé",
+          "start": 48,
+          "end": 54,
+          "gloss": {
+            "lemma": "désolé",
+            "pos": "形容詞",
+            "ja": "申し訳なく思う"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0244",
+      "lang": "fr",
+      "text": "Il faut que je parte avant six heures.",
+      "ja": "6時前に出ないといけません。",
+      "level": "B1",
+      "tags": [
+        "予定",
+        "接続法",
+        "義務"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "faut",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "falloir",
+            "pos": "動詞",
+            "ja": "必要である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "que je",
+          "start": 8,
+          "end": 14
+        },
+        {
+          "surface": "parte",
+          "start": 15,
+          "end": 20,
+          "gloss": {
+            "lemma": "partir",
+            "pos": "動詞",
+            "ja": "出発する・去る",
+            "note": "il faut que のあとは接続法",
+            "inflection": {
+              "label": "接続法現在・1人称単数",
+              "tense": "SUBJ",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "avant six heures",
+          "start": 21,
+          "end": 37,
+          "gloss": {
+            "lemma": "avant six heures",
+            "pos": "慣用表現",
+            "ja": "6時前に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "partir の接続法 1人称単数は parte。il faut que のあとは必ず接続法。"
+    },
+    {
+      "id": "fr-0245",
+      "lang": "fr",
+      "text": "Quand j'aurai fini, je t'enverrai un message.",
+      "ja": "終わったらメッセージを送ります。",
+      "level": "B1",
+      "tags": [
+        "予定",
+        "前未来",
+        "単純未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Quand",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "quand",
+            "pos": "接続詞",
+            "ja": "〜のとき"
+          }
+        },
+        {
+          "surface": "j'",
+          "start": 6,
+          "end": 8
+        },
+        {
+          "surface": "aurai",
+          "start": 8,
+          "end": 13,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "note": "前未来の助動詞",
+            "inflection": {
+              "label": "単純未来・1人称単数",
+              "tense": "FUT",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "fini",
+          "start": 14,
+          "end": 18,
+          "gloss": {
+            "lemma": "finir",
+            "pos": "動詞",
+            "ja": "終える・終わる",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE"
+            }
+          }
+        },
+        {
+          "surface": "je t'",
+          "start": 20,
+          "end": 25
+        },
+        {
+          "surface": "enverrai",
+          "start": 25,
+          "end": 33,
+          "gloss": {
+            "lemma": "envoyer",
+            "pos": "動詞",
+            "ja": "送る",
+            "inflection": {
+              "label": "単純未来・1人称単数",
+              "tense": "FUT",
+              "person": "1sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹が不規則に変化する（envoyer- → enverr-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 34,
+          "end": 36
+        },
+        {
+          "surface": "message",
+          "start": 37,
+          "end": 44,
+          "gloss": {
+            "lemma": "message",
+            "pos": "名詞",
+            "ja": "伝言・メッセージ"
+          }
+        }
+      ],
+      "grammar": "quand のあとが未来のことなら未来形にする。「終えてしまっていたら」は前未来。"
+    },
+    {
+      "id": "fr-0246",
+      "lang": "fr",
+      "text": "Je n'ai pas eu le temps de te répondre.",
+      "ja": "返事をする時間がありませんでした。",
+      "level": "B1",
+      "tags": [
+        "電話",
+        "複合過去",
+        "否定"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "n'",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "ai",
+          "start": 5,
+          "end": 7,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "note": "複合過去の助動詞",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas",
+          "start": 8,
+          "end": 11
+        },
+        {
+          "surface": "eu",
+          "start": 12,
+          "end": 14,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "le temps de",
+          "start": 15,
+          "end": 26,
+          "gloss": {
+            "lemma": "avoir le temps de",
+            "pos": "慣用表現",
+            "ja": "〜する時間がある",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "te",
+          "start": 27,
+          "end": 29
+        },
+        {
+          "surface": "répondre",
+          "start": 30,
+          "end": 38,
+          "gloss": {
+            "lemma": "répondre",
+            "pos": "動詞",
+            "ja": "答える・返事する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ],
+      "grammar": "avoir le temps de + 不定詞で「〜する時間がある」。"
+    },
+    {
+      "id": "fr-0247",
+      "lang": "fr",
+      "text": "Ça fait une heure que je t'attends.",
+      "ja": "1時間も待ってるんだけど。",
+      "level": "B1",
+      "tags": [
+        "時間",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Ça fait",
+          "start": 0,
+          "end": 7,
+          "gloss": {
+            "lemma": "ça fait... que",
+            "pos": "慣用表現",
+            "ja": "〜してから…になる",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "fait",
+              "lemma": "faire"
+            }
+          }
+        },
+        {
+          "surface": "une heure",
+          "start": 8,
+          "end": 17,
+          "gloss": {
+            "lemma": "une heure",
+            "pos": "名詞",
+            "ja": "1時間"
+          }
+        },
+        {
+          "surface": "que je t'",
+          "start": 18,
+          "end": 27
+        },
+        {
+          "surface": "attends",
+          "start": 27,
+          "end": 34,
+          "gloss": {
+            "lemma": "attendre",
+            "pos": "動詞",
+            "ja": "待つ",
+            "note": "今も続いているので現在形",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        }
+      ],
+      "grammar": "ça fait + 期間 + que + 現在形。「〜してから…になる」で今も続いている。"
+    },
+    {
+      "id": "fr-0248",
+      "lang": "fr",
+      "text": "On s'était donné rendez-vous à midi.",
+      "ja": "正午に待ち合わせていたのですが。",
+      "level": "B1",
+      "tags": [
+        "約束",
+        "大過去"
+      ],
+      "tokens": [
+        {
+          "surface": "On s'",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "était",
+          "start": 5,
+          "end": 10,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "大過去の助動詞",
+            "inflection": {
+              "label": "半過去・3人称単数",
+              "tense": "IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "donné rendez-vous",
+          "start": 11,
+          "end": 28,
+          "gloss": {
+            "lemma": "se donner rendez-vous",
+            "pos": "慣用表現",
+            "ja": "待ち合わせる",
+            "idiom": true,
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE"
+            },
+            "verb": {
+              "surface": "donné",
+              "lemma": "donner"
+            }
+          }
+        },
+        {
+          "surface": "à midi",
+          "start": 29,
+          "end": 35,
+          "gloss": {
+            "lemma": "à midi",
+            "pos": "慣用表現",
+            "ja": "正午に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "大過去は「過去のある時点より前」。代名動詞なので être を使う。"
+    },
+    {
+      "id": "fr-0249",
+      "lang": "fr",
+      "text": "Si tu ne peux pas venir, préviens-moi.",
+      "ja": "来られないなら知らせて。",
+      "level": "B1",
+      "tags": [
+        "予定",
+        "条件",
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Si tu",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "ne",
+          "start": 6,
+          "end": 8
+        },
+        {
+          "surface": "peux",
+          "start": 9,
+          "end": 13,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "inflection": {
+              "label": "直説法現在・2人称単数",
+              "tense": "PRES",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas",
+          "start": 14,
+          "end": 17
+        },
+        {
+          "surface": "venir",
+          "start": 18,
+          "end": 23,
+          "gloss": {
+            "lemma": "venir",
+            "pos": "動詞",
+            "ja": "来る",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "préviens",
+          "start": 25,
+          "end": 33,
+          "gloss": {
+            "lemma": "prévenir",
+            "pos": "動詞",
+            "ja": "知らせる・予防する",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMPER",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "moi",
+          "start": 34,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "fr-0250",
+      "lang": "fr",
+      "text": "J'étais en réunion quand tu as appelé.",
+      "ja": "電話をくれたとき会議中でした。",
+      "level": "B1",
+      "tags": [
+        "電話",
+        "半過去",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "J'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "étais",
+          "start": 2,
+          "end": 7,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "続いていた状態は半過去",
+            "inflection": {
+              "label": "半過去・1人称単数",
+              "tense": "IMPF",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "en réunion",
+          "start": 8,
+          "end": 18,
+          "gloss": {
+            "lemma": "en réunion",
+            "pos": "慣用表現",
+            "ja": "会議中で",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "quand",
+          "start": 19,
+          "end": 24,
+          "gloss": {
+            "lemma": "quand",
+            "pos": "接続詞",
+            "ja": "〜のとき"
+          }
+        },
+        {
+          "surface": "tu",
+          "start": 25,
+          "end": 27
+        },
+        {
+          "surface": "as appelé",
+          "start": 28,
+          "end": 37,
+          "gloss": {
+            "lemma": "appeler",
+            "pos": "動詞",
+            "ja": "呼ぶ・電話する",
+            "note": "起きた出来事は複合過去",
+            "inflection": {
+              "label": "複合過去・2人称単数",
+              "tense": "PC",
+              "person": "2sg"
+            }
+          }
+        }
+      ],
+      "grammar": "続いていた状態は半過去、その最中に起きた出来事は複合過去。語りの基本の組み合わせ。"
+    },
+    {
+      "id": "fr-0251",
+      "lang": "fr",
+      "text": "Ça te dit de dîner ensemble vendredi ?",
+      "ja": "金曜に一緒に夕食どう？",
+      "level": "B1",
+      "tags": [
+        "約束",
+        "疑問",
+        "口語"
+      ],
+      "tokens": [
+        {
+          "surface": "Ça te dit de",
+          "start": 0,
+          "end": 12,
+          "gloss": {
+            "lemma": "ça te dit de",
+            "pos": "慣用表現",
+            "ja": "〜する気ある？",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "dit",
+              "lemma": "dire"
+            }
+          }
+        },
+        {
+          "surface": "dîner",
+          "start": 13,
+          "end": 18,
+          "gloss": {
+            "lemma": "dîner",
+            "pos": "動詞",
+            "ja": "夕食をとる",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "ensemble",
+          "start": 19,
+          "end": 27,
+          "gloss": {
+            "lemma": "ensemble",
+            "pos": "副詞",
+            "ja": "一緒に"
+          }
+        },
+        {
+          "surface": "vendredi",
+          "start": 28,
+          "end": 36,
+          "gloss": {
+            "lemma": "vendredi",
+            "pos": "名詞",
+            "ja": "金曜日"
+          }
+        }
+      ],
+      "grammar": "Ça te dit de + 不定詞で「〜する気ある？」。誘うときの口語表現。"
+    },
+    {
+      "id": "fr-0252",
+      "lang": "fr",
+      "text": "Je suis pris toute la journée demain.",
+      "ja": "明日は一日中ふさがっています。",
+      "level": "B1",
+      "tags": [
+        "予定",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "suis",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pris",
+          "start": 8,
+          "end": 12,
+          "gloss": {
+            "lemma": "prendre",
+            "pos": "動詞",
+            "ja": "取る・（受動で）ふさがっている",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "toute la journée",
+          "start": 13,
+          "end": 29,
+          "gloss": {
+            "lemma": "toute la journée",
+            "pos": "慣用表現",
+            "ja": "一日中",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "demain",
+          "start": 30,
+          "end": 36,
+          "gloss": {
+            "lemma": "demain",
+            "pos": "副詞",
+            "ja": "明日"
+          }
+        }
+      ],
+      "grammar": "être pris で「予定がふさがっている」。"
+    },
+    {
+      "id": "fr-0253",
+      "lang": "fr",
+      "text": "Je te préviendrai dès que je saurai.",
+      "ja": "分かり次第知らせます。",
+      "level": "B1",
+      "tags": [
+        "予定",
+        "単純未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Je te",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "préviendrai",
+          "start": 6,
+          "end": 17,
+          "gloss": {
+            "lemma": "prévenir",
+            "pos": "動詞",
+            "ja": "知らせる・予防する",
+            "inflection": {
+              "label": "単純未来・1人称単数",
+              "tense": "FUT",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "dès que",
+          "start": 18,
+          "end": 25,
+          "gloss": {
+            "lemma": "dès que",
+            "pos": "接続詞",
+            "ja": "〜するとすぐに",
+            "idiom": true,
+            "note": "後ろは未来形にする"
+          }
+        },
+        {
+          "surface": "je",
+          "start": 26,
+          "end": 28
+        },
+        {
+          "surface": "saurai",
+          "start": 29,
+          "end": 35,
+          "gloss": {
+            "lemma": "savoir",
+            "pos": "動詞",
+            "ja": "知る・知っている",
+            "inflection": {
+              "label": "単純未来・1人称単数",
+              "tense": "FUT",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        }
+      ],
+      "grammar": "dès que のあとも未来形。savoir の未来は saurai と不規則。"
+    },
+    {
+      "id": "fr-0254",
+      "lang": "fr",
+      "text": "On avait dit dix heures, non ?",
+      "ja": "10時って言ってたよね？",
+      "level": "B1",
+      "tags": [
+        "約束",
+        "大過去"
+      ],
+      "tokens": [
+        {
+          "surface": "On",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "avait dit",
+          "start": 3,
+          "end": 12,
+          "gloss": {
+            "lemma": "dire",
+            "pos": "動詞",
+            "ja": "言う",
+            "inflection": {
+              "label": "大過去・3人称単数",
+              "tense": "PQP",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "dix heures",
+          "start": 13,
+          "end": 23,
+          "gloss": {
+            "lemma": "dix heures",
+            "pos": "名詞",
+            "ja": "10時"
+          }
+        },
+        {
+          "surface": "non",
+          "start": 25,
+          "end": 28,
+          "gloss": {
+            "lemma": "non",
+            "pos": "副詞",
+            "ja": "〜だよね（確認）"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0255",
+      "lang": "fr",
+      "text": "Je passerai te chercher vers huit heures.",
+      "ja": "8時ごろ迎えに行きます。",
+      "level": "B1",
+      "tags": [
+        "約束",
+        "単純未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "passerai",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "passer",
+            "pos": "動詞",
+            "ja": "通る・立ち寄る",
+            "inflection": {
+              "label": "単純未来・1人称単数",
+              "tense": "FUT",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "te",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "chercher",
+          "start": 15,
+          "end": 23,
+          "gloss": {
+            "lemma": "chercher",
+            "pos": "動詞",
+            "ja": "探す・迎えに行く",
+            "note": "passer chercher で「迎えに行く」",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "vers huit heures",
+          "start": 24,
+          "end": 40,
+          "gloss": {
+            "lemma": "vers huit heures",
+            "pos": "慣用表現",
+            "ja": "8時ごろ",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "passer chercher qqn で「迎えに行く」。vers + 時刻で「〜ごろ」。"
+    },
+    {
+      "id": "fr-0256",
+      "lang": "fr",
+      "text": "Le temps passe vite quand on s'amuse.",
+      "ja": "楽しいときは時間が経つのが早い。",
+      "level": "B1",
+      "tags": [
+        "時間",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Le temps",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "le temps",
+            "pos": "名詞",
+            "ja": "時間"
+          }
+        },
+        {
+          "surface": "passe",
+          "start": 9,
+          "end": 14,
+          "gloss": {
+            "lemma": "passer",
+            "pos": "動詞",
+            "ja": "通る・（時が）経つ",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "vite",
+          "start": 15,
+          "end": 19,
+          "gloss": {
+            "lemma": "vite",
+            "pos": "副詞",
+            "ja": "速く"
+          }
+        },
+        {
+          "surface": "quand",
+          "start": 20,
+          "end": 25,
+          "gloss": {
+            "lemma": "quand",
+            "pos": "接続詞",
+            "ja": "〜のとき"
+          }
+        },
+        {
+          "surface": "on s'",
+          "start": 26,
+          "end": 31
+        },
+        {
+          "surface": "amuse",
+          "start": 31,
+          "end": 36,
+          "gloss": {
+            "lemma": "amuser",
+            "pos": "動詞",
+            "ja": "楽しませる・（代名動詞で）楽しむ",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0257",
+      "lang": "fr",
+      "text": "Excusez-moi de vous rappeler si tard.",
+      "ja": "こんな遅くにかけ直してすみません。",
+      "level": "B1",
+      "tags": [
+        "電話",
+        "命令法",
+        "謝罪"
+      ],
+      "tokens": [
+        {
+          "surface": "Excusez",
+          "start": 0,
+          "end": 7,
+          "gloss": {
+            "lemma": "excuser",
+            "pos": "動詞",
+            "ja": "許す・（代名動詞で）詫びる",
+            "inflection": {
+              "label": "命令法・2人称複数",
+              "tense": "IMPER",
+              "person": "2pl"
+            }
+          }
+        },
+        {
+          "surface": "moi de vous",
+          "start": 8,
+          "end": 19
+        },
+        {
+          "surface": "rappeler",
+          "start": 20,
+          "end": 28,
+          "gloss": {
+            "lemma": "rappeler",
+            "pos": "動詞",
+            "ja": "かけ直す・思い出させる",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "si tard",
+          "start": 29,
+          "end": 36,
+          "gloss": {
+            "lemma": "si tard",
+            "pos": "慣用表現",
+            "ja": "こんなに遅くに",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0258",
+      "lang": "fr",
+      "text": "Nous nous verrons lundi comme prévu.",
+      "ja": "予定どおり月曜に会いましょう。",
+      "level": "B1",
+      "tags": [
+        "約束",
+        "単純未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Nous nous",
+          "start": 0,
+          "end": 9
+        },
+        {
+          "surface": "verrons",
+          "start": 10,
+          "end": 17,
+          "gloss": {
+            "lemma": "voir",
+            "pos": "動詞",
+            "ja": "見る・会う",
+            "inflection": {
+              "label": "単純未来・1人称複数",
+              "tense": "FUT",
+              "person": "1pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "lundi",
+          "start": 18,
+          "end": 23,
+          "gloss": {
+            "lemma": "lundi",
+            "pos": "名詞",
+            "ja": "月曜日"
+          }
+        },
+        {
+          "surface": "comme prévu",
+          "start": 24,
+          "end": 35,
+          "gloss": {
+            "lemma": "comme prévu",
+            "pos": "慣用表現",
+            "ja": "予定どおり",
+            "idiom": true,
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "prévu",
+              "lemma": "prévoir"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0259",
+      "lang": "fr",
+      "text": "J'aimerais qu'on se voie plus souvent.",
+      "ja": "もっと頻繁に会えたらいいのに。",
+      "level": "B1",
+      "tags": [
+        "約束",
+        "接続法",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "J'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "aimerais",
+          "start": 2,
+          "end": 10,
+          "gloss": {
+            "lemma": "aimer",
+            "pos": "動詞",
+            "ja": "好む・愛する",
+            "inflection": {
+              "label": "条件法現在・1人称単数",
+              "tense": "COND",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "qu'on se",
+          "start": 11,
+          "end": 19
+        },
+        {
+          "surface": "voie",
+          "start": 20,
+          "end": 24,
+          "gloss": {
+            "lemma": "voir",
+            "pos": "動詞",
+            "ja": "見る・会う",
+            "note": "aimer que のあとは接続法",
+            "inflection": {
+              "label": "接続法現在・3人称単数",
+              "tense": "SUBJ",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "plus souvent",
+          "start": 25,
+          "end": 37,
+          "gloss": {
+            "lemma": "plus souvent",
+            "pos": "慣用表現",
+            "ja": "もっと頻繁に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "aimer que のあとは接続法。願望を表すため。"
+    },
+    {
+      "id": "fr-0260",
+      "lang": "fr",
+      "text": "Ce n'est pas le bon numéro.",
+      "ja": "番号が違います。",
+      "level": "B1",
+      "tags": [
+        "電話",
+        "否定",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Ce",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "n'",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "est",
+          "start": 5,
+          "end": 8,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas le",
+          "start": 9,
+          "end": 15
+        },
+        {
+          "surface": "bon",
+          "start": 16,
+          "end": 19,
+          "gloss": {
+            "lemma": "bon",
+            "pos": "形容詞",
+            "ja": "よい・正しい"
+          }
+        },
+        {
+          "surface": "numéro",
+          "start": 20,
+          "end": 26,
+          "gloss": {
+            "lemma": "numéro",
+            "pos": "名詞",
+            "ja": "番号"
+          }
+        }
+      ],
+      "grammar": "bon は名詞の前に置く形容詞。le bon numéro で「正しい番号」。"
     }
   ]
 }

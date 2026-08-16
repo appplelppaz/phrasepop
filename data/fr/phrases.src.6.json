@@ -1,0 +1,592 @@
+{
+  "_comment": "バッチ6: 時間・予定・約束・電話。初心者向けの日常会話。A1〜B1、直説法現在・近接未来・複合過去が主役。",
+  "lang": "fr",
+  "phrases": [
+    {
+      "id": "fr-0221",
+      "text": "Quelle heure est-il ?",
+      "ja": "何時ですか。",
+      "level": "A1",
+      "tags": ["時間", "疑問", "直説法現在"],
+      "grammar": "時刻を尋ねる決まり文句。il は天気や時刻を表す非人称の主語。",
+      "tokens": [
+        { "s": "Quelle heure", "lemma": "quelle heure", "pos": "疑問詞", "ja": "何時", "idiom": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg", "note": "時刻の il は非人称" },
+        { "s": "il", "skip": true }
+      ]
+    },
+    {
+      "id": "fr-0222",
+      "text": "Il est huit heures et demie.",
+      "ja": "8時半です。",
+      "level": "A1",
+      "tags": ["時間", "直説法現在"],
+      "grammar": "et demie は「半」。heures が女性名詞なので demie も女性形になる。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "huit", "lemma": "huit", "pos": "数詞", "ja": "8" },
+        { "s": "heures", "lemma": "heure", "pos": "名詞", "ja": "時間・時刻" },
+        { "s": "et demie", "lemma": "et demie", "pos": "慣用表現", "ja": "〜時半", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0223",
+      "text": "Je me lève à sept heures.",
+      "ja": "7時に起きます。",
+      "level": "A1",
+      "tags": ["時間", "直説法現在"],
+      "grammar": "se lever は代名動詞。è に変わる語幹（je me lève）に注意。",
+      "tokens": [
+        { "s": "Je me", "skip": true },
+        { "s": "lève", "lemma": "lever", "pos": "動詞", "ja": "上げる・（代名動詞で）起きる", "infl": "PRES/1sg" },
+        { "s": "à sept heures", "lemma": "à sept heures", "pos": "慣用表現", "ja": "7時に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0224",
+      "text": "On se retrouve devant le cinéma ?",
+      "ja": "映画館の前で待ち合わせる？",
+      "level": "A1",
+      "tags": ["約束", "疑問", "直説法現在"],
+      "grammar": "se retrouver で「落ち合う」。待ち合わせの決まり文句。",
+      "tokens": [
+        { "s": "On se", "skip": true },
+        { "s": "retrouve", "lemma": "retrouver", "pos": "動詞", "ja": "再び見つける・（代名動詞で）落ち合う", "infl": "PRES/3sg" },
+        { "s": "devant", "lemma": "devant", "pos": "前置詞", "ja": "〜の前で" },
+        { "s": "le", "skip": true },
+        { "s": "cinéma", "lemma": "cinéma", "pos": "名詞", "ja": "映画館・映画" }
+      ]
+    },
+    {
+      "id": "fr-0225",
+      "text": "Allô, c'est Marie à l'appareil.",
+      "ja": "もしもし、マリです。",
+      "level": "A1",
+      "tags": ["電話", "直説法現在"],
+      "grammar": "à l'appareil は「電話口で」。電話で名乗るときの決まり文句。",
+      "tokens": [
+        { "s": "Allô", "lemma": "allô", "pos": "間投詞", "ja": "もしもし" },
+        { "s": "c'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "Marie", "lemma": "Marie", "pos": "固有名詞", "ja": "マリ（人名）" },
+        { "s": "à l'appareil", "lemma": "à l'appareil", "pos": "慣用表現", "ja": "電話口で", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0226",
+      "text": "Je te téléphone ce soir.",
+      "ja": "今晩電話するね。",
+      "level": "A1",
+      "tags": ["電話", "直説法現在"],
+      "grammar": "téléphoner à qqn。人は間接目的語なので te になる。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "te", "skip": true },
+        { "s": "téléphone", "lemma": "téléphoner", "pos": "動詞", "ja": "電話する", "infl": "PRES/1sg" },
+        { "s": "ce soir", "lemma": "ce soir", "pos": "慣用表現", "ja": "今晩", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0227",
+      "text": "Aujourd'hui, c'est lundi.",
+      "ja": "今日は月曜です。",
+      "level": "A1",
+      "tags": ["時間", "直説法現在"],
+      "grammar": "曜日に冠詞を付けなければ「その日」を指す。",
+      "tokens": [
+        { "s": "Aujourd'hui", "lemma": "aujourd'hui", "pos": "副詞", "ja": "今日" },
+        { "s": "c'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "lundi", "lemma": "lundi", "pos": "名詞", "ja": "月曜日" }
+      ]
+    },
+    {
+      "id": "fr-0228",
+      "text": "Je suis libre demain après-midi.",
+      "ja": "明日の午後は空いています。",
+      "level": "A1",
+      "tags": ["予定", "直説法現在"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "suis", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1sg" },
+        { "s": "libre", "lemma": "libre", "pos": "形容詞", "ja": "自由な・空いている" },
+        { "s": "demain après-midi", "lemma": "demain après-midi", "pos": "慣用表現", "ja": "明日の午後", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0229",
+      "text": "On mange à midi.",
+      "ja": "お昼に食べます。",
+      "level": "A1",
+      "tags": ["時間", "直説法現在"],
+      "grammar": "midi（正午）と minuit（真夜中）には冠詞を付けない。",
+      "tokens": [
+        { "s": "On", "skip": true },
+        { "s": "mange", "lemma": "manger", "pos": "動詞", "ja": "食べる", "infl": "PRES/3sg" },
+        { "s": "à midi", "lemma": "à midi", "pos": "慣用表現", "ja": "正午に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0230",
+      "text": "Ne quittez pas, je vous le passe.",
+      "ja": "少々お待ちください、おつなぎします。",
+      "level": "A1",
+      "tags": ["電話", "命令法", "否定"],
+      "grammar": "Ne quittez pas は電話の「切らないでください」＝「お待ちください」。",
+      "tokens": [
+        { "s": "Ne", "skip": true },
+        { "s": "quittez", "lemma": "quitter", "pos": "動詞", "ja": "去る・（電話を）切る", "infl": "IMPER/2pl" },
+        { "s": "pas", "skip": true },
+        { "s": "je vous le", "skip": true },
+        { "s": "passe", "lemma": "passer", "pos": "動詞", "ja": "通す・（電話を）つなぐ", "infl": "PRES/1sg" }
+      ]
+    },
+    {
+      "id": "fr-0231",
+      "text": "Tu es libre ce week-end ?",
+      "ja": "今週末は空いてる？",
+      "level": "A2",
+      "tags": ["予定", "疑問", "直説法現在"],
+      "tokens": [
+        { "s": "Tu", "skip": true },
+        { "s": "es", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/2sg" },
+        { "s": "libre", "lemma": "libre", "pos": "形容詞", "ja": "自由な・空いている" },
+        { "s": "ce week-end", "lemma": "ce week-end", "pos": "慣用表現", "ja": "今週末", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0232",
+      "text": "On va se voir la semaine prochaine.",
+      "ja": "来週会いましょう。",
+      "level": "A2",
+      "tags": ["約束", "近接未来"],
+      "tokens": [
+        { "s": "On", "skip": true },
+        { "s": "va", "lemma": "aller", "pos": "動詞", "ja": "行く・〜するつもりだ", "infl": "PRES/3sg", "note": "aller + 不定詞で近接未来" },
+        { "s": "se", "skip": true },
+        { "s": "voir", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "label": "不定詞" },
+        { "s": "la semaine prochaine", "lemma": "la semaine prochaine", "pos": "慣用表現", "ja": "来週", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0233",
+      "text": "J'ai rendez-vous chez le dentiste.",
+      "ja": "歯医者の予約があります。",
+      "level": "A2",
+      "tags": ["予定", "直説法現在"],
+      "grammar": "avoir rendez-vous で「約束・予約がある」。chez + 人で「〜のところへ」。",
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "ai rendez-vous", "lemma": "avoir rendez-vous", "pos": "慣用表現", "ja": "約束・予約がある", "idiom": true, "verb": { "s": "ai", "lemma": "avoir", "infl": "PRES/1sg" } },
+        { "s": "chez", "lemma": "chez", "pos": "前置詞", "ja": "〜のところへ・〜の家で" },
+        { "s": "le", "skip": true },
+        { "s": "dentiste", "lemma": "dentiste", "pos": "名詞", "ja": "歯医者" }
+      ]
+    },
+    {
+      "id": "fr-0234",
+      "text": "Désolé, je ne peux pas ce jour-là.",
+      "ja": "ごめん、その日は無理です。",
+      "level": "A2",
+      "tags": ["予定", "否定", "直説法現在"],
+      "tokens": [
+        { "s": "Désolé", "lemma": "désolé", "pos": "形容詞", "ja": "申し訳なく思う" },
+        { "s": "je", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "peux", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "PRES/1sg" },
+        { "s": "pas", "skip": true },
+        { "s": "ce jour-là", "lemma": "ce jour-là", "pos": "慣用表現", "ja": "その日は", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0235",
+      "text": "On peut remettre ça à jeudi ?",
+      "ja": "木曜に延ばせますか。",
+      "level": "A2",
+      "tags": ["予定", "疑問", "直説法現在"],
+      "grammar": "remettre à + 日で「〜に延期する」。",
+      "tokens": [
+        { "s": "On", "skip": true },
+        { "s": "peut", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "PRES/3sg" },
+        { "s": "remettre", "lemma": "remettre", "pos": "動詞", "ja": "戻す・延期する", "label": "不定詞" },
+        { "s": "ça", "skip": true },
+        { "s": "à jeudi", "lemma": "à jeudi", "pos": "慣用表現", "ja": "木曜に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0236",
+      "text": "J'ai essayé de t'appeler ce matin.",
+      "ja": "今朝あなたに電話しようとしました。",
+      "level": "A2",
+      "tags": ["電話", "複合過去"],
+      "grammar": "essayer de + 不定詞で「〜しようとする」。",
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "ai essayé", "lemma": "essayer", "pos": "動詞", "ja": "試す・試みる", "infl": "PC/1sg" },
+        { "s": "de t'", "skip": true },
+        { "s": "appeler", "lemma": "appeler", "pos": "動詞", "ja": "呼ぶ・電話する", "label": "不定詞" },
+        { "s": "ce matin", "lemma": "ce matin", "pos": "慣用表現", "ja": "今朝", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0237",
+      "text": "Je vous rappelle dans dix minutes.",
+      "ja": "10分後にかけ直します。",
+      "level": "A2",
+      "tags": ["電話", "直説法現在"],
+      "grammar": "dans + 期間で「〜後に」。en + 期間（〜かけて）と混同しないこと。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "vous", "skip": true },
+        { "s": "rappelle", "lemma": "rappeler", "pos": "動詞", "ja": "かけ直す・思い出させる", "infl": "PRES/1sg" },
+        { "s": "dans dix minutes", "lemma": "dans dix minutes", "pos": "慣用表現", "ja": "10分後に", "idiom": true, "note": "dans + 期間で「〜後に」" }
+      ]
+    },
+    {
+      "id": "fr-0238",
+      "text": "Le matin, je bois toujours du café.",
+      "ja": "朝はいつもコーヒーを飲みます。",
+      "level": "A2",
+      "tags": ["時間", "直説法現在"],
+      "tokens": [
+        { "s": "Le matin", "lemma": "le matin", "pos": "慣用表現", "ja": "朝に", "idiom": true },
+        { "s": "je", "skip": true },
+        { "s": "bois", "lemma": "boire", "pos": "動詞", "ja": "飲む", "infl": "PRES/1sg" },
+        { "s": "toujours", "lemma": "toujours", "pos": "副詞", "ja": "いつも・ずっと" },
+        { "s": "du", "skip": true },
+        { "s": "café", "lemma": "café", "pos": "名詞", "ja": "コーヒー・カフェ" }
+      ]
+    },
+    {
+      "id": "fr-0239",
+      "text": "Je me couche tard le week-end.",
+      "ja": "週末は遅くに寝ます。",
+      "level": "A2",
+      "tags": ["時間", "直説法現在"],
+      "tokens": [
+        { "s": "Je me", "skip": true },
+        { "s": "couche", "lemma": "coucher", "pos": "動詞", "ja": "寝かせる・（代名動詞で）寝る", "infl": "PRES/1sg" },
+        { "s": "tard", "lemma": "tard", "pos": "副詞", "ja": "遅く" },
+        { "s": "le week-end", "lemma": "le week-end", "pos": "慣用表現", "ja": "週末は", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0240",
+      "text": "Vous pouvez laisser un message.",
+      "ja": "伝言を残していただけます。",
+      "level": "A2",
+      "tags": ["電話", "直説法現在"],
+      "tokens": [
+        { "s": "Vous", "skip": true },
+        { "s": "pouvez", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "PRES/2pl" },
+        { "s": "laisser", "lemma": "laisser", "pos": "動詞", "ja": "残す・〜させておく", "label": "不定詞" },
+        { "s": "un", "skip": true },
+        { "s": "message", "lemma": "message", "pos": "名詞", "ja": "伝言・メッセージ" }
+      ]
+    },
+    {
+      "id": "fr-0241",
+      "text": "Il est déjà tard, je rentre.",
+      "ja": "もう遅いので帰ります。",
+      "level": "A2",
+      "tags": ["時間", "直説法現在"],
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "déjà", "lemma": "déjà", "pos": "副詞", "ja": "すでに・もう" },
+        { "s": "tard", "lemma": "tard", "pos": "副詞", "ja": "遅く" },
+        { "s": "je", "skip": true },
+        { "s": "rentre", "lemma": "rentrer", "pos": "動詞", "ja": "帰る・戻る", "infl": "PRES/1sg" }
+      ]
+    },
+    {
+      "id": "fr-0242",
+      "text": "Ça t'arrange si on décale d'une heure ?",
+      "ja": "1時間ずらしても大丈夫？",
+      "level": "A2",
+      "tags": ["予定", "疑問", "直説法現在"],
+      "grammar": "arranger qqn で「〜にとって都合がよい」。",
+      "tokens": [
+        { "s": "Ça", "skip": true },
+        { "s": "t'", "skip": true },
+        { "s": "arrange", "lemma": "arranger", "pos": "動詞", "ja": "整える・都合がよい", "infl": "PRES/3sg" },
+        { "s": "si on", "skip": true },
+        { "s": "décale", "lemma": "décaler", "pos": "動詞", "ja": "ずらす", "infl": "PRES/3sg" },
+        { "s": "d'une heure", "lemma": "d'une heure", "pos": "慣用表現", "ja": "1時間ぶん", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0243",
+      "text": "J'ai oublié notre rendez-vous, je suis vraiment désolé.",
+      "ja": "約束を忘れていました、本当にごめんなさい。",
+      "level": "B1",
+      "tags": ["予定", "複合過去", "謝罪"],
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "ai oublié", "lemma": "oublier", "pos": "動詞", "ja": "忘れる", "infl": "PC/1sg" },
+        { "s": "notre", "skip": true },
+        { "s": "rendez-vous", "lemma": "rendez-vous", "pos": "名詞", "ja": "約束・予約" },
+        { "s": "je", "skip": true },
+        { "s": "suis", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1sg" },
+        { "s": "vraiment", "lemma": "vraiment", "pos": "副詞", "ja": "本当に" },
+        { "s": "désolé", "lemma": "désolé", "pos": "形容詞", "ja": "申し訳なく思う" }
+      ]
+    },
+    {
+      "id": "fr-0244",
+      "text": "Il faut que je parte avant six heures.",
+      "ja": "6時前に出ないといけません。",
+      "level": "B1",
+      "tags": ["予定", "接続法", "義務"],
+      "grammar": "partir の接続法 1人称単数は parte。il faut que のあとは必ず接続法。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "faut", "lemma": "falloir", "pos": "動詞", "ja": "必要である", "infl": "PRES/3sg" },
+        { "s": "que je", "skip": true },
+        { "s": "parte", "lemma": "partir", "pos": "動詞", "ja": "出発する・去る", "infl": "SUBJ/1sg", "note": "il faut que のあとは接続法" },
+        { "s": "avant six heures", "lemma": "avant six heures", "pos": "慣用表現", "ja": "6時前に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0245",
+      "text": "Quand j'aurai fini, je t'enverrai un message.",
+      "ja": "終わったらメッセージを送ります。",
+      "level": "B1",
+      "tags": ["予定", "前未来", "単純未来"],
+      "grammar": "quand のあとが未来のことなら未来形にする。「終えてしまっていたら」は前未来。",
+      "tokens": [
+        { "s": "Quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "j'", "skip": true },
+        { "s": "aurai", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "FUT/1sg", "note": "前未来の助動詞" },
+        { "s": "fini", "lemma": "finir", "pos": "動詞", "ja": "終える・終わる", "infl": "PPASSE" },
+        { "s": "je t'", "skip": true },
+        { "s": "enverrai", "lemma": "envoyer", "pos": "動詞", "ja": "送る", "infl": "FUT/1sg" },
+        { "s": "un", "skip": true },
+        { "s": "message", "lemma": "message", "pos": "名詞", "ja": "伝言・メッセージ" }
+      ]
+    },
+    {
+      "id": "fr-0246",
+      "text": "Je n'ai pas eu le temps de te répondre.",
+      "ja": "返事をする時間がありませんでした。",
+      "level": "B1",
+      "tags": ["電話", "複合過去", "否定"],
+      "grammar": "avoir le temps de + 不定詞で「〜する時間がある」。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "n'", "skip": true },
+        { "s": "ai", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/1sg", "note": "複合過去の助動詞" },
+        { "s": "pas", "skip": true },
+        { "s": "eu", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PPASSE" },
+        { "s": "le temps de", "lemma": "avoir le temps de", "pos": "慣用表現", "ja": "〜する時間がある", "idiom": true },
+        { "s": "te", "skip": true },
+        { "s": "répondre", "lemma": "répondre", "pos": "動詞", "ja": "答える・返事する", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0247",
+      "text": "Ça fait une heure que je t'attends.",
+      "ja": "1時間も待ってるんだけど。",
+      "level": "B1",
+      "tags": ["時間", "直説法現在"],
+      "grammar": "ça fait + 期間 + que + 現在形。「〜してから…になる」で今も続いている。",
+      "tokens": [
+        { "s": "Ça fait", "lemma": "ça fait... que", "pos": "慣用表現", "ja": "〜してから…になる", "idiom": true, "verb": { "s": "fait", "lemma": "faire", "infl": "PRES/3sg" } },
+        { "s": "une heure", "lemma": "une heure", "pos": "名詞", "ja": "1時間" },
+        { "s": "que je t'", "skip": true },
+        { "s": "attends", "lemma": "attendre", "pos": "動詞", "ja": "待つ", "infl": "PRES/1sg", "note": "今も続いているので現在形" }
+      ]
+    },
+    {
+      "id": "fr-0248",
+      "text": "On s'était donné rendez-vous à midi.",
+      "ja": "正午に待ち合わせていたのですが。",
+      "level": "B1",
+      "tags": ["約束", "大過去"],
+      "grammar": "大過去は「過去のある時点より前」。代名動詞なので être を使う。",
+      "tokens": [
+        { "s": "On s'", "skip": true },
+        { "s": "était", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "IMPF/3sg", "note": "大過去の助動詞" },
+        { "s": "donné rendez-vous", "lemma": "se donner rendez-vous", "pos": "慣用表現", "ja": "待ち合わせる", "idiom": true, "verb": { "s": "donné", "lemma": "donner", "infl": "PPASSE" } },
+        { "s": "à midi", "lemma": "à midi", "pos": "慣用表現", "ja": "正午に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0249",
+      "text": "Si tu ne peux pas venir, préviens-moi.",
+      "ja": "来られないなら知らせて。",
+      "level": "B1",
+      "tags": ["予定", "条件", "命令法"],
+      "tokens": [
+        { "s": "Si tu", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "peux", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "PRES/2sg" },
+        { "s": "pas", "skip": true },
+        { "s": "venir", "lemma": "venir", "pos": "動詞", "ja": "来る", "label": "不定詞" },
+        { "s": "préviens", "lemma": "prévenir", "pos": "動詞", "ja": "知らせる・予防する", "infl": "IMPER/2sg" },
+        { "s": "moi", "skip": true }
+      ]
+    },
+    {
+      "id": "fr-0250",
+      "text": "J'étais en réunion quand tu as appelé.",
+      "ja": "電話をくれたとき会議中でした。",
+      "level": "B1",
+      "tags": ["電話", "半過去", "複合過去"],
+      "grammar": "続いていた状態は半過去、その最中に起きた出来事は複合過去。語りの基本の組み合わせ。",
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "étais", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "IMPF/1sg", "note": "続いていた状態は半過去" },
+        { "s": "en réunion", "lemma": "en réunion", "pos": "慣用表現", "ja": "会議中で", "idiom": true },
+        { "s": "quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "tu", "skip": true },
+        { "s": "as appelé", "lemma": "appeler", "pos": "動詞", "ja": "呼ぶ・電話する", "infl": "PC/2sg", "note": "起きた出来事は複合過去" }
+      ]
+    },
+    {
+      "id": "fr-0251",
+      "text": "Ça te dit de dîner ensemble vendredi ?",
+      "ja": "金曜に一緒に夕食どう？",
+      "level": "B1",
+      "tags": ["約束", "疑問", "口語"],
+      "grammar": "Ça te dit de + 不定詞で「〜する気ある？」。誘うときの口語表現。",
+      "tokens": [
+        { "s": "Ça te dit de", "lemma": "ça te dit de", "pos": "慣用表現", "ja": "〜する気ある？", "idiom": true, "verb": { "s": "dit", "lemma": "dire", "infl": "PRES/3sg" } },
+        { "s": "dîner", "lemma": "dîner", "pos": "動詞", "ja": "夕食をとる", "label": "不定詞" },
+        { "s": "ensemble", "lemma": "ensemble", "pos": "副詞", "ja": "一緒に" },
+        { "s": "vendredi", "lemma": "vendredi", "pos": "名詞", "ja": "金曜日" }
+      ]
+    },
+    {
+      "id": "fr-0252",
+      "text": "Je suis pris toute la journée demain.",
+      "ja": "明日は一日中ふさがっています。",
+      "level": "B1",
+      "tags": ["予定", "直説法現在"],
+      "grammar": "être pris で「予定がふさがっている」。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "suis", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1sg" },
+        { "s": "pris", "lemma": "prendre", "pos": "動詞", "ja": "取る・（受動で）ふさがっている", "infl": "PPASSE" },
+        { "s": "toute la journée", "lemma": "toute la journée", "pos": "慣用表現", "ja": "一日中", "idiom": true },
+        { "s": "demain", "lemma": "demain", "pos": "副詞", "ja": "明日" }
+      ]
+    },
+    {
+      "id": "fr-0253",
+      "text": "Je te préviendrai dès que je saurai.",
+      "ja": "分かり次第知らせます。",
+      "level": "B1",
+      "tags": ["予定", "単純未来"],
+      "grammar": "dès que のあとも未来形。savoir の未来は saurai と不規則。",
+      "tokens": [
+        { "s": "Je te", "skip": true },
+        { "s": "préviendrai", "lemma": "prévenir", "pos": "動詞", "ja": "知らせる・予防する", "infl": "FUT/1sg" },
+        { "s": "dès que", "lemma": "dès que", "pos": "接続詞", "ja": "〜するとすぐに", "idiom": true, "note": "後ろは未来形にする" },
+        { "s": "je", "skip": true },
+        { "s": "saurai", "lemma": "savoir", "pos": "動詞", "ja": "知る・知っている", "infl": "FUT/1sg" }
+      ]
+    },
+    {
+      "id": "fr-0254",
+      "text": "On avait dit dix heures, non ?",
+      "ja": "10時って言ってたよね？",
+      "level": "B1",
+      "tags": ["約束", "大過去"],
+      "tokens": [
+        { "s": "On", "skip": true },
+        { "s": "avait dit", "lemma": "dire", "pos": "動詞", "ja": "言う", "infl": "PQP/3sg" },
+        { "s": "dix heures", "lemma": "dix heures", "pos": "名詞", "ja": "10時" },
+        { "s": "non", "lemma": "non", "pos": "副詞", "ja": "〜だよね（確認）" }
+      ]
+    },
+    {
+      "id": "fr-0255",
+      "text": "Je passerai te chercher vers huit heures.",
+      "ja": "8時ごろ迎えに行きます。",
+      "level": "B1",
+      "tags": ["約束", "単純未来"],
+      "grammar": "passer chercher qqn で「迎えに行く」。vers + 時刻で「〜ごろ」。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "passerai", "lemma": "passer", "pos": "動詞", "ja": "通る・立ち寄る", "infl": "FUT/1sg" },
+        { "s": "te", "skip": true },
+        { "s": "chercher", "lemma": "chercher", "pos": "動詞", "ja": "探す・迎えに行く", "label": "不定詞", "note": "passer chercher で「迎えに行く」" },
+        { "s": "vers huit heures", "lemma": "vers huit heures", "pos": "慣用表現", "ja": "8時ごろ", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0256",
+      "text": "Le temps passe vite quand on s'amuse.",
+      "ja": "楽しいときは時間が経つのが早い。",
+      "level": "B1",
+      "tags": ["時間", "直説法現在"],
+      "tokens": [
+        { "s": "Le temps", "lemma": "le temps", "pos": "名詞", "ja": "時間" },
+        { "s": "passe", "lemma": "passer", "pos": "動詞", "ja": "通る・（時が）経つ", "infl": "PRES/3sg" },
+        { "s": "vite", "lemma": "vite", "pos": "副詞", "ja": "速く" },
+        { "s": "quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "on s'", "skip": true },
+        { "s": "amuse", "lemma": "amuser", "pos": "動詞", "ja": "楽しませる・（代名動詞で）楽しむ", "infl": "PRES/3sg" }
+      ]
+    },
+    {
+      "id": "fr-0257",
+      "text": "Excusez-moi de vous rappeler si tard.",
+      "ja": "こんな遅くにかけ直してすみません。",
+      "level": "B1",
+      "tags": ["電話", "命令法", "謝罪"],
+      "tokens": [
+        { "s": "Excusez", "lemma": "excuser", "pos": "動詞", "ja": "許す・（代名動詞で）詫びる", "infl": "IMPER/2pl" },
+        { "s": "moi de vous", "skip": true },
+        { "s": "rappeler", "lemma": "rappeler", "pos": "動詞", "ja": "かけ直す・思い出させる", "label": "不定詞" },
+        { "s": "si tard", "lemma": "si tard", "pos": "慣用表現", "ja": "こんなに遅くに", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0258",
+      "text": "Nous nous verrons lundi comme prévu.",
+      "ja": "予定どおり月曜に会いましょう。",
+      "level": "B1",
+      "tags": ["約束", "単純未来"],
+      "tokens": [
+        { "s": "Nous nous", "skip": true },
+        { "s": "verrons", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "infl": "FUT/1pl" },
+        { "s": "lundi", "lemma": "lundi", "pos": "名詞", "ja": "月曜日" },
+        { "s": "comme prévu", "lemma": "comme prévu", "pos": "慣用表現", "ja": "予定どおり", "idiom": true, "verb": { "s": "prévu", "lemma": "prévoir", "infl": "PPASSE" } }
+      ]
+    },
+    {
+      "id": "fr-0259",
+      "text": "J'aimerais qu'on se voie plus souvent.",
+      "ja": "もっと頻繁に会えたらいいのに。",
+      "level": "B1",
+      "tags": ["約束", "接続法", "条件法現在"],
+      "grammar": "aimer que のあとは接続法。願望を表すため。",
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "aimerais", "lemma": "aimer", "pos": "動詞", "ja": "好む・愛する", "infl": "COND/1sg" },
+        { "s": "qu'on se", "skip": true },
+        { "s": "voie", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "infl": "SUBJ/3sg", "note": "aimer que のあとは接続法" },
+        { "s": "plus souvent", "lemma": "plus souvent", "pos": "慣用表現", "ja": "もっと頻繁に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0260",
+      "text": "Ce n'est pas le bon numéro.",
+      "ja": "番号が違います。",
+      "level": "B1",
+      "tags": ["電話", "否定", "直説法現在"],
+      "grammar": "bon は名詞の前に置く形容詞。le bon numéro で「正しい番号」。",
+      "tokens": [
+        { "s": "Ce", "skip": true },
+        { "s": "n'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "pas le", "skip": true },
+        { "s": "bon", "lemma": "bon", "pos": "形容詞", "ja": "よい・正しい" },
+        { "s": "numéro", "lemma": "numéro", "pos": "名詞", "ja": "番号" }
+      ]
+    }
+  ]
+}
