@@ -1,0 +1,588 @@
+{
+  "_comment": "バッチ4: 買い物・レストラン・注文・会計。初心者向けの日常会話。A1〜B1、直説法現在と丁寧の条件法が主役。",
+  "lang": "fr",
+  "phrases": [
+    {
+      "id": "fr-0141",
+      "text": "Je voudrais réserver une table pour deux.",
+      "ja": "2名でテーブルを予約したいのですが。",
+      "level": "A1",
+      "tags": ["レストラン", "条件法現在", "丁寧"],
+      "grammar": "je voudrais は je veux の丁寧形。店や窓口では必ずこちらを使う。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "voudrais", "lemma": "vouloir", "pos": "動詞", "ja": "欲する・〜したい", "infl": "COND/1sg", "note": "je veux より丁寧" },
+        { "s": "réserver", "lemma": "réserver", "pos": "動詞", "ja": "予約する", "label": "不定詞" },
+        { "s": "une", "skip": true },
+        { "s": "table", "lemma": "table", "pos": "名詞", "ja": "テーブル・食卓" },
+        { "s": "pour deux", "lemma": "pour deux", "pos": "慣用表現", "ja": "2名で", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0142",
+      "text": "L'addition, s'il vous plaît.",
+      "ja": "お会計をお願いします。",
+      "level": "A1",
+      "tags": ["レストラン", "会計"],
+      "grammar": "会計を頼む決まり文句。動詞を使わず名詞だけで通じる。",
+      "tokens": [
+        { "s": "L'", "skip": true },
+        { "s": "addition", "lemma": "addition", "pos": "名詞", "ja": "勘定・会計" },
+        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします", "idiom": true, "verb": { "s": "plaît", "lemma": "plaire", "infl": "PRES/3sg" } }
+      ]
+    },
+    {
+      "id": "fr-0143",
+      "text": "Combien ça coûte ?",
+      "ja": "いくらですか。",
+      "level": "A1",
+      "tags": ["買い物", "疑問", "直説法現在"],
+      "tokens": [
+        { "s": "Combien", "lemma": "combien", "pos": "疑問詞", "ja": "いくら・どれだけ" },
+        { "s": "ça", "skip": true },
+        { "s": "coûte", "lemma": "coûter", "pos": "動詞", "ja": "（値段が）かかる", "infl": "PRES/3sg" }
+      ]
+    },
+    {
+      "id": "fr-0144",
+      "text": "Je prends le menu du jour.",
+      "ja": "本日の定食にします。",
+      "level": "A1",
+      "tags": ["レストラン", "注文", "直説法現在"],
+      "grammar": "注文は prendre で言う。menu は「定食・コース」で、一品料理の一覧は carte。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "prends", "lemma": "prendre", "pos": "動詞", "ja": "取る・（乗り物に）乗る・注文する", "infl": "PRES/1sg", "note": "注文するときは prendre" },
+        { "s": "le", "skip": true },
+        { "s": "menu du jour", "lemma": "menu du jour", "pos": "慣用表現", "ja": "本日の定食", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0145",
+      "text": "Vous avez du pain ?",
+      "ja": "パンはありますか。",
+      "level": "A1",
+      "tags": ["買い物", "疑問", "直説法現在"],
+      "grammar": "数えられないものには部分冠詞 du / de la を付ける。",
+      "tokens": [
+        { "s": "Vous", "skip": true },
+        { "s": "avez", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/2pl" },
+        { "s": "du", "skip": true },
+        { "s": "pain", "lemma": "pain", "pos": "名詞", "ja": "パン" }
+      ]
+    },
+    {
+      "id": "fr-0146",
+      "text": "Je cherche un cadeau pour ma mère.",
+      "ja": "母への贈り物を探しています。",
+      "level": "A1",
+      "tags": ["買い物", "直説法現在"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "cherche", "lemma": "chercher", "pos": "動詞", "ja": "探す", "infl": "PRES/1sg" },
+        { "s": "un", "skip": true },
+        { "s": "cadeau", "lemma": "cadeau", "pos": "名詞", "ja": "贈り物" },
+        { "s": "pour ma", "skip": true },
+        { "s": "mère", "lemma": "mère", "pos": "名詞", "ja": "母" }
+      ]
+    },
+    {
+      "id": "fr-0147",
+      "text": "C'est trop cher pour moi.",
+      "ja": "私には高すぎます。",
+      "level": "A1",
+      "tags": ["買い物", "直説法現在"],
+      "tokens": [
+        { "s": "C'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "trop", "lemma": "trop", "pos": "副詞", "ja": "〜すぎる" },
+        { "s": "cher", "lemma": "cher", "pos": "形容詞", "ja": "高価な・親愛な" },
+        { "s": "pour moi", "skip": true }
+      ]
+    },
+    {
+      "id": "fr-0148",
+      "text": "Je vais payer par carte.",
+      "ja": "カードで払います。",
+      "level": "A1",
+      "tags": ["買い物", "会計", "近接未来"],
+      "grammar": "payer par carte / en espèces。手段の par に冠詞は付けない。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "vais", "lemma": "aller", "pos": "動詞", "ja": "行く・〜するつもりだ", "infl": "PRES/1sg", "note": "aller + 不定詞で近接未来" },
+        { "s": "payer", "lemma": "payer", "pos": "動詞", "ja": "払う", "label": "不定詞" },
+        { "s": "par", "skip": true },
+        { "s": "carte", "lemma": "carte", "pos": "名詞", "ja": "カード・名刺・地図" }
+      ]
+    },
+    {
+      "id": "fr-0149",
+      "text": "Donnez-moi deux baguettes, s'il vous plaît.",
+      "ja": "バゲットを2本ください。",
+      "level": "A1",
+      "tags": ["買い物", "命令法"],
+      "tokens": [
+        { "s": "Donnez", "lemma": "donner", "pos": "動詞", "ja": "与える・渡す", "infl": "IMPER/2pl" },
+        { "s": "moi", "skip": true },
+        { "s": "deux", "lemma": "deux", "pos": "数詞", "ja": "2" },
+        { "s": "baguettes", "lemma": "baguette", "pos": "名詞", "ja": "バゲット・棒" },
+        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします", "idiom": true, "verb": { "s": "plaît", "lemma": "plaire", "infl": "PRES/3sg" } }
+      ]
+    },
+    {
+      "id": "fr-0150",
+      "text": "Je regarde, merci.",
+      "ja": "見ているだけです、ありがとう。",
+      "level": "A1",
+      "tags": ["買い物", "直説法現在"],
+      "grammar": "店員に声をかけられたときの決まり文句。Je regarde seulement とも言う。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "regarde", "lemma": "regarder", "pos": "動詞", "ja": "見る・眺める", "infl": "PRES/1sg", "note": "店では「見ているだけ」の意味になる" },
+        { "s": "merci", "lemma": "merci", "pos": "間投詞", "ja": "ありがとう" }
+      ]
+    },
+    {
+      "id": "fr-0151",
+      "text": "Est-ce que je peux essayer ce pull ?",
+      "ja": "このセーターを試着できますか。",
+      "level": "A1",
+      "tags": ["買い物", "疑問", "直説法現在"],
+      "grammar": "Est-ce que を頭に付けるだけで疑問文になる。初心者に一番使いやすい形。",
+      "tokens": [
+        { "s": "Est-ce que", "lemma": "est-ce que", "pos": "疑問詞", "ja": "〜ですか", "idiom": true },
+        { "s": "je", "skip": true },
+        { "s": "peux", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "PRES/1sg" },
+        { "s": "essayer", "lemma": "essayer", "pos": "動詞", "ja": "試す・試着する", "label": "不定詞" },
+        { "s": "ce", "skip": true },
+        { "s": "pull", "lemma": "pull", "pos": "名詞", "ja": "セーター" }
+      ]
+    },
+    {
+      "id": "fr-0152",
+      "text": "Je vais prendre celui-là.",
+      "ja": "あれにします。",
+      "level": "A2",
+      "tags": ["買い物", "近接未来"],
+      "grammar": "aller + 不定詞で近接未来。会話ではこれが単純未来より普通。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "vais", "lemma": "aller", "pos": "動詞", "ja": "行く・〜するつもりだ", "infl": "PRES/1sg", "note": "aller + 不定詞で近接未来" },
+        { "s": "prendre", "lemma": "prendre", "pos": "動詞", "ja": "取る・注文する", "label": "不定詞" },
+        { "s": "celui-là", "lemma": "celui-là", "pos": "代名詞", "ja": "あれ・そちら" }
+      ]
+    },
+    {
+      "id": "fr-0153",
+      "text": "Vous avez ce modèle en bleu ?",
+      "ja": "このモデルの青はありますか。",
+      "level": "A2",
+      "tags": ["買い物", "疑問", "直説法現在"],
+      "tokens": [
+        { "s": "Vous", "skip": true },
+        { "s": "avez", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/2pl" },
+        { "s": "ce", "skip": true },
+        { "s": "modèle", "lemma": "modèle", "pos": "名詞", "ja": "型・モデル" },
+        { "s": "en bleu", "lemma": "en bleu", "pos": "慣用表現", "ja": "青色で", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0154",
+      "text": "Ça me va très bien, je le prends.",
+      "ja": "とても似合うので、これにします。",
+      "level": "A2",
+      "tags": ["買い物", "直説法現在"],
+      "grammar": "aller à qqn で「（服が）似合う・サイズが合う」。",
+      "tokens": [
+        { "s": "Ça", "skip": true },
+        { "s": "me", "skip": true },
+        { "s": "va", "lemma": "aller", "pos": "動詞", "ja": "行く・（服が）似合う", "infl": "PRES/3sg", "note": "aller à qqn で「似合う」" },
+        { "s": "très bien", "lemma": "très bien", "pos": "慣用表現", "ja": "とてもよく", "idiom": true },
+        { "s": "je le", "skip": true },
+        { "s": "prends", "lemma": "prendre", "pos": "動詞", "ja": "取る・注文する", "infl": "PRES/1sg" }
+      ]
+    },
+    {
+      "id": "fr-0155",
+      "text": "Qu'est-ce que vous me conseillez ?",
+      "ja": "おすすめは何ですか。",
+      "level": "A2",
+      "tags": ["レストラン", "疑問", "直説法現在"],
+      "tokens": [
+        { "s": "Qu'est-ce que", "lemma": "qu'est-ce que", "pos": "疑問詞", "ja": "何を", "idiom": true },
+        { "s": "vous", "skip": true },
+        { "s": "me", "skip": true },
+        { "s": "conseillez", "lemma": "conseiller", "pos": "動詞", "ja": "助言する・勧める", "infl": "PRES/2pl" }
+      ]
+    },
+    {
+      "id": "fr-0156",
+      "text": "Nous avons déjà commandé.",
+      "ja": "もう注文しました。",
+      "level": "A2",
+      "tags": ["レストラン", "複合過去"],
+      "grammar": "副詞 déjà は助動詞と過去分詞のあいだに入る。",
+      "tokens": [
+        { "s": "Nous", "skip": true },
+        { "s": "avons", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/1pl", "note": "複合過去の助動詞" },
+        { "s": "déjà", "lemma": "déjà", "pos": "副詞", "ja": "すでに・もう" },
+        { "s": "commandé", "lemma": "commander", "pos": "動詞", "ja": "注文する・命じる", "infl": "PPASSE" }
+      ]
+    },
+    {
+      "id": "fr-0157",
+      "text": "C'était délicieux, merci beaucoup.",
+      "ja": "とても美味しかったです、ありがとう。",
+      "level": "A2",
+      "tags": ["レストラン", "半過去"],
+      "grammar": "感想を述べるときは c'était（半過去）。出来事ではなく状態だから。",
+      "tokens": [
+        { "s": "C'", "skip": true },
+        { "s": "était", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "IMPF/3sg", "note": "感想は半過去で言う" },
+        { "s": "délicieux", "lemma": "délicieux", "pos": "形容詞", "ja": "とても美味しい" },
+        { "s": "merci beaucoup", "lemma": "merci beaucoup", "pos": "慣用表現", "ja": "どうもありがとう", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0158",
+      "text": "On peut payer séparément ?",
+      "ja": "別々に払えますか。",
+      "level": "A2",
+      "tags": ["会計", "疑問", "直説法現在"],
+      "tokens": [
+        { "s": "On", "skip": true },
+        { "s": "peut", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "PRES/3sg" },
+        { "s": "payer", "lemma": "payer", "pos": "動詞", "ja": "払う", "label": "不定詞" },
+        { "s": "séparément", "lemma": "séparément", "pos": "副詞", "ja": "別々に" }
+      ]
+    },
+    {
+      "id": "fr-0159",
+      "text": "Je n'ai pas de monnaie.",
+      "ja": "小銭がありません。",
+      "level": "A2",
+      "tags": ["会計", "否定", "直説法現在"],
+      "grammar": "否定文では不定冠詞・部分冠詞が de に変わる（du → de）。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "n'", "skip": true },
+        { "s": "ai", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/1sg" },
+        { "s": "pas de", "skip": true },
+        { "s": "monnaie", "lemma": "monnaie", "pos": "名詞", "ja": "小銭・釣り銭" }
+      ]
+    },
+    {
+      "id": "fr-0160",
+      "text": "Vous ouvrez à quelle heure demain ?",
+      "ja": "明日は何時に開きますか。",
+      "level": "A2",
+      "tags": ["買い物", "疑問", "直説法現在"],
+      "tokens": [
+        { "s": "Vous", "skip": true },
+        { "s": "ouvrez", "lemma": "ouvrir", "pos": "動詞", "ja": "開ける・開く", "infl": "PRES/2pl" },
+        { "s": "à quelle heure", "lemma": "à quelle heure", "pos": "疑問詞", "ja": "何時に", "idiom": true },
+        { "s": "demain", "lemma": "demain", "pos": "副詞", "ja": "明日" }
+      ]
+    },
+    {
+      "id": "fr-0161",
+      "text": "J'ai acheté ces fruits au marché.",
+      "ja": "この果物は市場で買いました。",
+      "level": "A2",
+      "tags": ["買い物", "複合過去"],
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "ai acheté", "lemma": "acheter", "pos": "動詞", "ja": "買う", "infl": "PC/1sg" },
+        { "s": "ces", "skip": true },
+        { "s": "fruits", "lemma": "fruit", "pos": "名詞", "ja": "果物" },
+        { "s": "au", "skip": true },
+        { "s": "marché", "lemma": "marché", "pos": "名詞", "ja": "市場" }
+      ]
+    },
+    {
+      "id": "fr-0162",
+      "text": "Il me faut une taille au-dessus.",
+      "ja": "ワンサイズ上が必要です。",
+      "level": "A2",
+      "tags": ["買い物", "直説法現在"],
+      "grammar": "il faut は非人称。il me faut で「私には〜が必要だ」。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "me", "skip": true },
+        { "s": "faut", "lemma": "falloir", "pos": "動詞", "ja": "必要である", "infl": "PRES/3sg", "note": "非人称動詞。3人称単数だけ" },
+        { "s": "une", "skip": true },
+        { "s": "taille", "lemma": "taille", "pos": "名詞", "ja": "サイズ・身長" },
+        { "s": "au-dessus", "lemma": "au-dessus", "pos": "副詞", "ja": "上に・上の" }
+      ]
+    },
+    {
+      "id": "fr-0163",
+      "text": "Je voudrais un verre de vin rouge.",
+      "ja": "赤ワインを1杯お願いします。",
+      "level": "A2",
+      "tags": ["レストラン", "注文", "条件法現在"],
+      "grammar": "un verre de + 無冠詞名詞。量を表す表現のあとは冠詞を落とす。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "voudrais", "lemma": "vouloir", "pos": "動詞", "ja": "欲する・〜したい", "infl": "COND/1sg" },
+        { "s": "un verre de", "lemma": "un verre de", "pos": "慣用表現", "ja": "1杯の", "idiom": true },
+        { "s": "vin", "lemma": "vin", "pos": "名詞", "ja": "ワイン" },
+        { "s": "rouge", "lemma": "rouge", "pos": "形容詞", "ja": "赤い" }
+      ]
+    },
+    {
+      "id": "fr-0164",
+      "text": "Est-ce qu'il y a un plat végétarien ?",
+      "ja": "ベジタリアン向けの料理はありますか。",
+      "level": "A2",
+      "tags": ["レストラン", "疑問", "直説法現在"],
+      "grammar": "il y a は「〜がある」。存在を表す最も基本の言い方。",
+      "tokens": [
+        { "s": "Est-ce qu'", "lemma": "est-ce que", "pos": "疑問詞", "ja": "〜ですか", "idiom": true },
+        { "s": "il y a", "lemma": "il y a", "pos": "慣用表現", "ja": "〜がある", "idiom": true, "verb": { "s": "a", "lemma": "avoir", "infl": "PRES/3sg" } },
+        { "s": "un", "skip": true },
+        { "s": "plat", "lemma": "plat", "pos": "名詞", "ja": "料理・皿" },
+        { "s": "végétarien", "lemma": "végétarien", "pos": "形容詞", "ja": "菜食の" }
+      ]
+    },
+    {
+      "id": "fr-0165",
+      "text": "Ce n'est pas ce que j'ai commandé.",
+      "ja": "これは注文したものと違います。",
+      "level": "A2",
+      "tags": ["レストラン", "否定", "複合過去"],
+      "tokens": [
+        { "s": "Ce", "skip": true },
+        { "s": "n'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "pas", "skip": true },
+        { "s": "ce que", "lemma": "ce que", "pos": "慣用表現", "ja": "〜すること・〜するもの", "idiom": true },
+        { "s": "j'", "skip": true },
+        { "s": "ai commandé", "lemma": "commander", "pos": "動詞", "ja": "注文する・命じる", "infl": "PC/1sg" }
+      ]
+    },
+    {
+      "id": "fr-0166",
+      "text": "Un café et une eau, s'il vous plaît.",
+      "ja": "コーヒーひとつとお水をひとつお願いします。",
+      "level": "A2",
+      "tags": ["レストラン", "注文"],
+      "tokens": [
+        { "s": "Un", "skip": true },
+        { "s": "café", "lemma": "café", "pos": "名詞", "ja": "コーヒー・カフェ" },
+        { "s": "et une", "skip": true },
+        { "s": "eau", "lemma": "eau", "pos": "名詞", "ja": "水" },
+        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします", "idiom": true, "verb": { "s": "plaît", "lemma": "plaire", "infl": "PRES/3sg" } }
+      ]
+    },
+    {
+      "id": "fr-0167",
+      "text": "Je suis allergique aux fruits de mer.",
+      "ja": "魚介類にアレルギーがあります。",
+      "level": "B1",
+      "tags": ["レストラン", "直説法現在"],
+      "grammar": "être allergique à + 名詞。aux は à + les の縮約。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "suis", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1sg" },
+        { "s": "allergique", "lemma": "allergique", "pos": "形容詞", "ja": "アレルギーのある" },
+        { "s": "aux", "skip": true },
+        { "s": "fruits de mer", "lemma": "fruits de mer", "pos": "慣用表現", "ja": "魚介類", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0168",
+      "text": "Pourriez-vous me faire un paquet cadeau ?",
+      "ja": "贈り物用に包んでいただけますか。",
+      "level": "B1",
+      "tags": ["買い物", "条件法現在", "丁寧"],
+      "grammar": "Pourriez-vous は Pouvez-vous よりさらに丁寧。頼みごとの定型。",
+      "tokens": [
+        { "s": "Pourriez", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "COND/2pl", "note": "条件法にすると丁寧さが増す" },
+        { "s": "vous me", "skip": true },
+        { "s": "faire", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "label": "不定詞" },
+        { "s": "un", "skip": true },
+        { "s": "paquet cadeau", "lemma": "paquet cadeau", "pos": "慣用表現", "ja": "贈り物用の包装", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0169",
+      "text": "Je voudrais échanger cet article.",
+      "ja": "この品物を交換したいのですが。",
+      "level": "B1",
+      "tags": ["買い物", "条件法現在"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "voudrais", "lemma": "vouloir", "pos": "動詞", "ja": "欲する・〜したい", "infl": "COND/1sg" },
+        { "s": "échanger", "lemma": "échanger", "pos": "動詞", "ja": "交換する", "label": "不定詞" },
+        { "s": "cet", "skip": true },
+        { "s": "article", "lemma": "article", "pos": "名詞", "ja": "品物・記事" }
+      ]
+    },
+    {
+      "id": "fr-0170",
+      "text": "Il faut que je passe à la banque.",
+      "ja": "銀行に寄らないといけません。",
+      "level": "B1",
+      "tags": ["接続法", "義務"],
+      "grammar": "il faut que のあとは必ず接続法。入門で最初に出会う接続法の用法。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "faut", "lemma": "falloir", "pos": "動詞", "ja": "必要である", "infl": "PRES/3sg" },
+        { "s": "que je", "skip": true },
+        { "s": "passe", "lemma": "passer", "pos": "動詞", "ja": "通る・立ち寄る", "infl": "SUBJ/1sg", "note": "il faut que のあとは接続法" },
+        { "s": "à la", "skip": true },
+        { "s": "banque", "lemma": "banque", "pos": "名詞", "ja": "銀行" }
+      ]
+    },
+    {
+      "id": "fr-0171",
+      "text": "Le service est compris dans le prix ?",
+      "ja": "サービス料は値段に含まれていますか。",
+      "level": "B1",
+      "tags": ["会計", "疑問", "受動"],
+      "grammar": "être + 過去分詞で受動態。過去分詞は主語に性数一致する。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "service", "lemma": "service", "pos": "名詞", "ja": "サービス・給仕" },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg", "note": "受動態の être" },
+        { "s": "compris", "lemma": "comprendre", "pos": "動詞", "ja": "理解する・含む", "infl": "PPASSE" },
+        { "s": "dans le", "skip": true },
+        { "s": "prix", "lemma": "prix", "pos": "名詞", "ja": "値段・賞" }
+      ]
+    },
+    {
+      "id": "fr-0172",
+      "text": "Je le prends si vous me faites une remise.",
+      "ja": "値引きしてくださるなら買います。",
+      "level": "B1",
+      "tags": ["買い物", "直説法現在", "条件"],
+      "grammar": "si + 直説法現在で、実現しうる条件を表す。帰結も現在形でよい。",
+      "tokens": [
+        { "s": "Je le", "skip": true },
+        { "s": "prends", "lemma": "prendre", "pos": "動詞", "ja": "取る・注文する", "infl": "PRES/1sg" },
+        { "s": "si", "skip": true },
+        { "s": "vous me", "skip": true },
+        { "s": "faites", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "PRES/2pl", "note": "si のあとは直説法。接続法にしない" },
+        { "s": "une", "skip": true },
+        { "s": "remise", "lemma": "remise", "pos": "名詞", "ja": "値引き・引き渡し" }
+      ]
+    },
+    {
+      "id": "fr-0173",
+      "text": "On m'a rendu la monnaie en trop.",
+      "ja": "お釣りを多くもらってしまいました。",
+      "level": "B1",
+      "tags": ["会計", "複合過去"],
+      "grammar": "on は「誰か」を漠然と指す。受け身の代わりによく使う。",
+      "tokens": [
+        { "s": "On", "skip": true },
+        { "s": "m'", "skip": true },
+        { "s": "a rendu", "lemma": "rendre", "pos": "動詞", "ja": "返す・〜にする", "infl": "PC/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "monnaie", "lemma": "monnaie", "pos": "名詞", "ja": "小銭・釣り銭" },
+        { "s": "en trop", "lemma": "en trop", "pos": "慣用表現", "ja": "多すぎて・余分に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0174",
+      "text": "Ce vin va très bien avec le fromage.",
+      "ja": "このワインはチーズによく合います。",
+      "level": "B1",
+      "tags": ["レストラン", "直説法現在"],
+      "grammar": "aller avec で「（食べ物などが）合う」。",
+      "tokens": [
+        { "s": "Ce", "skip": true },
+        { "s": "vin", "lemma": "vin", "pos": "名詞", "ja": "ワイン" },
+        { "s": "va", "lemma": "aller", "pos": "動詞", "ja": "行く・（物が）合う", "infl": "PRES/3sg", "note": "aller avec で「合う」" },
+        { "s": "très bien", "lemma": "très bien", "pos": "慣用表現", "ja": "とてもよく", "idiom": true },
+        { "s": "avec le", "skip": true },
+        { "s": "fromage", "lemma": "fromage", "pos": "名詞", "ja": "チーズ" }
+      ]
+    },
+    {
+      "id": "fr-0175",
+      "text": "J'hésite entre les deux.",
+      "ja": "2つのあいだで迷っています。",
+      "level": "B1",
+      "tags": ["買い物", "直説法現在"],
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "hésite", "lemma": "hésiter", "pos": "動詞", "ja": "ためらう・迷う", "infl": "PRES/1sg" },
+        { "s": "entre", "lemma": "entre", "pos": "前置詞", "ja": "〜のあいだで" },
+        { "s": "les deux", "lemma": "les deux", "pos": "慣用表現", "ja": "両方・2つとも", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0176",
+      "text": "Vous pourriez me montrer celui en vitrine ?",
+      "ja": "ショーウィンドウのものを見せていただけますか。",
+      "level": "B1",
+      "tags": ["買い物", "条件法現在", "丁寧"],
+      "tokens": [
+        { "s": "Vous", "skip": true },
+        { "s": "pourriez", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "COND/2pl" },
+        { "s": "me", "skip": true },
+        { "s": "montrer", "lemma": "montrer", "pos": "動詞", "ja": "見せる・示す", "label": "不定詞" },
+        { "s": "celui", "lemma": "celui", "pos": "代名詞", "ja": "それ・そちらのもの" },
+        { "s": "en vitrine", "lemma": "en vitrine", "pos": "慣用表現", "ja": "ショーウィンドウに", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0177",
+      "text": "Nous avons réservé au nom de Tanaka.",
+      "ja": "田中の名前で予約しています。",
+      "level": "B1",
+      "tags": ["レストラン", "複合過去"],
+      "tokens": [
+        { "s": "Nous", "skip": true },
+        { "s": "avons réservé", "lemma": "réserver", "pos": "動詞", "ja": "予約する", "infl": "PC/1pl" },
+        { "s": "au nom de", "lemma": "au nom de", "pos": "慣用表現", "ja": "〜の名前で", "idiom": true },
+        { "s": "Tanaka", "lemma": "Tanaka", "pos": "固有名詞", "ja": "田中（人名）" }
+      ]
+    },
+    {
+      "id": "fr-0178",
+      "text": "Je préfère quelque chose de moins sucré.",
+      "ja": "もう少し甘くないものがいいです。",
+      "level": "B1",
+      "tags": ["レストラン", "直説法現在"],
+      "grammar": "quelque chose de + 形容詞（男性単数）。de を落とさないこと。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "préfère", "lemma": "préférer", "pos": "動詞", "ja": "〜のほうを好む", "infl": "PRES/1sg" },
+        { "s": "quelque chose de", "lemma": "quelque chose de", "pos": "慣用表現", "ja": "何か〜なもの", "idiom": true },
+        { "s": "moins", "lemma": "moins", "pos": "副詞", "ja": "より少なく" },
+        { "s": "sucré", "lemma": "sucré", "pos": "形容詞", "ja": "甘い" }
+      ]
+    },
+    {
+      "id": "fr-0179",
+      "text": "Si j'avais su, j'aurais pris l'autre.",
+      "ja": "知っていたら、もう一方にしたのに。",
+      "level": "B1",
+      "tags": ["買い物", "大過去", "条件法"],
+      "grammar": "si + 大過去 → 条件法過去。実現しなかった過去への後悔を表す。",
+      "tokens": [
+        { "s": "Si j'", "skip": true },
+        { "s": "avais su", "lemma": "savoir", "pos": "動詞", "ja": "知る・知っている", "infl": "PQP/1sg" },
+        { "s": "j'", "skip": true },
+        { "s": "aurais", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "COND/1sg", "note": "条件法過去の助動詞" },
+        { "s": "pris", "lemma": "prendre", "pos": "動詞", "ja": "取る・注文する", "infl": "PPASSE" },
+        { "s": "l'autre", "lemma": "l'autre", "pos": "代名詞", "ja": "もう一方" }
+      ]
+    },
+    {
+      "id": "fr-0180",
+      "text": "Gardez la monnaie.",
+      "ja": "お釣りは取っておいてください。",
+      "level": "B1",
+      "tags": ["会計", "命令法"],
+      "tokens": [
+        { "s": "Gardez", "lemma": "garder", "pos": "動詞", "ja": "取っておく・保つ", "infl": "IMPER/2pl" },
+        { "s": "la", "skip": true },
+        { "s": "monnaie", "lemma": "monnaie", "pos": "名詞", "ja": "小銭・釣り銭" }
+      ]
+    }
+  ]
+}

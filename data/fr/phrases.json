@@ -9671,6 +9671,2637 @@
         }
       ],
       "grammar": "déranger は「邪魔する」。声をかけるときの決まり文句。"
+    },
+    {
+      "id": "fr-0141",
+      "lang": "fr",
+      "text": "Je voudrais réserver une table pour deux.",
+      "ja": "2名でテーブルを予約したいのですが。",
+      "level": "A1",
+      "tags": [
+        "レストラン",
+        "条件法現在",
+        "丁寧"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "voudrais",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "vouloir",
+            "pos": "動詞",
+            "ja": "欲する・〜したい",
+            "note": "je veux より丁寧",
+            "inflection": {
+              "label": "条件法現在・1人称単数",
+              "tense": "COND",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "réserver",
+          "start": 12,
+          "end": 20,
+          "gloss": {
+            "lemma": "réserver",
+            "pos": "動詞",
+            "ja": "予約する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "une",
+          "start": 21,
+          "end": 24
+        },
+        {
+          "surface": "table",
+          "start": 25,
+          "end": 30,
+          "gloss": {
+            "lemma": "table",
+            "pos": "名詞",
+            "ja": "テーブル・食卓"
+          }
+        },
+        {
+          "surface": "pour deux",
+          "start": 31,
+          "end": 40,
+          "gloss": {
+            "lemma": "pour deux",
+            "pos": "慣用表現",
+            "ja": "2名で",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "je voudrais は je veux の丁寧形。店や窓口では必ずこちらを使う。"
+    },
+    {
+      "id": "fr-0142",
+      "lang": "fr",
+      "text": "L'addition, s'il vous plaît.",
+      "ja": "お会計をお願いします。",
+      "level": "A1",
+      "tags": [
+        "レストラン",
+        "会計"
+      ],
+      "tokens": [
+        {
+          "surface": "L'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "addition",
+          "start": 2,
+          "end": 10,
+          "gloss": {
+            "lemma": "addition",
+            "pos": "名詞",
+            "ja": "勘定・会計"
+          }
+        },
+        {
+          "surface": "s'il vous plaît",
+          "start": 12,
+          "end": 27,
+          "gloss": {
+            "lemma": "s'il vous plaît",
+            "pos": "慣用表現",
+            "ja": "お願いします",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "plaît",
+              "lemma": "plaire"
+            }
+          }
+        }
+      ],
+      "grammar": "会計を頼む決まり文句。動詞を使わず名詞だけで通じる。"
+    },
+    {
+      "id": "fr-0143",
+      "lang": "fr",
+      "text": "Combien ça coûte ?",
+      "ja": "いくらですか。",
+      "level": "A1",
+      "tags": [
+        "買い物",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Combien",
+          "start": 0,
+          "end": 7,
+          "gloss": {
+            "lemma": "combien",
+            "pos": "疑問詞",
+            "ja": "いくら・どれだけ"
+          }
+        },
+        {
+          "surface": "ça",
+          "start": 8,
+          "end": 10
+        },
+        {
+          "surface": "coûte",
+          "start": 11,
+          "end": 16,
+          "gloss": {
+            "lemma": "coûter",
+            "pos": "動詞",
+            "ja": "（値段が）かかる",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0144",
+      "lang": "fr",
+      "text": "Je prends le menu du jour.",
+      "ja": "本日の定食にします。",
+      "level": "A1",
+      "tags": [
+        "レストラン",
+        "注文",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "prends",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "prendre",
+            "pos": "動詞",
+            "ja": "取る・（乗り物に）乗る・注文する",
+            "note": "注文するときは prendre",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "le",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "surface": "menu du jour",
+          "start": 13,
+          "end": 25,
+          "gloss": {
+            "lemma": "menu du jour",
+            "pos": "慣用表現",
+            "ja": "本日の定食",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "注文は prendre で言う。menu は「定食・コース」で、一品料理の一覧は carte。"
+    },
+    {
+      "id": "fr-0145",
+      "lang": "fr",
+      "text": "Vous avez du pain ?",
+      "ja": "パンはありますか。",
+      "level": "A1",
+      "tags": [
+        "買い物",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Vous",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "surface": "avez",
+          "start": 5,
+          "end": 9,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "直説法現在・2人称複数",
+              "tense": "PRES",
+              "person": "2pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "du",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "surface": "pain",
+          "start": 13,
+          "end": 17,
+          "gloss": {
+            "lemma": "pain",
+            "pos": "名詞",
+            "ja": "パン"
+          }
+        }
+      ],
+      "grammar": "数えられないものには部分冠詞 du / de la を付ける。"
+    },
+    {
+      "id": "fr-0146",
+      "lang": "fr",
+      "text": "Je cherche un cadeau pour ma mère.",
+      "ja": "母への贈り物を探しています。",
+      "level": "A1",
+      "tags": [
+        "買い物",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "cherche",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "chercher",
+            "pos": "動詞",
+            "ja": "探す",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 11,
+          "end": 13
+        },
+        {
+          "surface": "cadeau",
+          "start": 14,
+          "end": 20,
+          "gloss": {
+            "lemma": "cadeau",
+            "pos": "名詞",
+            "ja": "贈り物"
+          }
+        },
+        {
+          "surface": "pour ma",
+          "start": 21,
+          "end": 28
+        },
+        {
+          "surface": "mère",
+          "start": 29,
+          "end": 33,
+          "gloss": {
+            "lemma": "mère",
+            "pos": "名詞",
+            "ja": "母"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0147",
+      "lang": "fr",
+      "text": "C'est trop cher pour moi.",
+      "ja": "私には高すぎます。",
+      "level": "A1",
+      "tags": [
+        "買い物",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "C'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "est",
+          "start": 2,
+          "end": 5,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "trop",
+          "start": 6,
+          "end": 10,
+          "gloss": {
+            "lemma": "trop",
+            "pos": "副詞",
+            "ja": "〜すぎる"
+          }
+        },
+        {
+          "surface": "cher",
+          "start": 11,
+          "end": 15,
+          "gloss": {
+            "lemma": "cher",
+            "pos": "形容詞",
+            "ja": "高価な・親愛な"
+          }
+        },
+        {
+          "surface": "pour moi",
+          "start": 16,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "fr-0148",
+      "lang": "fr",
+      "text": "Je vais payer par carte.",
+      "ja": "カードで払います。",
+      "level": "A1",
+      "tags": [
+        "買い物",
+        "会計",
+        "近接未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "vais",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "aller",
+            "pos": "動詞",
+            "ja": "行く・〜するつもりだ",
+            "note": "aller + 不定詞で近接未来",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "payer",
+          "start": 8,
+          "end": 13,
+          "gloss": {
+            "lemma": "payer",
+            "pos": "動詞",
+            "ja": "払う",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "par",
+          "start": 14,
+          "end": 17
+        },
+        {
+          "surface": "carte",
+          "start": 18,
+          "end": 23,
+          "gloss": {
+            "lemma": "carte",
+            "pos": "名詞",
+            "ja": "カード・名刺・地図"
+          }
+        }
+      ],
+      "grammar": "payer par carte / en espèces。手段の par に冠詞は付けない。"
+    },
+    {
+      "id": "fr-0149",
+      "lang": "fr",
+      "text": "Donnez-moi deux baguettes, s'il vous plaît.",
+      "ja": "バゲットを2本ください。",
+      "level": "A1",
+      "tags": [
+        "買い物",
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Donnez",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "donner",
+            "pos": "動詞",
+            "ja": "与える・渡す",
+            "inflection": {
+              "label": "命令法・2人称複数",
+              "tense": "IMPER",
+              "person": "2pl"
+            }
+          }
+        },
+        {
+          "surface": "moi",
+          "start": 7,
+          "end": 10
+        },
+        {
+          "surface": "deux",
+          "start": 11,
+          "end": 15,
+          "gloss": {
+            "lemma": "deux",
+            "pos": "数詞",
+            "ja": "2"
+          }
+        },
+        {
+          "surface": "baguettes",
+          "start": 16,
+          "end": 25,
+          "gloss": {
+            "lemma": "baguette",
+            "pos": "名詞",
+            "ja": "バゲット・棒"
+          }
+        },
+        {
+          "surface": "s'il vous plaît",
+          "start": 27,
+          "end": 42,
+          "gloss": {
+            "lemma": "s'il vous plaît",
+            "pos": "慣用表現",
+            "ja": "お願いします",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "plaît",
+              "lemma": "plaire"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0150",
+      "lang": "fr",
+      "text": "Je regarde, merci.",
+      "ja": "見ているだけです、ありがとう。",
+      "level": "A1",
+      "tags": [
+        "買い物",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "regarde",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "regarder",
+            "pos": "動詞",
+            "ja": "見る・眺める",
+            "note": "店では「見ているだけ」の意味になる",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "merci",
+          "start": 12,
+          "end": 17,
+          "gloss": {
+            "lemma": "merci",
+            "pos": "間投詞",
+            "ja": "ありがとう"
+          }
+        }
+      ],
+      "grammar": "店員に声をかけられたときの決まり文句。Je regarde seulement とも言う。"
+    },
+    {
+      "id": "fr-0151",
+      "lang": "fr",
+      "text": "Est-ce que je peux essayer ce pull ?",
+      "ja": "このセーターを試着できますか。",
+      "level": "A1",
+      "tags": [
+        "買い物",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Est-ce que",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "est-ce que",
+            "pos": "疑問詞",
+            "ja": "〜ですか",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "je",
+          "start": 11,
+          "end": 13
+        },
+        {
+          "surface": "peux",
+          "start": 14,
+          "end": 18,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "essayer",
+          "start": 19,
+          "end": 26,
+          "gloss": {
+            "lemma": "essayer",
+            "pos": "動詞",
+            "ja": "試す・試着する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "ce",
+          "start": 27,
+          "end": 29
+        },
+        {
+          "surface": "pull",
+          "start": 30,
+          "end": 34,
+          "gloss": {
+            "lemma": "pull",
+            "pos": "名詞",
+            "ja": "セーター"
+          }
+        }
+      ],
+      "grammar": "Est-ce que を頭に付けるだけで疑問文になる。初心者に一番使いやすい形。"
+    },
+    {
+      "id": "fr-0152",
+      "lang": "fr",
+      "text": "Je vais prendre celui-là.",
+      "ja": "あれにします。",
+      "level": "A2",
+      "tags": [
+        "買い物",
+        "近接未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "vais",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "aller",
+            "pos": "動詞",
+            "ja": "行く・〜するつもりだ",
+            "note": "aller + 不定詞で近接未来",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "prendre",
+          "start": 8,
+          "end": 15,
+          "gloss": {
+            "lemma": "prendre",
+            "pos": "動詞",
+            "ja": "取る・注文する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "celui-là",
+          "start": 16,
+          "end": 24,
+          "gloss": {
+            "lemma": "celui-là",
+            "pos": "代名詞",
+            "ja": "あれ・そちら"
+          }
+        }
+      ],
+      "grammar": "aller + 不定詞で近接未来。会話ではこれが単純未来より普通。"
+    },
+    {
+      "id": "fr-0153",
+      "lang": "fr",
+      "text": "Vous avez ce modèle en bleu ?",
+      "ja": "このモデルの青はありますか。",
+      "level": "A2",
+      "tags": [
+        "買い物",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Vous",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "surface": "avez",
+          "start": 5,
+          "end": 9,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "直説法現在・2人称複数",
+              "tense": "PRES",
+              "person": "2pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "ce",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "surface": "modèle",
+          "start": 13,
+          "end": 19,
+          "gloss": {
+            "lemma": "modèle",
+            "pos": "名詞",
+            "ja": "型・モデル"
+          }
+        },
+        {
+          "surface": "en bleu",
+          "start": 20,
+          "end": 27,
+          "gloss": {
+            "lemma": "en bleu",
+            "pos": "慣用表現",
+            "ja": "青色で",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0154",
+      "lang": "fr",
+      "text": "Ça me va très bien, je le prends.",
+      "ja": "とても似合うので、これにします。",
+      "level": "A2",
+      "tags": [
+        "買い物",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Ça",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "me",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "va",
+          "start": 6,
+          "end": 8,
+          "gloss": {
+            "lemma": "aller",
+            "pos": "動詞",
+            "ja": "行く・（服が）似合う",
+            "note": "aller à qqn で「似合う」",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "très bien",
+          "start": 9,
+          "end": 18,
+          "gloss": {
+            "lemma": "très bien",
+            "pos": "慣用表現",
+            "ja": "とてもよく",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "je le",
+          "start": 20,
+          "end": 25
+        },
+        {
+          "surface": "prends",
+          "start": 26,
+          "end": 32,
+          "gloss": {
+            "lemma": "prendre",
+            "pos": "動詞",
+            "ja": "取る・注文する",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        }
+      ],
+      "grammar": "aller à qqn で「（服が）似合う・サイズが合う」。"
+    },
+    {
+      "id": "fr-0155",
+      "lang": "fr",
+      "text": "Qu'est-ce que vous me conseillez ?",
+      "ja": "おすすめは何ですか。",
+      "level": "A2",
+      "tags": [
+        "レストラン",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Qu'est-ce que",
+          "start": 0,
+          "end": 13,
+          "gloss": {
+            "lemma": "qu'est-ce que",
+            "pos": "疑問詞",
+            "ja": "何を",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "vous",
+          "start": 14,
+          "end": 18
+        },
+        {
+          "surface": "me",
+          "start": 19,
+          "end": 21
+        },
+        {
+          "surface": "conseillez",
+          "start": 22,
+          "end": 32,
+          "gloss": {
+            "lemma": "conseiller",
+            "pos": "動詞",
+            "ja": "助言する・勧める",
+            "inflection": {
+              "label": "直説法現在・2人称複数",
+              "tense": "PRES",
+              "person": "2pl"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0156",
+      "lang": "fr",
+      "text": "Nous avons déjà commandé.",
+      "ja": "もう注文しました。",
+      "level": "A2",
+      "tags": [
+        "レストラン",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Nous",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "surface": "avons",
+          "start": 5,
+          "end": 10,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "note": "複合過去の助動詞",
+            "inflection": {
+              "label": "直説法現在・1人称複数",
+              "tense": "PRES",
+              "person": "1pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "déjà",
+          "start": 11,
+          "end": 15,
+          "gloss": {
+            "lemma": "déjà",
+            "pos": "副詞",
+            "ja": "すでに・もう"
+          }
+        },
+        {
+          "surface": "commandé",
+          "start": 16,
+          "end": 24,
+          "gloss": {
+            "lemma": "commander",
+            "pos": "動詞",
+            "ja": "注文する・命じる",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE"
+            }
+          }
+        }
+      ],
+      "grammar": "副詞 déjà は助動詞と過去分詞のあいだに入る。"
+    },
+    {
+      "id": "fr-0157",
+      "lang": "fr",
+      "text": "C'était délicieux, merci beaucoup.",
+      "ja": "とても美味しかったです、ありがとう。",
+      "level": "A2",
+      "tags": [
+        "レストラン",
+        "半過去"
+      ],
+      "tokens": [
+        {
+          "surface": "C'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "était",
+          "start": 2,
+          "end": 7,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "感想は半過去で言う",
+            "inflection": {
+              "label": "半過去・3人称単数",
+              "tense": "IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "délicieux",
+          "start": 8,
+          "end": 17,
+          "gloss": {
+            "lemma": "délicieux",
+            "pos": "形容詞",
+            "ja": "とても美味しい"
+          }
+        },
+        {
+          "surface": "merci beaucoup",
+          "start": 19,
+          "end": 33,
+          "gloss": {
+            "lemma": "merci beaucoup",
+            "pos": "慣用表現",
+            "ja": "どうもありがとう",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "感想を述べるときは c'était（半過去）。出来事ではなく状態だから。"
+    },
+    {
+      "id": "fr-0158",
+      "lang": "fr",
+      "text": "On peut payer séparément ?",
+      "ja": "別々に払えますか。",
+      "level": "A2",
+      "tags": [
+        "会計",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "On",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "peut",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "payer",
+          "start": 8,
+          "end": 13,
+          "gloss": {
+            "lemma": "payer",
+            "pos": "動詞",
+            "ja": "払う",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "séparément",
+          "start": 14,
+          "end": 24,
+          "gloss": {
+            "lemma": "séparément",
+            "pos": "副詞",
+            "ja": "別々に"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0159",
+      "lang": "fr",
+      "text": "Je n'ai pas de monnaie.",
+      "ja": "小銭がありません。",
+      "level": "A2",
+      "tags": [
+        "会計",
+        "否定",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "n'",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "ai",
+          "start": 5,
+          "end": 7,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas de",
+          "start": 8,
+          "end": 14
+        },
+        {
+          "surface": "monnaie",
+          "start": 15,
+          "end": 22,
+          "gloss": {
+            "lemma": "monnaie",
+            "pos": "名詞",
+            "ja": "小銭・釣り銭"
+          }
+        }
+      ],
+      "grammar": "否定文では不定冠詞・部分冠詞が de に変わる（du → de）。"
+    },
+    {
+      "id": "fr-0160",
+      "lang": "fr",
+      "text": "Vous ouvrez à quelle heure demain ?",
+      "ja": "明日は何時に開きますか。",
+      "level": "A2",
+      "tags": [
+        "買い物",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Vous",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "surface": "ouvrez",
+          "start": 5,
+          "end": 11,
+          "gloss": {
+            "lemma": "ouvrir",
+            "pos": "動詞",
+            "ja": "開ける・開く",
+            "inflection": {
+              "label": "直説法現在・2人称複数",
+              "tense": "PRES",
+              "person": "2pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "à quelle heure",
+          "start": 12,
+          "end": 26,
+          "gloss": {
+            "lemma": "à quelle heure",
+            "pos": "疑問詞",
+            "ja": "何時に",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "demain",
+          "start": 27,
+          "end": 33,
+          "gloss": {
+            "lemma": "demain",
+            "pos": "副詞",
+            "ja": "明日"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0161",
+      "lang": "fr",
+      "text": "J'ai acheté ces fruits au marché.",
+      "ja": "この果物は市場で買いました。",
+      "level": "A2",
+      "tags": [
+        "買い物",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "J'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ai acheté",
+          "start": 2,
+          "end": 11,
+          "gloss": {
+            "lemma": "acheter",
+            "pos": "動詞",
+            "ja": "買う",
+            "inflection": {
+              "label": "複合過去・1人称単数",
+              "tense": "PC",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "ces",
+          "start": 12,
+          "end": 15
+        },
+        {
+          "surface": "fruits",
+          "start": 16,
+          "end": 22,
+          "gloss": {
+            "lemma": "fruit",
+            "pos": "名詞",
+            "ja": "果物"
+          }
+        },
+        {
+          "surface": "au",
+          "start": 23,
+          "end": 25
+        },
+        {
+          "surface": "marché",
+          "start": 26,
+          "end": 32,
+          "gloss": {
+            "lemma": "marché",
+            "pos": "名詞",
+            "ja": "市場"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0162",
+      "lang": "fr",
+      "text": "Il me faut une taille au-dessus.",
+      "ja": "ワンサイズ上が必要です。",
+      "level": "A2",
+      "tags": [
+        "買い物",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "me",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "faut",
+          "start": 6,
+          "end": 10,
+          "gloss": {
+            "lemma": "falloir",
+            "pos": "動詞",
+            "ja": "必要である",
+            "note": "非人称動詞。3人称単数だけ",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "une",
+          "start": 11,
+          "end": 14
+        },
+        {
+          "surface": "taille",
+          "start": 15,
+          "end": 21,
+          "gloss": {
+            "lemma": "taille",
+            "pos": "名詞",
+            "ja": "サイズ・身長"
+          }
+        },
+        {
+          "surface": "au-dessus",
+          "start": 22,
+          "end": 31,
+          "gloss": {
+            "lemma": "au-dessus",
+            "pos": "副詞",
+            "ja": "上に・上の"
+          }
+        }
+      ],
+      "grammar": "il faut は非人称。il me faut で「私には〜が必要だ」。"
+    },
+    {
+      "id": "fr-0163",
+      "lang": "fr",
+      "text": "Je voudrais un verre de vin rouge.",
+      "ja": "赤ワインを1杯お願いします。",
+      "level": "A2",
+      "tags": [
+        "レストラン",
+        "注文",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "voudrais",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "vouloir",
+            "pos": "動詞",
+            "ja": "欲する・〜したい",
+            "inflection": {
+              "label": "条件法現在・1人称単数",
+              "tense": "COND",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "un verre de",
+          "start": 12,
+          "end": 23,
+          "gloss": {
+            "lemma": "un verre de",
+            "pos": "慣用表現",
+            "ja": "1杯の",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "vin",
+          "start": 24,
+          "end": 27,
+          "gloss": {
+            "lemma": "vin",
+            "pos": "名詞",
+            "ja": "ワイン"
+          }
+        },
+        {
+          "surface": "rouge",
+          "start": 28,
+          "end": 33,
+          "gloss": {
+            "lemma": "rouge",
+            "pos": "形容詞",
+            "ja": "赤い"
+          }
+        }
+      ],
+      "grammar": "un verre de + 無冠詞名詞。量を表す表現のあとは冠詞を落とす。"
+    },
+    {
+      "id": "fr-0164",
+      "lang": "fr",
+      "text": "Est-ce qu'il y a un plat végétarien ?",
+      "ja": "ベジタリアン向けの料理はありますか。",
+      "level": "A2",
+      "tags": [
+        "レストラン",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Est-ce qu'",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "est-ce que",
+            "pos": "疑問詞",
+            "ja": "〜ですか",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "il y a",
+          "start": 10,
+          "end": 16,
+          "gloss": {
+            "lemma": "il y a",
+            "pos": "慣用表現",
+            "ja": "〜がある",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "a",
+              "lemma": "avoir"
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 17,
+          "end": 19
+        },
+        {
+          "surface": "plat",
+          "start": 20,
+          "end": 24,
+          "gloss": {
+            "lemma": "plat",
+            "pos": "名詞",
+            "ja": "料理・皿"
+          }
+        },
+        {
+          "surface": "végétarien",
+          "start": 25,
+          "end": 35,
+          "gloss": {
+            "lemma": "végétarien",
+            "pos": "形容詞",
+            "ja": "菜食の"
+          }
+        }
+      ],
+      "grammar": "il y a は「〜がある」。存在を表す最も基本の言い方。"
+    },
+    {
+      "id": "fr-0165",
+      "lang": "fr",
+      "text": "Ce n'est pas ce que j'ai commandé.",
+      "ja": "これは注文したものと違います。",
+      "level": "A2",
+      "tags": [
+        "レストラン",
+        "否定",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Ce",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "n'",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "est",
+          "start": 5,
+          "end": 8,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas",
+          "start": 9,
+          "end": 12
+        },
+        {
+          "surface": "ce que",
+          "start": 13,
+          "end": 19,
+          "gloss": {
+            "lemma": "ce que",
+            "pos": "慣用表現",
+            "ja": "〜すること・〜するもの",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "j'",
+          "start": 20,
+          "end": 22
+        },
+        {
+          "surface": "ai commandé",
+          "start": 22,
+          "end": 33,
+          "gloss": {
+            "lemma": "commander",
+            "pos": "動詞",
+            "ja": "注文する・命じる",
+            "inflection": {
+              "label": "複合過去・1人称単数",
+              "tense": "PC",
+              "person": "1sg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0166",
+      "lang": "fr",
+      "text": "Un café et une eau, s'il vous plaît.",
+      "ja": "コーヒーひとつとお水をひとつお願いします。",
+      "level": "A2",
+      "tags": [
+        "レストラン",
+        "注文"
+      ],
+      "tokens": [
+        {
+          "surface": "Un",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "café",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "café",
+            "pos": "名詞",
+            "ja": "コーヒー・カフェ"
+          }
+        },
+        {
+          "surface": "et une",
+          "start": 8,
+          "end": 14
+        },
+        {
+          "surface": "eau",
+          "start": 15,
+          "end": 18,
+          "gloss": {
+            "lemma": "eau",
+            "pos": "名詞",
+            "ja": "水"
+          }
+        },
+        {
+          "surface": "s'il vous plaît",
+          "start": 20,
+          "end": 35,
+          "gloss": {
+            "lemma": "s'il vous plaît",
+            "pos": "慣用表現",
+            "ja": "お願いします",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "plaît",
+              "lemma": "plaire"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0167",
+      "lang": "fr",
+      "text": "Je suis allergique aux fruits de mer.",
+      "ja": "魚介類にアレルギーがあります。",
+      "level": "B1",
+      "tags": [
+        "レストラン",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "suis",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "allergique",
+          "start": 8,
+          "end": 18,
+          "gloss": {
+            "lemma": "allergique",
+            "pos": "形容詞",
+            "ja": "アレルギーのある"
+          }
+        },
+        {
+          "surface": "aux",
+          "start": 19,
+          "end": 22
+        },
+        {
+          "surface": "fruits de mer",
+          "start": 23,
+          "end": 36,
+          "gloss": {
+            "lemma": "fruits de mer",
+            "pos": "慣用表現",
+            "ja": "魚介類",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "être allergique à + 名詞。aux は à + les の縮約。"
+    },
+    {
+      "id": "fr-0168",
+      "lang": "fr",
+      "text": "Pourriez-vous me faire un paquet cadeau ?",
+      "ja": "贈り物用に包んでいただけますか。",
+      "level": "B1",
+      "tags": [
+        "買い物",
+        "条件法現在",
+        "丁寧"
+      ],
+      "tokens": [
+        {
+          "surface": "Pourriez",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "note": "条件法にすると丁寧さが増す",
+            "inflection": {
+              "label": "条件法現在・2人称複数",
+              "tense": "COND",
+              "person": "2pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "vous me",
+          "start": 9,
+          "end": 16
+        },
+        {
+          "surface": "faire",
+          "start": 17,
+          "end": 22,
+          "gloss": {
+            "lemma": "faire",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 23,
+          "end": 25
+        },
+        {
+          "surface": "paquet cadeau",
+          "start": 26,
+          "end": 39,
+          "gloss": {
+            "lemma": "paquet cadeau",
+            "pos": "慣用表現",
+            "ja": "贈り物用の包装",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "Pourriez-vous は Pouvez-vous よりさらに丁寧。頼みごとの定型。"
+    },
+    {
+      "id": "fr-0169",
+      "lang": "fr",
+      "text": "Je voudrais échanger cet article.",
+      "ja": "この品物を交換したいのですが。",
+      "level": "B1",
+      "tags": [
+        "買い物",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "voudrais",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "vouloir",
+            "pos": "動詞",
+            "ja": "欲する・〜したい",
+            "inflection": {
+              "label": "条件法現在・1人称単数",
+              "tense": "COND",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "échanger",
+          "start": 12,
+          "end": 20,
+          "gloss": {
+            "lemma": "échanger",
+            "pos": "動詞",
+            "ja": "交換する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "cet",
+          "start": 21,
+          "end": 24
+        },
+        {
+          "surface": "article",
+          "start": 25,
+          "end": 32,
+          "gloss": {
+            "lemma": "article",
+            "pos": "名詞",
+            "ja": "品物・記事"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0170",
+      "lang": "fr",
+      "text": "Il faut que je passe à la banque.",
+      "ja": "銀行に寄らないといけません。",
+      "level": "B1",
+      "tags": [
+        "接続法",
+        "義務"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "faut",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "falloir",
+            "pos": "動詞",
+            "ja": "必要である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "que je",
+          "start": 8,
+          "end": 14
+        },
+        {
+          "surface": "passe",
+          "start": 15,
+          "end": 20,
+          "gloss": {
+            "lemma": "passer",
+            "pos": "動詞",
+            "ja": "通る・立ち寄る",
+            "note": "il faut que のあとは接続法",
+            "inflection": {
+              "label": "接続法現在・1人称単数",
+              "tense": "SUBJ",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "à la",
+          "start": 21,
+          "end": 25
+        },
+        {
+          "surface": "banque",
+          "start": 26,
+          "end": 32,
+          "gloss": {
+            "lemma": "banque",
+            "pos": "名詞",
+            "ja": "銀行"
+          }
+        }
+      ],
+      "grammar": "il faut que のあとは必ず接続法。入門で最初に出会う接続法の用法。"
+    },
+    {
+      "id": "fr-0171",
+      "lang": "fr",
+      "text": "Le service est compris dans le prix ?",
+      "ja": "サービス料は値段に含まれていますか。",
+      "level": "B1",
+      "tags": [
+        "会計",
+        "疑問",
+        "受動"
+      ],
+      "tokens": [
+        {
+          "surface": "Le",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "service",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "service",
+            "pos": "名詞",
+            "ja": "サービス・給仕"
+          }
+        },
+        {
+          "surface": "est",
+          "start": 11,
+          "end": 14,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "受動態の être",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "compris",
+          "start": 15,
+          "end": 22,
+          "gloss": {
+            "lemma": "comprendre",
+            "pos": "動詞",
+            "ja": "理解する・含む",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "dans le",
+          "start": 23,
+          "end": 30
+        },
+        {
+          "surface": "prix",
+          "start": 31,
+          "end": 35,
+          "gloss": {
+            "lemma": "prix",
+            "pos": "名詞",
+            "ja": "値段・賞"
+          }
+        }
+      ],
+      "grammar": "être + 過去分詞で受動態。過去分詞は主語に性数一致する。"
+    },
+    {
+      "id": "fr-0172",
+      "lang": "fr",
+      "text": "Je le prends si vous me faites une remise.",
+      "ja": "値引きしてくださるなら買います。",
+      "level": "B1",
+      "tags": [
+        "買い物",
+        "直説法現在",
+        "条件"
+      ],
+      "tokens": [
+        {
+          "surface": "Je le",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "prends",
+          "start": 6,
+          "end": 12,
+          "gloss": {
+            "lemma": "prendre",
+            "pos": "動詞",
+            "ja": "取る・注文する",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "si",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "surface": "vous me",
+          "start": 16,
+          "end": 23
+        },
+        {
+          "surface": "faites",
+          "start": 24,
+          "end": 30,
+          "gloss": {
+            "lemma": "faire",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "note": "si のあとは直説法。接続法にしない",
+            "inflection": {
+              "label": "直説法現在・2人称複数",
+              "tense": "PRES",
+              "person": "2pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "une",
+          "start": 31,
+          "end": 34
+        },
+        {
+          "surface": "remise",
+          "start": 35,
+          "end": 41,
+          "gloss": {
+            "lemma": "remise",
+            "pos": "名詞",
+            "ja": "値引き・引き渡し"
+          }
+        }
+      ],
+      "grammar": "si + 直説法現在で、実現しうる条件を表す。帰結も現在形でよい。"
+    },
+    {
+      "id": "fr-0173",
+      "lang": "fr",
+      "text": "On m'a rendu la monnaie en trop.",
+      "ja": "お釣りを多くもらってしまいました。",
+      "level": "B1",
+      "tags": [
+        "会計",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "On",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "m'",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "a rendu",
+          "start": 5,
+          "end": 12,
+          "gloss": {
+            "lemma": "rendre",
+            "pos": "動詞",
+            "ja": "返す・〜にする",
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "surface": "monnaie",
+          "start": 16,
+          "end": 23,
+          "gloss": {
+            "lemma": "monnaie",
+            "pos": "名詞",
+            "ja": "小銭・釣り銭"
+          }
+        },
+        {
+          "surface": "en trop",
+          "start": 24,
+          "end": 31,
+          "gloss": {
+            "lemma": "en trop",
+            "pos": "慣用表現",
+            "ja": "多すぎて・余分に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "on は「誰か」を漠然と指す。受け身の代わりによく使う。"
+    },
+    {
+      "id": "fr-0174",
+      "lang": "fr",
+      "text": "Ce vin va très bien avec le fromage.",
+      "ja": "このワインはチーズによく合います。",
+      "level": "B1",
+      "tags": [
+        "レストラン",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Ce",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "vin",
+          "start": 3,
+          "end": 6,
+          "gloss": {
+            "lemma": "vin",
+            "pos": "名詞",
+            "ja": "ワイン"
+          }
+        },
+        {
+          "surface": "va",
+          "start": 7,
+          "end": 9,
+          "gloss": {
+            "lemma": "aller",
+            "pos": "動詞",
+            "ja": "行く・（物が）合う",
+            "note": "aller avec で「合う」",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "très bien",
+          "start": 10,
+          "end": 19,
+          "gloss": {
+            "lemma": "très bien",
+            "pos": "慣用表現",
+            "ja": "とてもよく",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "avec le",
+          "start": 20,
+          "end": 27
+        },
+        {
+          "surface": "fromage",
+          "start": 28,
+          "end": 35,
+          "gloss": {
+            "lemma": "fromage",
+            "pos": "名詞",
+            "ja": "チーズ"
+          }
+        }
+      ],
+      "grammar": "aller avec で「（食べ物などが）合う」。"
+    },
+    {
+      "id": "fr-0175",
+      "lang": "fr",
+      "text": "J'hésite entre les deux.",
+      "ja": "2つのあいだで迷っています。",
+      "level": "B1",
+      "tags": [
+        "買い物",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "J'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "hésite",
+          "start": 2,
+          "end": 8,
+          "gloss": {
+            "lemma": "hésiter",
+            "pos": "動詞",
+            "ja": "ためらう・迷う",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "entre",
+          "start": 9,
+          "end": 14,
+          "gloss": {
+            "lemma": "entre",
+            "pos": "前置詞",
+            "ja": "〜のあいだで"
+          }
+        },
+        {
+          "surface": "les deux",
+          "start": 15,
+          "end": 23,
+          "gloss": {
+            "lemma": "les deux",
+            "pos": "慣用表現",
+            "ja": "両方・2つとも",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0176",
+      "lang": "fr",
+      "text": "Vous pourriez me montrer celui en vitrine ?",
+      "ja": "ショーウィンドウのものを見せていただけますか。",
+      "level": "B1",
+      "tags": [
+        "買い物",
+        "条件法現在",
+        "丁寧"
+      ],
+      "tokens": [
+        {
+          "surface": "Vous",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "surface": "pourriez",
+          "start": 5,
+          "end": 13,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "inflection": {
+              "label": "条件法現在・2人称複数",
+              "tense": "COND",
+              "person": "2pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "me",
+          "start": 14,
+          "end": 16
+        },
+        {
+          "surface": "montrer",
+          "start": 17,
+          "end": 24,
+          "gloss": {
+            "lemma": "montrer",
+            "pos": "動詞",
+            "ja": "見せる・示す",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "celui",
+          "start": 25,
+          "end": 30,
+          "gloss": {
+            "lemma": "celui",
+            "pos": "代名詞",
+            "ja": "それ・そちらのもの"
+          }
+        },
+        {
+          "surface": "en vitrine",
+          "start": 31,
+          "end": 41,
+          "gloss": {
+            "lemma": "en vitrine",
+            "pos": "慣用表現",
+            "ja": "ショーウィンドウに",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0177",
+      "lang": "fr",
+      "text": "Nous avons réservé au nom de Tanaka.",
+      "ja": "田中の名前で予約しています。",
+      "level": "B1",
+      "tags": [
+        "レストラン",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Nous",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "surface": "avons réservé",
+          "start": 5,
+          "end": 18,
+          "gloss": {
+            "lemma": "réserver",
+            "pos": "動詞",
+            "ja": "予約する",
+            "inflection": {
+              "label": "複合過去・1人称複数",
+              "tense": "PC",
+              "person": "1pl"
+            }
+          }
+        },
+        {
+          "surface": "au nom de",
+          "start": 19,
+          "end": 28,
+          "gloss": {
+            "lemma": "au nom de",
+            "pos": "慣用表現",
+            "ja": "〜の名前で",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "Tanaka",
+          "start": 29,
+          "end": 35,
+          "gloss": {
+            "lemma": "Tanaka",
+            "pos": "固有名詞",
+            "ja": "田中（人名）"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0178",
+      "lang": "fr",
+      "text": "Je préfère quelque chose de moins sucré.",
+      "ja": "もう少し甘くないものがいいです。",
+      "level": "B1",
+      "tags": [
+        "レストラン",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "préfère",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "préférer",
+            "pos": "動詞",
+            "ja": "〜のほうを好む",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の é が è に変わる（préfér- → préfèr-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "quelque chose de",
+          "start": 11,
+          "end": 27,
+          "gloss": {
+            "lemma": "quelque chose de",
+            "pos": "慣用表現",
+            "ja": "何か〜なもの",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "moins",
+          "start": 28,
+          "end": 33,
+          "gloss": {
+            "lemma": "moins",
+            "pos": "副詞",
+            "ja": "より少なく"
+          }
+        },
+        {
+          "surface": "sucré",
+          "start": 34,
+          "end": 39,
+          "gloss": {
+            "lemma": "sucré",
+            "pos": "形容詞",
+            "ja": "甘い"
+          }
+        }
+      ],
+      "grammar": "quelque chose de + 形容詞（男性単数）。de を落とさないこと。"
+    },
+    {
+      "id": "fr-0179",
+      "lang": "fr",
+      "text": "Si j'avais su, j'aurais pris l'autre.",
+      "ja": "知っていたら、もう一方にしたのに。",
+      "level": "B1",
+      "tags": [
+        "買い物",
+        "大過去",
+        "条件法"
+      ],
+      "tokens": [
+        {
+          "surface": "Si j'",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "avais su",
+          "start": 5,
+          "end": 13,
+          "gloss": {
+            "lemma": "savoir",
+            "pos": "動詞",
+            "ja": "知る・知っている",
+            "inflection": {
+              "label": "大過去・1人称単数",
+              "tense": "PQP",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "j'",
+          "start": 15,
+          "end": 17
+        },
+        {
+          "surface": "aurais",
+          "start": 17,
+          "end": 23,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "note": "条件法過去の助動詞",
+            "inflection": {
+              "label": "条件法現在・1人称単数",
+              "tense": "COND",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pris",
+          "start": 24,
+          "end": 28,
+          "gloss": {
+            "lemma": "prendre",
+            "pos": "動詞",
+            "ja": "取る・注文する",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "l'autre",
+          "start": 29,
+          "end": 36,
+          "gloss": {
+            "lemma": "l'autre",
+            "pos": "代名詞",
+            "ja": "もう一方"
+          }
+        }
+      ],
+      "grammar": "si + 大過去 → 条件法過去。実現しなかった過去への後悔を表す。"
+    },
+    {
+      "id": "fr-0180",
+      "lang": "fr",
+      "text": "Gardez la monnaie.",
+      "ja": "お釣りは取っておいてください。",
+      "level": "B1",
+      "tags": [
+        "会計",
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Gardez",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "garder",
+            "pos": "動詞",
+            "ja": "取っておく・保つ",
+            "inflection": {
+              "label": "命令法・2人称複数",
+              "tense": "IMPER",
+              "person": "2pl"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 7,
+          "end": 9
+        },
+        {
+          "surface": "monnaie",
+          "start": 10,
+          "end": 17,
+          "gloss": {
+            "lemma": "monnaie",
+            "pos": "名詞",
+            "ja": "小銭・釣り銭"
+          }
+        }
+      ]
     }
   ]
 }

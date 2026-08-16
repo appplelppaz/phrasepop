@@ -31279,6 +31279,261 @@
       }
     },
     {
+      "lemma": "conseiller",
+      "ja": "助言する・勧める",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "conseille",
+          "conseilles",
+          "conseille",
+          "conseillons",
+          "conseillez",
+          "conseillent"
+        ],
+        "IMPF": [
+          "conseillais",
+          "conseillais",
+          "conseillait",
+          "conseillions",
+          "conseilliez",
+          "conseillaient"
+        ],
+        "FUT": [
+          "conseillerai",
+          "conseilleras",
+          "conseillera",
+          "conseillerons",
+          "conseillerez",
+          "conseilleront"
+        ],
+        "PC": [
+          "ai conseillé",
+          "as conseillé",
+          "a conseillé",
+          "avons conseillé",
+          "avez conseillé",
+          "ont conseillé"
+        ],
+        "PQP": [
+          "avais conseillé",
+          "avais conseillé",
+          "avait conseillé",
+          "avions conseillé",
+          "aviez conseillé",
+          "avaient conseillé"
+        ],
+        "PS": [
+          "conseillai",
+          "conseillas",
+          "conseilla",
+          "conseillâmes",
+          "conseillâtes",
+          "conseillèrent"
+        ],
+        "COND": [
+          "conseillerais",
+          "conseillerais",
+          "conseillerait",
+          "conseillerions",
+          "conseilleriez",
+          "conseilleraient"
+        ],
+        "SUBJ": [
+          "conseille",
+          "conseilles",
+          "conseille",
+          "conseillions",
+          "conseilliez",
+          "conseillent"
+        ],
+        "IMPER": [
+          "",
+          "conseille",
+          "",
+          "conseillons",
+          "conseillez",
+          ""
+        ],
+        "PPRES": [
+          "conseillant"
+        ],
+        "PPASSE": [
+          "conseillé"
+        ]
+      }
+    },
+    {
+      "lemma": "commander",
+      "ja": "注文する・命じる",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "commande",
+          "commandes",
+          "commande",
+          "commandons",
+          "commandez",
+          "commandent"
+        ],
+        "IMPF": [
+          "commandais",
+          "commandais",
+          "commandait",
+          "commandions",
+          "commandiez",
+          "commandaient"
+        ],
+        "FUT": [
+          "commanderai",
+          "commanderas",
+          "commandera",
+          "commanderons",
+          "commanderez",
+          "commanderont"
+        ],
+        "PC": [
+          "ai commandé",
+          "as commandé",
+          "a commandé",
+          "avons commandé",
+          "avez commandé",
+          "ont commandé"
+        ],
+        "PQP": [
+          "avais commandé",
+          "avais commandé",
+          "avait commandé",
+          "avions commandé",
+          "aviez commandé",
+          "avaient commandé"
+        ],
+        "PS": [
+          "commandai",
+          "commandas",
+          "commanda",
+          "commandâmes",
+          "commandâtes",
+          "commandèrent"
+        ],
+        "COND": [
+          "commanderais",
+          "commanderais",
+          "commanderait",
+          "commanderions",
+          "commanderiez",
+          "commanderaient"
+        ],
+        "SUBJ": [
+          "commande",
+          "commandes",
+          "commande",
+          "commandions",
+          "commandiez",
+          "commandent"
+        ],
+        "IMPER": [
+          "",
+          "commande",
+          "",
+          "commandons",
+          "commandez",
+          ""
+        ],
+        "PPRES": [
+          "commandant"
+        ],
+        "PPASSE": [
+          "commandé"
+        ]
+      }
+    },
+    {
+      "lemma": "hésiter",
+      "ja": "ためらう・迷う",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "hésite",
+          "hésites",
+          "hésite",
+          "hésitons",
+          "hésitez",
+          "hésitent"
+        ],
+        "IMPF": [
+          "hésitais",
+          "hésitais",
+          "hésitait",
+          "hésitions",
+          "hésitiez",
+          "hésitaient"
+        ],
+        "FUT": [
+          "hésiterai",
+          "hésiteras",
+          "hésitera",
+          "hésiterons",
+          "hésiterez",
+          "hésiteront"
+        ],
+        "PC": [
+          "ai hésité",
+          "as hésité",
+          "a hésité",
+          "avons hésité",
+          "avez hésité",
+          "ont hésité"
+        ],
+        "PQP": [
+          "avais hésité",
+          "avais hésité",
+          "avait hésité",
+          "avions hésité",
+          "aviez hésité",
+          "avaient hésité"
+        ],
+        "PS": [
+          "hésitai",
+          "hésitas",
+          "hésita",
+          "hésitâmes",
+          "hésitâtes",
+          "hésitèrent"
+        ],
+        "COND": [
+          "hésiterais",
+          "hésiterais",
+          "hésiterait",
+          "hésiterions",
+          "hésiteriez",
+          "hésiteraient"
+        ],
+        "SUBJ": [
+          "hésite",
+          "hésites",
+          "hésite",
+          "hésitions",
+          "hésitiez",
+          "hésitent"
+        ],
+        "IMPER": [
+          "",
+          "hésite",
+          "",
+          "hésitons",
+          "hésitez",
+          ""
+        ],
+        "PPRES": [
+          "hésitant"
+        ],
+        "PPASSE": [
+          "hésité"
+        ]
+      }
+    },
+    {
       "lemma": "coucher",
       "ja": "寝かせる・（代名動詞で）寝る",
       "aux": "AVOIR",

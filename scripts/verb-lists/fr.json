@@ -822,6 +822,18 @@
       "ja": "聞く・耳を傾ける"
     },
     {
+      "lemma": "conseiller",
+      "ja": "助言する・勧める"
+    },
+    {
+      "lemma": "commander",
+      "ja": "注文する・命じる"
+    },
+    {
+      "lemma": "hésiter",
+      "ja": "ためらう・迷う"
+    },
+    {
       "lemma": "coucher",
       "ja": "寝かせる・（代名動詞で）寝る"
     },
