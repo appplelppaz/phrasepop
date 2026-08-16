@@ -802,6 +802,180 @@
       "ja": "知らせる・予防する"
     },
     {
+      "lemma": "habiter",
+      "ja": "住む"
+    },
+    {
+      "lemma": "coûter",
+      "ja": "（値段が）かかる"
+    },
+    {
+      "lemma": "tourner",
+      "ja": "曲がる・回る"
+    },
+    {
+      "lemma": "téléphoner",
+      "ja": "電話する"
+    },
+    {
+      "lemma": "écouter",
+      "ja": "聞く・耳を傾ける"
+    },
+    {
+      "lemma": "adorer",
+      "ja": "大好きである・崇拝する"
+    },
+    {
+      "lemma": "fêter",
+      "ja": "祝う"
+    },
+    {
+      "lemma": "disputer",
+      "ja": "争う・（代名動詞で）喧嘩する"
+    },
+    {
+      "lemma": "tousser",
+      "ja": "咳をする"
+    },
+    {
+      "lemma": "voler",
+      "ja": "盗む・飛ぶ"
+    },
+    {
+      "lemma": "reposer",
+      "ja": "休ませる・（代名動詞で）休む"
+    },
+    {
+      "lemma": "déranger",
+      "ja": "邪魔する・迷惑をかける"
+    },
+    {
+      "lemma": "tromper",
+      "ja": "だます・（代名動詞で）間違える"
+    },
+    {
+      "lemma": "ennuyer",
+      "ja": "困らせる・退屈させる"
+    },
+    {
+      "lemma": "inquiéter",
+      "ja": "心配させる"
+    },
+    {
+      "lemma": "retrouver",
+      "ja": "再び見つける・落ち合う"
+    },
+    {
+      "lemma": "quitter",
+      "ja": "去る・（電話を）切る"
+    },
+    {
+      "lemma": "rappeler",
+      "ja": "かけ直す・思い出させる"
+    },
+    {
+      "lemma": "rentrer",
+      "ja": "帰る・戻る",
+      "aux": "ETRE"
+    },
+    {
+      "lemma": "arranger",
+      "ja": "整える・都合がよい"
+    },
+    {
+      "lemma": "décaler",
+      "ja": "ずらす"
+    },
+    {
+      "lemma": "amuser",
+      "ja": "楽しませる"
+    },
+    {
+      "lemma": "traverser",
+      "ja": "渡る・横断する"
+    },
+    {
+      "lemma": "rater",
+      "ja": "逃す・失敗する"
+    },
+    {
+      "lemma": "améliorer",
+      "ja": "改善する・よくする"
+    },
+    {
+      "lemma": "conseiller",
+      "ja": "助言する・勧める"
+    },
+    {
+      "lemma": "commander",
+      "ja": "注文する・命じる"
+    },
+    {
+      "lemma": "hésiter",
+      "ja": "ためらう・迷う"
+    },
+    {
+      "lemma": "coucher",
+      "ja": "寝かせる・（代名動詞で）寝る"
+    },
+    {
+      "lemma": "réveiller",
+      "ja": "起こす・（代名動詞で）目を覚ます"
+    },
+    {
+      "lemma": "laver",
+      "ja": "洗う"
+    },
+    {
+      "lemma": "manquer",
+      "ja": "足りない・逃す"
+    },
+    {
+      "lemma": "remercier",
+      "ja": "礼を言う"
+    },
+    {
+      "lemma": "excuser",
+      "ja": "許す・（代名動詞で）詫びる"
+    },
+    {
+      "lemma": "présenter",
+      "ja": "紹介する・提示する"
+    },
+    {
+      "lemma": "rencontrer",
+      "ja": "出会う"
+    },
+    {
+      "lemma": "visiter",
+      "ja": "訪れる・見学する"
+    },
+    {
+      "lemma": "réserver",
+      "ja": "予約する"
+    },
+    {
+      "lemma": "louer",
+      "ja": "借りる・貸す"
+    },
+    {
+      "lemma": "neiger",
+      "ja": "雪が降る",
+      "impersonal": true,
+      "omit": [
+        "IMPER",
+        "PPRES"
+      ]
+    },
+    {
+      "lemma": "ranger",
+      "ja": "片づける"
+    },
+    {
+      "lemma": "nettoyer",
+      "ja": "掃除する"
+    },
+    {
       "lemma": "plier",
       "ja": "折る・曲げる"
     },

@@ -30854,6 +30854,4036 @@
       }
     },
     {
+      "lemma": "habiter",
+      "ja": "住む",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "habite",
+          "habites",
+          "habite",
+          "habitons",
+          "habitez",
+          "habitent"
+        ],
+        "IMPF": [
+          "habitais",
+          "habitais",
+          "habitait",
+          "habitions",
+          "habitiez",
+          "habitaient"
+        ],
+        "FUT": [
+          "habiterai",
+          "habiteras",
+          "habitera",
+          "habiterons",
+          "habiterez",
+          "habiteront"
+        ],
+        "PC": [
+          "ai habité",
+          "as habité",
+          "a habité",
+          "avons habité",
+          "avez habité",
+          "ont habité"
+        ],
+        "PQP": [
+          "avais habité",
+          "avais habité",
+          "avait habité",
+          "avions habité",
+          "aviez habité",
+          "avaient habité"
+        ],
+        "PS": [
+          "habitai",
+          "habitas",
+          "habita",
+          "habitâmes",
+          "habitâtes",
+          "habitèrent"
+        ],
+        "COND": [
+          "habiterais",
+          "habiterais",
+          "habiterait",
+          "habiterions",
+          "habiteriez",
+          "habiteraient"
+        ],
+        "SUBJ": [
+          "habite",
+          "habites",
+          "habite",
+          "habitions",
+          "habitiez",
+          "habitent"
+        ],
+        "IMPER": [
+          "",
+          "habite",
+          "",
+          "habitons",
+          "habitez",
+          ""
+        ],
+        "PPRES": [
+          "habitant"
+        ],
+        "PPASSE": [
+          "habité"
+        ]
+      }
+    },
+    {
+      "lemma": "coûter",
+      "ja": "（値段が）かかる",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "coûte",
+          "coûtes",
+          "coûte",
+          "coûtons",
+          "coûtez",
+          "coûtent"
+        ],
+        "IMPF": [
+          "coûtais",
+          "coûtais",
+          "coûtait",
+          "coûtions",
+          "coûtiez",
+          "coûtaient"
+        ],
+        "FUT": [
+          "coûterai",
+          "coûteras",
+          "coûtera",
+          "coûterons",
+          "coûterez",
+          "coûteront"
+        ],
+        "PC": [
+          "ai coûté",
+          "as coûté",
+          "a coûté",
+          "avons coûté",
+          "avez coûté",
+          "ont coûté"
+        ],
+        "PQP": [
+          "avais coûté",
+          "avais coûté",
+          "avait coûté",
+          "avions coûté",
+          "aviez coûté",
+          "avaient coûté"
+        ],
+        "PS": [
+          "coûtai",
+          "coûtas",
+          "coûta",
+          "coûtâmes",
+          "coûtâtes",
+          "coûtèrent"
+        ],
+        "COND": [
+          "coûterais",
+          "coûterais",
+          "coûterait",
+          "coûterions",
+          "coûteriez",
+          "coûteraient"
+        ],
+        "SUBJ": [
+          "coûte",
+          "coûtes",
+          "coûte",
+          "coûtions",
+          "coûtiez",
+          "coûtent"
+        ],
+        "IMPER": [
+          "",
+          "coûte",
+          "",
+          "coûtons",
+          "coûtez",
+          ""
+        ],
+        "PPRES": [
+          "coûtant"
+        ],
+        "PPASSE": [
+          "coûté"
+        ]
+      }
+    },
+    {
+      "lemma": "tourner",
+      "ja": "曲がる・回る",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "tourne",
+          "tournes",
+          "tourne",
+          "tournons",
+          "tournez",
+          "tournent"
+        ],
+        "IMPF": [
+          "tournais",
+          "tournais",
+          "tournait",
+          "tournions",
+          "tourniez",
+          "tournaient"
+        ],
+        "FUT": [
+          "tournerai",
+          "tourneras",
+          "tournera",
+          "tournerons",
+          "tournerez",
+          "tourneront"
+        ],
+        "PC": [
+          "ai tourné",
+          "as tourné",
+          "a tourné",
+          "avons tourné",
+          "avez tourné",
+          "ont tourné"
+        ],
+        "PQP": [
+          "avais tourné",
+          "avais tourné",
+          "avait tourné",
+          "avions tourné",
+          "aviez tourné",
+          "avaient tourné"
+        ],
+        "PS": [
+          "tournai",
+          "tournas",
+          "tourna",
+          "tournâmes",
+          "tournâtes",
+          "tournèrent"
+        ],
+        "COND": [
+          "tournerais",
+          "tournerais",
+          "tournerait",
+          "tournerions",
+          "tourneriez",
+          "tourneraient"
+        ],
+        "SUBJ": [
+          "tourne",
+          "tournes",
+          "tourne",
+          "tournions",
+          "tourniez",
+          "tournent"
+        ],
+        "IMPER": [
+          "",
+          "tourne",
+          "",
+          "tournons",
+          "tournez",
+          ""
+        ],
+        "PPRES": [
+          "tournant"
+        ],
+        "PPASSE": [
+          "tourné"
+        ]
+      }
+    },
+    {
+      "lemma": "téléphoner",
+      "ja": "電話する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "téléphone",
+          "téléphones",
+          "téléphone",
+          "téléphonons",
+          "téléphonez",
+          "téléphonent"
+        ],
+        "IMPF": [
+          "téléphonais",
+          "téléphonais",
+          "téléphonait",
+          "téléphonions",
+          "téléphoniez",
+          "téléphonaient"
+        ],
+        "FUT": [
+          "téléphonerai",
+          "téléphoneras",
+          "téléphonera",
+          "téléphonerons",
+          "téléphonerez",
+          "téléphoneront"
+        ],
+        "PC": [
+          "ai téléphoné",
+          "as téléphoné",
+          "a téléphoné",
+          "avons téléphoné",
+          "avez téléphoné",
+          "ont téléphoné"
+        ],
+        "PQP": [
+          "avais téléphoné",
+          "avais téléphoné",
+          "avait téléphoné",
+          "avions téléphoné",
+          "aviez téléphoné",
+          "avaient téléphoné"
+        ],
+        "PS": [
+          "téléphonai",
+          "téléphonas",
+          "téléphona",
+          "téléphonâmes",
+          "téléphonâtes",
+          "téléphonèrent"
+        ],
+        "COND": [
+          "téléphonerais",
+          "téléphonerais",
+          "téléphonerait",
+          "téléphonerions",
+          "téléphoneriez",
+          "téléphoneraient"
+        ],
+        "SUBJ": [
+          "téléphone",
+          "téléphones",
+          "téléphone",
+          "téléphonions",
+          "téléphoniez",
+          "téléphonent"
+        ],
+        "IMPER": [
+          "",
+          "téléphone",
+          "",
+          "téléphonons",
+          "téléphonez",
+          ""
+        ],
+        "PPRES": [
+          "téléphonant"
+        ],
+        "PPASSE": [
+          "téléphoné"
+        ]
+      }
+    },
+    {
+      "lemma": "écouter",
+      "ja": "聞く・耳を傾ける",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "écoute",
+          "écoutes",
+          "écoute",
+          "écoutons",
+          "écoutez",
+          "écoutent"
+        ],
+        "IMPF": [
+          "écoutais",
+          "écoutais",
+          "écoutait",
+          "écoutions",
+          "écoutiez",
+          "écoutaient"
+        ],
+        "FUT": [
+          "écouterai",
+          "écouteras",
+          "écoutera",
+          "écouterons",
+          "écouterez",
+          "écouteront"
+        ],
+        "PC": [
+          "ai écouté",
+          "as écouté",
+          "a écouté",
+          "avons écouté",
+          "avez écouté",
+          "ont écouté"
+        ],
+        "PQP": [
+          "avais écouté",
+          "avais écouté",
+          "avait écouté",
+          "avions écouté",
+          "aviez écouté",
+          "avaient écouté"
+        ],
+        "PS": [
+          "écoutai",
+          "écoutas",
+          "écouta",
+          "écoutâmes",
+          "écoutâtes",
+          "écoutèrent"
+        ],
+        "COND": [
+          "écouterais",
+          "écouterais",
+          "écouterait",
+          "écouterions",
+          "écouteriez",
+          "écouteraient"
+        ],
+        "SUBJ": [
+          "écoute",
+          "écoutes",
+          "écoute",
+          "écoutions",
+          "écoutiez",
+          "écoutent"
+        ],
+        "IMPER": [
+          "",
+          "écoute",
+          "",
+          "écoutons",
+          "écoutez",
+          ""
+        ],
+        "PPRES": [
+          "écoutant"
+        ],
+        "PPASSE": [
+          "écouté"
+        ]
+      }
+    },
+    {
+      "lemma": "adorer",
+      "ja": "大好きである・崇拝する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "adore",
+          "adores",
+          "adore",
+          "adorons",
+          "adorez",
+          "adorent"
+        ],
+        "IMPF": [
+          "adorais",
+          "adorais",
+          "adorait",
+          "adorions",
+          "adoriez",
+          "adoraient"
+        ],
+        "FUT": [
+          "adorerai",
+          "adoreras",
+          "adorera",
+          "adorerons",
+          "adorerez",
+          "adoreront"
+        ],
+        "PC": [
+          "ai adoré",
+          "as adoré",
+          "a adoré",
+          "avons adoré",
+          "avez adoré",
+          "ont adoré"
+        ],
+        "PQP": [
+          "avais adoré",
+          "avais adoré",
+          "avait adoré",
+          "avions adoré",
+          "aviez adoré",
+          "avaient adoré"
+        ],
+        "PS": [
+          "adorai",
+          "adoras",
+          "adora",
+          "adorâmes",
+          "adorâtes",
+          "adorèrent"
+        ],
+        "COND": [
+          "adorerais",
+          "adorerais",
+          "adorerait",
+          "adorerions",
+          "adoreriez",
+          "adoreraient"
+        ],
+        "SUBJ": [
+          "adore",
+          "adores",
+          "adore",
+          "adorions",
+          "adoriez",
+          "adorent"
+        ],
+        "IMPER": [
+          "",
+          "adore",
+          "",
+          "adorons",
+          "adorez",
+          ""
+        ],
+        "PPRES": [
+          "adorant"
+        ],
+        "PPASSE": [
+          "adoré"
+        ]
+      }
+    },
+    {
+      "lemma": "fêter",
+      "ja": "祝う",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "fête",
+          "fêtes",
+          "fête",
+          "fêtons",
+          "fêtez",
+          "fêtent"
+        ],
+        "IMPF": [
+          "fêtais",
+          "fêtais",
+          "fêtait",
+          "fêtions",
+          "fêtiez",
+          "fêtaient"
+        ],
+        "FUT": [
+          "fêterai",
+          "fêteras",
+          "fêtera",
+          "fêterons",
+          "fêterez",
+          "fêteront"
+        ],
+        "PC": [
+          "ai fêté",
+          "as fêté",
+          "a fêté",
+          "avons fêté",
+          "avez fêté",
+          "ont fêté"
+        ],
+        "PQP": [
+          "avais fêté",
+          "avais fêté",
+          "avait fêté",
+          "avions fêté",
+          "aviez fêté",
+          "avaient fêté"
+        ],
+        "PS": [
+          "fêtai",
+          "fêtas",
+          "fêta",
+          "fêtâmes",
+          "fêtâtes",
+          "fêtèrent"
+        ],
+        "COND": [
+          "fêterais",
+          "fêterais",
+          "fêterait",
+          "fêterions",
+          "fêteriez",
+          "fêteraient"
+        ],
+        "SUBJ": [
+          "fête",
+          "fêtes",
+          "fête",
+          "fêtions",
+          "fêtiez",
+          "fêtent"
+        ],
+        "IMPER": [
+          "",
+          "fête",
+          "",
+          "fêtons",
+          "fêtez",
+          ""
+        ],
+        "PPRES": [
+          "fêtant"
+        ],
+        "PPASSE": [
+          "fêté"
+        ]
+      }
+    },
+    {
+      "lemma": "disputer",
+      "ja": "争う・（代名動詞で）喧嘩する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "dispute",
+          "disputes",
+          "dispute",
+          "disputons",
+          "disputez",
+          "disputent"
+        ],
+        "IMPF": [
+          "disputais",
+          "disputais",
+          "disputait",
+          "disputions",
+          "disputiez",
+          "disputaient"
+        ],
+        "FUT": [
+          "disputerai",
+          "disputeras",
+          "disputera",
+          "disputerons",
+          "disputerez",
+          "disputeront"
+        ],
+        "PC": [
+          "ai disputé",
+          "as disputé",
+          "a disputé",
+          "avons disputé",
+          "avez disputé",
+          "ont disputé"
+        ],
+        "PQP": [
+          "avais disputé",
+          "avais disputé",
+          "avait disputé",
+          "avions disputé",
+          "aviez disputé",
+          "avaient disputé"
+        ],
+        "PS": [
+          "disputai",
+          "disputas",
+          "disputa",
+          "disputâmes",
+          "disputâtes",
+          "disputèrent"
+        ],
+        "COND": [
+          "disputerais",
+          "disputerais",
+          "disputerait",
+          "disputerions",
+          "disputeriez",
+          "disputeraient"
+        ],
+        "SUBJ": [
+          "dispute",
+          "disputes",
+          "dispute",
+          "disputions",
+          "disputiez",
+          "disputent"
+        ],
+        "IMPER": [
+          "",
+          "dispute",
+          "",
+          "disputons",
+          "disputez",
+          ""
+        ],
+        "PPRES": [
+          "disputant"
+        ],
+        "PPASSE": [
+          "disputé"
+        ]
+      }
+    },
+    {
+      "lemma": "tousser",
+      "ja": "咳をする",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "tousse",
+          "tousses",
+          "tousse",
+          "toussons",
+          "toussez",
+          "toussent"
+        ],
+        "IMPF": [
+          "toussais",
+          "toussais",
+          "toussait",
+          "toussions",
+          "toussiez",
+          "toussaient"
+        ],
+        "FUT": [
+          "tousserai",
+          "tousseras",
+          "toussera",
+          "tousserons",
+          "tousserez",
+          "tousseront"
+        ],
+        "PC": [
+          "ai toussé",
+          "as toussé",
+          "a toussé",
+          "avons toussé",
+          "avez toussé",
+          "ont toussé"
+        ],
+        "PQP": [
+          "avais toussé",
+          "avais toussé",
+          "avait toussé",
+          "avions toussé",
+          "aviez toussé",
+          "avaient toussé"
+        ],
+        "PS": [
+          "toussai",
+          "toussas",
+          "toussa",
+          "toussâmes",
+          "toussâtes",
+          "toussèrent"
+        ],
+        "COND": [
+          "tousserais",
+          "tousserais",
+          "tousserait",
+          "tousserions",
+          "tousseriez",
+          "tousseraient"
+        ],
+        "SUBJ": [
+          "tousse",
+          "tousses",
+          "tousse",
+          "toussions",
+          "toussiez",
+          "toussent"
+        ],
+        "IMPER": [
+          "",
+          "tousse",
+          "",
+          "toussons",
+          "toussez",
+          ""
+        ],
+        "PPRES": [
+          "toussant"
+        ],
+        "PPASSE": [
+          "toussé"
+        ]
+      }
+    },
+    {
+      "lemma": "voler",
+      "ja": "盗む・飛ぶ",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "vole",
+          "voles",
+          "vole",
+          "volons",
+          "volez",
+          "volent"
+        ],
+        "IMPF": [
+          "volais",
+          "volais",
+          "volait",
+          "volions",
+          "voliez",
+          "volaient"
+        ],
+        "FUT": [
+          "volerai",
+          "voleras",
+          "volera",
+          "volerons",
+          "volerez",
+          "voleront"
+        ],
+        "PC": [
+          "ai volé",
+          "as volé",
+          "a volé",
+          "avons volé",
+          "avez volé",
+          "ont volé"
+        ],
+        "PQP": [
+          "avais volé",
+          "avais volé",
+          "avait volé",
+          "avions volé",
+          "aviez volé",
+          "avaient volé"
+        ],
+        "PS": [
+          "volai",
+          "volas",
+          "vola",
+          "volâmes",
+          "volâtes",
+          "volèrent"
+        ],
+        "COND": [
+          "volerais",
+          "volerais",
+          "volerait",
+          "volerions",
+          "voleriez",
+          "voleraient"
+        ],
+        "SUBJ": [
+          "vole",
+          "voles",
+          "vole",
+          "volions",
+          "voliez",
+          "volent"
+        ],
+        "IMPER": [
+          "",
+          "vole",
+          "",
+          "volons",
+          "volez",
+          ""
+        ],
+        "PPRES": [
+          "volant"
+        ],
+        "PPASSE": [
+          "volé"
+        ]
+      }
+    },
+    {
+      "lemma": "reposer",
+      "ja": "休ませる・（代名動詞で）休む",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "repose",
+          "reposes",
+          "repose",
+          "reposons",
+          "reposez",
+          "reposent"
+        ],
+        "IMPF": [
+          "reposais",
+          "reposais",
+          "reposait",
+          "reposions",
+          "reposiez",
+          "reposaient"
+        ],
+        "FUT": [
+          "reposerai",
+          "reposeras",
+          "reposera",
+          "reposerons",
+          "reposerez",
+          "reposeront"
+        ],
+        "PC": [
+          "ai reposé",
+          "as reposé",
+          "a reposé",
+          "avons reposé",
+          "avez reposé",
+          "ont reposé"
+        ],
+        "PQP": [
+          "avais reposé",
+          "avais reposé",
+          "avait reposé",
+          "avions reposé",
+          "aviez reposé",
+          "avaient reposé"
+        ],
+        "PS": [
+          "reposai",
+          "reposas",
+          "reposa",
+          "reposâmes",
+          "reposâtes",
+          "reposèrent"
+        ],
+        "COND": [
+          "reposerais",
+          "reposerais",
+          "reposerait",
+          "reposerions",
+          "reposeriez",
+          "reposeraient"
+        ],
+        "SUBJ": [
+          "repose",
+          "reposes",
+          "repose",
+          "reposions",
+          "reposiez",
+          "reposent"
+        ],
+        "IMPER": [
+          "",
+          "repose",
+          "",
+          "reposons",
+          "reposez",
+          ""
+        ],
+        "PPRES": [
+          "reposant"
+        ],
+        "PPASSE": [
+          "reposé"
+        ]
+      }
+    },
+    {
+      "lemma": "déranger",
+      "ja": "邪魔する・迷惑をかける",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "dérange",
+          "déranges",
+          "dérange",
+          "dérangeons",
+          "dérangez",
+          "dérangent"
+        ],
+        "IMPF": [
+          "dérangeais",
+          "dérangeais",
+          "dérangeait",
+          "dérangions",
+          "dérangiez",
+          "dérangeaient"
+        ],
+        "FUT": [
+          "dérangerai",
+          "dérangeras",
+          "dérangera",
+          "dérangerons",
+          "dérangerez",
+          "dérangeront"
+        ],
+        "PC": [
+          "ai dérangé",
+          "as dérangé",
+          "a dérangé",
+          "avons dérangé",
+          "avez dérangé",
+          "ont dérangé"
+        ],
+        "PQP": [
+          "avais dérangé",
+          "avais dérangé",
+          "avait dérangé",
+          "avions dérangé",
+          "aviez dérangé",
+          "avaient dérangé"
+        ],
+        "PS": [
+          "dérangeai",
+          "dérangeas",
+          "dérangea",
+          "dérangeâmes",
+          "dérangeâtes",
+          "dérangèrent"
+        ],
+        "COND": [
+          "dérangerais",
+          "dérangerais",
+          "dérangerait",
+          "dérangerions",
+          "dérangeriez",
+          "dérangeraient"
+        ],
+        "SUBJ": [
+          "dérange",
+          "déranges",
+          "dérange",
+          "dérangions",
+          "dérangiez",
+          "dérangent"
+        ],
+        "IMPER": [
+          "",
+          "dérange",
+          "",
+          "dérangeons",
+          "dérangez",
+          ""
+        ],
+        "PPRES": [
+          "dérangeant"
+        ],
+        "PPASSE": [
+          "dérangé"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "RRRSRR",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（dérang- → dérange-）"
+          ],
+          "idx": [
+            null,
+            null,
+            null,
+            0,
+            null,
+            null
+          ]
+        },
+        "IMPF": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（dérang- → dérange-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-R-SR-",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（dérang- → dérange-）"
+          ],
+          "idx": [
+            null,
+            null,
+            null,
+            0,
+            null,
+            null
+          ]
+        },
+        "PPRES": {
+          "codes": "S",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（dérang- → dérange-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "tromper",
+      "ja": "だます・（代名動詞で）間違える",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "trompe",
+          "trompes",
+          "trompe",
+          "trompons",
+          "trompez",
+          "trompent"
+        ],
+        "IMPF": [
+          "trompais",
+          "trompais",
+          "trompait",
+          "trompions",
+          "trompiez",
+          "trompaient"
+        ],
+        "FUT": [
+          "tromperai",
+          "tromperas",
+          "trompera",
+          "tromperons",
+          "tromperez",
+          "tromperont"
+        ],
+        "PC": [
+          "ai trompé",
+          "as trompé",
+          "a trompé",
+          "avons trompé",
+          "avez trompé",
+          "ont trompé"
+        ],
+        "PQP": [
+          "avais trompé",
+          "avais trompé",
+          "avait trompé",
+          "avions trompé",
+          "aviez trompé",
+          "avaient trompé"
+        ],
+        "PS": [
+          "trompai",
+          "trompas",
+          "trompa",
+          "trompâmes",
+          "trompâtes",
+          "trompèrent"
+        ],
+        "COND": [
+          "tromperais",
+          "tromperais",
+          "tromperait",
+          "tromperions",
+          "tromperiez",
+          "tromperaient"
+        ],
+        "SUBJ": [
+          "trompe",
+          "trompes",
+          "trompe",
+          "trompions",
+          "trompiez",
+          "trompent"
+        ],
+        "IMPER": [
+          "",
+          "trompe",
+          "",
+          "trompons",
+          "trompez",
+          ""
+        ],
+        "PPRES": [
+          "trompant"
+        ],
+        "PPASSE": [
+          "trompé"
+        ]
+      }
+    },
+    {
+      "lemma": "ennuyer",
+      "ja": "困らせる・退屈させる",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "ennuie",
+          "ennuies",
+          "ennuie",
+          "ennuyons",
+          "ennuyez",
+          "ennuient"
+        ],
+        "IMPF": [
+          "ennuyais",
+          "ennuyais",
+          "ennuyait",
+          "ennuyions",
+          "ennuyiez",
+          "ennuyaient"
+        ],
+        "FUT": [
+          "ennuierai",
+          "ennuieras",
+          "ennuiera",
+          "ennuierons",
+          "ennuierez",
+          "ennuieront"
+        ],
+        "PC": [
+          "ai ennuyé",
+          "as ennuyé",
+          "a ennuyé",
+          "avons ennuyé",
+          "avez ennuyé",
+          "ont ennuyé"
+        ],
+        "PQP": [
+          "avais ennuyé",
+          "avais ennuyé",
+          "avait ennuyé",
+          "avions ennuyé",
+          "aviez ennuyé",
+          "avaient ennuyé"
+        ],
+        "PS": [
+          "ennuyai",
+          "ennuyas",
+          "ennuya",
+          "ennuyâmes",
+          "ennuyâtes",
+          "ennuyèrent"
+        ],
+        "COND": [
+          "ennuierais",
+          "ennuierais",
+          "ennuierait",
+          "ennuierions",
+          "ennuieriez",
+          "ennuieraient"
+        ],
+        "SUBJ": [
+          "ennuie",
+          "ennuies",
+          "ennuie",
+          "ennuyions",
+          "ennuyiez",
+          "ennuient"
+        ],
+        "IMPER": [
+          "",
+          "ennuie",
+          "",
+          "ennuyons",
+          "ennuyez",
+          ""
+        ],
+        "PPRES": [
+          "ennuyant"
+        ],
+        "PPASSE": [
+          "ennuyé"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 y → i",
+          "texts": [
+            "語幹の y が i に変わる（ennuy- → ennui-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "FUT": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 y → i",
+          "texts": [
+            "語幹の y が i に変わる（ennuyer- → ennuier-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 y → i",
+          "texts": [
+            "語幹の y が i に変わる（ennuyer- → ennuier-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 y → i",
+          "texts": [
+            "語幹の y が i に変わる（ennuy- → ennui-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-S-RR-",
+          "summary": "語幹交替 y → i",
+          "texts": [
+            "語幹の y が i に変わる（ennuy- → ennui-）"
+          ],
+          "idx": [
+            null,
+            0,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "inquiéter",
+      "ja": "心配させる",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "inquiète",
+          "inquiètes",
+          "inquiète",
+          "inquiétons",
+          "inquiétez",
+          "inquiètent"
+        ],
+        "IMPF": [
+          "inquiétais",
+          "inquiétais",
+          "inquiétait",
+          "inquiétions",
+          "inquiétiez",
+          "inquiétaient"
+        ],
+        "FUT": [
+          "inquiéterai",
+          "inquiéteras",
+          "inquiétera",
+          "inquiéterons",
+          "inquiéterez",
+          "inquiéteront"
+        ],
+        "PC": [
+          "ai inquiété",
+          "as inquiété",
+          "a inquiété",
+          "avons inquiété",
+          "avez inquiété",
+          "ont inquiété"
+        ],
+        "PQP": [
+          "avais inquiété",
+          "avais inquiété",
+          "avait inquiété",
+          "avions inquiété",
+          "aviez inquiété",
+          "avaient inquiété"
+        ],
+        "PS": [
+          "inquiétai",
+          "inquiétas",
+          "inquiéta",
+          "inquiétâmes",
+          "inquiétâtes",
+          "inquiétèrent"
+        ],
+        "COND": [
+          "inquiéterais",
+          "inquiéterais",
+          "inquiéterait",
+          "inquiéterions",
+          "inquiéteriez",
+          "inquiéteraient"
+        ],
+        "SUBJ": [
+          "inquiète",
+          "inquiètes",
+          "inquiète",
+          "inquiétions",
+          "inquiétiez",
+          "inquiètent"
+        ],
+        "IMPER": [
+          "",
+          "inquiète",
+          "",
+          "inquiétons",
+          "inquiétez",
+          ""
+        ],
+        "PPRES": [
+          "inquiétant"
+        ],
+        "PPASSE": [
+          "inquiété"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 é → è",
+          "texts": [
+            "語幹の é が è に変わる（inquiét- → inquièt-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "SUBJ": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 é → è",
+          "texts": [
+            "語幹の é が è に変わる（inquiét- → inquièt-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-S-RR-",
+          "summary": "語幹交替 é → è",
+          "texts": [
+            "語幹の é が è に変わる（inquiét- → inquièt-）"
+          ],
+          "idx": [
+            null,
+            0,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "retrouver",
+      "ja": "再び見つける・落ち合う",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "retrouve",
+          "retrouves",
+          "retrouve",
+          "retrouvons",
+          "retrouvez",
+          "retrouvent"
+        ],
+        "IMPF": [
+          "retrouvais",
+          "retrouvais",
+          "retrouvait",
+          "retrouvions",
+          "retrouviez",
+          "retrouvaient"
+        ],
+        "FUT": [
+          "retrouverai",
+          "retrouveras",
+          "retrouvera",
+          "retrouverons",
+          "retrouverez",
+          "retrouveront"
+        ],
+        "PC": [
+          "ai retrouvé",
+          "as retrouvé",
+          "a retrouvé",
+          "avons retrouvé",
+          "avez retrouvé",
+          "ont retrouvé"
+        ],
+        "PQP": [
+          "avais retrouvé",
+          "avais retrouvé",
+          "avait retrouvé",
+          "avions retrouvé",
+          "aviez retrouvé",
+          "avaient retrouvé"
+        ],
+        "PS": [
+          "retrouvai",
+          "retrouvas",
+          "retrouva",
+          "retrouvâmes",
+          "retrouvâtes",
+          "retrouvèrent"
+        ],
+        "COND": [
+          "retrouverais",
+          "retrouverais",
+          "retrouverait",
+          "retrouverions",
+          "retrouveriez",
+          "retrouveraient"
+        ],
+        "SUBJ": [
+          "retrouve",
+          "retrouves",
+          "retrouve",
+          "retrouvions",
+          "retrouviez",
+          "retrouvent"
+        ],
+        "IMPER": [
+          "",
+          "retrouve",
+          "",
+          "retrouvons",
+          "retrouvez",
+          ""
+        ],
+        "PPRES": [
+          "retrouvant"
+        ],
+        "PPASSE": [
+          "retrouvé"
+        ]
+      }
+    },
+    {
+      "lemma": "quitter",
+      "ja": "去る・（電話を）切る",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "quitte",
+          "quittes",
+          "quitte",
+          "quittons",
+          "quittez",
+          "quittent"
+        ],
+        "IMPF": [
+          "quittais",
+          "quittais",
+          "quittait",
+          "quittions",
+          "quittiez",
+          "quittaient"
+        ],
+        "FUT": [
+          "quitterai",
+          "quitteras",
+          "quittera",
+          "quitterons",
+          "quitterez",
+          "quitteront"
+        ],
+        "PC": [
+          "ai quitté",
+          "as quitté",
+          "a quitté",
+          "avons quitté",
+          "avez quitté",
+          "ont quitté"
+        ],
+        "PQP": [
+          "avais quitté",
+          "avais quitté",
+          "avait quitté",
+          "avions quitté",
+          "aviez quitté",
+          "avaient quitté"
+        ],
+        "PS": [
+          "quittai",
+          "quittas",
+          "quitta",
+          "quittâmes",
+          "quittâtes",
+          "quittèrent"
+        ],
+        "COND": [
+          "quitterais",
+          "quitterais",
+          "quitterait",
+          "quitterions",
+          "quitteriez",
+          "quitteraient"
+        ],
+        "SUBJ": [
+          "quitte",
+          "quittes",
+          "quitte",
+          "quittions",
+          "quittiez",
+          "quittent"
+        ],
+        "IMPER": [
+          "",
+          "quitte",
+          "",
+          "quittons",
+          "quittez",
+          ""
+        ],
+        "PPRES": [
+          "quittant"
+        ],
+        "PPASSE": [
+          "quitté"
+        ]
+      }
+    },
+    {
+      "lemma": "rappeler",
+      "ja": "かけ直す・思い出させる",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "rappelle",
+          "rappelles",
+          "rappelle",
+          "rappelons",
+          "rappelez",
+          "rappellent"
+        ],
+        "IMPF": [
+          "rappelais",
+          "rappelais",
+          "rappelait",
+          "rappelions",
+          "rappeliez",
+          "rappelaient"
+        ],
+        "FUT": [
+          "rappellerai",
+          "rappelleras",
+          "rappellera",
+          "rappellerons",
+          "rappellerez",
+          "rappelleront"
+        ],
+        "PC": [
+          "ai rappelé",
+          "as rappelé",
+          "a rappelé",
+          "avons rappelé",
+          "avez rappelé",
+          "ont rappelé"
+        ],
+        "PQP": [
+          "avais rappelé",
+          "avais rappelé",
+          "avait rappelé",
+          "avions rappelé",
+          "aviez rappelé",
+          "avaient rappelé"
+        ],
+        "PS": [
+          "rappelai",
+          "rappelas",
+          "rappela",
+          "rappelâmes",
+          "rappelâtes",
+          "rappelèrent"
+        ],
+        "COND": [
+          "rappellerais",
+          "rappellerais",
+          "rappellerait",
+          "rappellerions",
+          "rappelleriez",
+          "rappelleraient"
+        ],
+        "SUBJ": [
+          "rappelle",
+          "rappelles",
+          "rappelle",
+          "rappelions",
+          "rappeliez",
+          "rappellent"
+        ],
+        "IMPER": [
+          "",
+          "rappelle",
+          "",
+          "rappelons",
+          "rappelez",
+          ""
+        ],
+        "PPRES": [
+          "rappelant"
+        ],
+        "PPASSE": [
+          "rappelé"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 l → ll",
+          "texts": [
+            "語幹の l が ll に変わる（rappel- → rappell-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "FUT": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 l → ll",
+          "texts": [
+            "語幹の l が ll に変わる（rappeler- → rappeller-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 l → ll",
+          "texts": [
+            "語幹の l が ll に変わる（rappeler- → rappeller-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 l → ll",
+          "texts": [
+            "語幹の l が ll に変わる（rappel- → rappell-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-S-RR-",
+          "summary": "語幹交替 l → ll",
+          "texts": [
+            "語幹の l が ll に変わる（rappel- → rappell-）"
+          ],
+          "idx": [
+            null,
+            0,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "rentrer",
+      "ja": "帰る・戻る",
+      "aux": "ETRE",
+      "forms": {
+        "PRES": [
+          "rentre",
+          "rentres",
+          "rentre",
+          "rentrons",
+          "rentrez",
+          "rentrent"
+        ],
+        "IMPF": [
+          "rentrais",
+          "rentrais",
+          "rentrait",
+          "rentrions",
+          "rentriez",
+          "rentraient"
+        ],
+        "FUT": [
+          "rentrerai",
+          "rentreras",
+          "rentrera",
+          "rentrerons",
+          "rentrerez",
+          "rentreront"
+        ],
+        "PC": [
+          "suis rentré",
+          "es rentré",
+          "est rentré",
+          "sommes rentrés",
+          "êtes rentrés",
+          "sont rentrés"
+        ],
+        "PQP": [
+          "étais rentré",
+          "étais rentré",
+          "était rentré",
+          "étions rentrés",
+          "étiez rentrés",
+          "étaient rentrés"
+        ],
+        "PS": [
+          "rentrai",
+          "rentras",
+          "rentra",
+          "rentrâmes",
+          "rentrâtes",
+          "rentrèrent"
+        ],
+        "COND": [
+          "rentrerais",
+          "rentrerais",
+          "rentrerait",
+          "rentrerions",
+          "rentreriez",
+          "rentreraient"
+        ],
+        "SUBJ": [
+          "rentre",
+          "rentres",
+          "rentre",
+          "rentrions",
+          "rentriez",
+          "rentrent"
+        ],
+        "IMPER": [
+          "",
+          "rentre",
+          "",
+          "rentrons",
+          "rentrez",
+          ""
+        ],
+        "PPRES": [
+          "rentrant"
+        ],
+        "PPASSE": [
+          "rentré"
+        ]
+      }
+    },
+    {
+      "lemma": "arranger",
+      "ja": "整える・都合がよい",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "arrange",
+          "arranges",
+          "arrange",
+          "arrangeons",
+          "arrangez",
+          "arrangent"
+        ],
+        "IMPF": [
+          "arrangeais",
+          "arrangeais",
+          "arrangeait",
+          "arrangions",
+          "arrangiez",
+          "arrangeaient"
+        ],
+        "FUT": [
+          "arrangerai",
+          "arrangeras",
+          "arrangera",
+          "arrangerons",
+          "arrangerez",
+          "arrangeront"
+        ],
+        "PC": [
+          "ai arrangé",
+          "as arrangé",
+          "a arrangé",
+          "avons arrangé",
+          "avez arrangé",
+          "ont arrangé"
+        ],
+        "PQP": [
+          "avais arrangé",
+          "avais arrangé",
+          "avait arrangé",
+          "avions arrangé",
+          "aviez arrangé",
+          "avaient arrangé"
+        ],
+        "PS": [
+          "arrangeai",
+          "arrangeas",
+          "arrangea",
+          "arrangeâmes",
+          "arrangeâtes",
+          "arrangèrent"
+        ],
+        "COND": [
+          "arrangerais",
+          "arrangerais",
+          "arrangerait",
+          "arrangerions",
+          "arrangeriez",
+          "arrangeraient"
+        ],
+        "SUBJ": [
+          "arrange",
+          "arranges",
+          "arrange",
+          "arrangions",
+          "arrangiez",
+          "arrangent"
+        ],
+        "IMPER": [
+          "",
+          "arrange",
+          "",
+          "arrangeons",
+          "arrangez",
+          ""
+        ],
+        "PPRES": [
+          "arrangeant"
+        ],
+        "PPASSE": [
+          "arrangé"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "RRRSRR",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（arrang- → arrange-）"
+          ],
+          "idx": [
+            null,
+            null,
+            null,
+            0,
+            null,
+            null
+          ]
+        },
+        "IMPF": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（arrang- → arrange-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-R-SR-",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（arrang- → arrange-）"
+          ],
+          "idx": [
+            null,
+            null,
+            null,
+            0,
+            null,
+            null
+          ]
+        },
+        "PPRES": {
+          "codes": "S",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（arrang- → arrange-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "décaler",
+      "ja": "ずらす",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "décale",
+          "décales",
+          "décale",
+          "décalons",
+          "décalez",
+          "décalent"
+        ],
+        "IMPF": [
+          "décalais",
+          "décalais",
+          "décalait",
+          "décalions",
+          "décaliez",
+          "décalaient"
+        ],
+        "FUT": [
+          "décalerai",
+          "décaleras",
+          "décalera",
+          "décalerons",
+          "décalerez",
+          "décaleront"
+        ],
+        "PC": [
+          "ai décalé",
+          "as décalé",
+          "a décalé",
+          "avons décalé",
+          "avez décalé",
+          "ont décalé"
+        ],
+        "PQP": [
+          "avais décalé",
+          "avais décalé",
+          "avait décalé",
+          "avions décalé",
+          "aviez décalé",
+          "avaient décalé"
+        ],
+        "PS": [
+          "décalai",
+          "décalas",
+          "décala",
+          "décalâmes",
+          "décalâtes",
+          "décalèrent"
+        ],
+        "COND": [
+          "décalerais",
+          "décalerais",
+          "décalerait",
+          "décalerions",
+          "décaleriez",
+          "décaleraient"
+        ],
+        "SUBJ": [
+          "décale",
+          "décales",
+          "décale",
+          "décalions",
+          "décaliez",
+          "décalent"
+        ],
+        "IMPER": [
+          "",
+          "décale",
+          "",
+          "décalons",
+          "décalez",
+          ""
+        ],
+        "PPRES": [
+          "décalant"
+        ],
+        "PPASSE": [
+          "décalé"
+        ]
+      }
+    },
+    {
+      "lemma": "amuser",
+      "ja": "楽しませる",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "amuse",
+          "amuses",
+          "amuse",
+          "amusons",
+          "amusez",
+          "amusent"
+        ],
+        "IMPF": [
+          "amusais",
+          "amusais",
+          "amusait",
+          "amusions",
+          "amusiez",
+          "amusaient"
+        ],
+        "FUT": [
+          "amuserai",
+          "amuseras",
+          "amusera",
+          "amuserons",
+          "amuserez",
+          "amuseront"
+        ],
+        "PC": [
+          "ai amusé",
+          "as amusé",
+          "a amusé",
+          "avons amusé",
+          "avez amusé",
+          "ont amusé"
+        ],
+        "PQP": [
+          "avais amusé",
+          "avais amusé",
+          "avait amusé",
+          "avions amusé",
+          "aviez amusé",
+          "avaient amusé"
+        ],
+        "PS": [
+          "amusai",
+          "amusas",
+          "amusa",
+          "amusâmes",
+          "amusâtes",
+          "amusèrent"
+        ],
+        "COND": [
+          "amuserais",
+          "amuserais",
+          "amuserait",
+          "amuserions",
+          "amuseriez",
+          "amuseraient"
+        ],
+        "SUBJ": [
+          "amuse",
+          "amuses",
+          "amuse",
+          "amusions",
+          "amusiez",
+          "amusent"
+        ],
+        "IMPER": [
+          "",
+          "amuse",
+          "",
+          "amusons",
+          "amusez",
+          ""
+        ],
+        "PPRES": [
+          "amusant"
+        ],
+        "PPASSE": [
+          "amusé"
+        ]
+      }
+    },
+    {
+      "lemma": "traverser",
+      "ja": "渡る・横断する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "traverse",
+          "traverses",
+          "traverse",
+          "traversons",
+          "traversez",
+          "traversent"
+        ],
+        "IMPF": [
+          "traversais",
+          "traversais",
+          "traversait",
+          "traversions",
+          "traversiez",
+          "traversaient"
+        ],
+        "FUT": [
+          "traverserai",
+          "traverseras",
+          "traversera",
+          "traverserons",
+          "traverserez",
+          "traverseront"
+        ],
+        "PC": [
+          "ai traversé",
+          "as traversé",
+          "a traversé",
+          "avons traversé",
+          "avez traversé",
+          "ont traversé"
+        ],
+        "PQP": [
+          "avais traversé",
+          "avais traversé",
+          "avait traversé",
+          "avions traversé",
+          "aviez traversé",
+          "avaient traversé"
+        ],
+        "PS": [
+          "traversai",
+          "traversas",
+          "traversa",
+          "traversâmes",
+          "traversâtes",
+          "traversèrent"
+        ],
+        "COND": [
+          "traverserais",
+          "traverserais",
+          "traverserait",
+          "traverserions",
+          "traverseriez",
+          "traverseraient"
+        ],
+        "SUBJ": [
+          "traverse",
+          "traverses",
+          "traverse",
+          "traversions",
+          "traversiez",
+          "traversent"
+        ],
+        "IMPER": [
+          "",
+          "traverse",
+          "",
+          "traversons",
+          "traversez",
+          ""
+        ],
+        "PPRES": [
+          "traversant"
+        ],
+        "PPASSE": [
+          "traversé"
+        ]
+      }
+    },
+    {
+      "lemma": "rater",
+      "ja": "逃す・失敗する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "rate",
+          "rates",
+          "rate",
+          "ratons",
+          "ratez",
+          "ratent"
+        ],
+        "IMPF": [
+          "ratais",
+          "ratais",
+          "ratait",
+          "rations",
+          "ratiez",
+          "rataient"
+        ],
+        "FUT": [
+          "raterai",
+          "rateras",
+          "ratera",
+          "raterons",
+          "raterez",
+          "rateront"
+        ],
+        "PC": [
+          "ai raté",
+          "as raté",
+          "a raté",
+          "avons raté",
+          "avez raté",
+          "ont raté"
+        ],
+        "PQP": [
+          "avais raté",
+          "avais raté",
+          "avait raté",
+          "avions raté",
+          "aviez raté",
+          "avaient raté"
+        ],
+        "PS": [
+          "ratai",
+          "ratas",
+          "rata",
+          "ratâmes",
+          "ratâtes",
+          "ratèrent"
+        ],
+        "COND": [
+          "raterais",
+          "raterais",
+          "raterait",
+          "raterions",
+          "rateriez",
+          "rateraient"
+        ],
+        "SUBJ": [
+          "rate",
+          "rates",
+          "rate",
+          "rations",
+          "ratiez",
+          "ratent"
+        ],
+        "IMPER": [
+          "",
+          "rate",
+          "",
+          "ratons",
+          "ratez",
+          ""
+        ],
+        "PPRES": [
+          "ratant"
+        ],
+        "PPASSE": [
+          "raté"
+        ]
+      }
+    },
+    {
+      "lemma": "améliorer",
+      "ja": "改善する・よくする",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "améliore",
+          "améliores",
+          "améliore",
+          "améliorons",
+          "améliorez",
+          "améliorent"
+        ],
+        "IMPF": [
+          "améliorais",
+          "améliorais",
+          "améliorait",
+          "améliorions",
+          "amélioriez",
+          "amélioraient"
+        ],
+        "FUT": [
+          "améliorerai",
+          "amélioreras",
+          "améliorera",
+          "améliorerons",
+          "améliorerez",
+          "amélioreront"
+        ],
+        "PC": [
+          "ai amélioré",
+          "as amélioré",
+          "a amélioré",
+          "avons amélioré",
+          "avez amélioré",
+          "ont amélioré"
+        ],
+        "PQP": [
+          "avais amélioré",
+          "avais amélioré",
+          "avait amélioré",
+          "avions amélioré",
+          "aviez amélioré",
+          "avaient amélioré"
+        ],
+        "PS": [
+          "améliorai",
+          "amélioras",
+          "améliora",
+          "améliorâmes",
+          "améliorâtes",
+          "améliorèrent"
+        ],
+        "COND": [
+          "améliorerais",
+          "améliorerais",
+          "améliorerait",
+          "améliorerions",
+          "amélioreriez",
+          "amélioreraient"
+        ],
+        "SUBJ": [
+          "améliore",
+          "améliores",
+          "améliore",
+          "améliorions",
+          "amélioriez",
+          "améliorent"
+        ],
+        "IMPER": [
+          "",
+          "améliore",
+          "",
+          "améliorons",
+          "améliorez",
+          ""
+        ],
+        "PPRES": [
+          "améliorant"
+        ],
+        "PPASSE": [
+          "amélioré"
+        ]
+      }
+    },
+    {
+      "lemma": "conseiller",
+      "ja": "助言する・勧める",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "conseille",
+          "conseilles",
+          "conseille",
+          "conseillons",
+          "conseillez",
+          "conseillent"
+        ],
+        "IMPF": [
+          "conseillais",
+          "conseillais",
+          "conseillait",
+          "conseillions",
+          "conseilliez",
+          "conseillaient"
+        ],
+        "FUT": [
+          "conseillerai",
+          "conseilleras",
+          "conseillera",
+          "conseillerons",
+          "conseillerez",
+          "conseilleront"
+        ],
+        "PC": [
+          "ai conseillé",
+          "as conseillé",
+          "a conseillé",
+          "avons conseillé",
+          "avez conseillé",
+          "ont conseillé"
+        ],
+        "PQP": [
+          "avais conseillé",
+          "avais conseillé",
+          "avait conseillé",
+          "avions conseillé",
+          "aviez conseillé",
+          "avaient conseillé"
+        ],
+        "PS": [
+          "conseillai",
+          "conseillas",
+          "conseilla",
+          "conseillâmes",
+          "conseillâtes",
+          "conseillèrent"
+        ],
+        "COND": [
+          "conseillerais",
+          "conseillerais",
+          "conseillerait",
+          "conseillerions",
+          "conseilleriez",
+          "conseilleraient"
+        ],
+        "SUBJ": [
+          "conseille",
+          "conseilles",
+          "conseille",
+          "conseillions",
+          "conseilliez",
+          "conseillent"
+        ],
+        "IMPER": [
+          "",
+          "conseille",
+          "",
+          "conseillons",
+          "conseillez",
+          ""
+        ],
+        "PPRES": [
+          "conseillant"
+        ],
+        "PPASSE": [
+          "conseillé"
+        ]
+      }
+    },
+    {
+      "lemma": "commander",
+      "ja": "注文する・命じる",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "commande",
+          "commandes",
+          "commande",
+          "commandons",
+          "commandez",
+          "commandent"
+        ],
+        "IMPF": [
+          "commandais",
+          "commandais",
+          "commandait",
+          "commandions",
+          "commandiez",
+          "commandaient"
+        ],
+        "FUT": [
+          "commanderai",
+          "commanderas",
+          "commandera",
+          "commanderons",
+          "commanderez",
+          "commanderont"
+        ],
+        "PC": [
+          "ai commandé",
+          "as commandé",
+          "a commandé",
+          "avons commandé",
+          "avez commandé",
+          "ont commandé"
+        ],
+        "PQP": [
+          "avais commandé",
+          "avais commandé",
+          "avait commandé",
+          "avions commandé",
+          "aviez commandé",
+          "avaient commandé"
+        ],
+        "PS": [
+          "commandai",
+          "commandas",
+          "commanda",
+          "commandâmes",
+          "commandâtes",
+          "commandèrent"
+        ],
+        "COND": [
+          "commanderais",
+          "commanderais",
+          "commanderait",
+          "commanderions",
+          "commanderiez",
+          "commanderaient"
+        ],
+        "SUBJ": [
+          "commande",
+          "commandes",
+          "commande",
+          "commandions",
+          "commandiez",
+          "commandent"
+        ],
+        "IMPER": [
+          "",
+          "commande",
+          "",
+          "commandons",
+          "commandez",
+          ""
+        ],
+        "PPRES": [
+          "commandant"
+        ],
+        "PPASSE": [
+          "commandé"
+        ]
+      }
+    },
+    {
+      "lemma": "hésiter",
+      "ja": "ためらう・迷う",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "hésite",
+          "hésites",
+          "hésite",
+          "hésitons",
+          "hésitez",
+          "hésitent"
+        ],
+        "IMPF": [
+          "hésitais",
+          "hésitais",
+          "hésitait",
+          "hésitions",
+          "hésitiez",
+          "hésitaient"
+        ],
+        "FUT": [
+          "hésiterai",
+          "hésiteras",
+          "hésitera",
+          "hésiterons",
+          "hésiterez",
+          "hésiteront"
+        ],
+        "PC": [
+          "ai hésité",
+          "as hésité",
+          "a hésité",
+          "avons hésité",
+          "avez hésité",
+          "ont hésité"
+        ],
+        "PQP": [
+          "avais hésité",
+          "avais hésité",
+          "avait hésité",
+          "avions hésité",
+          "aviez hésité",
+          "avaient hésité"
+        ],
+        "PS": [
+          "hésitai",
+          "hésitas",
+          "hésita",
+          "hésitâmes",
+          "hésitâtes",
+          "hésitèrent"
+        ],
+        "COND": [
+          "hésiterais",
+          "hésiterais",
+          "hésiterait",
+          "hésiterions",
+          "hésiteriez",
+          "hésiteraient"
+        ],
+        "SUBJ": [
+          "hésite",
+          "hésites",
+          "hésite",
+          "hésitions",
+          "hésitiez",
+          "hésitent"
+        ],
+        "IMPER": [
+          "",
+          "hésite",
+          "",
+          "hésitons",
+          "hésitez",
+          ""
+        ],
+        "PPRES": [
+          "hésitant"
+        ],
+        "PPASSE": [
+          "hésité"
+        ]
+      }
+    },
+    {
+      "lemma": "coucher",
+      "ja": "寝かせる・（代名動詞で）寝る",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "couche",
+          "couches",
+          "couche",
+          "couchons",
+          "couchez",
+          "couchent"
+        ],
+        "IMPF": [
+          "couchais",
+          "couchais",
+          "couchait",
+          "couchions",
+          "couchiez",
+          "couchaient"
+        ],
+        "FUT": [
+          "coucherai",
+          "coucheras",
+          "couchera",
+          "coucherons",
+          "coucherez",
+          "coucheront"
+        ],
+        "PC": [
+          "ai couché",
+          "as couché",
+          "a couché",
+          "avons couché",
+          "avez couché",
+          "ont couché"
+        ],
+        "PQP": [
+          "avais couché",
+          "avais couché",
+          "avait couché",
+          "avions couché",
+          "aviez couché",
+          "avaient couché"
+        ],
+        "PS": [
+          "couchai",
+          "couchas",
+          "coucha",
+          "couchâmes",
+          "couchâtes",
+          "couchèrent"
+        ],
+        "COND": [
+          "coucherais",
+          "coucherais",
+          "coucherait",
+          "coucherions",
+          "coucheriez",
+          "coucheraient"
+        ],
+        "SUBJ": [
+          "couche",
+          "couches",
+          "couche",
+          "couchions",
+          "couchiez",
+          "couchent"
+        ],
+        "IMPER": [
+          "",
+          "couche",
+          "",
+          "couchons",
+          "couchez",
+          ""
+        ],
+        "PPRES": [
+          "couchant"
+        ],
+        "PPASSE": [
+          "couché"
+        ]
+      }
+    },
+    {
+      "lemma": "réveiller",
+      "ja": "起こす・（代名動詞で）目を覚ます",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "réveille",
+          "réveilles",
+          "réveille",
+          "réveillons",
+          "réveillez",
+          "réveillent"
+        ],
+        "IMPF": [
+          "réveillais",
+          "réveillais",
+          "réveillait",
+          "réveillions",
+          "réveilliez",
+          "réveillaient"
+        ],
+        "FUT": [
+          "réveillerai",
+          "réveilleras",
+          "réveillera",
+          "réveillerons",
+          "réveillerez",
+          "réveilleront"
+        ],
+        "PC": [
+          "ai réveillé",
+          "as réveillé",
+          "a réveillé",
+          "avons réveillé",
+          "avez réveillé",
+          "ont réveillé"
+        ],
+        "PQP": [
+          "avais réveillé",
+          "avais réveillé",
+          "avait réveillé",
+          "avions réveillé",
+          "aviez réveillé",
+          "avaient réveillé"
+        ],
+        "PS": [
+          "réveillai",
+          "réveillas",
+          "réveilla",
+          "réveillâmes",
+          "réveillâtes",
+          "réveillèrent"
+        ],
+        "COND": [
+          "réveillerais",
+          "réveillerais",
+          "réveillerait",
+          "réveillerions",
+          "réveilleriez",
+          "réveilleraient"
+        ],
+        "SUBJ": [
+          "réveille",
+          "réveilles",
+          "réveille",
+          "réveillions",
+          "réveilliez",
+          "réveillent"
+        ],
+        "IMPER": [
+          "",
+          "réveille",
+          "",
+          "réveillons",
+          "réveillez",
+          ""
+        ],
+        "PPRES": [
+          "réveillant"
+        ],
+        "PPASSE": [
+          "réveillé"
+        ]
+      }
+    },
+    {
+      "lemma": "laver",
+      "ja": "洗う",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "lave",
+          "laves",
+          "lave",
+          "lavons",
+          "lavez",
+          "lavent"
+        ],
+        "IMPF": [
+          "lavais",
+          "lavais",
+          "lavait",
+          "lavions",
+          "laviez",
+          "lavaient"
+        ],
+        "FUT": [
+          "laverai",
+          "laveras",
+          "lavera",
+          "laverons",
+          "laverez",
+          "laveront"
+        ],
+        "PC": [
+          "ai lavé",
+          "as lavé",
+          "a lavé",
+          "avons lavé",
+          "avez lavé",
+          "ont lavé"
+        ],
+        "PQP": [
+          "avais lavé",
+          "avais lavé",
+          "avait lavé",
+          "avions lavé",
+          "aviez lavé",
+          "avaient lavé"
+        ],
+        "PS": [
+          "lavai",
+          "lavas",
+          "lava",
+          "lavâmes",
+          "lavâtes",
+          "lavèrent"
+        ],
+        "COND": [
+          "laverais",
+          "laverais",
+          "laverait",
+          "laverions",
+          "laveriez",
+          "laveraient"
+        ],
+        "SUBJ": [
+          "lave",
+          "laves",
+          "lave",
+          "lavions",
+          "laviez",
+          "lavent"
+        ],
+        "IMPER": [
+          "",
+          "lave",
+          "",
+          "lavons",
+          "lavez",
+          ""
+        ],
+        "PPRES": [
+          "lavant"
+        ],
+        "PPASSE": [
+          "lavé"
+        ]
+      }
+    },
+    {
+      "lemma": "manquer",
+      "ja": "足りない・逃す",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "manque",
+          "manques",
+          "manque",
+          "manquons",
+          "manquez",
+          "manquent"
+        ],
+        "IMPF": [
+          "manquais",
+          "manquais",
+          "manquait",
+          "manquions",
+          "manquiez",
+          "manquaient"
+        ],
+        "FUT": [
+          "manquerai",
+          "manqueras",
+          "manquera",
+          "manquerons",
+          "manquerez",
+          "manqueront"
+        ],
+        "PC": [
+          "ai manqué",
+          "as manqué",
+          "a manqué",
+          "avons manqué",
+          "avez manqué",
+          "ont manqué"
+        ],
+        "PQP": [
+          "avais manqué",
+          "avais manqué",
+          "avait manqué",
+          "avions manqué",
+          "aviez manqué",
+          "avaient manqué"
+        ],
+        "PS": [
+          "manquai",
+          "manquas",
+          "manqua",
+          "manquâmes",
+          "manquâtes",
+          "manquèrent"
+        ],
+        "COND": [
+          "manquerais",
+          "manquerais",
+          "manquerait",
+          "manquerions",
+          "manqueriez",
+          "manqueraient"
+        ],
+        "SUBJ": [
+          "manque",
+          "manques",
+          "manque",
+          "manquions",
+          "manquiez",
+          "manquent"
+        ],
+        "IMPER": [
+          "",
+          "manque",
+          "",
+          "manquons",
+          "manquez",
+          ""
+        ],
+        "PPRES": [
+          "manquant"
+        ],
+        "PPASSE": [
+          "manqué"
+        ]
+      }
+    },
+    {
+      "lemma": "remercier",
+      "ja": "礼を言う",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "remercie",
+          "remercies",
+          "remercie",
+          "remercions",
+          "remerciez",
+          "remercient"
+        ],
+        "IMPF": [
+          "remerciais",
+          "remerciais",
+          "remerciait",
+          "remerciions",
+          "remerciiez",
+          "remerciaient"
+        ],
+        "FUT": [
+          "remercierai",
+          "remercieras",
+          "remerciera",
+          "remercierons",
+          "remercierez",
+          "remercieront"
+        ],
+        "PC": [
+          "ai remercié",
+          "as remercié",
+          "a remercié",
+          "avons remercié",
+          "avez remercié",
+          "ont remercié"
+        ],
+        "PQP": [
+          "avais remercié",
+          "avais remercié",
+          "avait remercié",
+          "avions remercié",
+          "aviez remercié",
+          "avaient remercié"
+        ],
+        "PS": [
+          "remerciai",
+          "remercias",
+          "remercia",
+          "remerciâmes",
+          "remerciâtes",
+          "remercièrent"
+        ],
+        "COND": [
+          "remercierais",
+          "remercierais",
+          "remercierait",
+          "remercierions",
+          "remercieriez",
+          "remercieraient"
+        ],
+        "SUBJ": [
+          "remercie",
+          "remercies",
+          "remercie",
+          "remerciions",
+          "remerciiez",
+          "remercient"
+        ],
+        "IMPER": [
+          "",
+          "remercie",
+          "",
+          "remercions",
+          "remerciez",
+          ""
+        ],
+        "PPRES": [
+          "remerciant"
+        ],
+        "PPASSE": [
+          "remercié"
+        ]
+      }
+    },
+    {
+      "lemma": "excuser",
+      "ja": "許す・（代名動詞で）詫びる",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "excuse",
+          "excuses",
+          "excuse",
+          "excusons",
+          "excusez",
+          "excusent"
+        ],
+        "IMPF": [
+          "excusais",
+          "excusais",
+          "excusait",
+          "excusions",
+          "excusiez",
+          "excusaient"
+        ],
+        "FUT": [
+          "excuserai",
+          "excuseras",
+          "excusera",
+          "excuserons",
+          "excuserez",
+          "excuseront"
+        ],
+        "PC": [
+          "ai excusé",
+          "as excusé",
+          "a excusé",
+          "avons excusé",
+          "avez excusé",
+          "ont excusé"
+        ],
+        "PQP": [
+          "avais excusé",
+          "avais excusé",
+          "avait excusé",
+          "avions excusé",
+          "aviez excusé",
+          "avaient excusé"
+        ],
+        "PS": [
+          "excusai",
+          "excusas",
+          "excusa",
+          "excusâmes",
+          "excusâtes",
+          "excusèrent"
+        ],
+        "COND": [
+          "excuserais",
+          "excuserais",
+          "excuserait",
+          "excuserions",
+          "excuseriez",
+          "excuseraient"
+        ],
+        "SUBJ": [
+          "excuse",
+          "excuses",
+          "excuse",
+          "excusions",
+          "excusiez",
+          "excusent"
+        ],
+        "IMPER": [
+          "",
+          "excuse",
+          "",
+          "excusons",
+          "excusez",
+          ""
+        ],
+        "PPRES": [
+          "excusant"
+        ],
+        "PPASSE": [
+          "excusé"
+        ]
+      }
+    },
+    {
+      "lemma": "présenter",
+      "ja": "紹介する・提示する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "présente",
+          "présentes",
+          "présente",
+          "présentons",
+          "présentez",
+          "présentent"
+        ],
+        "IMPF": [
+          "présentais",
+          "présentais",
+          "présentait",
+          "présentions",
+          "présentiez",
+          "présentaient"
+        ],
+        "FUT": [
+          "présenterai",
+          "présenteras",
+          "présentera",
+          "présenterons",
+          "présenterez",
+          "présenteront"
+        ],
+        "PC": [
+          "ai présenté",
+          "as présenté",
+          "a présenté",
+          "avons présenté",
+          "avez présenté",
+          "ont présenté"
+        ],
+        "PQP": [
+          "avais présenté",
+          "avais présenté",
+          "avait présenté",
+          "avions présenté",
+          "aviez présenté",
+          "avaient présenté"
+        ],
+        "PS": [
+          "présentai",
+          "présentas",
+          "présenta",
+          "présentâmes",
+          "présentâtes",
+          "présentèrent"
+        ],
+        "COND": [
+          "présenterais",
+          "présenterais",
+          "présenterait",
+          "présenterions",
+          "présenteriez",
+          "présenteraient"
+        ],
+        "SUBJ": [
+          "présente",
+          "présentes",
+          "présente",
+          "présentions",
+          "présentiez",
+          "présentent"
+        ],
+        "IMPER": [
+          "",
+          "présente",
+          "",
+          "présentons",
+          "présentez",
+          ""
+        ],
+        "PPRES": [
+          "présentant"
+        ],
+        "PPASSE": [
+          "présenté"
+        ]
+      }
+    },
+    {
+      "lemma": "rencontrer",
+      "ja": "出会う",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "rencontre",
+          "rencontres",
+          "rencontre",
+          "rencontrons",
+          "rencontrez",
+          "rencontrent"
+        ],
+        "IMPF": [
+          "rencontrais",
+          "rencontrais",
+          "rencontrait",
+          "rencontrions",
+          "rencontriez",
+          "rencontraient"
+        ],
+        "FUT": [
+          "rencontrerai",
+          "rencontreras",
+          "rencontrera",
+          "rencontrerons",
+          "rencontrerez",
+          "rencontreront"
+        ],
+        "PC": [
+          "ai rencontré",
+          "as rencontré",
+          "a rencontré",
+          "avons rencontré",
+          "avez rencontré",
+          "ont rencontré"
+        ],
+        "PQP": [
+          "avais rencontré",
+          "avais rencontré",
+          "avait rencontré",
+          "avions rencontré",
+          "aviez rencontré",
+          "avaient rencontré"
+        ],
+        "PS": [
+          "rencontrai",
+          "rencontras",
+          "rencontra",
+          "rencontrâmes",
+          "rencontrâtes",
+          "rencontrèrent"
+        ],
+        "COND": [
+          "rencontrerais",
+          "rencontrerais",
+          "rencontrerait",
+          "rencontrerions",
+          "rencontreriez",
+          "rencontreraient"
+        ],
+        "SUBJ": [
+          "rencontre",
+          "rencontres",
+          "rencontre",
+          "rencontrions",
+          "rencontriez",
+          "rencontrent"
+        ],
+        "IMPER": [
+          "",
+          "rencontre",
+          "",
+          "rencontrons",
+          "rencontrez",
+          ""
+        ],
+        "PPRES": [
+          "rencontrant"
+        ],
+        "PPASSE": [
+          "rencontré"
+        ]
+      }
+    },
+    {
+      "lemma": "visiter",
+      "ja": "訪れる・見学する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "visite",
+          "visites",
+          "visite",
+          "visitons",
+          "visitez",
+          "visitent"
+        ],
+        "IMPF": [
+          "visitais",
+          "visitais",
+          "visitait",
+          "visitions",
+          "visitiez",
+          "visitaient"
+        ],
+        "FUT": [
+          "visiterai",
+          "visiteras",
+          "visitera",
+          "visiterons",
+          "visiterez",
+          "visiteront"
+        ],
+        "PC": [
+          "ai visité",
+          "as visité",
+          "a visité",
+          "avons visité",
+          "avez visité",
+          "ont visité"
+        ],
+        "PQP": [
+          "avais visité",
+          "avais visité",
+          "avait visité",
+          "avions visité",
+          "aviez visité",
+          "avaient visité"
+        ],
+        "PS": [
+          "visitai",
+          "visitas",
+          "visita",
+          "visitâmes",
+          "visitâtes",
+          "visitèrent"
+        ],
+        "COND": [
+          "visiterais",
+          "visiterais",
+          "visiterait",
+          "visiterions",
+          "visiteriez",
+          "visiteraient"
+        ],
+        "SUBJ": [
+          "visite",
+          "visites",
+          "visite",
+          "visitions",
+          "visitiez",
+          "visitent"
+        ],
+        "IMPER": [
+          "",
+          "visite",
+          "",
+          "visitons",
+          "visitez",
+          ""
+        ],
+        "PPRES": [
+          "visitant"
+        ],
+        "PPASSE": [
+          "visité"
+        ]
+      }
+    },
+    {
+      "lemma": "réserver",
+      "ja": "予約する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "réserve",
+          "réserves",
+          "réserve",
+          "réservons",
+          "réservez",
+          "réservent"
+        ],
+        "IMPF": [
+          "réservais",
+          "réservais",
+          "réservait",
+          "réservions",
+          "réserviez",
+          "réservaient"
+        ],
+        "FUT": [
+          "réserverai",
+          "réserveras",
+          "réservera",
+          "réserverons",
+          "réserverez",
+          "réserveront"
+        ],
+        "PC": [
+          "ai réservé",
+          "as réservé",
+          "a réservé",
+          "avons réservé",
+          "avez réservé",
+          "ont réservé"
+        ],
+        "PQP": [
+          "avais réservé",
+          "avais réservé",
+          "avait réservé",
+          "avions réservé",
+          "aviez réservé",
+          "avaient réservé"
+        ],
+        "PS": [
+          "réservai",
+          "réservas",
+          "réserva",
+          "réservâmes",
+          "réservâtes",
+          "réservèrent"
+        ],
+        "COND": [
+          "réserverais",
+          "réserverais",
+          "réserverait",
+          "réserverions",
+          "réserveriez",
+          "réserveraient"
+        ],
+        "SUBJ": [
+          "réserve",
+          "réserves",
+          "réserve",
+          "réservions",
+          "réserviez",
+          "réservent"
+        ],
+        "IMPER": [
+          "",
+          "réserve",
+          "",
+          "réservons",
+          "réservez",
+          ""
+        ],
+        "PPRES": [
+          "réservant"
+        ],
+        "PPASSE": [
+          "réservé"
+        ]
+      }
+    },
+    {
+      "lemma": "louer",
+      "ja": "借りる・貸す",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "loue",
+          "loues",
+          "loue",
+          "louons",
+          "louez",
+          "louent"
+        ],
+        "IMPF": [
+          "louais",
+          "louais",
+          "louait",
+          "louions",
+          "louiez",
+          "louaient"
+        ],
+        "FUT": [
+          "louerai",
+          "loueras",
+          "louera",
+          "louerons",
+          "louerez",
+          "loueront"
+        ],
+        "PC": [
+          "ai loué",
+          "as loué",
+          "a loué",
+          "avons loué",
+          "avez loué",
+          "ont loué"
+        ],
+        "PQP": [
+          "avais loué",
+          "avais loué",
+          "avait loué",
+          "avions loué",
+          "aviez loué",
+          "avaient loué"
+        ],
+        "PS": [
+          "louai",
+          "louas",
+          "loua",
+          "louâmes",
+          "louâtes",
+          "louèrent"
+        ],
+        "COND": [
+          "louerais",
+          "louerais",
+          "louerait",
+          "louerions",
+          "loueriez",
+          "loueraient"
+        ],
+        "SUBJ": [
+          "loue",
+          "loues",
+          "loue",
+          "louions",
+          "louiez",
+          "louent"
+        ],
+        "IMPER": [
+          "",
+          "loue",
+          "",
+          "louons",
+          "louez",
+          ""
+        ],
+        "PPRES": [
+          "louant"
+        ],
+        "PPASSE": [
+          "loué"
+        ]
+      }
+    },
+    {
+      "lemma": "neiger",
+      "ja": "雪が降る",
+      "aux": "AVOIR",
+      "impersonal": true,
+      "omit": [
+        "IMPER",
+        "PPRES"
+      ],
+      "forms": {
+        "PRES": [
+          "",
+          "",
+          "neige",
+          "",
+          "",
+          ""
+        ],
+        "IMPF": [
+          "",
+          "",
+          "neigeait",
+          "",
+          "",
+          ""
+        ],
+        "FUT": [
+          "",
+          "",
+          "neigera",
+          "",
+          "",
+          ""
+        ],
+        "PC": [
+          "",
+          "",
+          "a neigé",
+          "",
+          "",
+          ""
+        ],
+        "PQP": [
+          "",
+          "",
+          "avait neigé",
+          "",
+          "",
+          ""
+        ],
+        "PS": [
+          "",
+          "",
+          "neigea",
+          "",
+          "",
+          ""
+        ],
+        "COND": [
+          "",
+          "",
+          "neigerait",
+          "",
+          "",
+          ""
+        ],
+        "SUBJ": [
+          "",
+          "",
+          "neige",
+          "",
+          "",
+          ""
+        ],
+        "PPASSE": [
+          "neigé"
+        ]
+      },
+      "irr": {
+        "IMPF": {
+          "codes": "--S---",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（neig- → neige-）"
+          ],
+          "idx": [
+            null,
+            null,
+            0,
+            null,
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "ranger",
+      "ja": "片づける",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "range",
+          "ranges",
+          "range",
+          "rangeons",
+          "rangez",
+          "rangent"
+        ],
+        "IMPF": [
+          "rangeais",
+          "rangeais",
+          "rangeait",
+          "rangions",
+          "rangiez",
+          "rangeaient"
+        ],
+        "FUT": [
+          "rangerai",
+          "rangeras",
+          "rangera",
+          "rangerons",
+          "rangerez",
+          "rangeront"
+        ],
+        "PC": [
+          "ai rangé",
+          "as rangé",
+          "a rangé",
+          "avons rangé",
+          "avez rangé",
+          "ont rangé"
+        ],
+        "PQP": [
+          "avais rangé",
+          "avais rangé",
+          "avait rangé",
+          "avions rangé",
+          "aviez rangé",
+          "avaient rangé"
+        ],
+        "PS": [
+          "rangeai",
+          "rangeas",
+          "rangea",
+          "rangeâmes",
+          "rangeâtes",
+          "rangèrent"
+        ],
+        "COND": [
+          "rangerais",
+          "rangerais",
+          "rangerait",
+          "rangerions",
+          "rangeriez",
+          "rangeraient"
+        ],
+        "SUBJ": [
+          "range",
+          "ranges",
+          "range",
+          "rangions",
+          "rangiez",
+          "rangent"
+        ],
+        "IMPER": [
+          "",
+          "range",
+          "",
+          "rangeons",
+          "rangez",
+          ""
+        ],
+        "PPRES": [
+          "rangeant"
+        ],
+        "PPASSE": [
+          "rangé"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "RRRSRR",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（rang- → range-）"
+          ],
+          "idx": [
+            null,
+            null,
+            null,
+            0,
+            null,
+            null
+          ]
+        },
+        "IMPF": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（rang- → range-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-R-SR-",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（rang- → range-）"
+          ],
+          "idx": [
+            null,
+            null,
+            null,
+            0,
+            null,
+            null
+          ]
+        },
+        "PPRES": {
+          "codes": "S",
+          "summary": "語幹交替 g → ge",
+          "texts": [
+            "語幹の g が ge に変わる（rang- → range-）"
+          ],
+          "idx": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "lemma": "nettoyer",
+      "ja": "掃除する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "nettoie",
+          "nettoies",
+          "nettoie",
+          "nettoyons",
+          "nettoyez",
+          "nettoient"
+        ],
+        "IMPF": [
+          "nettoyais",
+          "nettoyais",
+          "nettoyait",
+          "nettoyions",
+          "nettoyiez",
+          "nettoyaient"
+        ],
+        "FUT": [
+          "nettoierai",
+          "nettoieras",
+          "nettoiera",
+          "nettoierons",
+          "nettoierez",
+          "nettoieront"
+        ],
+        "PC": [
+          "ai nettoyé",
+          "as nettoyé",
+          "a nettoyé",
+          "avons nettoyé",
+          "avez nettoyé",
+          "ont nettoyé"
+        ],
+        "PQP": [
+          "avais nettoyé",
+          "avais nettoyé",
+          "avait nettoyé",
+          "avions nettoyé",
+          "aviez nettoyé",
+          "avaient nettoyé"
+        ],
+        "PS": [
+          "nettoyai",
+          "nettoyas",
+          "nettoya",
+          "nettoyâmes",
+          "nettoyâtes",
+          "nettoyèrent"
+        ],
+        "COND": [
+          "nettoierais",
+          "nettoierais",
+          "nettoierait",
+          "nettoierions",
+          "nettoieriez",
+          "nettoieraient"
+        ],
+        "SUBJ": [
+          "nettoie",
+          "nettoies",
+          "nettoie",
+          "nettoyions",
+          "nettoyiez",
+          "nettoient"
+        ],
+        "IMPER": [
+          "",
+          "nettoie",
+          "",
+          "nettoyons",
+          "nettoyez",
+          ""
+        ],
+        "PPRES": [
+          "nettoyant"
+        ],
+        "PPASSE": [
+          "nettoyé"
+        ]
+      },
+      "irr": {
+        "PRES": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 y → i",
+          "texts": [
+            "語幹の y が i に変わる（nettoy- → nettoi-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "FUT": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 y → i",
+          "texts": [
+            "語幹の y が i に変わる（nettoyer- → nettoier-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "COND": {
+          "codes": "SSSSSS",
+          "summary": "語幹交替 y → i",
+          "texts": [
+            "語幹の y が i に変わる（nettoyer- → nettoier-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "SUBJ": {
+          "codes": "SSSRRS",
+          "summary": "語幹交替 y → i",
+          "texts": [
+            "語幹の y が i に変わる（nettoy- → nettoi-）"
+          ],
+          "idx": [
+            0,
+            0,
+            0,
+            null,
+            null,
+            0
+          ]
+        },
+        "IMPER": {
+          "codes": "-S-RR-",
+          "summary": "語幹交替 y → i",
+          "texts": [
+            "語幹の y が i に変わる（nettoy- → nettoi-）"
+          ],
+          "idx": [
+            null,
+            0,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
       "lemma": "plier",
       "ja": "折る・曲げる",
       "aux": "AVOIR",

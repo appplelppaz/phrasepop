@@ -1,691 +1,591 @@
 {
-  "_comment": "バッチ6: 学術・論文・議論。受動態・分詞・ジェロンディフ・留保表現を厚くしてある。論文を読み書きするための定型。",
+  "_comment": "バッチ6: 時間・予定・約束・電話。初心者向けの日常会話。A1〜B1、直説法現在・近接未来・複合過去が主役。",
   "lang": "fr",
   "phrases": [
     {
-      "id": "fr-0201",
-      "text": "Les résultats obtenus ne permettent pas d'inférer un lien causal.",
-      "ja": "得られた結果から因果関係を推論することはできない。",
-      "level": "C2",
-      "tags": ["学術", "過去分詞"],
-      "grammar": "ne pas permettre de + 不定詞は論文で結論を抑制するときの定型。",
-      "tokens": [
-        { "s": "Les", "skip": true },
-        { "s": "résultats", "lemma": "résultat", "pos": "名詞", "ja": "結果" },
-        { "s": "obtenus", "lemma": "obtenir", "pos": "動詞", "ja": "得る・手に入れる", "label": "過去分詞・男性複数" },
-        { "s": "ne", "skip": true },
-        { "s": "permettent", "lemma": "permettre", "pos": "動詞", "ja": "許す・可能にする", "infl": "PRES/3pl" },
-        { "s": "pas d'", "skip": true },
-        { "s": "inférer", "lemma": "inférer", "pos": "動詞", "ja": "推論する", "label": "不定詞" },
-        { "s": "un lien causal", "lemma": "lien causal", "pos": "名詞句", "ja": "因果関係", "idiom": true }
-      ]
-    },
-    {
-      "id": "fr-0202",
-      "text": "Il convient de nuancer : l'échantillon analysé était restreint.",
-      "ja": "補足すべき点がある。分析した標本は限られていた。",
-      "level": "C2",
-      "tags": ["学術", "半過去"],
-      "grammar": "nuancer は主張を弱める学術動詞。il convient de は「〜しておくのが適当だ」。",
-      "tokens": [
-        { "s": "Il convient de", "lemma": "il convient de", "pos": "慣用表現", "ja": "〜しておくのが適当だ", "idiom": true },
-        { "s": "nuancer", "lemma": "nuancer", "pos": "動詞", "ja": "ニュアンスを加える", "label": "不定詞" },
-        { "s": "l'", "skip": true },
-        { "s": "échantillon", "lemma": "échantillon", "pos": "名詞", "ja": "標本・サンプル" },
-        { "s": "analysé", "lemma": "analyser", "pos": "動詞", "ja": "分析する", "label": "過去分詞・男性単数" },
-        { "s": "était", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "IMPF/3sg" },
-        { "s": "restreint", "lemma": "restreint", "pos": "形容詞", "ja": "限られた・狭い" }
-      ]
-    },
-    {
-      "id": "fr-0203",
-      "text": "L'auteur postule que le phénomène tient à des facteurs structurels.",
-      "ja": "著者は、この現象が構造的要因によるものだと仮定している。",
-      "level": "C1",
-      "tags": ["学術", "直説法現在"],
-      "grammar": "tenir à は「〜に起因する」。原因を述べる学術的な言い方。",
-      "tokens": [
-        { "s": "L'", "skip": true },
-        { "s": "auteur", "lemma": "auteur", "pos": "名詞", "ja": "著者・作者" },
-        { "s": "postule", "lemma": "postuler", "pos": "動詞", "ja": "仮定する・応募する", "infl": "PRES/3sg" },
-        { "s": "que", "skip": true },
-        { "s": "le", "skip": true },
-        { "s": "phénomène", "lemma": "phénomène", "pos": "名詞", "ja": "現象" },
-        { "s": "tient à", "lemma": "tenir à", "pos": "慣用表現", "ja": "〜に起因する", "idiom": true, "verb": { "s": "tient", "lemma": "tenir", "infl": "PRES/3sg" } },
-        { "s": "des facteurs structurels", "lemma": "facteur structurel", "pos": "名詞句", "ja": "構造的要因", "idiom": true }
-      ]
-    },
-    {
-      "id": "fr-0204",
-      "text": "Cette hypothèse a été réfutée par des études ultérieures.",
-      "ja": "この仮説は後続の研究によって反駁された。",
-      "level": "C1",
-      "tags": ["学術", "受動態"],
-      "tokens": [
-        { "s": "Cette", "skip": true },
-        { "s": "hypothèse", "lemma": "hypothèse", "pos": "名詞", "ja": "仮説" },
-        { "s": "a été réfutée", "lemma": "réfuter", "pos": "動詞", "ja": "反駁する", "label": "受動態・複合過去・女性単数" },
-        { "s": "par des", "skip": true },
-        { "s": "études", "lemma": "étude", "pos": "名詞", "ja": "研究・調査" },
-        { "s": "ultérieures", "lemma": "ultérieur", "pos": "形容詞", "ja": "後の・後続の", "label": "女性複数" }
-      ]
-    },
-    {
-      "id": "fr-0205",
-      "text": "Les données corroborent ce qui a été avancé au chapitre précédent.",
-      "ja": "このデータは前章で提示した内容を裏付けている。",
-      "level": "C1",
-      "tags": ["学術", "受動態"],
-      "grammar": "ce qui a été + 過去分詞で前出の内容を指す。論文の相互参照の型。",
-      "tokens": [
-        { "s": "Les", "skip": true },
-        { "s": "données", "lemma": "donnée", "pos": "名詞", "ja": "データ・資料" },
-        { "s": "corroborent", "lemma": "corroborer", "pos": "動詞", "ja": "裏付ける", "infl": "PRES/3pl" },
-        { "s": "ce qui a été avancé", "lemma": "avancer", "pos": "動詞", "ja": "進める・提示する", "label": "受動態・複合過去", "note": "前出の内容を指す論文の型" },
-        { "s": "au", "skip": true },
-        { "s": "chapitre précédent", "lemma": "chapitre précédent", "pos": "名詞句", "ja": "前章", "idiom": true }
-      ]
-    },
-    {
-      "id": "fr-0206",
-      "text": "Il est nécessaire de délimiter l'objet d'étude avant de poursuivre.",
-      "ja": "先に進む前に、研究対象の範囲を定める必要がある。",
-      "level": "C1",
-      "tags": ["学術", "直説法現在"],
-      "tokens": [
-        { "s": "Il", "skip": true },
-        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
-        { "s": "nécessaire", "lemma": "nécessaire", "pos": "形容詞", "ja": "必要な" },
-        { "s": "de", "skip": true },
-        { "s": "délimiter", "lemma": "délimiter", "pos": "動詞", "ja": "範囲を定める", "label": "不定詞" },
-        { "s": "l'objet d'étude", "lemma": "objet d'étude", "pos": "名詞句", "ja": "研究対象", "idiom": true },
-        { "s": "avant de", "lemma": "avant de + 不定詞", "pos": "慣用表現", "ja": "〜する前に", "idiom": true },
-        { "s": "poursuivre", "lemma": "poursuivre", "pos": "動詞", "ja": "続行する・追跡する", "label": "不定詞" }
-      ]
-    },
-    {
-      "id": "fr-0207",
-      "text": "Cela étant, la conclusion de l'auteur devient intenable.",
-      "ja": "そうであるならば、著者の結論は成り立たない。",
-      "level": "C2",
-      "tags": ["学術", "現在分詞"],
-      "grammar": "cela étant は「そうであるならば」。現在分詞を使った論証の接続表現。",
-      "tokens": [
-        { "s": "Cela étant", "lemma": "cela étant", "pos": "慣用表現", "ja": "そうであるならば", "idiom": true, "note": "現在分詞を使った論証の接続表現", "verb": { "s": "étant", "lemma": "être", "infl": "PPRES" } },
-        { "s": "la", "skip": true },
-        { "s": "conclusion", "lemma": "conclusion", "pos": "名詞", "ja": "結論" },
-        { "s": "de l'", "skip": true },
-        { "s": "auteur", "lemma": "auteur", "pos": "名詞", "ja": "著者・作者" },
-        { "s": "devient", "lemma": "devenir", "pos": "動詞", "ja": "〜になる", "infl": "PRES/3sg" },
-        { "s": "intenable", "lemma": "intenable", "pos": "形容詞", "ja": "支持できない・耐えがたい" }
-      ]
-    },
-    {
-      "id": "fr-0208",
-      "text": "Il n'a pas été démontré qu'il existe une corrélation entre les deux variables.",
-      "ja": "両変数のあいだに相関があることは証明されていない。",
-      "level": "C2",
-      "tags": ["学術", "接続法", "受動態"],
-      "grammar": "démontrer が否定されると従属節は接続法。論文で結論を保留する型。",
-      "tokens": [
-        { "s": "Il n'a pas été démontré", "lemma": "démontrer", "pos": "動詞", "ja": "証明する・示す", "label": "受動態・複合過去（否定・非人称）" },
-        { "s": "qu'", "skip": true },
-        { "s": "il", "skip": true },
-        { "s": "existe", "lemma": "exister", "pos": "動詞", "ja": "存在する", "label": "接続法現在・3人称単数", "note": "主節が否定されるので接続法" },
-        { "s": "une", "skip": true },
-        { "s": "corrélation", "lemma": "corrélation", "pos": "名詞", "ja": "相関" },
-        { "s": "entre les deux", "skip": true },
-        { "s": "variables", "lemma": "variable", "pos": "名詞", "ja": "変数" }
-      ]
-    },
-    {
-      "id": "fr-0209",
-      "text": "Il faut souligner que la méthode employée diffère de la norme.",
-      "ja": "用いられた手法が標準とは異なる点を強調しておきたい。",
-      "level": "C1",
-      "tags": ["学術", "過去分詞"],
-      "tokens": [
-        { "s": "Il", "skip": true },
-        { "s": "faut", "lemma": "falloir", "pos": "動詞", "ja": "〜する必要がある", "infl": "PRES/3sg" },
-        { "s": "souligner", "lemma": "souligner", "pos": "動詞", "ja": "強調する・下線を引く", "label": "不定詞" },
-        { "s": "que", "skip": true },
-        { "s": "la", "skip": true },
-        { "s": "méthode", "lemma": "méthode", "pos": "名詞", "ja": "方法・手法" },
-        { "s": "employée", "lemma": "employer", "pos": "動詞", "ja": "用いる・雇う", "label": "過去分詞・女性単数" },
-        { "s": "diffère de", "lemma": "différer de", "pos": "慣用表現", "ja": "〜と異なる", "idiom": true },
-        { "s": "la norme", "lemma": "norme", "pos": "名詞", "ja": "規範・標準" }
-      ]
-    },
-    {
-      "id": "fr-0210",
-      "text": "Compte tenu de ce qui précède, il y a lieu de revoir le cadre théorique.",
-      "ja": "以上を踏まえると、理論的枠組みを見直すのが妥当である。",
-      "level": "C2",
-      "tags": ["学術", "直説法現在"],
-      "grammar": "il y a lieu de は「〜するのが妥当だ」という硬い言い方。ce qui précède は「前述の内容」。",
-      "tokens": [
-        { "s": "Compte tenu de", "lemma": "compte tenu de", "pos": "慣用表現", "ja": "〜を考慮すると", "idiom": true, "verb": { "s": "tenu", "lemma": "tenir", "infl": "PPASSE" } },
-        { "s": "ce qui précède", "lemma": "ce qui précède", "pos": "慣用表現", "ja": "前述の内容", "idiom": true },
-        { "s": "il y a lieu de", "lemma": "il y a lieu de", "pos": "慣用表現", "ja": "〜するのが妥当だ", "idiom": true, "verb": { "s": "a", "lemma": "avoir", "infl": "PRES/3sg" } },
-        { "s": "revoir", "lemma": "revoir", "pos": "動詞", "ja": "見直す・再会する", "label": "不定詞" },
-        { "s": "le cadre théorique", "lemma": "cadre théorique", "pos": "名詞句", "ja": "理論的枠組み", "idiom": true }
-      ]
-    },
-    {
-      "id": "fr-0211",
-      "text": "Bien que l'échantillon soit vaste, les critères de sélection restent discutables.",
-      "ja": "標本は大規模ではあるが、選定基準には議論の余地がある。",
-      "level": "C1",
-      "tags": ["学術", "接続法"],
-      "tokens": [
-        { "s": "Bien que", "lemma": "bien que", "pos": "接続詞", "ja": "〜ではあるが", "idiom": true, "note": "後ろは必ず接続法" },
-        { "s": "l'", "skip": true },
-        { "s": "échantillon", "lemma": "échantillon", "pos": "名詞", "ja": "標本・サンプル" },
-        { "s": "soit", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "SUBJ/3sg" },
-        { "s": "vaste", "lemma": "vaste", "pos": "形容詞", "ja": "広大な・大規模な" },
-        { "s": "les critères de sélection", "lemma": "critère de sélection", "pos": "名詞句", "ja": "選定基準", "idiom": true },
-        { "s": "restent", "lemma": "rester", "pos": "動詞", "ja": "とどまる・残る", "infl": "PRES/3pl" },
-        { "s": "discutables", "lemma": "discutable", "pos": "形容詞", "ja": "議論の余地がある", "label": "複数" }
-      ]
-    },
-    {
-      "id": "fr-0212",
-      "text": "L'étude esquisse un modèle qui reste à valider.",
-      "ja": "その研究は、まだ検証されていないモデルの概略を示している。",
-      "level": "C1",
-      "tags": ["学術", "直説法現在"],
-      "tokens": [
-        { "s": "L'", "skip": true },
-        { "s": "étude", "lemma": "étude", "pos": "名詞", "ja": "研究・調査" },
-        { "s": "esquisse", "lemma": "esquisser", "pos": "動詞", "ja": "素描する・概略を示す", "infl": "PRES/3sg" },
-        { "s": "un", "skip": true },
-        { "s": "modèle", "lemma": "modèle", "pos": "名詞", "ja": "モデル・模型" },
-        { "s": "qui", "skip": true },
-        { "s": "reste à", "lemma": "rester à + 不定詞", "pos": "慣用表現", "ja": "まだ〜されていない", "idiom": true, "verb": { "s": "reste", "lemma": "rester", "infl": "PRES/3sg" } },
-        { "s": "valider", "lemma": "valider", "pos": "動詞", "ja": "検証する・有効にする", "label": "不定詞" }
-      ]
-    },
-    {
-      "id": "fr-0213",
-      "text": "Les auteurs montrent que le biais persistait malgré les contrôles.",
-      "ja": "著者らは、統制を行ってもなお偏りが残っていたことを示している。",
-      "level": "C1",
-      "tags": ["学術", "半過去"],
-      "tokens": [
-        { "s": "Les", "skip": true },
-        { "s": "auteurs", "lemma": "auteur", "pos": "名詞", "ja": "著者・作者" },
-        { "s": "montrent", "lemma": "montrer", "pos": "動詞", "ja": "見せる・示す", "infl": "PRES/3pl" },
-        { "s": "que", "skip": true },
-        { "s": "le", "skip": true },
-        { "s": "biais", "lemma": "biais", "pos": "名詞", "ja": "偏り・バイアス" },
-        { "s": "persistait", "lemma": "persister", "pos": "動詞", "ja": "持続する・固執する", "label": "半過去・3人称単数" },
-        { "s": "malgré", "lemma": "malgré", "pos": "前置詞", "ja": "〜にもかかわらず" },
-        { "s": "les", "skip": true },
-        { "s": "contrôles", "lemma": "contrôle", "pos": "名詞", "ja": "統制・管理" }
-      ]
-    },
-    {
-      "id": "fr-0214",
-      "text": "Quelque raffinés que soient les modèles, l'incertitude demeure.",
-      "ja": "モデルがどれほど精緻であっても、不確実性は残る。",
-      "level": "C2",
-      "tags": ["学術", "接続法"],
-      "grammar": "quelque + 形容詞 + que + 接続法で「どれほど〜でも」。最も硬い譲歩の型。",
-      "tokens": [
-        { "s": "Quelque raffinés que", "lemma": "quelque... que + 接続法", "pos": "慣用表現", "ja": "どれほど〜でも", "idiom": true, "note": "文語。後ろは接続法" },
-        { "s": "soient", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "SUBJ/3pl" },
-        { "s": "les", "skip": true },
-        { "s": "modèles", "lemma": "modèle", "pos": "名詞", "ja": "モデル・模型" },
-        { "s": "l'", "skip": true },
-        { "s": "incertitude", "lemma": "incertitude", "pos": "名詞", "ja": "不確実性" },
-        { "s": "demeure", "lemma": "demeurer", "pos": "動詞", "ja": "とどまる・残る", "label": "直説法現在・3人称単数" }
-      ]
-    },
-    {
-      "id": "fr-0215",
-      "text": "On a longtemps assumé que la variable était indépendante.",
-      "ja": "その変数は独立だと長らく想定されてきた。",
-      "level": "C1",
-      "tags": ["学術", "複合過去", "半過去"],
-      "tokens": [
-        { "s": "On", "skip": true },
-        { "s": "a", "skip": true },
-        { "s": "longtemps", "lemma": "longtemps", "pos": "副詞", "ja": "長らく" },
-        { "s": "assumé", "lemma": "assumer", "pos": "動詞", "ja": "引き受ける・想定する", "infl": "PPASSE" },
-        { "s": "que", "skip": true },
-        { "s": "la", "skip": true },
-        { "s": "variable", "lemma": "variable", "pos": "名詞", "ja": "変数" },
-        { "s": "était", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "IMPF/3sg" },
-        { "s": "indépendante", "lemma": "indépendant", "pos": "形容詞", "ja": "独立した", "label": "女性単数" }
-      ]
-    },
-    {
-      "id": "fr-0216",
-      "text": "Rien ne permet d'affirmer que les résultats soient généralisables.",
-      "ja": "この結果が一般化できるとは、およそ言えない。",
-      "level": "C2",
-      "tags": ["学術", "接続法"],
-      "tokens": [
-        { "s": "Rien", "lemma": "rien", "pos": "代名詞", "ja": "何も〜ない" },
-        { "s": "ne", "skip": true },
-        { "s": "permet", "lemma": "permettre", "pos": "動詞", "ja": "許す・可能にする", "infl": "PRES/3sg" },
-        { "s": "d'", "skip": true },
-        { "s": "affirmer", "lemma": "affirmer", "pos": "動詞", "ja": "断言する・主張する", "label": "不定詞" },
-        { "s": "que", "skip": true },
-        { "s": "les", "skip": true },
-        { "s": "résultats", "lemma": "résultat", "pos": "名詞", "ja": "結果" },
-        { "s": "soient", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "SUBJ/3pl" },
-        { "s": "généralisables", "lemma": "généralisable", "pos": "形容詞", "ja": "一般化できる", "label": "複数" }
-      ]
-    },
-    {
-      "id": "fr-0217",
-      "text": "L'expérience a été reproduite trois fois avec des résultats identiques.",
-      "ja": "この実験は同一の結果をもって三度再現された。",
-      "level": "C1",
-      "tags": ["学術", "受動態"],
-      "tokens": [
-        { "s": "L'", "skip": true },
-        { "s": "expérience", "lemma": "expérience", "pos": "名詞", "ja": "実験・経験" },
-        { "s": "a été reproduite", "lemma": "reproduire", "pos": "動詞", "ja": "再現する・複製する", "label": "受動態・複合過去・女性単数" },
-        { "s": "trois fois", "lemma": "fois", "pos": "名詞", "ja": "回・度" },
-        { "s": "avec des", "skip": true },
-        { "s": "résultats", "lemma": "résultat", "pos": "名詞", "ja": "結果" },
-        { "s": "identiques", "lemma": "identique", "pos": "形容詞", "ja": "同一の", "label": "複数" }
-      ]
-    },
-    {
-      "id": "fr-0218",
-      "text": "Étant donné que les preuves sont minces, toute conclusion serait prématurée.",
-      "ja": "証拠が乏しい以上、いかなる結論も時期尚早だろう。",
-      "level": "C2",
-      "tags": ["学術", "条件法現在"],
-      "grammar": "étant donné que は「〜である以上」。条件法で結論を控えめに述べる。",
-      "tokens": [
-        { "s": "Étant donné que", "lemma": "étant donné que", "pos": "接続詞", "ja": "〜である以上・〜なので", "idiom": true, "verb": { "s": "Étant", "lemma": "être", "infl": "PPRES" } },
-        { "s": "les", "skip": true },
-        { "s": "preuves", "lemma": "preuve", "pos": "名詞", "ja": "証拠" },
-        { "s": "sont", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3pl" },
-        { "s": "minces", "lemma": "mince", "pos": "形容詞", "ja": "薄い・乏しい", "label": "複数" },
-        { "s": "toute", "skip": true },
-        { "s": "conclusion", "lemma": "conclusion", "pos": "名詞", "ja": "結論" },
-        { "s": "serait", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "COND/3sg", "note": "条件法で断定を弱める" },
-        { "s": "prématurée", "lemma": "prématuré", "pos": "形容詞", "ja": "時期尚早の", "label": "女性単数" }
-      ]
-    },
-    {
-      "id": "fr-0219",
-      "text": "La théorie, largement admise, est aujourd'hui contestée.",
-      "ja": "広く受け入れられてきたこの理論は、今日では疑問視されている。",
-      "level": "C1",
-      "tags": ["学術", "受動態", "過去分詞"],
-      "tokens": [
-        { "s": "La", "skip": true },
-        { "s": "théorie", "lemma": "théorie", "pos": "名詞", "ja": "理論" },
-        { "s": "largement", "lemma": "largement", "pos": "副詞", "ja": "広く・大幅に" },
-        { "s": "admise", "lemma": "admettre", "pos": "動詞", "ja": "認める", "label": "過去分詞・女性単数" },
-        { "s": "est", "skip": true },
-        { "s": "aujourd'hui", "lemma": "aujourd'hui", "pos": "副詞", "ja": "今日" },
-        { "s": "contestée", "lemma": "contester", "pos": "動詞", "ja": "異議を唱える", "label": "受動態・現在・女性単数" }
-      ]
-    },
-    {
-      "id": "fr-0220",
-      "text": "À mesure que la recherche avance, de nouvelles questions se dessinent.",
-      "ja": "研究が進むにつれて、新たな問いが形をとってくる。",
-      "level": "C2",
-      "tags": ["学術", "直説法現在"],
-      "grammar": "à mesure que は「〜するにつれて」。se dessiner は「輪郭を現す」。",
-      "tokens": [
-        { "s": "À mesure que", "lemma": "à mesure que", "pos": "接続詞", "ja": "〜するにつれて", "idiom": true },
-        { "s": "la", "skip": true },
-        { "s": "recherche", "lemma": "recherche", "pos": "名詞", "ja": "研究・探求" },
-        { "s": "avance", "lemma": "avancer", "pos": "動詞", "ja": "進む・提示する", "infl": "PRES/3sg" },
-        { "s": "de nouvelles", "skip": true },
-        { "s": "questions", "lemma": "question", "pos": "名詞", "ja": "問い・質問" },
-        { "s": "se dessinent", "lemma": "se dessiner", "pos": "動詞", "ja": "輪郭を現す・形をとる", "idiom": true }
-      ]
-    },
-    {
       "id": "fr-0221",
-      "text": "Il est recommandé que les données soient recoupées avec des sources indépendantes.",
-      "ja": "データは独立した情報源と照合することが推奨される。",
-      "level": "C2",
-      "tags": ["学術", "接続法", "受動態"],
+      "text": "Quelle heure est-il ?",
+      "ja": "何時ですか。",
+      "level": "A1",
+      "tags": ["時間", "疑問", "直説法現在"],
+      "grammar": "時刻を尋ねる決まり文句。il は天気や時刻を表す非人称の主語。",
       "tokens": [
-        { "s": "Il est recommandé que", "lemma": "il est recommandé que", "pos": "慣用表現", "ja": "〜することが推奨される", "idiom": true, "note": "後ろは接続法", "verb": { "s": "est", "lemma": "être", "infl": "PRES/3sg" } },
-        { "s": "les", "skip": true },
-        { "s": "données", "lemma": "donnée", "pos": "名詞", "ja": "データ・資料" },
-        { "s": "soient", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "SUBJ/3pl" },
-        { "s": "recoupées", "lemma": "recouper", "pos": "動詞", "ja": "照合する・突き合わせる", "label": "過去分詞・女性複数" },
-        { "s": "avec des", "skip": true },
-        { "s": "sources indépendantes", "lemma": "source indépendante", "pos": "名詞句", "ja": "独立した情報源", "idiom": true }
+        { "s": "Quelle heure", "lemma": "quelle heure", "pos": "疑問詞", "ja": "何時", "idiom": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg", "note": "時刻の il は非人称" },
+        { "s": "il", "skip": true }
       ]
     },
     {
       "id": "fr-0222",
-      "text": "Au vu de ce qui a été observé, l'hypothèse initiale perd de sa force.",
-      "ja": "観察された内容に照らすと、当初の仮説は説得力を失う。",
-      "level": "C2",
-      "tags": ["学術", "直説法現在"],
-      "grammar": "au vu de は「〜に照らして」という硬い書き言葉。",
+      "text": "Il est huit heures et demie.",
+      "ja": "8時半です。",
+      "level": "A1",
+      "tags": ["時間", "直説法現在"],
+      "grammar": "et demie は「半」。heures が女性名詞なので demie も女性形になる。",
       "tokens": [
-        { "s": "Au vu de", "lemma": "au vu de", "pos": "慣用表現", "ja": "〜に照らして", "idiom": true, "note": "硬い書き言葉", "verb": { "s": "vu", "lemma": "voir", "infl": "PPASSE" } },
-        { "s": "ce qui a été observé", "lemma": "observer", "pos": "動詞", "ja": "観察する", "label": "受動態・複合過去" },
-        { "s": "l'", "skip": true },
-        { "s": "hypothèse", "lemma": "hypothèse", "pos": "名詞", "ja": "仮説" },
-        { "s": "initiale", "lemma": "initial", "pos": "形容詞", "ja": "当初の・最初の", "label": "女性単数" },
-        { "s": "perd", "lemma": "perdre", "pos": "動詞", "ja": "失う・負ける", "infl": "PRES/3sg" },
-        { "s": "de sa force", "lemma": "force", "pos": "名詞", "ja": "力・説得力" }
+        { "s": "Il", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "huit", "lemma": "huit", "pos": "数詞", "ja": "8" },
+        { "s": "heures", "lemma": "heure", "pos": "名詞", "ja": "時間・時刻" },
+        { "s": "et demie", "lemma": "et demie", "pos": "慣用表現", "ja": "〜時半", "idiom": true }
       ]
     },
     {
       "id": "fr-0223",
-      "text": "Aucune étude antérieure n'avait abordé cette question de façon systématique.",
-      "ja": "この問題を体系的に扱った先行研究は存在しなかった。",
-      "level": "C1",
-      "tags": ["学術", "大過去"],
-      "grammar": "先行研究の空白を指摘する論文の定型。",
+      "text": "Je me lève à sept heures.",
+      "ja": "7時に起きます。",
+      "level": "A1",
+      "tags": ["時間", "直説法現在"],
+      "grammar": "se lever は代名動詞。è に変わる語幹（je me lève）に注意。",
       "tokens": [
-        { "s": "Aucune", "skip": true },
-        { "s": "étude antérieure", "lemma": "étude antérieure", "pos": "名詞句", "ja": "先行研究", "idiom": true },
-        { "s": "n'", "skip": true },
-        { "s": "avait abordé", "lemma": "aborder", "pos": "動詞", "ja": "取り組む・着手する", "infl": "PQP/3sg" },
-        { "s": "cette", "skip": true },
-        { "s": "question", "lemma": "question", "pos": "名詞", "ja": "問題・問い" },
-        { "s": "de façon systématique", "lemma": "de façon systématique", "pos": "慣用表現", "ja": "体系的に", "idiom": true }
+        { "s": "Je me", "skip": true },
+        { "s": "lève", "lemma": "lever", "pos": "動詞", "ja": "上げる・（代名動詞で）起きる", "infl": "PRES/1sg" },
+        { "s": "à sept heures", "lemma": "à sept heures", "pos": "慣用表現", "ja": "7時に", "idiom": true }
       ]
     },
     {
       "id": "fr-0224",
-      "text": "Il est probable que de futurs travaux doivent revoir ces présupposés.",
-      "ja": "今後の研究は、これらの前提を見直さざるを得ないだろう。",
-      "level": "C1",
-      "tags": ["学術", "接続法"],
+      "text": "On se retrouve devant le cinéma ?",
+      "ja": "映画館の前で待ち合わせる？",
+      "level": "A1",
+      "tags": ["約束", "疑問", "直説法現在"],
+      "grammar": "se retrouver で「落ち合う」。待ち合わせの決まり文句。",
       "tokens": [
-        { "s": "Il est probable que", "lemma": "il est probable que", "pos": "慣用表現", "ja": "〜だろう・〜の可能性が高い", "idiom": true, "note": "後ろは接続法", "verb": { "s": "est", "lemma": "être", "infl": "PRES/3sg" } },
-        { "s": "de futurs", "skip": true },
-        { "s": "travaux", "lemma": "travail", "pos": "名詞", "ja": "研究・仕事", "note": "複数形は travaux という不規則形" },
-        { "s": "doivent", "lemma": "devoir", "pos": "動詞", "ja": "〜しなければならない", "infl": "SUBJ/3pl" },
-        { "s": "revoir", "lemma": "revoir", "pos": "動詞", "ja": "見直す・再会する", "label": "不定詞" },
-        { "s": "ces", "skip": true },
-        { "s": "présupposés", "lemma": "présupposé", "pos": "名詞", "ja": "前提・仮定" }
+        { "s": "On se", "skip": true },
+        { "s": "retrouve", "lemma": "retrouver", "pos": "動詞", "ja": "再び見つける・（代名動詞で）落ち合う", "infl": "PRES/3sg" },
+        { "s": "devant", "lemma": "devant", "pos": "前置詞", "ja": "〜の前で" },
+        { "s": "le", "skip": true },
+        { "s": "cinéma", "lemma": "cinéma", "pos": "名詞", "ja": "映画館・映画" }
       ]
     },
     {
       "id": "fr-0225",
-      "text": "Le cadre proposé intègre des apports de disciplines très différentes.",
-      "ja": "提案された枠組みは、大きく異なる分野の知見を統合している。",
-      "level": "C1",
-      "tags": ["学術", "過去分詞"],
+      "text": "Allô, c'est Marie à l'appareil.",
+      "ja": "もしもし、マリです。",
+      "level": "A1",
+      "tags": ["電話", "直説法現在"],
+      "grammar": "à l'appareil は「電話口で」。電話で名乗るときの決まり文句。",
       "tokens": [
-        { "s": "Le", "skip": true },
-        { "s": "cadre", "lemma": "cadre", "pos": "名詞", "ja": "枠組み・額縁" },
-        { "s": "proposé", "lemma": "proposer", "pos": "動詞", "ja": "提案する", "label": "過去分詞・男性単数" },
-        { "s": "intègre", "lemma": "intégrer", "pos": "動詞", "ja": "統合する・組み込む", "label": "直説法現在・3人称単数" },
-        { "s": "des", "skip": true },
-        { "s": "apports", "lemma": "apport", "pos": "名詞", "ja": "貢献・知見" },
-        { "s": "de", "skip": true },
-        { "s": "disciplines", "lemma": "discipline", "pos": "名詞", "ja": "学問分野・規律" },
-        { "s": "très différentes", "lemma": "différent", "pos": "形容詞", "ja": "異なる", "label": "女性複数" }
+        { "s": "Allô", "lemma": "allô", "pos": "間投詞", "ja": "もしもし" },
+        { "s": "c'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "Marie", "lemma": "Marie", "pos": "固有名詞", "ja": "マリ（人名）" },
+        { "s": "à l'appareil", "lemma": "à l'appareil", "pos": "慣用表現", "ja": "電話口で", "idiom": true }
       ]
     },
     {
       "id": "fr-0226",
-      "text": "Une telle affirmation exigerait des preuves bien plus solides.",
-      "ja": "そのような主張には、はるかに強固な証拠が必要になるだろう。",
-      "level": "C2",
-      "tags": ["学術", "条件法現在"],
+      "text": "Je te téléphone ce soir.",
+      "ja": "今晩電話するね。",
+      "level": "A1",
+      "tags": ["電話", "直説法現在"],
+      "grammar": "téléphoner à qqn。人は間接目的語なので te になる。",
       "tokens": [
-        { "s": "Une telle", "lemma": "un tel", "pos": "形容詞", "ja": "そのような" },
-        { "s": "affirmation", "lemma": "affirmation", "pos": "名詞", "ja": "主張・断言" },
-        { "s": "exigerait", "lemma": "exiger", "pos": "動詞", "ja": "要求する", "label": "条件法現在・3人称単数" },
-        { "s": "des", "skip": true },
-        { "s": "preuves", "lemma": "preuve", "pos": "名詞", "ja": "証拠" },
-        { "s": "bien plus", "skip": true },
-        { "s": "solides", "lemma": "solide", "pos": "形容詞", "ja": "堅固な・確かな", "label": "複数" }
+        { "s": "Je", "skip": true },
+        { "s": "te", "skip": true },
+        { "s": "téléphone", "lemma": "téléphoner", "pos": "動詞", "ja": "電話する", "infl": "PRES/1sg" },
+        { "s": "ce soir", "lemma": "ce soir", "pos": "慣用表現", "ja": "今晩", "idiom": true }
       ]
     },
     {
       "id": "fr-0227",
-      "text": "Les résultats présentés ici tiendraient difficilement sans ce présupposé.",
-      "ja": "ここで示した結果は、その前提なしにはほとんど成り立たないだろう。",
-      "level": "C2",
-      "tags": ["学術", "条件法現在", "過去分詞"],
+      "text": "Aujourd'hui, c'est lundi.",
+      "ja": "今日は月曜です。",
+      "level": "A1",
+      "tags": ["時間", "直説法現在"],
+      "grammar": "曜日に冠詞を付けなければ「その日」を指す。",
       "tokens": [
-        { "s": "Les", "skip": true },
-        { "s": "résultats", "lemma": "résultat", "pos": "名詞", "ja": "結果" },
-        { "s": "présentés", "lemma": "présenter", "pos": "動詞", "ja": "提示する・紹介する", "label": "過去分詞・男性複数" },
-        { "s": "ici", "skip": true },
-        { "s": "tiendraient", "lemma": "tenir", "pos": "動詞", "ja": "持つ・保つ・成り立つ", "infl": "COND/3pl" },
-        { "s": "difficilement", "lemma": "difficilement", "pos": "副詞", "ja": "ほとんど〜ない・困難に" },
-        { "s": "sans ce", "skip": true },
-        { "s": "présupposé", "lemma": "présupposé", "pos": "名詞", "ja": "前提・仮定" }
+        { "s": "Aujourd'hui", "lemma": "aujourd'hui", "pos": "副詞", "ja": "今日" },
+        { "s": "c'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "lundi", "lemma": "lundi", "pos": "名詞", "ja": "月曜日" }
       ]
     },
     {
       "id": "fr-0228",
-      "text": "La première hypothèse a été écartée faute d'appui empirique.",
-      "ja": "実証的裏付けを欠くため、第一の仮説は棄却された。",
-      "level": "C2",
-      "tags": ["学術", "受動態"],
-      "grammar": "faute de は「〜がないために」。理由を簡潔に示す書き言葉。",
+      "text": "Je suis libre demain après-midi.",
+      "ja": "明日の午後は空いています。",
+      "level": "A1",
+      "tags": ["予定", "直説法現在"],
       "tokens": [
-        { "s": "La première", "skip": true },
-        { "s": "hypothèse", "lemma": "hypothèse", "pos": "名詞", "ja": "仮説" },
-        { "s": "a été écartée", "lemma": "écarter", "pos": "動詞", "ja": "退ける・遠ざける", "label": "受動態・複合過去・女性単数" },
-        { "s": "faute d'", "lemma": "faute de", "pos": "慣用表現", "ja": "〜がないために", "idiom": true },
-        { "s": "appui empirique", "lemma": "appui empirique", "pos": "名詞句", "ja": "実証的裏付け", "idiom": true }
+        { "s": "Je", "skip": true },
+        { "s": "suis", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1sg" },
+        { "s": "libre", "lemma": "libre", "pos": "形容詞", "ja": "自由な・空いている" },
+        { "s": "demain après-midi", "lemma": "demain après-midi", "pos": "慣用表現", "ja": "明日の午後", "idiom": true }
       ]
     },
     {
       "id": "fr-0229",
-      "text": "L'analyse, loin de trancher la controverse, l'a ravivée.",
-      "ja": "この分析は論争に決着をつけるどころか、むしろ再燃させた。",
-      "level": "C2",
-      "tags": ["学術", "複合過去"],
+      "text": "On mange à midi.",
+      "ja": "お昼に食べます。",
+      "level": "A1",
+      "tags": ["時間", "直説法現在"],
+      "grammar": "midi（正午）と minuit（真夜中）には冠詞を付けない。",
       "tokens": [
-        { "s": "L'", "skip": true },
-        { "s": "analyse", "lemma": "analyse", "pos": "名詞", "ja": "分析" },
-        { "s": "loin de", "lemma": "loin de + 不定詞", "pos": "慣用表現", "ja": "〜するどころか", "idiom": true },
-        { "s": "trancher", "lemma": "trancher", "pos": "動詞", "ja": "決着をつける・切る", "label": "不定詞" },
-        { "s": "la", "skip": true },
-        { "s": "controverse", "lemma": "controverse", "pos": "名詞", "ja": "論争" },
-        { "s": "l'a ravivée", "lemma": "raviver", "pos": "動詞", "ja": "再燃させる・よみがえらせる", "label": "複合過去・3人称単数（直接目的語の先行で女性一致）" }
+        { "s": "On", "skip": true },
+        { "s": "mange", "lemma": "manger", "pos": "動詞", "ja": "食べる", "infl": "PRES/3sg" },
+        { "s": "à midi", "lemma": "à midi", "pos": "慣用表現", "ja": "正午に", "idiom": true }
       ]
     },
     {
       "id": "fr-0230",
-      "text": "Il importe de distinguer corrélation et causalité, si évident que cela paraisse.",
-      "ja": "自明に思えても、相関と因果は区別すべきである。",
-      "level": "C2",
-      "tags": ["学術", "接続法"],
-      "grammar": "il importe de は「〜することが重要だ」。si + 形容詞 + que + 接続法で譲歩。",
+      "text": "Ne quittez pas, je vous le passe.",
+      "ja": "少々お待ちください、おつなぎします。",
+      "level": "A1",
+      "tags": ["電話", "命令法", "否定"],
+      "grammar": "Ne quittez pas は電話の「切らないでください」＝「お待ちください」。",
       "tokens": [
-        { "s": "Il importe de", "lemma": "il importe de", "pos": "慣用表現", "ja": "〜することが重要だ", "idiom": true },
-        { "s": "distinguer", "lemma": "distinguer", "pos": "動詞", "ja": "区別する・見分ける", "label": "不定詞" },
-        { "s": "corrélation", "lemma": "corrélation", "pos": "名詞", "ja": "相関" },
-        { "s": "causalité", "lemma": "causalité", "pos": "名詞", "ja": "因果性" },
-        { "s": "si évident que", "lemma": "si... que + 接続法", "pos": "慣用表現", "ja": "どれほど〜でも", "idiom": true },
-        { "s": "cela", "skip": true },
-        { "s": "paraisse", "lemma": "paraître", "pos": "動詞", "ja": "現れる・〜に見える", "infl": "SUBJ/3sg" }
+        { "s": "Ne", "skip": true },
+        { "s": "quittez", "lemma": "quitter", "pos": "動詞", "ja": "去る・（電話を）切る", "infl": "IMPER/2pl" },
+        { "s": "pas", "skip": true },
+        { "s": "je vous le", "skip": true },
+        { "s": "passe", "lemma": "passer", "pos": "動詞", "ja": "通す・（電話を）つなぐ", "infl": "PRES/1sg" }
       ]
     },
     {
       "id": "fr-0231",
-      "text": "Il faudrait repenser le protocole avant de recueillir davantage de données.",
-      "ja": "さらにデータを集める前に、実験手順を練り直す必要があるだろう。",
-      "level": "C1",
-      "tags": ["学術", "条件法現在"],
-      "grammar": "il faudrait は falloir の条件法で「〜する必要があるだろう」。控えめな提案。",
+      "text": "Tu es libre ce week-end ?",
+      "ja": "今週末は空いてる？",
+      "level": "A2",
+      "tags": ["予定", "疑問", "直説法現在"],
       "tokens": [
-        { "s": "Il", "skip": true },
-        { "s": "faudrait", "lemma": "falloir", "pos": "動詞", "ja": "〜する必要がある", "infl": "COND/3sg", "note": "条件法にすると控えめな提案になる" },
-        { "s": "repenser", "lemma": "repenser", "pos": "動詞", "ja": "練り直す・再考する", "label": "不定詞" },
-        { "s": "le", "skip": true },
-        { "s": "protocole", "lemma": "protocole", "pos": "名詞", "ja": "実験手順・規約" },
-        { "s": "avant de", "skip": true },
-        { "s": "recueillir", "lemma": "recueillir", "pos": "動詞", "ja": "収集する・受け入れる", "label": "不定詞" },
-        { "s": "davantage de", "lemma": "davantage de", "pos": "慣用表現", "ja": "より多くの", "idiom": true },
-        { "s": "données", "lemma": "donnée", "pos": "名詞", "ja": "データ・資料" }
+        { "s": "Tu", "skip": true },
+        { "s": "es", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/2sg" },
+        { "s": "libre", "lemma": "libre", "pos": "形容詞", "ja": "自由な・空いている" },
+        { "s": "ce week-end", "lemma": "ce week-end", "pos": "慣用表現", "ja": "今週末", "idiom": true }
       ]
     },
     {
       "id": "fr-0232",
-      "text": "Plus l'échantillon est grand, plus la marge d'erreur se réduit.",
-      "ja": "標本が大きいほど、誤差の幅は小さくなる。",
-      "level": "C1",
-      "tags": ["学術", "直説法現在"],
+      "text": "On va se voir la semaine prochaine.",
+      "ja": "来週会いましょう。",
+      "level": "A2",
+      "tags": ["約束", "近接未来"],
       "tokens": [
-        { "s": "Plus", "lemma": "plus... plus...", "pos": "慣用表現", "ja": "〜すればするほど", "idiom": true },
-        { "s": "l'", "skip": true },
-        { "s": "échantillon", "lemma": "échantillon", "pos": "名詞", "ja": "標本・サンプル" },
-        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
-        { "s": "grand", "lemma": "grand", "pos": "形容詞", "ja": "大きい" },
-        { "s": "la marge d'erreur", "lemma": "marge d'erreur", "pos": "名詞句", "ja": "誤差の幅", "idiom": true },
-        { "s": "se réduit", "lemma": "réduire", "pos": "動詞", "ja": "削減する・縮小する", "label": "直説法現在・3人称単数（代名動詞）" }
+        { "s": "On", "skip": true },
+        { "s": "va", "lemma": "aller", "pos": "動詞", "ja": "行く・〜するつもりだ", "infl": "PRES/3sg", "note": "aller + 不定詞で近接未来" },
+        { "s": "se", "skip": true },
+        { "s": "voir", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "label": "不定詞" },
+        { "s": "la semaine prochaine", "lemma": "la semaine prochaine", "pos": "慣用表現", "ja": "来週", "idiom": true }
       ]
     },
     {
       "id": "fr-0233",
-      "text": "La revue de littérature a été menée en suivant des critères explicites.",
-      "ja": "文献レビューは明示的な基準に従って実施された。",
-      "level": "C1",
-      "tags": ["学術", "受動態", "現在分詞"],
-      "grammar": "en + 現在分詞（ジェロンディフ）で「〜しながら・〜に従って」。",
+      "text": "J'ai rendez-vous chez le dentiste.",
+      "ja": "歯医者の予約があります。",
+      "level": "A2",
+      "tags": ["予定", "直説法現在"],
+      "grammar": "avoir rendez-vous で「約束・予約がある」。chez + 人で「〜のところへ」。",
       "tokens": [
-        { "s": "La revue de littérature", "lemma": "revue de littérature", "pos": "名詞句", "ja": "文献レビュー", "idiom": true },
-        { "s": "a été menée", "lemma": "mener", "pos": "動詞", "ja": "導く・行う", "label": "受動態・複合過去・女性単数" },
-        { "s": "en", "skip": true },
-        { "s": "suivant", "lemma": "suivre", "pos": "動詞", "ja": "ついていく・従う", "infl": "PPRES", "note": "en + 現在分詞でジェロンディフ" },
-        { "s": "des", "skip": true },
-        { "s": "critères", "lemma": "critère", "pos": "名詞", "ja": "基準・判断" },
-        { "s": "explicites", "lemma": "explicite", "pos": "形容詞", "ja": "明示的な", "label": "複数" }
+        { "s": "J'", "skip": true },
+        { "s": "ai rendez-vous", "lemma": "avoir rendez-vous", "pos": "慣用表現", "ja": "約束・予約がある", "idiom": true, "verb": { "s": "ai", "lemma": "avoir", "infl": "PRES/1sg" } },
+        { "s": "chez", "lemma": "chez", "pos": "前置詞", "ja": "〜のところへ・〜の家で" },
+        { "s": "le", "skip": true },
+        { "s": "dentiste", "lemma": "dentiste", "pos": "名詞", "ja": "歯医者" }
       ]
     },
     {
       "id": "fr-0234",
-      "text": "Tout en reconnaissant ses limites, le modèle demeure utile.",
-      "ja": "限界を認めたうえでも、このモデルは依然として有用である。",
-      "level": "C2",
-      "tags": ["学術", "現在分詞"],
-      "grammar": "tout en + 現在分詞で「〜しながらも」という譲歩。",
+      "text": "Désolé, je ne peux pas ce jour-là.",
+      "ja": "ごめん、その日は無理です。",
+      "level": "A2",
+      "tags": ["予定", "否定", "直説法現在"],
       "tokens": [
-        { "s": "Tout en", "lemma": "tout en + 現在分詞", "pos": "慣用表現", "ja": "〜しながらも", "idiom": true },
-        { "s": "reconnaissant", "lemma": "reconnaître", "pos": "動詞", "ja": "認める・見分ける", "label": "現在分詞" },
-        { "s": "ses", "skip": true },
-        { "s": "limites", "lemma": "limite", "pos": "名詞", "ja": "限界・境界" },
-        { "s": "le", "skip": true },
-        { "s": "modèle", "lemma": "modèle", "pos": "名詞", "ja": "モデル・模型" },
-        { "s": "demeure", "lemma": "demeurer", "pos": "動詞", "ja": "とどまる・残る", "label": "直説法現在・3人称単数" },
-        { "s": "utile", "lemma": "utile", "pos": "形容詞", "ja": "有用な・役に立つ" }
+        { "s": "Désolé", "lemma": "désolé", "pos": "形容詞", "ja": "申し訳なく思う" },
+        { "s": "je", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "peux", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "PRES/1sg" },
+        { "s": "pas", "skip": true },
+        { "s": "ce jour-là", "lemma": "ce jour-là", "pos": "慣用表現", "ja": "その日は", "idiom": true }
       ]
     },
     {
       "id": "fr-0235",
-      "text": "Les auteurs signalent que leurs conclusions ne sont pas transposables.",
-      "ja": "著者らは、自らの結論が他へは適用できないと指摘している。",
-      "level": "C1",
-      "tags": ["学術", "直説法現在"],
+      "text": "On peut remettre ça à jeudi ?",
+      "ja": "木曜に延ばせますか。",
+      "level": "A2",
+      "tags": ["予定", "疑問", "直説法現在"],
+      "grammar": "remettre à + 日で「〜に延期する」。",
       "tokens": [
-        { "s": "Les", "skip": true },
-        { "s": "auteurs", "lemma": "auteur", "pos": "名詞", "ja": "著者・作者" },
-        { "s": "signalent", "lemma": "signaler", "pos": "動詞", "ja": "指摘する・知らせる", "infl": "PRES/3pl" },
-        { "s": "que", "skip": true },
-        { "s": "leurs", "skip": true },
-        { "s": "conclusions", "lemma": "conclusion", "pos": "名詞", "ja": "結論" },
-        { "s": "ne", "skip": true },
-        { "s": "sont", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3pl" },
-        { "s": "pas", "skip": true },
-        { "s": "transposables", "lemma": "transposable", "pos": "形容詞", "ja": "適用できる・移し替えられる", "label": "複数" }
+        { "s": "On", "skip": true },
+        { "s": "peut", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "PRES/3sg" },
+        { "s": "remettre", "lemma": "remettre", "pos": "動詞", "ja": "戻す・延期する", "label": "不定詞" },
+        { "s": "ça", "skip": true },
+        { "s": "à jeudi", "lemma": "à jeudi", "pos": "慣用表現", "ja": "木曜に", "idiom": true }
       ]
     },
     {
       "id": "fr-0236",
-      "text": "Si cette variable avait été contrôlée, les résultats auraient différé.",
-      "ja": "その変数を統制していれば、結果は異なっていただろう。",
-      "level": "C2",
-      "tags": ["学術", "条件法過去", "大過去"],
+      "text": "J'ai essayé de t'appeler ce matin.",
+      "ja": "今朝あなたに電話しようとしました。",
+      "level": "A2",
+      "tags": ["電話", "複合過去"],
+      "grammar": "essayer de + 不定詞で「〜しようとする」。",
       "tokens": [
-        { "s": "Si", "skip": true },
-        { "s": "cette", "skip": true },
-        { "s": "variable", "lemma": "variable", "pos": "名詞", "ja": "変数" },
-        { "s": "avait été contrôlée", "lemma": "contrôler", "pos": "動詞", "ja": "統制する・点検する", "label": "受動態・大過去・女性単数" },
-        { "s": "les", "skip": true },
-        { "s": "résultats", "lemma": "résultat", "pos": "名詞", "ja": "結果" },
-        { "s": "auraient différé", "lemma": "différer", "pos": "動詞", "ja": "異なる・延期する", "label": "条件法過去・3人称複数" }
+        { "s": "J'", "skip": true },
+        { "s": "ai essayé", "lemma": "essayer", "pos": "動詞", "ja": "試す・試みる", "infl": "PC/1sg" },
+        { "s": "de t'", "skip": true },
+        { "s": "appeler", "lemma": "appeler", "pos": "動詞", "ja": "呼ぶ・電話する", "label": "不定詞" },
+        { "s": "ce matin", "lemma": "ce matin", "pos": "慣用表現", "ja": "今朝", "idiom": true }
       ]
     },
     {
       "id": "fr-0237",
-      "text": "Ce travail apporte des nuances que la littérature antérieure avait négligées.",
-      "ja": "この研究は、先行文献が見落としていた細部を補っている。",
-      "level": "C2",
-      "tags": ["学術", "大過去"],
-      "grammar": "先行する直接目的語（nuances）に過去分詞が性数一致して négligées になる。",
+      "text": "Je vous rappelle dans dix minutes.",
+      "ja": "10分後にかけ直します。",
+      "level": "A2",
+      "tags": ["電話", "直説法現在"],
+      "grammar": "dans + 期間で「〜後に」。en + 期間（〜かけて）と混同しないこと。",
       "tokens": [
-        { "s": "Ce", "skip": true },
-        { "s": "travail", "lemma": "travail", "pos": "名詞", "ja": "研究・仕事" },
-        { "s": "apporte", "lemma": "apporter", "pos": "動詞", "ja": "持ってくる・もたらす", "infl": "PRES/3sg" },
-        { "s": "des", "skip": true },
-        { "s": "nuances", "lemma": "nuance", "pos": "名詞", "ja": "ニュアンス・細部" },
-        { "s": "que", "skip": true },
-        { "s": "la littérature antérieure", "lemma": "littérature antérieure", "pos": "名詞句", "ja": "先行文献", "idiom": true },
-        { "s": "avait négligées", "lemma": "négliger", "pos": "動詞", "ja": "軽視する・怠る", "label": "大過去・3人称単数（直接目的語の先行で女性複数一致）" }
+        { "s": "Je", "skip": true },
+        { "s": "vous", "skip": true },
+        { "s": "rappelle", "lemma": "rappeler", "pos": "動詞", "ja": "かけ直す・思い出させる", "infl": "PRES/1sg" },
+        { "s": "dans dix minutes", "lemma": "dans dix minutes", "pos": "慣用表現", "ja": "10分後に", "idiom": true, "note": "dans + 期間で「〜後に」" }
       ]
     },
     {
       "id": "fr-0238",
-      "text": "Quelle que soit l'approche, l'échantillon conditionne les résultats.",
-      "ja": "どのようなアプローチであれ、標本が結果を左右する。",
-      "level": "C2",
-      "tags": ["学術", "接続法"],
-      "grammar": "quel que soit は「どのような〜であれ」。quel が後ろの名詞に性数一致する。",
+      "text": "Le matin, je bois toujours du café.",
+      "ja": "朝はいつもコーヒーを飲みます。",
+      "level": "A2",
+      "tags": ["時間", "直説法現在"],
       "tokens": [
-        { "s": "Quelle que soit", "lemma": "quel que soit", "pos": "慣用表現", "ja": "どのような〜であれ", "idiom": true, "note": "quel は後ろの名詞に性数一致する", "verb": { "s": "soit", "lemma": "être", "infl": "SUBJ/3sg" } },
-        { "s": "l'", "skip": true },
-        { "s": "approche", "lemma": "approche", "pos": "名詞", "ja": "アプローチ・接近" },
-        { "s": "l'", "skip": true },
-        { "s": "échantillon", "lemma": "échantillon", "pos": "名詞", "ja": "標本・サンプル" },
-        { "s": "conditionne", "lemma": "conditionner", "pos": "動詞", "ja": "左右する・条件づける", "label": "直説法現在・3人称単数" },
-        { "s": "les", "skip": true },
-        { "s": "résultats", "lemma": "résultat", "pos": "名詞", "ja": "結果" }
+        { "s": "Le matin", "lemma": "le matin", "pos": "慣用表現", "ja": "朝に", "idiom": true },
+        { "s": "je", "skip": true },
+        { "s": "bois", "lemma": "boire", "pos": "動詞", "ja": "飲む", "infl": "PRES/1sg" },
+        { "s": "toujours", "lemma": "toujours", "pos": "副詞", "ja": "いつも・ずっと" },
+        { "s": "du", "skip": true },
+        { "s": "café", "lemma": "café", "pos": "名詞", "ja": "コーヒー・カフェ" }
       ]
     },
     {
       "id": "fr-0239",
-      "text": "Nous remercions les relecteurs des commentaires formulés sur le manuscrit.",
-      "ja": "原稿に寄せられた査読者のコメントに感謝する。",
-      "level": "C1",
-      "tags": ["学術", "過去分詞"],
-      "grammar": "論文の謝辞の定型。remercier qqn de qqch で「〜について人に感謝する」。",
+      "text": "Je me couche tard le week-end.",
+      "ja": "週末は遅くに寝ます。",
+      "level": "A2",
+      "tags": ["時間", "直説法現在"],
       "tokens": [
-        { "s": "Nous", "skip": true },
-        { "s": "remercions", "lemma": "remercier", "pos": "動詞", "ja": "感謝する", "label": "直説法現在・1人称複数" },
-        { "s": "les", "skip": true },
-        { "s": "relecteurs", "lemma": "relecteur", "pos": "名詞", "ja": "査読者・校閲者" },
-        { "s": "des", "skip": true },
-        { "s": "commentaires", "lemma": "commentaire", "pos": "名詞", "ja": "コメント・注釈" },
-        { "s": "formulés", "lemma": "formuler", "pos": "動詞", "ja": "述べる・定式化する", "label": "過去分詞・男性複数" },
-        { "s": "sur le", "skip": true },
-        { "s": "manuscrit", "lemma": "manuscrit", "pos": "名詞", "ja": "原稿" }
+        { "s": "Je me", "skip": true },
+        { "s": "couche", "lemma": "coucher", "pos": "動詞", "ja": "寝かせる・（代名動詞で）寝る", "infl": "PRES/1sg" },
+        { "s": "tard", "lemma": "tard", "pos": "副詞", "ja": "遅く" },
+        { "s": "le week-end", "lemma": "le week-end", "pos": "慣用表現", "ja": "週末は", "idiom": true }
       ]
     },
     {
       "id": "fr-0240",
-      "text": "Il reste à déterminer dans quelle mesure l'effet est durable.",
-      "ja": "その効果がどこまで持続するかの解明は今後の課題である。",
-      "level": "C1",
-      "tags": ["学術", "直説法現在"],
-      "grammar": "il reste à + 不定詞は「〜することが残っている」。論文の結びで今後の課題を示す。",
+      "text": "Vous pouvez laisser un message.",
+      "ja": "伝言を残していただけます。",
+      "level": "A2",
+      "tags": ["電話", "直説法現在"],
       "tokens": [
-        { "s": "Il reste à", "lemma": "il reste à + 不定詞", "pos": "慣用表現", "ja": "〜することが今後の課題である", "idiom": true, "verb": { "s": "reste", "lemma": "rester", "infl": "PRES/3sg" } },
-        { "s": "déterminer", "lemma": "déterminer", "pos": "動詞", "ja": "決定する・特定する", "label": "不定詞" },
-        { "s": "dans quelle mesure", "lemma": "dans quelle mesure", "pos": "慣用表現", "ja": "どこまで・どの程度", "idiom": true },
-        { "s": "l'", "skip": true },
-        { "s": "effet", "lemma": "effet", "pos": "名詞", "ja": "効果・影響" },
+        { "s": "Vous", "skip": true },
+        { "s": "pouvez", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "PRES/2pl" },
+        { "s": "laisser", "lemma": "laisser", "pos": "動詞", "ja": "残す・〜させておく", "label": "不定詞" },
+        { "s": "un", "skip": true },
+        { "s": "message", "lemma": "message", "pos": "名詞", "ja": "伝言・メッセージ" }
+      ]
+    },
+    {
+      "id": "fr-0241",
+      "text": "Il est déjà tard, je rentre.",
+      "ja": "もう遅いので帰ります。",
+      "level": "A2",
+      "tags": ["時間", "直説法現在"],
+      "tokens": [
+        { "s": "Il", "skip": true },
         { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
-        { "s": "durable", "lemma": "durable", "pos": "形容詞", "ja": "持続的な・長続きする" }
+        { "s": "déjà", "lemma": "déjà", "pos": "副詞", "ja": "すでに・もう" },
+        { "s": "tard", "lemma": "tard", "pos": "副詞", "ja": "遅く" },
+        { "s": "je", "skip": true },
+        { "s": "rentre", "lemma": "rentrer", "pos": "動詞", "ja": "帰る・戻る", "infl": "PRES/1sg" }
+      ]
+    },
+    {
+      "id": "fr-0242",
+      "text": "Ça t'arrange si on décale d'une heure ?",
+      "ja": "1時間ずらしても大丈夫？",
+      "level": "A2",
+      "tags": ["予定", "疑問", "直説法現在"],
+      "grammar": "arranger qqn で「〜にとって都合がよい」。",
+      "tokens": [
+        { "s": "Ça", "skip": true },
+        { "s": "t'", "skip": true },
+        { "s": "arrange", "lemma": "arranger", "pos": "動詞", "ja": "整える・都合がよい", "infl": "PRES/3sg" },
+        { "s": "si on", "skip": true },
+        { "s": "décale", "lemma": "décaler", "pos": "動詞", "ja": "ずらす", "infl": "PRES/3sg" },
+        { "s": "d'une heure", "lemma": "d'une heure", "pos": "慣用表現", "ja": "1時間ぶん", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0243",
+      "text": "J'ai oublié notre rendez-vous, je suis vraiment désolé.",
+      "ja": "約束を忘れていました、本当にごめんなさい。",
+      "level": "B1",
+      "tags": ["予定", "複合過去", "謝罪"],
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "ai oublié", "lemma": "oublier", "pos": "動詞", "ja": "忘れる", "infl": "PC/1sg" },
+        { "s": "notre", "skip": true },
+        { "s": "rendez-vous", "lemma": "rendez-vous", "pos": "名詞", "ja": "約束・予約" },
+        { "s": "je", "skip": true },
+        { "s": "suis", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1sg" },
+        { "s": "vraiment", "lemma": "vraiment", "pos": "副詞", "ja": "本当に" },
+        { "s": "désolé", "lemma": "désolé", "pos": "形容詞", "ja": "申し訳なく思う" }
+      ]
+    },
+    {
+      "id": "fr-0244",
+      "text": "Il faut que je parte avant six heures.",
+      "ja": "6時前に出ないといけません。",
+      "level": "B1",
+      "tags": ["予定", "接続法", "義務"],
+      "grammar": "partir の接続法 1人称単数は parte。il faut que のあとは必ず接続法。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "faut", "lemma": "falloir", "pos": "動詞", "ja": "必要である", "infl": "PRES/3sg" },
+        { "s": "que je", "skip": true },
+        { "s": "parte", "lemma": "partir", "pos": "動詞", "ja": "出発する・去る", "infl": "SUBJ/1sg", "note": "il faut que のあとは接続法" },
+        { "s": "avant six heures", "lemma": "avant six heures", "pos": "慣用表現", "ja": "6時前に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0245",
+      "text": "Quand j'aurai fini, je t'enverrai un message.",
+      "ja": "終わったらメッセージを送ります。",
+      "level": "B1",
+      "tags": ["予定", "前未来", "単純未来"],
+      "grammar": "quand のあとが未来のことなら未来形にする。「終えてしまっていたら」は前未来。",
+      "tokens": [
+        { "s": "Quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "j'", "skip": true },
+        { "s": "aurai", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "FUT/1sg", "note": "前未来の助動詞" },
+        { "s": "fini", "lemma": "finir", "pos": "動詞", "ja": "終える・終わる", "infl": "PPASSE" },
+        { "s": "je t'", "skip": true },
+        { "s": "enverrai", "lemma": "envoyer", "pos": "動詞", "ja": "送る", "infl": "FUT/1sg" },
+        { "s": "un", "skip": true },
+        { "s": "message", "lemma": "message", "pos": "名詞", "ja": "伝言・メッセージ" }
+      ]
+    },
+    {
+      "id": "fr-0246",
+      "text": "Je n'ai pas eu le temps de te répondre.",
+      "ja": "返事をする時間がありませんでした。",
+      "level": "B1",
+      "tags": ["電話", "複合過去", "否定"],
+      "grammar": "avoir le temps de + 不定詞で「〜する時間がある」。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "n'", "skip": true },
+        { "s": "ai", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/1sg", "note": "複合過去の助動詞" },
+        { "s": "pas", "skip": true },
+        { "s": "eu", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PPASSE" },
+        { "s": "le temps de", "lemma": "avoir le temps de", "pos": "慣用表現", "ja": "〜する時間がある", "idiom": true },
+        { "s": "te", "skip": true },
+        { "s": "répondre", "lemma": "répondre", "pos": "動詞", "ja": "答える・返事する", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0247",
+      "text": "Ça fait une heure que je t'attends.",
+      "ja": "1時間も待ってるんだけど。",
+      "level": "B1",
+      "tags": ["時間", "直説法現在"],
+      "grammar": "ça fait + 期間 + que + 現在形。「〜してから…になる」で今も続いている。",
+      "tokens": [
+        { "s": "Ça fait", "lemma": "ça fait... que", "pos": "慣用表現", "ja": "〜してから…になる", "idiom": true, "verb": { "s": "fait", "lemma": "faire", "infl": "PRES/3sg" } },
+        { "s": "une heure", "lemma": "une heure", "pos": "名詞", "ja": "1時間" },
+        { "s": "que je t'", "skip": true },
+        { "s": "attends", "lemma": "attendre", "pos": "動詞", "ja": "待つ", "infl": "PRES/1sg", "note": "今も続いているので現在形" }
+      ]
+    },
+    {
+      "id": "fr-0248",
+      "text": "On s'était donné rendez-vous à midi.",
+      "ja": "正午に待ち合わせていたのですが。",
+      "level": "B1",
+      "tags": ["約束", "大過去"],
+      "grammar": "大過去は「過去のある時点より前」。代名動詞なので être を使う。",
+      "tokens": [
+        { "s": "On s'", "skip": true },
+        { "s": "était", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "IMPF/3sg", "note": "大過去の助動詞" },
+        { "s": "donné rendez-vous", "lemma": "se donner rendez-vous", "pos": "慣用表現", "ja": "待ち合わせる", "idiom": true, "verb": { "s": "donné", "lemma": "donner", "infl": "PPASSE" } },
+        { "s": "à midi", "lemma": "à midi", "pos": "慣用表現", "ja": "正午に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0249",
+      "text": "Si tu ne peux pas venir, préviens-moi.",
+      "ja": "来られないなら知らせて。",
+      "level": "B1",
+      "tags": ["予定", "条件", "命令法"],
+      "tokens": [
+        { "s": "Si tu", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "peux", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "PRES/2sg" },
+        { "s": "pas", "skip": true },
+        { "s": "venir", "lemma": "venir", "pos": "動詞", "ja": "来る", "label": "不定詞" },
+        { "s": "préviens", "lemma": "prévenir", "pos": "動詞", "ja": "知らせる・予防する", "infl": "IMPER/2sg" },
+        { "s": "moi", "skip": true }
+      ]
+    },
+    {
+      "id": "fr-0250",
+      "text": "J'étais en réunion quand tu as appelé.",
+      "ja": "電話をくれたとき会議中でした。",
+      "level": "B1",
+      "tags": ["電話", "半過去", "複合過去"],
+      "grammar": "続いていた状態は半過去、その最中に起きた出来事は複合過去。語りの基本の組み合わせ。",
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "étais", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "IMPF/1sg", "note": "続いていた状態は半過去" },
+        { "s": "en réunion", "lemma": "en réunion", "pos": "慣用表現", "ja": "会議中で", "idiom": true },
+        { "s": "quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "tu", "skip": true },
+        { "s": "as appelé", "lemma": "appeler", "pos": "動詞", "ja": "呼ぶ・電話する", "infl": "PC/2sg", "note": "起きた出来事は複合過去" }
+      ]
+    },
+    {
+      "id": "fr-0251",
+      "text": "Ça te dit de dîner ensemble vendredi ?",
+      "ja": "金曜に一緒に夕食どう？",
+      "level": "B1",
+      "tags": ["約束", "疑問", "口語"],
+      "grammar": "Ça te dit de + 不定詞で「〜する気ある？」。誘うときの口語表現。",
+      "tokens": [
+        { "s": "Ça te dit de", "lemma": "ça te dit de", "pos": "慣用表現", "ja": "〜する気ある？", "idiom": true, "verb": { "s": "dit", "lemma": "dire", "infl": "PRES/3sg" } },
+        { "s": "dîner", "lemma": "dîner", "pos": "動詞", "ja": "夕食をとる", "label": "不定詞" },
+        { "s": "ensemble", "lemma": "ensemble", "pos": "副詞", "ja": "一緒に" },
+        { "s": "vendredi", "lemma": "vendredi", "pos": "名詞", "ja": "金曜日" }
+      ]
+    },
+    {
+      "id": "fr-0252",
+      "text": "Je suis pris toute la journée demain.",
+      "ja": "明日は一日中ふさがっています。",
+      "level": "B1",
+      "tags": ["予定", "直説法現在"],
+      "grammar": "être pris で「予定がふさがっている」。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "suis", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1sg" },
+        { "s": "pris", "lemma": "prendre", "pos": "動詞", "ja": "取る・（受動で）ふさがっている", "infl": "PPASSE" },
+        { "s": "toute la journée", "lemma": "toute la journée", "pos": "慣用表現", "ja": "一日中", "idiom": true },
+        { "s": "demain", "lemma": "demain", "pos": "副詞", "ja": "明日" }
+      ]
+    },
+    {
+      "id": "fr-0253",
+      "text": "Je te préviendrai dès que je saurai.",
+      "ja": "分かり次第知らせます。",
+      "level": "B1",
+      "tags": ["予定", "単純未来"],
+      "grammar": "dès que のあとも未来形。savoir の未来は saurai と不規則。",
+      "tokens": [
+        { "s": "Je te", "skip": true },
+        { "s": "préviendrai", "lemma": "prévenir", "pos": "動詞", "ja": "知らせる・予防する", "infl": "FUT/1sg" },
+        { "s": "dès que", "lemma": "dès que", "pos": "接続詞", "ja": "〜するとすぐに", "idiom": true, "note": "後ろは未来形にする" },
+        { "s": "je", "skip": true },
+        { "s": "saurai", "lemma": "savoir", "pos": "動詞", "ja": "知る・知っている", "infl": "FUT/1sg" }
+      ]
+    },
+    {
+      "id": "fr-0254",
+      "text": "On avait dit dix heures, non ?",
+      "ja": "10時って言ってたよね？",
+      "level": "B1",
+      "tags": ["約束", "大過去"],
+      "tokens": [
+        { "s": "On", "skip": true },
+        { "s": "avait dit", "lemma": "dire", "pos": "動詞", "ja": "言う", "infl": "PQP/3sg" },
+        { "s": "dix heures", "lemma": "dix heures", "pos": "名詞", "ja": "10時" },
+        { "s": "non", "lemma": "non", "pos": "副詞", "ja": "〜だよね（確認）" }
+      ]
+    },
+    {
+      "id": "fr-0255",
+      "text": "Je passerai te chercher vers huit heures.",
+      "ja": "8時ごろ迎えに行きます。",
+      "level": "B1",
+      "tags": ["約束", "単純未来"],
+      "grammar": "passer chercher qqn で「迎えに行く」。vers + 時刻で「〜ごろ」。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "passerai", "lemma": "passer", "pos": "動詞", "ja": "通る・立ち寄る", "infl": "FUT/1sg" },
+        { "s": "te", "skip": true },
+        { "s": "chercher", "lemma": "chercher", "pos": "動詞", "ja": "探す・迎えに行く", "label": "不定詞", "note": "passer chercher で「迎えに行く」" },
+        { "s": "vers huit heures", "lemma": "vers huit heures", "pos": "慣用表現", "ja": "8時ごろ", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0256",
+      "text": "Le temps passe vite quand on s'amuse.",
+      "ja": "楽しいときは時間が経つのが早い。",
+      "level": "B1",
+      "tags": ["時間", "直説法現在"],
+      "tokens": [
+        { "s": "Le temps", "lemma": "le temps", "pos": "名詞", "ja": "時間" },
+        { "s": "passe", "lemma": "passer", "pos": "動詞", "ja": "通る・（時が）経つ", "infl": "PRES/3sg" },
+        { "s": "vite", "lemma": "vite", "pos": "副詞", "ja": "速く" },
+        { "s": "quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "on s'", "skip": true },
+        { "s": "amuse", "lemma": "amuser", "pos": "動詞", "ja": "楽しませる・（代名動詞で）楽しむ", "infl": "PRES/3sg" }
+      ]
+    },
+    {
+      "id": "fr-0257",
+      "text": "Excusez-moi de vous rappeler si tard.",
+      "ja": "こんな遅くにかけ直してすみません。",
+      "level": "B1",
+      "tags": ["電話", "命令法", "謝罪"],
+      "tokens": [
+        { "s": "Excusez", "lemma": "excuser", "pos": "動詞", "ja": "許す・（代名動詞で）詫びる", "infl": "IMPER/2pl" },
+        { "s": "moi de vous", "skip": true },
+        { "s": "rappeler", "lemma": "rappeler", "pos": "動詞", "ja": "かけ直す・思い出させる", "label": "不定詞" },
+        { "s": "si tard", "lemma": "si tard", "pos": "慣用表現", "ja": "こんなに遅くに", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0258",
+      "text": "Nous nous verrons lundi comme prévu.",
+      "ja": "予定どおり月曜に会いましょう。",
+      "level": "B1",
+      "tags": ["約束", "単純未来"],
+      "tokens": [
+        { "s": "Nous nous", "skip": true },
+        { "s": "verrons", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "infl": "FUT/1pl" },
+        { "s": "lundi", "lemma": "lundi", "pos": "名詞", "ja": "月曜日" },
+        { "s": "comme prévu", "lemma": "comme prévu", "pos": "慣用表現", "ja": "予定どおり", "idiom": true, "verb": { "s": "prévu", "lemma": "prévoir", "infl": "PPASSE" } }
+      ]
+    },
+    {
+      "id": "fr-0259",
+      "text": "J'aimerais qu'on se voie plus souvent.",
+      "ja": "もっと頻繁に会えたらいいのに。",
+      "level": "B1",
+      "tags": ["約束", "接続法", "条件法現在"],
+      "grammar": "aimer que のあとは接続法。願望を表すため。",
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "aimerais", "lemma": "aimer", "pos": "動詞", "ja": "好む・愛する", "infl": "COND/1sg" },
+        { "s": "qu'on se", "skip": true },
+        { "s": "voie", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "infl": "SUBJ/3sg", "note": "aimer que のあとは接続法" },
+        { "s": "plus souvent", "lemma": "plus souvent", "pos": "慣用表現", "ja": "もっと頻繁に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0260",
+      "text": "Ce n'est pas le bon numéro.",
+      "ja": "番号が違います。",
+      "level": "B1",
+      "tags": ["電話", "否定", "直説法現在"],
+      "grammar": "bon は名詞の前に置く形容詞。le bon numéro で「正しい番号」。",
+      "tokens": [
+        { "s": "Ce", "skip": true },
+        { "s": "n'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "pas le", "skip": true },
+        { "s": "bon", "lemma": "bon", "pos": "形容詞", "ja": "よい・正しい" },
+        { "s": "numéro", "lemma": "numéro", "pos": "名詞", "ja": "番号" }
       ]
     }
   ]
