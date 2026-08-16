@@ -147,3 +147,52 @@ test("人称マークが折り返して単語に重ならない", async ({ page 
   }
   expect(seen, "30 枚めくっても人称マークが1つも出なかった").toBeGreaterThan(0);
 });
+
+/**
+ * フレーズ本文の語と、その語の説明カードは相互に飛べる。
+ * 語をタップすると説明へ、説明をタップすると語へスクロールする。
+ */
+test("単語をタップすると説明へ、説明をタップすると単語へ飛ぶ", async ({ page }) => {
+  await startStudy(page, "es");
+
+  // まだ意味が出ていない段階で語をタップする。意味が開いて、その語の説明まで飛ぶ。
+  const word = page.locator("main p[lang] button").first();
+  const id = await word.getAttribute("id");
+  expect(id).toMatch(/^word-\d+$/);
+  const index = id!.split("-")[1];
+
+  await word.click();
+  await expect(page.getByTestId("meaning")).toHaveAttribute("data-visible", "true");
+
+  const gloss = page.locator(`#gloss-${index}`);
+  await expect(gloss).toBeInViewport();
+
+  // 逆向き。説明カードをタップするとフレーズ本文の該当語まで戻る。
+  await page.mouse.wheel(0, 600);
+  await gloss.click();
+  await expect(page.locator(`#word-${index}`)).toBeInViewport();
+});
+
+/**
+ * 再生ボタンは停止＋頭出しではなく、その場で一時停止して続きから再開する。
+ * 押しても読み上げ位置（phase）が巻き戻らないことで確かめる。
+ */
+test("再生ボタンが一時停止と再開になる", async ({ page }) => {
+  await startStudy(page, "es");
+
+  const button = page.getByRole("button", { name: "一時停止" });
+  await expect(button).toBeVisible();
+
+  await button.click();
+  await expect(page.getByRole("button", { name: "再開" })).toBeVisible();
+
+  // 一時停止しているあいだはシーケンスが進まない。
+  const meaning = page.getByTestId("meaning");
+  await expect(meaning).toHaveAttribute("data-visible", "false");
+  await page.waitForTimeout(1500);
+  await expect(meaning).toHaveAttribute("data-visible", "false");
+
+  // 再開すると続きが流れ、意味の段階まで進む。
+  await page.getByRole("button", { name: "再開" }).click();
+  await expect(meaning).toHaveAttribute("data-visible", "true", { timeout: 20_000 });
+});

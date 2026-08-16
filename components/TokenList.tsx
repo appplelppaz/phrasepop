@@ -39,8 +39,11 @@ export function TokenList({
             <button
               type="button"
               onClick={() => onSelect(active ? null : index)}
+              // フレーズ本文から飛んでくるときの着地点。PhraseCard 側の word-<i> と対になる。
+              // ヘッダーに隠れないよう少し上に余白を取る。
+              id={`gloss-${index}`}
               className={[
-                "w-full rounded-2xl border p-4 text-left transition-colors",
+                "w-full scroll-mt-20 rounded-2xl border p-4 text-left transition-colors",
                 active
                   ? "border-amber-400 bg-amber-50 dark:border-amber-400/60 dark:bg-amber-400/10"
                   : "border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900",
