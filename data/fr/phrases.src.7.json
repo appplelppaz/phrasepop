@@ -1,0 +1,593 @@
+{
+  "_comment": "バッチ7: 体調・トラブル・依頼・許可。初心者向けの日常会話。A1〜B1、直説法現在・複合過去・条件法の丁寧表現が主役。",
+  "lang": "fr",
+  "phrases": [
+    {
+      "id": "fr-0261",
+      "text": "Je ne me sens pas bien.",
+      "ja": "気分がよくありません。",
+      "level": "A1",
+      "tags": ["体調", "否定", "直説法現在"],
+      "grammar": "se sentir + 形容詞で「〜な気分だ」。代名動詞なので me が入る。",
+      "tokens": [
+        { "s": "Je ne me", "skip": true },
+        { "s": "sens", "lemma": "sentir", "pos": "動詞", "ja": "感じる・（代名動詞で）〜な気分だ", "infl": "PRES/1sg" },
+        { "s": "pas", "skip": true },
+        { "s": "bien", "lemma": "bien", "pos": "副詞", "ja": "よく・元気に" }
+      ]
+    },
+    {
+      "id": "fr-0262",
+      "text": "J'ai mal au ventre.",
+      "ja": "お腹が痛いです。",
+      "level": "A1",
+      "tags": ["体調", "直説法現在"],
+      "grammar": "avoir mal à + 体の部分。au は à + le の縮約。",
+      "tokens": [
+        { "s": "J'ai mal", "lemma": "avoir mal à", "pos": "慣用表現", "ja": "〜が痛い", "idiom": true, "verb": { "s": "ai", "lemma": "avoir", "infl": "PRES/1sg" } },
+        { "s": "au", "skip": true },
+        { "s": "ventre", "lemma": "ventre", "pos": "名詞", "ja": "お腹・腹部" }
+      ]
+    },
+    {
+      "id": "fr-0263",
+      "text": "J'ai de la fièvre depuis hier.",
+      "ja": "昨日から熱があります。",
+      "level": "A1",
+      "tags": ["体調", "直説法現在"],
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "ai", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/1sg" },
+        { "s": "de la", "skip": true },
+        { "s": "fièvre", "lemma": "fièvre", "pos": "名詞", "ja": "熱" },
+        { "s": "depuis", "lemma": "depuis", "pos": "前置詞", "ja": "〜以来・〜から" },
+        { "s": "hier", "lemma": "hier", "pos": "副詞", "ja": "昨日" }
+      ]
+    },
+    {
+      "id": "fr-0264",
+      "text": "Appelez un médecin, s'il vous plaît.",
+      "ja": "医者を呼んでください。",
+      "level": "A1",
+      "tags": ["体調", "命令法"],
+      "tokens": [
+        { "s": "Appelez", "lemma": "appeler", "pos": "動詞", "ja": "呼ぶ・電話する", "infl": "IMPER/2pl" },
+        { "s": "un", "skip": true },
+        { "s": "médecin", "lemma": "médecin", "pos": "名詞", "ja": "医者" },
+        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします", "idiom": true, "verb": { "s": "plaît", "lemma": "plaire", "infl": "PRES/3sg" } }
+      ]
+    },
+    {
+      "id": "fr-0265",
+      "text": "Est-ce que je peux ouvrir la fenêtre ?",
+      "ja": "窓を開けてもいいですか。",
+      "level": "A1",
+      "tags": ["許可", "疑問", "直説法現在"],
+      "grammar": "許可を求めるのは pouvoir。Je peux...? が一番やさしい形。",
+      "tokens": [
+        { "s": "Est-ce que", "lemma": "est-ce que", "pos": "疑問詞", "ja": "〜ですか", "idiom": true },
+        { "s": "je", "skip": true },
+        { "s": "peux", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる・〜してもよい", "infl": "PRES/1sg" },
+        { "s": "ouvrir", "lemma": "ouvrir", "pos": "動詞", "ja": "開ける・開く", "label": "不定詞" },
+        { "s": "la", "skip": true },
+        { "s": "fenêtre", "lemma": "fenêtre", "pos": "名詞", "ja": "窓" }
+      ]
+    },
+    {
+      "id": "fr-0266",
+      "text": "Aidez-moi, s'il vous plaît !",
+      "ja": "助けてください！",
+      "level": "A1",
+      "tags": ["トラブル", "命令法"],
+      "tokens": [
+        { "s": "Aidez", "lemma": "aider", "pos": "動詞", "ja": "助ける・手伝う", "infl": "IMPER/2pl" },
+        { "s": "moi", "skip": true },
+        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします", "idiom": true, "verb": { "s": "plaît", "lemma": "plaire", "infl": "PRES/3sg" } }
+      ]
+    },
+    {
+      "id": "fr-0267",
+      "text": "J'ai perdu mon passeport.",
+      "ja": "パスポートをなくしました。",
+      "level": "A1",
+      "tags": ["トラブル", "複合過去"],
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "ai perdu", "lemma": "perdre", "pos": "動詞", "ja": "失う・なくす", "infl": "PC/1sg" },
+        { "s": "mon", "skip": true },
+        { "s": "passeport", "lemma": "passeport", "pos": "名詞", "ja": "パスポート" }
+      ]
+    },
+    {
+      "id": "fr-0268",
+      "text": "Je suis très fatigué aujourd'hui.",
+      "ja": "今日はとても疲れています。",
+      "level": "A1",
+      "tags": ["体調", "直説法現在"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "suis", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1sg" },
+        { "s": "très", "lemma": "très", "pos": "副詞", "ja": "とても" },
+        { "s": "fatigué", "lemma": "fatigué", "pos": "形容詞", "ja": "疲れた" },
+        { "s": "aujourd'hui", "lemma": "aujourd'hui", "pos": "副詞", "ja": "今日" }
+      ]
+    },
+    {
+      "id": "fr-0269",
+      "text": "Tu peux m'aider un peu ?",
+      "ja": "ちょっと手伝ってくれる？",
+      "level": "A1",
+      "tags": ["依頼", "疑問", "直説法現在"],
+      "tokens": [
+        { "s": "Tu", "skip": true },
+        { "s": "peux", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "PRES/2sg" },
+        { "s": "m'", "skip": true },
+        { "s": "aider", "lemma": "aider", "pos": "動詞", "ja": "助ける・手伝う", "label": "不定詞" },
+        { "s": "un peu", "lemma": "un peu", "pos": "慣用表現", "ja": "少し", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0270",
+      "text": "Où est la pharmacie la plus proche ?",
+      "ja": "一番近い薬局はどこですか。",
+      "level": "A1",
+      "tags": ["体調", "疑問", "直説法現在"],
+      "grammar": "le plus / la plus + 形容詞で最上級。名詞のあとに置くときは冠詞を繰り返す。",
+      "tokens": [
+        { "s": "Où", "lemma": "où", "pos": "疑問詞", "ja": "どこに" },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "la", "skip": true },
+        { "s": "pharmacie", "lemma": "pharmacie", "pos": "名詞", "ja": "薬局" },
+        { "s": "la plus proche", "lemma": "la plus proche", "pos": "慣用表現", "ja": "一番近い", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0271",
+      "text": "Je tousse depuis une semaine.",
+      "ja": "1週間前から咳が出ます。",
+      "level": "A2",
+      "tags": ["体調", "直説法現在"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "tousse", "lemma": "tousser", "pos": "動詞", "ja": "咳をする", "infl": "PRES/1sg" },
+        { "s": "depuis", "lemma": "depuis", "pos": "前置詞", "ja": "〜以来・〜から" },
+        { "s": "une semaine", "lemma": "une semaine", "pos": "名詞", "ja": "1週間" }
+      ]
+    },
+    {
+      "id": "fr-0272",
+      "text": "Je me suis fait mal au genou.",
+      "ja": "膝を痛めてしまいました。",
+      "level": "A2",
+      "tags": ["体調", "複合過去"],
+      "grammar": "se faire mal à で「〜を痛める」。代名動詞なので être を使う。",
+      "tokens": [
+        { "s": "Je me", "skip": true },
+        { "s": "suis", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1sg", "note": "代名動詞の複合過去は être" },
+        { "s": "fait mal", "lemma": "se faire mal à", "pos": "慣用表現", "ja": "〜を痛める", "idiom": true, "verb": { "s": "fait", "lemma": "faire", "infl": "PPASSE" } },
+        { "s": "au", "skip": true },
+        { "s": "genou", "lemma": "genou", "pos": "名詞", "ja": "膝" }
+      ]
+    },
+    {
+      "id": "fr-0273",
+      "text": "Il faut prendre ce médicament trois fois par jour.",
+      "ja": "この薬は1日3回飲んでください。",
+      "level": "A2",
+      "tags": ["体調", "直説法現在"],
+      "grammar": "薬は「飲む」でも prendre を使う。boire は使わない。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "faut", "lemma": "falloir", "pos": "動詞", "ja": "必要である", "infl": "PRES/3sg" },
+        { "s": "prendre", "lemma": "prendre", "pos": "動詞", "ja": "取る・（薬を）飲む", "label": "不定詞", "note": "薬は boire ではなく prendre" },
+        { "s": "ce", "skip": true },
+        { "s": "médicament", "lemma": "médicament", "pos": "名詞", "ja": "薬" },
+        { "s": "trois fois par jour", "lemma": "trois fois par jour", "pos": "慣用表現", "ja": "1日3回", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0274",
+      "text": "On m'a volé mon portefeuille.",
+      "ja": "財布を盗まれました。",
+      "level": "A2",
+      "tags": ["トラブル", "複合過去"],
+      "grammar": "on を主語にすると受け身のように言える。「盗まれた」は普通この形。",
+      "tokens": [
+        { "s": "On", "skip": true },
+        { "s": "m'", "skip": true },
+        { "s": "a volé", "lemma": "voler", "pos": "動詞", "ja": "盗む・飛ぶ", "infl": "PC/3sg", "note": "on を主語にすると受け身の代わりになる" },
+        { "s": "mon", "skip": true },
+        { "s": "portefeuille", "lemma": "portefeuille", "pos": "名詞", "ja": "財布" }
+      ]
+    },
+    {
+      "id": "fr-0275",
+      "text": "Ma valise n'est pas arrivée.",
+      "ja": "スーツケースが届いていません。",
+      "level": "A2",
+      "tags": ["トラブル", "複合過去", "否定"],
+      "grammar": "arriver は être で複合過去を作る。主語が女性なので arrivée と一致する。",
+      "tokens": [
+        { "s": "Ma", "skip": true },
+        { "s": "valise", "lemma": "valise", "pos": "名詞", "ja": "スーツケース" },
+        { "s": "n'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg", "note": "移動の動詞は être で複合過去を作る" },
+        { "s": "pas", "skip": true },
+        { "s": "arrivée", "lemma": "arriver", "pos": "動詞", "ja": "着く・到着する", "label": "過去分詞・女性単数" }
+      ]
+    },
+    {
+      "id": "fr-0276",
+      "text": "Ça ne marche pas, je crois.",
+      "ja": "動かないみたいです。",
+      "level": "A2",
+      "tags": ["トラブル", "否定", "直説法現在"],
+      "grammar": "marcher は「歩く」だけでなく「（機械が）動く」の意味でよく使う。",
+      "tokens": [
+        { "s": "Ça", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "marche", "lemma": "marcher", "pos": "動詞", "ja": "歩く・（機械が）動く", "infl": "PRES/3sg", "note": "機械の作動にも使う" },
+        { "s": "pas", "skip": true },
+        { "s": "je", "skip": true },
+        { "s": "crois", "lemma": "croire", "pos": "動詞", "ja": "信じる・思う", "infl": "PRES/1sg" }
+      ]
+    },
+    {
+      "id": "fr-0277",
+      "text": "Vous permettez que j'ouvre la porte ?",
+      "ja": "ドアを開けてもよろしいですか。",
+      "level": "A2",
+      "tags": ["許可", "疑問", "接続法"],
+      "grammar": "permettre que のあとは接続法。丁寧に許可を求める形。",
+      "tokens": [
+        { "s": "Vous", "skip": true },
+        { "s": "permettez", "lemma": "permettre", "pos": "動詞", "ja": "許す・可能にする", "infl": "PRES/2pl" },
+        { "s": "que j'", "skip": true },
+        { "s": "ouvre", "lemma": "ouvrir", "pos": "動詞", "ja": "開ける・開く", "infl": "SUBJ/1sg", "note": "permettre que のあとは接続法" },
+        { "s": "la", "skip": true },
+        { "s": "porte", "lemma": "porte", "pos": "名詞", "ja": "ドア・扉" }
+      ]
+    },
+    {
+      "id": "fr-0278",
+      "text": "Je dois aller à l'hôpital.",
+      "ja": "病院に行かなければなりません。",
+      "level": "A2",
+      "tags": ["体調", "直説法現在"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "dois", "lemma": "devoir", "pos": "動詞", "ja": "〜しなければならない", "infl": "PRES/1sg" },
+        { "s": "aller", "lemma": "aller", "pos": "動詞", "ja": "行く", "label": "不定詞" },
+        { "s": "à l'", "skip": true },
+        { "s": "hôpital", "lemma": "hôpital", "pos": "名詞", "ja": "病院" }
+      ]
+    },
+    {
+      "id": "fr-0279",
+      "text": "Reposez-vous bien ce week-end.",
+      "ja": "今週末はゆっくり休んでください。",
+      "level": "A2",
+      "tags": ["体調", "命令法"],
+      "grammar": "代名動詞の命令法。vous が動詞の後ろに来る。",
+      "tokens": [
+        { "s": "Reposez", "lemma": "reposer", "pos": "動詞", "ja": "休ませる・（代名動詞で）休む", "infl": "IMPER/2pl" },
+        { "s": "vous", "skip": true },
+        { "s": "bien", "lemma": "bien", "pos": "副詞", "ja": "よく・しっかり" },
+        { "s": "ce week-end", "lemma": "ce week-end", "pos": "慣用表現", "ja": "今週末", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0280",
+      "text": "Est-ce qu'on peut fumer ici ?",
+      "ja": "ここでタバコを吸ってもいいですか。",
+      "level": "A2",
+      "tags": ["許可", "疑問", "直説法現在"],
+      "tokens": [
+        { "s": "Est-ce qu'", "lemma": "est-ce que", "pos": "疑問詞", "ja": "〜ですか", "idiom": true },
+        { "s": "on", "skip": true },
+        { "s": "peut", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる・〜してもよい", "infl": "PRES/3sg" },
+        { "s": "fumer", "lemma": "fumer", "pos": "動詞", "ja": "タバコを吸う", "label": "不定詞" },
+        { "s": "ici", "lemma": "ici", "pos": "副詞", "ja": "ここで" }
+      ]
+    },
+    {
+      "id": "fr-0281",
+      "text": "Je n'ai pas dormi de la nuit.",
+      "ja": "一睡もできませんでした。",
+      "level": "A2",
+      "tags": ["体調", "複合過去", "否定"],
+      "grammar": "de la nuit で「一晩中（〜ない）」。否定と組んで強調になる。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "n'", "skip": true },
+        { "s": "ai", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/1sg", "note": "複合過去の助動詞" },
+        { "s": "pas", "skip": true },
+        { "s": "dormi", "lemma": "dormir", "pos": "動詞", "ja": "眠る", "infl": "PPASSE" },
+        { "s": "de la nuit", "lemma": "de la nuit", "pos": "慣用表現", "ja": "一晩中（〜ない）", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0282",
+      "text": "Ça fait mal quand j'appuie ici.",
+      "ja": "ここを押すと痛いです。",
+      "level": "A2",
+      "tags": ["体調", "直説法現在"],
+      "tokens": [
+        { "s": "Ça fait mal", "lemma": "faire mal", "pos": "慣用表現", "ja": "痛い・痛む", "idiom": true, "verb": { "s": "fait", "lemma": "faire", "infl": "PRES/3sg" } },
+        { "s": "quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "j'", "skip": true },
+        { "s": "appuie", "lemma": "appuyer", "pos": "動詞", "ja": "押す・支える", "infl": "PRES/1sg" },
+        { "s": "ici", "lemma": "ici", "pos": "副詞", "ja": "ここを" }
+      ]
+    },
+    {
+      "id": "fr-0283",
+      "text": "Pourriez-vous m'indiquer le commissariat ?",
+      "ja": "警察署の場所を教えていただけますか。",
+      "level": "B1",
+      "tags": ["トラブル", "条件法現在", "丁寧"],
+      "tokens": [
+        { "s": "Pourriez", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "COND/2pl", "note": "条件法にすると丁寧になる" },
+        { "s": "vous m'", "skip": true },
+        { "s": "indiquer", "lemma": "indiquer", "pos": "動詞", "ja": "示す・教える", "label": "不定詞" },
+        { "s": "le", "skip": true },
+        { "s": "commissariat", "lemma": "commissariat", "pos": "名詞", "ja": "警察署" }
+      ]
+    },
+    {
+      "id": "fr-0284",
+      "text": "Ça vous dérange si je m'assois ici ?",
+      "ja": "ここに座ってもかまいませんか。",
+      "level": "B1",
+      "tags": ["許可", "疑問", "直説法現在"],
+      "grammar": "Ça vous dérange si + 直説法。丁寧に許可を求める口語の定型。",
+      "tokens": [
+        { "s": "Ça", "skip": true },
+        { "s": "vous", "skip": true },
+        { "s": "dérange", "lemma": "déranger", "pos": "動詞", "ja": "邪魔する・迷惑をかける", "infl": "PRES/3sg" },
+        { "s": "si", "skip": true },
+        { "s": "je m'", "skip": true },
+        { "s": "assois", "lemma": "asseoir", "pos": "動詞", "ja": "座らせる・（代名動詞で）座る", "label": "直説法現在・1人称単数" },
+        { "s": "ici", "lemma": "ici", "pos": "副詞", "ja": "ここに" }
+      ]
+    },
+    {
+      "id": "fr-0285",
+      "text": "Je voudrais prendre rendez-vous avec le docteur.",
+      "ja": "先生の予約を取りたいのですが。",
+      "level": "B1",
+      "tags": ["体調", "条件法現在"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "voudrais", "lemma": "vouloir", "pos": "動詞", "ja": "欲する・〜したい", "infl": "COND/1sg" },
+        { "s": "prendre rendez-vous", "lemma": "prendre rendez-vous", "pos": "慣用表現", "ja": "予約を取る", "idiom": true, "note": "prendre は不定詞。voudrais に続く" },
+        { "s": "avec le", "skip": true },
+        { "s": "docteur", "lemma": "docteur", "pos": "名詞", "ja": "医師・博士" }
+      ]
+    },
+    {
+      "id": "fr-0286",
+      "text": "Il vaut mieux que tu voies un médecin.",
+      "ja": "医者に診てもらったほうがいいよ。",
+      "level": "B1",
+      "tags": ["体調", "接続法", "助言"],
+      "grammar": "il vaut mieux que のあとは接続法。voir の接続法 2人称単数は voies。",
+      "tokens": [
+        { "s": "Il vaut mieux", "lemma": "il vaut mieux", "pos": "慣用表現", "ja": "〜したほうがよい", "idiom": true, "verb": { "s": "vaut", "lemma": "valoir", "infl": "PRES/3sg" } },
+        { "s": "que tu", "skip": true },
+        { "s": "voies", "lemma": "voir", "pos": "動詞", "ja": "見る・（医者に）診てもらう", "infl": "SUBJ/2sg", "note": "il vaut mieux que のあとは接続法" },
+        { "s": "un", "skip": true },
+        { "s": "médecin", "lemma": "médecin", "pos": "名詞", "ja": "医者" }
+      ]
+    },
+    {
+      "id": "fr-0287",
+      "text": "Si j'avais su, je serais resté à la maison.",
+      "ja": "知っていたら家にいたのに。",
+      "level": "B1",
+      "tags": ["体調", "大過去", "条件法"],
+      "grammar": "si + 大過去 → 条件法過去。rester は être を使うので serais resté。",
+      "tokens": [
+        { "s": "Si j'", "skip": true },
+        { "s": "avais su", "lemma": "savoir", "pos": "動詞", "ja": "知る・知っている", "infl": "PQP/1sg" },
+        { "s": "je", "skip": true },
+        { "s": "serais", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "COND/1sg", "note": "条件法過去の助動詞" },
+        { "s": "resté", "lemma": "rester", "pos": "動詞", "ja": "とどまる・残る", "infl": "PPASSE" },
+        { "s": "à la maison", "lemma": "à la maison", "pos": "慣用表現", "ja": "家に・自宅で", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0288",
+      "text": "Je me suis trompé de chemin.",
+      "ja": "道を間違えました。",
+      "level": "B1",
+      "tags": ["トラブル", "複合過去"],
+      "grammar": "se tromper de + 無冠詞名詞で「〜を間違える」。",
+      "tokens": [
+        { "s": "Je me", "skip": true },
+        { "s": "suis", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1sg", "note": "代名動詞の複合過去は être" },
+        { "s": "trompé de", "lemma": "se tromper de", "pos": "慣用表現", "ja": "〜を間違える", "idiom": true, "verb": { "s": "trompé", "lemma": "tromper", "infl": "PPASSE" } },
+        { "s": "chemin", "lemma": "chemin", "pos": "名詞", "ja": "道・道のり" }
+      ]
+    },
+    {
+      "id": "fr-0289",
+      "text": "Ça m'ennuierait de vous déranger.",
+      "ja": "ご迷惑をおかけするのは心苦しいのですが。",
+      "level": "B1",
+      "tags": ["依頼", "条件法現在", "丁寧"],
+      "tokens": [
+        { "s": "Ça", "skip": true },
+        { "s": "m'", "skip": true },
+        { "s": "ennuierait", "lemma": "ennuyer", "pos": "動詞", "ja": "困らせる・退屈させる", "infl": "COND/3sg" },
+        { "s": "de vous", "skip": true },
+        { "s": "déranger", "lemma": "déranger", "pos": "動詞", "ja": "邪魔する・迷惑をかける", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0290",
+      "text": "Est-ce que vous auriez un pansement ?",
+      "ja": "絆創膏をお持ちではないでしょうか。",
+      "level": "B1",
+      "tags": ["依頼", "条件法現在", "丁寧"],
+      "grammar": "avoir を条件法にすると「ひょっとして〜をお持ちですか」と控えめになる。",
+      "tokens": [
+        { "s": "Est-ce que", "lemma": "est-ce que", "pos": "疑問詞", "ja": "〜ですか", "idiom": true },
+        { "s": "vous", "skip": true },
+        { "s": "auriez", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "COND/2pl", "note": "条件法にすると控えめな問いになる" },
+        { "s": "un", "skip": true },
+        { "s": "pansement", "lemma": "pansement", "pos": "名詞", "ja": "絆創膏・包帯" }
+      ]
+    },
+    {
+      "id": "fr-0291",
+      "text": "Je ne savais pas que c'était interdit.",
+      "ja": "禁止されているとは知りませんでした。",
+      "level": "B1",
+      "tags": ["トラブル", "半過去", "否定"],
+      "grammar": "主節が過去なら従属節も過去にずらす。時制の一致。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "savais", "lemma": "savoir", "pos": "動詞", "ja": "知る・知っている", "infl": "IMPF/1sg" },
+        { "s": "pas que c'", "skip": true },
+        { "s": "était", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "IMPF/3sg", "note": "時制の一致で半過去になる" },
+        { "s": "interdit", "lemma": "interdit", "pos": "形容詞", "ja": "禁止された" }
+      ]
+    },
+    {
+      "id": "fr-0292",
+      "text": "Ça m'est arrivé plusieurs fois.",
+      "ja": "何度もありました。",
+      "level": "B1",
+      "tags": ["トラブル", "複合過去"],
+      "grammar": "arriver à qqn で「〜の身に起こる」。être で複合過去を作る。",
+      "tokens": [
+        { "s": "Ça", "skip": true },
+        { "s": "m'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg", "note": "arriver は être で複合過去を作る" },
+        { "s": "arrivé", "lemma": "arriver", "pos": "動詞", "ja": "着く・（事が）起こる", "infl": "PPASSE" },
+        { "s": "plusieurs fois", "lemma": "plusieurs fois", "pos": "慣用表現", "ja": "何度も", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0293",
+      "text": "Merci de m'avoir prévenu si vite.",
+      "ja": "こんなに早く知らせてくれてありがとう。",
+      "level": "B1",
+      "tags": ["感謝", "依頼"],
+      "grammar": "merci de + 完了不定詞で「〜してくれてありがとう」。",
+      "tokens": [
+        { "s": "Merci de", "lemma": "merci de", "pos": "慣用表現", "ja": "〜してくれてありがとう", "idiom": true },
+        { "s": "m'avoir", "skip": true },
+        { "s": "prévenu", "lemma": "prévenir", "pos": "動詞", "ja": "知らせる・予防する", "infl": "PPASSE" },
+        { "s": "si vite", "lemma": "si vite", "pos": "慣用表現", "ja": "こんなに早く", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0294",
+      "text": "Ne t'inquiète pas, ce n'est rien de grave.",
+      "ja": "心配しないで、大したことないよ。",
+      "level": "B1",
+      "tags": ["体調", "命令法", "否定"],
+      "grammar": "代名動詞の否定命令。ne と pas が代名詞ごと動詞を挟む。",
+      "tokens": [
+        { "s": "Ne t'", "skip": true },
+        { "s": "inquiète", "lemma": "inquiéter", "pos": "動詞", "ja": "心配させる・（代名動詞で）心配する", "infl": "IMPER/2sg" },
+        { "s": "pas", "skip": true },
+        { "s": "ce n'est rien", "lemma": "ce n'est rien", "pos": "慣用表現", "ja": "何でもない・大したことない", "idiom": true, "verb": { "s": "est", "lemma": "être", "infl": "PRES/3sg" } },
+        { "s": "de grave", "lemma": "de grave", "pos": "慣用表現", "ja": "深刻な", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0295",
+      "text": "Il faudrait que je me repose un peu.",
+      "ja": "少し休んだほうがよさそうです。",
+      "level": "B1",
+      "tags": ["体調", "接続法", "条件法現在"],
+      "grammar": "il faudrait は il faut の条件法。「〜したほうがよさそう」と和らぐ。後ろは接続法。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "faudrait", "lemma": "falloir", "pos": "動詞", "ja": "必要である", "infl": "COND/3sg", "note": "条件法にすると押しつけがましくなくなる" },
+        { "s": "que je me", "skip": true },
+        { "s": "repose", "lemma": "reposer", "pos": "動詞", "ja": "休ませる・（代名動詞で）休む", "infl": "SUBJ/1sg" },
+        { "s": "un peu", "lemma": "un peu", "pos": "慣用表現", "ja": "少し", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0296",
+      "text": "J'aurais dû t'écouter.",
+      "ja": "君の言うことを聞いておけばよかった。",
+      "level": "B1",
+      "tags": ["後悔", "条件法"],
+      "grammar": "aurais dû + 不定詞で「〜すべきだった」。過去への後悔の定型。",
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "aurais", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "COND/1sg", "note": "条件法過去の助動詞" },
+        { "s": "dû", "lemma": "devoir", "pos": "動詞", "ja": "〜しなければならない", "infl": "PPASSE", "note": "aurais dû で「〜すべきだった」" },
+        { "s": "t'", "skip": true },
+        { "s": "écouter", "lemma": "écouter", "pos": "動詞", "ja": "聞く・耳を傾ける", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0297",
+      "text": "Ça ira mieux demain, tu verras.",
+      "ja": "明日にはよくなるよ、きっと。",
+      "level": "B1",
+      "tags": ["体調", "単純未来"],
+      "grammar": "aller の未来 ira。tu verras は「今にわかるよ」と励ます決まり文句。",
+      "tokens": [
+        { "s": "Ça", "skip": true },
+        { "s": "ira", "lemma": "aller", "pos": "動詞", "ja": "行く・（調子が）〜である", "infl": "FUT/3sg" },
+        { "s": "mieux", "lemma": "mieux", "pos": "副詞", "ja": "よりよく" },
+        { "s": "demain", "lemma": "demain", "pos": "副詞", "ja": "明日" },
+        { "s": "tu", "skip": true },
+        { "s": "verras", "lemma": "voir", "pos": "動詞", "ja": "見る・わかる", "infl": "FUT/2sg", "note": "「今にわかるよ」と励ます言い方" }
+      ]
+    },
+    {
+      "id": "fr-0298",
+      "text": "Je peux vous demander un service ?",
+      "ja": "ひとつお願いしてもいいですか。",
+      "level": "B1",
+      "tags": ["依頼", "疑問", "直説法現在"],
+      "grammar": "demander un service à qqn で「頼みごとをする」。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "peux", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "PRES/1sg" },
+        { "s": "vous", "skip": true },
+        { "s": "demander", "lemma": "demander", "pos": "動詞", "ja": "尋ねる・頼む", "label": "不定詞" },
+        { "s": "un service", "lemma": "demander un service", "pos": "慣用表現", "ja": "頼みごと", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0299",
+      "text": "Il m'a aidé alors que personne ne le faisait.",
+      "ja": "誰も助けてくれないときに、彼が助けてくれました。",
+      "level": "B1",
+      "tags": ["複合過去", "半過去"],
+      "grammar": "alors que は「〜なのに・〜する一方で」。対比を表す。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "m'", "skip": true },
+        { "s": "a aidé", "lemma": "aider", "pos": "動詞", "ja": "助ける・手伝う", "infl": "PC/3sg" },
+        { "s": "alors que", "lemma": "alors que", "pos": "接続詞", "ja": "〜なのに・〜する一方で", "idiom": true },
+        { "s": "personne ne", "skip": true },
+        { "s": "le", "skip": true },
+        { "s": "faisait", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "IMPF/3sg" }
+      ]
+    },
+    {
+      "id": "fr-0300",
+      "text": "Prenez soin de vous.",
+      "ja": "お体を大切に。",
+      "level": "B1",
+      "tags": ["体調", "命令法", "挨拶"],
+      "grammar": "prendre soin de で「大切にする」。別れ際の決まり文句。",
+      "tokens": [
+        { "s": "Prenez soin de", "lemma": "prendre soin de", "pos": "慣用表現", "ja": "〜を大切にする", "idiom": true, "verb": { "s": "Prenez", "lemma": "prendre", "infl": "IMPER/2pl" } },
+        { "s": "vous", "skip": true }
+      ]
+    }
+  ]
+}

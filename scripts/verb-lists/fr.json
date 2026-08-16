@@ -822,6 +822,34 @@
       "ja": "聞く・耳を傾ける"
     },
     {
+      "lemma": "tousser",
+      "ja": "咳をする"
+    },
+    {
+      "lemma": "voler",
+      "ja": "盗む・飛ぶ"
+    },
+    {
+      "lemma": "reposer",
+      "ja": "休ませる・（代名動詞で）休む"
+    },
+    {
+      "lemma": "déranger",
+      "ja": "邪魔する・迷惑をかける"
+    },
+    {
+      "lemma": "tromper",
+      "ja": "だます・（代名動詞で）間違える"
+    },
+    {
+      "lemma": "ennuyer",
+      "ja": "困らせる・退屈させる"
+    },
+    {
+      "lemma": "inquiéter",
+      "ja": "心配させる"
+    },
+    {
       "lemma": "retrouver",
       "ja": "再び見つける・落ち合う"
     },

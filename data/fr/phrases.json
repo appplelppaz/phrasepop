@@ -17849,6 +17849,2754 @@
         }
       ],
       "grammar": "bon は名詞の前に置く形容詞。le bon numéro で「正しい番号」。"
+    },
+    {
+      "id": "fr-0261",
+      "lang": "fr",
+      "text": "Je ne me sens pas bien.",
+      "ja": "気分がよくありません。",
+      "level": "A1",
+      "tags": [
+        "体調",
+        "否定",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je ne me",
+          "start": 0,
+          "end": 8
+        },
+        {
+          "surface": "sens",
+          "start": 9,
+          "end": 13,
+          "gloss": {
+            "lemma": "sentir",
+            "pos": "動詞",
+            "ja": "感じる・（代名動詞で）〜な気分だ",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas",
+          "start": 14,
+          "end": 17
+        },
+        {
+          "surface": "bien",
+          "start": 18,
+          "end": 22,
+          "gloss": {
+            "lemma": "bien",
+            "pos": "副詞",
+            "ja": "よく・元気に"
+          }
+        }
+      ],
+      "grammar": "se sentir + 形容詞で「〜な気分だ」。代名動詞なので me が入る。"
+    },
+    {
+      "id": "fr-0262",
+      "lang": "fr",
+      "text": "J'ai mal au ventre.",
+      "ja": "お腹が痛いです。",
+      "level": "A1",
+      "tags": [
+        "体調",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "J'ai mal",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "avoir mal à",
+            "pos": "慣用表現",
+            "ja": "〜が痛い",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "ai",
+              "lemma": "avoir"
+            }
+          }
+        },
+        {
+          "surface": "au",
+          "start": 9,
+          "end": 11
+        },
+        {
+          "surface": "ventre",
+          "start": 12,
+          "end": 18,
+          "gloss": {
+            "lemma": "ventre",
+            "pos": "名詞",
+            "ja": "お腹・腹部"
+          }
+        }
+      ],
+      "grammar": "avoir mal à + 体の部分。au は à + le の縮約。"
+    },
+    {
+      "id": "fr-0263",
+      "lang": "fr",
+      "text": "J'ai de la fièvre depuis hier.",
+      "ja": "昨日から熱があります。",
+      "level": "A1",
+      "tags": [
+        "体調",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "J'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ai",
+          "start": 2,
+          "end": 4,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "de la",
+          "start": 5,
+          "end": 10
+        },
+        {
+          "surface": "fièvre",
+          "start": 11,
+          "end": 17,
+          "gloss": {
+            "lemma": "fièvre",
+            "pos": "名詞",
+            "ja": "熱"
+          }
+        },
+        {
+          "surface": "depuis",
+          "start": 18,
+          "end": 24,
+          "gloss": {
+            "lemma": "depuis",
+            "pos": "前置詞",
+            "ja": "〜以来・〜から"
+          }
+        },
+        {
+          "surface": "hier",
+          "start": 25,
+          "end": 29,
+          "gloss": {
+            "lemma": "hier",
+            "pos": "副詞",
+            "ja": "昨日"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0264",
+      "lang": "fr",
+      "text": "Appelez un médecin, s'il vous plaît.",
+      "ja": "医者を呼んでください。",
+      "level": "A1",
+      "tags": [
+        "体調",
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Appelez",
+          "start": 0,
+          "end": 7,
+          "gloss": {
+            "lemma": "appeler",
+            "pos": "動詞",
+            "ja": "呼ぶ・電話する",
+            "inflection": {
+              "label": "命令法・2人称複数",
+              "tense": "IMPER",
+              "person": "2pl"
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 8,
+          "end": 10
+        },
+        {
+          "surface": "médecin",
+          "start": 11,
+          "end": 18,
+          "gloss": {
+            "lemma": "médecin",
+            "pos": "名詞",
+            "ja": "医者"
+          }
+        },
+        {
+          "surface": "s'il vous plaît",
+          "start": 20,
+          "end": 35,
+          "gloss": {
+            "lemma": "s'il vous plaît",
+            "pos": "慣用表現",
+            "ja": "お願いします",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "plaît",
+              "lemma": "plaire"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0265",
+      "lang": "fr",
+      "text": "Est-ce que je peux ouvrir la fenêtre ?",
+      "ja": "窓を開けてもいいですか。",
+      "level": "A1",
+      "tags": [
+        "許可",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Est-ce que",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "est-ce que",
+            "pos": "疑問詞",
+            "ja": "〜ですか",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "je",
+          "start": 11,
+          "end": 13
+        },
+        {
+          "surface": "peux",
+          "start": 14,
+          "end": 18,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる・〜してもよい",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "ouvrir",
+          "start": 19,
+          "end": 25,
+          "gloss": {
+            "lemma": "ouvrir",
+            "pos": "動詞",
+            "ja": "開ける・開く",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 26,
+          "end": 28
+        },
+        {
+          "surface": "fenêtre",
+          "start": 29,
+          "end": 36,
+          "gloss": {
+            "lemma": "fenêtre",
+            "pos": "名詞",
+            "ja": "窓"
+          }
+        }
+      ],
+      "grammar": "許可を求めるのは pouvoir。Je peux...? が一番やさしい形。"
+    },
+    {
+      "id": "fr-0266",
+      "lang": "fr",
+      "text": "Aidez-moi, s'il vous plaît !",
+      "ja": "助けてください！",
+      "level": "A1",
+      "tags": [
+        "トラブル",
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Aidez",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "aider",
+            "pos": "動詞",
+            "ja": "助ける・手伝う",
+            "inflection": {
+              "label": "命令法・2人称複数",
+              "tense": "IMPER",
+              "person": "2pl"
+            }
+          }
+        },
+        {
+          "surface": "moi",
+          "start": 6,
+          "end": 9
+        },
+        {
+          "surface": "s'il vous plaît",
+          "start": 11,
+          "end": 26,
+          "gloss": {
+            "lemma": "s'il vous plaît",
+            "pos": "慣用表現",
+            "ja": "お願いします",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "plaît",
+              "lemma": "plaire"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0267",
+      "lang": "fr",
+      "text": "J'ai perdu mon passeport.",
+      "ja": "パスポートをなくしました。",
+      "level": "A1",
+      "tags": [
+        "トラブル",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "J'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ai perdu",
+          "start": 2,
+          "end": 10,
+          "gloss": {
+            "lemma": "perdre",
+            "pos": "動詞",
+            "ja": "失う・なくす",
+            "inflection": {
+              "label": "複合過去・1人称単数",
+              "tense": "PC",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "mon",
+          "start": 11,
+          "end": 14
+        },
+        {
+          "surface": "passeport",
+          "start": 15,
+          "end": 24,
+          "gloss": {
+            "lemma": "passeport",
+            "pos": "名詞",
+            "ja": "パスポート"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0268",
+      "lang": "fr",
+      "text": "Je suis très fatigué aujourd'hui.",
+      "ja": "今日はとても疲れています。",
+      "level": "A1",
+      "tags": [
+        "体調",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "suis",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "très",
+          "start": 8,
+          "end": 12,
+          "gloss": {
+            "lemma": "très",
+            "pos": "副詞",
+            "ja": "とても"
+          }
+        },
+        {
+          "surface": "fatigué",
+          "start": 13,
+          "end": 20,
+          "gloss": {
+            "lemma": "fatigué",
+            "pos": "形容詞",
+            "ja": "疲れた"
+          }
+        },
+        {
+          "surface": "aujourd'hui",
+          "start": 21,
+          "end": 32,
+          "gloss": {
+            "lemma": "aujourd'hui",
+            "pos": "副詞",
+            "ja": "今日"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0269",
+      "lang": "fr",
+      "text": "Tu peux m'aider un peu ?",
+      "ja": "ちょっと手伝ってくれる？",
+      "level": "A1",
+      "tags": [
+        "依頼",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Tu",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "peux",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "inflection": {
+              "label": "直説法現在・2人称単数",
+              "tense": "PRES",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "m'",
+          "start": 8,
+          "end": 10
+        },
+        {
+          "surface": "aider",
+          "start": 10,
+          "end": 15,
+          "gloss": {
+            "lemma": "aider",
+            "pos": "動詞",
+            "ja": "助ける・手伝う",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "un peu",
+          "start": 16,
+          "end": 22,
+          "gloss": {
+            "lemma": "un peu",
+            "pos": "慣用表現",
+            "ja": "少し",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0270",
+      "lang": "fr",
+      "text": "Où est la pharmacie la plus proche ?",
+      "ja": "一番近い薬局はどこですか。",
+      "level": "A1",
+      "tags": [
+        "体調",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Où",
+          "start": 0,
+          "end": 2,
+          "gloss": {
+            "lemma": "où",
+            "pos": "疑問詞",
+            "ja": "どこに"
+          }
+        },
+        {
+          "surface": "est",
+          "start": 3,
+          "end": 6,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 7,
+          "end": 9
+        },
+        {
+          "surface": "pharmacie",
+          "start": 10,
+          "end": 19,
+          "gloss": {
+            "lemma": "pharmacie",
+            "pos": "名詞",
+            "ja": "薬局"
+          }
+        },
+        {
+          "surface": "la plus proche",
+          "start": 20,
+          "end": 34,
+          "gloss": {
+            "lemma": "la plus proche",
+            "pos": "慣用表現",
+            "ja": "一番近い",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "le plus / la plus + 形容詞で最上級。名詞のあとに置くときは冠詞を繰り返す。"
+    },
+    {
+      "id": "fr-0271",
+      "lang": "fr",
+      "text": "Je tousse depuis une semaine.",
+      "ja": "1週間前から咳が出ます。",
+      "level": "A2",
+      "tags": [
+        "体調",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "tousse",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "tousser",
+            "pos": "動詞",
+            "ja": "咳をする",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "depuis",
+          "start": 10,
+          "end": 16,
+          "gloss": {
+            "lemma": "depuis",
+            "pos": "前置詞",
+            "ja": "〜以来・〜から"
+          }
+        },
+        {
+          "surface": "une semaine",
+          "start": 17,
+          "end": 28,
+          "gloss": {
+            "lemma": "une semaine",
+            "pos": "名詞",
+            "ja": "1週間"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0272",
+      "lang": "fr",
+      "text": "Je me suis fait mal au genou.",
+      "ja": "膝を痛めてしまいました。",
+      "level": "A2",
+      "tags": [
+        "体調",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Je me",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "suis",
+          "start": 6,
+          "end": 10,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "代名動詞の複合過去は être",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "fait mal",
+          "start": 11,
+          "end": 19,
+          "gloss": {
+            "lemma": "se faire mal à",
+            "pos": "慣用表現",
+            "ja": "〜を痛める",
+            "idiom": true,
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "fait",
+              "lemma": "faire"
+            }
+          }
+        },
+        {
+          "surface": "au",
+          "start": 20,
+          "end": 22
+        },
+        {
+          "surface": "genou",
+          "start": 23,
+          "end": 28,
+          "gloss": {
+            "lemma": "genou",
+            "pos": "名詞",
+            "ja": "膝"
+          }
+        }
+      ],
+      "grammar": "se faire mal à で「〜を痛める」。代名動詞なので être を使う。"
+    },
+    {
+      "id": "fr-0273",
+      "lang": "fr",
+      "text": "Il faut prendre ce médicament trois fois par jour.",
+      "ja": "この薬は1日3回飲んでください。",
+      "level": "A2",
+      "tags": [
+        "体調",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "faut",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "falloir",
+            "pos": "動詞",
+            "ja": "必要である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "prendre",
+          "start": 8,
+          "end": 15,
+          "gloss": {
+            "lemma": "prendre",
+            "pos": "動詞",
+            "ja": "取る・（薬を）飲む",
+            "note": "薬は boire ではなく prendre",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "ce",
+          "start": 16,
+          "end": 18
+        },
+        {
+          "surface": "médicament",
+          "start": 19,
+          "end": 29,
+          "gloss": {
+            "lemma": "médicament",
+            "pos": "名詞",
+            "ja": "薬"
+          }
+        },
+        {
+          "surface": "trois fois par jour",
+          "start": 30,
+          "end": 49,
+          "gloss": {
+            "lemma": "trois fois par jour",
+            "pos": "慣用表現",
+            "ja": "1日3回",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "薬は「飲む」でも prendre を使う。boire は使わない。"
+    },
+    {
+      "id": "fr-0274",
+      "lang": "fr",
+      "text": "On m'a volé mon portefeuille.",
+      "ja": "財布を盗まれました。",
+      "level": "A2",
+      "tags": [
+        "トラブル",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "On",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "m'",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "a volé",
+          "start": 5,
+          "end": 11,
+          "gloss": {
+            "lemma": "voler",
+            "pos": "動詞",
+            "ja": "盗む・飛ぶ",
+            "note": "on を主語にすると受け身の代わりになる",
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "mon",
+          "start": 12,
+          "end": 15
+        },
+        {
+          "surface": "portefeuille",
+          "start": 16,
+          "end": 28,
+          "gloss": {
+            "lemma": "portefeuille",
+            "pos": "名詞",
+            "ja": "財布"
+          }
+        }
+      ],
+      "grammar": "on を主語にすると受け身のように言える。「盗まれた」は普通この形。"
+    },
+    {
+      "id": "fr-0275",
+      "lang": "fr",
+      "text": "Ma valise n'est pas arrivée.",
+      "ja": "スーツケースが届いていません。",
+      "level": "A2",
+      "tags": [
+        "トラブル",
+        "複合過去",
+        "否定"
+      ],
+      "tokens": [
+        {
+          "surface": "Ma",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "valise",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "valise",
+            "pos": "名詞",
+            "ja": "スーツケース"
+          }
+        },
+        {
+          "surface": "n'",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "surface": "est",
+          "start": 12,
+          "end": 15,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "移動の動詞は être で複合過去を作る",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas",
+          "start": 16,
+          "end": 19
+        },
+        {
+          "surface": "arrivée",
+          "start": 20,
+          "end": 27,
+          "gloss": {
+            "lemma": "arriver",
+            "pos": "動詞",
+            "ja": "着く・到着する",
+            "inflection": {
+              "label": "過去分詞・女性単数"
+            }
+          }
+        }
+      ],
+      "grammar": "arriver は être で複合過去を作る。主語が女性なので arrivée と一致する。"
+    },
+    {
+      "id": "fr-0276",
+      "lang": "fr",
+      "text": "Ça ne marche pas, je crois.",
+      "ja": "動かないみたいです。",
+      "level": "A2",
+      "tags": [
+        "トラブル",
+        "否定",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Ça",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ne",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "marche",
+          "start": 6,
+          "end": 12,
+          "gloss": {
+            "lemma": "marcher",
+            "pos": "動詞",
+            "ja": "歩く・（機械が）動く",
+            "note": "機械の作動にも使う",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "pas",
+          "start": 13,
+          "end": 16
+        },
+        {
+          "surface": "je",
+          "start": 18,
+          "end": 20
+        },
+        {
+          "surface": "crois",
+          "start": 21,
+          "end": 26,
+          "gloss": {
+            "lemma": "croire",
+            "pos": "動詞",
+            "ja": "信じる・思う",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        }
+      ],
+      "grammar": "marcher は「歩く」だけでなく「（機械が）動く」の意味でよく使う。"
+    },
+    {
+      "id": "fr-0277",
+      "lang": "fr",
+      "text": "Vous permettez que j'ouvre la porte ?",
+      "ja": "ドアを開けてもよろしいですか。",
+      "level": "A2",
+      "tags": [
+        "許可",
+        "疑問",
+        "接続法"
+      ],
+      "tokens": [
+        {
+          "surface": "Vous",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "surface": "permettez",
+          "start": 5,
+          "end": 14,
+          "gloss": {
+            "lemma": "permettre",
+            "pos": "動詞",
+            "ja": "許す・可能にする",
+            "inflection": {
+              "label": "直説法現在・2人称複数",
+              "tense": "PRES",
+              "person": "2pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "que j'",
+          "start": 15,
+          "end": 21
+        },
+        {
+          "surface": "ouvre",
+          "start": 21,
+          "end": 26,
+          "gloss": {
+            "lemma": "ouvrir",
+            "pos": "動詞",
+            "ja": "開ける・開く",
+            "note": "permettre que のあとは接続法",
+            "inflection": {
+              "label": "接続法現在・1人称単数",
+              "tense": "SUBJ",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 27,
+          "end": 29
+        },
+        {
+          "surface": "porte",
+          "start": 30,
+          "end": 35,
+          "gloss": {
+            "lemma": "porte",
+            "pos": "名詞",
+            "ja": "ドア・扉"
+          }
+        }
+      ],
+      "grammar": "permettre que のあとは接続法。丁寧に許可を求める形。"
+    },
+    {
+      "id": "fr-0278",
+      "lang": "fr",
+      "text": "Je dois aller à l'hôpital.",
+      "ja": "病院に行かなければなりません。",
+      "level": "A2",
+      "tags": [
+        "体調",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "dois",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "devoir",
+            "pos": "動詞",
+            "ja": "〜しなければならない",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "aller",
+          "start": 8,
+          "end": 13,
+          "gloss": {
+            "lemma": "aller",
+            "pos": "動詞",
+            "ja": "行く",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "à l'",
+          "start": 14,
+          "end": 18
+        },
+        {
+          "surface": "hôpital",
+          "start": 18,
+          "end": 25,
+          "gloss": {
+            "lemma": "hôpital",
+            "pos": "名詞",
+            "ja": "病院"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0279",
+      "lang": "fr",
+      "text": "Reposez-vous bien ce week-end.",
+      "ja": "今週末はゆっくり休んでください。",
+      "level": "A2",
+      "tags": [
+        "体調",
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Reposez",
+          "start": 0,
+          "end": 7,
+          "gloss": {
+            "lemma": "reposer",
+            "pos": "動詞",
+            "ja": "休ませる・（代名動詞で）休む",
+            "inflection": {
+              "label": "命令法・2人称複数",
+              "tense": "IMPER",
+              "person": "2pl"
+            }
+          }
+        },
+        {
+          "surface": "vous",
+          "start": 8,
+          "end": 12
+        },
+        {
+          "surface": "bien",
+          "start": 13,
+          "end": 17,
+          "gloss": {
+            "lemma": "bien",
+            "pos": "副詞",
+            "ja": "よく・しっかり"
+          }
+        },
+        {
+          "surface": "ce week-end",
+          "start": 18,
+          "end": 29,
+          "gloss": {
+            "lemma": "ce week-end",
+            "pos": "慣用表現",
+            "ja": "今週末",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "代名動詞の命令法。vous が動詞の後ろに来る。"
+    },
+    {
+      "id": "fr-0280",
+      "lang": "fr",
+      "text": "Est-ce qu'on peut fumer ici ?",
+      "ja": "ここでタバコを吸ってもいいですか。",
+      "level": "A2",
+      "tags": [
+        "許可",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Est-ce qu'",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "est-ce que",
+            "pos": "疑問詞",
+            "ja": "〜ですか",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "on",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "surface": "peut",
+          "start": 13,
+          "end": 17,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる・〜してもよい",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "fumer",
+          "start": 18,
+          "end": 23,
+          "gloss": {
+            "lemma": "fumer",
+            "pos": "動詞",
+            "ja": "タバコを吸う",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "ici",
+          "start": 24,
+          "end": 27,
+          "gloss": {
+            "lemma": "ici",
+            "pos": "副詞",
+            "ja": "ここで"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0281",
+      "lang": "fr",
+      "text": "Je n'ai pas dormi de la nuit.",
+      "ja": "一睡もできませんでした。",
+      "level": "A2",
+      "tags": [
+        "体調",
+        "複合過去",
+        "否定"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "n'",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "ai",
+          "start": 5,
+          "end": 7,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "note": "複合過去の助動詞",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas",
+          "start": 8,
+          "end": 11
+        },
+        {
+          "surface": "dormi",
+          "start": 12,
+          "end": 17,
+          "gloss": {
+            "lemma": "dormir",
+            "pos": "動詞",
+            "ja": "眠る",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "de la nuit",
+          "start": 18,
+          "end": 28,
+          "gloss": {
+            "lemma": "de la nuit",
+            "pos": "慣用表現",
+            "ja": "一晩中（〜ない）",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "de la nuit で「一晩中（〜ない）」。否定と組んで強調になる。"
+    },
+    {
+      "id": "fr-0282",
+      "lang": "fr",
+      "text": "Ça fait mal quand j'appuie ici.",
+      "ja": "ここを押すと痛いです。",
+      "level": "A2",
+      "tags": [
+        "体調",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Ça fait mal",
+          "start": 0,
+          "end": 11,
+          "gloss": {
+            "lemma": "faire mal",
+            "pos": "慣用表現",
+            "ja": "痛い・痛む",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "fait",
+              "lemma": "faire"
+            }
+          }
+        },
+        {
+          "surface": "quand",
+          "start": 12,
+          "end": 17,
+          "gloss": {
+            "lemma": "quand",
+            "pos": "接続詞",
+            "ja": "〜のとき"
+          }
+        },
+        {
+          "surface": "j'",
+          "start": 18,
+          "end": 20
+        },
+        {
+          "surface": "appuie",
+          "start": 20,
+          "end": 26,
+          "gloss": {
+            "lemma": "appuyer",
+            "pos": "動詞",
+            "ja": "押す・支える",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の y が i に変わる（appuy- → appui-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "ici",
+          "start": 27,
+          "end": 30,
+          "gloss": {
+            "lemma": "ici",
+            "pos": "副詞",
+            "ja": "ここを"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0283",
+      "lang": "fr",
+      "text": "Pourriez-vous m'indiquer le commissariat ?",
+      "ja": "警察署の場所を教えていただけますか。",
+      "level": "B1",
+      "tags": [
+        "トラブル",
+        "条件法現在",
+        "丁寧"
+      ],
+      "tokens": [
+        {
+          "surface": "Pourriez",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "note": "条件法にすると丁寧になる",
+            "inflection": {
+              "label": "条件法現在・2人称複数",
+              "tense": "COND",
+              "person": "2pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "vous m'",
+          "start": 9,
+          "end": 16
+        },
+        {
+          "surface": "indiquer",
+          "start": 16,
+          "end": 24,
+          "gloss": {
+            "lemma": "indiquer",
+            "pos": "動詞",
+            "ja": "示す・教える",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "le",
+          "start": 25,
+          "end": 27
+        },
+        {
+          "surface": "commissariat",
+          "start": 28,
+          "end": 40,
+          "gloss": {
+            "lemma": "commissariat",
+            "pos": "名詞",
+            "ja": "警察署"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0284",
+      "lang": "fr",
+      "text": "Ça vous dérange si je m'assois ici ?",
+      "ja": "ここに座ってもかまいませんか。",
+      "level": "B1",
+      "tags": [
+        "許可",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Ça",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "vous",
+          "start": 3,
+          "end": 7
+        },
+        {
+          "surface": "dérange",
+          "start": 8,
+          "end": 15,
+          "gloss": {
+            "lemma": "déranger",
+            "pos": "動詞",
+            "ja": "邪魔する・迷惑をかける",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "si",
+          "start": 16,
+          "end": 18
+        },
+        {
+          "surface": "je m'",
+          "start": 19,
+          "end": 24
+        },
+        {
+          "surface": "assois",
+          "start": 24,
+          "end": 30,
+          "gloss": {
+            "lemma": "asseoir",
+            "pos": "動詞",
+            "ja": "座らせる・（代名動詞で）座る",
+            "inflection": {
+              "label": "直説法現在・1人称単数"
+            }
+          }
+        },
+        {
+          "surface": "ici",
+          "start": 31,
+          "end": 34,
+          "gloss": {
+            "lemma": "ici",
+            "pos": "副詞",
+            "ja": "ここに"
+          }
+        }
+      ],
+      "grammar": "Ça vous dérange si + 直説法。丁寧に許可を求める口語の定型。"
+    },
+    {
+      "id": "fr-0285",
+      "lang": "fr",
+      "text": "Je voudrais prendre rendez-vous avec le docteur.",
+      "ja": "先生の予約を取りたいのですが。",
+      "level": "B1",
+      "tags": [
+        "体調",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "voudrais",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "vouloir",
+            "pos": "動詞",
+            "ja": "欲する・〜したい",
+            "inflection": {
+              "label": "条件法現在・1人称単数",
+              "tense": "COND",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "prendre rendez-vous",
+          "start": 12,
+          "end": 31,
+          "gloss": {
+            "lemma": "prendre rendez-vous",
+            "pos": "慣用表現",
+            "ja": "予約を取る",
+            "idiom": true,
+            "note": "prendre は不定詞。voudrais に続く"
+          }
+        },
+        {
+          "surface": "avec le",
+          "start": 32,
+          "end": 39
+        },
+        {
+          "surface": "docteur",
+          "start": 40,
+          "end": 47,
+          "gloss": {
+            "lemma": "docteur",
+            "pos": "名詞",
+            "ja": "医師・博士"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0286",
+      "lang": "fr",
+      "text": "Il vaut mieux que tu voies un médecin.",
+      "ja": "医者に診てもらったほうがいいよ。",
+      "level": "B1",
+      "tags": [
+        "体調",
+        "接続法",
+        "助言"
+      ],
+      "tokens": [
+        {
+          "surface": "Il vaut mieux",
+          "start": 0,
+          "end": 13,
+          "gloss": {
+            "lemma": "il vaut mieux",
+            "pos": "慣用表現",
+            "ja": "〜したほうがよい",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "vaut",
+              "lemma": "valoir"
+            }
+          }
+        },
+        {
+          "surface": "que tu",
+          "start": 14,
+          "end": 20
+        },
+        {
+          "surface": "voies",
+          "start": 21,
+          "end": 26,
+          "gloss": {
+            "lemma": "voir",
+            "pos": "動詞",
+            "ja": "見る・（医者に）診てもらう",
+            "note": "il vaut mieux que のあとは接続法",
+            "inflection": {
+              "label": "接続法現在・2人称単数",
+              "tense": "SUBJ",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 27,
+          "end": 29
+        },
+        {
+          "surface": "médecin",
+          "start": 30,
+          "end": 37,
+          "gloss": {
+            "lemma": "médecin",
+            "pos": "名詞",
+            "ja": "医者"
+          }
+        }
+      ],
+      "grammar": "il vaut mieux que のあとは接続法。voir の接続法 2人称単数は voies。"
+    },
+    {
+      "id": "fr-0287",
+      "lang": "fr",
+      "text": "Si j'avais su, je serais resté à la maison.",
+      "ja": "知っていたら家にいたのに。",
+      "level": "B1",
+      "tags": [
+        "体調",
+        "大過去",
+        "条件法"
+      ],
+      "tokens": [
+        {
+          "surface": "Si j'",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "avais su",
+          "start": 5,
+          "end": 13,
+          "gloss": {
+            "lemma": "savoir",
+            "pos": "動詞",
+            "ja": "知る・知っている",
+            "inflection": {
+              "label": "大過去・1人称単数",
+              "tense": "PQP",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "je",
+          "start": 15,
+          "end": 17
+        },
+        {
+          "surface": "serais",
+          "start": 18,
+          "end": 24,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "条件法過去の助動詞",
+            "inflection": {
+              "label": "条件法現在・1人称単数",
+              "tense": "COND",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "resté",
+          "start": 25,
+          "end": 30,
+          "gloss": {
+            "lemma": "rester",
+            "pos": "動詞",
+            "ja": "とどまる・残る",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE"
+            }
+          }
+        },
+        {
+          "surface": "à la maison",
+          "start": 31,
+          "end": 42,
+          "gloss": {
+            "lemma": "à la maison",
+            "pos": "慣用表現",
+            "ja": "家に・自宅で",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "si + 大過去 → 条件法過去。rester は être を使うので serais resté。"
+    },
+    {
+      "id": "fr-0288",
+      "lang": "fr",
+      "text": "Je me suis trompé de chemin.",
+      "ja": "道を間違えました。",
+      "level": "B1",
+      "tags": [
+        "トラブル",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Je me",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "suis",
+          "start": 6,
+          "end": 10,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "代名動詞の複合過去は être",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "trompé de",
+          "start": 11,
+          "end": 20,
+          "gloss": {
+            "lemma": "se tromper de",
+            "pos": "慣用表現",
+            "ja": "〜を間違える",
+            "idiom": true,
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE"
+            },
+            "verb": {
+              "surface": "trompé",
+              "lemma": "tromper"
+            }
+          }
+        },
+        {
+          "surface": "chemin",
+          "start": 21,
+          "end": 27,
+          "gloss": {
+            "lemma": "chemin",
+            "pos": "名詞",
+            "ja": "道・道のり"
+          }
+        }
+      ],
+      "grammar": "se tromper de + 無冠詞名詞で「〜を間違える」。"
+    },
+    {
+      "id": "fr-0289",
+      "lang": "fr",
+      "text": "Ça m'ennuierait de vous déranger.",
+      "ja": "ご迷惑をおかけするのは心苦しいのですが。",
+      "level": "B1",
+      "tags": [
+        "依頼",
+        "条件法現在",
+        "丁寧"
+      ],
+      "tokens": [
+        {
+          "surface": "Ça",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "m'",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "ennuierait",
+          "start": 5,
+          "end": 15,
+          "gloss": {
+            "lemma": "ennuyer",
+            "pos": "動詞",
+            "ja": "困らせる・退屈させる",
+            "inflection": {
+              "label": "条件法現在・3人称単数",
+              "tense": "COND",
+              "person": "3sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の y が i に変わる（ennuyer- → ennuier-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "de vous",
+          "start": 16,
+          "end": 23
+        },
+        {
+          "surface": "déranger",
+          "start": 24,
+          "end": 32,
+          "gloss": {
+            "lemma": "déranger",
+            "pos": "動詞",
+            "ja": "邪魔する・迷惑をかける",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0290",
+      "lang": "fr",
+      "text": "Est-ce que vous auriez un pansement ?",
+      "ja": "絆創膏をお持ちではないでしょうか。",
+      "level": "B1",
+      "tags": [
+        "依頼",
+        "条件法現在",
+        "丁寧"
+      ],
+      "tokens": [
+        {
+          "surface": "Est-ce que",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "est-ce que",
+            "pos": "疑問詞",
+            "ja": "〜ですか",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "vous",
+          "start": 11,
+          "end": 15
+        },
+        {
+          "surface": "auriez",
+          "start": 16,
+          "end": 22,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "note": "条件法にすると控えめな問いになる",
+            "inflection": {
+              "label": "条件法現在・2人称複数",
+              "tense": "COND",
+              "person": "2pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 23,
+          "end": 25
+        },
+        {
+          "surface": "pansement",
+          "start": 26,
+          "end": 35,
+          "gloss": {
+            "lemma": "pansement",
+            "pos": "名詞",
+            "ja": "絆創膏・包帯"
+          }
+        }
+      ],
+      "grammar": "avoir を条件法にすると「ひょっとして〜をお持ちですか」と控えめになる。"
+    },
+    {
+      "id": "fr-0291",
+      "lang": "fr",
+      "text": "Je ne savais pas que c'était interdit.",
+      "ja": "禁止されているとは知りませんでした。",
+      "level": "B1",
+      "tags": [
+        "トラブル",
+        "半過去",
+        "否定"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ne",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "savais",
+          "start": 6,
+          "end": 12,
+          "gloss": {
+            "lemma": "savoir",
+            "pos": "動詞",
+            "ja": "知る・知っている",
+            "inflection": {
+              "label": "半過去・1人称単数",
+              "tense": "IMPF",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas que c'",
+          "start": 13,
+          "end": 23
+        },
+        {
+          "surface": "était",
+          "start": 23,
+          "end": 28,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "時制の一致で半過去になる",
+            "inflection": {
+              "label": "半過去・3人称単数",
+              "tense": "IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "interdit",
+          "start": 29,
+          "end": 37,
+          "gloss": {
+            "lemma": "interdit",
+            "pos": "形容詞",
+            "ja": "禁止された"
+          }
+        }
+      ],
+      "grammar": "主節が過去なら従属節も過去にずらす。時制の一致。"
+    },
+    {
+      "id": "fr-0292",
+      "lang": "fr",
+      "text": "Ça m'est arrivé plusieurs fois.",
+      "ja": "何度もありました。",
+      "level": "B1",
+      "tags": [
+        "トラブル",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Ça",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "m'",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "est",
+          "start": 5,
+          "end": 8,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "arriver は être で複合過去を作る",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "arrivé",
+          "start": 9,
+          "end": 15,
+          "gloss": {
+            "lemma": "arriver",
+            "pos": "動詞",
+            "ja": "着く・（事が）起こる",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE"
+            }
+          }
+        },
+        {
+          "surface": "plusieurs fois",
+          "start": 16,
+          "end": 30,
+          "gloss": {
+            "lemma": "plusieurs fois",
+            "pos": "慣用表現",
+            "ja": "何度も",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "arriver à qqn で「〜の身に起こる」。être で複合過去を作る。"
+    },
+    {
+      "id": "fr-0293",
+      "lang": "fr",
+      "text": "Merci de m'avoir prévenu si vite.",
+      "ja": "こんなに早く知らせてくれてありがとう。",
+      "level": "B1",
+      "tags": [
+        "感謝",
+        "依頼"
+      ],
+      "tokens": [
+        {
+          "surface": "Merci de",
+          "start": 0,
+          "end": 8,
+          "gloss": {
+            "lemma": "merci de",
+            "pos": "慣用表現",
+            "ja": "〜してくれてありがとう",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "m'avoir",
+          "start": 9,
+          "end": 16
+        },
+        {
+          "surface": "prévenu",
+          "start": 17,
+          "end": 24,
+          "gloss": {
+            "lemma": "prévenir",
+            "pos": "動詞",
+            "ja": "知らせる・予防する",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "si vite",
+          "start": 25,
+          "end": 32,
+          "gloss": {
+            "lemma": "si vite",
+            "pos": "慣用表現",
+            "ja": "こんなに早く",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "merci de + 完了不定詞で「〜してくれてありがとう」。"
+    },
+    {
+      "id": "fr-0294",
+      "lang": "fr",
+      "text": "Ne t'inquiète pas, ce n'est rien de grave.",
+      "ja": "心配しないで、大したことないよ。",
+      "level": "B1",
+      "tags": [
+        "体調",
+        "命令法",
+        "否定"
+      ],
+      "tokens": [
+        {
+          "surface": "Ne t'",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "inquiète",
+          "start": 5,
+          "end": 13,
+          "gloss": {
+            "lemma": "inquiéter",
+            "pos": "動詞",
+            "ja": "心配させる・（代名動詞で）心配する",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMPER",
+              "person": "2sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の é が è に変わる（inquiét- → inquièt-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas",
+          "start": 14,
+          "end": 17
+        },
+        {
+          "surface": "ce n'est rien",
+          "start": 19,
+          "end": 32,
+          "gloss": {
+            "lemma": "ce n'est rien",
+            "pos": "慣用表現",
+            "ja": "何でもない・大したことない",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "est",
+              "lemma": "être"
+            }
+          }
+        },
+        {
+          "surface": "de grave",
+          "start": 33,
+          "end": 41,
+          "gloss": {
+            "lemma": "de grave",
+            "pos": "慣用表現",
+            "ja": "深刻な",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "代名動詞の否定命令。ne と pas が代名詞ごと動詞を挟む。"
+    },
+    {
+      "id": "fr-0295",
+      "lang": "fr",
+      "text": "Il faudrait que je me repose un peu.",
+      "ja": "少し休んだほうがよさそうです。",
+      "level": "B1",
+      "tags": [
+        "体調",
+        "接続法",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "faudrait",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "falloir",
+            "pos": "動詞",
+            "ja": "必要である",
+            "note": "条件法にすると押しつけがましくなくなる",
+            "inflection": {
+              "label": "条件法現在・3人称単数",
+              "tense": "COND",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "que je me",
+          "start": 12,
+          "end": 21
+        },
+        {
+          "surface": "repose",
+          "start": 22,
+          "end": 28,
+          "gloss": {
+            "lemma": "reposer",
+            "pos": "動詞",
+            "ja": "休ませる・（代名動詞で）休む",
+            "inflection": {
+              "label": "接続法現在・1人称単数",
+              "tense": "SUBJ",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "un peu",
+          "start": 29,
+          "end": 35,
+          "gloss": {
+            "lemma": "un peu",
+            "pos": "慣用表現",
+            "ja": "少し",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "il faudrait は il faut の条件法。「〜したほうがよさそう」と和らぐ。後ろは接続法。"
+    },
+    {
+      "id": "fr-0296",
+      "lang": "fr",
+      "text": "J'aurais dû t'écouter.",
+      "ja": "君の言うことを聞いておけばよかった。",
+      "level": "B1",
+      "tags": [
+        "後悔",
+        "条件法"
+      ],
+      "tokens": [
+        {
+          "surface": "J'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "aurais",
+          "start": 2,
+          "end": 8,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "note": "条件法過去の助動詞",
+            "inflection": {
+              "label": "条件法現在・1人称単数",
+              "tense": "COND",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "dû",
+          "start": 9,
+          "end": 11,
+          "gloss": {
+            "lemma": "devoir",
+            "pos": "動詞",
+            "ja": "〜しなければならない",
+            "note": "aurais dû で「〜すべきだった」",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "t'",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "écouter",
+          "start": 14,
+          "end": 21,
+          "gloss": {
+            "lemma": "écouter",
+            "pos": "動詞",
+            "ja": "聞く・耳を傾ける",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ],
+      "grammar": "aurais dû + 不定詞で「〜すべきだった」。過去への後悔の定型。"
+    },
+    {
+      "id": "fr-0297",
+      "lang": "fr",
+      "text": "Ça ira mieux demain, tu verras.",
+      "ja": "明日にはよくなるよ、きっと。",
+      "level": "B1",
+      "tags": [
+        "体調",
+        "単純未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Ça",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ira",
+          "start": 3,
+          "end": 6,
+          "gloss": {
+            "lemma": "aller",
+            "pos": "動詞",
+            "ja": "行く・（調子が）〜である",
+            "inflection": {
+              "label": "単純未来・3人称単数",
+              "tense": "FUT",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "mieux",
+          "start": 7,
+          "end": 12,
+          "gloss": {
+            "lemma": "mieux",
+            "pos": "副詞",
+            "ja": "よりよく"
+          }
+        },
+        {
+          "surface": "demain",
+          "start": 13,
+          "end": 19,
+          "gloss": {
+            "lemma": "demain",
+            "pos": "副詞",
+            "ja": "明日"
+          }
+        },
+        {
+          "surface": "tu",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "verras",
+          "start": 24,
+          "end": 30,
+          "gloss": {
+            "lemma": "voir",
+            "pos": "動詞",
+            "ja": "見る・わかる",
+            "note": "「今にわかるよ」と励ます言い方",
+            "inflection": {
+              "label": "単純未来・2人称単数",
+              "tense": "FUT",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        }
+      ],
+      "grammar": "aller の未来 ira。tu verras は「今にわかるよ」と励ます決まり文句。"
+    },
+    {
+      "id": "fr-0298",
+      "lang": "fr",
+      "text": "Je peux vous demander un service ?",
+      "ja": "ひとつお願いしてもいいですか。",
+      "level": "B1",
+      "tags": [
+        "依頼",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "peux",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "vous",
+          "start": 8,
+          "end": 12
+        },
+        {
+          "surface": "demander",
+          "start": 13,
+          "end": 21,
+          "gloss": {
+            "lemma": "demander",
+            "pos": "動詞",
+            "ja": "尋ねる・頼む",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "un service",
+          "start": 22,
+          "end": 32,
+          "gloss": {
+            "lemma": "demander un service",
+            "pos": "慣用表現",
+            "ja": "頼みごと",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "demander un service à qqn で「頼みごとをする」。"
+    },
+    {
+      "id": "fr-0299",
+      "lang": "fr",
+      "text": "Il m'a aidé alors que personne ne le faisait.",
+      "ja": "誰も助けてくれないときに、彼が助けてくれました。",
+      "level": "B1",
+      "tags": [
+        "複合過去",
+        "半過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "m'",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "a aidé",
+          "start": 5,
+          "end": 11,
+          "gloss": {
+            "lemma": "aider",
+            "pos": "動詞",
+            "ja": "助ける・手伝う",
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "alors que",
+          "start": 12,
+          "end": 21,
+          "gloss": {
+            "lemma": "alors que",
+            "pos": "接続詞",
+            "ja": "〜なのに・〜する一方で",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "personne ne",
+          "start": 22,
+          "end": 33
+        },
+        {
+          "surface": "le",
+          "start": 34,
+          "end": 36
+        },
+        {
+          "surface": "faisait",
+          "start": 37,
+          "end": 44,
+          "gloss": {
+            "lemma": "faire",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "半過去・3人称単数",
+              "tense": "IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        }
+      ],
+      "grammar": "alors que は「〜なのに・〜する一方で」。対比を表す。"
+    },
+    {
+      "id": "fr-0300",
+      "lang": "fr",
+      "text": "Prenez soin de vous.",
+      "ja": "お体を大切に。",
+      "level": "B1",
+      "tags": [
+        "体調",
+        "命令法",
+        "挨拶"
+      ],
+      "tokens": [
+        {
+          "surface": "Prenez soin de",
+          "start": 0,
+          "end": 14,
+          "gloss": {
+            "lemma": "prendre soin de",
+            "pos": "慣用表現",
+            "ja": "〜を大切にする",
+            "idiom": true,
+            "inflection": {
+              "label": "命令法・2人称複数",
+              "tense": "IMPER",
+              "person": "2pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "Prenez",
+              "lemma": "prendre"
+            }
+          }
+        },
+        {
+          "surface": "vous",
+          "start": 15,
+          "end": 19
+        }
+      ],
+      "grammar": "prendre soin de で「大切にする」。別れ際の決まり文句。"
     }
   ]
 }
