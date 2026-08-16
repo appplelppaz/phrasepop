@@ -23,6 +23,10 @@ export type SpeakOptions = {
 export type SpeechDriver = {
   speak(text: string, opts: SpeakOptions): Promise<void>;
   cancel(): void;
+  /** 読み上げをその場で止める。resume() で続きから再開できる。 */
+  pause(): void;
+  /** pause() した位置から読み上げを再開する。 */
+  resume(): void;
   /** 指定言語の音声が使えるか。判定できない場合は true を返す。 */
   hasVoiceFor(lang: string): boolean;
   /** iOS Safari の発話ロック解除。ユーザー操作ハンドラの中から呼ぶ。 */
@@ -104,10 +108,29 @@ function browserDriver(): SpeechDriver {
     cancel() {
       try {
         synth.cancel();
+        // 一時停止したまま cancel すると、ブラウザによっては paused 状態が残り
+        // 次の speak() が鳴らなくなる。必ず解除しておく。
+        synth.resume();
       } catch {
         /* noop */
       }
       alive.clear();
+    },
+
+    pause() {
+      try {
+        synth.pause();
+      } catch {
+        /* noop */
+      }
+    },
+
+    resume() {
+      try {
+        synth.resume();
+      } catch {
+        /* noop */
+      }
     },
 
     speak(text, { lang, rate = 0.85, signal }) {
@@ -153,26 +176,50 @@ function browserDriver(): SpeechDriver {
  */
 export function mockDriver(msPerChar = 55): SpeechDriver {
   let timer: ReturnType<typeof setTimeout> | null = null;
+  // 一時停止の再現に、残り時間と再開用の関数を覚えておく。
+  let finish: (() => void) | null = null;
+  let dueAt = 0;
+  let remaining = 0;
+
+  const clear = () => {
+    if (timer) clearTimeout(timer);
+    timer = null;
+    finish = null;
+    remaining = 0;
+  };
+
   return {
     ready: () => Promise.resolve(),
     hasVoiceFor: () => true,
     unlock: () => {},
-    cancel: () => {
-      if (timer) clearTimeout(timer);
+    cancel: clear,
+
+    pause() {
+      if (!timer || !finish) return;
+      clearTimeout(timer);
       timer = null;
+      remaining = Math.max(0, dueAt - Date.now());
     },
+
+    resume() {
+      if (timer || !finish) return;
+      dueAt = Date.now() + remaining;
+      timer = setTimeout(finish, remaining);
+    },
+
     speak(text, { signal }) {
       return new Promise<void>((resolve) => {
         if (signal?.aborted) return resolve();
         const ms = Math.min(4000, 300 + text.length * msPerChar);
-        const finish = () => {
-          if (timer) clearTimeout(timer);
-          timer = null;
-          signal?.removeEventListener("abort", finish);
+        const done = () => {
+          clear();
+          signal?.removeEventListener("abort", done);
           resolve();
         };
-        signal?.addEventListener("abort", finish);
-        timer = setTimeout(finish, ms);
+        finish = done;
+        signal?.addEventListener("abort", done);
+        dueAt = Date.now() + ms;
+        timer = setTimeout(done, ms);
       });
     },
   };

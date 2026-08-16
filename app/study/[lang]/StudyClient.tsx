@@ -42,10 +42,40 @@ export function StudyClient({
     [bank.phrases, levels, tags],
   );
 
-  const { phase, running, meaningVisible, run, stop, replay, revealNow } = useStudySequence(
-    current,
-    options,
+  // タップした側と逆側へスクロールするための指示。描画後に効かせたいので state で持つ。
+  const [jumpTo, setJumpTo] = useState<{ side: "gloss" | "word"; index: number } | null>(null);
+
+  const { phase, running, paused, meaningVisible, run, stop, revealNow, togglePlay } =
+    useStudySequence(current, options);
+
+  /** フレーズ本文の語をタップ → その語の説明カードへ飛ぶ。 */
+  const selectFromPhrase = useCallback(
+    (index: number | null) => {
+      setActiveIndex(index);
+      if (index === null) return;
+      // まだ意味を出していない段階なら、先に開いてから飛ぶ。
+      if (!meaningVisible) revealNow();
+      setJumpTo({ side: "gloss", index });
+    },
+    [meaningVisible, revealNow],
   );
+
+  /** 説明カードをタップ → フレーズ本文の該当語へ飛ぶ。 */
+  const selectFromGloss = useCallback((index: number | null) => {
+    setActiveIndex(index);
+    if (index === null) return;
+    setJumpTo({ side: "word", index });
+  }, []);
+
+  // 反対側の要素へスクロールする。revealNow で意味を開いた直後でも、
+  // 描画が終わったこの時点なら要素が存在する。
+  useEffect(() => {
+    if (!jumpTo) return;
+    document
+      .getElementById(`${jumpTo.side}-${jumpTo.index}`)
+      ?.scrollIntoView({ behavior: "smooth", block: "center" });
+    setJumpTo(null);
+  }, [jumpTo]);
 
   useEffect(() => {
     setProgress(loadProgress(lang));
@@ -124,18 +154,18 @@ export function StudyClient({
             <PhraseCard
               phrase={current}
               activeIndex={activeIndex}
-              onSelect={setActiveIndex}
+              onSelect={selectFromPhrase}
               dimmed={phase === "idle"}
             />
 
             <div className="mt-5 flex items-center gap-2">
               <button
                 type="button"
-                onClick={() => (running ? stop() : void replay())}
-                aria-label={running ? "停止" : "もう一度読む"}
+                onClick={togglePlay}
+                aria-label={running && !paused ? "一時停止" : paused ? "再開" : "もう一度読む"}
                 className="flex h-11 w-11 items-center justify-center rounded-full bg-slate-900 text-white dark:bg-white dark:text-slate-900"
               >
-                {running ? (
+                {running && !paused ? (
                   <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" aria-hidden>
                     <rect x="4" y="4" width="4.5" height="12" rx="1.2" />
                     <rect x="11.5" y="4" width="4.5" height="12" rx="1.2" />
@@ -174,7 +204,7 @@ export function StudyClient({
               </p>
             )}
 
-            <TokenList phrase={current} activeIndex={activeIndex} onSelect={setActiveIndex} />
+            <TokenList phrase={current} activeIndex={activeIndex} onSelect={selectFromGloss} />
           </section>
 
           {/* ◯ / ✕ */}

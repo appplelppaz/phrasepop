@@ -77,6 +77,8 @@ export function PhraseCard({
         <button
           type="button"
           onClick={() => onSelect(active ? null : i)}
+          // 単語カードから飛んでくるときの着地点。TokenList 側の gloss-<i> と対になる。
+          id={`word-${i}`}
           data-tense-underline={style ? "" : undefined}
           data-irregular-underline={irregular ? "" : undefined}
           className={[
