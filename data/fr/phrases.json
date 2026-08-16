@@ -12302,6 +12302,2828 @@
           }
         }
       ]
+    },
+    {
+      "id": "fr-0181",
+      "lang": "fr",
+      "text": "Pardon, je cherche la station de métro.",
+      "ja": "すみません、地下鉄の駅を探しています。",
+      "level": "A1",
+      "tags": [
+        "道案内",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Pardon",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "pardon",
+            "pos": "間投詞",
+            "ja": "すみません・失礼"
+          }
+        },
+        {
+          "surface": "je",
+          "start": 8,
+          "end": 10
+        },
+        {
+          "surface": "cherche",
+          "start": 11,
+          "end": 18,
+          "gloss": {
+            "lemma": "chercher",
+            "pos": "動詞",
+            "ja": "探す",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 19,
+          "end": 21
+        },
+        {
+          "surface": "station de métro",
+          "start": 22,
+          "end": 38,
+          "gloss": {
+            "lemma": "station de métro",
+            "pos": "慣用表現",
+            "ja": "地下鉄の駅",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "見知らぬ人に声をかけるときは Pardon か Excusez-moi。"
+    },
+    {
+      "id": "fr-0182",
+      "lang": "fr",
+      "text": "C'est loin d'ici ?",
+      "ja": "ここから遠いですか。",
+      "level": "A1",
+      "tags": [
+        "道案内",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "C'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "est",
+          "start": 2,
+          "end": 5,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "loin",
+          "start": 6,
+          "end": 10,
+          "gloss": {
+            "lemma": "loin",
+            "pos": "副詞",
+            "ja": "遠くに"
+          }
+        },
+        {
+          "surface": "d'ici",
+          "start": 11,
+          "end": 16,
+          "gloss": {
+            "lemma": "d'ici",
+            "pos": "慣用表現",
+            "ja": "ここから",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0183",
+      "lang": "fr",
+      "text": "Tournez à droite après le feu.",
+      "ja": "信号の先を右に曲がってください。",
+      "level": "A1",
+      "tags": [
+        "道案内",
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Tournez",
+          "start": 0,
+          "end": 7,
+          "gloss": {
+            "lemma": "tourner",
+            "pos": "動詞",
+            "ja": "曲がる・回る",
+            "inflection": {
+              "label": "命令法・2人称複数",
+              "tense": "IMPER",
+              "person": "2pl"
+            }
+          }
+        },
+        {
+          "surface": "à droite",
+          "start": 8,
+          "end": 16,
+          "gloss": {
+            "lemma": "à droite",
+            "pos": "慣用表現",
+            "ja": "右に",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "après",
+          "start": 17,
+          "end": 22,
+          "gloss": {
+            "lemma": "après",
+            "pos": "前置詞",
+            "ja": "〜のあとに"
+          }
+        },
+        {
+          "surface": "le",
+          "start": 23,
+          "end": 25
+        },
+        {
+          "surface": "feu",
+          "start": 26,
+          "end": 29,
+          "gloss": {
+            "lemma": "feu",
+            "pos": "名詞",
+            "ja": "信号・火"
+          }
+        }
+      ],
+      "grammar": "道案内は命令法の2人称複数で言う。à droite / à gauche。"
+    },
+    {
+      "id": "fr-0184",
+      "lang": "fr",
+      "text": "Continuez tout droit jusqu'à la place.",
+      "ja": "広場までまっすぐ進んでください。",
+      "level": "A1",
+      "tags": [
+        "道案内",
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Continuez",
+          "start": 0,
+          "end": 9,
+          "gloss": {
+            "lemma": "continuer",
+            "pos": "動詞",
+            "ja": "続ける・進み続ける",
+            "inflection": {
+              "label": "命令法・2人称複数",
+              "tense": "IMPER",
+              "person": "2pl"
+            }
+          }
+        },
+        {
+          "surface": "tout droit",
+          "start": 10,
+          "end": 20,
+          "gloss": {
+            "lemma": "tout droit",
+            "pos": "慣用表現",
+            "ja": "まっすぐ",
+            "idiom": true,
+            "note": "à droite（右に）と混同しない"
+          }
+        },
+        {
+          "surface": "jusqu'à",
+          "start": 21,
+          "end": 28,
+          "gloss": {
+            "lemma": "jusqu'à",
+            "pos": "前置詞",
+            "ja": "〜まで"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 29,
+          "end": 31
+        },
+        {
+          "surface": "place",
+          "start": 32,
+          "end": 37,
+          "gloss": {
+            "lemma": "place",
+            "pos": "名詞",
+            "ja": "広場・席"
+          }
+        }
+      ],
+      "grammar": "tout droit は「まっすぐ」。à droite（右に）と混同しやすいので注意。"
+    },
+    {
+      "id": "fr-0185",
+      "lang": "fr",
+      "text": "Je prends le bus tous les matins.",
+      "ja": "毎朝バスに乗ります。",
+      "level": "A1",
+      "tags": [
+        "交通",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "prends",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "prendre",
+            "pos": "動詞",
+            "ja": "取る・（乗り物に）乗る",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "le",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "surface": "bus",
+          "start": 13,
+          "end": 16,
+          "gloss": {
+            "lemma": "bus",
+            "pos": "名詞",
+            "ja": "バス"
+          }
+        },
+        {
+          "surface": "tous les matins",
+          "start": 17,
+          "end": 32,
+          "gloss": {
+            "lemma": "tous les matins",
+            "pos": "慣用表現",
+            "ja": "毎朝",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "乗り物に乗るのは prendre。tous les + 複数名詞で「毎〜」。"
+    },
+    {
+      "id": "fr-0186",
+      "lang": "fr",
+      "text": "Un billet pour Marseille, s'il vous plaît.",
+      "ja": "マルセイユまで1枚お願いします。",
+      "level": "A1",
+      "tags": [
+        "交通",
+        "旅行"
+      ],
+      "tokens": [
+        {
+          "surface": "Un",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "billet",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "billet",
+            "pos": "名詞",
+            "ja": "切符・チケット"
+          }
+        },
+        {
+          "surface": "pour",
+          "start": 10,
+          "end": 14
+        },
+        {
+          "surface": "Marseille",
+          "start": 15,
+          "end": 24,
+          "gloss": {
+            "lemma": "Marseille",
+            "pos": "固有名詞",
+            "ja": "マルセイユ"
+          }
+        },
+        {
+          "surface": "s'il vous plaît",
+          "start": 26,
+          "end": 41,
+          "gloss": {
+            "lemma": "s'il vous plaît",
+            "pos": "慣用表現",
+            "ja": "お願いします",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "plaît",
+              "lemma": "plaire"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0187",
+      "lang": "fr",
+      "text": "Le train part à quelle heure ?",
+      "ja": "電車は何時に出ますか。",
+      "level": "A1",
+      "tags": [
+        "交通",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Le",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "train",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "train",
+            "pos": "名詞",
+            "ja": "電車・列車"
+          }
+        },
+        {
+          "surface": "part",
+          "start": 9,
+          "end": 13,
+          "gloss": {
+            "lemma": "partir",
+            "pos": "動詞",
+            "ja": "出発する・去る",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "à quelle heure",
+          "start": 14,
+          "end": 28,
+          "gloss": {
+            "lemma": "à quelle heure",
+            "pos": "疑問詞",
+            "ja": "何時に",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0188",
+      "lang": "fr",
+      "text": "Je vais à Paris demain.",
+      "ja": "明日パリに行きます。",
+      "level": "A1",
+      "tags": [
+        "旅行",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "vais",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "aller",
+            "pos": "動詞",
+            "ja": "行く",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "à",
+          "start": 8,
+          "end": 9
+        },
+        {
+          "surface": "Paris",
+          "start": 10,
+          "end": 15,
+          "gloss": {
+            "lemma": "Paris",
+            "pos": "固有名詞",
+            "ja": "パリ"
+          }
+        },
+        {
+          "surface": "demain",
+          "start": 16,
+          "end": 22,
+          "gloss": {
+            "lemma": "demain",
+            "pos": "副詞",
+            "ja": "明日"
+          }
+        }
+      ],
+      "grammar": "近い予定は現在形でも言える。aller à + 都市名。"
+    },
+    {
+      "id": "fr-0189",
+      "lang": "fr",
+      "text": "Où sont les toilettes ?",
+      "ja": "トイレはどこですか。",
+      "level": "A1",
+      "tags": [
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Où",
+          "start": 0,
+          "end": 2,
+          "gloss": {
+            "lemma": "où",
+            "pos": "疑問詞",
+            "ja": "どこに"
+          }
+        },
+        {
+          "surface": "sont",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "PRES",
+              "person": "3pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "les",
+          "start": 8,
+          "end": 11
+        },
+        {
+          "surface": "toilettes",
+          "start": 12,
+          "end": 21,
+          "gloss": {
+            "lemma": "toilettes",
+            "pos": "名詞",
+            "ja": "トイレ",
+            "note": "必ず複数形で使う"
+          }
+        }
+      ],
+      "grammar": "toilettes は必ず複数形。動詞も複数で受ける。"
+    },
+    {
+      "id": "fr-0190",
+      "lang": "fr",
+      "text": "Je descends à la prochaine.",
+      "ja": "次で降ります。",
+      "level": "A1",
+      "tags": [
+        "交通",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "descends",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "descendre",
+            "pos": "動詞",
+            "ja": "降りる・下る",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "à la prochaine",
+          "start": 12,
+          "end": 26,
+          "gloss": {
+            "lemma": "à la prochaine",
+            "pos": "慣用表現",
+            "ja": "次の駅で",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "la prochaine は la prochaine station の省略。車内でよく使う。"
+    },
+    {
+      "id": "fr-0191",
+      "lang": "fr",
+      "text": "Vous allez tout droit, puis vous traversez.",
+      "ja": "まっすぐ行って、それから渡ってください。",
+      "level": "A2",
+      "tags": [
+        "道案内",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Vous",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "surface": "allez",
+          "start": 5,
+          "end": 10,
+          "gloss": {
+            "lemma": "aller",
+            "pos": "動詞",
+            "ja": "行く",
+            "note": "道案内では現在形が命令の代わりになる",
+            "inflection": {
+              "label": "直説法現在・2人称複数",
+              "tense": "PRES",
+              "person": "2pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "tout droit",
+          "start": 11,
+          "end": 21,
+          "gloss": {
+            "lemma": "tout droit",
+            "pos": "慣用表現",
+            "ja": "まっすぐ",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "puis",
+          "start": 23,
+          "end": 27,
+          "gloss": {
+            "lemma": "puis",
+            "pos": "副詞",
+            "ja": "それから"
+          }
+        },
+        {
+          "surface": "vous",
+          "start": 28,
+          "end": 32
+        },
+        {
+          "surface": "traversez",
+          "start": 33,
+          "end": 42,
+          "gloss": {
+            "lemma": "traverser",
+            "pos": "動詞",
+            "ja": "渡る・横断する",
+            "inflection": {
+              "label": "直説法現在・2人称複数",
+              "tense": "PRES",
+              "person": "2pl"
+            }
+          }
+        }
+      ],
+      "grammar": "道案内では命令法の代わりに vous + 現在形もよく使う。"
+    },
+    {
+      "id": "fr-0192",
+      "lang": "fr",
+      "text": "Il faut combien de temps à pied ?",
+      "ja": "歩いてどのくらいかかりますか。",
+      "level": "A2",
+      "tags": [
+        "道案内",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "faut",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "falloir",
+            "pos": "動詞",
+            "ja": "必要である・（時間が）かかる",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "combien de temps",
+          "start": 8,
+          "end": 24,
+          "gloss": {
+            "lemma": "combien de temps",
+            "pos": "疑問詞",
+            "ja": "どのくらいの時間",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "à pied",
+          "start": 25,
+          "end": 31,
+          "gloss": {
+            "lemma": "à pied",
+            "pos": "慣用表現",
+            "ja": "徒歩で",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "il faut は所要時間にも使う。à pied は「徒歩で」。"
+    },
+    {
+      "id": "fr-0193",
+      "lang": "fr",
+      "text": "J'ai raté mon train.",
+      "ja": "電車に乗り遅れました。",
+      "level": "A2",
+      "tags": [
+        "交通",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "J'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ai raté",
+          "start": 2,
+          "end": 9,
+          "gloss": {
+            "lemma": "rater",
+            "pos": "動詞",
+            "ja": "逃す・失敗する",
+            "inflection": {
+              "label": "複合過去・1人称単数",
+              "tense": "PC",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "mon",
+          "start": 10,
+          "end": 13
+        },
+        {
+          "surface": "train",
+          "start": 14,
+          "end": 19,
+          "gloss": {
+            "lemma": "train",
+            "pos": "名詞",
+            "ja": "電車・列車"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0194",
+      "lang": "fr",
+      "text": "Nous sommes arrivés hier soir.",
+      "ja": "昨夜着きました。",
+      "level": "A2",
+      "tags": [
+        "旅行",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Nous",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "surface": "sommes arrivés",
+          "start": 5,
+          "end": 19,
+          "gloss": {
+            "lemma": "arriver",
+            "pos": "動詞",
+            "ja": "着く・到着する",
+            "note": "移動の動詞は être で複合過去を作る",
+            "inflection": {
+              "label": "複合過去・1人称複数",
+              "tense": "PC",
+              "person": "1pl"
+            }
+          }
+        },
+        {
+          "surface": "hier soir",
+          "start": 20,
+          "end": 29,
+          "gloss": {
+            "lemma": "hier soir",
+            "pos": "慣用表現",
+            "ja": "昨夜",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "移動を表す arriver / partir / venir などは複合過去で être を使い、主語に性数一致する。"
+    },
+    {
+      "id": "fr-0195",
+      "lang": "fr",
+      "text": "Le vol a du retard.",
+      "ja": "便が遅れています。",
+      "level": "A2",
+      "tags": [
+        "旅行",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Le",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "vol",
+          "start": 3,
+          "end": 6,
+          "gloss": {
+            "lemma": "vol",
+            "pos": "名詞",
+            "ja": "フライト・飛行"
+          }
+        },
+        {
+          "surface": "a du retard",
+          "start": 7,
+          "end": 18,
+          "gloss": {
+            "lemma": "avoir du retard",
+            "pos": "慣用表現",
+            "ja": "遅れている",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "a",
+              "lemma": "avoir"
+            }
+          }
+        }
+      ],
+      "grammar": "avoir du retard で「遅れている」。être en retard は人に使う。"
+    },
+    {
+      "id": "fr-0196",
+      "lang": "fr",
+      "text": "Je voudrais louer une voiture.",
+      "ja": "車を借りたいのですが。",
+      "level": "A2",
+      "tags": [
+        "旅行",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "voudrais",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "vouloir",
+            "pos": "動詞",
+            "ja": "欲する・〜したい",
+            "inflection": {
+              "label": "条件法現在・1人称単数",
+              "tense": "COND",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "louer",
+          "start": 12,
+          "end": 17,
+          "gloss": {
+            "lemma": "louer",
+            "pos": "動詞",
+            "ja": "借りる・貸す",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "une",
+          "start": 18,
+          "end": 21
+        },
+        {
+          "surface": "voiture",
+          "start": 22,
+          "end": 29,
+          "gloss": {
+            "lemma": "voiture",
+            "pos": "名詞",
+            "ja": "車"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0197",
+      "lang": "fr",
+      "text": "Est-ce que ce bus va à l'aéroport ?",
+      "ja": "このバスは空港に行きますか。",
+      "level": "A2",
+      "tags": [
+        "交通",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Est-ce que",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "est-ce que",
+            "pos": "疑問詞",
+            "ja": "〜ですか",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "ce",
+          "start": 11,
+          "end": 13
+        },
+        {
+          "surface": "bus",
+          "start": 14,
+          "end": 17,
+          "gloss": {
+            "lemma": "bus",
+            "pos": "名詞",
+            "ja": "バス"
+          }
+        },
+        {
+          "surface": "va",
+          "start": 18,
+          "end": 20,
+          "gloss": {
+            "lemma": "aller",
+            "pos": "動詞",
+            "ja": "行く",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "à l'",
+          "start": 21,
+          "end": 25
+        },
+        {
+          "surface": "aéroport",
+          "start": 25,
+          "end": 33,
+          "gloss": {
+            "lemma": "aéroport",
+            "pos": "名詞",
+            "ja": "空港"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0198",
+      "lang": "fr",
+      "text": "Je me suis perdu dans le quartier.",
+      "ja": "この界隈で道に迷ってしまいました。",
+      "level": "A2",
+      "tags": [
+        "道案内",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Je me",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "suis",
+          "start": 6,
+          "end": 10,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "代名動詞の複合過去は être",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "perdu",
+          "start": 11,
+          "end": 16,
+          "gloss": {
+            "lemma": "perdre",
+            "pos": "動詞",
+            "ja": "失う・（代名動詞で）道に迷う",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "dans le",
+          "start": 17,
+          "end": 24
+        },
+        {
+          "surface": "quartier",
+          "start": 25,
+          "end": 33,
+          "gloss": {
+            "lemma": "quartier",
+            "pos": "名詞",
+            "ja": "界隈・地区"
+          }
+        }
+      ],
+      "grammar": "代名動詞 se perdre の複合過去。être を使い、主語に性数一致する。"
+    },
+    {
+      "id": "fr-0199",
+      "lang": "fr",
+      "text": "Il y a un hôtel près de la gare.",
+      "ja": "駅の近くにホテルがあります。",
+      "level": "A2",
+      "tags": [
+        "旅行",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Il y a",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "il y a",
+            "pos": "慣用表現",
+            "ja": "〜がある",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "a",
+              "lemma": "avoir"
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 7,
+          "end": 9
+        },
+        {
+          "surface": "hôtel",
+          "start": 10,
+          "end": 15,
+          "gloss": {
+            "lemma": "hôtel",
+            "pos": "名詞",
+            "ja": "ホテル"
+          }
+        },
+        {
+          "surface": "près de",
+          "start": 16,
+          "end": 23,
+          "gloss": {
+            "lemma": "près de",
+            "pos": "前置詞",
+            "ja": "〜の近くに"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 24,
+          "end": 26
+        },
+        {
+          "surface": "gare",
+          "start": 27,
+          "end": 31,
+          "gloss": {
+            "lemma": "gare",
+            "pos": "名詞",
+            "ja": "駅"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0200",
+      "lang": "fr",
+      "text": "On va visiter le musée cet après-midi.",
+      "ja": "今日の午後は美術館を見に行きます。",
+      "level": "A2",
+      "tags": [
+        "旅行",
+        "近接未来"
+      ],
+      "tokens": [
+        {
+          "surface": "On",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "va",
+          "start": 3,
+          "end": 5,
+          "gloss": {
+            "lemma": "aller",
+            "pos": "動詞",
+            "ja": "行く・〜するつもりだ",
+            "note": "aller + 不定詞で近接未来",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "visiter",
+          "start": 6,
+          "end": 13,
+          "gloss": {
+            "lemma": "visiter",
+            "pos": "動詞",
+            "ja": "訪れる・見学する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "le",
+          "start": 14,
+          "end": 16
+        },
+        {
+          "surface": "musée",
+          "start": 17,
+          "end": 22,
+          "gloss": {
+            "lemma": "musée",
+            "pos": "名詞",
+            "ja": "美術館・博物館"
+          }
+        },
+        {
+          "surface": "cet après-midi",
+          "start": 23,
+          "end": 37,
+          "gloss": {
+            "lemma": "cet après-midi",
+            "pos": "慣用表現",
+            "ja": "今日の午後",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0201",
+      "lang": "fr",
+      "text": "Combien de stations avant Bastille ?",
+      "ja": "バスティーユまであと何駅ですか。",
+      "level": "A2",
+      "tags": [
+        "交通",
+        "疑問"
+      ],
+      "tokens": [
+        {
+          "surface": "Combien de",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "combien de",
+            "pos": "疑問詞",
+            "ja": "どれだけの",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "stations",
+          "start": 11,
+          "end": 19,
+          "gloss": {
+            "lemma": "station",
+            "pos": "名詞",
+            "ja": "駅・停留所"
+          }
+        },
+        {
+          "surface": "avant",
+          "start": 20,
+          "end": 25,
+          "gloss": {
+            "lemma": "avant",
+            "pos": "前置詞",
+            "ja": "〜の前に"
+          }
+        },
+        {
+          "surface": "Bastille",
+          "start": 26,
+          "end": 34,
+          "gloss": {
+            "lemma": "Bastille",
+            "pos": "固有名詞",
+            "ja": "バスティーユ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0202",
+      "lang": "fr",
+      "text": "Ne descendez pas ici, c'est trop tôt.",
+      "ja": "ここで降りないで、まだ早いです。",
+      "level": "A2",
+      "tags": [
+        "交通",
+        "命令法",
+        "否定"
+      ],
+      "tokens": [
+        {
+          "surface": "Ne",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "descendez",
+          "start": 3,
+          "end": 12,
+          "gloss": {
+            "lemma": "descendre",
+            "pos": "動詞",
+            "ja": "降りる・下る",
+            "inflection": {
+              "label": "命令法・2人称複数",
+              "tense": "IMPER",
+              "person": "2pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas",
+          "start": 13,
+          "end": 16
+        },
+        {
+          "surface": "ici",
+          "start": 17,
+          "end": 20,
+          "gloss": {
+            "lemma": "ici",
+            "pos": "副詞",
+            "ja": "ここに"
+          }
+        },
+        {
+          "surface": "c'",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "surface": "est",
+          "start": 24,
+          "end": 27,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "trop tôt",
+          "start": 28,
+          "end": 36,
+          "gloss": {
+            "lemma": "trop tôt",
+            "pos": "慣用表現",
+            "ja": "早すぎる",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "否定命令は ne と pas で動詞を挟む。"
+    },
+    {
+      "id": "fr-0203",
+      "lang": "fr",
+      "text": "Pouvez-vous me montrer sur le plan ?",
+      "ja": "地図で示していただけますか。",
+      "level": "A2",
+      "tags": [
+        "道案内",
+        "疑問",
+        "依頼"
+      ],
+      "tokens": [
+        {
+          "surface": "Pouvez",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "pouvoir",
+            "pos": "動詞",
+            "ja": "〜できる",
+            "inflection": {
+              "label": "直説法現在・2人称複数",
+              "tense": "PRES",
+              "person": "2pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "vous me",
+          "start": 7,
+          "end": 14
+        },
+        {
+          "surface": "montrer",
+          "start": 15,
+          "end": 22,
+          "gloss": {
+            "lemma": "montrer",
+            "pos": "動詞",
+            "ja": "見せる・示す",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "sur le",
+          "start": 23,
+          "end": 29
+        },
+        {
+          "surface": "plan",
+          "start": 30,
+          "end": 34,
+          "gloss": {
+            "lemma": "plan",
+            "pos": "名詞",
+            "ja": "地図・計画"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0204",
+      "lang": "fr",
+      "text": "J'ai réservé une chambre pour trois nuits.",
+      "ja": "3泊で部屋を予約しました。",
+      "level": "A2",
+      "tags": [
+        "旅行",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "J'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ai réservé",
+          "start": 2,
+          "end": 12,
+          "gloss": {
+            "lemma": "réserver",
+            "pos": "動詞",
+            "ja": "予約する",
+            "inflection": {
+              "label": "複合過去・1人称単数",
+              "tense": "PC",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "une",
+          "start": 13,
+          "end": 16
+        },
+        {
+          "surface": "chambre",
+          "start": 17,
+          "end": 24,
+          "gloss": {
+            "lemma": "chambre",
+            "pos": "名詞",
+            "ja": "部屋・寝室"
+          }
+        },
+        {
+          "surface": "pour",
+          "start": 25,
+          "end": 29
+        },
+        {
+          "surface": "trois",
+          "start": 30,
+          "end": 35,
+          "gloss": {
+            "lemma": "trois",
+            "pos": "数詞",
+            "ja": "3"
+          }
+        },
+        {
+          "surface": "nuits",
+          "start": 36,
+          "end": 41,
+          "gloss": {
+            "lemma": "nuit",
+            "pos": "名詞",
+            "ja": "夜・泊"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0205",
+      "lang": "fr",
+      "text": "Le petit déjeuner est inclus ?",
+      "ja": "朝食は込みですか。",
+      "level": "A2",
+      "tags": [
+        "旅行",
+        "疑問",
+        "受動"
+      ],
+      "tokens": [
+        {
+          "surface": "Le",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "petit déjeuner",
+          "start": 3,
+          "end": 17,
+          "gloss": {
+            "lemma": "petit déjeuner",
+            "pos": "慣用表現",
+            "ja": "朝食",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "est",
+          "start": 18,
+          "end": 21,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "受動態の être",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "inclus",
+          "start": 22,
+          "end": 28,
+          "gloss": {
+            "lemma": "inclus",
+            "pos": "形容詞",
+            "ja": "含まれた"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0206",
+      "lang": "fr",
+      "text": "Il vaut mieux partir tôt le matin.",
+      "ja": "朝早く出たほうがいいですよ。",
+      "level": "B1",
+      "tags": [
+        "旅行",
+        "助言",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Il vaut mieux",
+          "start": 0,
+          "end": 13,
+          "gloss": {
+            "lemma": "il vaut mieux",
+            "pos": "慣用表現",
+            "ja": "〜したほうがよい",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "vaut",
+              "lemma": "valoir"
+            }
+          }
+        },
+        {
+          "surface": "partir",
+          "start": 14,
+          "end": 20,
+          "gloss": {
+            "lemma": "partir",
+            "pos": "動詞",
+            "ja": "出発する・去る",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "tôt",
+          "start": 21,
+          "end": 24,
+          "gloss": {
+            "lemma": "tôt",
+            "pos": "副詞",
+            "ja": "早く"
+          }
+        },
+        {
+          "surface": "le matin",
+          "start": 25,
+          "end": 33,
+          "gloss": {
+            "lemma": "le matin",
+            "pos": "慣用表現",
+            "ja": "朝に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "il vaut mieux + 不定詞で「〜したほうがよい」。助言の定型。"
+    },
+    {
+      "id": "fr-0207",
+      "lang": "fr",
+      "text": "Si vous avez le temps, passez par le vieux port.",
+      "ja": "時間があれば旧港を通ってみてください。",
+      "level": "B1",
+      "tags": [
+        "旅行",
+        "条件",
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Si vous",
+          "start": 0,
+          "end": 7
+        },
+        {
+          "surface": "avez",
+          "start": 8,
+          "end": 12,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "note": "si のあとは直説法",
+            "inflection": {
+              "label": "直説法現在・2人称複数",
+              "tense": "PRES",
+              "person": "2pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "le temps",
+          "start": 13,
+          "end": 21,
+          "gloss": {
+            "lemma": "le temps",
+            "pos": "名詞",
+            "ja": "時間"
+          }
+        },
+        {
+          "surface": "passez",
+          "start": 23,
+          "end": 29,
+          "gloss": {
+            "lemma": "passer",
+            "pos": "動詞",
+            "ja": "通る・立ち寄る",
+            "inflection": {
+              "label": "命令法・2人称複数",
+              "tense": "IMPER",
+              "person": "2pl"
+            }
+          }
+        },
+        {
+          "surface": "par le",
+          "start": 30,
+          "end": 36
+        },
+        {
+          "surface": "vieux",
+          "start": 37,
+          "end": 42,
+          "gloss": {
+            "lemma": "vieux",
+            "pos": "形容詞",
+            "ja": "古い"
+          }
+        },
+        {
+          "surface": "port",
+          "start": 43,
+          "end": 47,
+          "gloss": {
+            "lemma": "port",
+            "pos": "名詞",
+            "ja": "港"
+          }
+        }
+      ],
+      "grammar": "si + 現在形 → 命令法。実現しうる条件に対する助言。"
+    },
+    {
+      "id": "fr-0208",
+      "lang": "fr",
+      "text": "Je ne sais pas où j'ai mis mon billet.",
+      "ja": "切符をどこに置いたか分かりません。",
+      "level": "B1",
+      "tags": [
+        "交通",
+        "複合過去",
+        "否定"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ne",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "sais",
+          "start": 6,
+          "end": 10,
+          "gloss": {
+            "lemma": "savoir",
+            "pos": "動詞",
+            "ja": "知る・知っている",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas où j'",
+          "start": 11,
+          "end": 20
+        },
+        {
+          "surface": "ai mis",
+          "start": 20,
+          "end": 26,
+          "gloss": {
+            "lemma": "mettre",
+            "pos": "動詞",
+            "ja": "置く・入れる",
+            "inflection": {
+              "label": "複合過去・1人称単数",
+              "tense": "PC",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "mon",
+          "start": 27,
+          "end": 30
+        },
+        {
+          "surface": "billet",
+          "start": 31,
+          "end": 37,
+          "gloss": {
+            "lemma": "billet",
+            "pos": "名詞",
+            "ja": "切符・チケット"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0209",
+      "lang": "fr",
+      "text": "Quand j'étais étudiant, je voyageais beaucoup.",
+      "ja": "学生のころはよく旅行していました。",
+      "level": "B1",
+      "tags": [
+        "旅行",
+        "半過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Quand",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "quand",
+            "pos": "接続詞",
+            "ja": "〜のとき"
+          }
+        },
+        {
+          "surface": "j'",
+          "start": 6,
+          "end": 8
+        },
+        {
+          "surface": "étais",
+          "start": 8,
+          "end": 13,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "半過去・1人称単数",
+              "tense": "IMPF",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "étudiant",
+          "start": 14,
+          "end": 22,
+          "gloss": {
+            "lemma": "étudiant",
+            "pos": "名詞",
+            "ja": "学生"
+          }
+        },
+        {
+          "surface": "je",
+          "start": 24,
+          "end": 26
+        },
+        {
+          "surface": "voyageais",
+          "start": 27,
+          "end": 36,
+          "gloss": {
+            "lemma": "voyager",
+            "pos": "動詞",
+            "ja": "旅行する",
+            "note": "過去の習慣は半過去",
+            "inflection": {
+              "label": "半過去・1人称単数",
+              "tense": "IMPF",
+              "person": "1sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の g が ge に変わる（voyag- → voyage-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "beaucoup",
+          "start": 37,
+          "end": 45,
+          "gloss": {
+            "lemma": "beaucoup",
+            "pos": "副詞",
+            "ja": "たくさん・とても"
+          }
+        }
+      ],
+      "grammar": "半過去は過去に繰り返していた習慣を表す。「よく〜したものだ」。"
+    },
+    {
+      "id": "fr-0210",
+      "lang": "fr",
+      "text": "Le train pour Lyon vient de partir.",
+      "ja": "リヨン行きの電車は今出たところです。",
+      "level": "B1",
+      "tags": [
+        "交通",
+        "近接過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Le",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "train",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "train",
+            "pos": "名詞",
+            "ja": "電車・列車"
+          }
+        },
+        {
+          "surface": "pour",
+          "start": 9,
+          "end": 13
+        },
+        {
+          "surface": "Lyon",
+          "start": 14,
+          "end": 18,
+          "gloss": {
+            "lemma": "Lyon",
+            "pos": "固有名詞",
+            "ja": "リヨン"
+          }
+        },
+        {
+          "surface": "vient",
+          "start": 19,
+          "end": 24,
+          "gloss": {
+            "lemma": "venir",
+            "pos": "動詞",
+            "ja": "来る",
+            "note": "venir de + 不定詞で「〜したばかり」",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "de",
+          "start": 25,
+          "end": 27
+        },
+        {
+          "surface": "partir",
+          "start": 28,
+          "end": 34,
+          "gloss": {
+            "lemma": "partir",
+            "pos": "動詞",
+            "ja": "出発する・去る",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ],
+      "grammar": "venir de + 不定詞で近接過去「〜したばかり」。"
+    },
+    {
+      "id": "fr-0211",
+      "lang": "fr",
+      "text": "Il faut que nous soyons à l'aéroport à six heures.",
+      "ja": "6時に空港にいないといけません。",
+      "level": "B1",
+      "tags": [
+        "旅行",
+        "接続法",
+        "義務"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "faut",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "falloir",
+            "pos": "動詞",
+            "ja": "必要である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "que nous",
+          "start": 8,
+          "end": 16
+        },
+        {
+          "surface": "soyons",
+          "start": 17,
+          "end": 23,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "il faut que のあとは接続法",
+            "inflection": {
+              "label": "接続法現在・1人称複数",
+              "tense": "SUBJ",
+              "person": "1pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "à l'",
+          "start": 24,
+          "end": 28
+        },
+        {
+          "surface": "aéroport",
+          "start": 28,
+          "end": 36,
+          "gloss": {
+            "lemma": "aéroport",
+            "pos": "名詞",
+            "ja": "空港"
+          }
+        },
+        {
+          "surface": "à six heures",
+          "start": 37,
+          "end": 49,
+          "gloss": {
+            "lemma": "à six heures",
+            "pos": "慣用表現",
+            "ja": "6時に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "il faut que + 接続法。être の接続法 soyons は不規則形。"
+    },
+    {
+      "id": "fr-0212",
+      "lang": "fr",
+      "text": "C'est la première fois que je viens ici.",
+      "ja": "ここに来るのは初めてです。",
+      "level": "B1",
+      "tags": [
+        "旅行",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "C'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "est",
+          "start": 2,
+          "end": 5,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "la première fois que",
+          "start": 6,
+          "end": 26,
+          "gloss": {
+            "lemma": "la première fois que",
+            "pos": "慣用表現",
+            "ja": "〜するのは初めて",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "je",
+          "start": 27,
+          "end": 29
+        },
+        {
+          "surface": "viens",
+          "start": 30,
+          "end": 35,
+          "gloss": {
+            "lemma": "venir",
+            "pos": "動詞",
+            "ja": "来る",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "ici",
+          "start": 36,
+          "end": 39,
+          "gloss": {
+            "lemma": "ici",
+            "pos": "副詞",
+            "ja": "ここに"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0213",
+      "lang": "fr",
+      "text": "On m'a dit de descendre au terminus.",
+      "ja": "終点で降りるように言われました。",
+      "level": "B1",
+      "tags": [
+        "交通",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "On",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "m'",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "a dit",
+          "start": 5,
+          "end": 10,
+          "gloss": {
+            "lemma": "dire",
+            "pos": "動詞",
+            "ja": "言う",
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "de",
+          "start": 11,
+          "end": 13
+        },
+        {
+          "surface": "descendre",
+          "start": 14,
+          "end": 23,
+          "gloss": {
+            "lemma": "descendre",
+            "pos": "動詞",
+            "ja": "降りる・下る",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "au",
+          "start": 24,
+          "end": 26
+        },
+        {
+          "surface": "terminus",
+          "start": 27,
+          "end": 35,
+          "gloss": {
+            "lemma": "terminus",
+            "pos": "名詞",
+            "ja": "終点"
+          }
+        }
+      ],
+      "grammar": "dire à qqn de + 不定詞。on を主語にすると受け身のように使える。"
+    },
+    {
+      "id": "fr-0214",
+      "lang": "fr",
+      "text": "Nous partirons dès que le temps s'améliorera.",
+      "ja": "天気がよくなり次第、出発します。",
+      "level": "B1",
+      "tags": [
+        "旅行",
+        "単純未来"
+      ],
+      "tokens": [
+        {
+          "surface": "Nous",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "surface": "partirons",
+          "start": 5,
+          "end": 14,
+          "gloss": {
+            "lemma": "partir",
+            "pos": "動詞",
+            "ja": "出発する・去る",
+            "inflection": {
+              "label": "単純未来・1人称複数",
+              "tense": "FUT",
+              "person": "1pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "dès que",
+          "start": 15,
+          "end": 22,
+          "gloss": {
+            "lemma": "dès que",
+            "pos": "接続詞",
+            "ja": "〜するとすぐに",
+            "idiom": true,
+            "note": "後ろは未来形にする"
+          }
+        },
+        {
+          "surface": "le temps",
+          "start": 23,
+          "end": 31,
+          "gloss": {
+            "lemma": "le temps",
+            "pos": "名詞",
+            "ja": "天気・時間"
+          }
+        },
+        {
+          "surface": "s'",
+          "start": 32,
+          "end": 34
+        },
+        {
+          "surface": "améliorera",
+          "start": 34,
+          "end": 44,
+          "gloss": {
+            "lemma": "améliorer",
+            "pos": "動詞",
+            "ja": "改善する・よくする",
+            "inflection": {
+              "label": "単純未来・3人称単数",
+              "tense": "FUT",
+              "person": "3sg"
+            }
+          }
+        }
+      ],
+      "grammar": "dès que のあとは未来のことでも未来形にする。英語と違うので注意。"
+    },
+    {
+      "id": "fr-0215",
+      "lang": "fr",
+      "text": "Je préfère marcher plutôt que prendre un taxi.",
+      "ja": "タクシーに乗るより歩くほうがいいです。",
+      "level": "B1",
+      "tags": [
+        "交通",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "préfère",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "préférer",
+            "pos": "動詞",
+            "ja": "〜のほうを好む",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の é が è に変わる（préfér- → préfèr-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "marcher",
+          "start": 11,
+          "end": 18,
+          "gloss": {
+            "lemma": "marcher",
+            "pos": "動詞",
+            "ja": "歩く・作動する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "plutôt que",
+          "start": 19,
+          "end": 29,
+          "gloss": {
+            "lemma": "plutôt que",
+            "pos": "慣用表現",
+            "ja": "〜よりむしろ",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "prendre",
+          "start": 30,
+          "end": 37,
+          "gloss": {
+            "lemma": "prendre",
+            "pos": "動詞",
+            "ja": "取る・（乗り物に）乗る",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 38,
+          "end": 40
+        },
+        {
+          "surface": "taxi",
+          "start": 41,
+          "end": 45,
+          "gloss": {
+            "lemma": "taxi",
+            "pos": "名詞",
+            "ja": "タクシー"
+          }
+        }
+      ],
+      "grammar": "plutôt que + 不定詞で「〜するよりむしろ」。"
+    },
+    {
+      "id": "fr-0216",
+      "lang": "fr",
+      "text": "Le musée est fermé le lundi.",
+      "ja": "美術館は月曜が休みです。",
+      "level": "B1",
+      "tags": [
+        "旅行",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Le",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "musée",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "musée",
+            "pos": "名詞",
+            "ja": "美術館・博物館"
+          }
+        },
+        {
+          "surface": "est",
+          "start": 9,
+          "end": 12,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "fermé",
+          "start": 13,
+          "end": 18,
+          "gloss": {
+            "lemma": "fermer",
+            "pos": "動詞",
+            "ja": "閉める",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE"
+            }
+          }
+        },
+        {
+          "surface": "le lundi",
+          "start": 19,
+          "end": 27,
+          "gloss": {
+            "lemma": "le lundi",
+            "pos": "慣用表現",
+            "ja": "毎週月曜に",
+            "idiom": true,
+            "note": "定冠詞を付けると習慣を表す"
+          }
+        }
+      ],
+      "grammar": "曜日に定冠詞を付けると「毎週その曜日」を表す。"
+    },
+    {
+      "id": "fr-0217",
+      "lang": "fr",
+      "text": "J'aimerais rester une nuit de plus.",
+      "ja": "もう1泊したいのですが。",
+      "level": "B1",
+      "tags": [
+        "旅行",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "J'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "aimerais",
+          "start": 2,
+          "end": 10,
+          "gloss": {
+            "lemma": "aimer",
+            "pos": "動詞",
+            "ja": "好む・愛する",
+            "note": "条件法にすると控えめな希望になる",
+            "inflection": {
+              "label": "条件法現在・1人称単数",
+              "tense": "COND",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "rester",
+          "start": 11,
+          "end": 17,
+          "gloss": {
+            "lemma": "rester",
+            "pos": "動詞",
+            "ja": "とどまる・残る",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "une",
+          "start": 18,
+          "end": 21
+        },
+        {
+          "surface": "nuit",
+          "start": 22,
+          "end": 26,
+          "gloss": {
+            "lemma": "nuit",
+            "pos": "名詞",
+            "ja": "夜・泊"
+          }
+        },
+        {
+          "surface": "de plus",
+          "start": 27,
+          "end": 34,
+          "gloss": {
+            "lemma": "de plus",
+            "pos": "慣用表現",
+            "ja": "もう1つ・さらに",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0218",
+      "lang": "fr",
+      "text": "En arrivant, appelez-moi tout de suite.",
+      "ja": "着いたらすぐに電話してください。",
+      "level": "B1",
+      "tags": [
+        "旅行",
+        "現在分詞",
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "En",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "arrivant",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "arriver",
+            "pos": "動詞",
+            "ja": "着く・到着する",
+            "note": "en + 現在分詞で「〜するときに」",
+            "inflection": {
+              "label": "現在分詞",
+              "tense": "PPRES"
+            }
+          }
+        },
+        {
+          "surface": "appelez",
+          "start": 13,
+          "end": 20,
+          "gloss": {
+            "lemma": "appeler",
+            "pos": "動詞",
+            "ja": "呼ぶ・電話する",
+            "inflection": {
+              "label": "命令法・2人称複数",
+              "tense": "IMPER",
+              "person": "2pl"
+            }
+          }
+        },
+        {
+          "surface": "moi",
+          "start": 21,
+          "end": 24
+        },
+        {
+          "surface": "tout de suite",
+          "start": 25,
+          "end": 38,
+          "gloss": {
+            "lemma": "tout de suite",
+            "pos": "慣用表現",
+            "ja": "今すぐ",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "en + 現在分詞（ジェロンディフ）で「〜するときに」。"
+    },
+    {
+      "id": "fr-0219",
+      "lang": "fr",
+      "text": "Ce quartier a beaucoup changé depuis mon dernier séjour.",
+      "ja": "前回の滞在からこの界隈はずいぶん変わりました。",
+      "level": "B1",
+      "tags": [
+        "旅行",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Ce",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "quartier",
+          "start": 3,
+          "end": 11,
+          "gloss": {
+            "lemma": "quartier",
+            "pos": "名詞",
+            "ja": "界隈・地区"
+          }
+        },
+        {
+          "surface": "a",
+          "start": 12,
+          "end": 13,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "note": "複合過去の助動詞",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "beaucoup",
+          "start": 14,
+          "end": 22,
+          "gloss": {
+            "lemma": "beaucoup",
+            "pos": "副詞",
+            "ja": "たくさん・とても"
+          }
+        },
+        {
+          "surface": "changé",
+          "start": 23,
+          "end": 29,
+          "gloss": {
+            "lemma": "changer",
+            "pos": "動詞",
+            "ja": "変える・変わる",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE"
+            }
+          }
+        },
+        {
+          "surface": "depuis",
+          "start": 30,
+          "end": 36,
+          "gloss": {
+            "lemma": "depuis",
+            "pos": "前置詞",
+            "ja": "〜以来"
+          }
+        },
+        {
+          "surface": "mon dernier",
+          "start": 37,
+          "end": 48
+        },
+        {
+          "surface": "séjour",
+          "start": 49,
+          "end": 55,
+          "gloss": {
+            "lemma": "séjour",
+            "pos": "名詞",
+            "ja": "滞在"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0220",
+      "lang": "fr",
+      "text": "Tu ferais mieux de réserver à l'avance.",
+      "ja": "前もって予約したほうがいいよ。",
+      "level": "B1",
+      "tags": [
+        "旅行",
+        "助言",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Tu",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ferais mieux de",
+          "start": 3,
+          "end": 18,
+          "gloss": {
+            "lemma": "faire mieux de",
+            "pos": "慣用表現",
+            "ja": "〜したほうがよい",
+            "idiom": true,
+            "inflection": {
+              "label": "条件法現在・2人称単数",
+              "tense": "COND",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "ferais",
+              "lemma": "faire"
+            }
+          }
+        },
+        {
+          "surface": "réserver",
+          "start": 19,
+          "end": 27,
+          "gloss": {
+            "lemma": "réserver",
+            "pos": "動詞",
+            "ja": "予約する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "à l'avance",
+          "start": 28,
+          "end": 38,
+          "gloss": {
+            "lemma": "à l'avance",
+            "pos": "慣用表現",
+            "ja": "前もって",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "faire mieux de + 不定詞で「〜したほうがよい」。条件法で忠告になる。"
     }
   ]
 }

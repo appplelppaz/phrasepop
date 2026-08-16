@@ -31279,6 +31279,261 @@
       }
     },
     {
+      "lemma": "traverser",
+      "ja": "渡る・横断する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "traverse",
+          "traverses",
+          "traverse",
+          "traversons",
+          "traversez",
+          "traversent"
+        ],
+        "IMPF": [
+          "traversais",
+          "traversais",
+          "traversait",
+          "traversions",
+          "traversiez",
+          "traversaient"
+        ],
+        "FUT": [
+          "traverserai",
+          "traverseras",
+          "traversera",
+          "traverserons",
+          "traverserez",
+          "traverseront"
+        ],
+        "PC": [
+          "ai traversé",
+          "as traversé",
+          "a traversé",
+          "avons traversé",
+          "avez traversé",
+          "ont traversé"
+        ],
+        "PQP": [
+          "avais traversé",
+          "avais traversé",
+          "avait traversé",
+          "avions traversé",
+          "aviez traversé",
+          "avaient traversé"
+        ],
+        "PS": [
+          "traversai",
+          "traversas",
+          "traversa",
+          "traversâmes",
+          "traversâtes",
+          "traversèrent"
+        ],
+        "COND": [
+          "traverserais",
+          "traverserais",
+          "traverserait",
+          "traverserions",
+          "traverseriez",
+          "traverseraient"
+        ],
+        "SUBJ": [
+          "traverse",
+          "traverses",
+          "traverse",
+          "traversions",
+          "traversiez",
+          "traversent"
+        ],
+        "IMPER": [
+          "",
+          "traverse",
+          "",
+          "traversons",
+          "traversez",
+          ""
+        ],
+        "PPRES": [
+          "traversant"
+        ],
+        "PPASSE": [
+          "traversé"
+        ]
+      }
+    },
+    {
+      "lemma": "rater",
+      "ja": "逃す・失敗する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "rate",
+          "rates",
+          "rate",
+          "ratons",
+          "ratez",
+          "ratent"
+        ],
+        "IMPF": [
+          "ratais",
+          "ratais",
+          "ratait",
+          "rations",
+          "ratiez",
+          "rataient"
+        ],
+        "FUT": [
+          "raterai",
+          "rateras",
+          "ratera",
+          "raterons",
+          "raterez",
+          "rateront"
+        ],
+        "PC": [
+          "ai raté",
+          "as raté",
+          "a raté",
+          "avons raté",
+          "avez raté",
+          "ont raté"
+        ],
+        "PQP": [
+          "avais raté",
+          "avais raté",
+          "avait raté",
+          "avions raté",
+          "aviez raté",
+          "avaient raté"
+        ],
+        "PS": [
+          "ratai",
+          "ratas",
+          "rata",
+          "ratâmes",
+          "ratâtes",
+          "ratèrent"
+        ],
+        "COND": [
+          "raterais",
+          "raterais",
+          "raterait",
+          "raterions",
+          "rateriez",
+          "rateraient"
+        ],
+        "SUBJ": [
+          "rate",
+          "rates",
+          "rate",
+          "rations",
+          "ratiez",
+          "ratent"
+        ],
+        "IMPER": [
+          "",
+          "rate",
+          "",
+          "ratons",
+          "ratez",
+          ""
+        ],
+        "PPRES": [
+          "ratant"
+        ],
+        "PPASSE": [
+          "raté"
+        ]
+      }
+    },
+    {
+      "lemma": "améliorer",
+      "ja": "改善する・よくする",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "améliore",
+          "améliores",
+          "améliore",
+          "améliorons",
+          "améliorez",
+          "améliorent"
+        ],
+        "IMPF": [
+          "améliorais",
+          "améliorais",
+          "améliorait",
+          "améliorions",
+          "amélioriez",
+          "amélioraient"
+        ],
+        "FUT": [
+          "améliorerai",
+          "amélioreras",
+          "améliorera",
+          "améliorerons",
+          "améliorerez",
+          "amélioreront"
+        ],
+        "PC": [
+          "ai amélioré",
+          "as amélioré",
+          "a amélioré",
+          "avons amélioré",
+          "avez amélioré",
+          "ont amélioré"
+        ],
+        "PQP": [
+          "avais amélioré",
+          "avais amélioré",
+          "avait amélioré",
+          "avions amélioré",
+          "aviez amélioré",
+          "avaient amélioré"
+        ],
+        "PS": [
+          "améliorai",
+          "amélioras",
+          "améliora",
+          "améliorâmes",
+          "améliorâtes",
+          "améliorèrent"
+        ],
+        "COND": [
+          "améliorerais",
+          "améliorerais",
+          "améliorerait",
+          "améliorerions",
+          "amélioreriez",
+          "amélioreraient"
+        ],
+        "SUBJ": [
+          "améliore",
+          "améliores",
+          "améliore",
+          "améliorions",
+          "amélioriez",
+          "améliorent"
+        ],
+        "IMPER": [
+          "",
+          "améliore",
+          "",
+          "améliorons",
+          "améliorez",
+          ""
+        ],
+        "PPRES": [
+          "améliorant"
+        ],
+        "PPASSE": [
+          "amélioré"
+        ]
+      }
+    },
+    {
       "lemma": "conseiller",
       "ja": "助言する・勧める",
       "aux": "AVOIR",

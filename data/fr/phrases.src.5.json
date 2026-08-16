@@ -1,0 +1,603 @@
+{
+  "_comment": "バッチ5: 移動・道案内・交通・旅行。初心者向けの日常会話。A1〜B1、直説法現在・命令法・近接未来が主役。",
+  "lang": "fr",
+  "phrases": [
+    {
+      "id": "fr-0181",
+      "text": "Pardon, je cherche la station de métro.",
+      "ja": "すみません、地下鉄の駅を探しています。",
+      "level": "A1",
+      "tags": ["道案内", "直説法現在"],
+      "grammar": "見知らぬ人に声をかけるときは Pardon か Excusez-moi。",
+      "tokens": [
+        { "s": "Pardon", "lemma": "pardon", "pos": "間投詞", "ja": "すみません・失礼" },
+        { "s": "je", "skip": true },
+        { "s": "cherche", "lemma": "chercher", "pos": "動詞", "ja": "探す", "infl": "PRES/1sg" },
+        { "s": "la", "skip": true },
+        { "s": "station de métro", "lemma": "station de métro", "pos": "慣用表現", "ja": "地下鉄の駅", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0182",
+      "text": "C'est loin d'ici ?",
+      "ja": "ここから遠いですか。",
+      "level": "A1",
+      "tags": ["道案内", "疑問", "直説法現在"],
+      "tokens": [
+        { "s": "C'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "loin", "lemma": "loin", "pos": "副詞", "ja": "遠くに" },
+        { "s": "d'ici", "lemma": "d'ici", "pos": "慣用表現", "ja": "ここから", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0183",
+      "text": "Tournez à droite après le feu.",
+      "ja": "信号の先を右に曲がってください。",
+      "level": "A1",
+      "tags": ["道案内", "命令法"],
+      "grammar": "道案内は命令法の2人称複数で言う。à droite / à gauche。",
+      "tokens": [
+        { "s": "Tournez", "lemma": "tourner", "pos": "動詞", "ja": "曲がる・回る", "infl": "IMPER/2pl" },
+        { "s": "à droite", "lemma": "à droite", "pos": "慣用表現", "ja": "右に", "idiom": true },
+        { "s": "après", "lemma": "après", "pos": "前置詞", "ja": "〜のあとに" },
+        { "s": "le", "skip": true },
+        { "s": "feu", "lemma": "feu", "pos": "名詞", "ja": "信号・火" }
+      ]
+    },
+    {
+      "id": "fr-0184",
+      "text": "Continuez tout droit jusqu'à la place.",
+      "ja": "広場までまっすぐ進んでください。",
+      "level": "A1",
+      "tags": ["道案内", "命令法"],
+      "grammar": "tout droit は「まっすぐ」。à droite（右に）と混同しやすいので注意。",
+      "tokens": [
+        { "s": "Continuez", "lemma": "continuer", "pos": "動詞", "ja": "続ける・進み続ける", "infl": "IMPER/2pl" },
+        { "s": "tout droit", "lemma": "tout droit", "pos": "慣用表現", "ja": "まっすぐ", "idiom": true, "note": "à droite（右に）と混同しない" },
+        { "s": "jusqu'à", "lemma": "jusqu'à", "pos": "前置詞", "ja": "〜まで" },
+        { "s": "la", "skip": true },
+        { "s": "place", "lemma": "place", "pos": "名詞", "ja": "広場・席" }
+      ]
+    },
+    {
+      "id": "fr-0185",
+      "text": "Je prends le bus tous les matins.",
+      "ja": "毎朝バスに乗ります。",
+      "level": "A1",
+      "tags": ["交通", "直説法現在"],
+      "grammar": "乗り物に乗るのは prendre。tous les + 複数名詞で「毎〜」。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "prends", "lemma": "prendre", "pos": "動詞", "ja": "取る・（乗り物に）乗る", "infl": "PRES/1sg" },
+        { "s": "le", "skip": true },
+        { "s": "bus", "lemma": "bus", "pos": "名詞", "ja": "バス" },
+        { "s": "tous les matins", "lemma": "tous les matins", "pos": "慣用表現", "ja": "毎朝", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0186",
+      "text": "Un billet pour Marseille, s'il vous plaît.",
+      "ja": "マルセイユまで1枚お願いします。",
+      "level": "A1",
+      "tags": ["交通", "旅行"],
+      "tokens": [
+        { "s": "Un", "skip": true },
+        { "s": "billet", "lemma": "billet", "pos": "名詞", "ja": "切符・チケット" },
+        { "s": "pour", "skip": true },
+        { "s": "Marseille", "lemma": "Marseille", "pos": "固有名詞", "ja": "マルセイユ" },
+        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします", "idiom": true, "verb": { "s": "plaît", "lemma": "plaire", "infl": "PRES/3sg" } }
+      ]
+    },
+    {
+      "id": "fr-0187",
+      "text": "Le train part à quelle heure ?",
+      "ja": "電車は何時に出ますか。",
+      "level": "A1",
+      "tags": ["交通", "疑問", "直説法現在"],
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "train", "lemma": "train", "pos": "名詞", "ja": "電車・列車" },
+        { "s": "part", "lemma": "partir", "pos": "動詞", "ja": "出発する・去る", "infl": "PRES/3sg" },
+        { "s": "à quelle heure", "lemma": "à quelle heure", "pos": "疑問詞", "ja": "何時に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0188",
+      "text": "Je vais à Paris demain.",
+      "ja": "明日パリに行きます。",
+      "level": "A1",
+      "tags": ["旅行", "直説法現在"],
+      "grammar": "近い予定は現在形でも言える。aller à + 都市名。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "vais", "lemma": "aller", "pos": "動詞", "ja": "行く", "infl": "PRES/1sg" },
+        { "s": "à", "skip": true },
+        { "s": "Paris", "lemma": "Paris", "pos": "固有名詞", "ja": "パリ" },
+        { "s": "demain", "lemma": "demain", "pos": "副詞", "ja": "明日" }
+      ]
+    },
+    {
+      "id": "fr-0189",
+      "text": "Où sont les toilettes ?",
+      "ja": "トイレはどこですか。",
+      "level": "A1",
+      "tags": ["疑問", "直説法現在"],
+      "grammar": "toilettes は必ず複数形。動詞も複数で受ける。",
+      "tokens": [
+        { "s": "Où", "lemma": "où", "pos": "疑問詞", "ja": "どこに" },
+        { "s": "sont", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3pl" },
+        { "s": "les", "skip": true },
+        { "s": "toilettes", "lemma": "toilettes", "pos": "名詞", "ja": "トイレ", "note": "必ず複数形で使う" }
+      ]
+    },
+    {
+      "id": "fr-0190",
+      "text": "Je descends à la prochaine.",
+      "ja": "次で降ります。",
+      "level": "A1",
+      "tags": ["交通", "直説法現在"],
+      "grammar": "la prochaine は la prochaine station の省略。車内でよく使う。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "descends", "lemma": "descendre", "pos": "動詞", "ja": "降りる・下る", "infl": "PRES/1sg" },
+        { "s": "à la prochaine", "lemma": "à la prochaine", "pos": "慣用表現", "ja": "次の駅で", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0191",
+      "text": "Vous allez tout droit, puis vous traversez.",
+      "ja": "まっすぐ行って、それから渡ってください。",
+      "level": "A2",
+      "tags": ["道案内", "直説法現在"],
+      "grammar": "道案内では命令法の代わりに vous + 現在形もよく使う。",
+      "tokens": [
+        { "s": "Vous", "skip": true },
+        { "s": "allez", "lemma": "aller", "pos": "動詞", "ja": "行く", "infl": "PRES/2pl", "note": "道案内では現在形が命令の代わりになる" },
+        { "s": "tout droit", "lemma": "tout droit", "pos": "慣用表現", "ja": "まっすぐ", "idiom": true },
+        { "s": "puis", "lemma": "puis", "pos": "副詞", "ja": "それから" },
+        { "s": "vous", "skip": true },
+        { "s": "traversez", "lemma": "traverser", "pos": "動詞", "ja": "渡る・横断する", "infl": "PRES/2pl" }
+      ]
+    },
+    {
+      "id": "fr-0192",
+      "text": "Il faut combien de temps à pied ?",
+      "ja": "歩いてどのくらいかかりますか。",
+      "level": "A2",
+      "tags": ["道案内", "疑問", "直説法現在"],
+      "grammar": "il faut は所要時間にも使う。à pied は「徒歩で」。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "faut", "lemma": "falloir", "pos": "動詞", "ja": "必要である・（時間が）かかる", "infl": "PRES/3sg" },
+        { "s": "combien de temps", "lemma": "combien de temps", "pos": "疑問詞", "ja": "どのくらいの時間", "idiom": true },
+        { "s": "à pied", "lemma": "à pied", "pos": "慣用表現", "ja": "徒歩で", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0193",
+      "text": "J'ai raté mon train.",
+      "ja": "電車に乗り遅れました。",
+      "level": "A2",
+      "tags": ["交通", "複合過去"],
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "ai raté", "lemma": "rater", "pos": "動詞", "ja": "逃す・失敗する", "infl": "PC/1sg" },
+        { "s": "mon", "skip": true },
+        { "s": "train", "lemma": "train", "pos": "名詞", "ja": "電車・列車" }
+      ]
+    },
+    {
+      "id": "fr-0194",
+      "text": "Nous sommes arrivés hier soir.",
+      "ja": "昨夜着きました。",
+      "level": "A2",
+      "tags": ["旅行", "複合過去"],
+      "grammar": "移動を表す arriver / partir / venir などは複合過去で être を使い、主語に性数一致する。",
+      "tokens": [
+        { "s": "Nous", "skip": true },
+        { "s": "sommes arrivés", "lemma": "arriver", "pos": "動詞", "ja": "着く・到着する", "infl": "PC/1pl", "note": "移動の動詞は être で複合過去を作る" },
+        { "s": "hier soir", "lemma": "hier soir", "pos": "慣用表現", "ja": "昨夜", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0195",
+      "text": "Le vol a du retard.",
+      "ja": "便が遅れています。",
+      "level": "A2",
+      "tags": ["旅行", "直説法現在"],
+      "grammar": "avoir du retard で「遅れている」。être en retard は人に使う。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "vol", "lemma": "vol", "pos": "名詞", "ja": "フライト・飛行" },
+        { "s": "a du retard", "lemma": "avoir du retard", "pos": "慣用表現", "ja": "遅れている", "idiom": true, "verb": { "s": "a", "lemma": "avoir", "infl": "PRES/3sg" } }
+      ]
+    },
+    {
+      "id": "fr-0196",
+      "text": "Je voudrais louer une voiture.",
+      "ja": "車を借りたいのですが。",
+      "level": "A2",
+      "tags": ["旅行", "条件法現在"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "voudrais", "lemma": "vouloir", "pos": "動詞", "ja": "欲する・〜したい", "infl": "COND/1sg" },
+        { "s": "louer", "lemma": "louer", "pos": "動詞", "ja": "借りる・貸す", "label": "不定詞" },
+        { "s": "une", "skip": true },
+        { "s": "voiture", "lemma": "voiture", "pos": "名詞", "ja": "車" }
+      ]
+    },
+    {
+      "id": "fr-0197",
+      "text": "Est-ce que ce bus va à l'aéroport ?",
+      "ja": "このバスは空港に行きますか。",
+      "level": "A2",
+      "tags": ["交通", "疑問", "直説法現在"],
+      "tokens": [
+        { "s": "Est-ce que", "lemma": "est-ce que", "pos": "疑問詞", "ja": "〜ですか", "idiom": true },
+        { "s": "ce", "skip": true },
+        { "s": "bus", "lemma": "bus", "pos": "名詞", "ja": "バス" },
+        { "s": "va", "lemma": "aller", "pos": "動詞", "ja": "行く", "infl": "PRES/3sg" },
+        { "s": "à l'", "skip": true },
+        { "s": "aéroport", "lemma": "aéroport", "pos": "名詞", "ja": "空港" }
+      ]
+    },
+    {
+      "id": "fr-0198",
+      "text": "Je me suis perdu dans le quartier.",
+      "ja": "この界隈で道に迷ってしまいました。",
+      "level": "A2",
+      "tags": ["道案内", "複合過去"],
+      "grammar": "代名動詞 se perdre の複合過去。être を使い、主語に性数一致する。",
+      "tokens": [
+        { "s": "Je me", "skip": true },
+        { "s": "suis", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1sg", "note": "代名動詞の複合過去は être" },
+        { "s": "perdu", "lemma": "perdre", "pos": "動詞", "ja": "失う・（代名動詞で）道に迷う", "infl": "PPASSE" },
+        { "s": "dans le", "skip": true },
+        { "s": "quartier", "lemma": "quartier", "pos": "名詞", "ja": "界隈・地区" }
+      ]
+    },
+    {
+      "id": "fr-0199",
+      "text": "Il y a un hôtel près de la gare.",
+      "ja": "駅の近くにホテルがあります。",
+      "level": "A2",
+      "tags": ["旅行", "直説法現在"],
+      "tokens": [
+        { "s": "Il y a", "lemma": "il y a", "pos": "慣用表現", "ja": "〜がある", "idiom": true, "verb": { "s": "a", "lemma": "avoir", "infl": "PRES/3sg" } },
+        { "s": "un", "skip": true },
+        { "s": "hôtel", "lemma": "hôtel", "pos": "名詞", "ja": "ホテル" },
+        { "s": "près de", "lemma": "près de", "pos": "前置詞", "ja": "〜の近くに" },
+        { "s": "la", "skip": true },
+        { "s": "gare", "lemma": "gare", "pos": "名詞", "ja": "駅" }
+      ]
+    },
+    {
+      "id": "fr-0200",
+      "text": "On va visiter le musée cet après-midi.",
+      "ja": "今日の午後は美術館を見に行きます。",
+      "level": "A2",
+      "tags": ["旅行", "近接未来"],
+      "tokens": [
+        { "s": "On", "skip": true },
+        { "s": "va", "lemma": "aller", "pos": "動詞", "ja": "行く・〜するつもりだ", "infl": "PRES/3sg", "note": "aller + 不定詞で近接未来" },
+        { "s": "visiter", "lemma": "visiter", "pos": "動詞", "ja": "訪れる・見学する", "label": "不定詞" },
+        { "s": "le", "skip": true },
+        { "s": "musée", "lemma": "musée", "pos": "名詞", "ja": "美術館・博物館" },
+        { "s": "cet après-midi", "lemma": "cet après-midi", "pos": "慣用表現", "ja": "今日の午後", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0201",
+      "text": "Combien de stations avant Bastille ?",
+      "ja": "バスティーユまであと何駅ですか。",
+      "level": "A2",
+      "tags": ["交通", "疑問"],
+      "tokens": [
+        { "s": "Combien de", "lemma": "combien de", "pos": "疑問詞", "ja": "どれだけの", "idiom": true },
+        { "s": "stations", "lemma": "station", "pos": "名詞", "ja": "駅・停留所" },
+        { "s": "avant", "lemma": "avant", "pos": "前置詞", "ja": "〜の前に" },
+        { "s": "Bastille", "lemma": "Bastille", "pos": "固有名詞", "ja": "バスティーユ" }
+      ]
+    },
+    {
+      "id": "fr-0202",
+      "text": "Ne descendez pas ici, c'est trop tôt.",
+      "ja": "ここで降りないで、まだ早いです。",
+      "level": "A2",
+      "tags": ["交通", "命令法", "否定"],
+      "grammar": "否定命令は ne と pas で動詞を挟む。",
+      "tokens": [
+        { "s": "Ne", "skip": true },
+        { "s": "descendez", "lemma": "descendre", "pos": "動詞", "ja": "降りる・下る", "infl": "IMPER/2pl" },
+        { "s": "pas", "skip": true },
+        { "s": "ici", "lemma": "ici", "pos": "副詞", "ja": "ここに" },
+        { "s": "c'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "trop tôt", "lemma": "trop tôt", "pos": "慣用表現", "ja": "早すぎる", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0203",
+      "text": "Pouvez-vous me montrer sur le plan ?",
+      "ja": "地図で示していただけますか。",
+      "level": "A2",
+      "tags": ["道案内", "疑問", "依頼"],
+      "tokens": [
+        { "s": "Pouvez", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "PRES/2pl" },
+        { "s": "vous me", "skip": true },
+        { "s": "montrer", "lemma": "montrer", "pos": "動詞", "ja": "見せる・示す", "label": "不定詞" },
+        { "s": "sur le", "skip": true },
+        { "s": "plan", "lemma": "plan", "pos": "名詞", "ja": "地図・計画" }
+      ]
+    },
+    {
+      "id": "fr-0204",
+      "text": "J'ai réservé une chambre pour trois nuits.",
+      "ja": "3泊で部屋を予約しました。",
+      "level": "A2",
+      "tags": ["旅行", "複合過去"],
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "ai réservé", "lemma": "réserver", "pos": "動詞", "ja": "予約する", "infl": "PC/1sg" },
+        { "s": "une", "skip": true },
+        { "s": "chambre", "lemma": "chambre", "pos": "名詞", "ja": "部屋・寝室" },
+        { "s": "pour", "skip": true },
+        { "s": "trois", "lemma": "trois", "pos": "数詞", "ja": "3" },
+        { "s": "nuits", "lemma": "nuit", "pos": "名詞", "ja": "夜・泊" }
+      ]
+    },
+    {
+      "id": "fr-0205",
+      "text": "Le petit déjeuner est inclus ?",
+      "ja": "朝食は込みですか。",
+      "level": "A2",
+      "tags": ["旅行", "疑問", "受動"],
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "petit déjeuner", "lemma": "petit déjeuner", "pos": "慣用表現", "ja": "朝食", "idiom": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg", "note": "受動態の être" },
+        { "s": "inclus", "lemma": "inclus", "pos": "形容詞", "ja": "含まれた" }
+      ]
+    },
+    {
+      "id": "fr-0206",
+      "text": "Il vaut mieux partir tôt le matin.",
+      "ja": "朝早く出たほうがいいですよ。",
+      "level": "B1",
+      "tags": ["旅行", "助言", "直説法現在"],
+      "grammar": "il vaut mieux + 不定詞で「〜したほうがよい」。助言の定型。",
+      "tokens": [
+        { "s": "Il vaut mieux", "lemma": "il vaut mieux", "pos": "慣用表現", "ja": "〜したほうがよい", "idiom": true, "verb": { "s": "vaut", "lemma": "valoir", "infl": "PRES/3sg" } },
+        { "s": "partir", "lemma": "partir", "pos": "動詞", "ja": "出発する・去る", "label": "不定詞" },
+        { "s": "tôt", "lemma": "tôt", "pos": "副詞", "ja": "早く" },
+        { "s": "le matin", "lemma": "le matin", "pos": "慣用表現", "ja": "朝に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0207",
+      "text": "Si vous avez le temps, passez par le vieux port.",
+      "ja": "時間があれば旧港を通ってみてください。",
+      "level": "B1",
+      "tags": ["旅行", "条件", "命令法"],
+      "grammar": "si + 現在形 → 命令法。実現しうる条件に対する助言。",
+      "tokens": [
+        { "s": "Si vous", "skip": true },
+        { "s": "avez", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/2pl", "note": "si のあとは直説法" },
+        { "s": "le temps", "lemma": "le temps", "pos": "名詞", "ja": "時間" },
+        { "s": "passez", "lemma": "passer", "pos": "動詞", "ja": "通る・立ち寄る", "infl": "IMPER/2pl" },
+        { "s": "par le", "skip": true },
+        { "s": "vieux", "lemma": "vieux", "pos": "形容詞", "ja": "古い" },
+        { "s": "port", "lemma": "port", "pos": "名詞", "ja": "港" }
+      ]
+    },
+    {
+      "id": "fr-0208",
+      "text": "Je ne sais pas où j'ai mis mon billet.",
+      "ja": "切符をどこに置いたか分かりません。",
+      "level": "B1",
+      "tags": ["交通", "複合過去", "否定"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "sais", "lemma": "savoir", "pos": "動詞", "ja": "知る・知っている", "infl": "PRES/1sg" },
+        { "s": "pas où j'", "skip": true },
+        { "s": "ai mis", "lemma": "mettre", "pos": "動詞", "ja": "置く・入れる", "infl": "PC/1sg" },
+        { "s": "mon", "skip": true },
+        { "s": "billet", "lemma": "billet", "pos": "名詞", "ja": "切符・チケット" }
+      ]
+    },
+    {
+      "id": "fr-0209",
+      "text": "Quand j'étais étudiant, je voyageais beaucoup.",
+      "ja": "学生のころはよく旅行していました。",
+      "level": "B1",
+      "tags": ["旅行", "半過去"],
+      "grammar": "半過去は過去に繰り返していた習慣を表す。「よく〜したものだ」。",
+      "tokens": [
+        { "s": "Quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "j'", "skip": true },
+        { "s": "étais", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "IMPF/1sg" },
+        { "s": "étudiant", "lemma": "étudiant", "pos": "名詞", "ja": "学生" },
+        { "s": "je", "skip": true },
+        { "s": "voyageais", "lemma": "voyager", "pos": "動詞", "ja": "旅行する", "infl": "IMPF/1sg", "note": "過去の習慣は半過去" },
+        { "s": "beaucoup", "lemma": "beaucoup", "pos": "副詞", "ja": "たくさん・とても" }
+      ]
+    },
+    {
+      "id": "fr-0210",
+      "text": "Le train pour Lyon vient de partir.",
+      "ja": "リヨン行きの電車は今出たところです。",
+      "level": "B1",
+      "tags": ["交通", "近接過去"],
+      "grammar": "venir de + 不定詞で近接過去「〜したばかり」。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "train", "lemma": "train", "pos": "名詞", "ja": "電車・列車" },
+        { "s": "pour", "skip": true },
+        { "s": "Lyon", "lemma": "Lyon", "pos": "固有名詞", "ja": "リヨン" },
+        { "s": "vient", "lemma": "venir", "pos": "動詞", "ja": "来る", "infl": "PRES/3sg", "note": "venir de + 不定詞で「〜したばかり」" },
+        { "s": "de", "skip": true },
+        { "s": "partir", "lemma": "partir", "pos": "動詞", "ja": "出発する・去る", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0211",
+      "text": "Il faut que nous soyons à l'aéroport à six heures.",
+      "ja": "6時に空港にいないといけません。",
+      "level": "B1",
+      "tags": ["旅行", "接続法", "義務"],
+      "grammar": "il faut que + 接続法。être の接続法 soyons は不規則形。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "faut", "lemma": "falloir", "pos": "動詞", "ja": "必要である", "infl": "PRES/3sg" },
+        { "s": "que nous", "skip": true },
+        { "s": "soyons", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "SUBJ/1pl", "note": "il faut que のあとは接続法" },
+        { "s": "à l'", "skip": true },
+        { "s": "aéroport", "lemma": "aéroport", "pos": "名詞", "ja": "空港" },
+        { "s": "à six heures", "lemma": "à six heures", "pos": "慣用表現", "ja": "6時に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0212",
+      "text": "C'est la première fois que je viens ici.",
+      "ja": "ここに来るのは初めてです。",
+      "level": "B1",
+      "tags": ["旅行", "直説法現在"],
+      "tokens": [
+        { "s": "C'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "la première fois que", "lemma": "la première fois que", "pos": "慣用表現", "ja": "〜するのは初めて", "idiom": true },
+        { "s": "je", "skip": true },
+        { "s": "viens", "lemma": "venir", "pos": "動詞", "ja": "来る", "infl": "PRES/1sg" },
+        { "s": "ici", "lemma": "ici", "pos": "副詞", "ja": "ここに" }
+      ]
+    },
+    {
+      "id": "fr-0213",
+      "text": "On m'a dit de descendre au terminus.",
+      "ja": "終点で降りるように言われました。",
+      "level": "B1",
+      "tags": ["交通", "複合過去"],
+      "grammar": "dire à qqn de + 不定詞。on を主語にすると受け身のように使える。",
+      "tokens": [
+        { "s": "On", "skip": true },
+        { "s": "m'", "skip": true },
+        { "s": "a dit", "lemma": "dire", "pos": "動詞", "ja": "言う", "infl": "PC/3sg" },
+        { "s": "de", "skip": true },
+        { "s": "descendre", "lemma": "descendre", "pos": "動詞", "ja": "降りる・下る", "label": "不定詞" },
+        { "s": "au", "skip": true },
+        { "s": "terminus", "lemma": "terminus", "pos": "名詞", "ja": "終点" }
+      ]
+    },
+    {
+      "id": "fr-0214",
+      "text": "Nous partirons dès que le temps s'améliorera.",
+      "ja": "天気がよくなり次第、出発します。",
+      "level": "B1",
+      "tags": ["旅行", "単純未来"],
+      "grammar": "dès que のあとは未来のことでも未来形にする。英語と違うので注意。",
+      "tokens": [
+        { "s": "Nous", "skip": true },
+        { "s": "partirons", "lemma": "partir", "pos": "動詞", "ja": "出発する・去る", "infl": "FUT/1pl" },
+        { "s": "dès que", "lemma": "dès que", "pos": "接続詞", "ja": "〜するとすぐに", "idiom": true, "note": "後ろは未来形にする" },
+        { "s": "le temps", "lemma": "le temps", "pos": "名詞", "ja": "天気・時間" },
+        { "s": "s'", "skip": true },
+        { "s": "améliorera", "lemma": "améliorer", "pos": "動詞", "ja": "改善する・よくする", "infl": "FUT/3sg" }
+      ]
+    },
+    {
+      "id": "fr-0215",
+      "text": "Je préfère marcher plutôt que prendre un taxi.",
+      "ja": "タクシーに乗るより歩くほうがいいです。",
+      "level": "B1",
+      "tags": ["交通", "直説法現在"],
+      "grammar": "plutôt que + 不定詞で「〜するよりむしろ」。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "préfère", "lemma": "préférer", "pos": "動詞", "ja": "〜のほうを好む", "infl": "PRES/1sg" },
+        { "s": "marcher", "lemma": "marcher", "pos": "動詞", "ja": "歩く・作動する", "label": "不定詞" },
+        { "s": "plutôt que", "lemma": "plutôt que", "pos": "慣用表現", "ja": "〜よりむしろ", "idiom": true },
+        { "s": "prendre", "lemma": "prendre", "pos": "動詞", "ja": "取る・（乗り物に）乗る", "label": "不定詞" },
+        { "s": "un", "skip": true },
+        { "s": "taxi", "lemma": "taxi", "pos": "名詞", "ja": "タクシー" }
+      ]
+    },
+    {
+      "id": "fr-0216",
+      "text": "Le musée est fermé le lundi.",
+      "ja": "美術館は月曜が休みです。",
+      "level": "B1",
+      "tags": ["旅行", "直説法現在"],
+      "grammar": "曜日に定冠詞を付けると「毎週その曜日」を表す。",
+      "tokens": [
+        { "s": "Le", "skip": true },
+        { "s": "musée", "lemma": "musée", "pos": "名詞", "ja": "美術館・博物館" },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg" },
+        { "s": "fermé", "lemma": "fermer", "pos": "動詞", "ja": "閉める", "infl": "PPASSE" },
+        { "s": "le lundi", "lemma": "le lundi", "pos": "慣用表現", "ja": "毎週月曜に", "idiom": true, "note": "定冠詞を付けると習慣を表す" }
+      ]
+    },
+    {
+      "id": "fr-0217",
+      "text": "J'aimerais rester une nuit de plus.",
+      "ja": "もう1泊したいのですが。",
+      "level": "B1",
+      "tags": ["旅行", "条件法現在"],
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "aimerais", "lemma": "aimer", "pos": "動詞", "ja": "好む・愛する", "infl": "COND/1sg", "note": "条件法にすると控えめな希望になる" },
+        { "s": "rester", "lemma": "rester", "pos": "動詞", "ja": "とどまる・残る", "label": "不定詞" },
+        { "s": "une", "skip": true },
+        { "s": "nuit", "lemma": "nuit", "pos": "名詞", "ja": "夜・泊" },
+        { "s": "de plus", "lemma": "de plus", "pos": "慣用表現", "ja": "もう1つ・さらに", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0218",
+      "text": "En arrivant, appelez-moi tout de suite.",
+      "ja": "着いたらすぐに電話してください。",
+      "level": "B1",
+      "tags": ["旅行", "現在分詞", "命令法"],
+      "grammar": "en + 現在分詞（ジェロンディフ）で「〜するときに」。",
+      "tokens": [
+        { "s": "En", "skip": true },
+        { "s": "arrivant", "lemma": "arriver", "pos": "動詞", "ja": "着く・到着する", "infl": "PPRES", "note": "en + 現在分詞で「〜するときに」" },
+        { "s": "appelez", "lemma": "appeler", "pos": "動詞", "ja": "呼ぶ・電話する", "infl": "IMPER/2pl" },
+        { "s": "moi", "skip": true },
+        { "s": "tout de suite", "lemma": "tout de suite", "pos": "慣用表現", "ja": "今すぐ", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0219",
+      "text": "Ce quartier a beaucoup changé depuis mon dernier séjour.",
+      "ja": "前回の滞在からこの界隈はずいぶん変わりました。",
+      "level": "B1",
+      "tags": ["旅行", "複合過去"],
+      "tokens": [
+        { "s": "Ce", "skip": true },
+        { "s": "quartier", "lemma": "quartier", "pos": "名詞", "ja": "界隈・地区" },
+        { "s": "a", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/3sg", "note": "複合過去の助動詞" },
+        { "s": "beaucoup", "lemma": "beaucoup", "pos": "副詞", "ja": "たくさん・とても" },
+        { "s": "changé", "lemma": "changer", "pos": "動詞", "ja": "変える・変わる", "infl": "PPASSE" },
+        { "s": "depuis", "lemma": "depuis", "pos": "前置詞", "ja": "〜以来" },
+        { "s": "mon dernier", "skip": true },
+        { "s": "séjour", "lemma": "séjour", "pos": "名詞", "ja": "滞在" }
+      ]
+    },
+    {
+      "id": "fr-0220",
+      "text": "Tu ferais mieux de réserver à l'avance.",
+      "ja": "前もって予約したほうがいいよ。",
+      "level": "B1",
+      "tags": ["旅行", "助言", "条件法現在"],
+      "grammar": "faire mieux de + 不定詞で「〜したほうがよい」。条件法で忠告になる。",
+      "tokens": [
+        { "s": "Tu", "skip": true },
+        { "s": "ferais mieux de", "lemma": "faire mieux de", "pos": "慣用表現", "ja": "〜したほうがよい", "idiom": true, "verb": { "s": "ferais", "lemma": "faire", "infl": "COND/2sg" } },
+        { "s": "réserver", "lemma": "réserver", "pos": "動詞", "ja": "予約する", "label": "不定詞" },
+        { "s": "à l'avance", "lemma": "à l'avance", "pos": "慣用表現", "ja": "前もって", "idiom": true }
+      ]
+    }
+  ]
+}
