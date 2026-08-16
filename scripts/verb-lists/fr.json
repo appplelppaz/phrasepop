@@ -802,6 +802,91 @@
       "ja": "知らせる・予防する"
     },
     {
+      "lemma": "habiter",
+      "ja": "住む"
+    },
+    {
+      "lemma": "coûter",
+      "ja": "（値段が）かかる"
+    },
+    {
+      "lemma": "tourner",
+      "ja": "曲がる・回る"
+    },
+    {
+      "lemma": "téléphoner",
+      "ja": "電話する"
+    },
+    {
+      "lemma": "écouter",
+      "ja": "聞く・耳を傾ける"
+    },
+    {
+      "lemma": "lever",
+      "ja": "上げる・（代名動詞で）起きる"
+    },
+    {
+      "lemma": "coucher",
+      "ja": "寝かせる・（代名動詞で）寝る"
+    },
+    {
+      "lemma": "réveiller",
+      "ja": "起こす・（代名動詞で）目を覚ます"
+    },
+    {
+      "lemma": "laver",
+      "ja": "洗う"
+    },
+    {
+      "lemma": "manquer",
+      "ja": "足りない・逃す"
+    },
+    {
+      "lemma": "remercier",
+      "ja": "礼を言う"
+    },
+    {
+      "lemma": "excuser",
+      "ja": "許す・（代名動詞で）詫びる"
+    },
+    {
+      "lemma": "présenter",
+      "ja": "紹介する・提示する"
+    },
+    {
+      "lemma": "rencontrer",
+      "ja": "出会う"
+    },
+    {
+      "lemma": "visiter",
+      "ja": "訪れる・見学する"
+    },
+    {
+      "lemma": "réserver",
+      "ja": "予約する"
+    },
+    {
+      "lemma": "louer",
+      "ja": "借りる・貸す"
+    },
+    {
+      "lemma": "neiger",
+      "ja": "雪が降る",
+      "impersonal": true,
+      "omit": [
+        "IMPER",
+        "PPRES"
+      ]
+    },
+    {
+      "lemma": "ranger",
+      "ja": "片づける"
+    },
+    {
+      "lemma": "nettoyer",
+      "ja": "掃除する"
+    },
+    {
       "lemma": "plier",
       "ja": "折る・曲げる"
     },

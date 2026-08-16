@@ -1,358 +1,582 @@
 {
-  "_comment": "上級（C1〜C2）のフレーズ原本。新聞・ニュース・論説・学術で実際に使われる語彙と構文。書式は phrases.src.json と同じ。",
+  "_comment": "バッチ3: 挨拶・自己紹介・あいづち・基本の受け答え。初心者向けの日常会話。A1〜B1、直説法現在と複合過去が主役。文語時制は使わない。",
   "lang": "fr",
   "phrases": [
     {
       "id": "fr-0101",
-      "text": "Le rapport avertit que les inégalités salariales se sont aggravées.",
-      "ja": "報告書は賃金格差が拡大したと警告している。",
-      "level": "C1",
-      "tags": ["報道", "直説法現在", "複合過去"],
-      "grammar": "代名動詞の複合過去は être を使い、過去分詞が主語に性数一致する（inégalités は女性複数）。",
+      "text": "Bonjour, je m'appelle Marie.",
+      "ja": "こんにちは、マリです。",
+      "level": "A1",
+      "tags": ["挨拶", "自己紹介", "直説法現在"],
+      "grammar": "s'appeler は代名動詞。je の前では me が m' になる。名前を言うときの決まり文句。",
       "tokens": [
-        { "s": "Le", "skip": true },
-        { "s": "rapport", "lemma": "rapport", "pos": "名詞", "ja": "報告書・関係" },
-        { "s": "avertit", "lemma": "avertir", "pos": "動詞", "ja": "警告する", "infl": "PRES/3sg" },
-        { "s": "que", "skip": true },
-        { "s": "les", "skip": true },
-        { "s": "inégalités salariales", "lemma": "inégalités salariales", "pos": "名詞句", "ja": "賃金格差", "idiom": true },
-        { "s": "se sont aggravées", "lemma": "aggraver", "pos": "動詞", "ja": "悪化させる", "label": "複合過去・3人称複数（代名動詞・女性一致）", "note": "s'aggraver で「悪化する」" }
+        { "s": "Bonjour", "lemma": "bonjour", "pos": "間投詞", "ja": "こんにちは・おはよう" },
+        { "s": "je", "skip": true },
+        { "s": "m'", "skip": true },
+        { "s": "appelle", "lemma": "appeler", "pos": "動詞", "ja": "呼ぶ・（代名動詞で）〜という名前だ", "infl": "PRES/1sg" }
       ]
     },
     {
       "id": "fr-0102",
-      "text": "Le gouvernement soutient que ces mesures freineront l'inflation.",
-      "ja": "政府はこの措置がインフレを抑えると主張している。",
-      "level": "C1",
-      "tags": ["報道", "直説法現在", "単純未来"],
-      "grammar": "soutenir que は「〜だと主張する」。政治・経済記事で affirmer とともに多用される。",
+      "text": "Comment tu t'appelles ?",
+      "ja": "名前は何ていうの？",
+      "level": "A1",
+      "tags": ["挨拶", "自己紹介", "疑問", "直説法現在"],
+      "grammar": "くだけた場では倒置せず、語順そのままで疑問にする。丁寧には Comment vous appelez-vous ?",
       "tokens": [
-        { "s": "Le", "skip": true },
-        { "s": "gouvernement", "lemma": "gouvernement", "pos": "名詞", "ja": "政府" },
-        { "s": "soutient", "lemma": "soutenir", "pos": "動詞", "ja": "支える・主張する", "infl": "PRES/3sg" },
-        { "s": "que", "skip": true },
-        { "s": "ces", "skip": true },
-        { "s": "mesures", "lemma": "mesure", "pos": "名詞", "ja": "措置・対策" },
-        { "s": "freineront", "lemma": "freiner", "pos": "動詞", "ja": "抑制する・歯止めをかける", "infl": "FUT/3pl" },
-        { "s": "l'", "skip": true },
-        { "s": "inflation", "lemma": "inflation", "pos": "名詞", "ja": "インフレ・物価上昇" }
+        { "s": "Comment", "lemma": "comment", "pos": "疑問詞", "ja": "どのように・どうやって" },
+        { "s": "tu", "skip": true },
+        { "s": "t'", "skip": true },
+        { "s": "appelles", "lemma": "appeler", "pos": "動詞", "ja": "呼ぶ・（代名動詞で）〜という名前だ", "infl": "PRES/2sg" }
       ]
     },
     {
       "id": "fr-0103",
-      "text": "L'arrêt constate que la disposition porte atteinte aux libertés fondamentales.",
-      "ja": "判決は、その規定が基本的自由を侵害していると認定した。",
-      "level": "C2",
-      "tags": ["法律", "直説法現在"],
-      "grammar": "porter atteinte à は「〜を侵害する」という法律文の定型。arrêt は上級審の判決。",
+      "text": "Je suis japonais et j'habite à Tokyo.",
+      "ja": "日本人で、東京に住んでいます。",
+      "level": "A1",
+      "tags": ["自己紹介", "直説法現在"],
+      "grammar": "国籍は冠詞を付けずに言う。habiter à + 都市名。",
       "tokens": [
-        { "s": "L'", "skip": true },
-        { "s": "arrêt", "lemma": "arrêt", "pos": "名詞", "ja": "判決・停止" },
-        { "s": "constate", "lemma": "constater", "pos": "動詞", "ja": "確認する・認める", "infl": "PRES/3sg" },
-        { "s": "que", "skip": true },
-        { "s": "la", "skip": true },
-        { "s": "disposition", "lemma": "disposition", "pos": "名詞", "ja": "規定・配置" },
-        { "s": "porte atteinte aux", "lemma": "porter atteinte à", "pos": "慣用表現", "ja": "〜を侵害する", "idiom": true, "verb": { "s": "porte", "lemma": "porter", "infl": "PRES/3sg" } },
-        { "s": "libertés fondamentales", "lemma": "libertés fondamentales", "pos": "名詞句", "ja": "基本的自由", "idiom": true }
+        { "s": "Je", "skip": true },
+        { "s": "suis", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1sg" },
+        { "s": "japonais", "lemma": "japonais", "pos": "形容詞", "ja": "日本の・日本人の" },
+        { "s": "et", "skip": true },
+        { "s": "j'", "skip": true },
+        { "s": "habite", "lemma": "habiter", "pos": "動詞", "ja": "住む", "infl": "PRES/1sg" },
+        { "s": "à", "skip": true },
+        { "s": "Tokyo", "lemma": "Tokyo", "pos": "固有名詞", "ja": "東京" }
       ]
     },
     {
       "id": "fr-0104",
-      "text": "Les experts attribuent cette baisse au recul de la consommation intérieure.",
-      "ja": "専門家はこの下落を国内消費の後退によるものだとしている。",
-      "level": "C1",
-      "tags": ["報道", "経済", "直説法現在"],
-      "grammar": "attribuer A à B で「A を B に帰する」。recul は「後退・減少」で統計記事に頻出。",
+      "text": "Comment allez-vous aujourd'hui ?",
+      "ja": "今日はいかがお過ごしですか。",
+      "level": "A1",
+      "tags": ["挨拶", "疑問", "直説法現在"],
+      "grammar": "調子を尋ねるのは être ではなく aller。丁寧な倒置疑問。",
       "tokens": [
-        { "s": "Les", "skip": true },
-        { "s": "experts", "lemma": "expert", "pos": "名詞", "ja": "専門家" },
-        { "s": "attribuent", "lemma": "attribuer", "pos": "動詞", "ja": "帰する・与える", "infl": "PRES/3pl" },
-        { "s": "cette", "skip": true },
-        { "s": "baisse", "lemma": "baisse", "pos": "名詞", "ja": "下落・低下" },
-        { "s": "au", "skip": true },
-        { "s": "recul", "lemma": "recul", "pos": "名詞", "ja": "後退・減少" },
-        { "s": "de la", "skip": true },
-        { "s": "consommation intérieure", "lemma": "consommation intérieure", "pos": "名詞句", "ja": "国内消費", "idiom": true }
+        { "s": "Comment", "lemma": "comment", "pos": "疑問詞", "ja": "どのように・どうやって" },
+        { "s": "allez", "lemma": "aller", "pos": "動詞", "ja": "行く・（調子が）〜である", "infl": "PRES/2pl", "note": "調子を尋ねるときは aller を使う" },
+        { "s": "vous", "skip": true },
+        { "s": "aujourd'hui", "lemma": "aujourd'hui", "pos": "副詞", "ja": "今日" }
       ]
     },
     {
       "id": "fr-0105",
-      "text": "Il ne fait aucun doute que cette décision fera jurisprudence.",
-      "ja": "この判断が判例となることは疑いようがない。",
-      "level": "C2",
-      "tags": ["法律", "熟語", "単純未来"],
-      "grammar": "il ne fait aucun doute que は「疑いの余地はない」。faire jurisprudence で「判例となる」。",
+      "text": "Je vais très bien, merci.",
+      "ja": "とても元気です、ありがとう。",
+      "level": "A1",
+      "tags": ["挨拶", "直説法現在"],
       "tokens": [
-        { "s": "Il ne fait aucun doute que", "lemma": "il ne fait aucun doute que", "pos": "慣用表現", "ja": "〜は疑いようがない", "idiom": true, "verb": { "s": "fait", "lemma": "faire", "infl": "PRES/3sg" } },
-        { "s": "cette", "skip": true },
-        { "s": "décision", "lemma": "décision", "pos": "名詞", "ja": "決定・判断" },
-        { "s": "fera", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "FUT/3sg" },
-        { "s": "jurisprudence", "lemma": "faire jurisprudence", "pos": "慣用表現", "ja": "判例となる", "idiom": true }
+        { "s": "Je", "skip": true },
+        { "s": "vais", "lemma": "aller", "pos": "動詞", "ja": "行く・（調子が）〜である", "infl": "PRES/1sg" },
+        { "s": "très bien", "lemma": "très bien", "pos": "慣用表現", "ja": "とても元気・けっこうです", "idiom": true },
+        { "s": "merci", "lemma": "merci", "pos": "間投詞", "ja": "ありがとう" }
       ]
     },
     {
       "id": "fr-0106",
-      "text": "On prévoit que l'économie croîtra de deux pour cent cette année.",
-      "ja": "今年の経済成長率は2パーセントと見込まれている。",
-      "level": "C1",
-      "tags": ["報道", "経済", "単純未来"],
-      "grammar": "on prévoit que は無人称の報道表現。スペイン語と違い、prévoir que のあとは直説法。",
+      "text": "Vous parlez anglais ?",
+      "ja": "英語は話せますか。",
+      "level": "A1",
+      "tags": ["疑問", "直説法現在"],
+      "grammar": "語尾を上げるだけで疑問文になる。会話で最もよく使う形。言語名に冠詞は付けない。",
       "tokens": [
-        { "s": "On", "skip": true },
-        { "s": "prévoit", "lemma": "prévoir", "pos": "動詞", "ja": "予測する・予定する", "infl": "PRES/3sg", "note": "後ろは直説法。接続法にしない" },
-        { "s": "que", "skip": true },
-        { "s": "l'", "skip": true },
-        { "s": "économie", "lemma": "économie", "pos": "名詞", "ja": "経済" },
-        { "s": "croîtra", "lemma": "croître", "pos": "動詞", "ja": "増大する・成長する", "label": "単純未来・3人称単数" },
-        { "s": "de deux pour cent", "lemma": "pour cent", "pos": "名詞句", "ja": "パーセント", "idiom": true }
+        { "s": "Vous", "skip": true },
+        { "s": "parlez", "lemma": "parler", "pos": "動詞", "ja": "話す", "infl": "PRES/2pl" },
+        { "s": "anglais", "lemma": "anglais", "pos": "名詞", "ja": "英語" }
       ]
     },
     {
       "id": "fr-0107",
-      "text": "Le porte-parole a démenti les accusations relayées par la presse.",
-      "ja": "報道官は、報道機関が流した非難を否定した。",
-      "level": "C2",
-      "tags": ["報道", "複合過去"],
-      "grammar": "relayées は過去分詞の形容詞用法で、修飾する名詞に性数一致する。",
+      "text": "Je parle un peu français.",
+      "ja": "フランス語を少し話します。",
+      "level": "A1",
+      "tags": ["自己紹介", "直説法現在"],
       "tokens": [
-        { "s": "Le", "skip": true },
-        { "s": "porte-parole", "lemma": "porte-parole", "pos": "名詞", "ja": "報道官・スポークスパーソン" },
-        { "s": "a démenti", "lemma": "démentir", "pos": "動詞", "ja": "否定する・反論する", "infl": "PC/3sg" },
-        { "s": "les", "skip": true },
-        { "s": "accusations", "lemma": "accusation", "pos": "名詞", "ja": "非難・告発" },
-        { "s": "relayées", "lemma": "relayer", "pos": "動詞", "ja": "中継する・伝える", "label": "過去分詞・女性複数", "note": "名詞を修飾するので性数一致する" },
-        { "s": "par", "skip": true },
-        { "s": "la", "skip": true },
-        { "s": "presse", "lemma": "presse", "pos": "名詞", "ja": "報道機関・新聞" }
+        { "s": "Je", "skip": true },
+        { "s": "parle", "lemma": "parler", "pos": "動詞", "ja": "話す", "infl": "PRES/1sg" },
+        { "s": "un peu", "lemma": "un peu", "pos": "慣用表現", "ja": "少し", "idiom": true },
+        { "s": "français", "lemma": "français", "pos": "名詞", "ja": "フランス語" }
       ]
     },
     {
       "id": "fr-0108",
-      "text": "Si la loi avait été adoptée, le conflit n'aurait pas éclaté.",
-      "ja": "その法律が可決されていれば、紛争は起きなかっただろう。",
-      "level": "C2",
-      "tags": ["論説", "条件法過去"],
-      "grammar": "過去の事実に反する仮定は「si + 大過去, 条件法過去」。ここでは受動の大過去。",
+      "text": "J'ai vingt-cinq ans.",
+      "ja": "25歳です。",
+      "level": "A1",
+      "tags": ["自己紹介", "直説法現在"],
+      "grammar": "年齢は être ではなく avoir で言う。英語や日本語との違いに注意。",
       "tokens": [
-        { "s": "Si", "skip": true },
-        { "s": "la", "skip": true },
-        { "s": "loi", "lemma": "loi", "pos": "名詞", "ja": "法律" },
-        { "s": "avait été adoptée", "lemma": "adopter", "pos": "動詞", "ja": "採択する・採用する", "label": "受動態・大過去・女性単数" },
-        { "s": "le", "skip": true },
-        { "s": "conflit", "lemma": "conflit", "pos": "名詞", "ja": "紛争・対立" },
-        { "s": "n'", "skip": true },
-        { "s": "aurait pas éclaté", "lemma": "éclater", "pos": "動詞", "ja": "勃発する・破裂する", "label": "条件法過去・3人称単数" }
+        { "s": "J'", "skip": true },
+        { "s": "ai", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/1sg", "note": "年齢は avoir で言う" },
+        { "s": "vingt-cinq", "lemma": "vingt-cinq", "pos": "数詞", "ja": "25" },
+        { "s": "ans", "lemma": "an", "pos": "名詞", "ja": "年・歳" }
       ]
     },
     {
       "id": "fr-0109",
-      "text": "Il convient de souligner que les données n'ont pas encore été vérifiées.",
-      "ja": "そのデータはまだ検証されていない点を強調しておきたい。",
-      "level": "C2",
-      "tags": ["学術", "受動態"],
-      "grammar": "il convient de は論文・報告書の定型で「〜しておくのが適当だ」。",
+      "text": "Je viens du Japon.",
+      "ja": "日本から来ました。",
+      "level": "A1",
+      "tags": ["自己紹介", "直説法現在"],
+      "grammar": "venir de + 国名。男性名詞の国は du、女性名詞の国は de la になる（du Japon / de France）。",
       "tokens": [
-        { "s": "Il convient de", "lemma": "il convient de", "pos": "慣用表現", "ja": "〜しておくのが適当だ", "idiom": true, "note": "論文・報告書の定型" },
-        { "s": "souligner", "lemma": "souligner", "pos": "動詞", "ja": "強調する・下線を引く", "label": "不定詞" },
-        { "s": "que", "skip": true },
-        { "s": "les", "skip": true },
-        { "s": "données", "lemma": "donnée", "pos": "名詞", "ja": "データ・資料" },
-        { "s": "n'ont pas encore été vérifiées", "lemma": "vérifier", "pos": "動詞", "ja": "検証する・確認する", "label": "受動態・複合過去・女性複数" }
+        { "s": "Je", "skip": true },
+        { "s": "viens", "lemma": "venir", "pos": "動詞", "ja": "来る", "infl": "PRES/1sg" },
+        { "s": "du", "skip": true },
+        { "s": "Japon", "lemma": "Japon", "pos": "固有名詞", "ja": "日本" }
       ]
     },
     {
       "id": "fr-0110",
-      "text": "Le sommet s'est achevé sans que les parties parviennent à un accord.",
-      "ja": "首脳会議は、当事者が合意に至らないまま終わった。",
-      "level": "C2",
-      "tags": ["報道", "接続法"],
-      "grammar": "sans que のあとは必ず接続法。parvenir à で「〜に到達する」。",
+      "text": "Excusez-moi, je ne comprends pas.",
+      "ja": "すみません、分かりません。",
+      "level": "A1",
+      "tags": ["命令法", "直説法現在", "否定"],
+      "grammar": "命令法では代名詞が動詞の後ろに来て、me は moi になる。",
       "tokens": [
-        { "s": "Le", "skip": true },
-        { "s": "sommet", "lemma": "sommet", "pos": "名詞", "ja": "首脳会議・頂上" },
-        { "s": "s'est achevé", "lemma": "achever", "pos": "動詞", "ja": "終える・完成させる", "label": "複合過去・3人称単数（代名動詞）" },
-        { "s": "sans que", "lemma": "sans que", "pos": "接続詞", "ja": "〜することなく", "idiom": true, "note": "後ろは必ず接続法" },
-        { "s": "les", "skip": true },
-        { "s": "parties", "lemma": "partie", "pos": "名詞", "ja": "当事者・部分" },
-        { "s": "parviennent", "lemma": "parvenir", "pos": "動詞", "ja": "到達する・成し遂げる", "label": "接続法現在・3人称複数" },
-        { "s": "à un accord", "lemma": "parvenir à un accord", "pos": "慣用表現", "ja": "合意に達する", "idiom": true }
+        { "s": "Excusez", "lemma": "excuser", "pos": "動詞", "ja": "許す・（代名動詞で）詫びる", "infl": "IMPER/2pl" },
+        { "s": "moi", "skip": true },
+        { "s": "je", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "comprends", "lemma": "comprendre", "pos": "動詞", "ja": "理解する・分かる", "infl": "PRES/1sg" },
+        { "s": "pas", "skip": true }
       ]
     },
     {
       "id": "fr-0111",
-      "text": "Le chômage a diminué de trois dixièmes, bien que la tendance reste négative.",
-      "ja": "失業率は0.3ポイント低下したが、傾向は依然として芳しくない。",
-      "level": "C2",
-      "tags": ["報道", "経済", "複合過去", "接続法"],
-      "grammar": "bien que のあとは必ず接続法。dixième は統計で0.1ポイントを指す。",
+      "text": "Répétez plus lentement, s'il vous plaît.",
+      "ja": "もっとゆっくり繰り返してください。",
+      "level": "A1",
+      "tags": ["命令法"],
       "tokens": [
-        { "s": "Le", "skip": true },
-        { "s": "chômage", "lemma": "chômage", "pos": "名詞", "ja": "失業・失業率" },
-        { "s": "a diminué", "lemma": "diminuer", "pos": "動詞", "ja": "減少させる・減る", "infl": "PC/3sg" },
-        { "s": "de trois dixièmes", "lemma": "dixième", "pos": "名詞", "ja": "10分の1・0.1ポイント", "idiom": true },
-        { "s": "bien que", "lemma": "bien que", "pos": "接続詞", "ja": "〜ではあるが", "idiom": true, "note": "後ろは必ず接続法" },
-        { "s": "la", "skip": true },
-        { "s": "tendance", "lemma": "tendance", "pos": "名詞", "ja": "傾向・趨勢" },
-        { "s": "reste", "lemma": "rester", "pos": "動詞", "ja": "とどまる・残る", "infl": "SUBJ/3sg" },
-        { "s": "négative", "lemma": "négatif", "pos": "形容詞", "ja": "否定的な・マイナスの", "label": "女性単数" }
+        { "s": "Répétez", "lemma": "répéter", "pos": "動詞", "ja": "繰り返す", "infl": "IMPER/2pl" },
+        { "s": "plus", "lemma": "plus", "pos": "副詞", "ja": "もっと" },
+        { "s": "lentement", "lemma": "lentement", "pos": "副詞", "ja": "ゆっくり" },
+        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします", "idiom": true, "verb": { "s": "plaît", "lemma": "plaire", "infl": "PRES/3sg" } }
       ]
     },
     {
       "id": "fr-0112",
-      "text": "Quelles que soient les réformes engagées, elles échoueront sans consensus.",
-      "ja": "どんな改革に着手しようとも、合意がなければ失敗する。",
-      "level": "C2",
-      "tags": ["論説", "接続法", "単純未来"],
-      "grammar": "quel que soit は「どんな〜であろうと」。quel が名詞に性数一致するのが要点。",
+      "text": "Je vous présente ma collègue.",
+      "ja": "同僚を紹介します。",
+      "level": "A1",
+      "tags": ["自己紹介", "直説法現在"],
       "tokens": [
-        { "s": "Quelles que soient", "lemma": "quel que soit", "pos": "慣用表現", "ja": "どんな〜であろうと", "idiom": true, "note": "quel は後ろの名詞に性数一致する", "verb": { "s": "soient", "lemma": "être", "infl": "SUBJ/3pl" } },
-        { "s": "les", "skip": true },
-        { "s": "réformes", "lemma": "réforme", "pos": "名詞", "ja": "改革" },
-        { "s": "engagées", "lemma": "engager", "pos": "動詞", "ja": "着手する・雇う", "label": "過去分詞・女性複数" },
-        { "s": "elles", "skip": true },
-        { "s": "échoueront", "lemma": "échouer", "pos": "動詞", "ja": "失敗する", "label": "単純未来・3人称複数" },
-        { "s": "sans", "skip": true },
-        { "s": "consensus", "lemma": "consensus", "pos": "名詞", "ja": "合意・コンセンサス" }
+        { "s": "Je", "skip": true },
+        { "s": "vous", "skip": true },
+        { "s": "présente", "lemma": "présenter", "pos": "動詞", "ja": "紹介する・提示する", "infl": "PRES/1sg" },
+        { "s": "ma", "skip": true },
+        { "s": "collègue", "lemma": "collègue", "pos": "名詞", "ja": "同僚" }
       ]
     },
     {
       "id": "fr-0113",
-      "text": "Cette décision de justice aura des répercussions sur le secteur énergétique.",
-      "ja": "この司法判断はエネルギー業界に影響を及ぼすだろう。",
-      "level": "C1",
-      "tags": ["報道", "単純未来"],
-      "grammar": "avoir des répercussions sur で「〜に波及効果を及ぼす」。",
+      "text": "Je ne sais pas encore.",
+      "ja": "まだ分かりません。",
+      "level": "A1",
+      "tags": ["否定", "直説法現在"],
       "tokens": [
-        { "s": "Cette", "skip": true },
-        { "s": "décision de justice", "lemma": "décision de justice", "pos": "名詞句", "ja": "司法判断・判決", "idiom": true },
-        { "s": "aura", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "FUT/3sg" },
-        { "s": "des répercussions sur", "lemma": "avoir des répercussions sur", "pos": "慣用表現", "ja": "〜に影響を及ぼす", "idiom": true },
-        { "s": "le", "skip": true },
-        { "s": "secteur énergétique", "lemma": "secteur énergétique", "pos": "名詞句", "ja": "エネルギー業界", "idiom": true }
+        { "s": "Je", "skip": true },
+        { "s": "ne", "skip": true },
+        { "s": "sais", "lemma": "savoir", "pos": "動詞", "ja": "知る・知っている", "infl": "PRES/1sg" },
+        { "s": "pas", "skip": true },
+        { "s": "encore", "lemma": "encore", "pos": "副詞", "ja": "まだ・もう一度" }
       ]
     },
     {
       "id": "fr-0114",
-      "text": "Les syndicats contestent que la réforme crée des emplois.",
-      "ja": "労働組合は、その改革が雇用を生むことに異議を唱えている。",
-      "level": "C1",
-      "tags": ["報道", "接続法"],
-      "grammar": "contester que は疑いを表すので後ろは接続法。",
+      "text": "Comment ça s'écrit ?",
+      "ja": "それはどう綴るのですか。",
+      "level": "A1",
+      "tags": ["疑問", "直説法現在"],
+      "grammar": "代名動詞を受動的に使う言い方。「どう書かれるか」＝「どう綴るか」。",
       "tokens": [
-        { "s": "Les", "skip": true },
-        { "s": "syndicats", "lemma": "syndicat", "pos": "名詞", "ja": "労働組合" },
-        { "s": "contestent", "lemma": "contester", "pos": "動詞", "ja": "異議を唱える", "infl": "PRES/3pl" },
-        { "s": "que", "skip": true },
-        { "s": "la", "skip": true },
-        { "s": "réforme", "lemma": "réforme", "pos": "名詞", "ja": "改革" },
-        { "s": "crée", "lemma": "créer", "pos": "動詞", "ja": "創る・生み出す", "label": "接続法現在・3人称単数" },
-        { "s": "des", "skip": true },
-        { "s": "emplois", "lemma": "emploi", "pos": "名詞", "ja": "雇用・職" }
+        { "s": "Comment", "lemma": "comment", "pos": "疑問詞", "ja": "どのように・どうやって" },
+        { "s": "ça", "skip": true },
+        { "s": "s'", "skip": true },
+        { "s": "écrit", "lemma": "écrire", "pos": "動詞", "ja": "書く", "infl": "PRES/3sg" }
       ]
     },
     {
       "id": "fr-0115",
-      "text": "Plus l'accord tardera, plus les pertes seront lourdes.",
-      "ja": "合意が遅れれば遅れるほど、損失は大きくなる。",
-      "level": "C2",
-      "tags": ["論説", "単純未来"],
-      "grammar": "plus ..., plus ... の相関構文。フランス語では両方とも未来形にする。",
+      "text": "Tu vas bien ?",
+      "ja": "元気？",
+      "level": "A2",
+      "tags": ["挨拶", "疑問", "直説法現在"],
       "tokens": [
-        { "s": "Plus", "lemma": "plus... plus...", "pos": "慣用表現", "ja": "〜すればするほど", "idiom": true },
-        { "s": "l'", "skip": true },
-        { "s": "accord", "lemma": "accord", "pos": "名詞", "ja": "合意・協定" },
-        { "s": "tardera", "lemma": "tarder", "pos": "動詞", "ja": "遅れる・手間取る", "label": "単純未来・3人称単数" },
-        { "s": "les", "skip": true },
-        { "s": "pertes", "lemma": "perte", "pos": "名詞", "ja": "損失" },
-        { "s": "seront", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "FUT/3pl" },
-        { "s": "lourdes", "lemma": "lourd", "pos": "形容詞", "ja": "重い・深刻な", "label": "女性複数" }
+        { "s": "Tu", "skip": true },
+        { "s": "vas", "lemma": "aller", "pos": "動詞", "ja": "行く・（調子が）〜である", "infl": "PRES/2sg" },
+        { "s": "bien", "lemma": "bien", "pos": "副詞", "ja": "よく・元気に" }
       ]
     },
     {
       "id": "fr-0116",
-      "text": "La mesure a été prise à la demande du ministère des Finances.",
-      "ja": "その措置は財務省の要請を受けて採られた。",
-      "level": "C1",
-      "tags": ["報道", "受動態"],
-      "grammar": "à la demande de は「〜の要請により」。prendre une mesure で「措置を採る」。",
+      "text": "Qu'est-ce que tu fais dans la vie ?",
+      "ja": "お仕事は何をしているの？",
+      "level": "A2",
+      "tags": ["疑問", "直説法現在"],
+      "grammar": "dans la vie で「職業として」。仕事を尋ねる最も普通の言い方。",
       "tokens": [
-        { "s": "La", "skip": true },
-        { "s": "mesure", "lemma": "mesure", "pos": "名詞", "ja": "措置・対策" },
-        { "s": "a été prise", "lemma": "prendre", "pos": "動詞", "ja": "取る・乗る", "label": "受動態・複合過去・女性単数" },
-        { "s": "à la demande du", "lemma": "à la demande de", "pos": "慣用表現", "ja": "〜の要請により", "idiom": true },
-        { "s": "ministère des Finances", "lemma": "ministère des Finances", "pos": "固有名詞", "ja": "財務省" }
+        { "s": "Qu'est-ce que", "lemma": "qu'est-ce que", "pos": "疑問詞", "ja": "何を", "idiom": true },
+        { "s": "tu", "skip": true },
+        { "s": "fais", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "PRES/2sg" },
+        { "s": "dans la vie", "lemma": "dans la vie", "pos": "慣用表現", "ja": "職業として", "idiom": true }
       ]
     },
     {
       "id": "fr-0117",
-      "text": "Au terme de plusieurs mois de négociation, les deux parties ont accepté d'atténuer les sanctions.",
-      "ja": "数か月の交渉の末、両者は制裁の緩和に同意した。",
-      "level": "C1",
-      "tags": ["報道", "複合過去"],
-      "grammar": "au terme de は「〜の末に」という書き言葉。après より硬い。",
+      "text": "Je travaille dans une banque.",
+      "ja": "銀行で働いています。",
+      "level": "A2",
+      "tags": ["自己紹介", "直説法現在"],
       "tokens": [
-        { "s": "Au terme de", "lemma": "au terme de", "pos": "慣用表現", "ja": "〜の末に", "idiom": true, "note": "après より硬い書き言葉" },
-        { "s": "plusieurs", "skip": true },
-        { "s": "mois", "lemma": "mois", "pos": "名詞", "ja": "月・か月" },
-        { "s": "de", "skip": true },
-        { "s": "négociation", "lemma": "négociation", "pos": "名詞", "ja": "交渉" },
-        { "s": "les deux parties", "lemma": "les deux parties", "pos": "名詞句", "ja": "双方・両者", "idiom": true },
-        { "s": "ont accepté", "lemma": "accepter", "pos": "動詞", "ja": "受け入れる", "infl": "PC/3pl" },
-        { "s": "d'", "skip": true },
-        { "s": "atténuer", "lemma": "atténuer", "pos": "動詞", "ja": "緩和する", "label": "不定詞" },
-        { "s": "les", "skip": true },
-        { "s": "sanctions", "lemma": "sanction", "pos": "名詞", "ja": "制裁" }
+        { "s": "Je", "skip": true },
+        { "s": "travaille", "lemma": "travailler", "pos": "動詞", "ja": "働く", "infl": "PRES/1sg" },
+        { "s": "dans une", "skip": true },
+        { "s": "banque", "lemma": "banque", "pos": "名詞", "ja": "銀行" }
       ]
     },
     {
       "id": "fr-0118",
-      "text": "L'étude avance une hypothèse qui reste à démontrer.",
-      "ja": "その研究は、まだ証明されていない仮説を提示している。",
-      "level": "C1",
-      "tags": ["学術", "直説法現在"],
-      "grammar": "rester à + 不定詞で「まだ〜されていない」。学術文で頻出。",
+      "text": "J'étudie le français depuis un an.",
+      "ja": "フランス語を1年前から勉強しています。",
+      "level": "A2",
+      "tags": ["直説法現在"],
+      "grammar": "depuis + 期間は現在形と組む。「今も続いている」ことを表すので過去形にしない。",
       "tokens": [
-        { "s": "L'", "skip": true },
-        { "s": "étude", "lemma": "étude", "pos": "名詞", "ja": "研究・調査" },
-        { "s": "avance", "lemma": "avancer", "pos": "動詞", "ja": "進める・提示する", "label": "直説法現在・3人称単数" },
-        { "s": "une", "skip": true },
-        { "s": "hypothèse", "lemma": "hypothèse", "pos": "名詞", "ja": "仮説" },
-        { "s": "qui", "skip": true },
-        { "s": "reste à", "lemma": "rester à + 不定詞", "pos": "慣用表現", "ja": "まだ〜されていない", "idiom": true, "verb": { "s": "reste", "lemma": "rester", "infl": "PRES/3sg" } },
-        { "s": "démontrer", "lemma": "démontrer", "pos": "動詞", "ja": "証明する・示す", "label": "不定詞" }
+        { "s": "J'", "skip": true },
+        { "s": "étudie", "lemma": "étudier", "pos": "動詞", "ja": "勉強する", "infl": "PRES/1sg", "note": "depuis と組むので現在形" },
+        { "s": "le", "skip": true },
+        { "s": "français", "lemma": "français", "pos": "名詞", "ja": "フランス語" },
+        { "s": "depuis", "lemma": "depuis", "pos": "前置詞", "ja": "〜以来・〜前から" },
+        { "s": "un an", "lemma": "an", "pos": "名詞", "ja": "1年" }
       ]
     },
     {
       "id": "fr-0119",
-      "text": "Les importations ont augmenté au détriment de la production locale.",
-      "ja": "国内生産を犠牲にして輸入が増加した。",
-      "level": "C2",
-      "tags": ["報道", "経済", "複合過去"],
-      "grammar": "au détriment de は「〜を犠牲にして」。経済記事の定型。",
+      "text": "Ma famille habite à la campagne.",
+      "ja": "家族は田舎に住んでいます。",
+      "level": "A2",
+      "tags": ["直説法現在"],
       "tokens": [
-        { "s": "Les", "skip": true },
-        { "s": "importations", "lemma": "importation", "pos": "名詞", "ja": "輸入" },
-        { "s": "ont augmenté", "lemma": "augmenter", "pos": "動詞", "ja": "増加する・増やす", "label": "複合過去・3人称複数" },
-        { "s": "au détriment de", "lemma": "au détriment de", "pos": "慣用表現", "ja": "〜を犠牲にして", "idiom": true },
-        { "s": "la", "skip": true },
-        { "s": "production locale", "lemma": "production locale", "pos": "名詞句", "ja": "国内生産", "idiom": true }
+        { "s": "Ma", "skip": true },
+        { "s": "famille", "lemma": "famille", "pos": "名詞", "ja": "家族" },
+        { "s": "habite", "lemma": "habiter", "pos": "動詞", "ja": "住む", "infl": "PRES/3sg" },
+        { "s": "à la", "skip": true },
+        { "s": "campagne", "lemma": "campagne", "pos": "名詞", "ja": "田舎・地方" }
       ]
     },
     {
       "id": "fr-0120",
-      "text": "Compte tenu de la conjoncture, la banque centrale a appuyé la hausse des taux.",
-      "ja": "現下の情勢を踏まえ、中央銀行は利上げを支持した。",
-      "level": "C2",
-      "tags": ["報道", "経済", "複合過去"],
-      "grammar": "compte tenu de は「〜を考慮すると」という硬い書き言葉。conjoncture は「情勢・局面」。",
+      "text": "Je suis désolé, je suis en retard.",
+      "ja": "ごめんなさい、遅れました。",
+      "level": "A2",
+      "tags": ["謝罪", "直説法現在"],
+      "grammar": "être en retard で「遅れている」。冠詞を付けない決まった言い方。",
       "tokens": [
-        { "s": "Compte tenu de", "lemma": "compte tenu de", "pos": "慣用表現", "ja": "〜を考慮すると", "idiom": true, "note": "硬い書き言葉", "verb": { "s": "tenu", "lemma": "tenir", "infl": "PPASSE" } },
-        { "s": "la", "skip": true },
-        { "s": "conjoncture", "lemma": "conjoncture", "pos": "名詞", "ja": "情勢・局面" },
-        { "s": "la", "skip": true },
-        { "s": "banque centrale", "lemma": "banque centrale", "pos": "名詞句", "ja": "中央銀行", "idiom": true },
-        { "s": "a appuyé", "lemma": "appuyer", "pos": "動詞", "ja": "支持する・押す", "infl": "PC/3sg" },
-        { "s": "la hausse des taux", "lemma": "hausse des taux", "pos": "名詞句", "ja": "利上げ", "idiom": true }
+        { "s": "Je", "skip": true },
+        { "s": "suis", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1sg" },
+        { "s": "désolé", "lemma": "désolé", "pos": "形容詞", "ja": "申し訳なく思う" },
+        { "s": "je suis", "skip": true },
+        { "s": "en retard", "lemma": "être en retard", "pos": "慣用表現", "ja": "遅れている", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0121",
+      "text": "Je l'ai rencontré au travail.",
+      "ja": "彼とは職場で知り合いました。",
+      "level": "A2",
+      "tags": ["複合過去"],
+      "grammar": "複合過去は avoir + 過去分詞。目的語の代名詞は助動詞の前に置く。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "l'", "skip": true },
+        { "s": "ai rencontré", "lemma": "rencontrer", "pos": "動詞", "ja": "出会う", "infl": "PC/1sg" },
+        { "s": "au", "skip": true },
+        { "s": "travail", "lemma": "travail", "pos": "名詞", "ja": "仕事・職場" }
+      ]
+    },
+    {
+      "id": "fr-0122",
+      "text": "Pouvez-vous parler plus fort ?",
+      "ja": "もう少し大きな声で話していただけますか。",
+      "level": "A2",
+      "tags": ["疑問", "依頼", "直説法現在"],
+      "grammar": "Pouvez-vous + 不定詞 で丁寧な依頼になる。",
+      "tokens": [
+        { "s": "Pouvez", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "PRES/2pl" },
+        { "s": "vous", "skip": true },
+        { "s": "parler", "lemma": "parler", "pos": "動詞", "ja": "話す", "label": "不定詞" },
+        { "s": "plus fort", "lemma": "plus fort", "pos": "慣用表現", "ja": "もっと大きな声で", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0123",
+      "text": "Je n'entends pas bien.",
+      "ja": "よく聞こえません。",
+      "level": "A2",
+      "tags": ["否定", "直説法現在"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "n'", "skip": true },
+        { "s": "entends", "lemma": "entendre", "pos": "動詞", "ja": "聞こえる・理解する", "infl": "PRES/1sg" },
+        { "s": "pas", "skip": true },
+        { "s": "bien", "lemma": "bien", "pos": "副詞", "ja": "よく・上手に" }
+      ]
+    },
+    {
+      "id": "fr-0124",
+      "text": "Qu'est-ce que ça veut dire ?",
+      "ja": "それはどういう意味ですか。",
+      "level": "A2",
+      "tags": ["疑問", "直説法現在"],
+      "grammar": "vouloir dire で「意味する」。単語の意味を尋ねるときの決まり文句。",
+      "tokens": [
+        { "s": "Qu'est-ce que", "lemma": "qu'est-ce que", "pos": "疑問詞", "ja": "何を", "idiom": true },
+        { "s": "ça", "skip": true },
+        { "s": "veut", "lemma": "vouloir", "pos": "動詞", "ja": "欲する・〜したい", "infl": "PRES/3sg", "note": "vouloir dire で「意味する」" },
+        { "s": "dire", "lemma": "dire", "pos": "動詞", "ja": "言う", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0125",
+      "text": "Attendez un instant, s'il vous plaît.",
+      "ja": "少々お待ちください。",
+      "level": "A2",
+      "tags": ["命令法"],
+      "tokens": [
+        { "s": "Attendez", "lemma": "attendre", "pos": "動詞", "ja": "待つ", "infl": "IMPER/2pl" },
+        { "s": "un instant", "lemma": "un instant", "pos": "慣用表現", "ja": "少しの間", "idiom": true },
+        { "s": "s'il vous plaît", "lemma": "s'il vous plaît", "pos": "慣用表現", "ja": "お願いします", "idiom": true, "verb": { "s": "plaît", "lemma": "plaire", "infl": "PRES/3sg" } }
+      ]
+    },
+    {
+      "id": "fr-0126",
+      "text": "Je vous remercie de votre aide.",
+      "ja": "助けてくださってありがとうございます。",
+      "level": "A2",
+      "tags": ["感謝", "直説法現在"],
+      "grammar": "remercier qqn de qqch。merci より改まった言い方。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "vous", "skip": true },
+        { "s": "remercie", "lemma": "remercier", "pos": "動詞", "ja": "礼を言う", "infl": "PRES/1sg" },
+        { "s": "de votre", "skip": true },
+        { "s": "aide", "lemma": "aide", "pos": "名詞", "ja": "助け・援助" }
+      ]
+    },
+    {
+      "id": "fr-0127",
+      "text": "On se voit demain ?",
+      "ja": "明日会う？",
+      "level": "A2",
+      "tags": ["疑問", "直説法現在"],
+      "grammar": "on は会話で nous の代わりに使う。動詞は3人称単数で活用する。",
+      "tokens": [
+        { "s": "On", "skip": true },
+        { "s": "se", "skip": true },
+        { "s": "voit", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "infl": "PRES/3sg", "note": "on は3人称単数で活用する" },
+        { "s": "demain", "lemma": "demain", "pos": "副詞", "ja": "明日" }
+      ]
+    },
+    {
+      "id": "fr-0128",
+      "text": "Je dois y aller, à bientôt.",
+      "ja": "もう行かないと。またね。",
+      "level": "A2",
+      "tags": ["挨拶", "直説法現在"],
+      "grammar": "devoir + 不定詞で義務。y aller は「その場を離れる」の決まり文句。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "dois", "lemma": "devoir", "pos": "動詞", "ja": "〜しなければならない", "infl": "PRES/1sg" },
+        { "s": "y aller", "lemma": "y aller", "pos": "慣用表現", "ja": "もう行く・出かける", "idiom": true },
+        { "s": "à bientôt", "lemma": "à bientôt", "pos": "慣用表現", "ja": "またね・近いうちに", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0129",
+      "text": "Enchanté de faire votre connaissance.",
+      "ja": "お会いできて光栄です。",
+      "level": "A2",
+      "tags": ["挨拶", "自己紹介"],
+      "grammar": "初対面の決まり文句。くだけた場では Enchanté だけでよい。",
+      "tokens": [
+        { "s": "Enchanté", "lemma": "enchanté", "pos": "形容詞", "ja": "はじめまして・光栄です" },
+        { "s": "de", "skip": true },
+        { "s": "faire", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "label": "不定詞" },
+        { "s": "votre", "skip": true },
+        { "s": "connaissance", "lemma": "connaissance", "pos": "名詞", "ja": "知り合い・知識" }
+      ]
+    },
+    {
+      "id": "fr-0130",
+      "text": "Tu peux me tutoyer, tu sais.",
+      "ja": "tu で呼んでくれていいよ。",
+      "level": "A2",
+      "tags": ["直説法現在", "口語"],
+      "grammar": "tutoyer は「tu で呼ぶ」。文末の tu sais は「〜だよ」と和らげるあいづち。",
+      "tokens": [
+        { "s": "Tu", "skip": true },
+        { "s": "peux", "lemma": "pouvoir", "pos": "動詞", "ja": "〜できる", "infl": "PRES/2sg" },
+        { "s": "me", "skip": true },
+        { "s": "tutoyer", "lemma": "tutoyer", "pos": "動詞", "ja": "tu で呼ぶ", "label": "不定詞" },
+        { "s": "tu", "skip": true },
+        { "s": "sais", "lemma": "savoir", "pos": "動詞", "ja": "知る・知っている", "infl": "PRES/2sg", "note": "文末に付けて「〜だよ」と和らげる" }
+      ]
+    },
+    {
+      "id": "fr-0131",
+      "text": "Je n'ai pas bien compris.",
+      "ja": "よく分かりませんでした。",
+      "level": "B1",
+      "tags": ["複合過去", "否定"],
+      "grammar": "複合過去の否定は ne と pas で助動詞を挟む。副詞は過去分詞の前に入る。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "n'", "skip": true },
+        { "s": "ai", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/1sg", "note": "複合過去の助動詞" },
+        { "s": "pas", "skip": true },
+        { "s": "bien", "lemma": "bien", "pos": "副詞", "ja": "よく・上手に" },
+        { "s": "compris", "lemma": "comprendre", "pos": "動詞", "ja": "理解する・分かる", "infl": "PPASSE" }
+      ]
+    },
+    {
+      "id": "fr-0132",
+      "text": "Ça me fait plaisir de te revoir.",
+      "ja": "また会えて嬉しいよ。",
+      "level": "B1",
+      "tags": ["直説法現在", "感情"],
+      "grammar": "faire plaisir à qqn で「〜を喜ばせる」。主語は「そのこと」。",
+      "tokens": [
+        { "s": "Ça", "skip": true },
+        { "s": "me", "skip": true },
+        { "s": "fait plaisir", "lemma": "faire plaisir à", "pos": "慣用表現", "ja": "嬉しい・喜ばせる", "idiom": true, "verb": { "s": "fait", "lemma": "faire", "infl": "PRES/3sg" } },
+        { "s": "de te", "skip": true },
+        { "s": "revoir", "lemma": "revoir", "pos": "動詞", "ja": "再会する・見直す", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0133",
+      "text": "Je crois que nous nous sommes déjà rencontrés.",
+      "ja": "以前にお会いしたことがある気がします。",
+      "level": "B1",
+      "tags": ["複合過去", "直説法現在"],
+      "grammar": "代名動詞の複合過去は必ず être を使い、主語に性数を一致させる。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "crois", "lemma": "croire", "pos": "動詞", "ja": "信じる・思う", "infl": "PRES/1sg" },
+        { "s": "que nous nous", "skip": true },
+        { "s": "sommes", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1pl", "note": "代名動詞の複合過去は être を使う" },
+        { "s": "déjà", "lemma": "déjà", "pos": "副詞", "ja": "すでに・もう" },
+        { "s": "rencontrés", "lemma": "rencontrer", "pos": "動詞", "ja": "出会う", "label": "過去分詞・男性複数" }
+      ]
+    },
+    {
+      "id": "fr-0134",
+      "text": "Ça fait longtemps qu'on ne s'est pas vus.",
+      "ja": "久しぶりだね。",
+      "level": "B1",
+      "tags": ["直説法現在", "複合過去"],
+      "grammar": "ça fait + 期間 + que で「〜してから…になる」。再会の決まり文句。",
+      "tokens": [
+        { "s": "Ça fait", "lemma": "ça fait... que", "pos": "慣用表現", "ja": "〜してから…になる", "idiom": true, "verb": { "s": "fait", "lemma": "faire", "infl": "PRES/3sg" } },
+        { "s": "longtemps", "lemma": "longtemps", "pos": "副詞", "ja": "長いあいだ" },
+        { "s": "qu'on ne s'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg", "note": "代名動詞の複合過去の助動詞" },
+        { "s": "pas", "skip": true },
+        { "s": "vus", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "label": "過去分詞・男性複数" }
+      ]
+    },
+    {
+      "id": "fr-0135",
+      "text": "Permettez-moi de me présenter.",
+      "ja": "自己紹介させてください。",
+      "level": "B1",
+      "tags": ["命令法", "丁寧"],
+      "grammar": "permettre à qqn de + 不定詞。改まった場での自己紹介の切り出し。",
+      "tokens": [
+        { "s": "Permettez", "lemma": "permettre", "pos": "動詞", "ja": "許す・可能にする", "infl": "IMPER/2pl" },
+        { "s": "moi de me", "skip": true },
+        { "s": "présenter", "lemma": "présenter", "pos": "動詞", "ja": "紹介する・提示する", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0136",
+      "text": "Je te présente Paul, un ami d'enfance.",
+      "ja": "幼なじみのポールを紹介するよ。",
+      "level": "B1",
+      "tags": ["自己紹介", "直説法現在"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "te", "skip": true },
+        { "s": "présente", "lemma": "présenter", "pos": "動詞", "ja": "紹介する・提示する", "infl": "PRES/1sg" },
+        { "s": "Paul", "lemma": "Paul", "pos": "固有名詞", "ja": "ポール（人名）" },
+        { "s": "un", "skip": true },
+        { "s": "ami", "lemma": "ami", "pos": "名詞", "ja": "友人" },
+        { "s": "d'enfance", "lemma": "d'enfance", "pos": "慣用表現", "ja": "幼少期からの", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0137",
+      "text": "Ça faisait longtemps que je ne t'avais pas vu.",
+      "ja": "ずいぶん長いこと会っていなかったね。",
+      "level": "B1",
+      "tags": ["半過去"],
+      "grammar": "半過去は「続いていた状態」。ça faisait longtemps que で再会の感慨を表す。",
+      "tokens": [
+        { "s": "Ça faisait", "lemma": "ça faisait... que", "pos": "慣用表現", "ja": "〜してから…になっていた", "idiom": true, "verb": { "s": "faisait", "lemma": "faire", "infl": "IMPF/3sg" } },
+        { "s": "longtemps", "lemma": "longtemps", "pos": "副詞", "ja": "長いあいだ" },
+        { "s": "que je ne t'", "skip": true },
+        { "s": "avais", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "IMPF/1sg", "note": "大過去の助動詞" },
+        { "s": "pas", "skip": true },
+        { "s": "vu", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "infl": "PPASSE" }
+      ]
+    },
+    {
+      "id": "fr-0138",
+      "text": "Je vous laisse ma carte, appelez-moi.",
+      "ja": "名刺を置いていきます。ご連絡ください。",
+      "level": "B1",
+      "tags": ["直説法現在", "命令法"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "vous", "skip": true },
+        { "s": "laisse", "lemma": "laisser", "pos": "動詞", "ja": "残す・〜させておく", "infl": "PRES/1sg" },
+        { "s": "ma", "skip": true },
+        { "s": "carte", "lemma": "carte", "pos": "名詞", "ja": "カード・名刺・地図" },
+        { "s": "appelez", "lemma": "appeler", "pos": "動詞", "ja": "呼ぶ・電話する", "infl": "IMPER/2pl" },
+        { "s": "moi", "skip": true }
+      ]
+    },
+    {
+      "id": "fr-0139",
+      "text": "Je suis ravi de vous rencontrer enfin.",
+      "ja": "ようやくお会いできて嬉しいです。",
+      "level": "B1",
+      "tags": ["直説法現在", "感情"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "suis", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1sg" },
+        { "s": "ravi", "lemma": "ravi", "pos": "形容詞", "ja": "非常に嬉しい" },
+        { "s": "de vous", "skip": true },
+        { "s": "rencontrer", "lemma": "rencontrer", "pos": "動詞", "ja": "出会う", "label": "不定詞" },
+        { "s": "enfin", "lemma": "enfin", "pos": "副詞", "ja": "ようやく・ついに" }
+      ]
+    },
+    {
+      "id": "fr-0140",
+      "text": "Excusez-moi de vous déranger.",
+      "ja": "お邪魔してすみません。",
+      "level": "B1",
+      "tags": ["命令法", "謝罪"],
+      "grammar": "déranger は「邪魔する」。声をかけるときの決まり文句。",
+      "tokens": [
+        { "s": "Excusez", "lemma": "excuser", "pos": "動詞", "ja": "許す・（代名動詞で）詫びる", "infl": "IMPER/2pl" },
+        { "s": "moi de vous", "skip": true },
+        { "s": "déranger", "lemma": "déranger", "pos": "動詞", "ja": "邪魔する・迷惑をかける", "label": "不定詞" }
       ]
     }
   ]
