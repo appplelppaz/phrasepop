@@ -1,0 +1,604 @@
+{
+  "_comment": "バッチ8: 天気・趣味・家族・日常の雑談。初心者向けの日常会話。A1〜B1、直説法現在・複合過去・半過去が主役。",
+  "lang": "fr",
+  "phrases": [
+    {
+      "id": "fr-0301",
+      "text": "Il fait beau aujourd'hui.",
+      "ja": "今日はいい天気です。",
+      "level": "A1",
+      "tags": ["天気", "直説法現在"],
+      "grammar": "天気は il fait + 形容詞。il は誰も指さない非人称の主語。",
+      "tokens": [
+        { "s": "Il fait beau", "lemma": "il fait beau", "pos": "慣用表現", "ja": "いい天気だ", "idiom": true, "verb": { "s": "fait", "lemma": "faire", "infl": "PRES/3sg" }, "note": "天気は il fait + 形容詞" },
+        { "s": "aujourd'hui", "lemma": "aujourd'hui", "pos": "副詞", "ja": "今日" }
+      ]
+    },
+    {
+      "id": "fr-0302",
+      "text": "Il pleut, prends ton parapluie.",
+      "ja": "雨が降っているから傘を持って。",
+      "level": "A1",
+      "tags": ["天気", "命令法"],
+      "grammar": "pleuvoir は非人称動詞。il pleut の形しか使わない。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "pleut", "lemma": "pleuvoir", "pos": "動詞", "ja": "雨が降る", "infl": "PRES/3sg", "note": "非人称動詞。3人称単数だけ" },
+        { "s": "prends", "lemma": "prendre", "pos": "動詞", "ja": "取る・持つ", "infl": "IMPER/2sg" },
+        { "s": "ton", "skip": true },
+        { "s": "parapluie", "lemma": "parapluie", "pos": "名詞", "ja": "傘" }
+      ]
+    },
+    {
+      "id": "fr-0303",
+      "text": "Il neige beaucoup en hiver ici.",
+      "ja": "ここは冬にたくさん雪が降ります。",
+      "level": "A1",
+      "tags": ["天気", "直説法現在"],
+      "grammar": "季節は en hiver / en été / en automne。春だけ au printemps。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "neige", "lemma": "neiger", "pos": "動詞", "ja": "雪が降る", "infl": "PRES/3sg", "note": "非人称動詞。3人称単数だけ" },
+        { "s": "beaucoup", "lemma": "beaucoup", "pos": "副詞", "ja": "たくさん" },
+        { "s": "en hiver", "lemma": "en hiver", "pos": "慣用表現", "ja": "冬に", "idiom": true },
+        { "s": "ici", "lemma": "ici", "pos": "副詞", "ja": "ここで" }
+      ]
+    },
+    {
+      "id": "fr-0304",
+      "text": "J'ai deux frères et une sœur.",
+      "ja": "兄弟が2人と姉妹が1人います。",
+      "level": "A1",
+      "tags": ["家族", "直説法現在"],
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "ai", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/1sg" },
+        { "s": "deux", "lemma": "deux", "pos": "数詞", "ja": "2" },
+        { "s": "frères", "lemma": "frère", "pos": "名詞", "ja": "兄弟" },
+        { "s": "et une", "skip": true },
+        { "s": "sœur", "lemma": "sœur", "pos": "名詞", "ja": "姉妹" }
+      ]
+    },
+    {
+      "id": "fr-0305",
+      "text": "J'aime beaucoup la musique classique.",
+      "ja": "クラシック音楽が大好きです。",
+      "level": "A1",
+      "tags": ["趣味", "直説法現在"],
+      "grammar": "好き嫌いの対象には定冠詞を付ける。J'aime la musique。",
+      "tokens": [
+        { "s": "J'", "skip": true },
+        { "s": "aime", "lemma": "aimer", "pos": "動詞", "ja": "好む・愛する", "infl": "PRES/1sg" },
+        { "s": "beaucoup", "lemma": "beaucoup", "pos": "副詞", "ja": "とても・たくさん" },
+        { "s": "la", "skip": true },
+        { "s": "musique", "lemma": "musique", "pos": "名詞", "ja": "音楽" },
+        { "s": "classique", "lemma": "classique", "pos": "形容詞", "ja": "クラシックの・古典的な" }
+      ]
+    },
+    {
+      "id": "fr-0306",
+      "text": "Je joue au tennis le samedi.",
+      "ja": "毎週土曜にテニスをします。",
+      "level": "A1",
+      "tags": ["趣味", "直説法現在"],
+      "grammar": "スポーツは jouer à、楽器は jouer de。使い分けに注意。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "joue", "lemma": "jouer", "pos": "動詞", "ja": "遊ぶ・（競技を）する", "infl": "PRES/1sg", "note": "スポーツは jouer à、楽器は jouer de" },
+        { "s": "au", "skip": true },
+        { "s": "tennis", "lemma": "tennis", "pos": "名詞", "ja": "テニス" },
+        { "s": "le samedi", "lemma": "le samedi", "pos": "慣用表現", "ja": "毎週土曜に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0307",
+      "text": "Mon père travaille dans un hôpital.",
+      "ja": "父は病院で働いています。",
+      "level": "A1",
+      "tags": ["家族", "直説法現在"],
+      "tokens": [
+        { "s": "Mon", "skip": true },
+        { "s": "père", "lemma": "père", "pos": "名詞", "ja": "父" },
+        { "s": "travaille", "lemma": "travailler", "pos": "動詞", "ja": "働く", "infl": "PRES/3sg" },
+        { "s": "dans un", "skip": true },
+        { "s": "hôpital", "lemma": "hôpital", "pos": "名詞", "ja": "病院" }
+      ]
+    },
+    {
+      "id": "fr-0308",
+      "text": "Il fait froid, mets un manteau.",
+      "ja": "寒いからコートを着て。",
+      "level": "A1",
+      "tags": ["天気", "命令法"],
+      "tokens": [
+        { "s": "Il fait froid", "lemma": "il fait froid", "pos": "慣用表現", "ja": "寒い", "idiom": true, "verb": { "s": "fait", "lemma": "faire", "infl": "PRES/3sg" } },
+        { "s": "mets", "lemma": "mettre", "pos": "動詞", "ja": "置く・（服を）着る", "infl": "IMPER/2sg" },
+        { "s": "un", "skip": true },
+        { "s": "manteau", "lemma": "manteau", "pos": "名詞", "ja": "コート" }
+      ]
+    },
+    {
+      "id": "fr-0309",
+      "text": "Je lis un livre tous les soirs.",
+      "ja": "毎晩本を読みます。",
+      "level": "A1",
+      "tags": ["趣味", "直説法現在"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "lis", "lemma": "lire", "pos": "動詞", "ja": "読む", "infl": "PRES/1sg" },
+        { "s": "un", "skip": true },
+        { "s": "livre", "lemma": "livre", "pos": "名詞", "ja": "本" },
+        { "s": "tous les soirs", "lemma": "tous les soirs", "pos": "慣用表現", "ja": "毎晩", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0310",
+      "text": "Ma mère cuisine très bien.",
+      "ja": "母は料理がとても上手です。",
+      "level": "A1",
+      "tags": ["家族", "直説法現在"],
+      "tokens": [
+        { "s": "Ma", "skip": true },
+        { "s": "mère", "lemma": "mère", "pos": "名詞", "ja": "母" },
+        { "s": "cuisine", "lemma": "cuisiner", "pos": "動詞", "ja": "料理する", "infl": "PRES/3sg" },
+        { "s": "très bien", "lemma": "très bien", "pos": "慣用表現", "ja": "とても上手に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0311",
+      "text": "Quel temps fait-il chez toi ?",
+      "ja": "そっちの天気はどう？",
+      "level": "A2",
+      "tags": ["天気", "疑問", "直説法現在"],
+      "grammar": "天気を尋ねる決まり文句。temps は「天気」と「時間」の両方を指す。",
+      "tokens": [
+        { "s": "Quel temps", "lemma": "quel temps", "pos": "疑問詞", "ja": "どんな天気", "idiom": true },
+        { "s": "fait", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "PRES/3sg" },
+        { "s": "il", "skip": true },
+        { "s": "chez toi", "lemma": "chez toi", "pos": "慣用表現", "ja": "君のところで", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0312",
+      "text": "Le week-end dernier, nous avons fait une randonnée.",
+      "ja": "先週末はハイキングに行きました。",
+      "level": "A2",
+      "tags": ["趣味", "複合過去"],
+      "grammar": "faire une randonnée で「ハイキングをする」。スポーツの多くは faire で表す。",
+      "tokens": [
+        { "s": "Le week-end dernier", "lemma": "le week-end dernier", "pos": "慣用表現", "ja": "先週末", "idiom": true },
+        { "s": "nous", "skip": true },
+        { "s": "avons fait", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "PC/1pl" },
+        { "s": "une", "skip": true },
+        { "s": "randonnée", "lemma": "randonnée", "pos": "名詞", "ja": "ハイキング・遠足" }
+      ]
+    },
+    {
+      "id": "fr-0313",
+      "text": "Quand j'étais petit, j'adorais dessiner.",
+      "ja": "小さいころ、絵を描くのが大好きでした。",
+      "level": "A2",
+      "tags": ["趣味", "半過去"],
+      "grammar": "子どものころの習慣や状態は半過去で語る。",
+      "tokens": [
+        { "s": "Quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "j'", "skip": true },
+        { "s": "étais", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "IMPF/1sg" },
+        { "s": "petit", "lemma": "petit", "pos": "形容詞", "ja": "小さい・幼い" },
+        { "s": "j'", "skip": true },
+        { "s": "adorais", "lemma": "adorer", "pos": "動詞", "ja": "大好きである", "infl": "IMPF/1sg", "note": "過去の習慣・状態は半過去" },
+        { "s": "dessiner", "lemma": "dessiner", "pos": "動詞", "ja": "絵を描く", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0314",
+      "text": "Mes parents habitent à la campagne depuis dix ans.",
+      "ja": "両親は10年前から田舎に住んでいます。",
+      "level": "A2",
+      "tags": ["家族", "直説法現在"],
+      "tokens": [
+        { "s": "Mes", "skip": true },
+        { "s": "parents", "lemma": "parent", "pos": "名詞", "ja": "親・両親" },
+        { "s": "habitent", "lemma": "habiter", "pos": "動詞", "ja": "住む", "infl": "PRES/3pl", "note": "depuis と組むので現在形" },
+        { "s": "à la", "skip": true },
+        { "s": "campagne", "lemma": "campagne", "pos": "名詞", "ja": "田舎・地方" },
+        { "s": "depuis dix ans", "lemma": "depuis dix ans", "pos": "慣用表現", "ja": "10年前から", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0315",
+      "text": "Il y a du vent, ferme la fenêtre.",
+      "ja": "風が強いから窓を閉めて。",
+      "level": "A2",
+      "tags": ["天気", "命令法"],
+      "grammar": "風・霧・雷などは il y a du / de la で表す。",
+      "tokens": [
+        { "s": "Il y a", "lemma": "il y a", "pos": "慣用表現", "ja": "〜がある", "idiom": true, "verb": { "s": "a", "lemma": "avoir", "infl": "PRES/3sg" } },
+        { "s": "du", "skip": true },
+        { "s": "vent", "lemma": "vent", "pos": "名詞", "ja": "風" },
+        { "s": "ferme", "lemma": "fermer", "pos": "動詞", "ja": "閉める", "infl": "IMPER/2sg" },
+        { "s": "la", "skip": true },
+        { "s": "fenêtre", "lemma": "fenêtre", "pos": "名詞", "ja": "窓" }
+      ]
+    },
+    {
+      "id": "fr-0316",
+      "text": "Ma fille apprend le piano depuis un an.",
+      "ja": "娘は1年前からピアノを習っています。",
+      "level": "A2",
+      "tags": ["家族", "趣味", "直説法現在"],
+      "tokens": [
+        { "s": "Ma", "skip": true },
+        { "s": "fille", "lemma": "fille", "pos": "名詞", "ja": "娘・女の子" },
+        { "s": "apprend", "lemma": "apprendre", "pos": "動詞", "ja": "学ぶ・習う", "infl": "PRES/3sg" },
+        { "s": "le", "skip": true },
+        { "s": "piano", "lemma": "piano", "pos": "名詞", "ja": "ピアノ" },
+        { "s": "depuis un an", "lemma": "depuis un an", "pos": "慣用表現", "ja": "1年前から", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0317",
+      "text": "On va se promener dans le parc ?",
+      "ja": "公園を散歩しない？",
+      "level": "A2",
+      "tags": ["趣味", "近接未来", "疑問"],
+      "tokens": [
+        { "s": "On", "skip": true },
+        { "s": "va", "lemma": "aller", "pos": "動詞", "ja": "行く・〜するつもりだ", "infl": "PRES/3sg", "note": "aller + 不定詞で近接未来" },
+        { "s": "se", "skip": true },
+        { "s": "promener", "lemma": "promener", "pos": "動詞", "ja": "散歩させる・（代名動詞で）散歩する", "label": "不定詞" },
+        { "s": "dans le", "skip": true },
+        { "s": "parc", "lemma": "parc", "pos": "名詞", "ja": "公園" }
+      ]
+    },
+    {
+      "id": "fr-0318",
+      "text": "Je n'aime pas trop les films d'horreur.",
+      "ja": "ホラー映画はあまり好きではありません。",
+      "level": "A2",
+      "tags": ["趣味", "否定", "直説法現在"],
+      "grammar": "ne... pas trop で「あまり〜ない」。全否定より柔らかい。",
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "n'", "skip": true },
+        { "s": "aime", "lemma": "aimer", "pos": "動詞", "ja": "好む・愛する", "infl": "PRES/1sg" },
+        { "s": "pas trop", "lemma": "pas trop", "pos": "慣用表現", "ja": "あまり〜ない", "idiom": true },
+        { "s": "les", "skip": true },
+        { "s": "films d'horreur", "lemma": "film d'horreur", "pos": "慣用表現", "ja": "ホラー映画", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0319",
+      "text": "Il a fait très chaud cet été.",
+      "ja": "今年の夏はとても暑かったです。",
+      "level": "A2",
+      "tags": ["天気", "複合過去"],
+      "grammar": "天気の il fait も複合過去にできる。il a fait。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "a fait", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "PC/3sg" },
+        { "s": "très chaud", "lemma": "très chaud", "pos": "慣用表現", "ja": "とても暑い", "idiom": true },
+        { "s": "cet été", "lemma": "cet été", "pos": "慣用表現", "ja": "今年の夏", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0320",
+      "text": "Mon mari fait la cuisine tous les jours.",
+      "ja": "夫が毎日料理をします。",
+      "level": "A2",
+      "tags": ["家族", "直説法現在"],
+      "grammar": "faire la cuisine で「料理をする」。家事は faire + 定冠詞。",
+      "tokens": [
+        { "s": "Mon", "skip": true },
+        { "s": "mari", "lemma": "mari", "pos": "名詞", "ja": "夫" },
+        { "s": "fait la cuisine", "lemma": "faire la cuisine", "pos": "慣用表現", "ja": "料理をする", "idiom": true, "verb": { "s": "fait", "lemma": "faire", "infl": "PRES/3sg" } },
+        { "s": "tous les jours", "lemma": "tous les jours", "pos": "慣用表現", "ja": "毎日", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0321",
+      "text": "Nous nous sommes bien amusés hier.",
+      "ja": "昨日はとても楽しかったです。",
+      "level": "A2",
+      "tags": ["趣味", "複合過去"],
+      "grammar": "s'amuser は代名動詞なので être で複合過去を作り、主語に一致する。",
+      "tokens": [
+        { "s": "Nous nous", "skip": true },
+        { "s": "sommes", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1pl", "note": "代名動詞の複合過去は être" },
+        { "s": "bien", "lemma": "bien", "pos": "副詞", "ja": "よく・しっかり" },
+        { "s": "amusés", "lemma": "amuser", "pos": "動詞", "ja": "楽しませる・（代名動詞で）楽しむ", "label": "過去分詞・男性複数" },
+        { "s": "hier", "lemma": "hier", "pos": "副詞", "ja": "昨日" }
+      ]
+    },
+    {
+      "id": "fr-0322",
+      "text": "Ça te dirait d'aller au cinéma ?",
+      "ja": "映画に行くのはどう？",
+      "level": "B1",
+      "tags": ["趣味", "条件法現在", "誘い"],
+      "grammar": "Ça te dirait de + 不定詞で「〜するのはどう？」。誘いの丁寧な形。",
+      "tokens": [
+        { "s": "Ça te dirait", "lemma": "ça te dirait de", "pos": "慣用表現", "ja": "〜するのはどう？", "idiom": true, "verb": { "s": "dirait", "lemma": "dire", "infl": "COND/3sg" } },
+        { "s": "d'", "skip": true },
+        { "s": "aller", "lemma": "aller", "pos": "動詞", "ja": "行く", "label": "不定詞" },
+        { "s": "au", "skip": true },
+        { "s": "cinéma", "lemma": "cinéma", "pos": "名詞", "ja": "映画館・映画" }
+      ]
+    },
+    {
+      "id": "fr-0323",
+      "text": "On dirait qu'il va pleuvoir.",
+      "ja": "雨が降りそうですね。",
+      "level": "B1",
+      "tags": ["天気", "条件法現在"],
+      "grammar": "On dirait que で「〜のようだ」。見た目からの推測を表す。",
+      "tokens": [
+        { "s": "On dirait", "lemma": "on dirait que", "pos": "慣用表現", "ja": "〜のようだ・〜みたいだ", "idiom": true, "verb": { "s": "dirait", "lemma": "dire", "infl": "COND/3sg" } },
+        { "s": "qu'il", "skip": true },
+        { "s": "va", "lemma": "aller", "pos": "動詞", "ja": "行く・〜しそうだ", "infl": "PRES/3sg", "note": "aller + 不定詞で近接未来" },
+        { "s": "pleuvoir", "lemma": "pleuvoir", "pos": "動詞", "ja": "雨が降る", "label": "不定詞" }
+      ]
+    },
+    {
+      "id": "fr-0324",
+      "text": "Je m'entends très bien avec ma sœur.",
+      "ja": "姉とはとても仲がいいです。",
+      "level": "B1",
+      "tags": ["家族", "直説法現在"],
+      "grammar": "s'entendre avec qqn で「〜と気が合う」。",
+      "tokens": [
+        { "s": "Je m'", "skip": true },
+        { "s": "entends", "lemma": "entendre", "pos": "動詞", "ja": "聞こえる・（代名動詞で）気が合う", "infl": "PRES/1sg" },
+        { "s": "très bien", "lemma": "très bien", "pos": "慣用表現", "ja": "とてもよく", "idiom": true },
+        { "s": "avec ma", "skip": true },
+        { "s": "sœur", "lemma": "sœur", "pos": "名詞", "ja": "姉妹" }
+      ]
+    },
+    {
+      "id": "fr-0325",
+      "text": "Ça fait longtemps que je n'ai pas joué.",
+      "ja": "ずいぶん長いことやっていません。",
+      "level": "B1",
+      "tags": ["趣味", "複合過去"],
+      "tokens": [
+        { "s": "Ça fait", "lemma": "ça fait... que", "pos": "慣用表現", "ja": "〜してから…になる", "idiom": true, "verb": { "s": "fait", "lemma": "faire", "infl": "PRES/3sg" } },
+        { "s": "longtemps", "lemma": "longtemps", "pos": "副詞", "ja": "長いあいだ" },
+        { "s": "que je n'", "skip": true },
+        { "s": "ai", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "PRES/1sg", "note": "複合過去の助動詞" },
+        { "s": "pas", "skip": true },
+        { "s": "joué", "lemma": "jouer", "pos": "動詞", "ja": "遊ぶ・演奏する", "infl": "PPASSE" }
+      ]
+    },
+    {
+      "id": "fr-0326",
+      "text": "Mon fils veut devenir vétérinaire.",
+      "ja": "息子は獣医になりたがっています。",
+      "level": "B1",
+      "tags": ["家族", "直説法現在"],
+      "grammar": "職業を表す名詞は devenir / être のあとで冠詞を落とす。",
+      "tokens": [
+        { "s": "Mon", "skip": true },
+        { "s": "fils", "lemma": "fils", "pos": "名詞", "ja": "息子" },
+        { "s": "veut", "lemma": "vouloir", "pos": "動詞", "ja": "欲する・〜したい", "infl": "PRES/3sg" },
+        { "s": "devenir", "lemma": "devenir", "pos": "動詞", "ja": "〜になる", "label": "不定詞" },
+        { "s": "vétérinaire", "lemma": "vétérinaire", "pos": "名詞", "ja": "獣医", "note": "職業名は冠詞を落とす" }
+      ]
+    },
+    {
+      "id": "fr-0327",
+      "text": "S'il fait beau demain, on ira à la plage.",
+      "ja": "明日晴れたら海に行こう。",
+      "level": "B1",
+      "tags": ["天気", "条件", "単純未来"],
+      "grammar": "si + 直説法現在 → 単純未来。si のあとを未来形にしないこと。",
+      "tokens": [
+        { "s": "S'il", "skip": true },
+        { "s": "fait beau", "lemma": "il fait beau", "pos": "慣用表現", "ja": "いい天気だ", "idiom": true, "verb": { "s": "fait", "lemma": "faire", "infl": "PRES/3sg" }, "note": "si のあとは現在形。未来形にしない" },
+        { "s": "demain", "lemma": "demain", "pos": "副詞", "ja": "明日" },
+        { "s": "on", "skip": true },
+        { "s": "ira", "lemma": "aller", "pos": "動詞", "ja": "行く", "infl": "FUT/3sg" },
+        { "s": "à la", "skip": true },
+        { "s": "plage", "lemma": "plage", "pos": "名詞", "ja": "浜辺・ビーチ" }
+      ]
+    },
+    {
+      "id": "fr-0328",
+      "text": "Je préfère rester à la maison quand il pleut.",
+      "ja": "雨の日は家にいるほうが好きです。",
+      "level": "B1",
+      "tags": ["天気", "趣味", "直説法現在"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "préfère", "lemma": "préférer", "pos": "動詞", "ja": "〜のほうを好む", "infl": "PRES/1sg" },
+        { "s": "rester", "lemma": "rester", "pos": "動詞", "ja": "とどまる・残る", "label": "不定詞" },
+        { "s": "à la maison", "lemma": "à la maison", "pos": "慣用表現", "ja": "家に・自宅で", "idiom": true },
+        { "s": "quand", "lemma": "quand", "pos": "接続詞", "ja": "〜のとき" },
+        { "s": "il", "skip": true },
+        { "s": "pleut", "lemma": "pleuvoir", "pos": "動詞", "ja": "雨が降る", "infl": "PRES/3sg" }
+      ]
+    },
+    {
+      "id": "fr-0329",
+      "text": "Nous fêtons l'anniversaire de ma grand-mère.",
+      "ja": "祖母の誕生日を祝います。",
+      "level": "B1",
+      "tags": ["家族", "直説法現在"],
+      "tokens": [
+        { "s": "Nous", "skip": true },
+        { "s": "fêtons", "lemma": "fêter", "pos": "動詞", "ja": "祝う", "infl": "PRES/1pl" },
+        { "s": "l'", "skip": true },
+        { "s": "anniversaire", "lemma": "anniversaire", "pos": "名詞", "ja": "誕生日・記念日" },
+        { "s": "de ma", "skip": true },
+        { "s": "grand-mère", "lemma": "grand-mère", "pos": "名詞", "ja": "祖母" }
+      ]
+    },
+    {
+      "id": "fr-0330",
+      "text": "Il faisait un temps magnifique ce jour-là.",
+      "ja": "その日はすばらしい天気でした。",
+      "level": "B1",
+      "tags": ["天気", "半過去"],
+      "grammar": "過去の天気は半過去で描く。状態だから複合過去にしない。",
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "faisait", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "IMPF/3sg", "note": "過去の天気は半過去" },
+        { "s": "un", "skip": true },
+        { "s": "temps", "lemma": "temps", "pos": "名詞", "ja": "天気・時間" },
+        { "s": "magnifique", "lemma": "magnifique", "pos": "形容詞", "ja": "すばらしい・壮麗な" },
+        { "s": "ce jour-là", "lemma": "ce jour-là", "pos": "慣用表現", "ja": "その日は", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0331",
+      "text": "Qu'est-ce que tu fais pendant tes vacances ?",
+      "ja": "休暇のあいだは何をするの？",
+      "level": "B1",
+      "tags": ["趣味", "疑問", "直説法現在"],
+      "grammar": "vacances は必ず複数形。",
+      "tokens": [
+        { "s": "Qu'est-ce que", "lemma": "qu'est-ce que", "pos": "疑問詞", "ja": "何を", "idiom": true },
+        { "s": "tu", "skip": true },
+        { "s": "fais", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "PRES/2sg" },
+        { "s": "pendant", "lemma": "pendant", "pos": "前置詞", "ja": "〜のあいだ" },
+        { "s": "tes", "skip": true },
+        { "s": "vacances", "lemma": "vacances", "pos": "名詞", "ja": "休暇", "note": "必ず複数形で使う" }
+      ]
+    },
+    {
+      "id": "fr-0332",
+      "text": "Je me suis mis au yoga l'année dernière.",
+      "ja": "去年ヨガを始めました。",
+      "level": "B1",
+      "tags": ["趣味", "複合過去"],
+      "grammar": "se mettre à で「〜を始める」。代名動詞なので être を使う。",
+      "tokens": [
+        { "s": "Je me", "skip": true },
+        { "s": "suis", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/1sg", "note": "代名動詞の複合過去は être" },
+        { "s": "mis au", "lemma": "se mettre à", "pos": "慣用表現", "ja": "〜を始める", "idiom": true, "verb": { "s": "mis", "lemma": "mettre", "infl": "PPASSE" } },
+        { "s": "yoga", "lemma": "yoga", "pos": "名詞", "ja": "ヨガ" },
+        { "s": "l'année dernière", "lemma": "l'année dernière", "pos": "慣用表現", "ja": "去年", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0333",
+      "text": "Mes enfants ne se disputent presque jamais.",
+      "ja": "うちの子たちはめったに喧嘩しません。",
+      "level": "B1",
+      "tags": ["家族", "否定", "直説法現在"],
+      "grammar": "ne... presque jamais で「めったに〜ない」。",
+      "tokens": [
+        { "s": "Mes", "skip": true },
+        { "s": "enfants", "lemma": "enfant", "pos": "名詞", "ja": "子ども" },
+        { "s": "ne se", "skip": true },
+        { "s": "disputent", "lemma": "disputer", "pos": "動詞", "ja": "争う・（代名動詞で）喧嘩する", "infl": "PRES/3pl" },
+        { "s": "presque jamais", "lemma": "presque jamais", "pos": "慣用表現", "ja": "めったに〜ない", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0334",
+      "text": "J'ai l'impression qu'il fait plus doux aujourd'hui.",
+      "ja": "今日は少し暖かい気がします。",
+      "level": "B1",
+      "tags": ["天気", "直説法現在"],
+      "tokens": [
+        { "s": "J'ai l'impression", "lemma": "avoir l'impression que", "pos": "慣用表現", "ja": "〜という気がする", "idiom": true, "verb": { "s": "ai", "lemma": "avoir", "infl": "PRES/1sg" } },
+        { "s": "qu'il", "skip": true },
+        { "s": "fait", "lemma": "faire", "pos": "動詞", "ja": "する・作る", "infl": "PRES/3sg" },
+        { "s": "plus doux", "lemma": "plus doux", "pos": "慣用表現", "ja": "より穏やかな・より暖かい", "idiom": true },
+        { "s": "aujourd'hui", "lemma": "aujourd'hui", "pos": "副詞", "ja": "今日" }
+      ]
+    },
+    {
+      "id": "fr-0335",
+      "text": "Il faut que je range ma chambre.",
+      "ja": "部屋を片づけないといけません。",
+      "level": "B1",
+      "tags": ["接続法", "義務"],
+      "tokens": [
+        { "s": "Il", "skip": true },
+        { "s": "faut", "lemma": "falloir", "pos": "動詞", "ja": "必要である", "infl": "PRES/3sg" },
+        { "s": "que je", "skip": true },
+        { "s": "range", "lemma": "ranger", "pos": "動詞", "ja": "片づける", "infl": "SUBJ/1sg", "note": "il faut que のあとは接続法" },
+        { "s": "ma", "skip": true },
+        { "s": "chambre", "lemma": "chambre", "pos": "名詞", "ja": "部屋・寝室" }
+      ]
+    },
+    {
+      "id": "fr-0336",
+      "text": "On s'est bien entendus dès le début.",
+      "ja": "最初から気が合いました。",
+      "level": "B1",
+      "tags": ["家族", "複合過去"],
+      "tokens": [
+        { "s": "On s'", "skip": true },
+        { "s": "est", "lemma": "être", "pos": "動詞", "ja": "〜である", "infl": "PRES/3sg", "note": "代名動詞の複合過去は être" },
+        { "s": "bien", "lemma": "bien", "pos": "副詞", "ja": "よく・しっかり" },
+        { "s": "entendus", "lemma": "entendre", "pos": "動詞", "ja": "聞こえる・（代名動詞で）気が合う", "label": "過去分詞・男性複数" },
+        { "s": "dès le début", "lemma": "dès le début", "pos": "慣用表現", "ja": "最初から", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0337",
+      "text": "Je nettoie la maison le dimanche matin.",
+      "ja": "日曜の朝に家を掃除します。",
+      "level": "B1",
+      "tags": ["直説法現在"],
+      "tokens": [
+        { "s": "Je", "skip": true },
+        { "s": "nettoie", "lemma": "nettoyer", "pos": "動詞", "ja": "掃除する", "infl": "PRES/1sg" },
+        { "s": "la", "skip": true },
+        { "s": "maison", "lemma": "maison", "pos": "名詞", "ja": "家" },
+        { "s": "le dimanche matin", "lemma": "le dimanche matin", "pos": "慣用表現", "ja": "毎週日曜の朝に", "idiom": true }
+      ]
+    },
+    {
+      "id": "fr-0338",
+      "text": "Si j'avais le temps, j'apprendrais la guitare.",
+      "ja": "時間があればギターを習うのに。",
+      "level": "B1",
+      "tags": ["趣味", "半過去", "条件法現在"],
+      "grammar": "si + 半過去 → 条件法現在。現在の事実に反する仮定。",
+      "tokens": [
+        { "s": "Si j'", "skip": true },
+        { "s": "avais", "lemma": "avoir", "pos": "動詞", "ja": "持つ・所有する", "infl": "IMPF/1sg", "note": "si のあとは半過去。条件法にしない" },
+        { "s": "le temps", "lemma": "le temps", "pos": "名詞", "ja": "時間" },
+        { "s": "j'", "skip": true },
+        { "s": "apprendrais", "lemma": "apprendre", "pos": "動詞", "ja": "学ぶ・習う", "infl": "COND/1sg" },
+        { "s": "la", "skip": true },
+        { "s": "guitare", "lemma": "guitare", "pos": "名詞", "ja": "ギター" }
+      ]
+    },
+    {
+      "id": "fr-0339",
+      "text": "Ma grand-mère nous racontait des histoires.",
+      "ja": "祖母はよく話を聞かせてくれました。",
+      "level": "B1",
+      "tags": ["家族", "半過去"],
+      "grammar": "繰り返していた過去の行為は半過去。「よく〜したものだ」。",
+      "tokens": [
+        { "s": "Ma", "skip": true },
+        { "s": "grand-mère", "lemma": "grand-mère", "pos": "名詞", "ja": "祖母" },
+        { "s": "nous", "skip": true },
+        { "s": "racontait", "lemma": "raconter", "pos": "動詞", "ja": "語る・話して聞かせる", "infl": "IMPF/3sg", "note": "繰り返していた行為は半過去" },
+        { "s": "des", "skip": true },
+        { "s": "histoires", "lemma": "histoire", "pos": "名詞", "ja": "話・物語・歴史" }
+      ]
+    },
+    {
+      "id": "fr-0340",
+      "text": "On se voit souvent, on habite dans le même quartier.",
+      "ja": "同じ地区に住んでいるので、よく会います。",
+      "level": "B1",
+      "tags": ["家族", "直説法現在"],
+      "tokens": [
+        { "s": "On se", "skip": true },
+        { "s": "voit", "lemma": "voir", "pos": "動詞", "ja": "見る・会う", "infl": "PRES/3sg" },
+        { "s": "souvent", "lemma": "souvent", "pos": "副詞", "ja": "よく・しばしば" },
+        { "s": "on", "skip": true },
+        { "s": "habite", "lemma": "habiter", "pos": "動詞", "ja": "住む", "infl": "PRES/3sg" },
+        { "s": "dans le même", "skip": true },
+        { "s": "quartier", "lemma": "quartier", "pos": "名詞", "ja": "界隈・地区" }
+      ]
+    }
+  ]
+}

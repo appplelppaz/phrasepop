@@ -31279,6 +31279,261 @@
       }
     },
     {
+      "lemma": "adorer",
+      "ja": "大好きである・崇拝する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "adore",
+          "adores",
+          "adore",
+          "adorons",
+          "adorez",
+          "adorent"
+        ],
+        "IMPF": [
+          "adorais",
+          "adorais",
+          "adorait",
+          "adorions",
+          "adoriez",
+          "adoraient"
+        ],
+        "FUT": [
+          "adorerai",
+          "adoreras",
+          "adorera",
+          "adorerons",
+          "adorerez",
+          "adoreront"
+        ],
+        "PC": [
+          "ai adoré",
+          "as adoré",
+          "a adoré",
+          "avons adoré",
+          "avez adoré",
+          "ont adoré"
+        ],
+        "PQP": [
+          "avais adoré",
+          "avais adoré",
+          "avait adoré",
+          "avions adoré",
+          "aviez adoré",
+          "avaient adoré"
+        ],
+        "PS": [
+          "adorai",
+          "adoras",
+          "adora",
+          "adorâmes",
+          "adorâtes",
+          "adorèrent"
+        ],
+        "COND": [
+          "adorerais",
+          "adorerais",
+          "adorerait",
+          "adorerions",
+          "adoreriez",
+          "adoreraient"
+        ],
+        "SUBJ": [
+          "adore",
+          "adores",
+          "adore",
+          "adorions",
+          "adoriez",
+          "adorent"
+        ],
+        "IMPER": [
+          "",
+          "adore",
+          "",
+          "adorons",
+          "adorez",
+          ""
+        ],
+        "PPRES": [
+          "adorant"
+        ],
+        "PPASSE": [
+          "adoré"
+        ]
+      }
+    },
+    {
+      "lemma": "fêter",
+      "ja": "祝う",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "fête",
+          "fêtes",
+          "fête",
+          "fêtons",
+          "fêtez",
+          "fêtent"
+        ],
+        "IMPF": [
+          "fêtais",
+          "fêtais",
+          "fêtait",
+          "fêtions",
+          "fêtiez",
+          "fêtaient"
+        ],
+        "FUT": [
+          "fêterai",
+          "fêteras",
+          "fêtera",
+          "fêterons",
+          "fêterez",
+          "fêteront"
+        ],
+        "PC": [
+          "ai fêté",
+          "as fêté",
+          "a fêté",
+          "avons fêté",
+          "avez fêté",
+          "ont fêté"
+        ],
+        "PQP": [
+          "avais fêté",
+          "avais fêté",
+          "avait fêté",
+          "avions fêté",
+          "aviez fêté",
+          "avaient fêté"
+        ],
+        "PS": [
+          "fêtai",
+          "fêtas",
+          "fêta",
+          "fêtâmes",
+          "fêtâtes",
+          "fêtèrent"
+        ],
+        "COND": [
+          "fêterais",
+          "fêterais",
+          "fêterait",
+          "fêterions",
+          "fêteriez",
+          "fêteraient"
+        ],
+        "SUBJ": [
+          "fête",
+          "fêtes",
+          "fête",
+          "fêtions",
+          "fêtiez",
+          "fêtent"
+        ],
+        "IMPER": [
+          "",
+          "fête",
+          "",
+          "fêtons",
+          "fêtez",
+          ""
+        ],
+        "PPRES": [
+          "fêtant"
+        ],
+        "PPASSE": [
+          "fêté"
+        ]
+      }
+    },
+    {
+      "lemma": "disputer",
+      "ja": "争う・（代名動詞で）喧嘩する",
+      "aux": "AVOIR",
+      "forms": {
+        "PRES": [
+          "dispute",
+          "disputes",
+          "dispute",
+          "disputons",
+          "disputez",
+          "disputent"
+        ],
+        "IMPF": [
+          "disputais",
+          "disputais",
+          "disputait",
+          "disputions",
+          "disputiez",
+          "disputaient"
+        ],
+        "FUT": [
+          "disputerai",
+          "disputeras",
+          "disputera",
+          "disputerons",
+          "disputerez",
+          "disputeront"
+        ],
+        "PC": [
+          "ai disputé",
+          "as disputé",
+          "a disputé",
+          "avons disputé",
+          "avez disputé",
+          "ont disputé"
+        ],
+        "PQP": [
+          "avais disputé",
+          "avais disputé",
+          "avait disputé",
+          "avions disputé",
+          "aviez disputé",
+          "avaient disputé"
+        ],
+        "PS": [
+          "disputai",
+          "disputas",
+          "disputa",
+          "disputâmes",
+          "disputâtes",
+          "disputèrent"
+        ],
+        "COND": [
+          "disputerais",
+          "disputerais",
+          "disputerait",
+          "disputerions",
+          "disputeriez",
+          "disputeraient"
+        ],
+        "SUBJ": [
+          "dispute",
+          "disputes",
+          "dispute",
+          "disputions",
+          "disputiez",
+          "disputent"
+        ],
+        "IMPER": [
+          "",
+          "dispute",
+          "",
+          "disputons",
+          "disputez",
+          ""
+        ],
+        "PPRES": [
+          "disputant"
+        ],
+        "PPASSE": [
+          "disputé"
+        ]
+      }
+    },
+    {
       "lemma": "tousser",
       "ja": "咳をする",
       "aux": "AVOIR",

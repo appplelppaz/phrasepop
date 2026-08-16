@@ -12,6 +12,25 @@ export async function loadVerbs(lang: Lang): Promise<VerbTable> {
   return (mod.default ?? mod) as VerbTable;
 }
 
+/**
+ * フレーズバンクで実際に活用しているタイプの見出し語を集める。
+ *
+ * ドリルの出題範囲をこれに絞る。活用表にはフレーズで使っていない動詞も残っているので
+ * （上級のフレーズを消しても活用表は消さない）、そのままだとドリルだけ
+ * バンクの難易度と食い違ってしまう。フレーズを足せば自動で範囲も広がる。
+ */
+export function lemmasUsedIn(phrases: Phrase[]): Set<string> {
+  const used = new Set<string>();
+  for (const p of phrases) {
+    for (const t of p.tokens) {
+      const g = t.gloss;
+      if (!g?.inflection?.tense) continue;
+      used.add(g.verb ? g.verb.lemma : g.lemma);
+    }
+  }
+  return used;
+}
+
 /** バンクに含まれるタグを出現回数の多い順に並べる。 */
 export function collectTags(phrases: Phrase[]): string[] {
   const counts = new Map<string, number>();

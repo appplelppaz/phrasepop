@@ -20597,6 +20597,2869 @@
         }
       ],
       "grammar": "prendre soin de で「大切にする」。別れ際の決まり文句。"
+    },
+    {
+      "id": "fr-0301",
+      "lang": "fr",
+      "text": "Il fait beau aujourd'hui.",
+      "ja": "今日はいい天気です。",
+      "level": "A1",
+      "tags": [
+        "天気",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Il fait beau",
+          "start": 0,
+          "end": 12,
+          "gloss": {
+            "lemma": "il fait beau",
+            "pos": "慣用表現",
+            "ja": "いい天気だ",
+            "idiom": true,
+            "note": "天気は il fait + 形容詞",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "fait",
+              "lemma": "faire"
+            }
+          }
+        },
+        {
+          "surface": "aujourd'hui",
+          "start": 13,
+          "end": 24,
+          "gloss": {
+            "lemma": "aujourd'hui",
+            "pos": "副詞",
+            "ja": "今日"
+          }
+        }
+      ],
+      "grammar": "天気は il fait + 形容詞。il は誰も指さない非人称の主語。"
+    },
+    {
+      "id": "fr-0302",
+      "lang": "fr",
+      "text": "Il pleut, prends ton parapluie.",
+      "ja": "雨が降っているから傘を持って。",
+      "level": "A1",
+      "tags": [
+        "天気",
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "pleut",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "pleuvoir",
+            "pos": "動詞",
+            "ja": "雨が降る",
+            "note": "非人称動詞。3人称単数だけ",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "prends",
+          "start": 10,
+          "end": 16,
+          "gloss": {
+            "lemma": "prendre",
+            "pos": "動詞",
+            "ja": "取る・持つ",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMPER",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "ton",
+          "start": 17,
+          "end": 20
+        },
+        {
+          "surface": "parapluie",
+          "start": 21,
+          "end": 30,
+          "gloss": {
+            "lemma": "parapluie",
+            "pos": "名詞",
+            "ja": "傘"
+          }
+        }
+      ],
+      "grammar": "pleuvoir は非人称動詞。il pleut の形しか使わない。"
+    },
+    {
+      "id": "fr-0303",
+      "lang": "fr",
+      "text": "Il neige beaucoup en hiver ici.",
+      "ja": "ここは冬にたくさん雪が降ります。",
+      "level": "A1",
+      "tags": [
+        "天気",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "neige",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "neiger",
+            "pos": "動詞",
+            "ja": "雪が降る",
+            "note": "非人称動詞。3人称単数だけ",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "beaucoup",
+          "start": 9,
+          "end": 17,
+          "gloss": {
+            "lemma": "beaucoup",
+            "pos": "副詞",
+            "ja": "たくさん"
+          }
+        },
+        {
+          "surface": "en hiver",
+          "start": 18,
+          "end": 26,
+          "gloss": {
+            "lemma": "en hiver",
+            "pos": "慣用表現",
+            "ja": "冬に",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "ici",
+          "start": 27,
+          "end": 30,
+          "gloss": {
+            "lemma": "ici",
+            "pos": "副詞",
+            "ja": "ここで"
+          }
+        }
+      ],
+      "grammar": "季節は en hiver / en été / en automne。春だけ au printemps。"
+    },
+    {
+      "id": "fr-0304",
+      "lang": "fr",
+      "text": "J'ai deux frères et une sœur.",
+      "ja": "兄弟が2人と姉妹が1人います。",
+      "level": "A1",
+      "tags": [
+        "家族",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "J'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ai",
+          "start": 2,
+          "end": 4,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "deux",
+          "start": 5,
+          "end": 9,
+          "gloss": {
+            "lemma": "deux",
+            "pos": "数詞",
+            "ja": "2"
+          }
+        },
+        {
+          "surface": "frères",
+          "start": 10,
+          "end": 16,
+          "gloss": {
+            "lemma": "frère",
+            "pos": "名詞",
+            "ja": "兄弟"
+          }
+        },
+        {
+          "surface": "et une",
+          "start": 17,
+          "end": 23
+        },
+        {
+          "surface": "sœur",
+          "start": 24,
+          "end": 28,
+          "gloss": {
+            "lemma": "sœur",
+            "pos": "名詞",
+            "ja": "姉妹"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0305",
+      "lang": "fr",
+      "text": "J'aime beaucoup la musique classique.",
+      "ja": "クラシック音楽が大好きです。",
+      "level": "A1",
+      "tags": [
+        "趣味",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "J'",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "aime",
+          "start": 2,
+          "end": 6,
+          "gloss": {
+            "lemma": "aimer",
+            "pos": "動詞",
+            "ja": "好む・愛する",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "beaucoup",
+          "start": 7,
+          "end": 15,
+          "gloss": {
+            "lemma": "beaucoup",
+            "pos": "副詞",
+            "ja": "とても・たくさん"
+          }
+        },
+        {
+          "surface": "la",
+          "start": 16,
+          "end": 18
+        },
+        {
+          "surface": "musique",
+          "start": 19,
+          "end": 26,
+          "gloss": {
+            "lemma": "musique",
+            "pos": "名詞",
+            "ja": "音楽"
+          }
+        },
+        {
+          "surface": "classique",
+          "start": 27,
+          "end": 36,
+          "gloss": {
+            "lemma": "classique",
+            "pos": "形容詞",
+            "ja": "クラシックの・古典的な"
+          }
+        }
+      ],
+      "grammar": "好き嫌いの対象には定冠詞を付ける。J'aime la musique。"
+    },
+    {
+      "id": "fr-0306",
+      "lang": "fr",
+      "text": "Je joue au tennis le samedi.",
+      "ja": "毎週土曜にテニスをします。",
+      "level": "A1",
+      "tags": [
+        "趣味",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "joue",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "jouer",
+            "pos": "動詞",
+            "ja": "遊ぶ・（競技を）する",
+            "note": "スポーツは jouer à、楽器は jouer de",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "au",
+          "start": 8,
+          "end": 10
+        },
+        {
+          "surface": "tennis",
+          "start": 11,
+          "end": 17,
+          "gloss": {
+            "lemma": "tennis",
+            "pos": "名詞",
+            "ja": "テニス"
+          }
+        },
+        {
+          "surface": "le samedi",
+          "start": 18,
+          "end": 27,
+          "gloss": {
+            "lemma": "le samedi",
+            "pos": "慣用表現",
+            "ja": "毎週土曜に",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "スポーツは jouer à、楽器は jouer de。使い分けに注意。"
+    },
+    {
+      "id": "fr-0307",
+      "lang": "fr",
+      "text": "Mon père travaille dans un hôpital.",
+      "ja": "父は病院で働いています。",
+      "level": "A1",
+      "tags": [
+        "家族",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Mon",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "père",
+          "start": 4,
+          "end": 8,
+          "gloss": {
+            "lemma": "père",
+            "pos": "名詞",
+            "ja": "父"
+          }
+        },
+        {
+          "surface": "travaille",
+          "start": 9,
+          "end": 18,
+          "gloss": {
+            "lemma": "travailler",
+            "pos": "動詞",
+            "ja": "働く",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "dans un",
+          "start": 19,
+          "end": 26
+        },
+        {
+          "surface": "hôpital",
+          "start": 27,
+          "end": 34,
+          "gloss": {
+            "lemma": "hôpital",
+            "pos": "名詞",
+            "ja": "病院"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0308",
+      "lang": "fr",
+      "text": "Il fait froid, mets un manteau.",
+      "ja": "寒いからコートを着て。",
+      "level": "A1",
+      "tags": [
+        "天気",
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Il fait froid",
+          "start": 0,
+          "end": 13,
+          "gloss": {
+            "lemma": "il fait froid",
+            "pos": "慣用表現",
+            "ja": "寒い",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "fait",
+              "lemma": "faire"
+            }
+          }
+        },
+        {
+          "surface": "mets",
+          "start": 15,
+          "end": 19,
+          "gloss": {
+            "lemma": "mettre",
+            "pos": "動詞",
+            "ja": "置く・（服を）着る",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMPER",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 20,
+          "end": 22
+        },
+        {
+          "surface": "manteau",
+          "start": 23,
+          "end": 30,
+          "gloss": {
+            "lemma": "manteau",
+            "pos": "名詞",
+            "ja": "コート"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0309",
+      "lang": "fr",
+      "text": "Je lis un livre tous les soirs.",
+      "ja": "毎晩本を読みます。",
+      "level": "A1",
+      "tags": [
+        "趣味",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "lis",
+          "start": 3,
+          "end": 6,
+          "gloss": {
+            "lemma": "lire",
+            "pos": "動詞",
+            "ja": "読む",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 7,
+          "end": 9
+        },
+        {
+          "surface": "livre",
+          "start": 10,
+          "end": 15,
+          "gloss": {
+            "lemma": "livre",
+            "pos": "名詞",
+            "ja": "本"
+          }
+        },
+        {
+          "surface": "tous les soirs",
+          "start": 16,
+          "end": 30,
+          "gloss": {
+            "lemma": "tous les soirs",
+            "pos": "慣用表現",
+            "ja": "毎晩",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0310",
+      "lang": "fr",
+      "text": "Ma mère cuisine très bien.",
+      "ja": "母は料理がとても上手です。",
+      "level": "A1",
+      "tags": [
+        "家族",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Ma",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "mère",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "mère",
+            "pos": "名詞",
+            "ja": "母"
+          }
+        },
+        {
+          "surface": "cuisine",
+          "start": 8,
+          "end": 15,
+          "gloss": {
+            "lemma": "cuisiner",
+            "pos": "動詞",
+            "ja": "料理する",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "très bien",
+          "start": 16,
+          "end": 25,
+          "gloss": {
+            "lemma": "très bien",
+            "pos": "慣用表現",
+            "ja": "とても上手に",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0311",
+      "lang": "fr",
+      "text": "Quel temps fait-il chez toi ?",
+      "ja": "そっちの天気はどう？",
+      "level": "A2",
+      "tags": [
+        "天気",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Quel temps",
+          "start": 0,
+          "end": 10,
+          "gloss": {
+            "lemma": "quel temps",
+            "pos": "疑問詞",
+            "ja": "どんな天気",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "fait",
+          "start": 11,
+          "end": 15,
+          "gloss": {
+            "lemma": "faire",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "il",
+          "start": 16,
+          "end": 18
+        },
+        {
+          "surface": "chez toi",
+          "start": 19,
+          "end": 27,
+          "gloss": {
+            "lemma": "chez toi",
+            "pos": "慣用表現",
+            "ja": "君のところで",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "天気を尋ねる決まり文句。temps は「天気」と「時間」の両方を指す。"
+    },
+    {
+      "id": "fr-0312",
+      "lang": "fr",
+      "text": "Le week-end dernier, nous avons fait une randonnée.",
+      "ja": "先週末はハイキングに行きました。",
+      "level": "A2",
+      "tags": [
+        "趣味",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Le week-end dernier",
+          "start": 0,
+          "end": 19,
+          "gloss": {
+            "lemma": "le week-end dernier",
+            "pos": "慣用表現",
+            "ja": "先週末",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "nous",
+          "start": 21,
+          "end": 25
+        },
+        {
+          "surface": "avons fait",
+          "start": 26,
+          "end": 36,
+          "gloss": {
+            "lemma": "faire",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "複合過去・1人称複数",
+              "tense": "PC",
+              "person": "1pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "une",
+          "start": 37,
+          "end": 40
+        },
+        {
+          "surface": "randonnée",
+          "start": 41,
+          "end": 50,
+          "gloss": {
+            "lemma": "randonnée",
+            "pos": "名詞",
+            "ja": "ハイキング・遠足"
+          }
+        }
+      ],
+      "grammar": "faire une randonnée で「ハイキングをする」。スポーツの多くは faire で表す。"
+    },
+    {
+      "id": "fr-0313",
+      "lang": "fr",
+      "text": "Quand j'étais petit, j'adorais dessiner.",
+      "ja": "小さいころ、絵を描くのが大好きでした。",
+      "level": "A2",
+      "tags": [
+        "趣味",
+        "半過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Quand",
+          "start": 0,
+          "end": 5,
+          "gloss": {
+            "lemma": "quand",
+            "pos": "接続詞",
+            "ja": "〜のとき"
+          }
+        },
+        {
+          "surface": "j'",
+          "start": 6,
+          "end": 8
+        },
+        {
+          "surface": "étais",
+          "start": 8,
+          "end": 13,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "inflection": {
+              "label": "半過去・1人称単数",
+              "tense": "IMPF",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "petit",
+          "start": 14,
+          "end": 19,
+          "gloss": {
+            "lemma": "petit",
+            "pos": "形容詞",
+            "ja": "小さい・幼い"
+          }
+        },
+        {
+          "surface": "j'",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "adorais",
+          "start": 23,
+          "end": 30,
+          "gloss": {
+            "lemma": "adorer",
+            "pos": "動詞",
+            "ja": "大好きである",
+            "note": "過去の習慣・状態は半過去",
+            "inflection": {
+              "label": "半過去・1人称単数",
+              "tense": "IMPF",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "dessiner",
+          "start": 31,
+          "end": 39,
+          "gloss": {
+            "lemma": "dessiner",
+            "pos": "動詞",
+            "ja": "絵を描く",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ],
+      "grammar": "子どものころの習慣や状態は半過去で語る。"
+    },
+    {
+      "id": "fr-0314",
+      "lang": "fr",
+      "text": "Mes parents habitent à la campagne depuis dix ans.",
+      "ja": "両親は10年前から田舎に住んでいます。",
+      "level": "A2",
+      "tags": [
+        "家族",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Mes",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "parents",
+          "start": 4,
+          "end": 11,
+          "gloss": {
+            "lemma": "parent",
+            "pos": "名詞",
+            "ja": "親・両親"
+          }
+        },
+        {
+          "surface": "habitent",
+          "start": 12,
+          "end": 20,
+          "gloss": {
+            "lemma": "habiter",
+            "pos": "動詞",
+            "ja": "住む",
+            "note": "depuis と組むので現在形",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "PRES",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "à la",
+          "start": 21,
+          "end": 25
+        },
+        {
+          "surface": "campagne",
+          "start": 26,
+          "end": 34,
+          "gloss": {
+            "lemma": "campagne",
+            "pos": "名詞",
+            "ja": "田舎・地方"
+          }
+        },
+        {
+          "surface": "depuis dix ans",
+          "start": 35,
+          "end": 49,
+          "gloss": {
+            "lemma": "depuis dix ans",
+            "pos": "慣用表現",
+            "ja": "10年前から",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0315",
+      "lang": "fr",
+      "text": "Il y a du vent, ferme la fenêtre.",
+      "ja": "風が強いから窓を閉めて。",
+      "level": "A2",
+      "tags": [
+        "天気",
+        "命令法"
+      ],
+      "tokens": [
+        {
+          "surface": "Il y a",
+          "start": 0,
+          "end": 6,
+          "gloss": {
+            "lemma": "il y a",
+            "pos": "慣用表現",
+            "ja": "〜がある",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "a",
+              "lemma": "avoir"
+            }
+          }
+        },
+        {
+          "surface": "du",
+          "start": 7,
+          "end": 9
+        },
+        {
+          "surface": "vent",
+          "start": 10,
+          "end": 14,
+          "gloss": {
+            "lemma": "vent",
+            "pos": "名詞",
+            "ja": "風"
+          }
+        },
+        {
+          "surface": "ferme",
+          "start": 16,
+          "end": 21,
+          "gloss": {
+            "lemma": "fermer",
+            "pos": "動詞",
+            "ja": "閉める",
+            "inflection": {
+              "label": "命令法・2人称単数",
+              "tense": "IMPER",
+              "person": "2sg"
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "surface": "fenêtre",
+          "start": 25,
+          "end": 32,
+          "gloss": {
+            "lemma": "fenêtre",
+            "pos": "名詞",
+            "ja": "窓"
+          }
+        }
+      ],
+      "grammar": "風・霧・雷などは il y a du / de la で表す。"
+    },
+    {
+      "id": "fr-0316",
+      "lang": "fr",
+      "text": "Ma fille apprend le piano depuis un an.",
+      "ja": "娘は1年前からピアノを習っています。",
+      "level": "A2",
+      "tags": [
+        "家族",
+        "趣味",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Ma",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "fille",
+          "start": 3,
+          "end": 8,
+          "gloss": {
+            "lemma": "fille",
+            "pos": "名詞",
+            "ja": "娘・女の子"
+          }
+        },
+        {
+          "surface": "apprend",
+          "start": 9,
+          "end": 16,
+          "gloss": {
+            "lemma": "apprendre",
+            "pos": "動詞",
+            "ja": "学ぶ・習う",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "le",
+          "start": 17,
+          "end": 19
+        },
+        {
+          "surface": "piano",
+          "start": 20,
+          "end": 25,
+          "gloss": {
+            "lemma": "piano",
+            "pos": "名詞",
+            "ja": "ピアノ"
+          }
+        },
+        {
+          "surface": "depuis un an",
+          "start": 26,
+          "end": 38,
+          "gloss": {
+            "lemma": "depuis un an",
+            "pos": "慣用表現",
+            "ja": "1年前から",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0317",
+      "lang": "fr",
+      "text": "On va se promener dans le parc ?",
+      "ja": "公園を散歩しない？",
+      "level": "A2",
+      "tags": [
+        "趣味",
+        "近接未来",
+        "疑問"
+      ],
+      "tokens": [
+        {
+          "surface": "On",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "va",
+          "start": 3,
+          "end": 5,
+          "gloss": {
+            "lemma": "aller",
+            "pos": "動詞",
+            "ja": "行く・〜するつもりだ",
+            "note": "aller + 不定詞で近接未来",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "se",
+          "start": 6,
+          "end": 8
+        },
+        {
+          "surface": "promener",
+          "start": 9,
+          "end": 17,
+          "gloss": {
+            "lemma": "promener",
+            "pos": "動詞",
+            "ja": "散歩させる・（代名動詞で）散歩する",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "dans le",
+          "start": 18,
+          "end": 25
+        },
+        {
+          "surface": "parc",
+          "start": 26,
+          "end": 30,
+          "gloss": {
+            "lemma": "parc",
+            "pos": "名詞",
+            "ja": "公園"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0318",
+      "lang": "fr",
+      "text": "Je n'aime pas trop les films d'horreur.",
+      "ja": "ホラー映画はあまり好きではありません。",
+      "level": "A2",
+      "tags": [
+        "趣味",
+        "否定",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "n'",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "surface": "aime",
+          "start": 5,
+          "end": 9,
+          "gloss": {
+            "lemma": "aimer",
+            "pos": "動詞",
+            "ja": "好む・愛する",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "pas trop",
+          "start": 10,
+          "end": 18,
+          "gloss": {
+            "lemma": "pas trop",
+            "pos": "慣用表現",
+            "ja": "あまり〜ない",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "les",
+          "start": 19,
+          "end": 22
+        },
+        {
+          "surface": "films d'horreur",
+          "start": 23,
+          "end": 38,
+          "gloss": {
+            "lemma": "film d'horreur",
+            "pos": "慣用表現",
+            "ja": "ホラー映画",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "ne... pas trop で「あまり〜ない」。全否定より柔らかい。"
+    },
+    {
+      "id": "fr-0319",
+      "lang": "fr",
+      "text": "Il a fait très chaud cet été.",
+      "ja": "今年の夏はとても暑かったです。",
+      "level": "A2",
+      "tags": [
+        "天気",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "a fait",
+          "start": 3,
+          "end": 9,
+          "gloss": {
+            "lemma": "faire",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "複合過去・3人称単数",
+              "tense": "PC",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "très chaud",
+          "start": 10,
+          "end": 20,
+          "gloss": {
+            "lemma": "très chaud",
+            "pos": "慣用表現",
+            "ja": "とても暑い",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "cet été",
+          "start": 21,
+          "end": 28,
+          "gloss": {
+            "lemma": "cet été",
+            "pos": "慣用表現",
+            "ja": "今年の夏",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "天気の il fait も複合過去にできる。il a fait。"
+    },
+    {
+      "id": "fr-0320",
+      "lang": "fr",
+      "text": "Mon mari fait la cuisine tous les jours.",
+      "ja": "夫が毎日料理をします。",
+      "level": "A2",
+      "tags": [
+        "家族",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Mon",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "mari",
+          "start": 4,
+          "end": 8,
+          "gloss": {
+            "lemma": "mari",
+            "pos": "名詞",
+            "ja": "夫"
+          }
+        },
+        {
+          "surface": "fait la cuisine",
+          "start": 9,
+          "end": 24,
+          "gloss": {
+            "lemma": "faire la cuisine",
+            "pos": "慣用表現",
+            "ja": "料理をする",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "fait",
+              "lemma": "faire"
+            }
+          }
+        },
+        {
+          "surface": "tous les jours",
+          "start": 25,
+          "end": 39,
+          "gloss": {
+            "lemma": "tous les jours",
+            "pos": "慣用表現",
+            "ja": "毎日",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "faire la cuisine で「料理をする」。家事は faire + 定冠詞。"
+    },
+    {
+      "id": "fr-0321",
+      "lang": "fr",
+      "text": "Nous nous sommes bien amusés hier.",
+      "ja": "昨日はとても楽しかったです。",
+      "level": "A2",
+      "tags": [
+        "趣味",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Nous nous",
+          "start": 0,
+          "end": 9
+        },
+        {
+          "surface": "sommes",
+          "start": 10,
+          "end": 16,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "代名動詞の複合過去は être",
+            "inflection": {
+              "label": "直説法現在・1人称複数",
+              "tense": "PRES",
+              "person": "1pl",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "bien",
+          "start": 17,
+          "end": 21,
+          "gloss": {
+            "lemma": "bien",
+            "pos": "副詞",
+            "ja": "よく・しっかり"
+          }
+        },
+        {
+          "surface": "amusés",
+          "start": 22,
+          "end": 28,
+          "gloss": {
+            "lemma": "amuser",
+            "pos": "動詞",
+            "ja": "楽しませる・（代名動詞で）楽しむ",
+            "inflection": {
+              "label": "過去分詞・男性複数"
+            }
+          }
+        },
+        {
+          "surface": "hier",
+          "start": 29,
+          "end": 33,
+          "gloss": {
+            "lemma": "hier",
+            "pos": "副詞",
+            "ja": "昨日"
+          }
+        }
+      ],
+      "grammar": "s'amuser は代名動詞なので être で複合過去を作り、主語に一致する。"
+    },
+    {
+      "id": "fr-0322",
+      "lang": "fr",
+      "text": "Ça te dirait d'aller au cinéma ?",
+      "ja": "映画に行くのはどう？",
+      "level": "B1",
+      "tags": [
+        "趣味",
+        "条件法現在",
+        "誘い"
+      ],
+      "tokens": [
+        {
+          "surface": "Ça te dirait",
+          "start": 0,
+          "end": 12,
+          "gloss": {
+            "lemma": "ça te dirait de",
+            "pos": "慣用表現",
+            "ja": "〜するのはどう？",
+            "idiom": true,
+            "inflection": {
+              "label": "条件法現在・3人称単数",
+              "tense": "COND",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "dirait",
+              "lemma": "dire"
+            }
+          }
+        },
+        {
+          "surface": "d'",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "surface": "aller",
+          "start": 15,
+          "end": 20,
+          "gloss": {
+            "lemma": "aller",
+            "pos": "動詞",
+            "ja": "行く",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "au",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "cinéma",
+          "start": 24,
+          "end": 30,
+          "gloss": {
+            "lemma": "cinéma",
+            "pos": "名詞",
+            "ja": "映画館・映画"
+          }
+        }
+      ],
+      "grammar": "Ça te dirait de + 不定詞で「〜するのはどう？」。誘いの丁寧な形。"
+    },
+    {
+      "id": "fr-0323",
+      "lang": "fr",
+      "text": "On dirait qu'il va pleuvoir.",
+      "ja": "雨が降りそうですね。",
+      "level": "B1",
+      "tags": [
+        "天気",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "On dirait",
+          "start": 0,
+          "end": 9,
+          "gloss": {
+            "lemma": "on dirait que",
+            "pos": "慣用表現",
+            "ja": "〜のようだ・〜みたいだ",
+            "idiom": true,
+            "inflection": {
+              "label": "条件法現在・3人称単数",
+              "tense": "COND",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "dirait",
+              "lemma": "dire"
+            }
+          }
+        },
+        {
+          "surface": "qu'il",
+          "start": 10,
+          "end": 15
+        },
+        {
+          "surface": "va",
+          "start": 16,
+          "end": 18,
+          "gloss": {
+            "lemma": "aller",
+            "pos": "動詞",
+            "ja": "行く・〜しそうだ",
+            "note": "aller + 不定詞で近接未来",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pleuvoir",
+          "start": 19,
+          "end": 27,
+          "gloss": {
+            "lemma": "pleuvoir",
+            "pos": "動詞",
+            "ja": "雨が降る",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        }
+      ],
+      "grammar": "On dirait que で「〜のようだ」。見た目からの推測を表す。"
+    },
+    {
+      "id": "fr-0324",
+      "lang": "fr",
+      "text": "Je m'entends très bien avec ma sœur.",
+      "ja": "姉とはとても仲がいいです。",
+      "level": "B1",
+      "tags": [
+        "家族",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je m'",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "entends",
+          "start": 5,
+          "end": 12,
+          "gloss": {
+            "lemma": "entendre",
+            "pos": "動詞",
+            "ja": "聞こえる・（代名動詞で）気が合う",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "très bien",
+          "start": 13,
+          "end": 22,
+          "gloss": {
+            "lemma": "très bien",
+            "pos": "慣用表現",
+            "ja": "とてもよく",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "avec ma",
+          "start": 23,
+          "end": 30
+        },
+        {
+          "surface": "sœur",
+          "start": 31,
+          "end": 35,
+          "gloss": {
+            "lemma": "sœur",
+            "pos": "名詞",
+            "ja": "姉妹"
+          }
+        }
+      ],
+      "grammar": "s'entendre avec qqn で「〜と気が合う」。"
+    },
+    {
+      "id": "fr-0325",
+      "lang": "fr",
+      "text": "Ça fait longtemps que je n'ai pas joué.",
+      "ja": "ずいぶん長いことやっていません。",
+      "level": "B1",
+      "tags": [
+        "趣味",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Ça fait",
+          "start": 0,
+          "end": 7,
+          "gloss": {
+            "lemma": "ça fait... que",
+            "pos": "慣用表現",
+            "ja": "〜してから…になる",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "fait",
+              "lemma": "faire"
+            }
+          }
+        },
+        {
+          "surface": "longtemps",
+          "start": 8,
+          "end": 17,
+          "gloss": {
+            "lemma": "longtemps",
+            "pos": "副詞",
+            "ja": "長いあいだ"
+          }
+        },
+        {
+          "surface": "que je n'",
+          "start": 18,
+          "end": 27
+        },
+        {
+          "surface": "ai",
+          "start": 27,
+          "end": 29,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "note": "複合過去の助動詞",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pas",
+          "start": 30,
+          "end": 33
+        },
+        {
+          "surface": "joué",
+          "start": 34,
+          "end": 38,
+          "gloss": {
+            "lemma": "jouer",
+            "pos": "動詞",
+            "ja": "遊ぶ・演奏する",
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0326",
+      "lang": "fr",
+      "text": "Mon fils veut devenir vétérinaire.",
+      "ja": "息子は獣医になりたがっています。",
+      "level": "B1",
+      "tags": [
+        "家族",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Mon",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "fils",
+          "start": 4,
+          "end": 8,
+          "gloss": {
+            "lemma": "fils",
+            "pos": "名詞",
+            "ja": "息子"
+          }
+        },
+        {
+          "surface": "veut",
+          "start": 9,
+          "end": 13,
+          "gloss": {
+            "lemma": "vouloir",
+            "pos": "動詞",
+            "ja": "欲する・〜したい",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "devenir",
+          "start": 14,
+          "end": 21,
+          "gloss": {
+            "lemma": "devenir",
+            "pos": "動詞",
+            "ja": "〜になる",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "vétérinaire",
+          "start": 22,
+          "end": 33,
+          "gloss": {
+            "lemma": "vétérinaire",
+            "pos": "名詞",
+            "ja": "獣医",
+            "note": "職業名は冠詞を落とす"
+          }
+        }
+      ],
+      "grammar": "職業を表す名詞は devenir / être のあとで冠詞を落とす。"
+    },
+    {
+      "id": "fr-0327",
+      "lang": "fr",
+      "text": "S'il fait beau demain, on ira à la plage.",
+      "ja": "明日晴れたら海に行こう。",
+      "level": "B1",
+      "tags": [
+        "天気",
+        "条件",
+        "単純未来"
+      ],
+      "tokens": [
+        {
+          "surface": "S'il",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "surface": "fait beau",
+          "start": 5,
+          "end": 14,
+          "gloss": {
+            "lemma": "il fait beau",
+            "pos": "慣用表現",
+            "ja": "いい天気だ",
+            "idiom": true,
+            "note": "si のあとは現在形。未来形にしない",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "fait",
+              "lemma": "faire"
+            }
+          }
+        },
+        {
+          "surface": "demain",
+          "start": 15,
+          "end": 21,
+          "gloss": {
+            "lemma": "demain",
+            "pos": "副詞",
+            "ja": "明日"
+          }
+        },
+        {
+          "surface": "on",
+          "start": 23,
+          "end": 25
+        },
+        {
+          "surface": "ira",
+          "start": 26,
+          "end": 29,
+          "gloss": {
+            "lemma": "aller",
+            "pos": "動詞",
+            "ja": "行く",
+            "inflection": {
+              "label": "単純未来・3人称単数",
+              "tense": "FUT",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "à la",
+          "start": 30,
+          "end": 34
+        },
+        {
+          "surface": "plage",
+          "start": 35,
+          "end": 40,
+          "gloss": {
+            "lemma": "plage",
+            "pos": "名詞",
+            "ja": "浜辺・ビーチ"
+          }
+        }
+      ],
+      "grammar": "si + 直説法現在 → 単純未来。si のあとを未来形にしないこと。"
+    },
+    {
+      "id": "fr-0328",
+      "lang": "fr",
+      "text": "Je préfère rester à la maison quand il pleut.",
+      "ja": "雨の日は家にいるほうが好きです。",
+      "level": "B1",
+      "tags": [
+        "天気",
+        "趣味",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "préfère",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "préférer",
+            "pos": "動詞",
+            "ja": "〜のほうを好む",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の é が è に変わる（préfér- → préfèr-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "rester",
+          "start": 11,
+          "end": 17,
+          "gloss": {
+            "lemma": "rester",
+            "pos": "動詞",
+            "ja": "とどまる・残る",
+            "inflection": {
+              "label": "不定詞"
+            }
+          }
+        },
+        {
+          "surface": "à la maison",
+          "start": 18,
+          "end": 29,
+          "gloss": {
+            "lemma": "à la maison",
+            "pos": "慣用表現",
+            "ja": "家に・自宅で",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "quand",
+          "start": 30,
+          "end": 35,
+          "gloss": {
+            "lemma": "quand",
+            "pos": "接続詞",
+            "ja": "〜のとき"
+          }
+        },
+        {
+          "surface": "il",
+          "start": 36,
+          "end": 38
+        },
+        {
+          "surface": "pleut",
+          "start": 39,
+          "end": 44,
+          "gloss": {
+            "lemma": "pleuvoir",
+            "pos": "動詞",
+            "ja": "雨が降る",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0329",
+      "lang": "fr",
+      "text": "Nous fêtons l'anniversaire de ma grand-mère.",
+      "ja": "祖母の誕生日を祝います。",
+      "level": "B1",
+      "tags": [
+        "家族",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Nous",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "surface": "fêtons",
+          "start": 5,
+          "end": 11,
+          "gloss": {
+            "lemma": "fêter",
+            "pos": "動詞",
+            "ja": "祝う",
+            "inflection": {
+              "label": "直説法現在・1人称複数",
+              "tense": "PRES",
+              "person": "1pl"
+            }
+          }
+        },
+        {
+          "surface": "l'",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "surface": "anniversaire",
+          "start": 14,
+          "end": 26,
+          "gloss": {
+            "lemma": "anniversaire",
+            "pos": "名詞",
+            "ja": "誕生日・記念日"
+          }
+        },
+        {
+          "surface": "de ma",
+          "start": 27,
+          "end": 32
+        },
+        {
+          "surface": "grand-mère",
+          "start": 33,
+          "end": 43,
+          "gloss": {
+            "lemma": "grand-mère",
+            "pos": "名詞",
+            "ja": "祖母"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0330",
+      "lang": "fr",
+      "text": "Il faisait un temps magnifique ce jour-là.",
+      "ja": "その日はすばらしい天気でした。",
+      "level": "B1",
+      "tags": [
+        "天気",
+        "半過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "faisait",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "faire",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "note": "過去の天気は半過去",
+            "inflection": {
+              "label": "半過去・3人称単数",
+              "tense": "IMPF",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "un",
+          "start": 11,
+          "end": 13
+        },
+        {
+          "surface": "temps",
+          "start": 14,
+          "end": 19,
+          "gloss": {
+            "lemma": "temps",
+            "pos": "名詞",
+            "ja": "天気・時間"
+          }
+        },
+        {
+          "surface": "magnifique",
+          "start": 20,
+          "end": 30,
+          "gloss": {
+            "lemma": "magnifique",
+            "pos": "形容詞",
+            "ja": "すばらしい・壮麗な"
+          }
+        },
+        {
+          "surface": "ce jour-là",
+          "start": 31,
+          "end": 41,
+          "gloss": {
+            "lemma": "ce jour-là",
+            "pos": "慣用表現",
+            "ja": "その日は",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "過去の天気は半過去で描く。状態だから複合過去にしない。"
+    },
+    {
+      "id": "fr-0331",
+      "lang": "fr",
+      "text": "Qu'est-ce que tu fais pendant tes vacances ?",
+      "ja": "休暇のあいだは何をするの？",
+      "level": "B1",
+      "tags": [
+        "趣味",
+        "疑問",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Qu'est-ce que",
+          "start": 0,
+          "end": 13,
+          "gloss": {
+            "lemma": "qu'est-ce que",
+            "pos": "疑問詞",
+            "ja": "何を",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "tu",
+          "start": 14,
+          "end": 16
+        },
+        {
+          "surface": "fais",
+          "start": 17,
+          "end": 21,
+          "gloss": {
+            "lemma": "faire",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "直説法現在・2人称単数",
+              "tense": "PRES",
+              "person": "2sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "pendant",
+          "start": 22,
+          "end": 29,
+          "gloss": {
+            "lemma": "pendant",
+            "pos": "前置詞",
+            "ja": "〜のあいだ"
+          }
+        },
+        {
+          "surface": "tes",
+          "start": 30,
+          "end": 33
+        },
+        {
+          "surface": "vacances",
+          "start": 34,
+          "end": 42,
+          "gloss": {
+            "lemma": "vacances",
+            "pos": "名詞",
+            "ja": "休暇",
+            "note": "必ず複数形で使う"
+          }
+        }
+      ],
+      "grammar": "vacances は必ず複数形。"
+    },
+    {
+      "id": "fr-0332",
+      "lang": "fr",
+      "text": "Je me suis mis au yoga l'année dernière.",
+      "ja": "去年ヨガを始めました。",
+      "level": "B1",
+      "tags": [
+        "趣味",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Je me",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "suis",
+          "start": 6,
+          "end": 10,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "代名動詞の複合過去は être",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "mis au",
+          "start": 11,
+          "end": 17,
+          "gloss": {
+            "lemma": "se mettre à",
+            "pos": "慣用表現",
+            "ja": "〜を始める",
+            "idiom": true,
+            "inflection": {
+              "label": "過去分詞",
+              "tense": "PPASSE",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "mis",
+              "lemma": "mettre"
+            }
+          }
+        },
+        {
+          "surface": "yoga",
+          "start": 18,
+          "end": 22,
+          "gloss": {
+            "lemma": "yoga",
+            "pos": "名詞",
+            "ja": "ヨガ"
+          }
+        },
+        {
+          "surface": "l'année dernière",
+          "start": 23,
+          "end": 39,
+          "gloss": {
+            "lemma": "l'année dernière",
+            "pos": "慣用表現",
+            "ja": "去年",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "se mettre à で「〜を始める」。代名動詞なので être を使う。"
+    },
+    {
+      "id": "fr-0333",
+      "lang": "fr",
+      "text": "Mes enfants ne se disputent presque jamais.",
+      "ja": "うちの子たちはめったに喧嘩しません。",
+      "level": "B1",
+      "tags": [
+        "家族",
+        "否定",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Mes",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "enfants",
+          "start": 4,
+          "end": 11,
+          "gloss": {
+            "lemma": "enfant",
+            "pos": "名詞",
+            "ja": "子ども"
+          }
+        },
+        {
+          "surface": "ne se",
+          "start": 12,
+          "end": 17
+        },
+        {
+          "surface": "disputent",
+          "start": 18,
+          "end": 27,
+          "gloss": {
+            "lemma": "disputer",
+            "pos": "動詞",
+            "ja": "争う・（代名動詞で）喧嘩する",
+            "inflection": {
+              "label": "直説法現在・3人称複数",
+              "tense": "PRES",
+              "person": "3pl"
+            }
+          }
+        },
+        {
+          "surface": "presque jamais",
+          "start": 28,
+          "end": 42,
+          "gloss": {
+            "lemma": "presque jamais",
+            "pos": "慣用表現",
+            "ja": "めったに〜ない",
+            "idiom": true
+          }
+        }
+      ],
+      "grammar": "ne... presque jamais で「めったに〜ない」。"
+    },
+    {
+      "id": "fr-0334",
+      "lang": "fr",
+      "text": "J'ai l'impression qu'il fait plus doux aujourd'hui.",
+      "ja": "今日は少し暖かい気がします。",
+      "level": "B1",
+      "tags": [
+        "天気",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "J'ai l'impression",
+          "start": 0,
+          "end": 17,
+          "gloss": {
+            "lemma": "avoir l'impression que",
+            "pos": "慣用表現",
+            "ja": "〜という気がする",
+            "idiom": true,
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            },
+            "verb": {
+              "surface": "ai",
+              "lemma": "avoir"
+            }
+          }
+        },
+        {
+          "surface": "qu'il",
+          "start": 18,
+          "end": 23
+        },
+        {
+          "surface": "fait",
+          "start": 24,
+          "end": 28,
+          "gloss": {
+            "lemma": "faire",
+            "pos": "動詞",
+            "ja": "する・作る",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "plus doux",
+          "start": 29,
+          "end": 38,
+          "gloss": {
+            "lemma": "plus doux",
+            "pos": "慣用表現",
+            "ja": "より穏やかな・より暖かい",
+            "idiom": true
+          }
+        },
+        {
+          "surface": "aujourd'hui",
+          "start": 39,
+          "end": 50,
+          "gloss": {
+            "lemma": "aujourd'hui",
+            "pos": "副詞",
+            "ja": "今日"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0335",
+      "lang": "fr",
+      "text": "Il faut que je range ma chambre.",
+      "ja": "部屋を片づけないといけません。",
+      "level": "B1",
+      "tags": [
+        "接続法",
+        "義務"
+      ],
+      "tokens": [
+        {
+          "surface": "Il",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "faut",
+          "start": 3,
+          "end": 7,
+          "gloss": {
+            "lemma": "falloir",
+            "pos": "動詞",
+            "ja": "必要である",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "que je",
+          "start": 8,
+          "end": 14
+        },
+        {
+          "surface": "range",
+          "start": 15,
+          "end": 20,
+          "gloss": {
+            "lemma": "ranger",
+            "pos": "動詞",
+            "ja": "片づける",
+            "note": "il faut que のあとは接続法",
+            "inflection": {
+              "label": "接続法現在・1人称単数",
+              "tense": "SUBJ",
+              "person": "1sg"
+            }
+          }
+        },
+        {
+          "surface": "ma",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "chambre",
+          "start": 24,
+          "end": 31,
+          "gloss": {
+            "lemma": "chambre",
+            "pos": "名詞",
+            "ja": "部屋・寝室"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0336",
+      "lang": "fr",
+      "text": "On s'est bien entendus dès le début.",
+      "ja": "最初から気が合いました。",
+      "level": "B1",
+      "tags": [
+        "家族",
+        "複合過去"
+      ],
+      "tokens": [
+        {
+          "surface": "On s'",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "est",
+          "start": 5,
+          "end": 8,
+          "gloss": {
+            "lemma": "être",
+            "pos": "動詞",
+            "ja": "〜である",
+            "note": "代名動詞の複合過去は être",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "bien",
+          "start": 9,
+          "end": 13,
+          "gloss": {
+            "lemma": "bien",
+            "pos": "副詞",
+            "ja": "よく・しっかり"
+          }
+        },
+        {
+          "surface": "entendus",
+          "start": 14,
+          "end": 22,
+          "gloss": {
+            "lemma": "entendre",
+            "pos": "動詞",
+            "ja": "聞こえる・（代名動詞で）気が合う",
+            "inflection": {
+              "label": "過去分詞・男性複数"
+            }
+          }
+        },
+        {
+          "surface": "dès le début",
+          "start": 23,
+          "end": 35,
+          "gloss": {
+            "lemma": "dès le début",
+            "pos": "慣用表現",
+            "ja": "最初から",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0337",
+      "lang": "fr",
+      "text": "Je nettoie la maison le dimanche matin.",
+      "ja": "日曜の朝に家を掃除します。",
+      "level": "B1",
+      "tags": [
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Je",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "nettoie",
+          "start": 3,
+          "end": 10,
+          "gloss": {
+            "lemma": "nettoyer",
+            "pos": "動詞",
+            "ja": "掃除する",
+            "inflection": {
+              "label": "直説法現在・1人称単数",
+              "tense": "PRES",
+              "person": "1sg",
+              "irregular": {
+                "code": "S",
+                "text": "語幹の y が i に変わる（nettoy- → nettoi-）"
+              }
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 11,
+          "end": 13
+        },
+        {
+          "surface": "maison",
+          "start": 14,
+          "end": 20,
+          "gloss": {
+            "lemma": "maison",
+            "pos": "名詞",
+            "ja": "家"
+          }
+        },
+        {
+          "surface": "le dimanche matin",
+          "start": 21,
+          "end": 38,
+          "gloss": {
+            "lemma": "le dimanche matin",
+            "pos": "慣用表現",
+            "ja": "毎週日曜の朝に",
+            "idiom": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "fr-0338",
+      "lang": "fr",
+      "text": "Si j'avais le temps, j'apprendrais la guitare.",
+      "ja": "時間があればギターを習うのに。",
+      "level": "B1",
+      "tags": [
+        "趣味",
+        "半過去",
+        "条件法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "Si j'",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "avais",
+          "start": 5,
+          "end": 10,
+          "gloss": {
+            "lemma": "avoir",
+            "pos": "動詞",
+            "ja": "持つ・所有する",
+            "note": "si のあとは半過去。条件法にしない",
+            "inflection": {
+              "label": "半過去・1人称単数",
+              "tense": "IMPF",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "le temps",
+          "start": 11,
+          "end": 19,
+          "gloss": {
+            "lemma": "le temps",
+            "pos": "名詞",
+            "ja": "時間"
+          }
+        },
+        {
+          "surface": "j'",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "surface": "apprendrais",
+          "start": 23,
+          "end": 34,
+          "gloss": {
+            "lemma": "apprendre",
+            "pos": "動詞",
+            "ja": "学ぶ・習う",
+            "inflection": {
+              "label": "条件法現在・1人称単数",
+              "tense": "COND",
+              "person": "1sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "la",
+          "start": 35,
+          "end": 37
+        },
+        {
+          "surface": "guitare",
+          "start": 38,
+          "end": 45,
+          "gloss": {
+            "lemma": "guitare",
+            "pos": "名詞",
+            "ja": "ギター"
+          }
+        }
+      ],
+      "grammar": "si + 半過去 → 条件法現在。現在の事実に反する仮定。"
+    },
+    {
+      "id": "fr-0339",
+      "lang": "fr",
+      "text": "Ma grand-mère nous racontait des histoires.",
+      "ja": "祖母はよく話を聞かせてくれました。",
+      "level": "B1",
+      "tags": [
+        "家族",
+        "半過去"
+      ],
+      "tokens": [
+        {
+          "surface": "Ma",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "grand-mère",
+          "start": 3,
+          "end": 13,
+          "gloss": {
+            "lemma": "grand-mère",
+            "pos": "名詞",
+            "ja": "祖母"
+          }
+        },
+        {
+          "surface": "nous",
+          "start": 14,
+          "end": 18
+        },
+        {
+          "surface": "racontait",
+          "start": 19,
+          "end": 28,
+          "gloss": {
+            "lemma": "raconter",
+            "pos": "動詞",
+            "ja": "語る・話して聞かせる",
+            "note": "繰り返していた行為は半過去",
+            "inflection": {
+              "label": "半過去・3人称単数",
+              "tense": "IMPF",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "des",
+          "start": 29,
+          "end": 32
+        },
+        {
+          "surface": "histoires",
+          "start": 33,
+          "end": 42,
+          "gloss": {
+            "lemma": "histoire",
+            "pos": "名詞",
+            "ja": "話・物語・歴史"
+          }
+        }
+      ],
+      "grammar": "繰り返していた過去の行為は半過去。「よく〜したものだ」。"
+    },
+    {
+      "id": "fr-0340",
+      "lang": "fr",
+      "text": "On se voit souvent, on habite dans le même quartier.",
+      "ja": "同じ地区に住んでいるので、よく会います。",
+      "level": "B1",
+      "tags": [
+        "家族",
+        "直説法現在"
+      ],
+      "tokens": [
+        {
+          "surface": "On se",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "surface": "voit",
+          "start": 6,
+          "end": 10,
+          "gloss": {
+            "lemma": "voir",
+            "pos": "動詞",
+            "ja": "見る・会う",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg",
+              "irregular": {
+                "code": "I",
+                "text": "第3群の不規則動詞。規則的な活用パターンが無いので形ごと覚える"
+              }
+            }
+          }
+        },
+        {
+          "surface": "souvent",
+          "start": 11,
+          "end": 18,
+          "gloss": {
+            "lemma": "souvent",
+            "pos": "副詞",
+            "ja": "よく・しばしば"
+          }
+        },
+        {
+          "surface": "on",
+          "start": 20,
+          "end": 22
+        },
+        {
+          "surface": "habite",
+          "start": 23,
+          "end": 29,
+          "gloss": {
+            "lemma": "habiter",
+            "pos": "動詞",
+            "ja": "住む",
+            "inflection": {
+              "label": "直説法現在・3人称単数",
+              "tense": "PRES",
+              "person": "3sg"
+            }
+          }
+        },
+        {
+          "surface": "dans le même",
+          "start": 30,
+          "end": 42
+        },
+        {
+          "surface": "quartier",
+          "start": 43,
+          "end": 51,
+          "gloss": {
+            "lemma": "quartier",
+            "pos": "名詞",
+            "ja": "界隈・地区"
+          }
+        }
+      ]
     }
   ]
 }
