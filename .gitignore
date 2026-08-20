@@ -46,3 +46,6 @@ next-env.d.ts
 
 # 活用表のビルド時ログ（scripts/build_spanish_verbs.py）
 verbecc.log
+
+# 声の聞き比べ用（公開しない）
+/audio-samples/

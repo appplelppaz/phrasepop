@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { getSpeech, isSpeechSupported, mockDriver, setSpeechDriver } from "@/lib/speech";
+import { unlockPlayback } from "@/lib/voice";
 import { LANG_LABEL, SPEECH_LANG, type Lang } from "@/lib/types";
 
 type Status = "checking" | "ready" | "no-voice" | "unsupported";
@@ -36,7 +37,7 @@ export function VoiceGate({ lang, onReady }: { lang: Lang; onReady: () => void }
   }, [lang]);
 
   function start() {
-    getSpeech().unlock();
+    unlockPlayback();
     onReady();
   }
 

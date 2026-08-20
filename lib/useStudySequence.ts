@@ -2,8 +2,8 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { Phrase } from "./types";
-import { SPEECH_LANG } from "./types";
 import { getSpeech } from "./speech";
+import { cancelPlayback, pausePlayback, playPhrase, resumePlayback } from "./voice";
 
 /**
  * 学習カードの再生シーケンス。
@@ -30,7 +30,7 @@ export type SequenceOptions = {
 };
 
 export const DEFAULT_OPTIONS: SequenceOptions = {
-  rate: 0.85,
+  rate: 1.0,
   speakJa: false,
   gapAfterPhrase: 800,
   gapBeforeRepeat: 600,
@@ -97,7 +97,7 @@ export function useStudySequence(phrase: Phrase | null, options: SequenceOptions
   const stop = useCallback(() => {
     abortRef.current?.abort();
     abortRef.current = null;
-    getSpeech().cancel();
+    cancelPlayback();
     setRunning(false);
     setPausedBoth(false);
   }, [setPausedBoth]);
@@ -107,13 +107,12 @@ export function useStudySequence(phrase: Phrase | null, options: SequenceOptions
 
     // 前の再生を確実に打ち切ってから始める。
     abortRef.current?.abort();
-    getSpeech().cancel();
+    cancelPlayback();
     const ctrl = new AbortController();
     abortRef.current = ctrl;
     const { signal } = ctrl;
 
     const speech = getSpeech();
-    const lang = SPEECH_LANG[phrase.lang];
     setRunning(true);
     setPausedBoth(false);
 
@@ -123,7 +122,7 @@ export function useStudySequence(phrase: Phrase | null, options: SequenceOptions
 
       // (a) フレーズを表示して読み上げる
       setPhase("phrase");
-      await speech.speak(phrase.text, { lang, rate: optionsRef.current.rate, signal });
+      await playPhrase(phrase, { rate: optionsRef.current.rate, signal });
       if (signal.aborted) return;
 
       await wait(optionsRef.current.gapAfterPhrase, signal, pausedRef);
@@ -145,7 +144,7 @@ export function useStudySequence(phrase: Phrase | null, options: SequenceOptions
       await untilResumed(signal, pausedRef);
       if (signal.aborted) return;
       setPhase("repeat");
-      await speech.speak(phrase.text, { lang, rate: optionsRef.current.rate, signal });
+      await playPhrase(phrase, { rate: optionsRef.current.rate, signal });
       if (signal.aborted) return;
 
       setPhase("done");
@@ -168,17 +167,13 @@ export function useStudySequence(phrase: Phrase | null, options: SequenceOptions
   const replay = useCallback(async () => {
     if (!phrase) return;
     abortRef.current?.abort();
-    getSpeech().cancel();
+    cancelPlayback();
     const ctrl = new AbortController();
     abortRef.current = ctrl;
     setRunning(true);
     setPausedBoth(false);
     try {
-      await getSpeech().speak(phrase.text, {
-        lang: SPEECH_LANG[phrase.lang],
-        rate: optionsRef.current.rate,
-        signal: ctrl.signal,
-      });
+      await playPhrase(phrase, { rate: optionsRef.current.rate, signal: ctrl.signal });
     } finally {
       if (abortRef.current === ctrl) {
         abortRef.current = null;
@@ -198,10 +193,10 @@ export function useStudySequence(phrase: Phrase | null, options: SequenceOptions
       return;
     }
     if (paused) {
-      getSpeech().resume();
+      resumePlayback();
       setPausedBoth(false);
     } else {
-      getSpeech().pause();
+      pausePlayback();
       setPausedBoth(true);
     }
   }, [running, paused, replay, setPausedBoth]);
@@ -210,7 +205,7 @@ export function useStudySequence(phrase: Phrase | null, options: SequenceOptions
   useEffect(() => {
     abortRef.current?.abort();
     abortRef.current = null;
-    getSpeech().cancel();
+    cancelPlayback();
     setPhase("idle");
     setRunning(false);
     pausedRef.current = false;
